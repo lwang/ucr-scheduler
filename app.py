@@ -47,7 +47,7 @@ def home():
     try: 
         class_data = getClassData(term, course)
     except Exception as e:
-        return Response(e, status=400, mimetype='application/json')
+        return Response(e, status=400)
     return jsonify(class_data)
     
 @app.route('/schedules', methods=['GET'])
@@ -64,7 +64,7 @@ def schedules():
         try:
             future.result()
         except Exception as e:
-            return Response(e, status=400, mimetype='application/json')
+            return Response(e, status=400)
             
     for code, future in futures:
         course_data = future.result()
@@ -93,7 +93,7 @@ def schedules():
         if len(temp) != 0:
             course_sections.update({code: temp})
         else:
-            return Response(f'Unable to find open sections for {code}', status=400, mimetype='application/json')
+            return Response(f'Unable to find open sections for {code}', status=400)
         
     sectionCombinations = []
     for course in course_sections: #PHYS040A course key
@@ -134,4 +134,5 @@ def schedules():
     print(len(schedules))
 
     shuffle(schedules)
-    return jsonify(json.dumps(schedules, separators=(',', ":")))
+    return jsonify(schedules)
+    # return jsonify(json.dumps(schedules, separators=(',', ":")))
