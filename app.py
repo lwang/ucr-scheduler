@@ -47,7 +47,7 @@ def home():
     try: 
         class_data = getClassData(term, course)
     except Exception as e:
-        return Response(e, status=400)
+        return Response(str(e), status=400)
     return jsonify(class_data)
     
 @app.route('/schedules', methods=['GET'])
@@ -64,7 +64,7 @@ def schedules():
         try:
             future.result()
         except Exception as e:
-            return Response(e, status=400)
+            return Response(str(e), status=400)
             
     for code, future in futures:
         course_data = future.result()
