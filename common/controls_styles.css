@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:500');
+
+*{
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.sch_control{
+    background: #ededed;
+    text-align: center;
+}
+
+.sch_control input[type=button],
+.sch_control input[type=file],
+.sch_control input[type=checkbox],
+.sch_control button,
+.sch_control select,
+.sch_control_button{
+    font: 500 14px Roboto;
+    border: 1px solid #D9D9D9;
+    border-radius: 2px;
+    background: #fff;
+    padding: 4px 12px;
+    margin: 0 5px;
+    color: rgba(0,0,0,0.7);
+    line-height: 20px;
+}
+
+.sch_control textarea{
+    border: 1px solid #D9D9D9;
+    font: 14px Roboto;
+    padding: 4px 12px;
+    line-height: 20px;
+}
+
+.sch_control input[type=button]:hover,
+.sch_control button:hover,
+.sch_control_button:hover{
+    border: 1px solid #B3B3B3;
+    color: rgba(0,0,0,0.8);
+    cursor: pointer;
+}
+
+.sch_control input[type=button]:active,
+.sch_control button:active,
+.sch_control_button:active{
+    background: #F7F7F7;
+}
+
+.sch_control input[type=button]:focus,
+.sch_control button:focus,
+.sch_control select:focus,
+.sch_control_button:focus{
+   outline: none !important;
+}
+
+.sch_control{
+    padding: 10px 0 12px;
+}
+
+.sch_control input[type=radio],
+.sch_control input[type=checkbox]{
+    display:none;
+}
+
+.sch_control label{
+    padding: 0 6px;
+    color: rgba(0,0,0,0.54);
+    font: 14px Roboto;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+
+.material-icons{
+    position: relative;
+    top: 6px;
+    right: 2px;
+    color: rgba(0,0,0,0.54);
+}
+
+.material-icons.icon_color{ 
+    color: #0288D1; 
+}
+
+.material-icons.md-inactive{
+    color: rgba(0, 0, 0, 0.38);
+}
+
+.checked_label{
+    color: rgba(0,0,0,0.7)!important;
+}
+
