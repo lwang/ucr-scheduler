@@ -2142,7 +2142,10 @@ var app = (function () {
     function create_fragment$3(ctx) {
     	let div;
     	let h2;
-    	let t;
+    	let t0;
+    	let t1;
+    	let p;
+    	let t2;
     	let div_class_value;
     	let mounted;
     	let dispose;
@@ -2151,12 +2154,17 @@ var app = (function () {
     		c: function create() {
     			div = element("div");
     			h2 = element("h2");
-    			t = text(/*name*/ ctx[0]);
-    			attr_dev(h2, "class", "svelte-1simv3i");
-    			add_location(h2, file$3, 20, 1, 587);
-    			attr_dev(div, "class", div_class_value = "card " + /*$theme*/ ctx[3] + " svelte-1simv3i");
-    			toggle_class(div, "active", /*active*/ ctx[2]);
-    			add_location(div, file$3, 18, 0, 407);
+    			t0 = text(/*name*/ ctx[0]);
+    			t1 = space();
+    			p = element("p");
+    			t2 = text(/*content*/ ctx[1]);
+    			attr_dev(h2, "class", "svelte-16dyg99");
+    			add_location(h2, file$3, 20, 1, 584);
+    			attr_dev(p, "class", "svelte-16dyg99");
+    			add_location(p, file$3, 21, 1, 601);
+    			attr_dev(div, "class", div_class_value = "card " + /*$theme*/ ctx[4] + " svelte-16dyg99");
+    			toggle_class(div, "active", /*active*/ ctx[3]);
+    			add_location(div, file$3, 18, 0, 404);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -2164,22 +2172,26 @@ var app = (function () {
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
     			append_dev(div, h2);
-    			append_dev(h2, t);
+    			append_dev(h2, t0);
+    			append_dev(div, t1);
+    			append_dev(div, p);
+    			append_dev(p, t2);
 
     			if (!mounted) {
-    				dispose = listen_dev(div, "click", /*click_handler*/ ctx[5], false, false, false);
+    				dispose = listen_dev(div, "click", /*click_handler*/ ctx[6], false, false, false);
     				mounted = true;
     			}
     		},
     		p: function update(ctx, [dirty]) {
-    			if (dirty & /*name*/ 1) set_data_dev(t, /*name*/ ctx[0]);
+    			if (dirty & /*name*/ 1) set_data_dev(t0, /*name*/ ctx[0]);
+    			if (dirty & /*content*/ 2) set_data_dev(t2, /*content*/ ctx[1]);
 
-    			if (dirty & /*$theme*/ 8 && div_class_value !== (div_class_value = "card " + /*$theme*/ ctx[3] + " svelte-1simv3i")) {
+    			if (dirty & /*$theme*/ 16 && div_class_value !== (div_class_value = "card " + /*$theme*/ ctx[4] + " svelte-16dyg99")) {
     				attr_dev(div, "class", div_class_value);
     			}
 
-    			if (dirty & /*$theme, active*/ 12) {
-    				toggle_class(div, "active", /*active*/ ctx[2]);
+    			if (dirty & /*$theme, active*/ 24) {
+    				toggle_class(div, "active", /*active*/ ctx[3]);
     			}
     		},
     		i: noop,
@@ -2205,21 +2217,22 @@ var app = (function () {
     function instance$3($$self, $$props, $$invalidate) {
     	let $theme;
     	validate_store(theme, "theme");
-    	component_subscribe($$self, theme, $$value => $$invalidate(3, $theme = $$value));
+    	component_subscribe($$self, theme, $$value => $$invalidate(4, $theme = $$value));
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots("ListItem", slots, []);
     	const dispatch = createEventDispatcher();
     	let { name } = $$props;
+    	let { content } = $$props;
     	let { sendDispatch = null } = $$props;
     	let active = false;
 
     	function handleDispatch(e) {
     		console.log($theme);
-    		$$invalidate(2, active = !active);
+    		$$invalidate(3, active = !active);
     		dispatch("message", { text: e.sendDispatch, enabled: active });
     	}
 
-    	const writable_props = ["name", "sendDispatch"];
+    	const writable_props = ["name", "content", "sendDispatch"];
 
     	Object.keys($$props).forEach(key => {
     		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== "$$") console_1.warn(`<ListItem> was created with unknown prop '${key}'`);
@@ -2231,7 +2244,8 @@ var app = (function () {
 
     	$$self.$$set = $$props => {
     		if ("name" in $$props) $$invalidate(0, name = $$props.name);
-    		if ("sendDispatch" in $$props) $$invalidate(1, sendDispatch = $$props.sendDispatch);
+    		if ("content" in $$props) $$invalidate(1, content = $$props.content);
+    		if ("sendDispatch" in $$props) $$invalidate(2, sendDispatch = $$props.sendDispatch);
     	};
 
     	$$self.$capture_state = () => ({
@@ -2239,6 +2253,7 @@ var app = (function () {
     		createEventDispatcher,
     		dispatch,
     		name,
+    		content,
     		sendDispatch,
     		active,
     		handleDispatch,
@@ -2247,21 +2262,22 @@ var app = (function () {
 
     	$$self.$inject_state = $$props => {
     		if ("name" in $$props) $$invalidate(0, name = $$props.name);
-    		if ("sendDispatch" in $$props) $$invalidate(1, sendDispatch = $$props.sendDispatch);
-    		if ("active" in $$props) $$invalidate(2, active = $$props.active);
+    		if ("content" in $$props) $$invalidate(1, content = $$props.content);
+    		if ("sendDispatch" in $$props) $$invalidate(2, sendDispatch = $$props.sendDispatch);
+    		if ("active" in $$props) $$invalidate(3, active = $$props.active);
     	};
 
     	if ($$props && "$$inject" in $$props) {
     		$$self.$inject_state($$props.$$inject);
     	}
 
-    	return [name, sendDispatch, active, $theme, handleDispatch, click_handler];
+    	return [name, content, sendDispatch, active, $theme, handleDispatch, click_handler];
     }
 
     class ListItem extends SvelteComponentDev {
     	constructor(options) {
     		super(options);
-    		init(this, options, instance$3, create_fragment$3, safe_not_equal, { name: 0, sendDispatch: 1 });
+    		init(this, options, instance$3, create_fragment$3, safe_not_equal, { name: 0, content: 1, sendDispatch: 2 });
 
     		dispatch_dev("SvelteRegisterComponent", {
     			component: this,
@@ -2276,6 +2292,10 @@ var app = (function () {
     		if (/*name*/ ctx[0] === undefined && !("name" in props)) {
     			console_1.warn("<ListItem> was created without expected prop 'name'");
     		}
+
+    		if (/*content*/ ctx[1] === undefined && !("content" in props)) {
+    			console_1.warn("<ListItem> was created without expected prop 'content'");
+    		}
     	}
 
     	get name() {
@@ -2283,6 +2303,14 @@ var app = (function () {
     	}
 
     	set name(value) {
+    		throw new Error("<ListItem>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
+    	}
+
+    	get content() {
+    		throw new Error("<ListItem>: Props cannot be read directly from the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
+    	}
+
+    	set content(value) {
     		throw new Error("<ListItem>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
     	}
 
@@ -2306,7 +2334,7 @@ var app = (function () {
     	return child_ctx;
     }
 
-    // (64:3) <VirtualList items={filteredList} bind:start bind:end let:item>
+    // (65:3) <VirtualList items={filteredList} bind:start bind:end let:item>
     function create_default_slot(ctx) {
     	let listitem;
     	let current;
@@ -2353,14 +2381,14 @@ var app = (function () {
     		block,
     		id: create_default_slot.name,
     		type: "slot",
-    		source: "(64:3) <VirtualList items={filteredList} bind:start bind:end let:item>",
+    		source: "(65:3) <VirtualList items={filteredList} bind:start bind:end let:item>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (72:2) {#each $courses as course}
+    // (73:2) {#each $courses as course}
     function create_each_block$2(ctx) {
     	let div;
     	let h2;
@@ -2378,9 +2406,9 @@ var app = (function () {
     			t0 = text(t0_value);
     			t1 = space();
     			attr_dev(h2, "class", "svelte-lmzvpb");
-    			add_location(h2, file$4, 73, 4, 2085);
+    			add_location(h2, file$4, 74, 4, 2162);
     			attr_dev(div, "class", div_class_value = "card " + /*$theme*/ ctx[5] + " svelte-lmzvpb");
-    			add_location(div, file$4, 72, 3, 2052);
+    			add_location(div, file$4, 73, 3, 2129);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -2422,7 +2450,7 @@ var app = (function () {
     		block,
     		id: create_each_block$2.name,
     		type: "each",
-    		source: "(72:2) {#each $courses as course}",
+    		source: "(73:2) {#each $courses as course}",
     		ctx
     	});
 
@@ -2538,51 +2566,51 @@ var app = (function () {
     			attr_dev(h10, "for", "search");
     			set_style(h10, "display", "inline");
     			attr_dev(h10, "class", "svelte-lmzvpb");
-    			add_location(h10, file$4, 53, 2, 1352);
+    			add_location(h10, file$4, 54, 2, 1429);
     			attr_dev(input, "type", "text");
     			attr_dev(input, "id", "search");
     			set_style(input, "display", "inline");
     			set_style(input, "width", "50%");
     			set_style(input, "padding", "0.5%");
     			attr_dev(input, "class", "svelte-lmzvpb");
-    			add_location(input, file$4, 54, 2, 1415);
+    			add_location(input, file$4, 55, 2, 1492);
     			set_style(div0, "float", "left");
     			set_style(div0, "width", "60%");
     			attr_dev(div0, "class", "svelte-lmzvpb");
-    			add_location(div0, file$4, 52, 1, 1313);
+    			add_location(div0, file$4, 53, 1, 1390);
     			attr_dev(h11, "class", "svelte-lmzvpb");
-    			add_location(h11, file$4, 57, 2, 1572);
+    			add_location(h11, file$4, 58, 2, 1649);
     			set_style(div1, "float", "right");
     			set_style(div1, "width", "40%");
     			attr_dev(div1, "class", "svelte-lmzvpb");
-    			add_location(div1, file$4, 56, 1, 1532);
+    			add_location(div1, file$4, 57, 1, 1609);
     			set_style(div2, "width", "100%");
     			attr_dev(div2, "class", "svelte-lmzvpb");
-    			add_location(div2, file$4, 51, 0, 1284);
+    			add_location(div2, file$4, 52, 0, 1361);
     			set_style(div3, "height", "100%");
     			attr_dev(div3, "class", "svelte-lmzvpb");
-    			add_location(div3, file$4, 62, 2, 1705);
+    			add_location(div3, file$4, 63, 2, 1782);
     			set_style(p, "margin", "auto");
     			attr_dev(p, "class", "svelte-lmzvpb");
-    			add_location(p, file$4, 67, 2, 1888);
+    			add_location(p, file$4, 68, 2, 1965);
     			attr_dev(div4, "class", "container svelte-lmzvpb");
     			set_style(div4, "float", "left");
     			set_style(div4, "width", "60%");
-    			add_location(div4, file$4, 61, 1, 1647);
+    			add_location(div4, file$4, 62, 1, 1724);
     			attr_dev(br, "class", "svelte-lmzvpb");
-    			add_location(br, file$4, 70, 2, 2013);
+    			add_location(br, file$4, 71, 2, 2090);
     			attr_dev(div5, "class", "container svelte-lmzvpb");
     			set_style(div5, "float", "right");
     			set_style(div5, "width", "40%");
-    			add_location(div5, file$4, 69, 1, 1954);
+    			add_location(div5, file$4, 70, 1, 2031);
     			set_style(h12, "float", "right");
     			set_style(h12, "width", "40%");
     			set_style(h12, "margin", "0 auto");
     			attr_dev(h12, "class", "svelte-lmzvpb");
-    			add_location(h12, file$4, 79, 1, 2270);
+    			add_location(h12, file$4, 80, 1, 2347);
     			set_style(div6, "width", "100%");
     			attr_dev(div6, "class", "svelte-lmzvpb");
-    			add_location(div6, file$4, 60, 0, 1618);
+    			add_location(div6, file$4, 61, 0, 1695);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -2734,7 +2762,8 @@ var app = (function () {
     				...items,
     				{
     					// "key":element.id,
-    					"name": element.description,
+    					"name": element.code, //`${element.code} | ${element.description}`,
+    					"content": element.description,
     					"sendDispatch": element.code
     				}
     			]);
@@ -3227,7 +3256,7 @@ var app = (function () {
     const { console: console_1$2 } = globals;
     const file$7 = "src\\Scheduler.svelte";
 
-    // (143:0) {#if !loaded}
+    // (142:0) {#if !loaded}
     function create_if_block$2(ctx) {
     	let spinner;
     	let t0;
@@ -3242,7 +3271,7 @@ var app = (function () {
     			h1 = element("h1");
     			h1.textContent = "Loading Schedules...";
     			attr_dev(h1, "class", "svelte-k0q3gb");
-    			add_location(h1, file$7, 144, 4, 4084);
+    			add_location(h1, file$7, 143, 4, 4052);
     		},
     		m: function mount(target, anchor) {
     			mount_component(spinner, target, anchor);
@@ -3270,7 +3299,7 @@ var app = (function () {
     		block,
     		id: create_if_block$2.name,
     		type: "if",
-    		source: "(143:0) {#if !loaded}",
+    		source: "(142:0) {#if !loaded}",
     		ctx
     	});
 
@@ -3365,36 +3394,36 @@ var app = (function () {
     			attr_dev(link, "type", "text/css");
     			add_location(link, file$7, 3, 4, 173);
     			attr_dev(span0, "class", "invisible svelte-k0q3gb");
-    			add_location(span0, file$7, 148, 8, 4254);
-    			add_location(br0, file$7, 149, 38, 4327);
+    			add_location(span0, file$7, 147, 8, 4222);
+    			add_location(br0, file$7, 148, 38, 4295);
     			attr_dev(span1, "class", "svelte-k0q3gb");
-    			add_location(span1, file$7, 149, 8, 4297);
+    			add_location(span1, file$7, 148, 8, 4265);
     			attr_dev(input, "class", "inpnum svelte-k0q3gb");
     			attr_dev(input, "type", "number");
     			input.value = input_value_value = /*idx*/ ctx[2] + 1;
     			attr_dev(input, "min", "1");
     			attr_dev(input, "max", input_max_value = /*items*/ ctx[1].length);
-    			add_location(input, file$7, 151, 31, 4443);
+    			add_location(input, file$7, 150, 31, 4411);
     			attr_dev(span2, "class", "svelte-k0q3gb");
-    			add_location(span2, file$7, 151, 8, 4420);
-    			add_location(br1, file$7, 152, 34, 4604);
+    			add_location(span2, file$7, 150, 8, 4388);
+    			add_location(br1, file$7, 151, 34, 4572);
     			attr_dev(span3, "class", "svelte-k0q3gb");
-    			add_location(span3, file$7, 152, 8, 4578);
+    			add_location(span3, file$7, 151, 8, 4546);
     			attr_dev(span4, "class", "invisible svelte-k0q3gb");
-    			add_location(span4, file$7, 153, 8, 4633);
+    			add_location(span4, file$7, 152, 8, 4601);
     			attr_dev(div0, "class", "overlay svelte-k0q3gb");
-    			add_location(div0, file$7, 147, 4, 4223);
+    			add_location(div0, file$7, 146, 4, 4191);
     			attr_dev(div1, "class", "dhx_cal_navline svelte-k0q3gb");
-    			add_location(div1, file$7, 155, 4, 4682);
+    			add_location(div1, file$7, 154, 4, 4650);
     			attr_dev(div2, "class", "dhx_cal_header");
-    			add_location(div2, file$7, 156, 4, 4723);
+    			add_location(div2, file$7, 155, 4, 4691);
     			attr_dev(div3, "class", "dhx_cal_data");
-    			add_location(div3, file$7, 157, 4, 4763);
+    			add_location(div3, file$7, 156, 4, 4731);
     			attr_dev(div4, "id", "scheduler_here");
     			attr_dev(div4, "class", "dhx_cal_container");
     			set_style(div4, "width", "100%");
     			set_style(div4, "height", (/*loaded*/ ctx[0] ? 100 : 0) + "%");
-    			add_location(div4, file$7, 146, 0, 4122);
+    			add_location(div4, file$7, 145, 0, 4090);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -3554,7 +3583,6 @@ var app = (function () {
     	let idx = 0;
 
     	function fetchSchedules() {
-    		// fetch(`temp2.json`)
     		fetch(`https://jcurda-api.herokuapp.com/schedules?term=${$term}&courses=${$courses.join(",")}`).then(response => {
     			if (!response.ok) {
     				response.text().then(text => window.alert(text));
