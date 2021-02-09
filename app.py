@@ -42,7 +42,7 @@ def getClassData(term, course):
     # return [class_dict for class_dict in parsed_json['data']]
     course_json = json.load(open(f'json/{term}_data.json', 'r'))[course]
     return [course_json[key] for key in course_json]
-    
+
 def IsConflict(crn1, crn2):
     for day in week:
         if times[int(crn1)][day] and times[int(crn2)][day]:
@@ -94,7 +94,7 @@ def schedules():
             if type not in temp[num]:
                 temp[num].update({type: []})
             
-            if not showFull getSeats(term, int(section['courseReferenceNumber'])):#and section['seatsAvailable'] == 0: # give option to make waitlist schedules
+            if not showFull and not getSeats(term, int(section['courseReferenceNumber'])):#and section['seatsAvailable'] == 0: # give option to make waitlist schedules
                 continue
             temp[num].update({type: temp[num][type] + [section['courseReferenceNumber']]})
         toDelete = []
