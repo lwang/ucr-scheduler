@@ -28,7 +28,7 @@ def getSeats(term, crn):
     res = requests.get(f'https://registrationssb.ucr.edu/StudentRegistrationSsb/ssb/searchResults/getEnrollmentInfo?dataType=json&term={term}&courseReferenceNumber={crn}')
     tree = html.fromstring(res.content)
     temp = [int(x) for x in tree.xpath('//span[@dir="ltr"]/text()')]
-    print(temp)
+    # print(temp)
     if not temp or temp[2] <= 0:
         return False
     return True
@@ -71,16 +71,19 @@ def schedules():
     course_sections = dict()
     times.clear()
     fullData = dict()
-    
-    with concurrent.futures.ThreadPoolExecutor() as executor:
+    seats = dict()
+    with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
         futures = [(code, executor.submit(getClassData, term, code)) for code in codes]
     for _, future in futures:
-        print(future.result())
+        # print(future.result())
         try:
-            print(future.result())
+            # print(future.result()[0]['subjectCourse'])
+            with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
+                for crn, future in [(int(section['courseReferenceNumber']), executor.submit(getSeats, term, int(section['courseReferenceNumber']))) for section in future.result()]:
+                    seats.update({crn: future.result()})
         except Exception as e:
             return Response(str(e), status=400)
-            
+
     for code, future in futures:
         course_data = future.result()
         temp = dict()
@@ -94,7 +97,7 @@ def schedules():
             if type not in temp[num]:
                 temp[num].update({type: []})
             
-            if not showFull and not getSeats(term, int(section['courseReferenceNumber'])):#and section['seatsAvailable'] == 0: # give option to make waitlist schedules
+            if not showFull and not seats[int(section['courseReferenceNumber'])]:#and section['seatsAvailable'] == 0: # give option to make waitlist schedules
                 continue
             temp[num].update({type: temp[num][type] + [section['courseReferenceNumber']]})
         toDelete = []
