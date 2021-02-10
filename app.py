@@ -67,7 +67,10 @@ def home():
 @app.route('/schedules', methods=['GET'])
 def schedules():
     term = request.args['term']
-    codes = request.args['courses'].split(',')
+    codes = request.args['courses'].split(',') if ',' in request.args['courses'] else []
+    print(len(codes))
+    if not term or not codes:
+        return Response(f"Missing parameter(s):{' term' if not term else ''} {' courses' if not codes else ''}", status=400)
     course_sections = dict()
     times.clear()
     fullData = dict()
