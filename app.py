@@ -25,7 +25,7 @@ week = {
 times = dict()
 
 def getSeats(term, crn):
-    res = requests.get(f'https://registrationssb.ucr.edu/StudentRegistrationSsb/ssb/searchResults/getEnrollmentInfo?dataType=json&term={term}&courseReferenceNumber={crn}')
+    res = requests.get(f'https://registrationssb.ucr.edu/StudentRegistrationSsb/ssb/searchResults/getEnrollmentInfo?term={term}&courseReferenceNumber={crn}')
     tree = html.fromstring(res.content)
     temp = [int(x) for x in tree.xpath('//span[@dir="ltr"]/text()')]
     # print(temp)
@@ -72,8 +72,16 @@ def schedules():
     times.clear()
     fullData = dict()
     seats = dict()
+    print(codes)
     with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
         futures = [(code, executor.submit(getClassData, term, code)) for code in codes]
+        coreqs = []
+        for _, future in futures:
+            for section in future.result():
+                coreqs += [f'{section["subject"]}{creq}' for creq in section['coreq'] if f'{section["subject"]}{creq}' not in coreqs and f'{section["subject"]}{creq}' not in codes]
+        print(coreqs)
+        futures += [(code, executor.submit(getClassData, term, code)) for code in coreqs]
+
     for _, future in futures:
         # print(future.result())
         try:
@@ -91,7 +99,7 @@ def schedules():
             fullData.update({int(section['courseReferenceNumber']): section})
             times.update({int(section['courseReferenceNumber']): section['meetingsFaculty'][0]['meetingTime']})
             type = section['scheduleTypeDescription']
-            num = section['linkIdentifier'][1:] if (section['linkIdentifier'][1:]).isnumeric() else 1
+            num = section['linkIdentifier'][1:] if section['linkIdentifier'] and (section['linkIdentifier'][1:]).isnumeric() else 1
             if num not in temp:
                 temp.update({num: dict()})
             if type not in temp[num]:
