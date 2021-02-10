@@ -1359,7 +1359,7 @@ var app = (function () {
     	return child_ctx;
     }
 
-    // (21:0) {#each term_codes as term_, i (i)}
+    // (22:0) {#each term_codes as term_, i (i)}
     function create_each_block(key_1, ctx) {
     	let h1;
 
@@ -1383,7 +1383,7 @@ var app = (function () {
     			? "active"
     			: "") + " svelte-w303dg"));
 
-    			add_location(h1, file$1, 21, 4, 428);
+    			add_location(h1, file$1, 22, 4, 462);
     			this.first = h1;
     		},
     		m: function mount(target, anchor) {
@@ -1429,7 +1429,7 @@ var app = (function () {
     		block,
     		id: create_each_block.name,
     		type: "each",
-    		source: "(21:0) {#each term_codes as term_, i (i)}",
+    		source: "(22:0) {#each term_codes as term_, i (i)}",
     		ctx
     	});
 
@@ -1516,6 +1516,7 @@ var app = (function () {
 
     	const setTerm = code => {
     		term.set(code);
+    		courses.set([]);
     	};
 
     	const writable_props = [];
@@ -1524,7 +1525,13 @@ var app = (function () {
     		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== "$$") console.warn(`<SelectTerm> was created with unknown prop '${key}'`);
     	});
 
-    	$$self.$capture_state = () => ({ term, term_codes, setTerm, $term });
+    	$$self.$capture_state = () => ({
+    		term,
+    		courses,
+    		term_codes,
+    		setTerm,
+    		$term
+    	});
 
     	$$self.$inject_state = $$props => {
     		if ("term_codes" in $$props) $$invalidate(0, term_codes = $$props.term_codes);
@@ -3271,7 +3278,7 @@ var app = (function () {
     			h1 = element("h1");
     			h1.textContent = "Loading Schedules...";
     			attr_dev(h1, "class", "svelte-k0q3gb");
-    			add_location(h1, file$7, 143, 4, 4052);
+    			add_location(h1, file$7, 143, 4, 4093);
     		},
     		m: function mount(target, anchor) {
     			mount_component(spinner, target, anchor);
@@ -3394,36 +3401,36 @@ var app = (function () {
     			attr_dev(link, "type", "text/css");
     			add_location(link, file$7, 3, 4, 173);
     			attr_dev(span0, "class", "invisible svelte-k0q3gb");
-    			add_location(span0, file$7, 147, 8, 4222);
-    			add_location(br0, file$7, 148, 38, 4295);
+    			add_location(span0, file$7, 147, 8, 4263);
+    			add_location(br0, file$7, 148, 38, 4336);
     			attr_dev(span1, "class", "svelte-k0q3gb");
-    			add_location(span1, file$7, 148, 8, 4265);
+    			add_location(span1, file$7, 148, 8, 4306);
     			attr_dev(input, "class", "inpnum svelte-k0q3gb");
     			attr_dev(input, "type", "number");
     			input.value = input_value_value = /*idx*/ ctx[2] + 1;
     			attr_dev(input, "min", "1");
     			attr_dev(input, "max", input_max_value = /*items*/ ctx[1].length);
-    			add_location(input, file$7, 150, 31, 4411);
+    			add_location(input, file$7, 150, 31, 4452);
     			attr_dev(span2, "class", "svelte-k0q3gb");
-    			add_location(span2, file$7, 150, 8, 4388);
-    			add_location(br1, file$7, 151, 34, 4572);
+    			add_location(span2, file$7, 150, 8, 4429);
+    			add_location(br1, file$7, 151, 34, 4613);
     			attr_dev(span3, "class", "svelte-k0q3gb");
-    			add_location(span3, file$7, 151, 8, 4546);
+    			add_location(span3, file$7, 151, 8, 4587);
     			attr_dev(span4, "class", "invisible svelte-k0q3gb");
-    			add_location(span4, file$7, 152, 8, 4601);
+    			add_location(span4, file$7, 152, 8, 4642);
     			attr_dev(div0, "class", "overlay svelte-k0q3gb");
-    			add_location(div0, file$7, 146, 4, 4191);
+    			add_location(div0, file$7, 146, 4, 4232);
     			attr_dev(div1, "class", "dhx_cal_navline svelte-k0q3gb");
-    			add_location(div1, file$7, 154, 4, 4650);
+    			add_location(div1, file$7, 154, 4, 4691);
     			attr_dev(div2, "class", "dhx_cal_header");
-    			add_location(div2, file$7, 155, 4, 4691);
+    			add_location(div2, file$7, 155, 4, 4732);
     			attr_dev(div3, "class", "dhx_cal_data");
-    			add_location(div3, file$7, 156, 4, 4731);
+    			add_location(div3, file$7, 156, 4, 4772);
     			attr_dev(div4, "id", "scheduler_here");
     			attr_dev(div4, "class", "dhx_cal_container");
     			set_style(div4, "width", "100%");
     			set_style(div4, "height", (/*loaded*/ ctx[0] ? 100 : 0) + "%");
-    			add_location(div4, file$7, 145, 0, 4090);
+    			add_location(div4, file$7, 145, 0, 4131);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -3585,7 +3592,10 @@ var app = (function () {
     	function fetchSchedules() {
     		fetch(`https://jcurda-api.herokuapp.com/schedules?term=${$term}&courses=${$courses.join(",")}`).then(response => {
     			if (!response.ok) {
-    				response.text().then(text => window.alert(text));
+    				response.text().then(text => {
+    					window.alert(text);
+    					active$1.set("Select Courses");
+    				});
     			} else {
     				response.json().then(jsonData => {
     					$$invalidate(1, items = jsonData);
@@ -3678,6 +3688,7 @@ var app = (function () {
     	$$self.$capture_state = () => ({
     		term,
     		courses,
+    		active: active$1,
     		Spinner: LoadingSpinner,
     		Modal,
     		print,

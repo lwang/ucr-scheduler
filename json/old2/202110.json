@@ -1,0 +1,6786 @@
+[
+    {
+        "code": "ARC052",
+        "description": "LSAT PREPARATION SEMINAR"
+    },
+    {
+        "code": "ARC078",
+        "description": "BIOL SPLMNTL INST - CNAS"
+    },
+    {
+        "code": "ARC072",
+        "description": "CHEM SPLMNTL INST - CNAS"
+    },
+    {
+        "code": "ARC080",
+        "description": "COE: LEARNING CENTER WORKSHOP"
+    },
+    {
+        "code": "ARC073",
+        "description": "MATH SPLMNTL INST - CNAS"
+    },
+    {
+        "code": "ARC035",
+        "description": "INTRMDIATE ALGEBRA WRKSHOP-IAW"
+    },
+    {
+        "code": "ARC075",
+        "description": "PHYS- SPLMNTL INST - CNAS"
+    },
+    {
+        "code": "ARC053",
+        "description": "GMAT PREPARATION SEMINAR"
+    },
+    {
+        "code": "ARC055",
+        "description": "MCAT PREPARATION SEMINAR"
+    },
+    {
+        "code": "ARC051",
+        "description": "GRE PREPARATION SEMINAR"
+    },
+    {
+        "code": "ANTH005",
+        "description": "INTRODUCTION TO ARCHAEOLOGY"
+    },
+    {
+        "code": "ANTH290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "ANTH210B",
+        "description": "PROFESSIONALISM IN ANTHROPOLOGY"
+    },
+    {
+        "code": "ANTH195C",
+        "description": "SENIOR THESIS"
+    },
+    {
+        "code": "ANTH134",
+        "description": "THE WILL TO ADORN  DRESS AND IDENTITY"
+    },
+    {
+        "code": "ANTH113",
+        "description": "ANCIENT HOUSEHOLDS AND COMMUNITIES"
+    },
+    {
+        "code": "ANTH007S",
+        "description": "INTRODUCTION TO LINGUISTIC ANTHROPOLOGY"
+    },
+    {
+        "code": "ANTH297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "ANTH256",
+        "description": "SEMINAR IN CULTURAL ANTHROPOLOGY"
+    },
+    {
+        "code": "ANTH302",
+        "description": "TEACHING PRACTICUM"
+    },
+    {
+        "code": "ANTH299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION"
+    },
+    {
+        "code": "ANTH291",
+        "description": "INDIVIDUAL STUDIES IN COORDINATED AREAS"
+    },
+    {
+        "code": "ANTH198I",
+        "description": "INTERNSHIP IN ANTHROPOLOGY"
+    },
+    {
+        "code": "ANTH153",
+        "description": "EVOLUTION OF THE GENUS HOMO"
+    },
+    {
+        "code": "ANTH252",
+        "description": "SEMINAR IN ARCHAEOLOGY"
+    },
+    {
+        "code": "ANTH199H",
+        "description": "SENIOR HONORS RESEARCH"
+    },
+    {
+        "code": "ANTH174",
+        "description": "AFRO-AMERICAN EXPERIENCE IN THE U.S."
+    },
+    {
+        "code": "ANTH165E",
+        "description": "METHODS IN ARCHAEOLOGY"
+    },
+    {
+        "code": "ANTH135",
+        "description": "THE ARCHAEOLOGY OF AFRICAN DIASPORA HISTORY AND CULTURE"
+    },
+    {
+        "code": "ANTH129A",
+        "description": "INTRODUCTION TO MAYA HIEROGLYPHS"
+    },
+    {
+        "code": "ANTH200B",
+        "description": "CORE THEORY IN ANTHROPOLOGY"
+    },
+    {
+        "code": "ANTH164",
+        "description": "FORENSIC ANTHROPOLOGY"
+    },
+    {
+        "code": "ANTH100W",
+        "description": "HISTORY OF ANTHROPOLOGICAL THEORY"
+    },
+    {
+        "code": "ANTH001",
+        "description": "CULTURAL ANTHROPOLOGY"
+    },
+    {
+        "code": "ANTH292",
+        "description": "CONCURRENT ANALYTICAL STUDIES IN ANTHROPOLOGY"
+    },
+    {
+        "code": "ANTH201",
+        "description": "CRITICAL THEORIES OF GENDER,RACE, AND BLACKNESS"
+    },
+    {
+        "code": "ANTH131",
+        "description": "APPLIED ANTHROPOLOGY"
+    },
+    {
+        "code": "ANTH123",
+        "description": "LINGUISTIC ANTHROPOLOGY"
+    },
+    {
+        "code": "ANTH122",
+        "description": "ECONOMIC ANTHROPOLOGY"
+    },
+    {
+        "code": "ANTH115U",
+        "description": "ANDEAN PREHISTORY"
+    },
+    {
+        "code": "ANTH002",
+        "description": "BIOLOGICAL ANTHROPOLOGY"
+    },
+    {
+        "code": "ANTH190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
+        "code": "ANTH177",
+        "description": "GENDER, SEXUALITY, AND MUSIC IN CROSS-CULTURAL PERSPECTIVES"
+    },
+    {
+        "code": "ANTH195B",
+        "description": "SENIOR THESIS"
+    },
+    {
+        "code": "ANTH162",
+        "description": "CULTURE AND MEDICINE"
+    },
+    {
+        "code": "ARBC002",
+        "description": "ELEMENTARY ARABIC"
+    },
+    {
+        "code": "ARBC003",
+        "description": "ELEMENTARY ARABIC"
+    },
+    {
+        "code": "ARBC001",
+        "description": "ELEMENTARY ARABIC"
+    },
+    {
+        "code": "ART001",
+        "description": "BEGINNING DRAWING AND DESIGN"
+    },
+    {
+        "code": "ART180",
+        "description": "CONTEMPORARY ISSUES AND PRACTICE"
+    },
+    {
+        "code": "ART115",
+        "description": "INTERMEDIATE SCULPTURE"
+    },
+    {
+        "code": "ART003",
+        "description": "INTRODUCTION TO PHOTOGRAPHIC PROCESSES"
+    },
+    {
+        "code": "ART302",
+        "description": "TEACHING PRACTICUM"
+    },
+    {
+        "code": "ART230",
+        "description": "CONTEMPORARY CRITICAL ISSUES"
+    },
+    {
+        "code": "ART104",
+        "description": "LIFE DRAWING"
+    },
+    {
+        "code": "ART103",
+        "description": "ADVANCED DRAWING"
+    },
+    {
+        "code": "ART010",
+        "description": "INTRODUCTION TO VIDEO AND TIME-BASED EXPERIMENTATION"
+    },
+    {
+        "code": "ART299",
+        "description": "RESEARCH FOR THESIS"
+    },
+    {
+        "code": "ART160",
+        "description": "INTERMEDIATE ART THEORY"
+    },
+    {
+        "code": "ART290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "ART161",
+        "description": "SUBURBIA"
+    },
+    {
+        "code": "ART145",
+        "description": "ADVANCED PHOTOGRAPHY WORKSHOP"
+    },
+    {
+        "code": "ART005",
+        "description": "BEGINNING SCULPTURE AND THREE-DIMENSIONAL DESIGN"
+    },
+    {
+        "code": "ART132",
+        "description": "ART STUDIO TWO"
+    },
+    {
+        "code": "ART292",
+        "description": "CONCURRENT STUDIES IN ART"
+    },
+    {
+        "code": "ART151",
+        "description": "INTERMEDIATE VIDEO AND TIME-BASED EXPERIMENTATION"
+    },
+    {
+        "code": "ART002",
+        "description": "BEGINNING PAINTING AND DESIGN"
+    },
+    {
+        "code": "ART065",
+        "description": "INTRODUCTION TO DIGITAL PAINTING AND DRAWING: PAINTING WITHOUT A TRACE"
+    },
+    {
+        "code": "ART293",
+        "description": "DIRECTED INDIVIDUAL STUDIO PRODUCTION"
+    },
+    {
+        "code": "ART032",
+        "description": "ART STUDIO ONE"
+    },
+    {
+        "code": "AHS298I",
+        "description": "INDIVIDUAL INTERNSHIP"
+    },
+    {
+        "code": "AHS284",
+        "description": "SEMINAR IN CONTEMPORARY ART AND THEORY"
+    },
+    {
+        "code": "AHS017B",
+        "description": "HISTORY OF WESTERN ART: MEDIEVAL TO RENAISSANCE"
+    },
+    {
+        "code": "AHS013",
+        "description": "ARTS AND ARCHITECTURE OF THE ISLAMIC WORLD"
+    },
+    {
+        "code": "AHS292",
+        "description": "CONCURRENT ANALYTICAL STUDIES"
+    },
+    {
+        "code": "AHS023",
+        "description": "INTRODUCTION TO AMERICAN ART"
+    },
+    {
+        "code": "AHS015",
+        "description": "ARTS OF ASIA"
+    },
+    {
+        "code": "AHS114",
+        "description": "HISTORY OF BRAZILIAN ART &amp; ARCHITECTURE"
+    },
+    {
+        "code": "AHS302",
+        "description": "TEACHING PRACTICUM"
+    },
+    {
+        "code": "AHS192",
+        "description": "JUNIOR AND SENIOR SEMINAR IN ART HISTORY"
+    },
+    {
+        "code": "AHS251B",
+        "description": "PROSEMINAR IN METHODOLOGY"
+    },
+    {
+        "code": "AHS113",
+        "description": "SIXTEENTH-CENTURY MEXICO: AN ART OF TWO WORLDS"
+    },
+    {
+        "code": "AHS297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "AHS198I",
+        "description": "INDIVIDUAL INTERNSHIP"
+    },
+    {
+        "code": "AHS176",
+        "description": "TWENTIETH-CENTURY PHOTOGRAPHY 1900-1960"
+    },
+    {
+        "code": "AHS290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "AHS299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION"
+    },
+    {
+        "code": "AST169",
+        "description": "TAIKO ENSEMBLE"
+    },
+    {
+        "code": "AST153E",
+        "description": "SUPERNATURAL JAPAN"
+    },
+    {
+        "code": "AST090",
+        "description": "SPECIAL STUDIES"
+    },
+    {
+        "code": "AST046",
+        "description": "RESPONSES TO POLITICAL REPRESSION IN MODERN CHINESE LITERATURE AND FILM"
+    },
+    {
+        "code": "AST170",
+        "description": "RONDALLA ENSEMBLE"
+    },
+    {
+        "code": "AST126",
+        "description": "SOUTHEAST ASIA, PREHISTORY TO 1800"
+    },
+    {
+        "code": "AST022",
+        "description": "INTRODUCTION TO JAPANESE FILM"
+    },
+    {
+        "code": "AST190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
+        "code": "AST195",
+        "description": "CAPSTONE SENIOR THESIS"
+    },
+    {
+        "code": "BSWT004",
+        "description": "BASIC WRITING JOURNAL WORKSHOP"
+    },
+    {
+        "code": "BSWT003",
+        "description": "BASIC WRITING FOR SECOND-LANGUAGE STUDENTS"
+    },
+    {
+        "code": "BSWT003L",
+        "description": "BASIC WRITING FOR SECOND-LANGUAGE STUDENTS"
+    },
+    {
+        "code": "BCH291",
+        "description": "INDIVIDUAL STUDY IN BIOCHEMISTRY"
+    },
+    {
+        "code": "BCH252",
+        "description": "GENERAL SEMINAR IN BIOCHEMISTRY"
+    },
+    {
+        "code": "BCH231",
+        "description": "THE PLANT GENOME"
+    },
+    {
+        "code": "BCH190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
+        "code": "BCH110B",
+        "description": "GENERAL BIOCHEMISTRY"
+    },
+    {
+        "code": "BCH184",
+        "description": "TOPICS IN PHYSICAL BIOCHEMISTRY"
+    },
+    {
+        "code": "BCH261",
+        "description": "SEMINAR IN GENETICS, GENOMICS, AND BIOINFORMATICS"
+    },
+    {
+        "code": "BCH211",
+        "description": "MOLECULAR BIOLOGY"
+    },
+    {
+        "code": "BCH110A",
+        "description": "GENERAL BIOCHEMISTRY"
+    },
+    {
+        "code": "BCH097",
+        "description": "RESEARCH TUTORIAL IN BIOCHEMISTRY"
+    },
+    {
+        "code": "BCH301",
+        "description": "TEACHING OF BIOCHEMISTRY AT THE COLLEGE LEVEL"
+    },
+    {
+        "code": "BCH299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION"
+    },
+    {
+        "code": "BCH251",
+        "description": "GRADUATE SEMINAR IN BIOCHEMISTRY"
+    },
+    {
+        "code": "BCH110HB",
+        "description": "HONORS GENERAL BIOCHEMISTRY"
+    },
+    {
+        "code": "BCH015",
+        "description": "INTRODUCTION BIOCHEMISTRY LABORATORY"
+    },
+    {
+        "code": "BCH302",
+        "description": "APPRENTICE TEACHING"
+    },
+    {
+        "code": "BCH297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "BCH162",
+        "description": "ADVANCED BIOCHEMISTRY LABORATORY"
+    },
+    {
+        "code": "BCH100",
+        "description": "INTRODUCTORY BIOCHEMISTRY"
+    },
+    {
+        "code": "BCH240",
+        "description": "SPECIAL TOPICS IN BIOCHEMISTRY"
+    },
+    {
+        "code": "BCH197",
+        "description": "RESEARCH FOR UNDERGRADUATE STUDENTS"
+    },
+    {
+        "code": "BCH290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "BCH110C",
+        "description": "GENERAL BIOCHEMISTRY"
+    },
+    {
+        "code": "BIEN299",
+        "description": "RESEARCH FOR THE THESIS OR DISSERTATION"
+    },
+    {
+        "code": "BIEN290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "BIEN273",
+        "description": "SPECIAL TOPICS IN REGENERATIVE ENGINEERING AND BIOMECHANICS"
+    },
+    {
+        "code": "BIEN261",
+        "description": "SPECIAL TOPICS IN BIOTRANSPORT"
+    },
+    {
+        "code": "BIEN274",
+        "description": "SPECIAL TOPICS IN ENDOTHELIAL BIOMEDICINE"
+    },
+    {
+        "code": "BIEN265",
+        "description": "SPECIAL TOPICS IN BIOMEDICAL OPTICAL IMAGING"
+    },
+    {
+        "code": "BIEN260",
+        "description": "SPECIAL TOPICS IN BIOINSTRUMENTATION"
+    },
+    {
+        "code": "BIEN160",
+        "description": "BIOMEDICAL IMAGING"
+    },
+    {
+        "code": "BIEN190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
+        "code": "BIEN272",
+        "description": "SPECIAL TOPICS IN BIOMATERIALS AND TISSUE ENGINEERING"
+    },
+    {
+        "code": "BIEN245",
+        "description": "OPTICAL METHODS IN BIOLOGY, CHEMISTRY, AND ENGINEERING"
+    },
+    {
+        "code": "BIEN275",
+        "description": "MAGNETIC RESONANCE IMAGING"
+    },
+    {
+        "code": "BIEN269",
+        "description": "SPECIAL TOPICS IN OPTICAL MEASUREMENTS AND PHOTOMEDICINE"
+    },
+    {
+        "code": "BIEN211",
+        "description": "ADVANCED STATISTICS AND RESEARCH DESIGN FOR BIOENGINEERING"
+    },
+    {
+        "code": "BIEN125",
+        "description": "BIOTECHNOLOGY AND MOLECULAR BIOENGINEERING"
+    },
+    {
+        "code": "BIEN276",
+        "description": "INTRO TO NEUROIMAGING WITH MRI"
+    },
+    {
+        "code": "BIEN249",
+        "description": "INTEGRATION OF COMPUTATIONAL AND EXPERIMENTAL BIOLOGY"
+    },
+    {
+        "code": "BIEN236",
+        "description": "NANOMATERIALS FOR REGENERATIVE MEDICINE"
+    },
+    {
+        "code": "BIEN159",
+        "description": "DYNAMICS OF BIOLOGICAL SYSTEMS"
+    },
+    {
+        "code": "BIEN302",
+        "description": "TEACHING PRACTICUM"
+    },
+    {
+        "code": "BIEN297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "BIEN286",
+        "description": "COLLOQUIUM IN BIOENGINEERING"
+    },
+    {
+        "code": "BIEN262",
+        "description": "SPECIAL TOPICS IN BIOSIGNALING"
+    },
+    {
+        "code": "BIEN155",
+        "description": "BIOTECHNOLOGY LABORATORY"
+    },
+    {
+        "code": "BIEN140A",
+        "description": "BIOMATERIALS"
+    },
+    {
+        "code": "BIEN111",
+        "description": "ADVANCED STATISTICAL METHODS AND RESEARCH DESIGN FOR BIOENGINEERING"
+    },
+    {
+        "code": "BIEN010",
+        "description": "OVERVIEW OF BIOENGINEERING"
+    },
+    {
+        "code": "BIEN105",
+        "description": "CIRCULATION PHYSIOLOGY"
+    },
+    {
+        "code": "BIEN137",
+        "description": "ADVANCED BIOMECHANICS"
+    },
+    {
+        "code": "BIEN175B",
+        "description": "SENIOR DESIGN"
+    },
+    {
+        "code": "BIEN263",
+        "description": "SPECIAL TOPICS IN BIOCOMPUTATION"
+    },
+    {
+        "code": "BIOL020",
+        "description": "DYNAMIC GENOME"
+    },
+    {
+        "code": "BIOL252",
+        "description": "GENERAL COLLOQUIUM IN BIOLOGY"
+    },
+    {
+        "code": "BIOL102",
+        "description": "INTRODUCTORY GENETICS"
+    },
+    {
+        "code": "BIOL005A",
+        "description": "INTRODUCTION TO CELL AND MOLECULAR BIOLOGY"
+    },
+    {
+        "code": "BIOL281E",
+        "description": "NANOBIOTECHNOLOGY"
+    },
+    {
+        "code": "BIOL261",
+        "description": "SEMINAR IN GENETICS, GENOMICS, AND BIOINFORMATICS"
+    },
+    {
+        "code": "BIOL174",
+        "description": "ECOLOGICAL AND EVOLUTIONARY PHYSIOLOGY"
+    },
+    {
+        "code": "BIOL165",
+        "description": "RESTORATION ECOLOGY"
+    },
+    {
+        "code": "BIOL121",
+        "description": "INTRODUCTORY MICROBIOLOGY"
+    },
+    {
+        "code": "BIOL005C",
+        "description": "INTRODUCTORY EVOLUTION AND ECOLOGY"
+    },
+    {
+        "code": "BIOL301",
+        "description": "TEACHING OF BIOLOGY AT THE COLLEGE LEVEL"
+    },
+    {
+        "code": "BIOL284",
+        "description": "SEMINAR IN BIOLOGY"
+    },
+    {
+        "code": "BIOL124",
+        "description": "MEDICAL MICROBIOLOGY"
+    },
+    {
+        "code": "BIOL107A",
+        "description": "MOLECULAR BIOLOGY"
+    },
+    {
+        "code": "BIOL281F",
+        "description": "SEMINAR IN CELL DEVELOPMENT, STRUCTURE, AND FUNCTION"
+    },
+    {
+        "code": "BIOL161B",
+        "description": "FUNCTIONAL ANATOMY OF THE VERTEBRATES"
+    },
+    {
+        "code": "BIOL148",
+        "description": "QUANTITATIVE GENETICS"
+    },
+    {
+        "code": "BIOL123",
+        "description": "INTRODUCTION TO COMPARATIVE VIROLOGY"
+    },
+    {
+        "code": "BIOL105",
+        "description": "EVOLUTION"
+    },
+    {
+        "code": "BIOL003",
+        "description": "ORGANISMS IN THEIR ENVIRONMENT"
+    },
+    {
+        "code": "BIOL199",
+        "description": "JUNIOR/SENIOR RESEARCH"
+    },
+    {
+        "code": "BIOL197",
+        "description": "INTRODUCTION TO RESEARCH"
+    },
+    {
+        "code": "BIOL194",
+        "description": "INDEPENDENT READING"
+    },
+    {
+        "code": "BIOL171A",
+        "description": "HUMAN PHYSIOLOGY"
+    },
+    {
+        "code": "BIOL121L",
+        "description": "MICROBIOLOGY LABORATORY"
+    },
+    {
+        "code": "BIOL119",
+        "description": "INTRODUCTION TO GENOMICS AND BIOINFORMATICS"
+    },
+    {
+        "code": "BIOL116",
+        "description": "ECOLOGY AND CONSERVATION BIOLOGY"
+    },
+    {
+        "code": "BIOL112",
+        "description": "SYSTEMATICS"
+    },
+    {
+        "code": "BIOL200",
+        "description": "CELL BIOLOGY"
+    },
+    {
+        "code": "BIOL127",
+        "description": "INSECT ECOLOGY"
+    },
+    {
+        "code": "BIOL190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
+        "code": "BIOL104",
+        "description": "FOUNDATIONS OF PLANT BIOLOGY"
+    },
+    {
+        "code": "BIOL05LA",
+        "description": "INTRODUCTION TO CELL AND MOLECULAR BIOLOGY LABORATORY"
+    },
+    {
+        "code": "BIOL005B",
+        "description": "INTRODUCTION TO ORGANISMAL BIOLOGY"
+    },
+    {
+        "code": "BIOL115",
+        "description": "HUMAN GENETICS"
+    },
+    {
+        "code": "BIOL132",
+        "description": "PLANT ANATOMY"
+    },
+    {
+        "code": "BMSC260B",
+        "description": "TOPICS IN TRANSLATIONAL BIOMEDICAL RESEARCH"
+    },
+    {
+        "code": "BMSC252",
+        "description": "GENERAL SEMINAR IN BIOMEDICAL SCIENCES"
+    },
+    {
+        "code": "BMSC233",
+        "description": "GASTROINTESTINAL, ENDOCRINE, AND REPRODUCTIVE HEALTH I"
+    },
+    {
+        "code": "BMSC222U",
+        "description": "TRANSPORT PHYSIOLOGY"
+    },
+    {
+        "code": "BMSC222G",
+        "description": "SPECIAL TOPICS IN BIOMEDICAL SCIENCES"
+    },
+    {
+        "code": "BMSC261",
+        "description": "METHODS IN BIOMEDICAL RESEARCH"
+    },
+    {
+        "code": "BMSC222Y",
+        "description": "CANCER GENETICS"
+    },
+    {
+        "code": "BMSC222X",
+        "description": "MUTAGENESIS&amp;GENETIC INSTABILTY"
+    },
+    {
+        "code": "BMSC222M",
+        "description": "HORMONE ACTION"
+    },
+    {
+        "code": "BMSC222L",
+        "description": "SPECIAL TOPICS IN BIOMEDICAL SCIENCES"
+    },
+    {
+        "code": "BMSC222E",
+        "description": "BASIC EPITHELIOLOGY"
+    },
+    {
+        "code": "BMSC197L",
+        "description": "RESEARCH FOR UNDERGRADUATES"
+    },
+    {
+        "code": "BMSC194",
+        "description": "INDEPENDENT READING"
+    },
+    {
+        "code": "BMSC302",
+        "description": "DIRECTED TEACHING"
+    },
+    {
+        "code": "BMSC222O",
+        "description": "STEROID METABOLISM"
+    },
+    {
+        "code": "BMSC251",
+        "description": "COLLOQUIUM IN BIOMEDICAL SCIENCES"
+    },
+    {
+        "code": "BMSC299",
+        "description": "RESEARCH FOR DISSERTATION"
+    },
+    {
+        "code": "BMSC254",
+        "description": "GRADUATE SEMINAR IN BIOMEDICAL SCIENCES"
+    },
+    {
+        "code": "BMSC222J",
+        "description": "MICRBL PATHGNSIS&amp;HOST-PTH INTR"
+    },
+    {
+        "code": "BMSC097",
+        "description": "RESEARCH TUTORIAL IN BIOMEDICAL SCIENCES"
+    },
+    {
+        "code": "BMSC297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "BMSC222Q",
+        "description": "MECHANISMS OF CARCINOGENESIS"
+    },
+    {
+        "code": "BMSC222P",
+        "description": "SPECIAL TOPICS IN BIOMEDICAL SCIENCES"
+    },
+    {
+        "code": "BMSC222N",
+        "description": "MECHANISMS OF STEROID HORMONES"
+    },
+    {
+        "code": "BMSC222W",
+        "description": "SPECIAL TOPICS IN BIOMEDICAL SCIENCES"
+    },
+    {
+        "code": "BPHY297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "BPHY299",
+        "description": "THESIS OR DISSERTATION"
+    },
+    {
+        "code": "BPSC225J",
+        "description": "ADVANCED TOPICS IN PLANT BIOLOGY"
+    },
+    {
+        "code": "BPSC011",
+        "description": "PLANTS AND HUMAN AFFAIRS"
+    },
+    {
+        "code": "BPSC199",
+        "description": "SENIOR RESEARCH"
+    },
+    {
+        "code": "BPSC165",
+        "description": "RESTORATION ECOLOGY"
+    },
+    {
+        "code": "BPSC112",
+        "description": "SYSTEMATICS"
+    },
+    {
+        "code": "BPSC261",
+        "description": "SEMINAR IN GENETICS, GENOMICS, AND BIOINFORMATICS"
+    },
+    {
+        "code": "BPSC250",
+        "description": "SEMINAR IN PLANT BIOLOGY"
+    },
+    {
+        "code": "BPSC201F",
+        "description": "PPLANT ECOLOGY"
+    },
+    {
+        "code": "BPSC148",
+        "description": "QUANTITATIVE GENETICS"
+    },
+    {
+        "code": "BPSC292",
+        "description": "CONCURRENT AND ADVANCED STUDIES IN BOTANY AND PLANT SCIENCES"
+    },
+    {
+        "code": "BPSC198I",
+        "description": "INDIVIDUAL INTERNSHIP IN BOTANY AND PLANT SCIENCES"
+    },
+    {
+        "code": "BPSC190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
+        "code": "BPSC104",
+        "description": "FOUNDATIONS OF PLANT BIOLOGY"
+    },
+    {
+        "code": "BPSC299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION"
+    },
+    {
+        "code": "BPSC291",
+        "description": "INDIVIDUAL STUDY IN COORDINATED AREAS"
+    },
+    {
+        "code": "BPSC240",
+        "description": "GENOME-WIDE ASSOC STUDIES"
+    },
+    {
+        "code": "BPSC225P",
+        "description": "ADVANCED TOPICS IN PLANT BIOLOGY"
+    },
+    {
+        "code": "BPSC050",
+        "description": "THE EVIDENCE FOR EVOLUTION"
+    },
+    {
+        "code": "BPSC297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "BPSC231",
+        "description": "THE PLANT GENOME"
+    },
+    {
+        "code": "BPSC197",
+        "description": "RESEARCH FOR UNDERGRADUATES"
+    },
+    {
+        "code": "BPSC132",
+        "description": "PLANT ANATOMY"
+    },
+    {
+        "code": "BPSC135",
+        "description": "PLANT CELL BIOLOGY"
+    },
+    {
+        "code": "BPSC149",
+        "description": "NANOBIOTECHNOLOGY"
+    },
+    {
+        "code": "BPSC290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "BUS178",
+        "description": "INTERNATIONAL TRADE"
+    },
+    {
+        "code": "BUS152",
+        "description": "SALES MANAGEMENT"
+    },
+    {
+        "code": "BUS125",
+        "description": "SIMULATION FOR BUSINESS"
+    },
+    {
+        "code": "BUS121",
+        "description": "EMPLOYEE BENEFITS"
+    },
+    {
+        "code": "BUS109",
+        "description": "COMPETITIVE AND STRATEGIC ANALYSIS"
+    },
+    {
+        "code": "BUS176",
+        "description": "THE SOCIOLOGY OF WORK IN ORGANIZATIONS"
+    },
+    {
+        "code": "BUS173",
+        "description": "INTRODUCTION TO DATABASES FOR MANAGEMENT"
+    },
+    {
+        "code": "BUS153",
+        "description": "LABOR ECONOMICS"
+    },
+    {
+        "code": "BUS146",
+        "description": "INTRODUCTION TO ENTREPRENEURSHIP"
+    },
+    {
+        "code": "BUS145",
+        "description": "DESIGNING AND LEADING TEAMS"
+    },
+    {
+        "code": "BUS101",
+        "description": "INFORMATION TECHNOLOGY MANAGEMENT"
+    },
+    {
+        "code": "BUS179",
+        "description": "BUSINESS APPLICATION of GEOGRAPHIC INFORMATION SYSTEMS (GIS)"
+    },
+    {
+        "code": "BUS169A",
+        "description": "AUDITING"
+    },
+    {
+        "code": "BUS156",
+        "description": "LEADERSHIP DEVELOPMENT"
+    },
+    {
+        "code": "BUS155",
+        "description": "MANAGING HUMAN RESOURCES"
+    },
+    {
+        "code": "BUS143",
+        "description": "JUDGMENT AND DECISION MAKING"
+    },
+    {
+        "code": "BUS136",
+        "description": "INVESTMENTS: SECURITY ANALYSIS AND PORTFOLIO MANAGEMENT"
+    },
+    {
+        "code": "BUS130",
+        "description": "SUPPLY CHAIN MODELING"
+    },
+    {
+        "code": "BUS128",
+        "description": "PROJECT PLANNING AND CONTROL"
+    },
+    {
+        "code": "BUS108",
+        "description": "FINANCIAL EVALUATION AND MANAGERIAL ANALYSIS"
+    },
+    {
+        "code": "BUS103",
+        "description": "MARKETING AND DISTRIBUTION MANAGEMENT"
+    },
+    {
+        "code": "BUS010",
+        "description": "INTRODUCTION TO BUSINESS"
+    },
+    {
+        "code": "BUS151",
+        "description": "BRAND MANAGEMENT"
+    },
+    {
+        "code": "BUS148",
+        "description": "BUSINESS PLAN DEVELOPMENT"
+    },
+    {
+        "code": "BUS131",
+        "description": "FIXED-INCOME SECURITIES"
+    },
+    {
+        "code": "BUS114",
+        "description": "MARKETING IN A GLOBAL ENVIRONMENT"
+    },
+    {
+        "code": "BUS105",
+        "description": "PRODUCTION AND OPERATIONS MANAGEMENT"
+    },
+    {
+        "code": "BUS102",
+        "description": "ETHICS AND LAW IN BUSINESS AND SOCIETY"
+    },
+    {
+        "code": "BUS198I",
+        "description": "INDIVIDUAL INTERNSHIP IN BUSINESS ADMINISTRATION"
+    },
+    {
+        "code": "BUS165B",
+        "description": "INTERMEDIATE FINANCIAL ACCOUNTING"
+    },
+    {
+        "code": "BUS163",
+        "description": "TECHNOLOGY ENTREPRENEURSHIP"
+    },
+    {
+        "code": "BUS162",
+        "description": "MANAGERIAL ECONOMICS"
+    },
+    {
+        "code": "BUS115",
+        "description": "MARKETING RESEARCH"
+    },
+    {
+        "code": "BUS104",
+        "description": "DECISION ANALYSIS AND MANAGEMENT SCIENCE"
+    },
+    {
+        "code": "BUS100W",
+        "description": "MANAGEMENT WRITING AND COMMUNICATION"
+    },
+    {
+        "code": "BUS170",
+        "description": "FINANCIAL STATEMENT VALUATION"
+    },
+    {
+        "code": "BUS165A",
+        "description": "INTERMEDIATE FINANCIAL ACCOUNTING"
+    },
+    {
+        "code": "BUS160",
+        "description": "INDUSTRIAL ORGANIZATION"
+    },
+    {
+        "code": "BUS139",
+        "description": "REAL ESTATE INVESTMENTS"
+    },
+    {
+        "code": "BUS134",
+        "description": "CORPORATE FINANCE"
+    },
+    {
+        "code": "BUS117",
+        "description": "ADVERTISING AND INTEGRATED MARKETING COMMUNICATIONS"
+    },
+    {
+        "code": "BUS112",
+        "description": "CONSUMER BEHAVIOR"
+    },
+    {
+        "code": "BUS107",
+        "description": "ORGANIZATIONAL BEHAVIOR"
+    },
+    {
+        "code": "BUS106",
+        "description": "INTRODUCTION TO FINANCIAL MANAGEMENT"
+    },
+    {
+        "code": "BUS021",
+        "description": "GENERATION OF FINANCIAL ACCOUNTING INFORMATION"
+    },
+    {
+        "code": "BUS001H",
+        "description": "PERSONAL FINANCE"
+    },
+    {
+        "code": "BUS190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
+        "code": "BUS177",
+        "description": "LABOR RELATIONS"
+    },
+    {
+        "code": "BUS168B",
+        "description": "FEDERAL TAXATION FOR CORPORATIONS, PARTNERSHIPS, ESTATES, AND TRUSTS"
+    },
+    {
+        "code": "BUS168A",
+        "description": "INDIVIDUAL TAXATION"
+    },
+    {
+        "code": "BUS149",
+        "description": "ADVANCED TOPICS IN MANAGEMENT AND DECISION-MAKING"
+    },
+    {
+        "code": "BUS118",
+        "description": "DIGITAL MARKETING"
+    },
+    {
+        "code": "BUS020",
+        "description": "FINANCIAL ACCOUNTING AND REPORTING"
+    },
+    {
+        "code": "BUS132",
+        "description": "FOUNDATIONS OF FINANCE"
+    },
+    {
+        "code": "CAH001",
+        "description": "INTRODUCTORY CAHUILLA"
+    },
+    {
+        "code": "CAH100",
+        "description": "CAHUILLA LITERATURE AND LINGUISTICS"
+    },
+    {
+        "code": "CBNS121",
+        "description": "DEVELOPMENTAL NEUROSCIENCE"
+    },
+    {
+        "code": "CBNS120",
+        "description": "CELLULAR NEUROSCIENCE: MEMBRANE AND SYNAPTIC PHENOMENA"
+    },
+    {
+        "code": "CBNS169",
+        "description": "HUMAN EMBRYOLOGY"
+    },
+    {
+        "code": "CBNS101",
+        "description": "FUNDAMENTALS OF CELL BIOLOGY"
+    },
+    {
+        "code": "CBNS190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
+        "code": "CBNS129",
+        "description": "BRAIN CONTROL OF BODILY FUNCTIONS"
+    },
+    {
+        "code": "CBNS120L",
+        "description": "NEUROSCIENCE LABORATORY"
+    },
+    {
+        "code": "CBNS197",
+        "description": "RESEARCH FOR UNDERGRADUATES"
+    },
+    {
+        "code": "CBNS194",
+        "description": "INDEPENDENT READING"
+    },
+    {
+        "code": "CBNS165",
+        "description": "STEM CELL BIOLOGY"
+    },
+    {
+        "code": "CBNS106",
+        "description": "INTRODUCTION TO NEUROSCIENCE"
+    },
+    {
+        "code": "CBNS199",
+        "description": "SENIOR RESEARCH"
+    },
+    {
+        "code": "CBNS198I",
+        "description": "INDIVIDUAL INTERNSHIP"
+    },
+    {
+        "code": "CMDB200",
+        "description": "CELL BIOLOGY"
+    },
+    {
+        "code": "CMDB299",
+        "description": "RESEARCH FOR THE THESIS OR DISSERTATION"
+    },
+    {
+        "code": "CMDB281F",
+        "description": "SEMINAR IN CELL DEVELOPMENT, STRUCTURE, AND FUNCTION"
+    },
+    {
+        "code": "CMDB250",
+        "description": "SPECIAL TOPICS IN CELL, MOLECULAR, AND DEVELOPMENTAL BIOLOGY"
+    },
+    {
+        "code": "CMDB290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "CMDB297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "CMDB281E",
+        "description": "NANOBIOTECHNOLOGY"
+    },
+    {
+        "code": "CMDB255",
+        "description": "STEM CELL BIOLOGY"
+    },
+    {
+        "code": "CMDB292",
+        "description": "CONCURRENT ANALYTICAL STUDIES IN CELL, MOLECULAR, AND DEVELOPMENTAL BIOLOGY"
+    },
+    {
+        "code": "CMDB257",
+        "description": "SEMINAR IN CELL, MOLECULAR, AND DEVELOPMENTAL BIOLOGY"
+    },
+    {
+        "code": "CHFY007",
+        "description": "CHASS F1RST LEARNING COMMUNITY WORKSHOP"
+    },
+    {
+        "code": "CHFY001I",
+        "description": "CHASS F1RST HUMANITIES COURSE: HISTORY"
+    },
+    {
+        "code": "CEE267",
+        "description": "SPECIAL TOPICS IN BIONANOTECHNOLOGY"
+    },
+    {
+        "code": "CEE259",
+        "description": "SPECIAL TOPICS IN MATERIALS ELECTROCHEMISTRY"
+    },
+    {
+        "code": "CEE255",
+        "description": "SPECIAL TOPICS IN WATER QUALITY ENGINEERING"
+    },
+    {
+        "code": "CEE140A",
+        "description": "BIOMATERIALS"
+    },
+    {
+        "code": "CEE010",
+        "description": "INTRODUCTION TO CHEMICAL AND ENVIRONMENTAL ENGINEERING"
+    },
+    {
+        "code": "CEE290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "CEE263",
+        "description": "MEMBRANE SEPARATIONS"
+    },
+    {
+        "code": "CEE260",
+        "description": "STRUCTURAL ORDERING IN COLLOIDAL DISPERSIONS"
+    },
+    {
+        "code": "CEE256",
+        "description": "SPECIAL TOPICS IN PARTICULATE MEASUREMENT AND AIR QUALITY"
+    },
+    {
+        "code": "CEE212",
+        "description": "BIOSEPARATIONS AND BIOPROCESS ENGINEERING"
+    },
+    {
+        "code": "CEE253",
+        "description": "BIODEGRADATION AND BIOREMEDIATION"
+    },
+    {
+        "code": "CEE250",
+        "description": "SPECIAL TOPICS IN CHEMICAL AND ENVIRONMENTAL ENGINEERING"
+    },
+    {
+        "code": "CEE243",
+        "description": "ADVANCED WATER TREATMENT TECHNOLOGIES"
+    },
+    {
+        "code": "CEE202",
+        "description": "TRANSPORT PHENOMENA"
+    },
+    {
+        "code": "CEE125",
+        "description": "ANALYTICAL METHODS FOR CHEMICAL AND ENVIRONMENTAL ENGINEERS"
+    },
+    {
+        "code": "CEE302",
+        "description": "TEACHING PRACTICUM"
+    },
+    {
+        "code": "CEE298I",
+        "description": "INDIVIDUAL INTERNSHIP"
+    },
+    {
+        "code": "CEE258",
+        "description": "BIOSENSING AND BIODETOXIFICATION"
+    },
+    {
+        "code": "CEE249",
+        "description": "INTEGRATION OF COMPUTATIONAL AND EXPERIMENTAL BIOLOGY"
+    },
+    {
+        "code": "CEE238B",
+        "description": "BIOPROCESS DESIGN LABORATORY II"
+    },
+    {
+        "code": "CEE286",
+        "description": "COLLOQUIUM IN CHEMICAL AND ENVIRONMENTAL ENGINEERING"
+    },
+    {
+        "code": "CEE266",
+        "description": "SPECIAL TOPICS IN BIOLOGICAL CONVERSION OF BIOMASS"
+    },
+    {
+        "code": "CEE211",
+        "description": "UPSTREAM PROCESSES IN BIOTECHNOLOGY"
+    },
+    {
+        "code": "CEE204",
+        "description": "ADVANCED KINETICS AND REACTION ENGINEERING"
+    },
+    {
+        "code": "CEE159",
+        "description": "DYNAMICS OF BIOLOGICAL SYSTEMS"
+    },
+    {
+        "code": "CEE265",
+        "description": "SPECIAL TOPICS IN MICROBIAL FATE AND TRANSPORT IN AQUATIC ENVIRONMENTS"
+    },
+    {
+        "code": "CEE269",
+        "description": "SPECIAL TOPICS IN AEROSOLS AND CLIMATE"
+    },
+    {
+        "code": "CEE292",
+        "description": "CONCURRENT STUDIES IN CHEMICAL AND ENVIRONMENTAL ENGINEERING"
+    },
+    {
+        "code": "CEE297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "CEE299",
+        "description": "RESEARCH FOR THE THESIS OR DISSERTATION"
+    },
+    {
+        "code": "CHE118",
+        "description": "PROCESS DYNAMICS AND CONTROL"
+    },
+    {
+        "code": "CHE110B",
+        "description": "CHEMICAL PROCESS ANALYSIS"
+    },
+    {
+        "code": "CHE100",
+        "description": "ENGINEERING THERMODYNAMICS"
+    },
+    {
+        "code": "CHE175A",
+        "description": "CHEMICAL PROCESS DESIGN"
+    },
+    {
+        "code": "CHE160C",
+        "description": "CHEMICAL ENGINEERING LABORATORY"
+    },
+    {
+        "code": "CHE124L",
+        "description": "BIOCHEMICAL ENGINEERING LABORATORY"
+    },
+    {
+        "code": "CHE120",
+        "description": "MASS TRANSFER"
+    },
+    {
+        "code": "CHE190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
+        "code": "CHE131",
+        "description": "ELECTROCHEMICAL ENGINEERING"
+    },
+    {
+        "code": "CHE105",
+        "description": "INTRODUCTION TO NANOSCALE ENGINEERING"
+    },
+    {
+        "code": "CHEM258",
+        "description": "SEMINAR IN SURFACE SCIENCE"
+    },
+    {
+        "code": "CHEM252",
+        "description": "GRADUATE SEMINAR IN INORGANIC CHEMISTRY"
+    },
+    {
+        "code": "CHEM110B",
+        "description": "PHYSICAL CHEMISTRY: INTRODUCTION TO STATISTICAL MECHANICS AND KINETICS"
+    },
+    {
+        "code": "CHEM297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "CHEM201E",
+        "description": "ADVANCED PHYSICAL CHEMISTRY: KINETICS"
+    },
+    {
+        "code": "CHEM008B",
+        "description": "ORGANIC CHEMISTRY"
+    },
+    {
+        "code": "CHEM008A",
+        "description": "ORGANIC CHEMISTRY"
+    },
+    {
+        "code": "CHEM254",
+        "description": "GRADUATE SEMINAR IN PHYSICAL CHEMISTRY"
+    },
+    {
+        "code": "CHEM197",
+        "description": "RESEARCH FOR UNDERGRADUATES"
+    },
+    {
+        "code": "CHEM253",
+        "description": "GRADUATE SEMINAR IN ORGANIC CHEMISTRY"
+    },
+    {
+        "code": "CHEM251",
+        "description": "GRADUATE SEMINAR IN ANALYTICAL CHEMISTRY"
+    },
+    {
+        "code": "CHEM199H",
+        "description": "SENIOR HONORS RESEARCH"
+    },
+    {
+        "code": "CHEM001A",
+        "description": "GENERAL CHEMISTRY"
+    },
+    {
+        "code": "CHEM296",
+        "description": "DESIGNER LIGANDS"
+    },
+    {
+        "code": "CHEM190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
+        "code": "CHEM097H",
+        "description": "FRESHMAN HONORS PROJECT: INTRODUCTION TO RESEARCH"
+    },
+    {
+        "code": "CHEM302",
+        "description": "TEACHING PRACTICUM"
+    },
+    {
+        "code": "CHEM250",
+        "description": "GRADUATE SEMINAR IN CHEMISTRY"
+    },
+    {
+        "code": "CHEM231B",
+        "description": "REACTIVITY AND MECHANISM IN INORGANIC AND ORGANOMETALLIC CHEMISTRY"
+    },
+    {
+        "code": "CHEM206A",
+        "description": "INTRODUCTION TO COMPUTATIONAL QUANTUM CHEMISTRY"
+    },
+    {
+        "code": "CHEM201B",
+        "description": "ADVANCED PHYSICAL CHEMISTRY: QUANTUM MECHANICS AND SPECTROSCOPY"
+    },
+    {
+        "code": "CHEM199",
+        "description": "SENIOR RESEARCH"
+    },
+    {
+        "code": "CHEM08LA",
+        "description": "ORGANIC CHEMISTRY LABORATORY"
+    },
+    {
+        "code": "CHEM01LB",
+        "description": "GENERAL CHEMISTRY LABORATORY"
+    },
+    {
+        "code": "CHEM005",
+        "description": "QUANTITATIVE ANALYSIS"
+    },
+    {
+        "code": "CHEM001B",
+        "description": "GENERAL CHEMISTRY"
+    },
+    {
+        "code": "CHEM221C",
+        "description": "ADVANCED ANALYTICAL CHEMISTRY: ELECTROCHEMISTRY"
+    },
+    {
+        "code": "CHEM150A",
+        "description": "INORGANIC CHEMISTRY"
+    },
+    {
+        "code": "CHEM143",
+        "description": "CHEMICAL BIOLOGY"
+    },
+    {
+        "code": "CHEM01LA",
+        "description": "GENERAL CHEMISTRY LABORATORY"
+    },
+    {
+        "code": "CHEM08LB",
+        "description": "ORGANIC CHEMISTRY LABORATORY"
+    },
+    {
+        "code": "CHEM111",
+        "description": "PHYSICAL CHEMISTRY LABORATORY"
+    },
+    {
+        "code": "CHEM211E",
+        "description": "ADVANCED ORGANIC REACTIONS"
+    },
+    {
+        "code": "CHEM231C",
+        "description": "SOLID STATE AND MATERIALS IN INORGANIC CHEMISTRY"
+    },
+    {
+        "code": "CHEM299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION"
+    },
+    {
+        "code": "CHN003",
+        "description": "FIRST-YEAR CHINESE"
+    },
+    {
+        "code": "CHN115S",
+        "description": "THE SHORT STORY"
+    },
+    {
+        "code": "CHN004",
+        "description": "SECOND-YEAR CHINESE"
+    },
+    {
+        "code": "CHN020B",
+        "description": "FIRST-YEAR CHINESE FOR HERITAGE LEARNERS"
+    },
+    {
+        "code": "CHN020A",
+        "description": "FIRST-YEAR CHINESE FOR HERITAGE LEARNERS"
+    },
+    {
+        "code": "CHN001",
+        "description": "FIRST-YEAR CHINESE"
+    },
+    {
+        "code": "CHN101B",
+        "description": "THIRD-YEAR CHINESE"
+    },
+    {
+        "code": "CHN112",
+        "description": "ASIAN PHILOSOPHY"
+    },
+    {
+        "code": "CHN005",
+        "description": "SECOND-YEAR CHINESE"
+    },
+    {
+        "code": "CHN002",
+        "description": "FIRST-YEAR CHINESE"
+    },
+    {
+        "code": "CHN046",
+        "description": "RESPONSES TO POLITICAL REPRESSION IN MODERN CHINESE LITERATURE AND FILM"
+    },
+    {
+        "code": "CLA299",
+        "description": "RESEARCH FOR THE THESIS OR DISSERTATION"
+    },
+    {
+        "code": "CLA010B",
+        "description": "ANCIENT CIVILIZATION: CLASSICAL GREECE"
+    },
+    {
+        "code": "CLA114",
+        "description": "THE CLASSICAL TRADITION"
+    },
+    {
+        "code": "CPAC129A",
+        "description": "INTRODUCTION TO MAYA HIEROGLYPHS"
+    },
+    {
+        "code": "CPLT293I",
+        "description": "RESEARCH TOPICS IN COMPARATIVE LITERATURE &amp; FOREIGN LANGUAGES"
+    },
+    {
+        "code": "CPLT290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "CPLT110",
+        "description": "LITERARY ANALYSIS AND CRITICISM"
+    },
+    {
+        "code": "CPLT302",
+        "description": "TEACHING PRACTICUM"
+    },
+    {
+        "code": "CPLT190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
+        "code": "CPLT293H",
+        "description": "RESEARCH TOPICS IN COMPARATIVE LITERATURE &amp; FOREIGN LANGUAGES"
+    },
+    {
+        "code": "CPLT293G",
+        "description": "RESEARCH TOPICS IN COMPARATIVE LITERATURE &amp; FOREIGN LANGUAGES"
+    },
+    {
+        "code": "CPLT291",
+        "description": "INDIVIDUAL STUDIES IN COORDINATED AREAS"
+    },
+    {
+        "code": "CPLT205",
+        "description": "LITERATURE OF SOUTHEAST ASIA"
+    },
+    {
+        "code": "CPLT193",
+        "description": "CAPSTONE RESEARCH SEMINAR"
+    },
+    {
+        "code": "CPLT299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION"
+    },
+    {
+        "code": "CPLT293U",
+        "description": "RESEARCH TOPICS IN COMPARATIVE LITERATURE &amp; FOREIGN LANGUAGES"
+    },
+    {
+        "code": "CPLT293F",
+        "description": "RESEARCH TOPICS IN COMPARATIVE LITERATURE &amp; FOREIGN LANGUAGES"
+    },
+    {
+        "code": "CPLT220F",
+        "description": "BENJAMIN"
+    },
+    {
+        "code": "CPLT042",
+        "description": "RESPONSES TO POLITICAL REPRESSION IN MODERN CHINESE LITERATURE AND FILM"
+    },
+    {
+        "code": "CPLT017C",
+        "description": "MASTERWORKS OF WORLD LITERATURE"
+    },
+    {
+        "code": "CPLT012",
+        "description": "THE WRITER IN WRITING"
+    },
+    {
+        "code": "CPLT293N",
+        "description": "RESEARCH TOPICS IN COMPARATIVE LITERATURE &amp; FOREIGN LANGUAGES"
+    },
+    {
+        "code": "CPLT293J",
+        "description": "RESEARCH TOPICS IN COMPARATIVE LITERATURE &amp; FOREIGN LANGUAGES"
+    },
+    {
+        "code": "CPLT214",
+        "description": "HISTORY OF CRITICISM"
+    },
+    {
+        "code": "CPLT026",
+        "description": "INTRODUCTION TO LITERATURE, FILM, AND ART BY FRENCH AND FRANCOPHONE WOMEN"
+    },
+    {
+        "code": "CPLT025",
+        "description": "INTRODUCTION TO SCIENCE FICTION"
+    },
+    {
+        "code": "CPLT114",
+        "description": "THE CLASSICAL TRADITION"
+    },
+    {
+        "code": "CPLT175",
+        "description": "WOMEN IN AFRICAN LITERATURE"
+    },
+    {
+        "code": "CPLT292",
+        "description": "CONCURRENT ANALYTICAL STUDIES"
+    },
+    {
+        "code": "CPLT293E",
+        "description": "RESEARCH TOPICS IN COMPARATIVE LITERATURE &amp; FOREIGN LANGUAGES"
+    },
+    {
+        "code": "CS008",
+        "description": "INTRODUCTION TO COMPUTING"
+    },
+    {
+        "code": "CS302",
+        "description": "APPRENTICE TEACHING"
+    },
+    {
+        "code": "CS299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION"
+    },
+    {
+        "code": "CS287",
+        "description": "COLLOQUIUM IN COMPUTER SCIENCE"
+    },
+    {
+        "code": "CS224",
+        "description": "FUNDAMENTALS OF MACHINE LEARNING"
+    },
+    {
+        "code": "CS193",
+        "description": "DESIGN PROJECT"
+    },
+    {
+        "code": "CS179E",
+        "description": "Compilers"
+    },
+    {
+        "code": "CS142",
+        "description": "ALGORITHM ENGINEERING"
+    },
+    {
+        "code": "CS141",
+        "description": "INTERMEDIATE DATA STRUCTURES AND ALGORITHMS"
+    },
+    {
+        "code": "CS130",
+        "description": "COMPUTER GRAPHICS"
+    },
+    {
+        "code": "CS105",
+        "description": "DATA ANALYSIS METHODS"
+    },
+    {
+        "code": "CS009P",
+        "description": "INTRODUCTION TO PROGRAMMING"
+    },
+    {
+        "code": "CS006",
+        "description": "EFFECTIVE USE OF THE WORLD WIDE WEB"
+    },
+    {
+        "code": "CS242",
+        "description": "INFORMATION RETRIEVAL AND WEB SEARCH"
+    },
+    {
+        "code": "CS234",
+        "description": "COMPUTATIONAL METHODS FOR BIOMOLECULAR DATA"
+    },
+    {
+        "code": "CS218",
+        "description": "DESIGN AND ANALYSIS OF ALGORITHMS"
+    },
+    {
+        "code": "CS165",
+        "description": "COMPUTER SECURITY"
+    },
+    {
+        "code": "CS120B",
+        "description": "INTRODUCTION TO EMBEDDED SYSTEMS"
+    },
+    {
+        "code": "CS111",
+        "description": "DISCRETE STRUCTURES"
+    },
+    {
+        "code": "CS061",
+        "description": "MACHINE ORGANIZATION AND ASSEMBLY LANGUAGE PROGRAMMING"
+    },
+    {
+        "code": "CS011",
+        "description": "INTRODUCTION TO DISCRETE STRUCTURES"
+    },
+    {
+        "code": "CS010C",
+        "description": "INTRODUCTION TO DATA STRUCTURES AND ALGORITHMS"
+    },
+    {
+        "code": "CS010B",
+        "description": "INTRODUCTION TO COMPUTER SCIENCE FOR SCIENCE, MATHEMATICS, AND ENGINEERING II"
+    },
+    {
+        "code": "CS216",
+        "description": "ADVANCED CRYPTOGRAPHY"
+    },
+    {
+        "code": "CS213",
+        "description": "MULTIPROCESSOR ARCHITECTURE AND PROGRAMMING"
+    },
+    {
+        "code": "CS179F",
+        "description": "PROJECT IN COMPUTER SCIENCE: OPERATING SYSTEMS"
+    },
+    {
+        "code": "CS171",
+        "description": "INTRODUCTION TO MACHINE LEARNING AND DATA MINING"
+    },
+    {
+        "code": "CS161L",
+        "description": "LABORATORY IN DESIGN AND ARCHITECTURE OF COMPUTER SYSTEMS"
+    },
+    {
+        "code": "CS135",
+        "description": "VIRTUAL REALITY"
+    },
+    {
+        "code": "CS251",
+        "description": "REAL-TIME EMBEDDED SYSTEMS"
+    },
+    {
+        "code": "CS201",
+        "description": "COMPILER CONSTRUCTION"
+    },
+    {
+        "code": "CS100",
+        "description": "SOFTWARE CONSTRUCTION"
+    },
+    {
+        "code": "CS297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "CS161",
+        "description": "DESIGN AND ARCHITECTURE OF COMPUTER SYSTEMS"
+    },
+    {
+        "code": "CS152",
+        "description": "COMPILER DESIGN"
+    },
+    {
+        "code": "CS150",
+        "description": "AUTOMATA AND FORMAL LANGUAGES"
+    },
+    {
+        "code": "CS181",
+        "description": "PRINCIPLES OF PROGRAMMING LANGUAGES"
+    },
+    {
+        "code": "CS168",
+        "description": "INTRODUCTION TO VERY LARGE SCALE INTEGRATION (VLSI) DESIGN"
+    },
+    {
+        "code": "CS166",
+        "description": "DATABASE MANAGEMENT SYSTEMS"
+    },
+    {
+        "code": "CS153",
+        "description": "DESIGN OF OPERATING SYSTEMS"
+    },
+    {
+        "code": "CS298I",
+        "description": "INDIVIDUAL INTERNSHIP"
+    },
+    {
+        "code": "CS255",
+        "description": "COMPUTER SECURITY"
+    },
+    {
+        "code": "CS208",
+        "description": "CLOUD COMPUTING AND CLOUD NETWORKING"
+    },
+    {
+        "code": "CS203",
+        "description": "ADVANCED COMPUTER ARCHITECTURE"
+    },
+    {
+        "code": "CS190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
+        "code": "CS170",
+        "description": "INTRODUCTION TO ARTIFICIAL INTELLIGENCE"
+    },
+    {
+        "code": "CS010A",
+        "description": "INTRODUCTION TO COMPUTER SCIENCE FOR SCIENCE, MATHEMATICS, AND ENGINEERING I"
+    },
+    {
+        "code": "CS005",
+        "description": "INTRODUCTION TO COMPUTER PROGRAMMING"
+    },
+    {
+        "code": "CS215",
+        "description": "THEORY OF COMPUTATION"
+    },
+    {
+        "code": "CS202",
+        "description": "ADVANCED OPERATING SYSTEMS"
+    },
+    {
+        "code": "CS178B",
+        "description": "PROJECT SEQUENCE IN COMPUTER SCIENCE AND ENGINEERING"
+    },
+    {
+        "code": "CS160",
+        "description": "CONCURRENT PROGRAMMING AND PARALLEL SYSTEMS"
+    },
+    {
+        "code": "CS120A",
+        "description": "LOGIC DESIGN"
+    },
+    {
+        "code": "CRWT057A",
+        "description": "INTRODUCTION TO FICTION"
+    },
+    {
+        "code": "CRWT176",
+        "description": "CHILD NARRATORS IN FICTION"
+    },
+    {
+        "code": "CRWT152",
+        "description": "BEGINNING FICTION WORKSHOP"
+    },
+    {
+        "code": "CRWT150",
+        "description": "BEGINNING POETRY WORKSHOP"
+    },
+    {
+        "code": "CRWT198I",
+        "description": "INDIVIDUAL INTERNSHIP"
+    },
+    {
+        "code": "CRWT164B",
+        "description": "INTERMEDIATE PLAYWRITING"
+    },
+    {
+        "code": "CRWT160",
+        "description": "INTERMEDIATE POETRY WORKSHOP"
+    },
+    {
+        "code": "CRWT146",
+        "description": "MISFITS MISCREANTS &amp; WEIRDOS"
+    },
+    {
+        "code": "CRWT046S",
+        "description": "CRAFT OF WRITING: SURVEY IN CONTEMPORARY FICTION\r\n"
+    },
+    {
+        "code": "CRWT132",
+        "description": "INTERMEDIATE CREATIVE NONFICTION"
+    },
+    {
+        "code": "CRWT056",
+        "description": "INTRODUCTION TO CREATIVE WRITING"
+    },
+    {
+        "code": "CRWT066",
+        "description": "SCREENWRITING: HOW MOVIES WORK"
+    },
+    {
+        "code": "CRWT012",
+        "description": "THE WRITER IN WRITING"
+    },
+    {
+        "code": "CRWT172",
+        "description": "ADVANCED FICTION WORKSHOP"
+    },
+    {
+        "code": "CRWT076",
+        "description": "THE VERBAL COLISEUM: SPOKEN WORD WORKSHOP"
+    },
+    {
+        "code": "CRWT057B",
+        "description": "INTRODUCTION TO POETRY"
+    },
+    {
+        "code": "CRWT185",
+        "description": "DEATH AND DYING FINAL FRONTIER"
+    },
+    {
+        "code": "CRWT170",
+        "description": "ADVANCED POETRY WORKSHOP"
+    },
+    {
+        "code": "CRWT057C",
+        "description": "INTRODUCTION TO CREATIVE NONFICTION"
+    },
+    {
+        "code": "CRWT130",
+        "description": "BEGINNING CREATIVE NONFICTION"
+    },
+    {
+        "code": "CRWT134",
+        "description": "ADVANCED CREATIVE NONFICTION"
+    },
+    {
+        "code": "CRWT162",
+        "description": "INTERMEDIATE FICTION WORKSHOP"
+    },
+    {
+        "code": "CWPA297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "CWPA292",
+        "description": "CONCURRENT ANALYTICAL STUDIES IN CREATIVE WRITING AND WRITING FOR THE PERFORMING ARTS"
+    },
+    {
+        "code": "CWPA282",
+        "description": "FILM NOIR: STORIES AND CINEMA FROM THE SHADOWS"
+    },
+    {
+        "code": "CWPA252G",
+        "description": "REVISION AND DECISION"
+    },
+    {
+        "code": "CWPA270",
+        "description": "POETRY WORKSHOP"
+    },
+    {
+        "code": "CWPA264",
+        "description": "PLAYWRITING"
+    },
+    {
+        "code": "CWPA290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "CWPA252F",
+        "description": "ART OF THE FIRST BOOK"
+    },
+    {
+        "code": "CWPA200",
+        "description": "ADVANCED PLAY ANALYSIS"
+    },
+    {
+        "code": "CWPA230",
+        "description": "CREATIVE NONFICTION"
+    },
+    {
+        "code": "CWPA214",
+        "description": "ACTING FOR WRITERS"
+    },
+    {
+        "code": "CWPA267",
+        "description": "WRITING FOR TELEVISION"
+    },
+    {
+        "code": "CWPA252E",
+        "description": "NOVEL BOOT CAMP"
+    },
+    {
+        "code": "CWPA299",
+        "description": "RESEARCH FOR THE THESIS OR MANUSCRIPT"
+    },
+    {
+        "code": "CWPA262",
+        "description": "FICTION WORKSHOP"
+    },
+    {
+        "code": "DNCE007W",
+        "description": "DANCE: CULTURES AND CONTEXTS\r\n"
+    },
+    {
+        "code": "DNCE075B",
+        "description": "INTERMEDIATE DANCE TECNIQUES AND PRACTICES"
+    },
+    {
+        "code": "DNCE067B",
+        "description": "INTERMEDIATE MODERN DANCE TECHNIQUE"
+    },
+    {
+        "code": "DNCE067A",
+        "description": "TECHNIQUE:MODERN I"
+    },
+    {
+        "code": "DNCE065A",
+        "description": "BEGINNING LATIN AMERICAN SOCIAL DANCES"
+    },
+    {
+        "code": "DNCE115K",
+        "description": "DANCE AND POLITICAL ACTIVATION"
+    },
+    {
+        "code": "DNCE291",
+        "description": "INDIVIDUAL STUDY IN COORDINATED AREAS"
+    },
+    {
+        "code": "DNCE290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "DNCE240",
+        "description": "IMPROVISING CHOREOGRAPHY: SCORES, STRUCTURES, AND STRATEGIES"
+    },
+    {
+        "code": "DNCE189E",
+        "description": "DANCE MAKING PROJECT"
+    },
+    {
+        "code": "DNCE074B",
+        "description": "INTERMEDIATE YOGA FOR DANCERS"
+    },
+    {
+        "code": "DNCE297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "DNCE167",
+        "description": "DANCE PRODUCTION"
+    },
+    {
+        "code": "DNCE292",
+        "description": "CONCURRENT ANALYTICAL STUDIES IN DANCE"
+    },
+    {
+        "code": "DNCE066A",
+        "description": "BEGINNING WEST AFRICAN DANCE"
+    },
+    {
+        "code": "DNCE005",
+        "description": "INTRODUCTION TO DANCE"
+    },
+    {
+        "code": "DNCE302",
+        "description": "TEACHING PRACTICUM"
+    },
+    {
+        "code": "DNCE255",
+        "description": "HISTORICAL APPROACHES TO DANCE STUDIES"
+    },
+    {
+        "code": "DNCE172M",
+        "description": "TELEVISUAL BODIES"
+    },
+    {
+        "code": "DNCE065B",
+        "description": "INTERMEDIATE LATIN AMERICAN SOCIAL DANCES"
+    },
+    {
+        "code": "DNCE260I",
+        "description": "SEMINAR IN DANCE HISTORY"
+    },
+    {
+        "code": "DNCE132",
+        "description": "DANCE, CITIZENSHIP, LOCATION"
+    },
+    {
+        "code": "DNCE071A",
+        "description": "BEGINNING BALLET TECHNIQUE"
+    },
+    {
+        "code": "DNCE070A",
+        "description": "BEGINNING HIP HOP DANCE"
+    },
+    {
+        "code": "DNCE066B",
+        "description": "INTERMEDIATE WEST AFRICAN DANCE"
+    },
+    {
+        "code": "DNCE299",
+        "description": "RESEARCH FOR THE THESIS OR DISSERTATION"
+    },
+    {
+        "code": "DNCE173J",
+        "description": "DIGITIZED BODIES"
+    },
+    {
+        "code": "DNCE071B",
+        "description": "INTERMEDIATE BALLET TECHNIQUE"
+    },
+    {
+        "code": "DNCE070C",
+        "description": "ADVANCE HIP HOP DANCE"
+    },
+    {
+        "code": "DNCE068",
+        "description": "SOMATIC TECHNIQUES AND EXPERIENTIAL ANATOMY"
+    },
+    {
+        "code": "ECON291",
+        "description": "INDIVIDUAL STUDY IN COORDINATED AREAS"
+    },
+    {
+        "code": "ECON289A",
+        "description": "COLLOQUIUM IN ECONOMICS"
+    },
+    {
+        "code": "ECON241",
+        "description": "LABOR SUPPLY"
+    },
+    {
+        "code": "ECON160",
+        "description": "INDUSTRIAL ORGANIZATION"
+    },
+    {
+        "code": "ECON153",
+        "description": "LABOR ECONOMICS"
+    },
+    {
+        "code": "ECON104B",
+        "description": "INTERMEDIATE MICROECONOMIC THEORY"
+    },
+    {
+        "code": "ECON299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION"
+    },
+    {
+        "code": "ECON205B",
+        "description": "ECONOMETRIC METHODS II"
+    },
+    {
+        "code": "ECON155",
+        "description": "WOMEN&#39;S LABOR AND THE ECONOMY"
+    },
+    {
+        "code": "ECON151",
+        "description": "ECONMICS OF EDUCATION"
+    },
+    {
+        "code": "ECON129",
+        "description": "HEALTH ECONOMICS"
+    },
+    {
+        "code": "ECON107",
+        "description": "INTRODUCTORY ECONOMETRICS"
+    },
+    {
+        "code": "ECON282F",
+        "description": "ADVANCED MACROECONOMIC THEORY"
+    },
+    {
+        "code": "ECON201B",
+        "description": "MACROECONOMIC THEORY"
+    },
+    {
+        "code": "ECON146",
+        "description": "URBAN ECONOMICS"
+    },
+    {
+        "code": "ECON132",
+        "description": "PUBLIC ECONOMICS"
+    },
+    {
+        "code": "ECON105A",
+        "description": "INTERMEDIATE MACROECONOMIC THEORY"
+    },
+    {
+        "code": "ECON292",
+        "description": "CONCURRENT ANALYTICAL STUDIES"
+    },
+    {
+        "code": "ECON104A",
+        "description": "INTERMEDIATE MICROECONOMIC THEORY"
+    },
+    {
+        "code": "ECON003H",
+        "description": "HONORS INTRODUCTION TO MICROECONOMICS"
+    },
+    {
+        "code": "ECON285E",
+        "description": "ADVANCED ECONOMETRICS"
+    },
+    {
+        "code": "ECON200B",
+        "description": "MICROECONOMIC THEORY"
+    },
+    {
+        "code": "ECON181",
+        "description": "ECONOMIC DEVELOPMENT: THEORY AND POLICY"
+    },
+    {
+        "code": "ECON171",
+        "description": "INTERNATIONAL FINANCE"
+    },
+    {
+        "code": "ECON136",
+        "description": "EMPIRICAL FINANCIAL ECONOMICS"
+    },
+    {
+        "code": "ECON134",
+        "description": "INTRODUCTION TO FINANCIAL MANAGEMENT"
+    },
+    {
+        "code": "ECON103",
+        "description": "INTERMEDIATE MACROECONOMICS"
+    },
+    {
+        "code": "ECON263",
+        "description": "HEALTH, LABOR AND HUMAN CAPITAL IN DEVELOPING COUNTRIES"
+    },
+    {
+        "code": "ECON236",
+        "description": "POLITICAL ECONOMY OF INTERNATIONAL FINANCE"
+    },
+    {
+        "code": "ECON162",
+        "description": "MANAGERIAL ECONOMICS"
+    },
+    {
+        "code": "ECON105B",
+        "description": "INTERMEDIATE MACROECONOMIC THEORY"
+    },
+    {
+        "code": "ECON101",
+        "description": "STATISTICS FOR ECONOMICS"
+    },
+    {
+        "code": "ECON283K",
+        "description": "ADVANCED MICROECONOMIC THEORY"
+    },
+    {
+        "code": "ECON003",
+        "description": "INTRODUCTION TO MICROECONOMICS"
+    },
+    {
+        "code": "ECON002",
+        "description": "INTRODUCTION TO MACROECONOMICS"
+    },
+    {
+        "code": "ECON289B",
+        "description": "COLLOQUIUM IN ECONOMICS"
+    },
+    {
+        "code": "ECON246",
+        "description": "INTRODUCTION TO PUBLIC ECONOMICS"
+    },
+    {
+        "code": "ECON178",
+        "description": "INTERNATIONAL TRADE"
+    },
+    {
+        "code": "EDUC377B",
+        "description": "TEACHING PERFORMANCE FOR SINGLE SUBJECT CANDIDATES"
+    },
+    {
+        "code": "EDUC298I",
+        "description": "INDIVIDUAL INTERNSHIP"
+    },
+    {
+        "code": "EDUC265E",
+        "description": "INTERMEDIATE PRACTICUM IN SCHOOL PSYCHOLOGY: LEVEL 2"
+    },
+    {
+        "code": "EDUC248G",
+        "description": "HIGHER EDUCATION GOVERNANCE"
+    },
+    {
+        "code": "EDUC231C",
+        "description": "FOUNDATIONAL PRINCIPLES OF APPLIED BEHAVIORAL ANALYSIS"
+    },
+    {
+        "code": "EDUC132",
+        "description": "THE EXCEPTIONAL CHILD"
+    },
+    {
+        "code": "EDUC019N",
+        "description": "BLACK BRILLIANCE MATTERS"
+    },
+    {
+        "code": "EDUC282B",
+        "description": "CURRICULUM THEORY AND INSTRUCTIONAL PROCESSES: SOCIAL STUDIES, VISUAL AND PERFORMING ARTS, AND PHYSI"
+    },
+    {
+        "code": "EDUC254A",
+        "description": "COGNITIVE ASSESSMENT FOR SCHOOL PSYCHOLOGISTS"
+    },
+    {
+        "code": "EDUC248K",
+        "description": "THE DISSERTATION AND THE PROPOSAL IN EDUCATION"
+    },
+    {
+        "code": "EDUC245G",
+        "description": "THE OPPORTUNTY/ACHIEVEMENT GAP"
+    },
+    {
+        "code": "EDUC226",
+        "description": "ETHNIC STUDIES AND EDUCATION"
+    },
+    {
+        "code": "EDUC344B",
+        "description": "MULTIPLE SUBJECTS CREDENTIAL SEMINAR"
+    },
+    {
+        "code": "EDUC275",
+        "description": "RACE AND K-12 EDUCATIONAL INEQUALITY\r\n"
+    },
+    {
+        "code": "EDUC220B",
+        "description": "SOCIOCULTURAL THEORY AND EDUCATION"
+    },
+    {
+        "code": "EDUC198I",
+        "description": "INDIVIDUAL INTERNSHIP"
+    },
+    {
+        "code": "EDUC179A",
+        "description": "LANGUAGE DEVELOPMENT IN CONTENT AREAS"
+    },
+    {
+        "code": "EDUC061",
+        "description": "INTRODUCTION TO HUMAN DEVELOPMENT"
+    },
+    {
+        "code": "EDUC023",
+        "description": "INTRODUCTION TO EDUCATION POLICY"
+    },
+    {
+        "code": "EDUC005",
+        "description": "INTRODUCTION TO EDUCATION STUDIES"
+    },
+    {
+        "code": "EDUC302",
+        "description": "COLLEGE TEACHING PRACTICUM"
+    },
+    {
+        "code": "EDUC299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION"
+    },
+    {
+        "code": "EDUC290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "EDUC268B",
+        "description": "ADVANCED PRACTICUM IN SCHOOL PSYCHOLOGY: LEVEL 2"
+    },
+    {
+        "code": "EDUC248I",
+        "description": "CRITICAL ISSUES IN HIGHER EDUC"
+    },
+    {
+        "code": "EDUC246K",
+        "description": "AUTISM SPECTRUM DISORDERS"
+    },
+    {
+        "code": "EDUC237",
+        "description": "CONCENTRATED FIELDWORK IN APPLIED BEHAVIOR ANALYSIS"
+    },
+    {
+        "code": "EDUC214B",
+        "description": "MULTIPLE REGRESSION ANALYSIS"
+    },
+    {
+        "code": "EDUC179B",
+        "description": "LANGUAGE DEVELOPMENT IN CONTENT AREAS: ESL INSTRUCTION EMPHASIS"
+    },
+    {
+        "code": "EDUC146",
+        "description": "EDUCATIONAL PERSPECTIVES ON THE CHICANO"
+    },
+    {
+        "code": "EDUC118",
+        "description": "EDUCATIONAL RESEARCH METHODS"
+    },
+    {
+        "code": "EDUC094",
+        "description": "TRANSFER SEMINAR: EXPLORING THE TOOLS AND OPPORTUNITIES FOR STUDENT SUCCESS"
+    },
+    {
+        "code": "EDUC044",
+        "description": "PRINCIPLES OF HEALTHFUL LIVING"
+    },
+    {
+        "code": "EDUC336B",
+        "description": "SUPERVISED TEACHING IN THE ELEMENTARY SCHOOL"
+    },
+    {
+        "code": "EDUC297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "EDUC273",
+        "description": "CRITICAL PEDAGOGY"
+    },
+    {
+        "code": "EDUC254C",
+        "description": "SOCIAL, EMOTIONAL, AND BEHAVIORAL ASSESSMENT"
+    },
+    {
+        "code": "EDUC236B",
+        "description": "BEHAVIOR ANALYTIC SKILLS DEVELOPMENT: LEVEL 2"
+    },
+    {
+        "code": "EDUC147",
+        "description": "EDUCATION IN A DIVERSE SOCIETY"
+    },
+    {
+        "code": "EDUC104",
+        "description": "MATHEMATICS EDUCATION"
+    },
+    {
+        "code": "EDUC042",
+        "description": "EDUCATION FOR CRITICAL CONSCIOUSNESS"
+    },
+    {
+        "code": "EDUC376B",
+        "description": "SUPERVISED TEACHING IN THE SECONDARY SCHOOL"
+    },
+    {
+        "code": "EDUC345A",
+        "description": "SUPERVISED STUDENT TEACHING IN A SPECIAL CLASS FOR INDIVIDUALS WITH MILD/MODERATE DISABILITIES"
+    },
+    {
+        "code": "EDUC295D",
+        "description": "FUNCTIONAL COMMUNICATION AND SELF-ADVOCACY"
+    },
+    {
+        "code": "EDUC260",
+        "description": "HISTORY OF CURRICULUM"
+    },
+    {
+        "code": "EDUC248R",
+        "description": "COLLEGE STUDENT DEVELOPMENT"
+    },
+    {
+        "code": "EDUC223A",
+        "description": "QUALITATIVE RESEARCH METHODOLOGIES IN EDUCATION"
+    },
+    {
+        "code": "EDUC160",
+        "description": "COGNITIVE DEVELOPMENT AND EDUCATION"
+    },
+    {
+        "code": "EDUC134",
+        "description": "ABNORMAL PSYCHOLOGY FOR EDUCATORS"
+    },
+    {
+        "code": "EDUC123",
+        "description": "SCHOOL EFFECTIVENESS AND EDUCATIONAL EQUITY"
+    },
+    {
+        "code": "EDUC348B",
+        "description": "SINGLE SUBJECT CREDENTIAL SEMINAR"
+    },
+    {
+        "code": "EDUC345B",
+        "description": "SUPERVISED STUDENT TEACHING IN A SPECIAL CLASS FOR INDIVIDUALS WITH MODERATE/SEVERE DISABILITIES"
+    },
+    {
+        "code": "EDUC291",
+        "description": "INDIVIDUAL STUDIES IN COORDINATED AREAS"
+    },
+    {
+        "code": "EDUC265B",
+        "description": "BEGINNING PRACTICUM IN SCHOOL PSYCHOLOGY: LEVEL 2"
+    },
+    {
+        "code": "EDUC255B",
+        "description": "PRINCIPLES OF ACADEMIC BEHAVIOR INTERVENTION"
+    },
+    {
+        "code": "EDUC231B",
+        "description": "BEHAVIORAL INTERVENTIONS IN THE SCHOOLS"
+    },
+    {
+        "code": "EDUC198",
+        "description": "PUBLIC HEALTH APPLICATIONS IN THE I.E."
+    },
+    {
+        "code": "EDUC102",
+        "description": "DEMOCRATIC PEDAGOGY: DEVELOPING R&#39;COURSES"
+    },
+    {
+        "code": "EDUC093B",
+        "description": "FIRST-YEAR SEMINAR: EXPLORING OPPORTUNITIES FOR SUCCESS"
+    },
+    {
+        "code": "EDUC003",
+        "description": "IMAGINING TEACHING: SCIENCE/MATHEMATICS EMPHASIS"
+    },
+    {
+        "code": "EDUC337B",
+        "description": "TEACHING PERFORMANCE FOR MULTIPLE SUBJECT CANDIDATES"
+    },
+    {
+        "code": "EDUC209",
+        "description": "EDUCATION POLICY ANALYSIS"
+    },
+    {
+        "code": "EDUC190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
+        "code": "EDUC182",
+        "description": "BEHAVIORAL INTERVENTIONS IN THE SCHOOLS"
+    },
+    {
+        "code": "EE117",
+        "description": "ELECTROMAGNETICS II"
+    },
+    {
+        "code": "EE290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "EE235",
+        "description": "LINEAR SYSTEM THEORY"
+    },
+    {
+        "code": "EE231",
+        "description": "CONVEX OPTIMIZATION IN ENGINEERING APPLICATIONS"
+    },
+    {
+        "code": "EE190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
+        "code": "EE120B",
+        "description": "INTRODUCTION TO EMBEDDED SYSTEMS"
+    },
+    {
+        "code": "EE001A",
+        "description": "ENGINEERING CIRCUIT ANALYSIS I"
+    },
+    {
+        "code": "EE175B",
+        "description": "SENIOR DESIGN PROJECT"
+    },
+    {
+        "code": "EE01LA",
+        "description": "ENGINEERING CIRCUIT ANALYSIS I LABORATORY"
+    },
+    {
+        "code": "EE297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "EE260",
+        "description": "SEMINAR IN ELECTRICAL ENGINEERING"
+    },
+    {
+        "code": "EE259",
+        "description": "COLLOQUIUM IN ELECTRICAL ENGINEERING"
+    },
+    {
+        "code": "EE151",
+        "description": "INTRODUCTION TO DIGITAL CONTROL"
+    },
+    {
+        "code": "EE136",
+        "description": "SEMICONDUCTOR DEVICE PROCESSING"
+    },
+    {
+        "code": "EE111",
+        "description": "DIGITAL AND ANALOG SIGNALS AND SYSTEMS"
+    },
+    {
+        "code": "EE299",
+        "description": "RESEARCH FOR THE THESIS OR DISSERTATION"
+    },
+    {
+        "code": "EE298I",
+        "description": "INDIVIDUAL INTERNSHIP IN ELECTRICAL ENGINEERING"
+    },
+    {
+        "code": "EE224",
+        "description": "DIGITAL COMMUNICATION THEORY AND SYSTEMS"
+    },
+    {
+        "code": "EE213",
+        "description": "COMPUTER-AIDED ELECTRONIC CIRCUIT SIMULATION"
+    },
+    {
+        "code": "EE206",
+        "description": "NANOSCALE CHARACTERIZATION TECHNIQUES"
+    },
+    {
+        "code": "EE168",
+        "description": "INTRODUCTION TO VERY LARGE SCALE INTEGRATION (VLSI) DESIGN"
+    },
+    {
+        "code": "EE152",
+        "description": "IMAGE PROCESSING"
+    },
+    {
+        "code": "EE142",
+        "description": "INTRODUCTION TO MACHINE LEARNING AND DATA MINING"
+    },
+    {
+        "code": "EE114",
+        "description": "PROBABILITY, RANDOM VARIABLES, AND RANDOM PROCESSES IN ELECTRICAL ENGINEERING"
+    },
+    {
+        "code": "EE110B",
+        "description": "SIGNALS AND SYSTEMS"
+    },
+    {
+        "code": "EE110A",
+        "description": "SIGNALS AND SYSTEMS"
+    },
+    {
+        "code": "EE100A",
+        "description": "ELECTRONIC CIRCUITS"
+    },
+    {
+        "code": "EE001B",
+        "description": "ENGINEERING CIRCUIT ANALYSIS II"
+    },
+    {
+        "code": "EE236",
+        "description": "STATE AND PARAMETER ESTIMATION THEORY"
+    },
+    {
+        "code": "EE202",
+        "description": "FUNDAMENTALS OF SEMICONDUCTORS AND NANOSTRUCTURES"
+    },
+    {
+        "code": "EE197",
+        "description": "RESEARCH FOR UNDERGRADUATES"
+    },
+    {
+        "code": "EE146",
+        "description": "COMPUTER VISION"
+    },
+    {
+        "code": "EE105",
+        "description": "MODELING AND SIMULATION OF DYNAMIC SYSTEMS"
+    },
+    {
+        "code": "EE255",
+        "description": "REAL-TIME EMBEDDED SYSTEMS"
+    },
+    {
+        "code": "EE137",
+        "description": "INTRODUCTION TO SEMICONDUCTOR OPTOELECTRONIC DEVICES"
+    },
+    {
+        "code": "EE120A",
+        "description": "LOGIC DESIGN"
+    },
+    {
+        "code": "EE250",
+        "description": "INFORMATION THEORY"
+    },
+    {
+        "code": "ENGR201",
+        "description": "TECHNOLOGY INNOVATION AND STRATEGY FOR ENGINEERS\r\n"
+    },
+    {
+        "code": "ENGR101M",
+        "description": "PROFESSIONAL DEVELOPMENT AND MENTORING"
+    },
+    {
+        "code": "ENGR101G",
+        "description": "PROFESSIONAL DEVELOPMENT AND MENTORING"
+    },
+    {
+        "code": "ENGR109",
+        "description": "TECHNOLOGY IN MODERN EUROPE AND AMERICA, 1700-PRESENT"
+    },
+    {
+        "code": "ENGR180W",
+        "description": "TECHNICAL COMMUNICATIONS"
+    },
+    {
+        "code": "ENGR108",
+        "description": "TECHNOLOGY IN PREMODERN CIVILIZATIONS"
+    },
+    {
+        "code": "ENGR198I",
+        "description": "INDIVIDUAL INTERNSHIP"
+    },
+    {
+        "code": "ENGR101I",
+        "description": "PROFESSIONAL DEVELOPMENT AND MENTORING"
+    },
+    {
+        "code": "ENGR202",
+        "description": "INTRODUCTION TO SYSTEMS ENGINEERING"
+    },
+    {
+        "code": "ENGR296",
+        "description": "PROFESSIONAL PROJECT DESIGN"
+    },
+    {
+        "code": "ENGR171",
+        "description": "GLOBALIZATION"
+    },
+    {
+        "code": "ENGL292",
+        "description": "CONCURRENT ANALYTICAL STUDIES"
+    },
+    {
+        "code": "ENGL129C",
+        "description": "MODERN BRITISH &amp;AMERICAN DRAMA"
+    },
+    {
+        "code": "ENGL128G",
+        "description": "MILTON"
+    },
+    {
+        "code": "ENGL121T",
+        "description": "POSTCOL LIT IN ENG FRM SE ASIA"
+    },
+    {
+        "code": "ENGL004L",
+        "description": "ENGLISH WRITING"
+    },
+    {
+        "code": "ENGL001A",
+        "description": "BEGINNING COMPOSITION"
+    },
+    {
+        "code": "ENGL289",
+        "description": "SEMINAR IN GENRES"
+    },
+    {
+        "code": "ENGL145K",
+        "description": "AFRICAN AMERICAN VISUAL CULTUR"
+    },
+    {
+        "code": "ENGL132",
+        "description": "AMERICAN LITERATURE FROM THE CIVIL WAR TO 1914"
+    },
+    {
+        "code": "ENGL001C",
+        "description": "APPLIED INTERMEDIATE COMPOSITION"
+    },
+    {
+        "code": "ENGL001B",
+        "description": "INTERMEDIATE COMPOSITION"
+    },
+    {
+        "code": "ENGL282",
+        "description": "SEMINAR IN BIBLIOGRAPHY AND TEXTUAL CRITICISM"
+    },
+    {
+        "code": "ENGL142N",
+        "description": "POLITICS OF VISUAL CULTURE"
+    },
+    {
+        "code": "ENGL007",
+        "description": "WORKSHOP IN WRITING ACROSS THE CURRICULUM"
+    },
+    {
+        "code": "ENGL273",
+        "description": "SEMINAR IN CULTURAL STUDIES"
+    },
+    {
+        "code": "ENGL139T",
+        "description": "STUDIES IN ASIAN AMERICAN LITERATURE"
+    },
+    {
+        "code": "ENGL128Q",
+        "description": "DICKINSON"
+    },
+    {
+        "code": "ENGL012R",
+        "description": "CHICANA &amp; CHICANO LITERATURE"
+    },
+    {
+        "code": "ENGL299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION"
+    },
+    {
+        "code": "ENGL297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "ENGL151T",
+        "description": "STUDIES IN MEDIEVAL LITERATURE"
+    },
+    {
+        "code": "ENGL020B",
+        "description": "INTRODUCTION TO AMERICAN LITERARY TRADITION"
+    },
+    {
+        "code": "ENGL302",
+        "description": "TEACHING PRACTICUM"
+    },
+    {
+        "code": "ENGL290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "ENGL251",
+        "description": "SEMINAR IN BLACK LITERARY AND CULTURAL STUDIES"
+    },
+    {
+        "code": "ENGL189",
+        "description": "ENGLISH CAPSTONE SEMINAR"
+    },
+    {
+        "code": "ENGL154",
+        "description": "STUDIES IN LATE RENAISSANCE LITERATURE"
+    },
+    {
+        "code": "ENGL138B",
+        "description": "SINCE HARLEM REN"
+    },
+    {
+        "code": "ENGL128E",
+        "description": "CHAUCER"
+    },
+    {
+        "code": "ENGL304",
+        "description": "PROFESSIONAL RESEARCH PREPARATIONS"
+    },
+    {
+        "code": "ENGL250",
+        "description": "SEMINAR IN NATIVE AMERICAN LITERARY AND CULTURAL STUDIES"
+    },
+    {
+        "code": "ENGL172B",
+        "description": "LATER VICTORIAN POETRY,PROSE"
+    },
+    {
+        "code": "ENGL127B",
+        "description": "20TH CENTURY POETRY"
+    },
+    {
+        "code": "ENGL124B",
+        "description": "20TH CENTURY"
+    },
+    {
+        "code": "ENGL102W",
+        "description": "INTRODUCTION TO CRITICAL METHODS"
+    },
+    {
+        "code": "ENGL033",
+        "description": "INTRODUCTION TO COMPARATIVE MEDIA STUDIES"
+    },
+    {
+        "code": "ENGL004",
+        "description": "ENGLISH WRITING"
+    },
+    {
+        "code": "ENGL410",
+        "description": "SEMINAR IN PROFESSIONAL DEVELOPMENT"
+    },
+    {
+        "code": "ENGL303",
+        "description": "ADVANCED TEACHING PRACTICUM"
+    },
+    {
+        "code": "ENTM302",
+        "description": "COLLEGE TEACHING PRACTICUM"
+    },
+    {
+        "code": "ENTM290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "ENTM010",
+        "description": "NATURAL HISTORY OF INSECTS"
+    },
+    {
+        "code": "ENTM297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "ENTM199H",
+        "description": "SENIOR HONORS RESEARCH"
+    },
+    {
+        "code": "ENTM108",
+        "description": "BIOLOGY OF SOCIAL INSECTS"
+    },
+    {
+        "code": "ENTM301",
+        "description": "TEACHING ENTOMOLOGY AT THE COLLEGE LEVEL"
+    },
+    {
+        "code": "ENTM126",
+        "description": "MEDICAL AND VETERINARY ENTOMOLOGY"
+    },
+    {
+        "code": "ENTM111",
+        "description": "MOLECULAR BIOLOGY AND GENOMICS OF HUMAN DISEASE VECTORS"
+    },
+    {
+        "code": "ENTM050",
+        "description": "THE EVIDENCE FOR EVOLUTION"
+    },
+    {
+        "code": "ENTM272",
+        "description": "RESEARCH SEMINAR IN INSECT COMMUNICATION AND BEHAVIOR"
+    },
+    {
+        "code": "ENTM107",
+        "description": "INSECT BIODIVERSITY"
+    },
+    {
+        "code": "ENTM291",
+        "description": "INDIVIDUAL STUDY IN COORDINATED AREAS"
+    },
+    {
+        "code": "ENTM127",
+        "description": "INSECT ECOLOGY"
+    },
+    {
+        "code": "ENTM277",
+        "description": "RESEARCH SEMINAR IN INSECT BIOCHEMISTRY AND TOXICOLOGY"
+    },
+    {
+        "code": "ENTM261",
+        "description": "SEMINAR IN GENETICS, GENOMICS, AND BIOINFORMATICS"
+    },
+    {
+        "code": "ENTM258",
+        "description": "SEMINAR IN INSECT PEST MANAGEMENT"
+    },
+    {
+        "code": "ENTM250",
+        "description": "SEMINAR IN ENTOMOLOGY"
+    },
+    {
+        "code": "ENTM112",
+        "description": "SYSTEMATICS"
+    },
+    {
+        "code": "ENTM299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION"
+    },
+    {
+        "code": "ENTM251",
+        "description": "SEMINAR IN INSECT-PLANT INTERACTIONS"
+    },
+    {
+        "code": "ENTM197",
+        "description": "RESEARCH FOR UNDERGRADUATES"
+    },
+    {
+        "code": "ENTM190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
+        "code": "ENTM271",
+        "description": "RESEARCH SEMINAR IN MANAGEMENT OF VEGETABLE CROP PESTS"
+    },
+    {
+        "code": "ENTM202",
+        "description": "CORE AREAS OF ENTOMOLOGY II: SUBORGANISMAL-ORGANISMAL DISCIPLINES"
+    },
+    {
+        "code": "ENTM199",
+        "description": "SENIOR RESEARCH"
+    },
+    {
+        "code": "ENVE175A",
+        "description": "SENIOR DESIGN PROJECT"
+    },
+    {
+        "code": "ENVE160C",
+        "description": "ENVIRONMENTAL ENGINEERING LABORATORY"
+    },
+    {
+        "code": "ENVE142",
+        "description": "WATER QUALITY ENGINEERING"
+    },
+    {
+        "code": "ENVE135",
+        "description": "FATE AND TRANSPORT OF ENVIRONMENTAL CONTAMINANTS"
+    },
+    {
+        "code": "ENVE133",
+        "description": "FUNDAMENTALS OF AIR POLLUTION ENGINEERING"
+    },
+    {
+        "code": "ENVE190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
+        "code": "ENSC198I",
+        "description": "INTERNSHIP IN ENVIRONMENTAL SCIENCES"
+    },
+    {
+        "code": "ENSC163",
+        "description": "HYDROLOGY"
+    },
+    {
+        "code": "ENSC130",
+        "description": "WEATHER AND CLIMATE"
+    },
+    {
+        "code": "ENSC401",
+        "description": "PROFESSIONAL DEVELOPMENT IN ENVIRONMENTAL SCIENCES"
+    },
+    {
+        "code": "ENSC292",
+        "description": "CONCURRENT AND ADVANCED STUDIES"
+    },
+    {
+        "code": "ENSC110",
+        "description": "ENVIRONMENTAL STATISTICS"
+    },
+    {
+        "code": "ENSC101",
+        "description": "WATER RESOURCES"
+    },
+    {
+        "code": "ENSC299",
+        "description": "RESEARCH FOR THE THESIS OR DISSERTATION"
+    },
+    {
+        "code": "ENSC302",
+        "description": "TEACHING PRACTICUM"
+    },
+    {
+        "code": "ENSC297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "ENSC290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "ENSC232",
+        "description": "BIOGEOCHEMISTRY"
+    },
+    {
+        "code": "ENSC002",
+        "description": "INTRODUCTION TO ENVIRONMENTAL SCIENCE: ENVIRONMENTAL QUALITY"
+    },
+    {
+        "code": "ENSC275",
+        "description": "RESEARCH SEMINAR IN ENVIRONMENTAL SCIENCES"
+    },
+    {
+        "code": "ENSC208",
+        "description": "ECOTOXICOLOGY"
+    },
+    {
+        "code": "ENSC190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
+        "code": "ENSC175",
+        "description": "SPATIAL ANALYSIS AND REMOTE SENSING FOR ENVIRONMENTAL SCIENCES"
+    },
+    {
+        "code": "ENSC104",
+        "description": "ENVIRONMENTAL SOIL CHEMISTRY"
+    },
+    {
+        "code": "ENSC240",
+        "description": "MULTIPHASE ATMOSPHERIC CHEMISTRY"
+    },
+    {
+        "code": "ENSC197",
+        "description": "RESEARCH FOR UNDERGRADUATES"
+    },
+    {
+        "code": "ENSC133",
+        "description": "ENVIRONMENTAL MICROBIOLOGY"
+    },
+    {
+        "code": "ENTX201L",
+        "description": "LABORATORY ROTATION"
+    },
+    {
+        "code": "ENTX299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION"
+    },
+    {
+        "code": "ENTX297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "ENTX202",
+        "description": "MECHANISMS OF TOXICITY"
+    },
+    {
+        "code": "ENTX290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "ENTX270",
+        "description": "SEMINAR IN ENVIRONMENTAL TOXICOLOGY"
+    },
+    {
+        "code": "ENTX208",
+        "description": "ECOTOXICOLOGY"
+    },
+    {
+        "code": "ETST201",
+        "description": "SOCIOCULTURAL THEORIES IN ETHNIC STUDIES"
+    },
+    {
+        "code": "ETST198G",
+        "description": "GROUP INTERNSHIP"
+    },
+    {
+        "code": "ETST164",
+        "description": "HISTORY OF AFRICAN AMERICAN EDUCATION: 1950-PRESENT"
+    },
+    {
+        "code": "ETST136",
+        "description": "THE KOREAN AMERICAN EXPERIENCE"
+    },
+    {
+        "code": "ETST007",
+        "description": "INTRODUCTION TO NATIVE AMERICAN STUDIES IN COMPARATIVE PERSPECTIVE"
+    },
+    {
+        "code": "ETST224",
+        "description": "RACE AND STATE VIOLENCE"
+    },
+    {
+        "code": "ETST012H",
+        "description": "HONORS RELIGIOUS MYTHS AND RITUALS"
+    },
+    {
+        "code": "ETST004",
+        "description": "INTRODUCTION TO CHICANO HISTORY"
+    },
+    {
+        "code": "ETST146",
+        "description": "EDUCATIONAL PERSPECTIVES ON THE CHICANO"
+    },
+    {
+        "code": "ETST102",
+        "description": "THE POLITICAL ECONOMY OF RACE AND CLASS"
+    },
+    {
+        "code": "ETST299",
+        "description": "RESEARCH FOR THE DISSERTATION"
+    },
+    {
+        "code": "ETST297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "ETST290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "ETST289",
+        "description": "COLLOQUIUM IN ETHNIC STUDIES"
+    },
+    {
+        "code": "ETST228",
+        "description": "RACE, LAW, AND EDUCATIONAL POLICY"
+    },
+    {
+        "code": "ETST003",
+        "description": "INTRODUCTION TO AFRICAN AMERICAN STUDIES IN COMPARATIVE PERSPECTIVE"
+    },
+    {
+        "code": "ETST001",
+        "description": "INTRODUCTION TO THE STUDY OF RACE AND ETHNICITY"
+    },
+    {
+        "code": "ETST291",
+        "description": "INDIVIDUAL STUDY IN COORDINATED AREAS"
+    },
+    {
+        "code": "ETST190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
+        "code": "ETST159",
+        "description": "TEXAS INDIAN HISTORY"
+    },
+    {
+        "code": "ETST108I",
+        "description": "SPECIAL TOPICS IN CHICANO STUDIES"
+    },
+    {
+        "code": "ETST302",
+        "description": "TEACHING PRACTICUM"
+    },
+    {
+        "code": "ETST292",
+        "description": "CONCURRENT ANALYTICAL STUDIES IN ETHNIC STUDIES"
+    },
+    {
+        "code": "ETST109J",
+        "description": "RACE, GNDR, PWR, AND KNOWLEDGE"
+    },
+    {
+        "code": "ETST198I",
+        "description": "INDIVIDUAL INTERNSHIP"
+    },
+    {
+        "code": "ETST128S",
+        "description": "CHICANO SOCIOLOGY"
+    },
+    {
+        "code": "ETST117K",
+        "description": "MEDIEVAL AFRICA, 1100-1800"
+    },
+    {
+        "code": "ETST012",
+        "description": "RELIGIOUS MYTHS AND RITUALS"
+    },
+    {
+        "code": "ETST005",
+        "description": "INTRODUCTION TO ASIAN AMERICAN STUDIES IN COMPARATIVE PERSPECTIVE"
+    },
+    {
+        "code": "ETST002",
+        "description": "INTRODUCTION TO CHICANO STUDIES IN COMPARATIVE PERSPECTIVE"
+    },
+    {
+        "code": "ETST177",
+        "description": "THE U.S. PRISON INDUSTRIAL COMPLEX: RACE, GENDER, AND CITIZENSHIP"
+    },
+    {
+        "code": "ETST168",
+        "description": "PSYCHOLOGICAL ASPECTS OF THE BLACK EXPERIENCE"
+    },
+    {
+        "code": "ETST147",
+        "description": "HISTORY OF BLACK EDUCATION"
+    },
+    {
+        "code": "ETST115F",
+        "description": "TOPICS IN NATIVE AMERICAN HISTORY"
+    },
+    {
+        "code": "EUR044",
+        "description": "MAFIA AND MALAVITA IN ITALIAN LITERATURE AND FILM"
+    },
+    {
+        "code": "EEOB299",
+        "description": "RESEARCH FOR THE THESIS OR DISSERTATION"
+    },
+    {
+        "code": "EEOB265",
+        "description": "ADVANCES IN POPULATION AND EVOLUTIONARY BIOLOGY"
+    },
+    {
+        "code": "EEOB297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "EEOB292",
+        "description": "CONCURRENT ANALYTICAL STUDIES IN EVOLUTION, ECOLOGY, AND ORGANISMAL BIOLOGY"
+    },
+    {
+        "code": "EEOB291",
+        "description": "INDIVIDUAL STUDY IN COORDINATED AREAS"
+    },
+    {
+        "code": "EEOB290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "EEOB216",
+        "description": "THE THEORY OF EVOLUTION"
+    },
+    {
+        "code": "FIL002",
+        "description": "FIRST-YEAR FILIPINO"
+    },
+    {
+        "code": "FREN002",
+        "description": "INTRODUCTION TO FRENCH"
+    },
+    {
+        "code": "FREN153",
+        "description": "CHILDREN IN FRENCH CINEMA"
+    },
+    {
+        "code": "FREN004",
+        "description": "INTERMEDIATE FRENCH"
+    },
+    {
+        "code": "FREN015B",
+        "description": "INTRODUCTION TO LITERATURE AND CULTURE"
+    },
+    {
+        "code": "FREN009B",
+        "description": "FRENCH FOR READING KNOWLEDGE"
+    },
+    {
+        "code": "FREN026",
+        "description": "INTRODUCTION TO LITERATURE, FILM, AND ART BY FRENCH AND FRANCOPHONE WOMEN"
+    },
+    {
+        "code": "FREN003",
+        "description": "INTRODUCTION TO FRENCH"
+    },
+    {
+        "code": "FREN101B",
+        "description": "ADVANCED FRENCH STUDIES"
+    },
+    {
+        "code": "FREN001",
+        "description": "INTRODUCTION TO FRENCH"
+    },
+    {
+        "code": "GSST191B",
+        "description": "SEMINAR IN GENDER AND SEXUALITY STUDIES: FEMINIST RESEARCH METHODS"
+    },
+    {
+        "code": "GSST190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
+        "code": "GSST173",
+        "description": "GENDER AND CLIMATE CHANGE"
+    },
+    {
+        "code": "GSST126",
+        "description": "GENDER, SEXUALITY, AND MUSIC IN CROSS-CULTURAL PERSPECTIVES"
+    },
+    {
+        "code": "GSST100",
+        "description": "GENDER THEORY"
+    },
+    {
+        "code": "GSST030",
+        "description": "VIOLENCE AGAINST WOMEN"
+    },
+    {
+        "code": "GSST161",
+        "description": "GENDER AND SCIENCE"
+    },
+    {
+        "code": "GSST137",
+        "description": "CRITICAL QUEER POLITICS"
+    },
+    {
+        "code": "GSST155",
+        "description": "WOMEN&#39;S LABOR AND THE ECONOMY"
+    },
+    {
+        "code": "GSST001S",
+        "description": "GENDER AND SEXUALITY"
+    },
+    {
+        "code": "GSST292",
+        "description": "CONCURRENT ANALYTICAL STUDIES IN GENDER AND SEXUALITY STUDIES"
+    },
+    {
+        "code": "GSST198G",
+        "description": "GRP INTRNSHP: GNDR &amp; SXLTY"
+    },
+    {
+        "code": "GSST191C",
+        "description": "SEMINAR IN GENDER AND SEXUALITY STUDIES: RESEARCH PRACTICUM IN GENDER AND SUSTAINABILITY"
+    },
+    {
+        "code": "GSST166",
+        "description": "CHICANA/O CULTURAL STUDIES AND GENDER POLITICS"
+    },
+    {
+        "code": "GSST026",
+        "description": "INTRODUCTION TO LITERATURE, FILM, AND ART BY FRENCH AND FRANCOPHONE WOMEN"
+    },
+    {
+        "code": "GSST302",
+        "description": "TEACHING PRACTICUM"
+    },
+    {
+        "code": "GSST290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "GSST021",
+        "description": "GENDER AND SUSTAINABILITY"
+    },
+    {
+        "code": "GEN261",
+        "description": "SEMINAR IN GENETICS, GENOMICS, AND BIOINFORMATICS"
+    },
+    {
+        "code": "GEN297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "GEN290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "GEN241",
+        "description": "ADVANCES IN BIOINFORMATICS AND GENOMICS"
+    },
+    {
+        "code": "GEN299",
+        "description": "RESEARCH FOR THE DISSERTATION"
+    },
+    {
+        "code": "GEO297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "GEO013",
+        "description": "OUR PLANETARY NEIGHBORS: THE SOLAR SYSTEM AND BEYOND"
+    },
+    {
+        "code": "GEO009H",
+        "description": "HONORS OCEANOGRAPHY"
+    },
+    {
+        "code": "GEO280",
+        "description": "PLANETARY HABITABILITY"
+    },
+    {
+        "code": "GEO240",
+        "description": "SEMINAR IN EARTHQUAKE PROCESSES AND GEOPHYSICS"
+    },
+    {
+        "code": "GEO191",
+        "description": "UNDERGRADUATE SEMINAR IN GEOLOGICAL SCIENCES"
+    },
+    {
+        "code": "GEO101A",
+        "description": "FIELD GEOLOGY"
+    },
+    {
+        "code": "GEO002",
+        "description": "EARTH&#39;S CLIMATE THROUGH TIME"
+    },
+    {
+        "code": "GEO001",
+        "description": "THE EARTH&#39;S CRUST AND INTERIOR"
+    },
+    {
+        "code": "GEO272",
+        "description": "ARRAY SEISMOLOGY"
+    },
+    {
+        "code": "GEO251I",
+        "description": "ADVANCED TOPICS IN INVERTEBRATE PALEONTOLOGY"
+    },
+    {
+        "code": "GEO144",
+        "description": "EARTHQUAKE SEISMOLOGY"
+    },
+    {
+        "code": "GEO012",
+        "description": "AT HOME IN THE UNIVERSE"
+    },
+    {
+        "code": "GEO299M",
+        "description": "RESEARCH FOR MASTER&#39;S THESIS"
+    },
+    {
+        "code": "GEO160",
+        "description": "GLOBAL CLIMATE CHANGE"
+    },
+    {
+        "code": "GEO009",
+        "description": "OCEANOGRAPHY"
+    },
+    {
+        "code": "GEO004",
+        "description": "NATURAL HAZARDS AND DISASTERS"
+    },
+    {
+        "code": "GEO302",
+        "description": "TEACHING PRACTICUM"
+    },
+    {
+        "code": "GEO290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "GEO198I",
+        "description": "INDEPENDENT INTERNSHIP"
+    },
+    {
+        "code": "GEO190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
+        "code": "GEO169",
+        "description": "CALIFORNIA VEGETATION"
+    },
+    {
+        "code": "GEO011",
+        "description": "GLOBAL CLIMATE CHANGE"
+    },
+    {
+        "code": "GEO261",
+        "description": "ATMOSPHERE, OCEAN AND CLIMATE DYNAMICS SEMINAR"
+    },
+    {
+        "code": "GEO195C",
+        "description": "SENIOR THESIS"
+    },
+    {
+        "code": "GEO195A",
+        "description": "SENIOR THESIS"
+    },
+    {
+        "code": "GEO116",
+        "description": "STRUCTURAL GEOLOGY"
+    },
+    {
+        "code": "GEO301",
+        "description": "TEACHING OF GEOSCIENCES AT THE COLLEGE LEVEL"
+    },
+    {
+        "code": "GEO299P",
+        "description": "RESEARCH FOR DISSERTATION"
+    },
+    {
+        "code": "GEO244",
+        "description": "SPACE GEODESY"
+    },
+    {
+        "code": "GEO195B",
+        "description": "SENIOR THESIS"
+    },
+    {
+        "code": "GEO250",
+        "description": "GRADUATE SEMINAR IN GEOLOGICAL SCIENCES"
+    },
+    {
+        "code": "GEO201A",
+        "description": "RESEARCH AND PROPOSAL DESIGN"
+    },
+    {
+        "code": "GEO100",
+        "description": "IGNEOUS AND METAMORPHIC PETROLOGY"
+    },
+    {
+        "code": "GER001R",
+        "description": "GERMAN FOR READING KNOWLEDGE"
+    },
+    {
+        "code": "GER002",
+        "description": "ELEMENTARY GERMAN"
+    },
+    {
+        "code": "GER173",
+        "description": "THE AGE OF GOETHE"
+    },
+    {
+        "code": "GER004",
+        "description": "INTERMEDIATE GERMAN"
+    },
+    {
+        "code": "GER103B",
+        "description": "ADVANCED COMPOSITION AND CONVERSATION"
+    },
+    {
+        "code": "GER001",
+        "description": "ELEMENTARY GERMAN"
+    },
+    {
+        "code": "GER172",
+        "description": "READING PHILOSOPHICAL GERMAN"
+    },
+    {
+        "code": "GBST190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
+        "code": "GBST302",
+        "description": "TEACHING PRACTICUM"
+    },
+    {
+        "code": "GBST198I",
+        "description": "INDIVIDUAL INTERNSHIP IN GLOBAL STUDIES"
+    },
+    {
+        "code": "GBST001",
+        "description": "GLOBAL HISTORY, CULTURE, AND IDEAS"
+    },
+    {
+        "code": "GBST104",
+        "description": "GLOBAL ECONOMIC CRISIS"
+    },
+    {
+        "code": "GDIV498I",
+        "description": "INDIVIDUAL INTERNSHIP"
+    },
+    {
+        "code": "GDIV301",
+        "description": "ADVANCED UNIVERSITY LEVEL PEDAGOGY"
+    },
+    {
+        "code": "GDIV302",
+        "description": "UNIVERSITY LEVEL PEDAGOGY PRACTICUM"
+    },
+    {
+        "code": "GRK002",
+        "description": "INTRODUCTION TO CLASSICAL GREEK"
+    },
+    {
+        "code": "GRK101T",
+        "description": "HELLENISTIC AND LATER GREEK"
+    },
+    {
+        "code": "HIST398I",
+        "description": "INTERNSHIP IN PUBLIC HISTORY"
+    },
+    {
+        "code": "HIST290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "HIST250",
+        "description": "New Directions in Historical Research: Urban Histories"
+    },
+    {
+        "code": "HIST015",
+        "description": "WORLD HISTORY: 1500 TO 1900"
+    },
+    {
+        "code": "HIST185",
+        "description": "SOUTHEAST ASIA, PREHISTORY TO 1800"
+    },
+    {
+        "code": "HIST030",
+        "description": "LA IE: RACE, PLACE, &amp; STORY"
+    },
+    {
+        "code": "HIST273B",
+        "description": "RESEARCH SEMINAR IN THE AMERICAN WEST"
+    },
+    {
+        "code": "HIST212",
+        "description": "GREEK HISTORICAL TEXTS"
+    },
+    {
+        "code": "HIST181",
+        "description": "LATE TRADITIONAL CHINA"
+    },
+    {
+        "code": "HIST137K",
+        "description": "MEDIEVAL AFRICA, 1100-1800"
+    },
+    {
+        "code": "HIST010",
+        "description": "WORLD HISTORY: PREHISTORY TO 1500"
+    },
+    {
+        "code": "HIST302",
+        "description": "TEACHING PRACTICUM"
+    },
+    {
+        "code": "HIST242",
+        "description": "APPROACHES TO SOUTHEAST ASIAN HISTORY"
+    },
+    {
+        "code": "HIST203C",
+        "description": "READING SEMINAR IN NATIVE AMERICAN HISTORY: TWENTIETH CENTURY"
+    },
+    {
+        "code": "HIST195A",
+        "description": "SENIOR THESIS"
+    },
+    {
+        "code": "HIST262",
+        "description": "MUSEUM STUDIES"
+    },
+    {
+        "code": "HIST251A",
+        "description": "GENERAL RESEARCH SEMINAR IN HISTORY"
+    },
+    {
+        "code": "HIST213",
+        "description": "LATIN HISTORICAL TEXTS"
+    },
+    {
+        "code": "HIST197",
+        "description": "Historic Approaches to Environmental Policy"
+    },
+    {
+        "code": "HIST109",
+        "description": "TECHNOLOGY IN MODERN EUROPE AND AMERICA, 1700-PRESENT"
+    },
+    {
+        "code": "HIST089",
+        "description": "MAPS:  A HISTORY OF CARTOGRAPHY"
+    },
+    {
+        "code": "HIST044",
+        "description": "GODS, GHOSTS, AND GRANDPARENTS"
+    },
+    {
+        "code": "HIST292",
+        "description": "CONCURRENT ANALYTICAL STUDIES"
+    },
+    {
+        "code": "HIST291",
+        "description": "INDIVIDUAL STUDY IN HISTORY"
+    },
+    {
+        "code": "HIST299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION"
+    },
+    {
+        "code": "HIST297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "HIST198G",
+        "description": "PUBLIC HISTORY PRACTICUM"
+    },
+    {
+        "code": "HIST121",
+        "description": "MIDDLE EASTERN HISTORY, 1200 TO 1800"
+    },
+    {
+        "code": "HIST108",
+        "description": "TECHNOLOGY IN PREMODERN CIVILIZATIONS"
+    },
+    {
+        "code": "HIST004",
+        "description": "INTRODUCTION TO CHICANO HISTORY"
+    },
+    {
+        "code": "HIST298G",
+        "description": "PUBLIC HISTORY GROUP INTERNSHIP"
+    },
+    {
+        "code": "HIST020",
+        "description": "WORLD HISTORY: THE LONG TWENTIETH CENTURY"
+    },
+    {
+        "code": "HIST017A",
+        "description": "INTRODUCTION TO UNITED STATES HISTORY"
+    },
+    {
+        "code": "HISE152",
+        "description": "MODERN BRITAIN"
+    },
+    {
+        "code": "HISE146",
+        "description": "THE SECOND WORLD WAR"
+    },
+    {
+        "code": "HISE132",
+        "description": "THE REFORMATION"
+    },
+    {
+        "code": "HISE119F",
+        "description": "WARFARE IN ANCIENT ROME"
+    },
+    {
+        "code": "HISA122B",
+        "description": "RELIGIOUS CULTURES IN MODERN AMERICA"
+    },
+    {
+        "code": "HISA144F",
+        "description": "TOPICS IN NATIVE AMERICAN HISTORY"
+    },
+    {
+        "code": "HISA110A",
+        "description": "COLONIAL AMERICA"
+    },
+    {
+        "code": "HISA165",
+        "description": "MODERN BRAZIL: STATE AND SOCIETY"
+    },
+    {
+        "code": "HISA113",
+        "description": "SLAVERY AND THE OLD SOUTH"
+    },
+    {
+        "code": "HISA139",
+        "description": "AMERICAN MUSICAL SUBCULTURES: A GENEALOGY OF ROCK"
+    },
+    {
+        "code": "HNPG199H",
+        "description": "SENIOR HONORS RESEARCH"
+    },
+    {
+        "code": "HNPG150",
+        "description": "RESEARCH AND CREATIVE ACTIVITY ACROSS THE DISCIPLINES"
+    },
+    {
+        "code": "HASS001",
+        "description": "STEP-BY-STEP TO COLLEGE SUCCESS FOR FIRST YEAR STUDENTS"
+    },
+    {
+        "code": "HASS195",
+        "description": "SENIOR THESIS"
+    },
+    {
+        "code": "HASS100",
+        "description": "STUDIES IN LEADERSHIP AND ORGANIZATIONAL EFFECTIVENESS"
+    },
+    {
+        "code": "HASS090",
+        "description": "SPECIAL STUDIES"
+    },
+    {
+        "code": "HASS102",
+        "description": "THE MCSWEENY-MCCAULEY SEMINAR"
+    },
+    {
+        "code": "HASS190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
+        "code": "HASS189",
+        "description": "MELLON MAYS UNDERGRADUATE FELLOWSHIP SEMINAR"
+    },
+    {
+        "code": "ITAL003",
+        "description": "ELEMENTARY ITALIAN"
+    },
+    {
+        "code": "ITAL101A",
+        "description": "ADVANCED ITALIAN"
+    },
+    {
+        "code": "ITAL044",
+        "description": "MAFIA AND MALAVITA IN ITALIAN LITERATURE AND FILM"
+    },
+    {
+        "code": "ITAL020B",
+        "description": "ITALIAN FOR SPANISH SPEAKERS"
+    },
+    {
+        "code": "ITAL002",
+        "description": "ELEMENTARY ITALIAN"
+    },
+    {
+        "code": "JPN005",
+        "description": "SECOND-YEAR JAPANESE"
+    },
+    {
+        "code": "JPN001",
+        "description": "FIRST-YEAR JAPANESE"
+    },
+    {
+        "code": "JPN153E",
+        "description": "SUPERNATURAL JAPAN"
+    },
+    {
+        "code": "JPN004",
+        "description": "SECOND-YEAR JAPANESE"
+    },
+    {
+        "code": "JPN022",
+        "description": "INTRODUCTION TO JAPANESE FILM"
+    },
+    {
+        "code": "JPN002",
+        "description": "FIRST-YEAR JAPANESE"
+    },
+    {
+        "code": "JPN101B",
+        "description": "THIRD-YEAR JAPANESE"
+    },
+    {
+        "code": "KOR002",
+        "description": "FIRST-YEAR KOREAN"
+    },
+    {
+        "code": "KOR101",
+        "description": "ADVANCED KOREAN"
+    },
+    {
+        "code": "KOR020B",
+        "description": "FIRST-YEAR KOREAN FOR HERITAGE LEARNERS"
+    },
+    {
+        "code": "LABR001",
+        "description": "INTRODUCTION TO LABOR STUDIES"
+    },
+    {
+        "code": "LABR198I",
+        "description": "INDIVIDUAL INTERNSHIP IN LABOR STUDIES"
+    },
+    {
+        "code": "LATN002",
+        "description": "INTRODUCTION TO LATIN"
+    },
+    {
+        "code": "LATN101J",
+        "description": "OVID"
+    },
+    {
+        "code": "LNST188",
+        "description": "U.S.-LATIN AMERICAN RELATIONS"
+    },
+    {
+        "code": "LNST129A",
+        "description": "INTRODUCTION TO MAYA HIEROGLYPHS"
+    },
+    {
+        "code": "LNST190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
+        "code": "LNST142S",
+        "description": "LATIN AMERICA:  THE QUEST FOR DEVELOPMENT AND DEMOCRACY"
+    },
+    {
+        "code": "LNST114",
+        "description": "HISTORY OF BRAZILIAN ART &amp; ARCHITECTURE"
+    },
+    {
+        "code": "LWSO193",
+        "description": "SENIOR SEMINAR IN LAW AND SOCIETY"
+    },
+    {
+        "code": "LGBS190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
+        "code": "LGBS137",
+        "description": "CRITICAL QUEER POLITICS"
+    },
+    {
+        "code": "LGBS198I",
+        "description": "INDIVIDUAL INTERNSHIP"
+    },
+    {
+        "code": "LBST191",
+        "description": "SEMINAR IN LIBERAL STUDIES"
+    },
+    {
+        "code": "LING121",
+        "description": "SYNTAX"
+    },
+    {
+        "code": "LING111",
+        "description": "PHONETICS"
+    },
+    {
+        "code": "LING021",
+        "description": "GRAMMAR"
+    },
+    {
+        "code": "LING131",
+        "description": "MORPHOLOGY"
+    },
+    {
+        "code": "CWLR222T",
+        "description": "LOW RESIDENCY CROSS-GENRE WORKSHOP"
+    },
+    {
+        "code": "CWLR202N",
+        "description": "LOW RESIDENCY SEMINAR IN LITERATURE,THEATRE, AND FILM"
+    },
+    {
+        "code": "CWLR212F",
+        "description": "LOW RESIDENCY GENRE WORKSHOP"
+    },
+    {
+        "code": "CWLR212N",
+        "description": "LOW RESIDENCY GENRE WORKSHOP"
+    },
+    {
+        "code": "CWLR212S",
+        "description": "LOW RESIDENCY GENRE WORKSHOP"
+    },
+    {
+        "code": "CWLR202S",
+        "description": "LOW RESIDENCY SEMINAR IN LITERATURE,THEATRE, AND FILM"
+    },
+    {
+        "code": "CWLR222P",
+        "description": "LOW RESIDENCY CROSS-GENRE WORKSHOP"
+    },
+    {
+        "code": "CWLR202P",
+        "description": "LOW RESIDENCY SEMINAR IN LITERATURE,THEATRE, AND FILM"
+    },
+    {
+        "code": "CWLR222N",
+        "description": "LOW RESIDENCY CROSS-GENRE WORKSHOP"
+    },
+    {
+        "code": "CWLR202F",
+        "description": "LOW RESIDENCY SEMINAR IN LITERATURE,THEATRE, AND FILM"
+    },
+    {
+        "code": "CWLR222S",
+        "description": "LOW RESIDENCY CROSS-GENRE WORKSHOP"
+    },
+    {
+        "code": "CWLR222F",
+        "description": "LOW RESIDENCY CROSS-GENRE WORKSHOP"
+    },
+    {
+        "code": "CWLR212P",
+        "description": "LOW RESIDENCY GENRE WORKSHOP"
+    },
+    {
+        "code": "MGT201",
+        "description": "QUANTITATIVE ANALYSIS"
+    },
+    {
+        "code": "MGT290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "MGT282",
+        "description": "BUSINESS DATA COMMUNICATIONS"
+    },
+    {
+        "code": "MGT289C",
+        "description": "STRATEGIC MANAGEMENT"
+    },
+    {
+        "code": "MGT285",
+        "description": "FIELD COLLOQUIUM"
+    },
+    {
+        "code": "MGT281",
+        "description": "SYSTEMS ANALYSIS AND DESIGN"
+    },
+    {
+        "code": "MGT247",
+        "description": "ADVERTISING AND SALES PROMOTION MANAGEMENT"
+    },
+    {
+        "code": "MGT240B",
+        "description": "ADVANCED TAXATION"
+    },
+    {
+        "code": "MGT238",
+        "description": "MANAGEMENT SYNTHESIS"
+    },
+    {
+        "code": "MGT202",
+        "description": "FINANCIAL MANAGEMENT"
+    },
+    {
+        "code": "MGT299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION"
+    },
+    {
+        "code": "MGT295F",
+        "description": "EMPIRICAL METHODS IN FINANCE"
+    },
+    {
+        "code": "MGT231",
+        "description": "CORPORATE FINANCE"
+    },
+    {
+        "code": "MGT225",
+        "description": "PROFESSIONAL ACCOUNTING AND AUDITING RESEARCH"
+    },
+    {
+        "code": "MGT298I",
+        "description": "FIELDWORK IN MANAGEMENT"
+    },
+    {
+        "code": "MGT297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "MGT292",
+        "description": "CONCURRENT STUDIES IN MANAGEMENT"
+    },
+    {
+        "code": "MGT251",
+        "description": "MARKETING ANALYTICS"
+    },
+    {
+        "code": "MGT212",
+        "description": "APPLICATION OF BEHAVIORAL ECONOMICS TO MANAGEMENT, DECISION-MAKING, AND POLICY"
+    },
+    {
+        "code": "MGT402",
+        "description": "BUSINESS CAREER PROFESSIONAL DEVELOPMENT WORKSHOP"
+    },
+    {
+        "code": "MGT272",
+        "description": "GLOBAL STRATEGY AND MANAGEMENT"
+    },
+    {
+        "code": "MGT215",
+        "description": "INTERNATIONAL COMPARATIVE MANAGEMENT"
+    },
+    {
+        "code": "MGT256",
+        "description": "BUSINESS ANALYTICS FOR MANAGEMENT"
+    },
+    {
+        "code": "MGT252",
+        "description": "INVESTMENTS AND PORTFOLIO MANAGEMENT"
+    },
+    {
+        "code": "MGT226",
+        "description": "FRAUD AND FORENSICS AUDITING"
+    },
+    {
+        "code": "MGT302",
+        "description": "APPRENTICE TEACHING"
+    },
+    {
+        "code": "MGT278A",
+        "description": "FOUNDATIONS OF AUDITING AND ASSURANCE SERVICES"
+    },
+    {
+        "code": "MGT276",
+        "description": "FINANCIAL STRATEGY AND CORPORATE CONTROL"
+    },
+    {
+        "code": "MGT239",
+        "description": "SIMULATION FOR BUSINESS"
+    },
+    {
+        "code": "MGT234",
+        "description": "BRAND MANAGEMENT"
+    },
+    {
+        "code": "MGT211",
+        "description": "FINANCIAL ACCOUNTING"
+    },
+    {
+        "code": "MGT209",
+        "description": "MARKETING MANAGEMENT"
+    },
+    {
+        "code": "MGT203",
+        "description": "ECONOMICS FOR MANAGEMENT"
+    },
+    {
+        "code": "MSE298I",
+        "description": "INDIVIDUAL INTERNSHIP IN MATERIALS SCIENCE &amp; ENGINEERING"
+    },
+    {
+        "code": "MSE245A",
+        "description": "ADVANCED ORGANIC REACTIONS"
+    },
+    {
+        "code": "MSE250",
+        "description": "COLLOQUIUM IN MATERIALS SCIENCE AND ENGINEERING"
+    },
+    {
+        "code": "MSE156",
+        "description": "ATOMISTIC MODELING OF SOLID STATE MATERIALS"
+    },
+    {
+        "code": "MSE290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "MSE251",
+        "description": "TOPICS IN MATERIALS SCIENCE AND ENGINEERING"
+    },
+    {
+        "code": "MSE236",
+        "description": "NANOMATERIALS FOR REGENERATIVE MEDICINE"
+    },
+    {
+        "code": "MSE204",
+        "description": "THERMODYNAMICS AND STATISTICAL MECHANICS"
+    },
+    {
+        "code": "MSE197",
+        "description": "RESEARCH FOR UNDERGRADUATES"
+    },
+    {
+        "code": "MSE143",
+        "description": "FAILURE ANALYSIS AND PREVENTION"
+    },
+    {
+        "code": "MSE226",
+        "description": "OPTICAL METHODS IN BIOLOGY, CHEMISTRY, AND ENGINEERING"
+    },
+    {
+        "code": "MSE224",
+        "description": "ATOMISTIC MODELING OF SOLID STATE MATERIALS"
+    },
+    {
+        "code": "MSE161",
+        "description": "ANALYTICAL MATERIALS CHARACTERIZATION"
+    },
+    {
+        "code": "MSE280",
+        "description": "SPECIAL TOPICS IN BIOMATERIALS AND TISSUE ENGINEERING"
+    },
+    {
+        "code": "MSE225C",
+        "description": "INTRODUCTION TO COMPUTATIONAL QUANTUM CHEMISTRY"
+    },
+    {
+        "code": "MSE201",
+        "description": "THERMODYNAMIC FOUNDATIONS OF MATERIALS"
+    },
+    {
+        "code": "MSE175A",
+        "description": "SENIOR DESIGN"
+    },
+    {
+        "code": "MSE235",
+        "description": "SOLID STATE AND MATERIALS IN INORGANIC CHEMISTRY"
+    },
+    {
+        "code": "MSE217",
+        "description": "FUNDAMENTALS OF SEMICONDUCTORS AND NANOSTRUCTURES"
+    },
+    {
+        "code": "MSE134",
+        "description": "MICROSTRUCTURAL TRANSFORMATIONS IN MATERIALS"
+    },
+    {
+        "code": "MSE299",
+        "description": "RESEARCH FOR THE THESIS OR DISSERTATION"
+    },
+    {
+        "code": "MSE297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "MSE227A",
+        "description": "NANOSCALE CHARACTERIZATION TECHNIQUES"
+    },
+    {
+        "code": "MATH291",
+        "description": "INDIVIDUAL STUDY IN COORDINATED AREAS"
+    },
+    {
+        "code": "MATH290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "MATH212",
+        "description": "PARTIAL DIFFERENTIAL EQUATIONS"
+    },
+    {
+        "code": "MATH190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
+        "code": "MATH165A",
+        "description": "INTRODUCTION TO COMPLEX VARIABLES"
+    },
+    {
+        "code": "MATH149B",
+        "description": "PROBABILITY AND MATHEMATICAL STATISTICS"
+    },
+    {
+        "code": "MATH046",
+        "description": "INTRODUCTION TO ORDINARY DIFFERENTIAL EQUATIONS"
+    },
+    {
+        "code": "MATH011",
+        "description": "INTRODUCTION TO DISCRETE STRUCTURES"
+    },
+    {
+        "code": "MATH227B",
+        "description": "LIE ALGEBRAS"
+    },
+    {
+        "code": "MATH194",
+        "description": "INDEPENDENT READING"
+    },
+    {
+        "code": "MATH150A",
+        "description": "INTERMEDIATE ANALYSIS"
+    },
+    {
+        "code": "MATH147",
+        "description": "INTRODUCTION TO FOURIER ANALYSIS AND ITS APPLICATIONS"
+    },
+    {
+        "code": "MATH136",
+        "description": "INTRODUCTION TO THE THEORY OF NUMBERS"
+    },
+    {
+        "code": "MATH135B",
+        "description": "INRODUCTION TO NUMERICAL ANALYSIS"
+    },
+    {
+        "code": "MATH009B",
+        "description": "FIRST-YEAR CALCULUS"
+    },
+    {
+        "code": "MATH004",
+        "description": "INTRODUCTION TO COLLEGE MATHEMATICS FOR BUSINESS AND THE SOCIAL SCIENCES"
+    },
+    {
+        "code": "MATH297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "MATH210B",
+        "description": "COMPLEX ANALYSIS"
+    },
+    {
+        "code": "MATH198I",
+        "description": "INTERNSHIP IN MATHEMATICS"
+    },
+    {
+        "code": "MATH010B",
+        "description": "CALCULUS OF SEVERAL VARIABLES"
+    },
+    {
+        "code": "MATH007A",
+        "description": "CALCULUS FOR LIFE SCIENCES"
+    },
+    {
+        "code": "MATH299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION"
+    },
+    {
+        "code": "MATH201B",
+        "description": "ALGEBRA"
+    },
+    {
+        "code": "MATH121",
+        "description": "GAME THEORY"
+    },
+    {
+        "code": "MATH022",
+        "description": "CALCULUS FOR BUSINESS"
+    },
+    {
+        "code": "MATH006B",
+        "description": "INTRODUCTION TO COLLEGE MATHEMATICS FOR THE SCIENCES"
+    },
+    {
+        "code": "MATH209B",
+        "description": "REAL ANALYSIS"
+    },
+    {
+        "code": "MATH207B",
+        "description": "PARTIAL DIFFERENTIAL EQUATIONS I"
+    },
+    {
+        "code": "MATH197",
+        "description": "RESEARCH FOR UNDERGRADUATES"
+    },
+    {
+        "code": "MATH140",
+        "description": "POLYNOMIALS AND NUMBER SYSTEMS"
+    },
+    {
+        "code": "MATH132",
+        "description": "LINEAR ALGEBRA II"
+    },
+    {
+        "code": "MATH010A",
+        "description": "CALCULUS OF SEVERAL VARIABLES"
+    },
+    {
+        "code": "MATH006A",
+        "description": "INTRODUCTION TO COLLEGE MATHEMATICS FOR THE SCIENCES"
+    },
+    {
+        "code": "MATH151B",
+        "description": "ADVANCED CALCULUS"
+    },
+    {
+        "code": "MATH144",
+        "description": "INTRODUCTION TO SET THEORY"
+    },
+    {
+        "code": "MATH031",
+        "description": "APPLIED LINEAR ALGEBRA"
+    },
+    {
+        "code": "MATH225",
+        "description": "COMMUTATIVE ALGEBRA"
+    },
+    {
+        "code": "MATH168",
+        "description": "INTRODUCTION TO MATHEMATICAL MODELING"
+    },
+    {
+        "code": "MATH145A",
+        "description": "INTRODUCTION TO TOPOLOGY"
+    },
+    {
+        "code": "MATH005",
+        "description": "PRECALCULUS"
+    },
+    {
+        "code": "MATH007B",
+        "description": "CALCULUS FOR LIFE SCIENCES"
+    },
+    {
+        "code": "MATH009A",
+        "description": "FIRST-YEAR CALCULUS"
+    },
+    {
+        "code": "MATH009C",
+        "description": "FIRST-YEAR CALCULUS"
+    },
+    {
+        "code": "MATH131",
+        "description": "LINEAR ALGEBRA I"
+    },
+    {
+        "code": "MATH146B",
+        "description": "ORDINARY AND PARTIAL DIFFERENTIAL EQUATIONS"
+    },
+    {
+        "code": "MATH149A",
+        "description": "PROBABILITY AND MATHEMATICAL STATISTICS"
+    },
+    {
+        "code": "MATH171",
+        "description": "INTRODUCTION TO MODERN ALGEBRA"
+    },
+    {
+        "code": "MATH205B",
+        "description": "ALGEBRAIC TOPOLOGY"
+    },
+    {
+        "code": "MATH206B",
+        "description": "NUMERICAL ANALYSIS"
+    },
+    {
+        "code": "MATH260",
+        "description": "COMMUTATIVE ALGEBRA"
+    },
+    {
+        "code": "MATH401",
+        "description": "PROFESSIONAL DEVELOPMENT IN MATHEMATICS"
+    },
+    {
+        "code": "ME255",
+        "description": "TRANSPORT PROCESSES IN THE ATMOSPHERIC BOUNDARY LAYER"
+    },
+    {
+        "code": "ME110",
+        "description": "MECHANICS OF MATERIALS"
+    },
+    {
+        "code": "ME299",
+        "description": "RESEARCH FOR THE THESIS OR DISSERTATION"
+    },
+    {
+        "code": "ME243A",
+        "description": "ADVANCED MECHANICAL ENGINEERING THERMODYNAMICS I"
+    },
+    {
+        "code": "ME134",
+        "description": "MICROSTRUCTURAL TRANSFORMATIONS IN MATERIALS"
+    },
+    {
+        "code": "ME118",
+        "description": "MECHANICAL ENGINEERING MODELING AND ANALYSIS"
+    },
+    {
+        "code": "ME117",
+        "description": "COMBUSTION AND ENERGY SYSTEMS"
+    },
+    {
+        "code": "ME236",
+        "description": "STATE AND PARAMETER ESTIMATION THEORY"
+    },
+    {
+        "code": "ME197",
+        "description": "RESEARCH FOR UNDERGRADUATES"
+    },
+    {
+        "code": "ME018B",
+        "description": "INTRODUCTION TO COMPUTATIONAL MODELING IN MECHANICAL ENGINEERING"
+    },
+    {
+        "code": "ME157",
+        "description": "FAILURE ANALYSIS AND PREVENTION"
+    },
+    {
+        "code": "ME138",
+        "description": "TRANSPORT PHENOMENA IN LIVING SYSTEMS"
+    },
+    {
+        "code": "ME114",
+        "description": "INTRODUCTION TO MATERIALS SCIENCE AND ENGINEERING"
+    },
+    {
+        "code": "ME302",
+        "description": "APPRENTICE TEACHING"
+    },
+    {
+        "code": "ME297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "ME241A",
+        "description": "FUNDAMENTALS OF HEAT AND MASS TRANSFER"
+    },
+    {
+        "code": "ME240A",
+        "description": "FUNDAMENTALS OF FLUID MECHANICS"
+    },
+    {
+        "code": "ME235",
+        "description": "LINEAR SYSTEM THEORY"
+    },
+    {
+        "code": "ME223",
+        "description": "SECURE AND RELIABLE CONTROL SYSTEMS"
+    },
+    {
+        "code": "ME210",
+        "description": "SUSTAINABLE PRODUCT DESIGN"
+    },
+    {
+        "code": "ME175C",
+        "description": "MECHANICAL ENGINEERING DESIGN"
+    },
+    {
+        "code": "ME175B",
+        "description": "MECHANICAL ENGINEERING DESIGN"
+    },
+    {
+        "code": "ME190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
+        "code": "ME120",
+        "description": "LINEAR SYSTEMS AND CONTROLS"
+    },
+    {
+        "code": "ME002",
+        "description": "INTRODUCTION TO MECHANICAL ENGINEERING"
+    },
+    {
+        "code": "ME290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "ME176",
+        "description": "SUSTAINABLE PRODUCT DESIGN"
+    },
+    {
+        "code": "ME170B",
+        "description": "EXPERIMENTAL TECHNIQUES"
+    },
+    {
+        "code": "ME116B",
+        "description": "HEAT TRANSFER"
+    },
+    {
+        "code": "ME018A",
+        "description": "INTRODUCTION TO ENGINEERING COMPUTATION"
+    },
+    {
+        "code": "ME298I",
+        "description": "INDIVIDUAL INTERNSHIP"
+    },
+    {
+        "code": "ME250",
+        "description": "SEMINAR IN MECHANICAL ENGINEERING"
+    },
+    {
+        "code": "ME113",
+        "description": "FLUID MECHANICS"
+    },
+    {
+        "code": "ME010",
+        "description": "STATICS"
+    },
+    {
+        "code": "MCS290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "MCS124",
+        "description": "LATIN AMERICA, DEMOCRACY, AND THE MEDIA"
+    },
+    {
+        "code": "MCS005",
+        "description": "MEDIA STUDIES: THEORY AND PRACTICE"
+    },
+    {
+        "code": "MCS198I",
+        "description": "INDIVIDUAL INTERNSHIP IN MEDIA AND CULTURAL STUDIES"
+    },
+    {
+        "code": "MCS166",
+        "description": "PUNK AND POST-PUNK CULTURES"
+    },
+    {
+        "code": "MCS002",
+        "description": "INTRODUCTION TO IMMERSIVE MEDIA"
+    },
+    {
+        "code": "MCS302",
+        "description": "TEACHING PRACTICUM"
+    },
+    {
+        "code": "MCS163",
+        "description": "SUBURBIA"
+    },
+    {
+        "code": "MCS145K",
+        "description": "AFRICAN AMERICAN VISUAL CULTUR"
+    },
+    {
+        "code": "MCS001",
+        "description": "INTRODUCTION TO MEDIA AND CULTURAL STUDIES"
+    },
+    {
+        "code": "MCS152M",
+        "description": "TELEVISUAL BODIES"
+    },
+    {
+        "code": "MCS120",
+        "description": "MAJOR FIGURES IN FILM AND MEDIA"
+    },
+    {
+        "code": "MCS066",
+        "description": "SCREENWRITING: HOW MOVIES WORK"
+    },
+    {
+        "code": "MCS010",
+        "description": "CULTURAL STUDIES: HISTORICAL AND CONTEMPORARY PERSPECTIVES"
+    },
+    {
+        "code": "MCS153J",
+        "description": "DIGITIZED BODIES"
+    },
+    {
+        "code": "MCS127",
+        "description": "CHICANA/O CULTURAL STUDIES AND GENDER POLITICS"
+    },
+    {
+        "code": "MCS193",
+        "description": "SENIOR SEMINAR"
+    },
+    {
+        "code": "MCS190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
+        "code": "MCS007",
+        "description": "DIGITAL JOURNALISM AND SOCIETY"
+    },
+    {
+        "code": "MCS158",
+        "description": "AFROFUTURISM AND THE POLITICS OF THE BLACK SUPERHERO"
+    },
+    {
+        "code": "MCS119B",
+        "description": "TOPICS IN MEMORY AND RESISTANCE II"
+    },
+    {
+        "code": "MCS022",
+        "description": "INTRODUCTION TO JAPANESE FILM"
+    },
+    {
+        "code": "MCS292",
+        "description": "CONCURRENT ANALYTICAL STUDIES IN MEDIA AND CULTURAL STUDIES"
+    },
+    {
+        "code": "MCS172",
+        "description": "SILENT CINEMA CULTURE"
+    },
+    {
+        "code": "MCBL190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
+        "code": "MCBL124",
+        "description": "MEDICAL MICROBIOLOGY"
+    },
+    {
+        "code": "MCBL128",
+        "description": "FIELD MYCOLOGY: ECOLOGY, EVOLUTION, AND DIVERSITY OF FUNGI"
+    },
+    {
+        "code": "MCBL250",
+        "description": "SEMINAR IN MICROBIOLOGY"
+    },
+    {
+        "code": "MCBL241",
+        "description": "SPECIAL TOPICS"
+    },
+    {
+        "code": "MCBL197",
+        "description": "RESEARCH FOR UNDERGRADUATES"
+    },
+    {
+        "code": "MCBL123",
+        "description": "INTRODUCTION TO COMPARATIVE VIROLOGY"
+    },
+    {
+        "code": "MCBL297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "MCBL290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "MCBL133",
+        "description": "ENVIRONMENTAL MICROBIOLOGY"
+    },
+    {
+        "code": "MCBL127",
+        "description": "MICROBIAL EVOLUTION"
+    },
+    {
+        "code": "MCBL299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION"
+    },
+    {
+        "code": "MCBL202",
+        "description": "MICROBIAL PATHOGENESIS AND PHYSIOLOGY"
+    },
+    {
+        "code": "MCBL121",
+        "description": "INTRODUCTORY MICROBIOLOGY"
+    },
+    {
+        "code": "MCBL211",
+        "description": "MICROBIAL ECOLOGY"
+    },
+    {
+        "code": "MCBL121L",
+        "description": "MICROBIOLOGY LABORATORY"
+    },
+    {
+        "code": "MCBL228",
+        "description": "FIELD MYCOLOGY"
+    },
+    {
+        "code": "MEIS199",
+        "description": "SENIOR RESEARCH"
+    },
+    {
+        "code": "MUS290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "MUS181R",
+        "description": "BAGPIPE"
+    },
+    {
+        "code": "MUS181M",
+        "description": "BASSOON"
+    },
+    {
+        "code": "MUS176",
+        "description": "BAGPIPE"
+    },
+    {
+        "code": "MUS169",
+        "description": "TAIKO ENSEMBLE"
+    },
+    {
+        "code": "MUS145B",
+        "description": "DIGITAL AUDIO AND SOUND"
+    },
+    {
+        "code": "MUS081J",
+        "description": "FLUTE"
+    },
+    {
+        "code": "MUS080F",
+        "description": "CLASSICAL PIANO"
+    },
+    {
+        "code": "MUS018",
+        "description": "MUSIC OF SPAIN"
+    },
+    {
+        "code": "MUS262",
+        "description": "SEMINAR IN WESTERN MUSIC HISTORY"
+    },
+    {
+        "code": "MUS198I",
+        "description": "INDIVIDUAL INTERNSHIP"
+    },
+    {
+        "code": "MUS181P",
+        "description": "DRUM SET"
+    },
+    {
+        "code": "MUS181I",
+        "description": "FRENCH HORN"
+    },
+    {
+        "code": "MUS180R",
+        "description": "VIOLIN"
+    },
+    {
+        "code": "MUS167",
+        "description": "SENIOR RECITAL"
+    },
+    {
+        "code": "MUS166G",
+        "description": "CHAMBER MUSIC"
+    },
+    {
+        "code": "MUS163",
+        "description": "CHAMBER SINGERS"
+    },
+    {
+        "code": "MUS081F",
+        "description": "TROMBONE"
+    },
+    {
+        "code": "MUS080T",
+        "description": "VIOLONCELLO"
+    },
+    {
+        "code": "MUS080S",
+        "description": "VIOLA"
+    },
+    {
+        "code": "MUS031B",
+        "description": "MUSIC THEORY AND MUSICIANSHIP I"
+    },
+    {
+        "code": "MUS021",
+        "description": "CANNTAIREACHD: SCOTTISH CLASSICAL MUSIC"
+    },
+    {
+        "code": "MUS292",
+        "description": "CONCURRENT ANALYTICAL STUDIES IN MUSIC"
+    },
+    {
+        "code": "MUS181G",
+        "description": "TUBA"
+    },
+    {
+        "code": "MUS180Q",
+        "description": "ORGAN"
+    },
+    {
+        "code": "MUS180N",
+        "description": "CLASSICAL GUITAR"
+    },
+    {
+        "code": "MUS180K",
+        "description": "JAZZ GUITAR"
+    },
+    {
+        "code": "MUS160",
+        "description": "ORCHESTRA"
+    },
+    {
+        "code": "MUS140",
+        "description": "AMERICAN MUSICAL SUBCULTURES: A GENEALOGY OF ROCK"
+    },
+    {
+        "code": "MUS131B",
+        "description": "MUSIC THEORY AND MUSICIANSHIP II"
+    },
+    {
+        "code": "MUS125",
+        "description": "MUSIC OF CENTRAL AMERICA, MEXICO, AND THE CARIBBEAN"
+    },
+    {
+        "code": "MUS080K",
+        "description": "JAZZ GUITAR"
+    },
+    {
+        "code": "MUS010",
+        "description": "ADVANCED FUNDAMENTALS"
+    },
+    {
+        "code": "MUS302",
+        "description": "TEACHING PRACTICUM"
+    },
+    {
+        "code": "MUS270",
+        "description": "SPECIAL TOPICS IN ETHNOMUSICOLOGY"
+    },
+    {
+        "code": "MUS258",
+        "description": "COMPOSITION SEMINAR"
+    },
+    {
+        "code": "MUS181L",
+        "description": "CLARINET"
+    },
+    {
+        "code": "MUS181J",
+        "description": "FLUTE"
+    },
+    {
+        "code": "MUS181F",
+        "description": "TROMBONE"
+    },
+    {
+        "code": "MUS180T",
+        "description": "VIOLONCELLO"
+    },
+    {
+        "code": "MUS126",
+        "description": "GENDER, SEXUALITY, AND MUSIC IN CROSS-CULTURAL PERSPECTIVES"
+    },
+    {
+        "code": "MUS080V",
+        "description": "HARP"
+    },
+    {
+        "code": "MUS080N",
+        "description": "CLASSICAL GUITAR"
+    },
+    {
+        "code": "MUS080G",
+        "description": "JAZZ PIANO"
+    },
+    {
+        "code": "MUS030B",
+        "description": "HARMONY"
+    },
+    {
+        "code": "MUS008",
+        "description": "POPULAR MUSIC CULTURES OF THE UNITED STATES"
+    },
+    {
+        "code": "MUS301",
+        "description": "DIRECTED STUDIES IN THE TEACHING OF MUSIC"
+    },
+    {
+        "code": "MUS185",
+        "description": "ARTS, MANAGMENT, AND COMMUNITY"
+    },
+    {
+        "code": "MUS181N",
+        "description": "SAXOPHONE"
+    },
+    {
+        "code": "MUS180J",
+        "description": "CARILLON"
+    },
+    {
+        "code": "MUS180F",
+        "description": "CLASSICAL PIANO"
+    },
+    {
+        "code": "MUS138",
+        "description": "FORM AND ANALYSIS IN WESTERN MUSIC"
+    },
+    {
+        "code": "MUS081R",
+        "description": "BAGPIPE"
+    },
+    {
+        "code": "MUS080J",
+        "description": "CARILLON"
+    },
+    {
+        "code": "MUS080E",
+        "description": "VOICE"
+    },
+    {
+        "code": "MUS297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "MUS291",
+        "description": "INDIVIDUAL STUDY IN COORDINATED AREAS"
+    },
+    {
+        "code": "MUS180V",
+        "description": "HARP"
+    },
+    {
+        "code": "MUS180S",
+        "description": "VIOLA"
+    },
+    {
+        "code": "MUS180G",
+        "description": "JAZZ PIANO"
+    },
+    {
+        "code": "MUS180E",
+        "description": "VOICE"
+    },
+    {
+        "code": "MUS175B",
+        "description": "INTERMEDIATE MARIACHI ENSEMBLE"
+    },
+    {
+        "code": "MUS081I",
+        "description": "FRENCH HORN"
+    },
+    {
+        "code": "MUS081E",
+        "description": "TRUMPET"
+    },
+    {
+        "code": "MUS001",
+        "description": "BASIC MUSICAL CONCEPTS"
+    },
+    {
+        "code": "MUS299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION"
+    },
+    {
+        "code": "MUS293",
+        "description": "COMPOSITION PRACTICUM"
+    },
+    {
+        "code": "MUS256",
+        "description": "ELECTROACOUSTIC AND COMPUTER MUSIC COMPOSITION"
+    },
+    {
+        "code": "MUS181E",
+        "description": "TRUMPET"
+    },
+    {
+        "code": "MUS180U",
+        "description": "DOUBLE BASS VIOL"
+    },
+    {
+        "code": "MUS177",
+        "description": "MUSIC OF NORTH INDIA: TABLA (DRUMS)"
+    },
+    {
+        "code": "MUS175A",
+        "description": "BEGINNING MARIACHI ENSEMBLE"
+    },
+    {
+        "code": "MUS166F",
+        "description": "IMPROVISATORY ENSEMBLE"
+    },
+    {
+        "code": "MUS164",
+        "description": "JAZZ ENSEMBLE"
+    },
+    {
+        "code": "MUS081P",
+        "description": "DRUM SET"
+    },
+    {
+        "code": "MUS081N",
+        "description": "SAXOPHONE"
+    },
+    {
+        "code": "MUS080R",
+        "description": "VIOLIN"
+    },
+    {
+        "code": "MUS080P",
+        "description": "PIANO PROFICIENCY"
+    },
+    {
+        "code": "MUS080L",
+        "description": "ELECTRIC BASS GUITAR"
+    },
+    {
+        "code": "MUS255",
+        "description": "FIELD METHODS IN ETHNOMUSICOLOGY"
+    },
+    {
+        "code": "MUS180P",
+        "description": "PIANO PROFICIENCY"
+    },
+    {
+        "code": "MUS180L",
+        "description": "ELECTRIC BASS GUITAR"
+    },
+    {
+        "code": "MUS170",
+        "description": "RONDALLA ENSEMBLE"
+    },
+    {
+        "code": "MUS165",
+        "description": "CONCERT BAND"
+    },
+    {
+        "code": "MUS118",
+        "description": "MUSIC, POLITICS, AND SOCIAL MOVEMENTS"
+    },
+    {
+        "code": "MUS112B",
+        "description": "HISTORY OF WESTERN MUSIC: 1700-1900"
+    },
+    {
+        "code": "MUS081M",
+        "description": "BASSOON"
+    },
+    {
+        "code": "MUS081L",
+        "description": "CLARINET"
+    },
+    {
+        "code": "MUS081G",
+        "description": "TUBA"
+    },
+    {
+        "code": "MUS080U",
+        "description": "DOUBLE BASS VIOL"
+    },
+    {
+        "code": "MUS023",
+        "description": "AUDIO RECORDING AND PRODUCTION"
+    },
+    {
+        "code": "NASC192L",
+        "description": "INTRODUCTION TO STEM TEACHING LABORATORY"
+    },
+    {
+        "code": "NASC092",
+        "description": "DISCOVERING FACULTY SEMINAR"
+    },
+    {
+        "code": "NASC188",
+        "description": "INTRODUCTION TO ORAL PRESENTATIONS"
+    },
+    {
+        "code": "NASC192",
+        "description": "INTRODUCTION TO STEM TEACHING"
+    },
+    {
+        "code": "NEM197",
+        "description": "RESEARCH FOR UNDERGRADUATES"
+    },
+    {
+        "code": "NEM199",
+        "description": "SENIOR RESEARCH"
+    },
+    {
+        "code": "NEM297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "NEM290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "NEM190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
+        "code": "NEM250",
+        "description": "SEMINAR IN NEMATOLOGY"
+    },
+    {
+        "code": "NRSC297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "NRSC290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "NRSC200B",
+        "description": "FUNDAMENTALS OF NEUROSCIENCE"
+    },
+    {
+        "code": "NRSC299",
+        "description": "RESEARCH FOR THE THESIS OR DISSERTATION"
+    },
+    {
+        "code": "NRSC287",
+        "description": "COLLOQUIUM IN NEUROSCIENCE"
+    },
+    {
+        "code": "PCST190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
+        "code": "PCST198I",
+        "description": "INDIVIDUAL INTERNSHIP IN PEACE AND CONFLICT STUDIES"
+    },
+    {
+        "code": "PCST197",
+        "description": "RESEARCH FOR UNDERGRADUATES"
+    },
+    {
+        "code": "PHIL001H",
+        "description": "HONORS INTRODUCTION TO PHILOSOPHY"
+    },
+    {
+        "code": "PHIL400",
+        "description": "RESEARCH AND PROFESSIONAL DEVELOPMENT WORKSHOP"
+    },
+    {
+        "code": "PHIL302",
+        "description": "TEACHING PRACTICUM"
+    },
+    {
+        "code": "PHIL270",
+        "description": "PHILOSOPHY COLLOQUIA"
+    },
+    {
+        "code": "PHIL030I",
+        "description": "EARLY MODERN PHILOSOPHY"
+    },
+    {
+        "code": "PHIL297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "PHIL282",
+        "description": "SEMINAR IN INDIVIDUAL PHILOSOPHERS"
+    },
+    {
+        "code": "PHIL121Q",
+        "description": "NIETZSCHE"
+    },
+    {
+        "code": "PHIL100",
+        "description": "SOPHOMORE-JUNIOR SEMINAR"
+    },
+    {
+        "code": "PHIL003W",
+        "description": "ETHICS AND THE MEANING OF LIFE"
+    },
+    {
+        "code": "PHIL283",
+        "description": "SEMINAR IN CONTEMPORARY PHILOSOPHY"
+    },
+    {
+        "code": "PHIL276",
+        "description": "THIRD AND FOURTH YEAR RESEARCH SEMINAR"
+    },
+    {
+        "code": "PHIL007",
+        "description": "INTRODUCTION TO CRITICAL THINKING"
+    },
+    {
+        "code": "PHIL151",
+        "description": "EXISTENTIALISM"
+    },
+    {
+        "code": "PHIL130",
+        "description": "THEORY OF KNOWLEDGE"
+    },
+    {
+        "code": "PHIL124",
+        "description": "FORMAL LOGIC"
+    },
+    {
+        "code": "PHIL121K",
+        "description": "HUME"
+    },
+    {
+        "code": "PHIL110",
+        "description": "ASIAN PHILOSOPHY"
+    },
+    {
+        "code": "PHIL005",
+        "description": "EVIL"
+    },
+    {
+        "code": "PHIL001",
+        "description": "INTRODUCTION TO PHILOSOPHY"
+    },
+    {
+        "code": "PHIL281",
+        "description": "PHILOSOPHICAL TEXTS"
+    },
+    {
+        "code": "PHIL165",
+        "description": "PHILOSOPHY OF LAW"
+    },
+    {
+        "code": "PHIL134",
+        "description": "PHILOSOPHY OF MIND"
+    },
+    {
+        "code": "PHIL113",
+        "description": "GOD"
+    },
+    {
+        "code": "PHIL112",
+        "description": "MORTAL QUESTIONS"
+    },
+    {
+        "code": "PHIL299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION"
+    },
+    {
+        "code": "PHIL292",
+        "description": "CONCURRENT ANALYTICAL STUDIES IN PHILOSOPHY"
+    },
+    {
+        "code": "PHIL133",
+        "description": "METAPHYSICS"
+    },
+    {
+        "code": "PHIL122J",
+        "description": "EARLY MODERN PHILOSOPHY"
+    },
+    {
+        "code": "PHIL275C",
+        "description": "PROSEMINAR FOR FIRST-YEAR GRADUATE STUDENTS: MORAL PHILOSOPHY"
+    },
+    {
+        "code": "PHIL172",
+        "description": "READING PHILOSOPHICAL GERMAN"
+    },
+    {
+        "code": "PHIL135",
+        "description": "PHILOSOPHY OF PSYCHOLOGY"
+    },
+    {
+        "code": "PHIL005H",
+        "description": "HONORS EVIL"
+    },
+    {
+        "code": "PHIL004",
+        "description": "INTRODUCTION TO THE PHILOSOPHY OF RACE"
+    },
+    {
+        "code": "PHYS401",
+        "description": "PROFESSIONAL DEVELOPMENT IN PHYSICS AND ASTRONOMY"
+    },
+    {
+        "code": "PHYS260",
+        "description": "SPECIAL TOPICS IN CONDENSED MATTER PHYSICS"
+    },
+    {
+        "code": "PHYS211B",
+        "description": "ASTROPHYSICAL FLUID DYNAMICS"
+    },
+    {
+        "code": "PHYS041B",
+        "description": "INTRODUCTORY PHYSICS FOR PHYSICS MAJORS"
+    },
+    {
+        "code": "PHYS007",
+        "description": "SPACE-TIME, RELATIVITY, AND COSMOLOGY"
+    },
+    {
+        "code": "PHYS258",
+        "description": "SEMINAR IN SURFACE SCIENCE"
+    },
+    {
+        "code": "PHYS250",
+        "description": "SPECIAL TOPICS SEMINAR IN PHYSICS AND ASTRONOMY"
+    },
+    {
+        "code": "PHYS240B",
+        "description": "CONDENSED MATTER PHYSICS"
+    },
+    {
+        "code": "PHYS221B",
+        "description": "QUANTUM MECHANICS"
+    },
+    {
+        "code": "PHYS208",
+        "description": "GENERAL RELATIVITY"
+    },
+    {
+        "code": "PHYS190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
+        "code": "PHYS135B",
+        "description": "ELECTROMAGNETISM"
+    },
+    {
+        "code": "PHYS289",
+        "description": "COLLOQUIUM IN PHYSICS"
+    },
+    {
+        "code": "PHYS210B",
+        "description": "ELECTROMAGNETIC THEORY"
+    },
+    {
+        "code": "PHYS195C",
+        "description": "SENIOR THESIS"
+    },
+    {
+        "code": "PHYS299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION"
+    },
+    {
+        "code": "PHYS291",
+        "description": "INDIVIDUAL STUDY IN COORDINATED AREAS"
+    },
+    {
+        "code": "PHYS288",
+        "description": "CURRENT RESEARCH THEMES IN PHYSICS\r\n"
+    },
+    {
+        "code": "PHYS247",
+        "description": "INTRODUCTION TO APPLIED DATA SCIENCE"
+    },
+    {
+        "code": "PHYS226",
+        "description": "COSMOLOGY"
+    },
+    {
+        "code": "PHYS198I",
+        "description": "INDIVIDUAL INTERNSHIP IN PHYSICS"
+    },
+    {
+        "code": "PHYS195B",
+        "description": "SENIOR THESIS"
+    },
+    {
+        "code": "PHYS168",
+        "description": "ENERGY AND THE ENVIRONMENT"
+    },
+    {
+        "code": "PHYS037",
+        "description": "THE ORIGINS"
+    },
+    {
+        "code": "PHYS212A",
+        "description": "THERMODYNAMICS AND STATISTICAL MECHANICS"
+    },
+    {
+        "code": "PHYS166",
+        "description": "COSMOLOGY"
+    },
+    {
+        "code": "PHYS097",
+        "description": "LOWER-DIVISION RESEARCH"
+    },
+    {
+        "code": "PHYS040B",
+        "description": "GENERAL PHYSICS"
+    },
+    {
+        "code": "PHYS040A",
+        "description": "GENERAL PHYSICS"
+    },
+    {
+        "code": "PHYS02LC",
+        "description": "GENERAL PHYSICS LABORATORY"
+    },
+    {
+        "code": "PHYS297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "PHYS290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "PHYS209B",
+        "description": "NONLINEAR OPTICS"
+    },
+    {
+        "code": "PHYS150B",
+        "description": "INTRODUCTION TO CONDENSED MATTER PHYSICS"
+    },
+    {
+        "code": "PHYS139L",
+        "description": "ELECTRONICS FOR SCIENTISTS"
+    },
+    {
+        "code": "PHYS040HB",
+        "description": "HONORS GENERAL PHYSICS"
+    },
+    {
+        "code": "PHYS02LB",
+        "description": "GENERAL PHYSICS LABORATORY"
+    },
+    {
+        "code": "PHYS02HB",
+        "description": "HONORS GENERAL PHYSICS"
+    },
+    {
+        "code": "PHYS002C",
+        "description": "GENERAL PHYSICS"
+    },
+    {
+        "code": "PHYS225B",
+        "description": "ELEMENTARY PARTICLES"
+    },
+    {
+        "code": "PHYS215",
+        "description": "DYNAMICS AND EVOLUTION OF GALAXIES"
+    },
+    {
+        "code": "PHYS197",
+        "description": "RESEARCH FOR UNDERGRADUATES"
+    },
+    {
+        "code": "PHYS195A",
+        "description": "SENIOR THESIS"
+    },
+    {
+        "code": "PHYS156B",
+        "description": "QUANTUM MECHANICS"
+    },
+    {
+        "code": "PHYS130B",
+        "description": "CLASSICAL MECHANICS"
+    },
+    {
+        "code": "PHYS002B",
+        "description": "GENERAL PHYSICS"
+    },
+    {
+        "code": "PLPA123",
+        "description": "INTRODUCTION TO COMPARATIVE VIROLOGY"
+    },
+    {
+        "code": "PLPA291",
+        "description": "INDIVIDUAL STUDY IN COORDINATED AREAS"
+    },
+    {
+        "code": "PLPA290",
+        "description": "RESEARCH OR STUDY ON SPECIAL TOPICS BY INDIVIDUAL GRADUATE STUDENTS"
+    },
+    {
+        "code": "PLPA241",
+        "description": "SPECIAL TOPICS"
+    },
+    {
+        "code": "PLPA261",
+        "description": "SEMINAR IN GENETICS, GENOMICS, AND BIOINFORMATICS"
+    },
+    {
+        "code": "PLPA207",
+        "description": "BACTERIAL AND VIRAL DISEASES OF PLANTS"
+    },
+    {
+        "code": "PLPA197",
+        "description": "RESEARCH FOR UNDERGRADUATES"
+    },
+    {
+        "code": "PLPA250",
+        "description": "SEMINAR IN PLANT PATHOLOGY"
+    },
+    {
+        "code": "PLPA190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
+        "code": "PLPA299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION"
+    },
+    {
+        "code": "PLPA200",
+        "description": "FUNGAL DISEASES OF PLANTS"
+    },
+    {
+        "code": "PLPA297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "POSC197",
+        "description": "RESEARCH FOR UNDERGRADUATES"
+    },
+    {
+        "code": "POSC190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
+        "code": "POSC143S",
+        "description": "ELECTIONS AND POLITICAL PARTICIPATION"
+    },
+    {
+        "code": "POSC134S",
+        "description": "POLITICAL ECONOMY OF INTERNATIONAL FINANCE"
+    },
+    {
+        "code": "POSC015",
+        "description": "COMPARATIVE POLITICS"
+    },
+    {
+        "code": "POSC299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION"
+    },
+    {
+        "code": "POSC293",
+        "description": "RESEARCH TOPICS IN POLITICAL SCIENCE"
+    },
+    {
+        "code": "POSC259",
+        "description": "WOMEN AND THE AMERICAN POLITICAL PROCESS"
+    },
+    {
+        "code": "POSC202B",
+        "description": "SURVEY OF QUANTITATIVE METHODS"
+    },
+    {
+        "code": "POSC182",
+        "description": "POLITICS AND ECONOMIC POLICY"
+    },
+    {
+        "code": "POSC138S",
+        "description": "LABOR AND GLOBALIZATION"
+    },
+    {
+        "code": "POSC117S",
+        "description": "CONTEMPORARY DEMOCRATIC THEORY"
+    },
+    {
+        "code": "POSC116",
+        "description": "CAPITALISM, SOCIALISM, AND POLITICAL THEORY"
+    },
+    {
+        "code": "POSC020",
+        "description": "WORLD POLITICS"
+    },
+    {
+        "code": "POSC005W",
+        "description": "POLITICAL IDEOLOGIES"
+    },
+    {
+        "code": "POSC290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "POSC153",
+        "description": "RUSSIAN FOREIGN POLICY IN TRANSITION"
+    },
+    {
+        "code": "POSC302",
+        "description": "COLLEGE TEACHING PRACTICUM"
+    },
+    {
+        "code": "POSC297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "POSC269",
+        "description": "POLITICAL ECONOMY OF INTERNATIONAL LABOR"
+    },
+    {
+        "code": "POSC173S",
+        "description": "GOVERNMENT AND POLITICS OF CALIFORNIA"
+    },
+    {
+        "code": "POSC167",
+        "description": "CONSTITUTIONAL LAW: FUNDAMENTAL FREEDOMS"
+    },
+    {
+        "code": "POSC123",
+        "description": "CONFLICT RESOLUTION"
+    },
+    {
+        "code": "POSC010",
+        "description": "AMERICAN POLITICS"
+    },
+    {
+        "code": "POSC204",
+        "description": "MATHEMATICAL MODELING IN POLITICAL SCIENCE"
+    },
+    {
+        "code": "POSC165S",
+        "description": "STRATEGY AND POLITICS"
+    },
+    {
+        "code": "POSC113",
+        "description": "AMERICAN POLITICAL THOUGHT"
+    },
+    {
+        "code": "POSC017",
+        "description": "POLITICS OF THE UNDERDEVELOPED WORLD"
+    },
+    {
+        "code": "POSC291",
+        "description": "INDIVIDUAL STUDY IN COORDINATED AREAS"
+    },
+    {
+        "code": "POSC285",
+        "description": "PROFESSIONAL RESEARCH PAPER"
+    },
+    {
+        "code": "POSC230",
+        "description": "RESEARCH COLLOQUIUM IN POLITICAL SCIENCE"
+    },
+    {
+        "code": "POSC199",
+        "description": "SENIOR RESEARCH"
+    },
+    {
+        "code": "POSC162S",
+        "description": "LATIN AMERICA:  THE QUEST FOR DEVELOPMENT AND DEMOCRACY"
+    },
+    {
+        "code": "POSC154",
+        "description": "POLITICS OF THE EUROPENA UNION"
+    },
+    {
+        "code": "POSC292",
+        "description": "CONCURRENT ANALYTICAL STUDIES IN POLITICAL SCIENCE"
+    },
+    {
+        "code": "POSC274",
+        "description": "THE ARMED FORCES AND POLITICS"
+    },
+    {
+        "code": "POSC255",
+        "description": "SEMINAR IN AMERICAN ELECTORAL BEHAVIOR"
+    },
+    {
+        "code": "POSC170",
+        "description": "LOCAL LEADERSHIP IN CALIFORNIA"
+    },
+    {
+        "code": "POSC283",
+        "description": "POLITICAL THINKERS IN DEPTH"
+    },
+    {
+        "code": "POSC215",
+        "description": "POLITICAL ECONOMY OF INTERNATIONAL FINANCE"
+    },
+    {
+        "code": "POSC161",
+        "description": "U.S.-LATIN AMERICAN RELATIONS"
+    },
+    {
+        "code": "POSC130",
+        "description": "POLITICS AND ECONOMICS OF THE PACIFIC RIM"
+    },
+    {
+        "code": "PSYC227",
+        "description": "RESEARCH METHODS IN SOCIAL AND PERSONALITY PSYCHOLOGY"
+    },
+    {
+        "code": "PSYC212",
+        "description": "MULTIPLE REGRESSION AND CORRELATION ANALYSIS"
+    },
+    {
+        "code": "PSYC203B",
+        "description": "EXPERIMENTAL PSYCHOLOGY"
+    },
+    {
+        "code": "PSYC200B",
+        "description": "FUNDAMENTALS OF NEUROSCIENCE"
+    },
+    {
+        "code": "PSYC284",
+        "description": "PROSEMINAR ON CURRENT RESEARCH IN DEVELOPMENTAL PSYCHOLOGY"
+    },
+    {
+        "code": "PSYC049",
+        "description": "DECISION MAKING IN THE BRAIN"
+    },
+    {
+        "code": "PSYC012",
+        "description": "PSYCHOLOGICAL METHODS: RESEARCH PROCEDURES"
+    },
+    {
+        "code": "PSYC285",
+        "description": "PROSEMINAR ON CURRENT RESEARCH IN SOCIAL/PERSONALITY PSYCHOLOGY"
+    },
+    {
+        "code": "PSYC283",
+        "description": "PROSEMINAR ON CURRENT RESEARCH IN COGNITIVE PSYCHOLOGY"
+    },
+    {
+        "code": "PSYC276",
+        "description": "INTRO TO NEUROIMAGING WITH MRI"
+    },
+    {
+        "code": "PSYC270",
+        "description": "CURRENT RESEARCH IN QUANTITATI"
+    },
+    {
+        "code": "PSYC148",
+        "description": "LIFE STORIES AND THE GOOD LIFE"
+    },
+    {
+        "code": "PSYC110",
+        "description": "THE BRAIN AND BEHAVIOR"
+    },
+    {
+        "code": "PSYC002",
+        "description": "INTRODUCTORY PSYCHOLOGY"
+    },
+    {
+        "code": "PSYC286F",
+        "description": "PROSEMINAR IN PSYCHOLOGY"
+    },
+    {
+        "code": "PSYC182J",
+        "description": "LABORATORY IN PSYCHOLOGY"
+    },
+    {
+        "code": "PSYC121",
+        "description": "DEVELOPMENTAL NEUROSCIENCE"
+    },
+    {
+        "code": "PSYC120L",
+        "description": "NEUROSCIENCE LABORATORY"
+    },
+    {
+        "code": "PSYC112",
+        "description": "NEURAL MECHANISMS OF ANIMAL BEHAVIOR"
+    },
+    {
+        "code": "PSYC299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION"
+    },
+    {
+        "code": "PSYC292",
+        "description": "CONCURRENT ANALYTICAL STUDIES"
+    },
+    {
+        "code": "PSYC207B",
+        "description": "SOCIAL DEVELOPMENT"
+    },
+    {
+        "code": "PSYC189",
+        "description": "ACTION, MIND, AND BRAIN"
+    },
+    {
+        "code": "PSYC163",
+        "description": "COGNITIVE DEVELOPMENT"
+    },
+    {
+        "code": "PSYC152",
+        "description": "ABNORMAL PSYCHOLOGY"
+    },
+    {
+        "code": "PSYC120",
+        "description": "CELLULAR NEUROSCIENCE: MEMBRANE AND SYNAPTIC PHENOMENA"
+    },
+    {
+        "code": "PSYC297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "PSYC296",
+        "description": "RESEARCH TUTORIAL"
+    },
+    {
+        "code": "PSYC287",
+        "description": "COLLOQUIUM IN NEUROSCIENCE"
+    },
+    {
+        "code": "PSYC259",
+        "description": "TOPICS IN QUANTITATIVE METHODS"
+    },
+    {
+        "code": "PSYC255",
+        "description": "SOCIAL PSYCHOLOGY OF RACISM"
+    },
+    {
+        "code": "PSYC198",
+        "description": "R&#39;COURSE: VARIABLE TOPICS"
+    },
+    {
+        "code": "PSYC169",
+        "description": "MOTIVATION AND ACHIEVEMENT"
+    },
+    {
+        "code": "PSYC150",
+        "description": "PERSONALITY"
+    },
+    {
+        "code": "PSYC142",
+        "description": "INDUSTRIAL/ORGANIZATIONAL PSYCHOLOGY"
+    },
+    {
+        "code": "PSYC011",
+        "description": "PSYCHOLOGICAL METHODS: STATISTICAL PROCEDURES"
+    },
+    {
+        "code": "PSYC291",
+        "description": "INDIVIDUAL STUDY IN COORDINATED AREAS"
+    },
+    {
+        "code": "PSYC286E",
+        "description": "PROSEMINAR IN PSYCHOLOGY"
+    },
+    {
+        "code": "PSYC271",
+        "description": "CURRENT ISSUES IN COGNITION"
+    },
+    {
+        "code": "PSYC262",
+        "description": "DEVELOPMENTAL BIOPSYCHOLOGY"
+    },
+    {
+        "code": "PSYC258",
+        "description": "SEMINAR IN DEVELOPMENTAL PSYCHOLOGY"
+    },
+    {
+        "code": "PSYC175",
+        "description": "PSYCHOLOGY AND LAW"
+    },
+    {
+        "code": "PSYC168",
+        "description": "PSYCHOLOGICAL ASPECTS OF THE BLACK EXPERIENCE"
+    },
+    {
+        "code": "PSYC161",
+        "description": "SOCIOEMOTIONAL AND PERSONALITY DEVELOPMENT"
+    },
+    {
+        "code": "PSYC139",
+        "description": "COG OF SKEPTIC &amp; GULLIBILITY"
+    },
+    {
+        "code": "PSYC226",
+        "description": "THEORIES AND CONCEPTS OF PERSONALITY PSYCHOLOGY"
+    },
+    {
+        "code": "PSYC208",
+        "description": "RESEARCH METHODS IN DEVELOPMENT"
+    },
+    {
+        "code": "PSYC198I",
+        "description": "INDIVIDUAL INTERNSHIP IN PSYCHOLOGY"
+    },
+    {
+        "code": "PSYC160",
+        "description": "LIFE SPAN DEVELOPMENT"
+    },
+    {
+        "code": "PSYC140",
+        "description": "SOCIAL PSYCHOLOGY"
+    },
+    {
+        "code": "PSYC132",
+        "description": "PERCEPTION"
+    },
+    {
+        "code": "PSYC001",
+        "description": "INTRODUCTORY PSYCHOLOGY"
+    },
+    {
+        "code": "PBPL289A",
+        "description": "CAPSTONE RESEARCH PROJECT"
+    },
+    {
+        "code": "PBPL155",
+        "description": "WOMEN&#39;S LABOR AND THE ECONOMY"
+    },
+    {
+        "code": "PBPL197",
+        "description": "RESEARCH FOR UNDERGRADUATES"
+    },
+    {
+        "code": "PBPL172",
+        "description": "ENVIRONMENTAL POLICY"
+    },
+    {
+        "code": "PBPL233",
+        "description": "ENVIRONMENTAL ECONOMICS AND POLICY"
+    },
+    {
+        "code": "PBPL001",
+        "description": "INTRODUCTION TO PUBLIC POLICY ANALYSIS"
+    },
+    {
+        "code": "PBPL198I",
+        "description": "INDIVIDUAL INTERNSHIP IN PUBLIC POLICY"
+    },
+    {
+        "code": "PBPL191",
+        "description": "SEMINAR IN PUBLIC POLICY"
+    },
+    {
+        "code": "PBPL190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
+        "code": "PBPL103",
+        "description": "ECONOMIC DEVELOPMENT POLICY"
+    },
+    {
+        "code": "PBPL004",
+        "description": "ETHICS, PROFESSIONALISM, AND PUBLIC POLICY"
+    },
+    {
+        "code": "PBPL171",
+        "description": "GLOBALIZATION"
+    },
+    {
+        "code": "PBPL002",
+        "description": "POLITICS AND PUBLIC POLICY"
+    },
+    {
+        "code": "PBPL220",
+        "description": "POLICY EVALUATION"
+    },
+    {
+        "code": "PBPL214",
+        "description": "APPLIED MICROECONOMICS FOR PUBLIC POLICY"
+    },
+    {
+        "code": "PBPL273",
+        "description": "GEOGRAPHIC INFORMATION SYSTEMS (GIS) FOR PUBLIC POLICY"
+    },
+    {
+        "code": "PBPL230F",
+        "description": "PUBLIC POLICY AND HEALTH"
+    },
+    {
+        "code": "PBPL212",
+        "description": "QUALITATIVE SOCIAL SCIENCE METHODS"
+    },
+    {
+        "code": "RLST193",
+        "description": "SENIOR SEMINAR"
+    },
+    {
+        "code": "RLST005",
+        "description": "INTRODUCTION TO ASIAN RELIGIONS"
+    },
+    {
+        "code": "RLST401",
+        "description": "COLLOQUIUM IN RELIGIOUS STUDIES"
+    },
+    {
+        "code": "RLST190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
+        "code": "RLST137B",
+        "description": "RELIGIOUS CULTURES IN MODERN AMERICA"
+    },
+    {
+        "code": "RLST044",
+        "description": "GODS, GHOSTS, AND GRANDPARENTS"
+    },
+    {
+        "code": "RLST012H",
+        "description": "HONORS RELIGIOUS MYTHS AND RITUALS"
+    },
+    {
+        "code": "RLST101",
+        "description": "RELIGIONS OF INDIA"
+    },
+    {
+        "code": "RLST012",
+        "description": "RELIGIOUS MYTHS AND RITUALS"
+    },
+    {
+        "code": "RLST006",
+        "description": "JESUS"
+    },
+    {
+        "code": "RLST302",
+        "description": "TEACHING PRACTICUM"
+    },
+    {
+        "code": "RLST270",
+        "description": "TOPICS IN JEWISH STUDIES"
+    },
+    {
+        "code": "RLST299",
+        "description": "RESEARCH FOR THE DISSERTATION"
+    },
+    {
+        "code": "RLST290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "RLST180",
+        "description": "SAINTS AND GURUS"
+    },
+    {
+        "code": "RLST100",
+        "description": "THE PROBLEM OF RELIGION"
+    },
+    {
+        "code": "RLST203",
+        "description": "HERMENEUTICS AND HISTORY"
+    },
+    {
+        "code": "RLST297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "RLST291",
+        "description": "INDIVIDUAL STUDY IN COORDINATED AREAS"
+    },
+    {
+        "code": "RLST151",
+        "description": "READING THE QUR&#39;AN"
+    },
+    {
+        "code": "RLST292",
+        "description": "CONCURRENT STUDIES IN RELIGIOUS STUDIES"
+    },
+    {
+        "code": "RLST150",
+        "description": "ISLAM IN SOUTHEAST ASIA"
+    },
+    {
+        "code": "RLST005H",
+        "description": "HONORS INTRODUCTION TO ASIAN RELIGIONS"
+    },
+    {
+        "code": "RUSN002",
+        "description": "ELEMENTARY RUSSIAN"
+    },
+    {
+        "code": "RUSN101J",
+        "description": "ADVANCED RUSSIAN"
+    },
+    {
+        "code": "MDCL251",
+        "description": "RADIOLOGY"
+    },
+    {
+        "code": "MDCL248A",
+        "description": "LONGITUDINAL AMBULATORY CARE EXPERIENCE (LACE) I"
+    },
+    {
+        "code": "MDCL243A",
+        "description": "PEDIATRICS I"
+    },
+    {
+        "code": "MDCL254",
+        "description": "FOURTH YEAR CLINICAL ELECTIVE"
+    },
+    {
+        "code": "MDCL248C",
+        "description": "LONGITUDINAL AMBULATORY CARE EXPERIENCE (LACE) III"
+    },
+    {
+        "code": "MDCL244A",
+        "description": "OBSTETRICS/GYNECOLOGY I"
+    },
+    {
+        "code": "MDCL241A",
+        "description": "INTERNAL MEDICINE I"
+    },
+    {
+        "code": "MDCL233",
+        "description": "GASTROINTESTINAL, ENDOCRINE AND REPRODUCTIVE HEALTH I"
+    },
+    {
+        "code": "MDCL289",
+        "description": "EMERGENCY MEDICINE"
+    },
+    {
+        "code": "MDCL242A",
+        "description": "SURGERY I"
+    },
+    {
+        "code": "MDCL246C",
+        "description": "PSYCHIATRY III"
+    },
+    {
+        "code": "MDCL246A",
+        "description": "PSYCHIATRY I"
+    },
+    {
+        "code": "MDCL245A",
+        "description": "FAMILY MEDICINE I"
+    },
+    {
+        "code": "MDCL250",
+        "description": "FAMILY MEDICINE"
+    },
+    {
+        "code": "MDCL247C",
+        "description": "EMERGENCY MEDICINE III"
+    },
+    {
+        "code": "MDCL247A",
+        "description": "EMERGENCY MEDICINE I"
+    },
+    {
+        "code": "MDCL238",
+        "description": "GASTROINTESTINAL, ENDOCRINE AND REPRODUCTIVE HEALTH II"
+    },
+    {
+        "code": "MDCL252",
+        "description": "CRITICAL CARE"
+    },
+    {
+        "code": "SOC290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "SOC204A",
+        "description": "QUALITATIVE METHODS I"
+    },
+    {
+        "code": "SOC144",
+        "description": "FAMILY VIOLENCE"
+    },
+    {
+        "code": "SOC133",
+        "description": "INEQUALITY AND SOCIAL CLASS"
+    },
+    {
+        "code": "SOC122",
+        "description": "SOCIAL CHANGE"
+    },
+    {
+        "code": "SOC003",
+        "description": "THEORETICAL PERSPECTIVES IN SOCIOLOGY\r\n"
+    },
+    {
+        "code": "SOC002S",
+        "description": "SOCIAL PROBLEMS"
+    },
+    {
+        "code": "SOC299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION"
+    },
+    {
+        "code": "SOC202B",
+        "description": "CONTEMPORARY SOCIOLOGICAL THEORY"
+    },
+    {
+        "code": "SOC005",
+        "description": "STATISTICAL ANALYSIS"
+    },
+    {
+        "code": "SOC208",
+        "description": "ADVANCED METHODS IN QUALITATIVE SOCIOLOGY"
+    },
+    {
+        "code": "SOC199H",
+        "description": "SENIOR HONORS RESEARCH"
+    },
+    {
+        "code": "SOC195",
+        "description": "SENIOR THESIS"
+    },
+    {
+        "code": "SOC173",
+        "description": "SOCIAL PSYCHOLOGY: SOCIOLOGICAL ORIENTATION"
+    },
+    {
+        "code": "SOC167",
+        "description": "MEDICAL SOCIOLOGY"
+    },
+    {
+        "code": "SOC030",
+        "description": "IDENTITY AND SOCIETY"
+    },
+    {
+        "code": "SOC001",
+        "description": "INTRODUCTION TO SOCIOLOGY"
+    },
+    {
+        "code": "SOC128S",
+        "description": "CHICANO SOCIOLOGY"
+    },
+    {
+        "code": "SOC010",
+        "description": "THE SOCIOLOGICAL IMAGINATION"
+    },
+    {
+        "code": "SOC291",
+        "description": "INDIVIDUAL STUDY IN COORDINATED AREAS"
+    },
+    {
+        "code": "SOC271",
+        "description": "INEQUALITY AND STRATIFICATION"
+    },
+    {
+        "code": "SOC203A",
+        "description": "QUANTITATIVE METHODS I"
+    },
+    {
+        "code": "SOC198I",
+        "description": "INDIVIDUAL INTERNSHIP IN SOCIOLOGY"
+    },
+    {
+        "code": "SOC179",
+        "description": "SOCIAL MOVEMENTS AND COLLECTIVE ACTION"
+    },
+    {
+        "code": "SOC177G",
+        "description": "TOPICS IN SOCIAL PSYCHOLOGY: SOCIOLOGICAL ORIENTATION"
+    },
+    {
+        "code": "SOC150",
+        "description": "THE SOCIOLOGY OF ECONOMIC ORGANIZATIONS"
+    },
+    {
+        "code": "SOC297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "SOC243J",
+        "description": "COMPARATIVE AND WORLD HISTORICAL SOCIOLOGY"
+    },
+    {
+        "code": "SOC164",
+        "description": "RACIAL AND ETHNIC DIVERSITY ISSUES IN HIGHER EDUCATION"
+    },
+    {
+        "code": "SOC112",
+        "description": "SOCIOLOGY OF THE LABOR MOVEMENT"
+    },
+    {
+        "code": "SOC002G",
+        "description": "INTRODUCTION TO GLOBAL CHANGE AND INEQUALITY"
+    },
+    {
+        "code": "SOC282",
+        "description": "INTERNATIONAL MIGRATION"
+    },
+    {
+        "code": "SOC190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
+        "code": "SOC187",
+        "description": "CAPSTONE SEMINAR IN SOCIOLOGY"
+    },
+    {
+        "code": "SOC176",
+        "description": "THE SOCIOLOGY OF WORK IN ORGANIZATIONS"
+    },
+    {
+        "code": "SOC168",
+        "description": "DEVELOPMENT OF SOCIOLOGICAL THEORY"
+    },
+    {
+        "code": "SOC146",
+        "description": "GENDER IN GLOBAL PERSPECTIVE"
+    },
+    {
+        "code": "SOC137",
+        "description": "POPULATION"
+    },
+    {
+        "code": "SOC004",
+        "description": "METHODS OF SOCIOLOGICAL INQUIRY"
+    },
+    {
+        "code": "SEAS297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "SEAS205",
+        "description": "LITERATURE OF SOUTHEAST ASIA"
+    },
+    {
+        "code": "SEAS292",
+        "description": "CONCURRENT ANALYTICAL STUDIES IN SOUTHEAST ASIAN STUDIES"
+    },
+    {
+        "code": "SEAS185",
+        "description": "SOUTHEAST ASIA, PREHISTORY TO 1800"
+    },
+    {
+        "code": "SEAS204",
+        "description": "APPROACHES TO SOUTHEAST ASIAN HISTORY"
+    },
+    {
+        "code": "SEAS299",
+        "description": "RESEARCH FOR THE THESIS"
+    },
+    {
+        "code": "SEAS290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "SEAS150",
+        "description": "ISLAM IN SOUTHEAST ASIA"
+    },
+    {
+        "code": "SEAS170",
+        "description": "RONDALLA ENSEMBLE"
+    },
+    {
+        "code": "SPN172",
+        "description": "THE TESTIMONIO AND CULTURAL HISTORY\r\n"
+    },
+    {
+        "code": "SPN101B",
+        "description": "ADVANCED ORAL AND WRITTEN COMPOSITION"
+    },
+    {
+        "code": "SPN101A",
+        "description": "ADVANCED ORAL AND WRITTEN COMPOSITION"
+    },
+    {
+        "code": "SPN006",
+        "description": "INTERMEDIATE SPANISH"
+    },
+    {
+        "code": "SPN002",
+        "description": "ELEMENTARY SPANISH"
+    },
+    {
+        "code": "SPN188",
+        "description": "INTERDISCIPLINARY STUDIES: THE HISPANIC WORLD"
+    },
+    {
+        "code": "SPN273B",
+        "description": "LITERATURE AND CULTURE OF COLONIAL LATIN AMERICA:  SPAIN AND THE NEW WORLD"
+    },
+    {
+        "code": "SPN270K",
+        "description": "THE MEXICAN NOVEL"
+    },
+    {
+        "code": "SPN004",
+        "description": "INTERMEDIATE SPANISH"
+    },
+    {
+        "code": "SPN193",
+        "description": "SENIOR SEMINAR IN THE LITERATURES AND CULTURES OF THE HISPANIC WORLD"
+    },
+    {
+        "code": "SPN122B",
+        "description": "TRANSATLANTIC CULTURAL STUDIES"
+    },
+    {
+        "code": "SPN110",
+        "description": "INTRODUCTION TO LITERARY CRITICISM AND ANALYSIS"
+    },
+    {
+        "code": "SPN109A",
+        "description": "SPANISH FOR THE NATIVE SPEAKER"
+    },
+    {
+        "code": "SPN005",
+        "description": "INTERMEDIATE SPANISH"
+    },
+    {
+        "code": "SPN003",
+        "description": "ELEMENTARY SPANISH"
+    },
+    {
+        "code": "SPN291",
+        "description": "INDIVIDUAL STUDIES IN COORDINATED AREAS"
+    },
+    {
+        "code": "SPN290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "SPN270F",
+        "description": "LATIN AMERICAN FILM"
+    },
+    {
+        "code": "SPN130",
+        "description": "DIGITAL DIALECTOLOGY"
+    },
+    {
+        "code": "SPN122A",
+        "description": "INTRODUCTION TO HISPANIC CULTURAL STUDIES"
+    },
+    {
+        "code": "SPN109B",
+        "description": "SPANISH FOR THE NATIVE SPEAKER"
+    },
+    {
+        "code": "SPN001",
+        "description": "ELEMENTARY SPANISH"
+    },
+    {
+        "code": "SPN272",
+        "description": "SEMINAR IN THE LITERATURE OF A SPECIFIC LATIN AMERICAN COUNTRY"
+    },
+    {
+        "code": "SPN190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
+        "code": "SPN123F",
+        "description": "GLOBAL MEXICO"
+    },
+    {
+        "code": "SPN299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION"
+    },
+    {
+        "code": "STAT048",
+        "description": "STATISTICS FOR BUSINESS"
+    },
+    {
+        "code": "STAT255G",
+        "description": "ADVANCED LINEAR AND GENERALIZED LINEAR MODELS"
+    },
+    {
+        "code": "STAT170B",
+        "description": "DESIGN OF EXPERIMENTS"
+    },
+    {
+        "code": "STAT140",
+        "description": "NONPARAMETRIC TECHNIQUES"
+    },
+    {
+        "code": "STAT210B",
+        "description": "ADVANCED THEORY OF PROBABILITY AND STATISTICS"
+    },
+    {
+        "code": "STAT110",
+        "description": "BIOSTATISTICAL METHODS IN LIFE SCIENCES"
+    },
+    {
+        "code": "STAT302",
+        "description": "COLLEGE TEACHING PRACTICUM"
+    },
+    {
+        "code": "STAT198I",
+        "description": "INDIVIDUAL INTERNSHIP IN STATISTICS"
+    },
+    {
+        "code": "STAT147",
+        "description": "INTRODUCTION TO STATISTICAL COMPUTING"
+    },
+    {
+        "code": "STAT104",
+        "description": "DECISION ANALYSIS AND MANAGEMENT SCIENCE"
+    },
+    {
+        "code": "STAT299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION"
+    },
+    {
+        "code": "STAT297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "STAT291",
+        "description": "INDIVIDUAL STUDIES IN COORDINATED AREAS"
+    },
+    {
+        "code": "STAT290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "STAT155",
+        "description": "PROBABILITY AND STATISTICS FOR SCIENCE AND ENGINEERING"
+    },
+    {
+        "code": "STAT293",
+        "description": "METHODS IN APPLIED STATISTICS"
+    },
+    {
+        "code": "STAT202B",
+        "description": "REGRESSION, ANOVA, AND DESIGN"
+    },
+    {
+        "code": "STAT220B",
+        "description": "MULTIVARIATE ANALYSIS"
+    },
+    {
+        "code": "STAT160B",
+        "description": "ELEMENTS OF PROBABILITY AND STATISTICAL THEORY"
+    },
+    {
+        "code": "STAT100A",
+        "description": "INTRODUCTION TO STATISTICS"
+    },
+    {
+        "code": "STAT205",
+        "description": "DISCRETE DATA ANALYSIS"
+    },
+    {
+        "code": "STAT201B",
+        "description": "THEORY OF PROBABILITY AND STATISTICS"
+    },
+    {
+        "code": "STAT197",
+        "description": "RESEARCH FOR UNDERGRADUATES"
+    },
+    {
+        "code": "STAT190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
+        "code": "STAT100B",
+        "description": "INTRODUCTION TO STATISTICS"
+    },
+    {
+        "code": "STAT157",
+        "description": "STATISTICAL COMPUTER PACKAGES"
+    },
+    {
+        "code": "STAT231A",
+        "description": "STATISTICS FOR BIOLOGICAL SCIENCES"
+    },
+    {
+        "code": "STAT251",
+        "description": "STATISTICS COLLOQUIUM"
+    },
+    {
+        "code": "TFDP050S",
+        "description": "PUBLIC SPEAKING"
+    },
+    {
+        "code": "TFDP155",
+        "description": "INTRODUCTION TO DIGITAL FILM PRODUCTION"
+    },
+    {
+        "code": "TFDP133",
+        "description": "SCENE DESIGN FOR THEATRE, FILM, AND TELEVISION"
+    },
+    {
+        "code": "TFDP117",
+        "description": "DIRECTING FOR THE SCREEN"
+    },
+    {
+        "code": "TFDP020",
+        "description": "PRODUCTION TECHNIQUEST FOR THEATRE, FILM, AND TELEVISION"
+    },
+    {
+        "code": "TFDP010",
+        "description": "INTRODUCTION TO ACTING"
+    },
+    {
+        "code": "TFDP191S",
+        "description": "SEMINAR IN THEATRE; SCRIPT TO PRODUCTION"
+    },
+    {
+        "code": "TFDP190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
+        "code": "TFDP166B",
+        "description": "SCREENWRITING: OUTLINE TO FIRST DRAFT"
+    },
+    {
+        "code": "TFDP122",
+        "description": "THEATRE FOR SOCIAL CHANGE"
+    },
+    {
+        "code": "TFDP111A",
+        "description": "ADVANCED ACTING: SHAKESPEARE AND THE POWER OF LANGUAGE"
+    },
+    {
+        "code": "TFDP164B",
+        "description": "INTERMEDIATE PLAYWRITING"
+    },
+    {
+        "code": "TFDP100",
+        "description": "PLAY ANALYSIS"
+    },
+    {
+        "code": "TFDP052",
+        "description": "ADVANCED PUBLIC SPEAKING"
+    },
+    {
+        "code": "TFDP156B",
+        "description": "DIGITAL FILM PRODUCTION"
+    },
+    {
+        "code": "TFDP109",
+        "description": "ACTING: THE PROCESS"
+    },
+    {
+        "code": "TFDP156A",
+        "description": "DIGITAL FILM PRODUCTION"
+    },
+    {
+        "code": "TFDP150A",
+        "description": "DIRECTING"
+    },
+    {
+        "code": "TFDP067",
+        "description": "INTRODUCTION TO PLAYWRITING AND SCREENWRITING"
+    },
+    {
+        "code": "TFDP066",
+        "description": "SCREENWRITING: HOW MOVIES WORK"
+    },
+    {
+        "code": "TFDP120B",
+        "description": "LITERATURE AND HISTORY OF THE THEATRE: THE ELIZABETHAN PERIOD THROUGH THE NINETEENTH CENTURY"
+    },
+    {
+        "code": "TFDP185",
+        "description": "ARTS, MANAGMENT, AND COMMUNITY"
+    },
+    {
+        "code": "URST146",
+        "description": "URBAN ECONOMICS"
+    },
+    {
+        "code": "VNM002",
+        "description": "ELEMENTARY VIETNAMESE"
+    }
+]

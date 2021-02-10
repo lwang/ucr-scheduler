@@ -1,0 +1,2062 @@
+[
+    {
+        "code": "PHIL007",
+        "description": "INTRODUCTION TO CRITICAL THINKING"
+    },
+    {
+        "code": "PHIL008",
+        "description": "INTRODUCTION TO LOGIC"
+    },
+    {
+        "code": "PHIL108",
+        "description": "PHILOSOPHICAL ISSUES OF RACE AND GENDER"
+    },
+    {
+        "code": "PHIL111",
+        "description": "PHILOSOPHY, FILM, AND REFLECTIVE POPULAR CULTURE"
+    },
+    {
+        "code": "PHIL112",
+        "description": "MORTAL QUESTIONS"
+    },
+    {
+        "code": "PHIL117",
+        "description": "ENVIRONMENTAL ETHICS"
+    },
+    {
+        "code": "PHIL151",
+        "description": "EXISTENTIALISM"
+    },
+    {
+        "code": "PHIL164",
+        "description": "JUSTICE"
+    },
+    {
+        "code": "PHYS002A",
+        "description": "GENERAL PHYSICS"
+    },
+    {
+        "code": "PHYS002B",
+        "description": "GENERAL PHYSICS"
+    },
+    {
+        "code": "PHYS002C",
+        "description": "GENERAL PHYSICS"
+    },
+    {
+        "code": "PHYS02LA",
+        "description": "GENERAL PHYSICS LABORATORY"
+    },
+    {
+        "code": "PHYS02LB",
+        "description": "GENERAL PHYSICS LABORATORY"
+    },
+    {
+        "code": "PHYS02LC",
+        "description": "GENERAL PHYSICS LABORATORY"
+    },
+    {
+        "code": "PHYS037",
+        "description": "THE ORIGINS"
+    },
+    {
+        "code": "PHYS040A",
+        "description": "GENERAL PHYSICS"
+    },
+    {
+        "code": "PHYS040B",
+        "description": "GENERAL PHYSICS"
+    },
+    {
+        "code": "PHYS040C",
+        "description": "GENERAL PHYSICS"
+    },
+    {
+        "code": "PHYS050",
+        "description": "INTRODUCTION TO APPLIED DATA SCIENCE: A MULTI-DISCIPLINARY APPROACH"
+    },
+    {
+        "code": "POSC005",
+        "description": "POLITICAL IDEOLOGIES"
+    },
+    {
+        "code": "POSC010",
+        "description": "AMERICAN POLITICS"
+    },
+    {
+        "code": "POSC017",
+        "description": "POLITICS OF THE UNDERDEVELOPED WORLD"
+    },
+    {
+        "code": "POSC020",
+        "description": "WORLD POLITICS"
+    },
+    {
+        "code": "POSC101",
+        "description": "THE U.S. CONGRESS"
+    },
+    {
+        "code": "POSC108",
+        "description": "POLITICS OF RACE, IMMIGRATION, AND ETHNICITY IN THE UNITED STATES"
+    },
+    {
+        "code": "POSC111",
+        "description": "DEMOCRACY AND THE SOCIAL CONTRACT"
+    },
+    {
+        "code": "POSC112S",
+        "description": "MODERN POLITICAL THEORY"
+    },
+    {
+        "code": "POSC116S",
+        "description": "CAPITALISM, SOCIALISM, AND POLITICAL THEORY"
+    },
+    {
+        "code": "POSC123",
+        "description": "CONFLICT RESOLUTION"
+    },
+    {
+        "code": "POSC124S",
+        "description": "INTERNATIONAL RELATIONS"
+    },
+    {
+        "code": "POSC126",
+        "description": "THE POLITICS OF INTERNATIONAL TRADE, FINANCE, AND DEVELOPMENT"
+    },
+    {
+        "code": "POSC129",
+        "description": "THE PROLIFERATION OF WEAPONS OF MASS DESTRUCTION"
+    },
+    {
+        "code": "POSC143S",
+        "description": "ELECTIONS AND POLITICAL PARTICIPATION"
+    },
+    {
+        "code": "POSC146",
+        "description": "MASS MEDIA AND PUBLIC OPINION"
+    },
+    {
+        "code": "POSC150S",
+        "description": "HUMAN RIGHTS IN THEORY, LAW, AND POLITICS"
+    },
+    {
+        "code": "POSC158",
+        "description": "POLITICS OF MEXICO"
+    },
+    {
+        "code": "POSC160S",
+        "description": "GLOBALIZATION AND UNDERDEVELOPMENT"
+    },
+    {
+        "code": "POSC162S",
+        "description": "LATIN AMERICA:  THE QUEST FOR DEVELOPMENT AND DEMOCRACY"
+    },
+    {
+        "code": "POSC164",
+        "description": "THE NATION STATE AND CAPITALISM"
+    },
+    {
+        "code": "POSC168",
+        "description": "CONSTITUTIONAL LAW: CRIMINAL JUSTICE"
+    },
+    {
+        "code": "POSC173S",
+        "description": "GOVERNMENT AND POLITICS OF CALIFORNIA"
+    },
+    {
+        "code": "POSC182",
+        "description": "POLITICS AND ECONOMIC POLICY"
+    },
+    {
+        "code": "PSYC001",
+        "description": "INTRODUCTORY PSYCHOLOGY"
+    },
+    {
+        "code": "PSYC002",
+        "description": "INTRODUCTORY PSYCHOLOGY"
+    },
+    {
+        "code": "PSYC011",
+        "description": "PSYCHOLOGICAL METHODS: STATISTICAL PROCEDURES"
+    },
+    {
+        "code": "PSYC012",
+        "description": "PSYCHOLOGICAL METHODS: RESEARCH PROCEDURES"
+    },
+    {
+        "code": "PSYC049",
+        "description": "YOUR PERCEPTUAL SUPERPOWERS"
+    },
+    {
+        "code": "PSYC110",
+        "description": "THE BRAIN AND BEHAVIOR"
+    },
+    {
+        "code": "PSYC115",
+        "description": "DRUGS AND BEHAVIOR"
+    },
+    {
+        "code": "PSYC120",
+        "description": "CELLULAR NEUROSCIENCE: MEMBRANE AND SYNAPTIC PHENOMENA"
+    },
+    {
+        "code": "PSYC120L",
+        "description": "NEUROSCIENCE LABORATORY"
+    },
+    {
+        "code": "PSYC121",
+        "description": "DEVELOPMENTAL NEUROSCIENCE"
+    },
+    {
+        "code": "PSYC124",
+        "description": "SYSTEMS NEUROSCIENCE"
+    },
+    {
+        "code": "PSYC126",
+        "description": "NEUROSCIENCE OF LEARNING AND MEMORY"
+    },
+    {
+        "code": "PSYC132",
+        "description": "PERCEPTION"
+    },
+    {
+        "code": "PSYC134",
+        "description": "COGNITIVE PROCESSES"
+    },
+    {
+        "code": "PSYC140",
+        "description": "SOCIAL PSYCHOLOGY"
+    },
+    {
+        "code": "PSYC148",
+        "description": "THE SOCIAL BRAIN"
+    },
+    {
+        "code": "PSYC149",
+        "description": "THE SCIENCE OF WELL-BEING"
+    },
+    {
+        "code": "PSYC150",
+        "description": "PERSONALITY"
+    },
+    {
+        "code": "PSYC152",
+        "description": "ABNORMAL PSYCHOLOGY"
+    },
+    {
+        "code": "PSYC160",
+        "description": "LIFE SPAN DEVELOPMENT"
+    },
+    {
+        "code": "PSYC161",
+        "description": "SOCIOEMOTIONAL AND PERSONALITY DEVELOPMENT"
+    },
+    {
+        "code": "PSYC163",
+        "description": "COGNITIVE DEVELOPMENT"
+    },
+    {
+        "code": "PSYC165B",
+        "description": "THE DEVELOPMENT OF IMMIGRANT AND ETHNIC MINORITY YOUTH"
+    },
+    {
+        "code": "PSYC166C",
+        "description": "ADOLESCENCE AND EMERGING ADULTHOOD"
+    },
+    {
+        "code": "PSYC175",
+        "description": "PSYCHOLOGY AND LAW"
+    },
+    {
+        "code": "PSYC178",
+        "description": "HEALTH PSYCHOLOGY"
+    },
+    {
+        "code": "PSYC182J",
+        "description": "ATTENTION &amp; MEMORY"
+    },
+    {
+        "code": "PSYC182N",
+        "description": "ADULT DEVELOPMENT &amp; AGING"
+    },
+    {
+        "code": "PSYC189",
+        "description": "THE SCIENCE OF EMOTIONS"
+    },
+    {
+        "code": "PBPL001",
+        "description": "INTRODUCTION TO PUBLIC POLICY ANALYSIS"
+    },
+    {
+        "code": "PBPL002",
+        "description": "POLITICS AND PUBLIC POLICY"
+    },
+    {
+        "code": "PBPL004",
+        "description": "ETHICS, PROFESSIONALISM, AND PUBLIC POLICY"
+    },
+    {
+        "code": "PBPL101",
+        "description": "CASE STUDIES IN PUBLIC POLICY"
+    },
+    {
+        "code": "PBPL191",
+        "description": "SEMINAR IN PUBLIC POLICY"
+    },
+    {
+        "code": "RLST005",
+        "description": "INTRODUCTION TO ASIAN RELIGIONS"
+    },
+    {
+        "code": "RLST006",
+        "description": "JESUS"
+    },
+    {
+        "code": "RLST007",
+        "description": "JEWS, CHRISTIANS, AND MUSLIMS"
+    },
+    {
+        "code": "RLST010",
+        "description": "INTRODUCTION TO THE BIBLE"
+    },
+    {
+        "code": "RLST012",
+        "description": "RELIGIOUS MYTHS AND RITUALS"
+    },
+    {
+        "code": "RLST014",
+        "description": "RELIGION AND SCIENCE"
+    },
+    {
+        "code": "RLST015",
+        "description": "DEATH"
+    },
+    {
+        "code": "RLST016",
+        "description": "SEXUALITY AND RELIGION IN GLOBAL PERSPECTIVE"
+    },
+    {
+        "code": "SOC001",
+        "description": "INTRODUCTION TO SOCIOLOGY"
+    },
+    {
+        "code": "SOC003",
+        "description": "THEORETICAL PERSPECTIVES IN SOCIOLOGY\r\n"
+    },
+    {
+        "code": "SOC004",
+        "description": "METHODS OF SOCIOLOGICAL INQUIRY"
+    },
+    {
+        "code": "SOC005",
+        "description": "STATISTICAL ANALYSIS"
+    },
+    {
+        "code": "SOC010",
+        "description": "THE SOCIOLOGICAL IMAGINATION"
+    },
+    {
+        "code": "SOC030",
+        "description": "IDENTITY AND SOCIETY"
+    },
+    {
+        "code": "SOC031",
+        "description": "COUPLES AND FAMILIES"
+    },
+    {
+        "code": "SOC122",
+        "description": "SOCIAL CHANGE"
+    },
+    {
+        "code": "SOC127",
+        "description": "SOCIOLOGICAL DETERMINANTS OF HEALTH"
+    },
+    {
+        "code": "SOC128",
+        "description": "CHICANO SOCIOLOGY"
+    },
+    {
+        "code": "SOC129",
+        "description": "RACISM IN WESTERN SOCIETY"
+    },
+    {
+        "code": "SOC130",
+        "description": "RACE AND ETHNIC RELATIONS"
+    },
+    {
+        "code": "SOC133",
+        "description": "INEQUALITY AND SOCIAL CLASS"
+    },
+    {
+        "code": "SOC135S",
+        "description": "CONFLICT"
+    },
+    {
+        "code": "SOC139",
+        "description": "MASS MEDIA AND POPULAR CULTURE"
+    },
+    {
+        "code": "SOC140",
+        "description": "THE SOCIOLOGY OF WOMEN"
+    },
+    {
+        "code": "SOC142",
+        "description": "SOCIOLOGY OF THE FAMILY"
+    },
+    {
+        "code": "SOC143",
+        "description": "URBAN SOCIOLOGY"
+    },
+    {
+        "code": "SOC149",
+        "description": "ORGANIZED CRIME"
+    },
+    {
+        "code": "SOC150",
+        "description": "THE SOCIOLOGY OF ECONOMIC ORGANIZATIONS"
+    },
+    {
+        "code": "SOC151",
+        "description": "FORMAL ORGANIZATIONS"
+    },
+    {
+        "code": "SOC168",
+        "description": "DEVELOPMENT OF SOCIOLOGICAL THEORY"
+    },
+    {
+        "code": "SOC169",
+        "description": "MODERN SOCIOLOGICAL THEORY"
+    },
+    {
+        "code": "SOC173",
+        "description": "SOCIAL PSYCHOLOGY: SOCIOLOGICAL ORIENTATION"
+    },
+    {
+        "code": "SOC174",
+        "description": "SOCIALIZATION AND PERSONALITY"
+    },
+    {
+        "code": "SOC176",
+        "description": "THE SOCIOLOGY OF WORK IN ORGANIZATIONS"
+    },
+    {
+        "code": "SOC180",
+        "description": "DEVIANCE AND CONTROL"
+    },
+    {
+        "code": "SEAS123",
+        "description": "SOUTHEAST ASIAN PERFORMANCE"
+    },
+    {
+        "code": "SEAS136",
+        "description": "ANTHROPOLOGICAL PERSPECTIVES ON GENDER IN SOUTHEAST ASIA"
+    },
+    {
+        "code": "SPN001",
+        "description": "ELEMENTARY SPANISH"
+    },
+    {
+        "code": "SPN002",
+        "description": "ELEMENTARY SPANISH"
+    },
+    {
+        "code": "SPN003",
+        "description": "ELEMENTARY SPANISH"
+    },
+    {
+        "code": "SPN004",
+        "description": "INTERMEDIATE SPANISH"
+    },
+    {
+        "code": "SPN046",
+        "description": "INTRODUCTION TO LATIN AMERICAN FILM"
+    },
+    {
+        "code": "SPN110",
+        "description": "INTRODUCTION TO LITERARY CRITICISM AND ANALYSIS"
+    },
+    {
+        "code": "STAT100A",
+        "description": "INTRODUCTION TO STATISTICS"
+    },
+    {
+        "code": "STAT100B",
+        "description": "INTRODUCTION TO STATISTICS"
+    },
+    {
+        "code": "STAT104",
+        "description": "DECISION ANALYSIS AND MANAGEMENT SCIENCE"
+    },
+    {
+        "code": "STAT147",
+        "description": "INTRODUCTION TO STATISTICAL COMPUTING"
+    },
+    {
+        "code": "STAT155",
+        "description": "PROBABILITY AND STATISTICS FOR SCIENCE AND ENGINEERING"
+    },
+    {
+        "code": "STAT157",
+        "description": "STATISTICAL COMPUTER PACKAGES"
+    },
+    {
+        "code": "TFDP020",
+        "description": "PRODUCTION TECHNIQUEST FOR THEATRE, FILM, AND TELEVISION"
+    },
+    {
+        "code": "TFDP050S",
+        "description": "PUBLIC SPEAKING"
+    },
+    {
+        "code": "TFDP066",
+        "description": "SCREENWRITING: HOW MOVIES WORK"
+    },
+    {
+        "code": "TFDP100",
+        "description": "PLAY ANALYSIS"
+    },
+    {
+        "code": "TFDP109",
+        "description": "ACTING: THE PROCESS"
+    },
+    {
+        "code": "TFDP115",
+        "description": "HIP HOP THEATRE"
+    },
+    {
+        "code": "TFDP155",
+        "description": "INTRODUCTION TO DIGITAL FILM PRODUCTION"
+    },
+    {
+        "code": "TFDP157",
+        "description": "INTRODUCTION TO FILM EDITING"
+    },
+    {
+        "code": "TFDP164A",
+        "description": "BEGINNING PLAYWRITING"
+    },
+    {
+        "code": "TFDP166A",
+        "description": "SCREENWRITING: INTRODUCTION"
+    },
+    {
+        "code": "TFDP170",
+        "description": "PERFORMANCE IN PRODUCTION"
+    },
+    {
+        "code": "URST014",
+        "description": "POPULAR MUSICS OF THE WORLD"
+    },
+    {
+        "code": "URST021",
+        "description": "INTRODUCTION TO ARCHITECTURE AND URBANISM"
+    },
+    {
+        "code": "URST143",
+        "description": "URBAN SOCIOLOGY"
+    },
+    {
+        "code": "VNM004",
+        "description": "INTERMEDIATE VIETNAMESE"
+    },
+    {
+        "code": "WRLT170",
+        "description": "THIRD WORLD LITERATURE"
+    },
+    {
+        "code": "ECON101",
+        "description": "STATISTICS FOR ECONOMICS"
+    },
+    {
+        "code": "ECON102",
+        "description": "INTERMEDIATE MICROECONOMICS"
+    },
+    {
+        "code": "ECON103",
+        "description": "INTERMEDIATE MACROECONOMICS"
+    },
+    {
+        "code": "ECON104A",
+        "description": "INTERMEDIATE MICROECONOMIC THEORY"
+    },
+    {
+        "code": "ECON104B",
+        "description": "INTERMEDIATE MICROECONOMIC THEORY"
+    },
+    {
+        "code": "ECON105A",
+        "description": "INTERMEDIATE MACROECONOMIC THEORY"
+    },
+    {
+        "code": "ECON105B",
+        "description": "INTERMEDIATE MACROECONOMIC THEORY"
+    },
+    {
+        "code": "ECON107",
+        "description": "INTRODUCTORY ECONOMETRICS"
+    },
+    {
+        "code": "ECON124",
+        "description": "WORLD ECONOMIC HISTORY"
+    },
+    {
+        "code": "ECON130",
+        "description": "INTRODUCTION TO MONEY, BANKING, AND CREDIT"
+    },
+    {
+        "code": "ECON134",
+        "description": "INTRODUCTION TO FINANCIAL MANAGEMENT"
+    },
+    {
+        "code": "ECON135",
+        "description": "THE STOCK MARKET"
+    },
+    {
+        "code": "ECON153",
+        "description": "LABOR ECONOMICS"
+    },
+    {
+        "code": "ECON160",
+        "description": "INDUSTRIAL ORGANIZATION"
+    },
+    {
+        "code": "ECON162",
+        "description": "MANAGERIAL ECONOMICS"
+    },
+    {
+        "code": "ECON171",
+        "description": "INTERNATIONAL FINANCE"
+    },
+    {
+        "code": "ECON178",
+        "description": "INTERNATIONAL TRADE"
+    },
+    {
+        "code": "ECON181",
+        "description": "ECONOMIC DEVELOPMENT: THEORY AND POLICY"
+    },
+    {
+        "code": "EDUC005",
+        "description": "INTRODUCTION TO EDUCATION STUDIES"
+    },
+    {
+        "code": "EDUC010",
+        "description": "PRINCIPALS OF LEARNING STRATEGIES"
+    },
+    {
+        "code": "EDUC044",
+        "description": "PRINCIPLES OF HEALTHFUL LIVING"
+    },
+    {
+        "code": "EDUC050",
+        "description": "INTERCOLLEGIATE ATHLETICS AND AMERICAN HIGHER EDUCATION"
+    },
+    {
+        "code": "EDUC051",
+        "description": "INTRODUCTION TO HIGHER EDUCATION: CURRENT ISSUES AND DEBATES"
+    },
+    {
+        "code": "EDUC060",
+        "description": "DEVELOPMENT OF PERFORMANCE EXCELLENCE"
+    },
+    {
+        "code": "EDUC118",
+        "description": "EDUCATIONAL RESEARCH METHODS"
+    },
+    {
+        "code": "EDUC132",
+        "description": "THE EXCEPTIONAL CHILD"
+    },
+    {
+        "code": "EDUC133",
+        "description": "ISSUES AND TRENDS IN SPECIAL EDUCATION"
+    },
+    {
+        "code": "EDUC147",
+        "description": "EDUCATION IN A DIVERSE SOCIETY"
+    },
+    {
+        "code": "EDUC162",
+        "description": "LEARNING THEORY AND PSYCHOLOGY IN EDUCATION"
+    },
+    {
+        "code": "EDUC172",
+        "description": "READING AND LANGUAGE DEVELOPMENT"
+    },
+    {
+        "code": "EDUC179A",
+        "description": "LANGUAGE DEVELOPMENT IN CONTENT AREAS"
+    },
+    {
+        "code": "EDUC211B",
+        "description": "SOCIAL DEVELOPMENT"
+    },
+    {
+        "code": "EDUC257",
+        "description": "LANGUAGE, CULTURE, AND EDUCATION"
+    },
+    {
+        "code": "EDUC280L",
+        "description": "THE LEARNER"
+    },
+    {
+        "code": "EDUC331",
+        "description": "EDUCATION SPECIALIST CREDENTIAL SEMINAR"
+    },
+    {
+        "code": "EDUC332",
+        "description": "MULTIPLE SUBJECT CREDENTIAL SEMINAR"
+    },
+    {
+        "code": "EDUC333",
+        "description": "SINGLE SUBJECT CREDENTIAL SEMINAR"
+    },
+    {
+        "code": "EE001A",
+        "description": "ENGINEERING CIRCUIT ANALYSIS I"
+    },
+    {
+        "code": "EE001B",
+        "description": "ENGINEERING CIRCUIT ANALYSIS II"
+    },
+    {
+        "code": "EE01LA",
+        "description": "ENGINEERING CIRCUIT ANALYSIS I LABORATORY"
+    },
+    {
+        "code": "EE020",
+        "description": "LINEAR METHODS FOR ENGINEERING ANALYSIS AND DESIGN USING MATLAB"
+    },
+    {
+        "code": "EE100B",
+        "description": "ELECTRONIC CIRCUITS"
+    },
+    {
+        "code": "EE115",
+        "description": "INTRODUCTION TO COMMUNICATION SYSTEMS"
+    },
+    {
+        "code": "EE120A",
+        "description": "LOGIC DESIGN"
+    },
+    {
+        "code": "EE120B",
+        "description": "INTRODUCTION TO EMBEDDED SYSTEMS"
+    },
+    {
+        "code": "EE123",
+        "description": "POWER ELECTRONICS"
+    },
+    {
+        "code": "EE298I",
+        "description": "INDIVIDUAL INTERNSHIP IN ELECTRICAL ENGINEERING"
+    },
+    {
+        "code": "ENGR108",
+        "description": "TECHNOLOGY IN PREMODERN CIVILIZATIONS"
+    },
+    {
+        "code": "ENGR180W",
+        "description": "TECHNICAL COMMUNICATIONS"
+    },
+    {
+        "code": "ENGL001A",
+        "description": "BEGINNING COMPOSITION"
+    },
+    {
+        "code": "ENGL001B",
+        "description": "INTERMEDIATE COMPOSITION"
+    },
+    {
+        "code": "ENGL001C",
+        "description": "APPLIED INTERMEDIATE COMPOSITION"
+    },
+    {
+        "code": "ENGL004",
+        "description": "ENGLISH WRITING"
+    },
+    {
+        "code": "ENGL004D",
+        "description": "ENGLISH WRITING"
+    },
+    {
+        "code": "ENGL012B",
+        "description": "INTRODUCTION TO FICTION"
+    },
+    {
+        "code": "ENGL020A",
+        "description": "INTRODUCTION TO BRITISH LITERARY TRADITION"
+    },
+    {
+        "code": "ENGL102",
+        "description": "INTRODUCTION TO CRITICAL METHODS"
+    },
+    {
+        "code": "ENGL117T",
+        "description": "TOPICS IN SHAKESPEARE"
+    },
+    {
+        "code": "ENGL120T",
+        "description": "STUDIES IN NATIVE AMERICAN LITERATURE"
+    },
+    {
+        "code": "ENGL134",
+        "description": "AMERICAN LITERATURE, 1945 TO THE PRESENT"
+    },
+    {
+        "code": "ENGL139T",
+        "description": "STUDIES IN ASIAN AMERICAN LITERATURE"
+    },
+    {
+        "code": "ENGL144I",
+        "description": "RACE, ETHNICITY, AND VISUAL CULTURE"
+    },
+    {
+        "code": "ENGL179T",
+        "description": "STUDIES IN SCIENCE FICTION"
+    },
+    {
+        "code": "ENTM010",
+        "description": "NATURAL HISTORY OF INSECTS"
+    },
+    {
+        "code": "ENVE130",
+        "description": "ADVANCED ENGINEERING THERMODYNAMICS"
+    },
+    {
+        "code": "ENSC006",
+        "description": "INTRODUCTION TO ENVIRONMENTAL ECONOMICS"
+    },
+    {
+        "code": "ETST001",
+        "description": "INTRODUCTION TO THE STUDY OF RACE AND ETHNICITY"
+    },
+    {
+        "code": "ETST002",
+        "description": "INTRODUCTION TO CHICANO STUDIES IN COMPARATIVE PERSPECTIVE"
+    },
+    {
+        "code": "ETST003",
+        "description": "INTRODUCTION TO AFRICAN AMERICAN STUDIES IN COMPARATIVE PERSPECTIVE"
+    },
+    {
+        "code": "ETST004",
+        "description": "INTRODUCTION TO CHICANO HISTORY"
+    },
+    {
+        "code": "ETST005",
+        "description": "INTRODUCTION TO ASIAN AMERICAN STUDIES IN COMPARATIVE PERSPECTIVE"
+    },
+    {
+        "code": "ETST007",
+        "description": "INTRODUCTION TO NATIVE AMERICAN STUDIES IN COMPARATIVE PERSPECTIVE"
+    },
+    {
+        "code": "ETST008",
+        "description": "INTRODUCTION TO CHICANO CULTURAL STUDIES"
+    },
+    {
+        "code": "ETST012",
+        "description": "RELIGIOUS MYTHS AND RITUALS"
+    },
+    {
+        "code": "ETST014",
+        "description": "POPULAR MUSICS OF THE WORLD"
+    },
+    {
+        "code": "ETST098",
+        "description": "INTRODUCTION TO ARAB/MUSLIM AMERICAN STUDIES"
+    },
+    {
+        "code": "ETST102",
+        "description": "THE POLITICAL ECONOMY OF RACE AND CLASS"
+    },
+    {
+        "code": "ETST128",
+        "description": "CHICANO SOCIOLOGY"
+    },
+    {
+        "code": "ETST131",
+        "description": "RACE, CLASS, AND GENDER"
+    },
+    {
+        "code": "ETST132",
+        "description": "CHICANO CONTEMPORARY ISSUES"
+    },
+    {
+        "code": "ETST170",
+        "description": "THIRD WORLD LITERATURE"
+    },
+    {
+        "code": "ETST189",
+        "description": "POPULAR CULTURE AND THE PRODUCTION OF RACE"
+    },
+    {
+        "code": "FIL004",
+        "description": "SECOND-YEAR FILIPINO"
+    },
+    {
+        "code": "FREN004",
+        "description": "INTERMEDIATE FRENCH"
+    },
+    {
+        "code": "FREN181",
+        "description": "EXISTENTIALISM IN LITERATURE, FILM, AND CULTURE"
+    },
+    {
+        "code": "GSST001",
+        "description": "GENDER AND SEXUALITY"
+    },
+    {
+        "code": "GSST010",
+        "description": "WOMEN AND CULTURE"
+    },
+    {
+        "code": "GSST016",
+        "description": "SEXUALITY AND RELIGION IN GLOBAL PERSPECTIVE"
+    },
+    {
+        "code": "GSST100",
+        "description": "GENDER THEORY"
+    },
+    {
+        "code": "GSST103",
+        "description": "SEXUALITIES AND CULTURE"
+    },
+    {
+        "code": "GSST108",
+        "description": "PHILOSOPHICAL ISSUES OF RACE AND GENDER"
+    },
+    {
+        "code": "GSST126",
+        "description": "GENDER, SEXUALITY, AND MUSIC IN CROSS-CULTURAL PERSPECTIVES"
+    },
+    {
+        "code": "GSST143",
+        "description": "THE SOCIOLOGY OF WOMEN"
+    },
+    {
+        "code": "GSST191C",
+        "description": "SEMINAR IN GENDER AND SEXUALITY STUDIES: RESEARCH PRACTICUM IN GENDER AND SUSTAINABILITY"
+    },
+    {
+        "code": "GEO003",
+        "description": "HEADLINES IN THE HISTORY OF LIFE"
+    },
+    {
+        "code": "GEO004",
+        "description": "NATURAL HAZARDS AND DISASTERS"
+    },
+    {
+        "code": "GEO007",
+        "description": "MINERALS AND HUMAN HEALTH"
+    },
+    {
+        "code": "GEO008",
+        "description": "EARTHQUAKE COUNTRY"
+    },
+    {
+        "code": "GEO009",
+        "description": "OCEANOGRAPHY"
+    },
+    {
+        "code": "GEO011",
+        "description": "GLOBAL CLIMATE CHANGE"
+    },
+    {
+        "code": "GER045",
+        "description": "INTRODUCTION TO GERMAN CINEMA"
+    },
+    {
+        "code": "GBST001",
+        "description": "GLOBAL HISTORY, CULTURE, AND IDEAS"
+    },
+    {
+        "code": "GBST191",
+        "description": "SEMINAR IN GLOBAL STUDIES"
+    },
+    {
+        "code": "HIST004",
+        "description": "INTRODUCTION TO CHICANO HISTORY"
+    },
+    {
+        "code": "HIST010",
+        "description": "WORLD HISTORY: PREHISTORY TO 1500"
+    },
+    {
+        "code": "HIST015",
+        "description": "WORLD HISTORY: 1500 TO 1900"
+    },
+    {
+        "code": "HIST020",
+        "description": "WORLD HISTORY: TWENTIETH CENTURY"
+    },
+    {
+        "code": "HIST030",
+        "description": "WE ARE WHAT WE EAT?"
+    },
+    {
+        "code": "HIST075",
+        "description": "INTRODUCTION TO LATIN AMERICA"
+    },
+    {
+        "code": "HIST099W",
+        "description": "THE HISTORIAN&#39;S WORKSHOP"
+    },
+    {
+        "code": "HIST104",
+        "description": "THE SCIENTIFIC REVOLUTION"
+    },
+    {
+        "code": "HIST106",
+        "description": "SCIENCE IN TRIUMPH AND CRISIS"
+    },
+    {
+        "code": "HIST107",
+        "description": "DISEASE AND SOCIETY"
+    },
+    {
+        "code": "HIST108",
+        "description": "TECHNOLOGY IN PREMODERN CIVILIZATIONS"
+    },
+    {
+        "code": "HIST197",
+        "description": "U.S. AND THE PACIFIC"
+    },
+    {
+        "code": "HISE118",
+        "description": "ANCIENT GREECE: THE HELLENISTIC AGE FROM ALEXANDER TO CLEOPATRA, 336-31 B.C."
+    },
+    {
+        "code": "HISE152",
+        "description": "MODERN BRITAIN"
+    },
+    {
+        "code": "HISA114",
+        "description": "THE AMERICAN CIVIL WAR"
+    },
+    {
+        "code": "HISA117B",
+        "description": "UNITED STATES, 1945 TO THE PRESENT"
+    },
+    {
+        "code": "HISA119",
+        "description": "MODERN U.S. CONSUMER CULTURE"
+    },
+    {
+        "code": "HISA120B",
+        "description": "THE SUPREME COURT AND THE CONSTITUTION"
+    },
+    {
+        "code": "JPN001",
+        "description": "FIRST-YEAR JAPANESE"
+    },
+    {
+        "code": "JPN002",
+        "description": "FIRST-YEAR JAPANESE"
+    },
+    {
+        "code": "JPN003",
+        "description": "FIRST-YEAR JAPANESE"
+    },
+    {
+        "code": "JPN004",
+        "description": "SECOND-YEAR JAPANESE"
+    },
+    {
+        "code": "JPN023",
+        "description": "MODERN JAPAN AND PERSONAL NARRATIVE"
+    },
+    {
+        "code": "KOR004",
+        "description": "SECOND-YEAR KOREAN"
+    },
+    {
+        "code": "LNST001",
+        "description": "INTRODUCTION TO LATIN AMERICAN STUDIES"
+    },
+    {
+        "code": "LNST017",
+        "description": "MUSIC OF MEXICO"
+    },
+    {
+        "code": "LNST142S",
+        "description": "LATIN AMERICA:  THE QUEST FOR DEVELOPMENT AND DEMOCRACY"
+    },
+    {
+        "code": "LNST148",
+        "description": "POLITICS OF MEXICO"
+    },
+    {
+        "code": "LWSO100",
+        "description": "INTRODUCTION TO THE STUDY OF LAW AND SOCIETY"
+    },
+    {
+        "code": "LGBS001",
+        "description": "INTRODUCTION TO LESBIAN, GAY, BISEXUAL, AND TRANSGENDER STUDIES"
+    },
+    {
+        "code": "LING020",
+        "description": "LANGUAGE AND LINGUISTICS"
+    },
+    {
+        "code": "LING111",
+        "description": "PHONETICS"
+    },
+    {
+        "code": "LING131",
+        "description": "MORPHOLOGY"
+    },
+    {
+        "code": "LING141",
+        "description": "PHONOLOGY"
+    },
+    {
+        "code": "MSE299",
+        "description": "RESEARCH FOR THE THESIS OR DISSERTATION"
+    },
+    {
+        "code": "MATH006B",
+        "description": "INTRODUCTION TO COLLEGE MATHEMATICS FOR THE SCIENCES"
+    },
+    {
+        "code": "MATH007A",
+        "description": "CALCULUS FOR LIFE SCIENCES"
+    },
+    {
+        "code": "MATH007B",
+        "description": "CALCULUS FOR LIFE SCIENCES"
+    },
+    {
+        "code": "MATH009A",
+        "description": "FIRST-YEAR CALCULUS"
+    },
+    {
+        "code": "MATH009B",
+        "description": "FIRST-YEAR CALCULUS"
+    },
+    {
+        "code": "MATH009C",
+        "description": "FIRST-YEAR CALCULUS"
+    },
+    {
+        "code": "MATH010A",
+        "description": "CALCULUS OF SEVERAL VARIABLES"
+    },
+    {
+        "code": "MATH010B",
+        "description": "CALCULUS OF SEVERAL VARIABLES"
+    },
+    {
+        "code": "MATH011",
+        "description": "INTRODUCTION TO DISCRETE STRUCTURES\r\n"
+    },
+    {
+        "code": "MATH031",
+        "description": "APPLIED LINEAR ALGEBRA"
+    },
+    {
+        "code": "MATH046",
+        "description": "INTRODUCTION TO ORDINARY DIFFERENTIAL EQUATIONS"
+    },
+    {
+        "code": "MATH120",
+        "description": "OPTIMIZATION"
+    },
+    {
+        "code": "MATH144",
+        "description": "INTRODUCTION TO SET THEORY"
+    },
+    {
+        "code": "MATH145A",
+        "description": "INTRODUCTION TO TOPOLOGY"
+    },
+    {
+        "code": "MATH146A",
+        "description": "ORDINARY AND PARTIAL DIFFERENTIAL EQUATIONS"
+    },
+    {
+        "code": "MATH149A",
+        "description": "PROBABILITY AND MATHEMATICAL STATISTICS"
+    },
+    {
+        "code": "MATH149B",
+        "description": "PROBABILITY AND MATHEMATICAL STATISTICS"
+    },
+    {
+        "code": "MATH150A",
+        "description": "INTERMEDIATE ANALYSIS"
+    },
+    {
+        "code": "MATH168",
+        "description": "INTRODUCTION TO MATHEMATICAL MODELING"
+    },
+    {
+        "code": "ME002",
+        "description": "INTRODUCTION TO MECHANICAL ENGINEERING"
+    },
+    {
+        "code": "ME010",
+        "description": "STATICS"
+    },
+    {
+        "code": "ME018A",
+        "description": "INTRODUCTION TO ENGINEERING COMPUTATION"
+    },
+    {
+        "code": "ME018B",
+        "description": "INTRODUCTION TO COMPUTATIONAL MODELING IN MECHANICAL ENGINEERING"
+    },
+    {
+        "code": "ME118",
+        "description": "MECHANICAL ENGINEERING MODELING AND ANALYSIS"
+    },
+    {
+        "code": "ME135",
+        "description": "TRANSPORT PHENOMENA"
+    },
+    {
+        "code": "ME175A",
+        "description": "PROFESSIONAL TOPICS IN ENGINEERING"
+    },
+    {
+        "code": "MCS001",
+        "description": "INTRODUCTION TO MEDIA AND CULTURAL STUDIES"
+    },
+    {
+        "code": "MCS005",
+        "description": "MEDIA STUDIES: THEORY AND PRACTICE"
+    },
+    {
+        "code": "MCS006",
+        "description": "INTRODUCTION TO CONTEMPORARY CRITICAL ISSUES IN ART"
+    },
+    {
+        "code": "MCS009",
+        "description": "MUSIC IN MOVIES AND TV"
+    },
+    {
+        "code": "MCS010",
+        "description": "CULTURAL STUDIES: HISTORICAL AND CONTEMPORARY PERSPECTIVES"
+    },
+    {
+        "code": "MCS023",
+        "description": "INTRODUCTION TO MEDIA ART"
+    },
+    {
+        "code": "MCS042",
+        "description": "INTRODUCTION TO GERMAN CINEMA"
+    },
+    {
+        "code": "MCS046",
+        "description": "INTRODUCTION TO LATIN AMERICAN FILM"
+    },
+    {
+        "code": "MCS066",
+        "description": "SCREENWRITING: HOW MOVIES WORK"
+    },
+    {
+        "code": "MCS120",
+        "description": "ANGELA MCROBBIE"
+    },
+    {
+        "code": "MCS139",
+        "description": "MASS MEDIA AND POPULAR CULTURE"
+    },
+    {
+        "code": "MCS144I",
+        "description": "RACE, ETHNICITY, AND VISUAL CULTURE"
+    },
+    {
+        "code": "MCS172",
+        "description": "KOREAN FILM, POP MEDIA &amp; KPOP"
+    },
+    {
+        "code": "MCS181",
+        "description": "EXISTENTIALISM IN LITERATURE, FILM, AND CULTURE"
+    },
+    {
+        "code": "MCBL121L",
+        "description": "MICROBIOLOGY LABORATORY"
+    },
+    {
+        "code": "MUS001",
+        "description": "BASIC MUSICAL CONCEPTS"
+    },
+    {
+        "code": "MUS007",
+        "description": "MUSIC IN MOVIES AND TV"
+    },
+    {
+        "code": "MUS008",
+        "description": "POPULAR MUSIC CULTURES OF THE UNITED STATES"
+    },
+    {
+        "code": "MUS009",
+        "description": "INTRODUCTION TO DIGITAL MUSIC"
+    },
+    {
+        "code": "MUS014",
+        "description": "POPULAR MUSICS OF THE WORLD"
+    },
+    {
+        "code": "MUS017",
+        "description": "MUSIC OF MEXICO"
+    },
+    {
+        "code": "MUS123",
+        "description": "SOUTHEAST ASIAN PERFORMANCE"
+    },
+    {
+        "code": "MUS126",
+        "description": "GENDER, SEXUALITY, AND MUSIC IN CROSS-CULTURAL PERSPECTIVES"
+    },
+    {
+        "code": "PHIL001",
+        "description": "INTRODUCTION TO PHILOSOPHY"
+    },
+    {
+        "code": "PHIL002",
+        "description": "CONTEMPORARY MORAL ISSUES"
+    },
+    {
+        "code": "PHIL003",
+        "description": "ETHICS AND THE MEANING OF LIFE"
+    },
+    {
+        "code": "ARC035",
+        "description": "INTRMDIATE ALGEBRA WRKSHOP-IAW"
+    },
+    {
+        "code": "ANTH001",
+        "description": "CULTURAL ANTHROPOLOGY"
+    },
+    {
+        "code": "ANTH002",
+        "description": "BIOLOGICAL ANTHROPOLOGY"
+    },
+    {
+        "code": "ANTH005",
+        "description": "INTRODUCTION TO ARCHAEOLOGY"
+    },
+    {
+        "code": "ANTH007",
+        "description": "INTRODUCTION TO LINGUISTIC ANTHROPOLOGY"
+    },
+    {
+        "code": "ANTH100",
+        "description": "HISTORY OF ANTHROPOLOGICAL THEORY"
+    },
+    {
+        "code": "ANTH120",
+        "description": "LANGUAGE AND CULTURE"
+    },
+    {
+        "code": "ANTH123",
+        "description": "LINGUISTIC ANTHROPOLOGY"
+    },
+    {
+        "code": "ANTH126",
+        "description": "SOUTHEAST ASIAN PERFORMANCE"
+    },
+    {
+        "code": "ANTH127",
+        "description": "POLITICAL ANTHROPOLOGY"
+    },
+    {
+        "code": "ANTH131",
+        "description": "APPLIED ANTHROPOLOGY"
+    },
+    {
+        "code": "ANTH136",
+        "description": "ANTHROPOLOGICAL PERSPECTIVES ON GENDER IN SOUTHEAST ASIA"
+    },
+    {
+        "code": "ANTH145",
+        "description": "SEXUALITIES AND CULTURE"
+    },
+    {
+        "code": "ANTH158",
+        "description": "BIOLOGICAL APPROACHES TO MEDICAL ANTHROPOLOGY"
+    },
+    {
+        "code": "ANTH162",
+        "description": "CULTURE AND MEDICINE"
+    },
+    {
+        "code": "ANTH165E",
+        "description": "METHODS IN ARCHAEOLOGY"
+    },
+    {
+        "code": "ANTH165F",
+        "description": "METHODS IN BIOLOGICAL ANTHROPOLOGY"
+    },
+    {
+        "code": "ANTH177",
+        "description": "GENDER, SEXUALITY, AND MUSIC IN CROSS-CULTURAL PERSPECTIVES"
+    },
+    {
+        "code": "ARBC004",
+        "description": "INTERMEDIATE ARABIC"
+    },
+    {
+        "code": "ART001",
+        "description": "BEGINNING DRAWING AND DESIGN"
+    },
+    {
+        "code": "ART002",
+        "description": "BEGINNING PAINTING AND DESIGN"
+    },
+    {
+        "code": "ART003",
+        "description": "INTRODUCTION TO PHOTOGRAPHIC PROCESSES"
+    },
+    {
+        "code": "ART005",
+        "description": "BEGINNING SCULPTURE AND THREE-DIMENSIONAL DESIGN"
+    },
+    {
+        "code": "ART006",
+        "description": "INTRODUCTION TO CONTEMPORARY CRITICAL ISSUES IN ART"
+    },
+    {
+        "code": "ART009",
+        "description": "INTRODUCTORY WEB-BASED ART:  SITE CREATION AND NAVIGATION"
+    },
+    {
+        "code": "ART010",
+        "description": "INTRODUCTION TO VIDEO AND TIME-BASED EXPERIMENTATION"
+    },
+    {
+        "code": "ART065",
+        "description": "INTRODUCTION TO DIGITAL PAINTING AND DRAWING: PAINTING WITHOUT A TRACE"
+    },
+    {
+        "code": "ART102",
+        "description": "INTERMEDIATE DRAWING"
+    },
+    {
+        "code": "ART104",
+        "description": "LIFE DRAWING"
+    },
+    {
+        "code": "AHS020",
+        "description": "INTRODUCTION TO MEDIA ART"
+    },
+    {
+        "code": "AHS021",
+        "description": "INTRODUCTION TO ARCHITECTURE AND URBANISM"
+    },
+    {
+        "code": "AHS180",
+        "description": "MODERN EUROPEAN ART I: NINETEENTH CENTURY"
+    },
+    {
+        "code": "AHS182",
+        "description": "VISUAL ART AND VISUAL THEORY AFTER 1945"
+    },
+    {
+        "code": "AST023",
+        "description": "MODERN JAPAN AND PERSONAL NARRATIVE"
+    },
+    {
+        "code": "AST123",
+        "description": "SOUTHEAST ASIAN PERFORMANCE"
+    },
+    {
+        "code": "BCH010",
+        "description": "INTRODUCTION TO NUTRITION"
+    },
+    {
+        "code": "BCH015",
+        "description": "INTRODUCTION BIOCHEMISTRY LABORATORY"
+    },
+    {
+        "code": "BCH100",
+        "description": "ELEMENTARY BIOCHEMISTRY"
+    },
+    {
+        "code": "BIOL002",
+        "description": "CELLULAR BASIS OF LIFE"
+    },
+    {
+        "code": "BIOL003",
+        "description": "ORGANISMS IN THEIR ENVIRONMENT"
+    },
+    {
+        "code": "BIOL005A",
+        "description": "INTRODUCTION TO CELL AND MOLECULAR BIOLOGY"
+    },
+    {
+        "code": "BIOL005B",
+        "description": "INTRODUCTION TO ORGANISMAL BIOLOGY"
+    },
+    {
+        "code": "BIOL005C",
+        "description": "INTRODUCTORY EVOLUTION AND ECOLOGY"
+    },
+    {
+        "code": "BIOL010",
+        "description": "HEADLINES IN THE HISTORY OF LIFE"
+    },
+    {
+        "code": "BIOL030",
+        "description": "HUMAN REPRODUCTION AND SEXUAL BEHAVIOR"
+    },
+    {
+        "code": "BIOL034",
+        "description": "HUMAN HEREDITY AND EVOLUTION"
+    },
+    {
+        "code": "BIOL040",
+        "description": "DISEASE AND HISTORY: FROM THE BUBONIC PLAGUE TO AIDS"
+    },
+    {
+        "code": "BIOL05LA",
+        "description": "INTRODUCTION TO CELL AND MOLECULAR BIOLOGY LABORATORY"
+    },
+    {
+        "code": "BIOL102",
+        "description": "INTRODUCTORY GENETICS"
+    },
+    {
+        "code": "BIOL104",
+        "description": "FOUNDATIONS OF PLANT BIOLOGY"
+    },
+    {
+        "code": "BIOL105",
+        "description": "EVOLUTION"
+    },
+    {
+        "code": "BIOL107A",
+        "description": "MOLECULAR BIOLOGY"
+    },
+    {
+        "code": "BIOL116",
+        "description": "ECOLOGY AND CONSERVATION BIOLOGY"
+    },
+    {
+        "code": "BIOL121L",
+        "description": "MICROBIOLOGY LABORATORY"
+    },
+    {
+        "code": "BIOL128",
+        "description": "IMMUNOLOGY"
+    },
+    {
+        "code": "BIOL160",
+        "description": "ANIMAL BEHAVIOR"
+    },
+    {
+        "code": "BIOL176",
+        "description": "COMPARATIVE BIOMECHANICS"
+    },
+    {
+        "code": "BIOL178",
+        "description": "HORMONES AND BEHAVIOR"
+    },
+    {
+        "code": "BPSC011",
+        "description": "PLANTS AND HUMAN AFFAIRS"
+    },
+    {
+        "code": "BPSC021",
+        "description": "CALIFORNIA&#39;S CORNUCOPIA: FOOD FROM THE FIELD TO YOUR TABLE"
+    },
+    {
+        "code": "BPSC104",
+        "description": "FOUNDATIONS OF PLANT BIOLOGY"
+    },
+    {
+        "code": "BPSC198I",
+        "description": "INDIVIDUAL INTERNSHIP IN BOTANY AND PLANT SCIENCES"
+    },
+    {
+        "code": "BPSC299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION"
+    },
+    {
+        "code": "BUS010",
+        "description": "INTRODUCTION TO BUSINESS"
+    },
+    {
+        "code": "BUS020",
+        "description": "FINANCIAL ACCOUNTING AND REPORTING"
+    },
+    {
+        "code": "BUS101",
+        "description": "INFORMATION TECHNOLOGY MANAGEMENT"
+    },
+    {
+        "code": "BUS102",
+        "description": "ETHICS AND LAW IN BUSINESS AND SOCIETY"
+    },
+    {
+        "code": "BUS103",
+        "description": "MARKETING AND DISTRIBUTION MANAGEMENT"
+    },
+    {
+        "code": "BUS104",
+        "description": "DECISION ANALYSIS AND MANAGEMENT SCIENCE"
+    },
+    {
+        "code": "BUS105",
+        "description": "PRODUCTION AND OPERATIONS MANAGEMENT"
+    },
+    {
+        "code": "BUS106",
+        "description": "INTRODUCTION TO FINANCIAL MANAGEMENT"
+    },
+    {
+        "code": "BUS107",
+        "description": "ORGANIZATIONAL BEHAVIOR"
+    },
+    {
+        "code": "BUS108",
+        "description": "FINANCIAL EVALUATION AND MANAGERIAL ANALYSIS"
+    },
+    {
+        "code": "BUS109",
+        "description": "COMPETITIVE AND STRATEGIC ANALYSIS"
+    },
+    {
+        "code": "BUS111",
+        "description": "SERVICES MARKETING"
+    },
+    {
+        "code": "BUS112",
+        "description": "CONSUMER BEHAVIOR"
+    },
+    {
+        "code": "BUS113",
+        "description": "MARKETING INSTITUTIONS"
+    },
+    {
+        "code": "BUS114",
+        "description": "MARKETING IN A GLOBAL ENVIRONMENT"
+    },
+    {
+        "code": "BUS117",
+        "description": "ADVERTISING AND INTEGRATED MARKETING COMMUNICATIONS"
+    },
+    {
+        "code": "BUS118",
+        "description": "DIGITAL MARKETING"
+    },
+    {
+        "code": "BUS119",
+        "description": "DATA-DRIVEN MARKETING"
+    },
+    {
+        "code": "BUS121",
+        "description": "EMPLOYEE BENEFITS"
+    },
+    {
+        "code": "BUS125",
+        "description": "SIMULATION FOR BUSINESS"
+    },
+    {
+        "code": "BUS132",
+        "description": "FOUNDATIONS OF FINANCE"
+    },
+    {
+        "code": "BUS138",
+        "description": "INTERNATIONAL FINANCE"
+    },
+    {
+        "code": "BUS144",
+        "description": "NEGOTIATION FUNDAMENTALS"
+    },
+    {
+        "code": "BUS145",
+        "description": "CONFLICT AND COOPERATION IN GROUPS"
+    },
+    {
+        "code": "BUS146",
+        "description": "INTRODUCTION TO ENTREPRENEURSHIP"
+    },
+    {
+        "code": "BUS149",
+        "description": "ADVANCED TOPICS IN MANAGEMENT AND DECISION-MAKING"
+    },
+    {
+        "code": "BUS153",
+        "description": "LABOR ECONOMICS"
+    },
+    {
+        "code": "BUS154",
+        "description": "BUSINESS LAW"
+    },
+    {
+        "code": "BUS155",
+        "description": "MANAGING HUMAN RESOURCES"
+    },
+    {
+        "code": "BUS156",
+        "description": "LEADERSHIP DEVELOPMENT"
+    },
+    {
+        "code": "BUS157",
+        "description": "MANAGING WORK FORCE DIVERSITY"
+    },
+    {
+        "code": "BUS160",
+        "description": "INDUSTRIAL ORGANIZATION"
+    },
+    {
+        "code": "BUS162",
+        "description": "MANAGERIAL ECONOMICS"
+    },
+    {
+        "code": "BUS165A",
+        "description": "INTERMEDIATE FINANCIAL ACCOUNTING"
+    },
+    {
+        "code": "BUS165B",
+        "description": "INTERMEDIATE FINANCIAL ACCOUNTING"
+    },
+    {
+        "code": "BUS165C",
+        "description": "INTERMEDIATE FINANCIAL ACCOUNTING"
+    },
+    {
+        "code": "BUS168A",
+        "description": "INDIVIDUAL TAXATION"
+    },
+    {
+        "code": "BUS173",
+        "description": "INTRODUCTION TO DATABASES FOR MANAGEMENT"
+    },
+    {
+        "code": "BUS176",
+        "description": "THE SOCIOLOGY OF WORK IN ORGANIZATIONS"
+    },
+    {
+        "code": "BUS177",
+        "description": "LABOR RELATIONS"
+    },
+    {
+        "code": "BUS178",
+        "description": "INTERNATIONAL TRADE"
+    },
+    {
+        "code": "CBNS101",
+        "description": "FUNDAMENTALS OF CELL BIOLOGY"
+    },
+    {
+        "code": "CBNS106",
+        "description": "INTRODUCTION TO NEUROSCIENCE"
+    },
+    {
+        "code": "CBNS108",
+        "description": "INTRODUCTION TO DEVELOPMENTAL BIOLOGY"
+    },
+    {
+        "code": "CBNS120",
+        "description": "CELLULAR NEUROSCIENCE: MEMBRANE AND SYNAPTIC PHENOMENA"
+    },
+    {
+        "code": "CBNS120L",
+        "description": "NEUROSCIENCE LABORATORY"
+    },
+    {
+        "code": "CBNS121",
+        "description": "DEVELOPMENTAL NEUROSCIENCE"
+    },
+    {
+        "code": "CBNS124",
+        "description": "SYSTEMS NEUROSCIENCE"
+    },
+    {
+        "code": "CBNS126",
+        "description": "NEUROSCIENCE OF LEARNING AND MEMORY"
+    },
+    {
+        "code": "CBNS128",
+        "description": "IMMUNOLOGY"
+    },
+    {
+        "code": "CBNS165",
+        "description": "STEM CELL BIOLOGY"
+    },
+    {
+        "code": "CHE100",
+        "description": "ENGINEERING THERMODYNAMICS"
+    },
+    {
+        "code": "CHE114",
+        "description": "APPLIED FLUID MECHANICS"
+    },
+    {
+        "code": "CHE130",
+        "description": "ADVANCED ENGINEERING THERMODYNAMICS"
+    },
+    {
+        "code": "CHEM001",
+        "description": "PREPARATION FOR GENERAL CHEMISTRY"
+    },
+    {
+        "code": "CHEM001A",
+        "description": "GENERAL CHEMISTRY"
+    },
+    {
+        "code": "CHEM001B",
+        "description": "GENERAL CHEMISTRY"
+    },
+    {
+        "code": "CHEM001C",
+        "description": "GENERAL CHEMISTRY"
+    },
+    {
+        "code": "CHEM008A",
+        "description": "ORGANIC CHEMISTRY"
+    },
+    {
+        "code": "CHEM008B",
+        "description": "ORGANIC CHEMISTRY"
+    },
+    {
+        "code": "CHEM008C",
+        "description": "ORGANIC CHEMISTRY"
+    },
+    {
+        "code": "CHEM01LA",
+        "description": "GENERAL CHEMISTRY LABORATORY"
+    },
+    {
+        "code": "CHEM01LB",
+        "description": "GENERAL CHEMISTRY LABORATORY"
+    },
+    {
+        "code": "CHEM01LC",
+        "description": "GENERAL CHEMISTRY LABORATORY"
+    },
+    {
+        "code": "CHEM08LA",
+        "description": "ORGANIC CHEMISTRY LABORATORY"
+    },
+    {
+        "code": "CHEM08LB",
+        "description": "ORGANIC CHEMISTRY LABORATORY"
+    },
+    {
+        "code": "CHEM08LC",
+        "description": "ORGANIC CHEMISTRY LABORATORY"
+    },
+    {
+        "code": "CHEM109",
+        "description": "SURVEY OF PHYSICAL CHEMISTRY"
+    },
+    {
+        "code": "CHEM150A",
+        "description": "INORGANIC CHEMISTRY"
+    },
+    {
+        "code": "CHEM199",
+        "description": "SENIOR RESEARCH"
+    },
+    {
+        "code": "CHN002",
+        "description": "FIRST-YEAR CHINESE"
+    },
+    {
+        "code": "CHN003",
+        "description": "FIRST-YEAR CHINESE"
+    },
+    {
+        "code": "CHN004",
+        "description": "SECOND-YEAR CHINESE"
+    },
+    {
+        "code": "CLA020",
+        "description": "WORD POWER FROM GREEK AND LATIN ROOTS"
+    },
+    {
+        "code": "CLA299",
+        "description": "RESEARCH FOR THE THESIS OR DISSERTATION"
+    },
+    {
+        "code": "CPLT001",
+        "description": "INTRODUCTION TO CLOSE READING"
+    },
+    {
+        "code": "CPLT023",
+        "description": "MODERN JAPAN AND PERSONAL NARRATIVE"
+    },
+    {
+        "code": "CPLT181",
+        "description": "EXISTENTIALISM IN LITERATURE, FILM, AND CULTURE"
+    },
+    {
+        "code": "CS005",
+        "description": "INTRODUCTION TO COMPUTER PROGRAMMING"
+    },
+    {
+        "code": "CS006",
+        "description": "EFFECTIVE USE OF THE WORLD WIDE WEB"
+    },
+    {
+        "code": "CS008",
+        "description": "INTRODUCTION TO COMPUTING"
+    },
+    {
+        "code": "CS010",
+        "description": "INTRODUCTION TO COMPUTER SCIENCE FOR SCIENCE, MATHEMATICS, AND ENGINEERING I"
+    },
+    {
+        "code": "CS011",
+        "description": "INTRODUCTION TO DISCRETE STRUCTURES\r\n"
+    },
+    {
+        "code": "CS012",
+        "description": "INTRODUCTION TO COMPUTER SCIENCE FOR SCIENCE, MATHEMATICS, AND ENGINEERING II"
+    },
+    {
+        "code": "CS014",
+        "description": "INTRODUCTION TO DATA STRUCTURES AND ALGORITHMS"
+    },
+    {
+        "code": "CS061",
+        "description": "MACHINE ORGANIZATION AND ASSEMBLY LANGUAGE PROGRAMMING"
+    },
+    {
+        "code": "CS100",
+        "description": "SOFTWARE CONSTRUCTION"
+    },
+    {
+        "code": "CS105",
+        "description": "DATA ANALYSIS METHODS"
+    },
+    {
+        "code": "CS111",
+        "description": "DISCRETE STRUCTURES"
+    },
+    {
+        "code": "CS120A",
+        "description": "LOGIC DESIGN"
+    },
+    {
+        "code": "CS120B",
+        "description": "INTRODUCTION TO EMBEDDED SYSTEMS"
+    },
+    {
+        "code": "CS141",
+        "description": "INTERMEDIATE DATA STRUCTURES AND ALGORITHMS"
+    },
+    {
+        "code": "CS152",
+        "description": "COMPILER DESIGN"
+    },
+    {
+        "code": "CS153",
+        "description": "DESIGN OF OPERATING SYSTEMS"
+    },
+    {
+        "code": "CS161",
+        "description": "DESIGN AND ARCHITECTURE OF COMPUTER SYSTEMS"
+    },
+    {
+        "code": "CS166",
+        "description": "DATABASE MANAGEMENT SYSTEMS"
+    },
+    {
+        "code": "CS170",
+        "description": "INTRODUCTION TO ARTIFICIAL INTELLIGENCE"
+    },
+    {
+        "code": "CS179E",
+        "description": "PROJECT IN COMPUTER SCIENCE: COMPLIERS"
+    },
+    {
+        "code": "CS179J",
+        "description": "PROJECT IN COMPUTER SCIENCE: COMPUTER ARCHITECTURE AND EMBEDDED SYSTEMS"
+    },
+    {
+        "code": "CS179M",
+        "description": "PROJECT IN COMPUTER SCIENCE: ARTIFICIAL INTELLIGENCE"
+    },
+    {
+        "code": "CS299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION"
+    },
+    {
+        "code": "CRWT040",
+        "description": "FICTION AND FILM"
+    },
+    {
+        "code": "CRWT044",
+        "description": "GHOSTS, GODS, AND MONSTERS: CHILDREN&#39;S LITERATURE FOR WRITERS"
+    },
+    {
+        "code": "CRWT046S",
+        "description": "CRAFT OF WRITING: SURVEY IN CONTEMPORARY FICTION\r\n"
+    },
+    {
+        "code": "CRWT056",
+        "description": "INTRODUCTION TO CREATIVE WRITING"
+    },
+    {
+        "code": "CRWT057A",
+        "description": "INTRODUCTION TO FICTION"
+    },
+    {
+        "code": "CRWT066",
+        "description": "SCREENWRITING: HOW MOVIES WORK"
+    },
+    {
+        "code": "CRWT130",
+        "description": "BEGINNING CREATIVE NONFICTION"
+    },
+    {
+        "code": "CRWT150",
+        "description": "BEGINNING POETRY WORKSHOP"
+    },
+    {
+        "code": "CRWT164A",
+        "description": "BEGINNING PLAYWRITING"
+    },
+    {
+        "code": "DNCE005",
+        "description": "INTRODUCTION TO DANCE"
+    },
+    {
+        "code": "DNCE007",
+        "description": "DANCE: CULTURES AND CONTEXTS\r\n"
+    },
+    {
+        "code": "DNCE065A",
+        "description": "BEGINNING LATIN AMERICAN SOCIAL DANCES"
+    },
+    {
+        "code": "DNCE067A",
+        "description": "BEGINNING MODERN DANCE TECHNIQUE"
+    },
+    {
+        "code": "DNCE070A",
+        "description": "BEGINNING HIP HOP DANCE"
+    },
+    {
+        "code": "DNCE071A",
+        "description": "BEGINNING BALLET TECHNIQUE"
+    },
+    {
+        "code": "DNCE075A",
+        "description": "BEGINNING DANCE TECHNIQUES AND PRACTICES"
+    },
+    {
+        "code": "DNCE123",
+        "description": "SOUTHEAST ASIAN PERFORMANCE"
+    },
+    {
+        "code": "ECON002",
+        "description": "INTRODUCTION TO MACROECONOMICS"
+    },
+    {
+        "code": "ECON003",
+        "description": "INTRODUCTION TO MICROECONOMICS"
+    },
+    {
+        "code": "ECON006",
+        "description": "INTRODUCTION TO ENVIRONMENTAL ECONOMICS"
+    }
+]
