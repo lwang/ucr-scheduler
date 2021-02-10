@@ -1004,90 +1004,97 @@ var app = (function () {
     function create_if_block(ctx) {
     	let header;
     	let t0;
-    	let button0;
-    	let t2;
+    	let show_if_1 = /*tabs*/ ctx[3].indexOf(/*$active*/ ctx[1]) != 0;
+    	let t1;
     	let h1;
+    	let t2;
     	let t3;
-    	let t4;
-    	let button1;
-    	let t6;
-    	let br;
+    	let show_if = /*tabs*/ ctx[3].indexOf(/*$active*/ ctx[1]) + 1 != /*tabs*/ ctx[3].length;
     	let header_class_value;
     	let header_transition;
     	let current;
-    	let mounted;
-    	let dispose;
 
     	function select_block_type(ctx, dirty) {
-    		if (/*$theme*/ ctx[0] == "dark") return create_if_block_1;
+    		if (/*$theme*/ ctx[0] == "dark") return create_if_block_3;
     		return create_else_block;
     	}
 
     	let current_block_type = select_block_type(ctx);
-    	let if_block = current_block_type(ctx);
+    	let if_block0 = current_block_type(ctx);
+    	let if_block1 = show_if_1 && create_if_block_2(ctx);
+    	let if_block2 = show_if && create_if_block_1(ctx);
 
     	const block = {
     		c: function create() {
     			header = element("header");
-    			if_block.c();
+    			if_block0.c();
     			t0 = space();
-    			button0 = element("button");
-    			button0.textContent = "prev";
-    			t2 = space();
+    			if (if_block1) if_block1.c();
+    			t1 = space();
     			h1 = element("h1");
-    			t3 = text(/*$active*/ ctx[1]);
-    			t4 = space();
-    			button1 = element("button");
-    			button1.textContent = "next";
-    			t6 = space();
-    			br = element("br");
-    			attr_dev(button0, "class", "left svelte-1c70wmm");
-    			add_location(button0, file, 25, 8, 981);
+    			t2 = text(/*$active*/ ctx[1]);
+    			t3 = space();
+    			if (if_block2) if_block2.c();
     			attr_dev(h1, "class", "svelte-1c70wmm");
-    			add_location(h1, file, 26, 8, 1060);
-    			attr_dev(button1, "class", "right svelte-1c70wmm");
-    			add_location(button1, file, 27, 8, 1088);
-    			add_location(br, file, 27, 79, 1159);
+    			add_location(h1, file, 28, 8, 1117);
     			attr_dev(header, "class", header_class_value = "" + (null_to_empty(/*$theme*/ ctx[0]) + " svelte-1c70wmm"));
     			add_location(header, file, 18, 4, 703);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, header, anchor);
-    			if_block.m(header, null);
+    			if_block0.m(header, null);
     			append_dev(header, t0);
-    			append_dev(header, button0);
-    			append_dev(header, t2);
+    			if (if_block1) if_block1.m(header, null);
+    			append_dev(header, t1);
     			append_dev(header, h1);
-    			append_dev(h1, t3);
-    			append_dev(header, t4);
-    			append_dev(header, button1);
-    			append_dev(header, t6);
-    			append_dev(header, br);
+    			append_dev(h1, t2);
+    			append_dev(header, t3);
+    			if (if_block2) if_block2.m(header, null);
     			current = true;
-
-    			if (!mounted) {
-    				dispose = [
-    					listen_dev(button0, "click", /*click_handler*/ ctx[5], false, false, false),
-    					listen_dev(button1, "click", /*click_handler_1*/ ctx[6], false, false, false)
-    				];
-
-    				mounted = true;
-    			}
     		},
     		p: function update(ctx, dirty) {
-    			if (current_block_type === (current_block_type = select_block_type(ctx)) && if_block) {
-    				if_block.p(ctx, dirty);
+    			if (current_block_type === (current_block_type = select_block_type(ctx)) && if_block0) {
+    				if_block0.p(ctx, dirty);
     			} else {
-    				if_block.d(1);
-    				if_block = current_block_type(ctx);
+    				if_block0.d(1);
+    				if_block0 = current_block_type(ctx);
 
-    				if (if_block) {
-    					if_block.c();
-    					if_block.m(header, t0);
+    				if (if_block0) {
+    					if_block0.c();
+    					if_block0.m(header, t0);
     				}
     			}
 
-    			if (!current || dirty & /*$active*/ 2) set_data_dev(t3, /*$active*/ ctx[1]);
+    			if (dirty & /*$active*/ 2) show_if_1 = /*tabs*/ ctx[3].indexOf(/*$active*/ ctx[1]) != 0;
+
+    			if (show_if_1) {
+    				if (if_block1) {
+    					if_block1.p(ctx, dirty);
+    				} else {
+    					if_block1 = create_if_block_2(ctx);
+    					if_block1.c();
+    					if_block1.m(header, t1);
+    				}
+    			} else if (if_block1) {
+    				if_block1.d(1);
+    				if_block1 = null;
+    			}
+
+    			if (!current || dirty & /*$active*/ 2) set_data_dev(t2, /*$active*/ ctx[1]);
+    			if (dirty & /*$active*/ 2) show_if = /*tabs*/ ctx[3].indexOf(/*$active*/ ctx[1]) + 1 != /*tabs*/ ctx[3].length;
+
+    			if (show_if) {
+    				if (if_block2) {
+    					if_block2.p(ctx, dirty);
+    				} else {
+    					if_block2 = create_if_block_1(ctx);
+    					if_block2.c();
+    					if_block2.m(header, null);
+    				}
+    			} else if (if_block2) {
+    				if_block2.d(1);
+    				if_block2 = null;
+    			}
 
     			if (!current || dirty & /*$theme*/ 1 && header_class_value !== (header_class_value = "" + (null_to_empty(/*$theme*/ ctx[0]) + " svelte-1c70wmm"))) {
     				attr_dev(header, "class", header_class_value);
@@ -1110,10 +1117,10 @@ var app = (function () {
     		},
     		d: function destroy(detaching) {
     			if (detaching) detach_dev(header);
-    			if_block.d();
+    			if_block0.d();
+    			if (if_block1) if_block1.d();
+    			if (if_block2) if_block2.d();
     			if (detaching && header_transition) header_transition.end();
-    			mounted = false;
-    			run_all(dispose);
     		}
     	};
 
@@ -1178,7 +1185,7 @@ var app = (function () {
     }
 
     // (20:8) {#if $theme == 'dark'}
-    function create_if_block_1(ctx) {
+    function create_if_block_3(ctx) {
     	let button;
     	let t0;
     	let br;
@@ -1217,9 +1224,98 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_1.name,
+    		id: create_if_block_3.name,
     		type: "if",
     		source: "(20:8) {#if $theme == 'dark'}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (26:8) {#if tabs.indexOf($active) != 0}
+    function create_if_block_2(ctx) {
+    	let button;
+    	let mounted;
+    	let dispose;
+
+    	const block = {
+    		c: function create() {
+    			button = element("button");
+    			button.textContent = "prev";
+    			attr_dev(button, "class", "left svelte-1c70wmm");
+    			add_location(button, file, 26, 8, 1023);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, button, anchor);
+
+    			if (!mounted) {
+    				dispose = listen_dev(button, "click", /*click_handler*/ ctx[6], false, false, false);
+    				mounted = true;
+    			}
+    		},
+    		p: noop,
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(button);
+    			mounted = false;
+    			dispose();
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_if_block_2.name,
+    		type: "if",
+    		source: "(26:8) {#if tabs.indexOf($active) != 0}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (30:8) {#if tabs.indexOf($active) + 1 != tabs.length}
+    function create_if_block_1(ctx) {
+    	let button;
+    	let t1;
+    	let br;
+    	let mounted;
+    	let dispose;
+
+    	const block = {
+    		c: function create() {
+    			button = element("button");
+    			button.textContent = "next";
+    			t1 = space();
+    			br = element("br");
+    			attr_dev(button, "class", "right svelte-1c70wmm");
+    			add_location(button, file, 30, 8, 1201);
+    			add_location(br, file, 30, 79, 1272);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, button, anchor);
+    			insert_dev(target, t1, anchor);
+    			insert_dev(target, br, anchor);
+
+    			if (!mounted) {
+    				dispose = listen_dev(button, "click", /*click_handler_1*/ ctx[7], false, false, false);
+    				mounted = true;
+    			}
+    		},
+    		p: noop,
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(button);
+    			if (detaching) detach_dev(t1);
+    			if (detaching) detach_dev(br);
+    			mounted = false;
+    			dispose();
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_if_block_1.name,
+    		type: "if",
+    		source: "(30:8) {#if tabs.indexOf($active) + 1 != tabs.length}",
     		ctx
     	});
 
@@ -1229,7 +1325,7 @@ var app = (function () {
     function create_fragment(ctx) {
     	let if_block_anchor;
     	let current;
-    	let if_block = /*showHeader*/ ctx[3] && create_if_block(ctx);
+    	let if_block = /*showHeader*/ ctx[4] && create_if_block(ctx);
 
     	const block = {
     		c: function create() {
@@ -1245,7 +1341,7 @@ var app = (function () {
     			current = true;
     		},
     		p: function update(ctx, [dirty]) {
-    			if (/*showHeader*/ ctx[3]) if_block.p(ctx, dirty);
+    			if (/*showHeader*/ ctx[4]) if_block.p(ctx, dirty);
     		},
     		i: function intro(local) {
     			if (current) return;
@@ -1316,8 +1412,8 @@ var app = (function () {
     	});
 
     	$$self.$inject_state = $$props => {
-    		if ("tabs" in $$props) tabs = $$props.tabs;
-    		if ("showHeader" in $$props) $$invalidate(3, showHeader = $$props.showHeader);
+    		if ("tabs" in $$props) $$invalidate(3, tabs = $$props.tabs);
+    		if ("showHeader" in $$props) $$invalidate(4, showHeader = $$props.showHeader);
     	};
 
     	if ($$props && "$$inject" in $$props) {
@@ -1328,6 +1424,7 @@ var app = (function () {
     		$theme,
     		$active,
     		toggleTheme,
+    		tabs,
     		showHeader,
     		toggleTab,
     		click_handler,
@@ -3772,7 +3869,7 @@ var app = (function () {
     }
 
     // (17:40) 
-    function create_if_block_2(ctx) {
+    function create_if_block_2$1(ctx) {
     	let scheduler;
     	let current;
     	scheduler = new Scheduler({ $$inline: true });
@@ -3801,7 +3898,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_2.name,
+    		id: create_if_block_2$1.name,
     		type: "if",
     		source: "(17:40) ",
     		ctx
@@ -3897,7 +3994,7 @@ var app = (function () {
     	let body_class_value;
     	let current;
     	header = new Header({ $$inline: true });
-    	const if_block_creators = [create_if_block$3, create_if_block_1$1, create_if_block_2, create_else_block$1];
+    	const if_block_creators = [create_if_block$3, create_if_block_1$1, create_if_block_2$1, create_else_block$1];
     	const if_blocks = [];
 
     	function select_block_type(ctx, dirty) {

@@ -1,5 +1,17 @@
 [
     {
+        "code": "ARC051",
+        "description": "GRE PREPARATION SEMINAR"
+    },
+    {
+        "code": "ARC052",
+        "description": "LSAT PREPARATION SEMINAR"
+    },
+    {
+        "code": "ARC053",
+        "description": "GMAT PREPARATION SEMINAR"
+    },
+    {
         "code": "ARC072",
         "description": "CHEM SPLMNTL INST - CNAS"
     },
@@ -76,8 +88,32 @@
         "description": "MUSIC CULTURES OF SOUTHEAST ASIA"
     },
     {
+        "code": "ANTH190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
         "code": "ANTH191",
         "description": "CULTURAL RESOURCES MANAGEMENT"
+    },
+    {
+        "code": "ANTH195A",
+        "description": "SENIOR THESIS"
+    },
+    {
+        "code": "ANTH195B",
+        "description": "SENIOR THESIS"
+    },
+    {
+        "code": "ANTH195C",
+        "description": "SENIOR THESIS"
+    },
+    {
+        "code": "ANTH198I",
+        "description": "INTERNSHIP IN ANTHROPOLOGY"
+    },
+    {
+        "code": "ANTH199H",
+        "description": "SENIOR HONORS RESEARCH"
     },
     {
         "code": "ANTH218",
@@ -90,6 +126,30 @@
     {
         "code": "ANTH260",
         "description": "ETHNOGRAPHIC FIELD METHODS"
+    },
+    {
+        "code": "ANTH290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "ANTH291",
+        "description": "INDIVIDUAL STUDIES IN COORDINATED AREAS"
+    },
+    {
+        "code": "ANTH292",
+        "description": "CONCURRENT ANALYTICAL STUDIES IN ANTHROPOLOGY"
+    },
+    {
+        "code": "ANTH297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "ANTH299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION"
+    },
+    {
+        "code": "ANTH302",
+        "description": "TEACHING PRACTICUM"
     },
     {
         "code": "ARBC001",
@@ -232,6 +292,22 @@
         "description": "SEMINAR IN HISTORY OF PHOTOGRAPHY"
     },
     {
+        "code": "AHS292",
+        "description": "CONCURRENT ANALYTICAL STUDIES"
+    },
+    {
+        "code": "AHS297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "AHS298I",
+        "description": "INDIVIDUAL INTERNSHIP"
+    },
+    {
+        "code": "AHS302",
+        "description": "TEACHING PRACTICUM"
+    },
+    {
         "code": "AST048",
         "description": "CHINESE CINEMA"
     },
@@ -242,6 +318,10 @@
     {
         "code": "AST063",
         "description": "READING SOUTHEAST ASIAN STORIES"
+    },
+    {
+        "code": "AST090",
+        "description": "SPECIAL STUDIES"
     },
     {
         "code": "AST127",
@@ -272,8 +352,24 @@
         "description": "JAPANESE DOCUMENTARY"
     },
     {
+        "code": "AST190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
+        "code": "AST195",
+        "description": "CAPSTONE SENIOR THESIS"
+    },
+    {
         "code": "BSWT003",
         "description": "BASIC WRITING FOR SECOND-LANGUAGE STUDENTS"
+    },
+    {
+        "code": "BSWT003L",
+        "description": "BASIC WRITING FOR SECOND-LANGUAGE STUDENTS"
+    },
+    {
+        "code": "BSWT004",
+        "description": "BASIC WRITING JOURNAL WORKSHOP"
     },
     {
         "code": "BCH010",
@@ -282,6 +378,14 @@
     {
         "code": "BCH096",
         "description": "INTRODUCTION TO HUMANITARIAN AND HEALTHCARE SERVICE"
+    },
+    {
+        "code": "BCH097",
+        "description": "RESEARCH TUTORIAL IN BIOCHEMISTRY"
+    },
+    {
+        "code": "BCH098I",
+        "description": "INDIVIDUAL INTERNSHIP IN A HUMANITARIAN OR HEALTHCARE ARENA"
     },
     {
         "code": "BCH100",
@@ -312,8 +416,24 @@
         "description": "FUNDAMENTALS OF ENZYMOLOGY"
     },
     {
+        "code": "BCH190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
+        "code": "BCH197",
+        "description": "RESEARCH FOR UNDERGRADUATE STUDENTS"
+    },
+    {
+        "code": "BCH198I",
+        "description": "INTERNSHIP IN BIOCHEMISTRY"
+    },
+    {
         "code": "BCH212",
         "description": "SIGNAL TRANSDUCTION AND BIOCHEMICAL REGULATION"
+    },
+    {
+        "code": "BCH240",
+        "description": "SPECIAL TOPICS IN BIOCHEMISTRY"
     },
     {
         "code": "BCH250",
@@ -334,6 +454,30 @@
     {
         "code": "BCH289",
         "description": "SPECIAL TOPICS IN NEUROSCIENCE"
+    },
+    {
+        "code": "BCH290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "BCH291",
+        "description": "INDIVIDUAL STUDY IN BIOCHEMISTRY"
+    },
+    {
+        "code": "BCH297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "BCH299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION"
+    },
+    {
+        "code": "BCH301",
+        "description": "TEACHING OF BIOCHEMISTRY AT THE COLLEGE LEVEL"
+    },
+    {
+        "code": "BCH302",
+        "description": "APPRENTICE TEACHING"
     },
     {
         "code": "BIEN115",
@@ -372,6 +516,14 @@
         "description": "SENIOR DESIGN"
     },
     {
+        "code": "BIEN190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
+        "code": "BIEN197",
+        "description": "RESEARCH FOR UNDERGRADUATES"
+    },
+    {
         "code": "BIEN225",
         "description": "SELF-ASSEMBLY IN ENGINEERED TISSUE"
     },
@@ -392,8 +544,40 @@
         "description": "SPECIAL TOPICS IN BIOMEDICAL OPTICAL IMAGING"
     },
     {
+        "code": "BIEN269",
+        "description": "SPECIAL TOPICS IN OPTICAL MEASUREMENTS AND PHOTOMEDICINE"
+    },
+    {
+        "code": "BIEN272",
+        "description": "SPECIAL TOPICS IN BIOMATERIALS AND TISSUE ENGINEERING"
+    },
+    {
+        "code": "BIEN273",
+        "description": "SPECIAL TOPICS IN REGENERATIVE ENGINEERING AND BIOMECHANICS"
+    },
+    {
         "code": "BIEN286",
         "description": "COLLOQUIUM IN BIOENGINEERING"
+    },
+    {
+        "code": "BIEN290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "BIEN297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "BIEN298I",
+        "description": "INDIVIDUAL INTERNSHIP"
+    },
+    {
+        "code": "BIEN299",
+        "description": "RESEARCH FOR THE THESIS OR DISSERTATION"
+    },
+    {
+        "code": "BIEN302",
+        "description": "TEACHING PRACTICUM"
     },
     {
         "code": "BIEN402",
@@ -512,8 +696,16 @@
         "description": "HORMONES AND BEHAVIOR"
     },
     {
+        "code": "BIOL190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
         "code": "BIOL203",
         "description": "CELLULAR BIOPHYSICS"
+    },
+    {
+        "code": "BIOL250",
+        "description": "SPECIAL TOPICS IN BIOLOGY"
     },
     {
         "code": "BIOL252",
@@ -524,8 +716,100 @@
         "description": "SEMINAR IN GENETICS, GENOMICS, AND BIOINFORMATICS"
     },
     {
+        "code": "BIOL281F",
+        "description": "SEMINAR IN CELL DEVELOPMENT, STRUCTURE, AND FUNCTION"
+    },
+    {
         "code": "BIOL289",
         "description": "SPECIAL TOPICS IN NEUROSCIENCE"
+    },
+    {
+        "code": "BIOL301",
+        "description": "TEACHING OF BIOLOGY AT THE COLLEGE LEVEL"
+    },
+    {
+        "code": "BMSC091",
+        "description": "FRESHMAN ADVISING SEMINAR FOR MEDICAL SCHOLARS PROGRAM STUDENTS"
+    },
+    {
+        "code": "BMSC092",
+        "description": "FIRST-YEAR SEMINAR FOR MEDICAL SCHOLARS PROGRAM STUDENTS:  TOPICS IN HEALTH CAREERS"
+    },
+    {
+        "code": "BMSC097",
+        "description": "RESEARCH TUTORIAL IN BIOMEDICAL SCIENCES"
+    },
+    {
+        "code": "BMSC191",
+        "description": "SEMINAR IN BIOMEDICAL SCIENCES"
+    },
+    {
+        "code": "BMSC194",
+        "description": "INDEPENDENT READING"
+    },
+    {
+        "code": "BMSC197L",
+        "description": "RESEARCH FOR UNDERGRADUATES"
+    },
+    {
+        "code": "BMSC222E",
+        "description": "BASIC EPITHELIOLOGY"
+    },
+    {
+        "code": "BMSC222G",
+        "description": "SPECIAL TOPICS IN BIOMEDICAL SCIENCES"
+    },
+    {
+        "code": "BMSC222J",
+        "description": "MICRBL PATHGNSIS&amp;HOST-PTH INTR"
+    },
+    {
+        "code": "BMSC222L",
+        "description": "CURRENT TOPICS IN CELL BIOLOGY"
+    },
+    {
+        "code": "BMSC222M",
+        "description": "HORMONE ACTION"
+    },
+    {
+        "code": "BMSC222N",
+        "description": "MECHANISMS OF STEROID HORMONES"
+    },
+    {
+        "code": "BMSC222O",
+        "description": "STEROID METABOLISM"
+    },
+    {
+        "code": "BMSC222P",
+        "description": "SPECIAL TOPICS IN BIOMEDICAL SCIENCES"
+    },
+    {
+        "code": "BMSC222Q",
+        "description": "MECHANISMS OF CARCINOGENESIS"
+    },
+    {
+        "code": "BMSC222U",
+        "description": "TRANSPORT PHYSIOLOGY"
+    },
+    {
+        "code": "BMSC222X",
+        "description": "MUTAGENESIS&amp;GENETIC INSTABILTY"
+    },
+    {
+        "code": "BMSC222Y",
+        "description": "CANCER GENETICS"
+    },
+    {
+        "code": "BMSC223E",
+        "description": "INFLAMMATION, AUTOIMMUNITY, AND PATHOGEN DEFENSE"
+    },
+    {
+        "code": "BMSC234",
+        "description": "MUSCULOSKELETAL MEDICINE"
+    },
+    {
+        "code": "BMSC235",
+        "description": "CLINICAL NEUROSCIENCES I\r\n"
     },
     {
         "code": "BMSC252",
@@ -534,6 +818,34 @@
     {
         "code": "BMSC254",
         "description": "GRADUATE SEMINAR IN BIOMEDICAL SCIENCES"
+    },
+    {
+        "code": "BMSC260C",
+        "description": "TOPICS IN TRANSLATIONAL BIOMEDICAL RESEARCH"
+    },
+    {
+        "code": "BMSC261",
+        "description": "METHODS IN BIOMEDICAL RESEARCH"
+    },
+    {
+        "code": "BMSC297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "BMSC299",
+        "description": "RESEARCH FOR DISSERTATION"
+    },
+    {
+        "code": "BMSC302",
+        "description": "DIRECTED TEACHING"
+    },
+    {
+        "code": "BPHY297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "BPHY299",
+        "description": "THESIS OR DISSERTATION"
     },
     {
         "code": "BPSC021",
@@ -572,6 +884,18 @@
         "description": "SENIOR SEMINAR"
     },
     {
+        "code": "BPSC195H",
+        "description": "SENIOR HONORS THESIS"
+    },
+    {
+        "code": "BPSC197",
+        "description": "RESEARCH FOR UNDERGRADUATES"
+    },
+    {
+        "code": "BPSC199",
+        "description": "SENIOR RESEARCH"
+    },
+    {
         "code": "BPSC200B",
         "description": "PLANT BIOLOGY CORE"
     },
@@ -592,8 +916,28 @@
         "description": "SEMINAR IN PLANT BIOLOGY"
     },
     {
+        "code": "BPSC252",
+        "description": "SPECIAL TOPICS IN BOTANY/PLANT SCIENCE"
+    },
+    {
         "code": "BPSC261",
         "description": "SEMINAR IN GENETICS, GENOMICS, AND BIOINFORMATICS"
+    },
+    {
+        "code": "BPSC290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "BPSC291",
+        "description": "INDIVIDUAL STUDY IN COORDINATED AREAS"
+    },
+    {
+        "code": "BPSC297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "BPSC299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION"
     },
     {
         "code": "BUS001",
@@ -616,6 +960,10 @@
         "description": "INFORMATION TECHNOLOGY MANAGEMENT"
     },
     {
+        "code": "BUS102",
+        "description": "ETHICS AND LAW IN BUSINESS AND SOCIETY"
+    },
+    {
         "code": "BUS103",
         "description": "MARKETING AND DISTRIBUTION MANAGEMENT"
     },
@@ -626,6 +974,10 @@
     {
         "code": "BUS105",
         "description": "PRODUCTION AND OPERATIONS MANAGEMENT"
+    },
+    {
+        "code": "BUS106",
+        "description": "INTRODUCTION TO FINANCIAL MANAGEMENT"
     },
     {
         "code": "BUS107",
@@ -788,6 +1140,10 @@
         "description": "INTERNATIONAL TRADE"
     },
     {
+        "code": "BUS190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
         "code": "BUS198I",
         "description": "INDIVIDUAL INTERNSHIP IN BUSINESS ADMINISTRATION"
     },
@@ -856,6 +1212,26 @@
         "description": "CANCER BIOLOGY"
     },
     {
+        "code": "CBNS190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
+        "code": "CBNS194",
+        "description": "INDEPENDENT READING"
+    },
+    {
+        "code": "CBNS197",
+        "description": "RESEARCH FOR UNDERGRADUATES"
+    },
+    {
+        "code": "CBNS198I",
+        "description": "INDIVIDUAL INTERNSHIP"
+    },
+    {
+        "code": "CBNS199",
+        "description": "SENIOR RESEARCH"
+    },
+    {
         "code": "CMDB202",
         "description": "DEVELOPMENTAL BIOLOGY"
     },
@@ -864,12 +1240,32 @@
         "description": "STEM CELL BIOLOGY AND DISEASE"
     },
     {
+        "code": "CMDB250",
+        "description": "SPECIAL TOPICS IN CELL, MOLECULAR, AND DEVELOPMENTAL BIOLOGY"
+    },
+    {
         "code": "CMDB256",
         "description": "SEMINAR IN STEM CELL BIOLOGY"
     },
     {
         "code": "CMDB257",
         "description": "SEMINAR IN CELL, MOLECULAR, AND DEVELOPMENTAL BIOLOGY"
+    },
+    {
+        "code": "CMDB281F",
+        "description": "SEMINAR IN CELL DEVELOPMENT, STRUCTURE, AND FUNCTION"
+    },
+    {
+        "code": "CMDB290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "CMDB297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "CMDB299",
+        "description": "RESEARCH FOR THE THESIS OR DISSERTATION"
     },
     {
         "code": "CHE102",
@@ -940,12 +1336,60 @@
         "description": "QUANTITATIVE ANALYSIS OF UPSTREAM PROCESSES IN BIOTECHNOLOGY"
     },
     {
+        "code": "CEE250",
+        "description": "SPECIAL TOPICS IN CHEMICAL AND ENVIRONMENTAL ENGINEERING"
+    },
+    {
+        "code": "CEE256",
+        "description": "SPECIAL TOPICS IN PARTICULATE MEASUREMENT AND AIR QUALITY"
+    },
+    {
+        "code": "CEE258",
+        "description": "BIOSENSING AND BIODETOXIFICATION"
+    },
+    {
+        "code": "CEE259",
+        "description": "SPECIAL TOPICS IN MATERIALS ELECTROCHEMISTRY"
+    },
+    {
         "code": "CEE260",
         "description": "STRUCTURAL ORDERING IN COLLOIDAL DISPERSIONS"
     },
     {
+        "code": "CEE265",
+        "description": "SPECIAL TOPICS IN MICROBIAL FATE AND TRANSPORT IN AQUATIC ENVIRONMENTS"
+    },
+    {
+        "code": "CEE268",
+        "description": "SPECIAL TOPICS IN ENVIRONMENTAL CHEMISTRY"
+    },
+    {
         "code": "CEE286",
         "description": "COLLOQUIUM IN CHEMICAL AND ENVIRONMENTAL ENGINEERING"
+    },
+    {
+        "code": "CEE290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "CEE292",
+        "description": "CONCURRENT STUDIES IN CHEMICAL AND ENVIRONMENTAL ENGINEERING"
+    },
+    {
+        "code": "CEE297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "CEE298I",
+        "description": "INDIVIDUAL INTERNSHIP"
+    },
+    {
+        "code": "CEE299",
+        "description": "RESEARCH FOR THE THESIS OR DISSERTATION"
+    },
+    {
+        "code": "CEE302",
+        "description": "TEACHING PRACTICUM"
     },
     {
         "code": "CHEM001B",
@@ -980,6 +1424,10 @@
         "description": "ORGANIC CHEMISTRY LABORATORY"
     },
     {
+        "code": "CHEM097H",
+        "description": "INTRO TO RESEARCH"
+    },
+    {
         "code": "CHEM113",
         "description": "PHYSICAL CHEMISTRY: INTRODUCTION TO QUANTUM CHEMISTRY"
     },
@@ -1000,8 +1448,28 @@
         "description": "ADVANCED STRUCTURAL AND SYNTHETIC METHODS"
     },
     {
+        "code": "CHEM190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
         "code": "CHEM191",
         "description": "SEMINAR IN CHEMISTRY CAREERS"
+    },
+    {
+        "code": "CHEM197",
+        "description": "RESEARCH FOR UNDERGRADUATES"
+    },
+    {
+        "code": "CHEM198I",
+        "description": "INDIVIDUAL INTERNSHIP"
+    },
+    {
+        "code": "CHEM199",
+        "description": "SENIOR RESEARCH"
+    },
+    {
+        "code": "CHEM199H",
+        "description": "SENIOR HONORS RESEARCH"
     },
     {
         "code": "CHEM201C",
@@ -1054,6 +1522,18 @@
     {
         "code": "CHEM258",
         "description": "SEMINAR IN SURFACE SCIENCE"
+    },
+    {
+        "code": "CHEM296",
+        "description": "SPECIAL TOPICS SEMINAR"
+    },
+    {
+        "code": "CHEM297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "CHEM299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION"
     },
     {
         "code": "CHEM302",
@@ -1140,6 +1620,10 @@
         "description": "PALESTINE/ALGERIA"
     },
     {
+        "code": "CPLT190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
         "code": "CPLT210",
         "description": "CANONS IN COMPARATIVE LITERATURE"
     },
@@ -1150,6 +1634,62 @@
     {
         "code": "CPLT223",
         "description": "TOPICS IN EAST ASIAN LITERATURE AND FILM"
+    },
+    {
+        "code": "CPLT290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "CPLT291",
+        "description": "INDIVIDUAL STUDIES IN COORDINATED AREAS"
+    },
+    {
+        "code": "CPLT292",
+        "description": "CONCURRENT ANALYTICAL STUDIES"
+    },
+    {
+        "code": "CPLT293E",
+        "description": "RESEARCH TOPICS IN COMPARATIVE LITERATURE &amp; FOREIGN LANGUAGES"
+    },
+    {
+        "code": "CPLT293F",
+        "description": "RESEARCH TOPICS IN COMPARATIVE LITERATURE &amp; FOREIGN LANGUAGES"
+    },
+    {
+        "code": "CPLT293G",
+        "description": "RESEARCH TOPICS IN COMPARATIVE LITERATURE &amp; FOREIGN LANGUAGES"
+    },
+    {
+        "code": "CPLT293H",
+        "description": "RESEARCH TOPICS IN COMPARATIVE LITERATURE &amp; FOREIGN LANGUAGES"
+    },
+    {
+        "code": "CPLT293I",
+        "description": "RESEARCH TOPICS IN COMPARATIVE LITERATURE &amp; FOREIGN LANGUAGES"
+    },
+    {
+        "code": "CPLT293J",
+        "description": "RESEARCH TOPICS IN COMPARATIVE LITERATURE &amp; FOREIGN LANGUAGES"
+    },
+    {
+        "code": "CPLT293N",
+        "description": "RESEARCH TOPICS IN COMPARATIVE LITERATURE &amp; FOREIGN LANGUAGES"
+    },
+    {
+        "code": "CPLT293T",
+        "description": "RESEARCH TOPICS IN COMPARATIVE LITERATURE &amp; FOREIGN LANGUAGES"
+    },
+    {
+        "code": "CPLT293U",
+        "description": "RESEARCH TOPICS IN COMPARATIVE LITERATURE &amp; FOREIGN LANGUAGES"
+    },
+    {
+        "code": "CPLT299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION"
+    },
+    {
+        "code": "CPLT302",
+        "description": "TEACHING PRACTICUM"
     },
     {
         "code": "CS005",
@@ -1280,6 +1820,10 @@
         "description": "INTRODUCTION TO SOFTWARE ENGINEERING"
     },
     {
+        "code": "CS190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
         "code": "CS202",
         "description": "ADVANCED OPERATING SYSTEMS"
     },
@@ -1338,6 +1882,18 @@
     {
         "code": "CS287",
         "description": "COLLOQUIUM IN COMPUTER SCIENCE"
+    },
+    {
+        "code": "CS297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "CS298I",
+        "description": "INDIVIDUAL INTERNSHIP"
+    },
+    {
+        "code": "CS299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION"
     },
     {
         "code": "CS302",
@@ -1460,6 +2016,10 @@
         "description": "POETRY WORKSHOP"
     },
     {
+        "code": "CWPA299",
+        "description": "RESEARCH FOR THE THESIS OR MANUSCRIPT"
+    },
+    {
         "code": "DNCE005",
         "description": "INTRODUCTION TO DANCE"
     },
@@ -1560,6 +2120,22 @@
         "description": "COLLOQUIUM IN CURRENT TOPICS IN DANCE RESEARCH"
     },
     {
+        "code": "DNCE290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "DNCE292",
+        "description": "CONCURRENT ANALYTICAL STUDIES IN DANCE"
+    },
+    {
+        "code": "DNCE297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "DNCE302",
+        "description": "TEACHING PRACTICUM"
+    },
+    {
         "code": "ECON002",
         "description": "INTRODUCTION TO MACROECONOMICS"
     },
@@ -1606,6 +2182,10 @@
     {
         "code": "ECON130",
         "description": "INTRODUCTION TO MONEY, BANKING, AND CREDIT"
+    },
+    {
+        "code": "ECON134",
+        "description": "INTRODUCTION TO FINANCIAL MANAGEMENT"
     },
     {
         "code": "ECON135",
@@ -1700,8 +2280,36 @@
         "description": "COLLOQUIUM IN ECONOMICS"
     },
     {
+        "code": "ECON290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "ECON291",
+        "description": "INDIVIDUAL STUDY IN COORDINATED AREAS"
+    },
+    {
+        "code": "ECON292",
+        "description": "CONCURRENT ANALYTICAL STUDIES"
+    },
+    {
+        "code": "ECON297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "ECON299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION"
+    },
+    {
+        "code": "ECON302",
+        "description": "TEACHING PRACTICUM"
+    },
+    {
         "code": "EDUC005",
         "description": "INTRODUCTION TO EDUCATION STUDIES"
+    },
+    {
+        "code": "EDUC010",
+        "description": "PRINCIPALS OF LEARNING STRATEGIES"
     },
     {
         "code": "EDUC024",
@@ -1732,6 +2340,10 @@
         "description": "EDUCATIONAL RESEARCH METHODS"
     },
     {
+        "code": "EDUC123",
+        "description": "SCHOOL EFFECTIVENESS AND EDUCATIONAL EQUITY"
+    },
+    {
         "code": "EDUC132",
         "description": "THE EXCEPTIONAL CHILD"
     },
@@ -1752,6 +2364,10 @@
         "description": "CRITICAL RACE THEORY AND K-12 SCHOOLS"
     },
     {
+        "code": "EDUC150",
+        "description": "POLICY AND LEGAL ISSUES IN INTERCOLLEGIATE ATHLETICS"
+    },
+    {
         "code": "EDUC153",
         "description": "WHITENESS, POWER, AND PRIVILEGE"
     },
@@ -1770,6 +2386,10 @@
     {
         "code": "EDUC183",
         "description": "PSYCHOLOGY IN THE SCHOOLS"
+    },
+    {
+        "code": "EDUC190",
+        "description": "SPECIAL STUDIES"
     },
     {
         "code": "EDUC201B",
@@ -1798,6 +2418,10 @@
     {
         "code": "EDUC236C",
         "description": "BEHAVIOR ANALYTIC SKILLS DEVELOPMENT: LEVEL 3"
+    },
+    {
+        "code": "EDUC237",
+        "description": "CONCENTRATED FIELDWORK IN APPLIED BEHAVIOR ANALYSIS"
     },
     {
         "code": "EDUC239",
@@ -1864,8 +2488,40 @@
         "description": "ANALYZING THE PRACTICE OF TEACHING"
     },
     {
+        "code": "EDUC290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "EDUC291",
+        "description": "INDIVIDUAL STUDIES IN COORDINATED AREAS"
+    },
+    {
         "code": "EDUC295B",
         "description": "ADAPTING CORE CURRICULUM AND STANDARDS-BASED INSTRUCTION (MILD-MODERATE DISABILITIES)"
+    },
+    {
+        "code": "EDUC297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "EDUC298I",
+        "description": "INDIVIDUAL INTERNSHIP"
+    },
+    {
+        "code": "EDUC299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION"
+    },
+    {
+        "code": "EDUC302",
+        "description": "COLLEGE TEACHING PRACTICUM"
+    },
+    {
+        "code": "EDUC336C",
+        "description": "SUPERVISED TEACHING IN THE ELEMENTARY SCHOOL"
+    },
+    {
+        "code": "EDUC337C",
+        "description": "TEACHING PERFORMANCE FOR MULTIPLE SUBJECT CANDIDATES"
     },
     {
         "code": "EDUC344C",
@@ -1882,6 +2538,14 @@
     {
         "code": "EDUC348C",
         "description": "SINGLE SUBJECT CREDENTIAL SEMINAR"
+    },
+    {
+        "code": "EDUC376C",
+        "description": "SUPERVISED TEACHING IN THE SECONDARY SCHOOL"
+    },
+    {
+        "code": "EDUC377C",
+        "description": "TEACHING PERFORMANCE FOR SINGLE SUBJECT CANDIDATES"
     },
     {
         "code": "EE001A",
@@ -1964,6 +2628,14 @@
         "description": "INTRODUCTION TO NANOELECTRONICS"
     },
     {
+        "code": "EE190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
+        "code": "EE197",
+        "description": "RESEARCH FOR UNDERGRADUATES"
+    },
+    {
         "code": "EE203",
         "description": "SOLID-STATE DEVICES"
     },
@@ -2012,6 +2684,22 @@
         "description": "SEMINAR IN ELECTRICAL ENGINEERING"
     },
     {
+        "code": "EE290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "EE297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "EE298I",
+        "description": "INDIVIDUAL INTERNSHIP IN ELECTRICAL ENGINEERING"
+    },
+    {
+        "code": "EE299",
+        "description": "RESEARCH FOR THE THESIS OR DISSERTATION"
+    },
+    {
         "code": "ENGR108",
         "description": "TECHNOLOGY IN PREMODERN CIVILIZATIONS"
     },
@@ -2028,8 +2716,20 @@
         "description": "TECHNICAL COMMUNICATIONS AND DOCUMENTATION"
     },
     {
+        "code": "ENGR190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
+        "code": "ENGR198I",
+        "description": "INDIVIDUAL INTERNSHIP"
+    },
+    {
         "code": "ENGR200",
         "description": "ENGINEERING IN THE GLOBAL ENVIRONMENT"
+    },
+    {
+        "code": "ENGR296",
+        "description": "PROFESSIONAL PROJECT DESIGN"
     },
     {
         "code": "ENGL001A",
@@ -2046,6 +2746,14 @@
     {
         "code": "ENGL004",
         "description": "ENGLISH WRITING"
+    },
+    {
+        "code": "ENGL004L",
+        "description": "ENGLISH WRITING"
+    },
+    {
+        "code": "ENGL007",
+        "description": "WORKSHOP IN WRITING ACROSS THE CURRICULUM"
     },
     {
         "code": "ENGL012B",
@@ -2140,6 +2848,10 @@
         "description": "ENGLISH CAPSTONE SEMINAR"
     },
     {
+        "code": "ENGL198I",
+        "description": "INDIVIDUAL INTERNSHIP IN ENGLISH"
+    },
+    {
         "code": "ENGL246",
         "description": "SEMINAR IN DIGITAL MEDIA AND TECHNOCULTURAL STUDIES"
     },
@@ -2164,8 +2876,32 @@
         "description": "SEMINAR IN MINORITY DISCOURSE"
     },
     {
+        "code": "ENGL290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "ENGL292",
+        "description": "CONCURRENT ANALYTICAL STUDIES"
+    },
+    {
+        "code": "ENGL297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "ENGL299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION"
+    },
+    {
         "code": "ENGL302",
         "description": "TEACHING PRACTICUM"
+    },
+    {
+        "code": "ENGL303",
+        "description": "ADVANCED TEACHING PRACTICUM"
+    },
+    {
+        "code": "ENGL304",
+        "description": "PROFESSIONAL RESEARCH PREPARATIONS"
     },
     {
         "code": "ENGL410",
@@ -2208,6 +2944,18 @@
         "description": "CAPSTONE RESEARCH SEMINAR IN ENTOMOLOGY"
     },
     {
+        "code": "ENTM190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
+        "code": "ENTM197",
+        "description": "RESEARCH FOR UNDERGRADUATES"
+    },
+    {
+        "code": "ENTM199",
+        "description": "SENIOR RESEARCH"
+    },
+    {
         "code": "ENTM203",
         "description": "CORE AREAS OF ENTOMOLOGY III: SUPRAORGANISMAL DISCIPLINES"
     },
@@ -2232,6 +2980,18 @@
         "description": "SEMINAR IN ENTOMOLOGY"
     },
     {
+        "code": "ENTM252",
+        "description": "SEMINAR IN INSECT BEHAVIOR"
+    },
+    {
+        "code": "ENTM254",
+        "description": "SEMINAR IN BIOLOGICAL CONTROL"
+    },
+    {
+        "code": "ENTM256",
+        "description": "SEMINAR IN SYSTEMATIC ENTOMOLOGY"
+    },
+    {
         "code": "ENTM257",
         "description": "RARE POLLINATOR CONSERVATION"
     },
@@ -2248,12 +3008,40 @@
         "description": "RESEARCH SEMINAR IN MANAGEMENT OF VEGETABLE CROP PESTS"
     },
     {
+        "code": "ENTM272",
+        "description": "RESEARCH SEMINAR IN INSECT COMMUNICATION AND BEHAVIOR"
+    },
+    {
         "code": "ENTM276",
         "description": "RESEARCH SEMINAR IN MEDICAL, URBAN, AND VETERINARY ENTOMOLOGY"
     },
     {
         "code": "ENTM289",
         "description": "SPECIAL TOPICS IN NEUROSCIENCE"
+    },
+    {
+        "code": "ENTM290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "ENTM291",
+        "description": "INDIVIDUAL STUDY IN COORDINATED AREAS"
+    },
+    {
+        "code": "ENTM297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "ENTM299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION"
+    },
+    {
+        "code": "ENTM301",
+        "description": "TEACHING ENTOMOLOGY AT THE COLLEGE LEVEL"
+    },
+    {
+        "code": "ENTM302",
+        "description": "COLLEGE TEACHING PRACTICUM"
     },
     {
         "code": "ENVE121",
@@ -2320,8 +3108,20 @@
         "description": "PRINCIPLES OF GROUNDWATER SCIENCE"
     },
     {
+        "code": "ENSC190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
         "code": "ENSC191",
         "description": "SEMINAR IN PROFESSIONAL DEVELOPMENT IN ENVIRONMENTAL SCIENCES"
+    },
+    {
+        "code": "ENSC197",
+        "description": "RESEARCH FOR UNDERGRADUATES"
+    },
+    {
+        "code": "ENSC198I",
+        "description": "INTERNSHIP IN ENVIRONMENTAL SCIENCES"
     },
     {
         "code": "ENSC200",
@@ -2336,6 +3136,22 @@
         "description": "RESEARCH SEMINAR IN ENVIRONMENTAL SCIENCES"
     },
     {
+        "code": "ENSC290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "ENSC297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "ENSC299",
+        "description": "RESEARCH FOR THE THESIS OR DISSERTATION"
+    },
+    {
+        "code": "ENSC302",
+        "description": "TEACHING PRACTICUM"
+    },
+    {
         "code": "ENTX103",
         "description": "ENVIRONMENTAL POLLUTION AND HEALTH"
     },
@@ -2348,8 +3164,28 @@
         "description": "FATE AND TRANSPORT OF CHEMICALS IN THE ENVIRONMENT"
     },
     {
+        "code": "ENTX201L",
+        "description": "LABORATORY ROTATION"
+    },
+    {
         "code": "ENTX270",
         "description": "SEMINAR IN ENVIRONMENTAL TOXICOLOGY"
+    },
+    {
+        "code": "ENTX271",
+        "description": "SEMINAR IN ENVIRONMENTAL TOXICOLOGY"
+    },
+    {
+        "code": "ENTX290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "ENTX297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "ENTX299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION"
     },
     {
         "code": "ETST001",
@@ -2420,6 +3256,14 @@
         "description": "SEMINAR IN ETHNIC STUDIES"
     },
     {
+        "code": "ETST198G",
+        "description": "GROUP INTERNSHIP"
+    },
+    {
+        "code": "ETST198I",
+        "description": "INDIVIDUAL INTERNSHIP"
+    },
+    {
         "code": "ETST203",
         "description": "RESEARCH METHODS IN ETHNIC STUDIES"
     },
@@ -2428,12 +3272,44 @@
         "description": "CULTURAL POLITICS AND PRODUCTION"
     },
     {
+        "code": "ETST289",
+        "description": "COLLOQUIUM IN ETHNIC STUDIES"
+    },
+    {
+        "code": "ETST290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "ETST291",
+        "description": "INDIVIDUAL STUDY IN COORDINATED AREAS"
+    },
+    {
+        "code": "ETST292",
+        "description": "CONCURRENT ANALYTICAL STUDIES IN ETHNIC STUDIES"
+    },
+    {
+        "code": "ETST297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "ETST299",
+        "description": "RESEARCH FOR THE DISSERTATION"
+    },
+    {
+        "code": "ETST302",
+        "description": "TEACHING PRACTICUM"
+    },
+    {
         "code": "EUR047",
         "description": "INTRODUCTION TO RUSSIAN CULTURE"
     },
     {
         "code": "EUR120",
         "description": "BERLIN METROPOLIS IN LITERATURE, FILM, MUSIC, AND ART"
+    },
+    {
+        "code": "EEOB211",
+        "description": "FOUNDATIONS OF ECOLOGY"
     },
     {
         "code": "EEOB216",
@@ -2446,6 +3322,26 @@
     {
         "code": "EEOB265",
         "description": "ADVANCES IN POPULATION AND EVOLUTIONARY BIOLOGY"
+    },
+    {
+        "code": "EEOB290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "EEOB291",
+        "description": "INDIVIDUAL STUDY IN COORDINATED AREAS"
+    },
+    {
+        "code": "EEOB292",
+        "description": "CONCURRENT ANALYTICAL STUDIES IN EVOLUTION, ECOLOGY, AND ORGANISMAL BIOLOGY"
+    },
+    {
+        "code": "EEOB297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "EEOB299",
+        "description": "RESEARCH FOR THE THESIS OR DISSERTATION"
     },
     {
         "code": "FIL003",
@@ -2532,6 +3428,10 @@
         "description": "FEMINIST POLITICS OF FOOD\r\n"
     },
     {
+        "code": "GSST190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
         "code": "GSST191C",
         "description": "SEMINAR IN GENDER AND SEXUALITY STUDIES: RESEARCH PRACTICUM IN GENDER AND SUSTAINABILITY"
     },
@@ -2540,12 +3440,36 @@
         "description": "GRP INTRNSHP: GNDR &amp; SXLTY"
     },
     {
+        "code": "GSST290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "GSST292",
+        "description": "CONCURRENT ANALYTICAL STUDIES IN GENDER AND SEXUALITY STUDIES"
+    },
+    {
+        "code": "GSST302",
+        "description": "TEACHING PRACTICUM"
+    },
+    {
         "code": "GEN242",
         "description": "DATA ANALYSIS IN GENOME BIOLOGY"
     },
     {
         "code": "GEN261",
         "description": "SEMINAR IN GENETICS, GENOMICS, AND BIOINFORMATICS"
+    },
+    {
+        "code": "GEN290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "GEN297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "GEN299",
+        "description": "RESEARCH FOR THE DISSERTATION"
     },
     {
         "code": "GEO003",
@@ -2596,8 +3520,32 @@
         "description": "CENOZOIC CLIMATE CHANGE"
     },
     {
+        "code": "GEO190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
         "code": "GEO191",
         "description": "UNDERGRADUATE SEMINAR IN GEOLOGICAL SCIENCES"
+    },
+    {
+        "code": "GEO195A",
+        "description": "SENIOR THESIS"
+    },
+    {
+        "code": "GEO195B",
+        "description": "SENIOR THESIS"
+    },
+    {
+        "code": "GEO195C",
+        "description": "SENIOR THESIS"
+    },
+    {
+        "code": "GEO198I",
+        "description": "INDEPENDENT INTERNSHIP"
+    },
+    {
+        "code": "GEO201B",
+        "description": "PROPOSAL WRITING AND REVIEW"
     },
     {
         "code": "GEO219",
@@ -2606,6 +3554,42 @@
     {
         "code": "GEO250",
         "description": "GRADUATE SEMINAR IN GEOLOGICAL SCIENCES"
+    },
+    {
+        "code": "GEO251I",
+        "description": "ADVANCED TOPICS IN INVERTEBRATE PALEONTOLOGY"
+    },
+    {
+        "code": "GEO254",
+        "description": "TOPICS IN PALEOBIOLOGY"
+    },
+    {
+        "code": "GEO263",
+        "description": "ORGANIC AND PETROLEUM GEOCHEMISTRY"
+    },
+    {
+        "code": "GEO290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "GEO297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "GEO299M",
+        "description": "RESEARCH FOR MASTER&#39;S THESIS"
+    },
+    {
+        "code": "GEO299P",
+        "description": "RESEARCH FOR DISSERTATION"
+    },
+    {
+        "code": "GEO301",
+        "description": "TEACHING OF GEOSCIENCES AT THE COLLEGE LEVEL"
+    },
+    {
+        "code": "GEO302",
+        "description": "TEACHING PRACTICUM"
     },
     {
         "code": "GER002",
@@ -2644,8 +3628,20 @@
         "description": "SENIOR SEMINAR"
     },
     {
+        "code": "GBST302",
+        "description": "TEACHING PRACTICUM"
+    },
+    {
+        "code": "GDIV302",
+        "description": "UNIVERSITY LEVEL PEDAGOGY PRACTICUM"
+    },
+    {
         "code": "GDIV403",
         "description": "INTERDISCIPLINARY SEMINAR:  RESEARCH AND SCHOLARSHIP ETHICS"
+    },
+    {
+        "code": "GDIV498I",
+        "description": "INDIVIDUAL INTERNSHIP"
     },
     {
         "code": "GRK003",
@@ -2720,12 +3716,28 @@
         "description": "MODERN SOUTHEAST ASIA, 1800 TO PRESENT"
     },
     {
+        "code": "HIST190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
         "code": "HIST195B",
         "description": "SENIOR THESIS"
     },
     {
         "code": "HIST197",
         "description": "FASHIONING AFRICA &amp; DIASPORAS"
+    },
+    {
+        "code": "HIST199",
+        "description": "SENIOR RESEARCH"
+    },
+    {
+        "code": "HIST212",
+        "description": "GREEK HISTORICAL TEXTS"
+    },
+    {
+        "code": "HIST213",
+        "description": "LATIN HISTORICAL TEXTS"
     },
     {
         "code": "HIST238",
@@ -2744,8 +3756,36 @@
         "description": "EARLY MODERN EMPIRES IN THE MIDDLE EAST: THE OTTOMANS AND THE SAFAVIDS"
     },
     {
+        "code": "HIST290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "HIST291",
+        "description": "INDIVIDUAL STUDY IN HISTORY"
+    },
+    {
+        "code": "HIST292",
+        "description": "CONCURRENT ANALYTICAL STUDIES"
+    },
+    {
+        "code": "HIST297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "HIST299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION"
+    },
+    {
         "code": "HIST301",
         "description": "THE TEACHING OF HISTORY AT THE COLLEGE LEVEL"
+    },
+    {
+        "code": "HIST302",
+        "description": "TEACHING PRACTICUM"
+    },
+    {
+        "code": "HIST398I",
+        "description": "INTERNSHIP IN PUBLIC HISTORY"
     },
     {
         "code": "HISE113",
@@ -2798,6 +3838,26 @@
     {
         "code": "HISA166",
         "description": "MODERN ARGENTINA: DEMOCRACY AND DICTATORSHIP"
+    },
+    {
+        "code": "HNPG199H",
+        "description": "SENIOR HONORS RESEARCH"
+    },
+    {
+        "code": "HASS090",
+        "description": "SPECIAL STUDIES"
+    },
+    {
+        "code": "HASS190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
+        "code": "HASS195",
+        "description": "SENIOR THESIS"
+    },
+    {
+        "code": "HASS198I",
+        "description": "INTERNSHIP"
     },
     {
         "code": "ITAL001",
@@ -2884,8 +3944,20 @@
         "description": "LATIN AMERICA:  THE QUEST FOR DEVELOPMENT AND DEMOCRACY"
     },
     {
+        "code": "LNST190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
         "code": "LGBS122R",
         "description": "QUEER AZTLN:CHICANA/O QUER NAR"
+    },
+    {
+        "code": "LGBS190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
+        "code": "LGBS198I",
+        "description": "INDIVIDUAL INTERNSHIP"
     },
     {
         "code": "LBST191",
@@ -2914,6 +3986,10 @@
     {
         "code": "LING162",
         "description": "LANGUAGE AND THE BRAIN"
+    },
+    {
+        "code": "CWLR200",
+        "description": "PROFESSIONAL FUNDAMENTALS"
     },
     {
         "code": "CWLR201F",
@@ -3064,6 +4140,14 @@
         "description": "SPECIAL TOPICS IN MARKETING-  BEHAVIORAL"
     },
     {
+        "code": "MGT290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "MGT292",
+        "description": "CONCURRENT STUDIES IN MANAGEMENT"
+    },
+    {
         "code": "MGT295F",
         "description": "EMPIRICAL METHODS IN FINANCE"
     },
@@ -3076,8 +4160,20 @@
         "description": "PRICING AND REVENUE MANAGEMENT"
     },
     {
+        "code": "MGT297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
         "code": "MGT298I",
         "description": "FIELDWORK IN MANAGEMENT"
+    },
+    {
+        "code": "MGT299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION"
+    },
+    {
+        "code": "MGT302",
+        "description": "APPRENTICE TEACHING"
     },
     {
         "code": "MSE135",
@@ -3094,6 +4190,10 @@
     {
         "code": "MSE175B",
         "description": "SENIOR DESIGN"
+    },
+    {
+        "code": "MSE197",
+        "description": "RESEARCH FOR UNDERGRADUATES"
     },
     {
         "code": "MSE208A",
@@ -3144,12 +4244,28 @@
         "description": "TOPICS IN MATERIALS SCIENCE AND ENGINEERING"
     },
     {
+        "code": "MSE280",
+        "description": "SPECIAL TOPICS IN BIOMATERIALS AND TISSUE ENGINEERING"
+    },
+    {
         "code": "MSE290",
         "description": "DIRECTED STUDIES"
     },
     {
+        "code": "MSE297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "MSE298I",
+        "description": "INDIVIDUAL INTERNSHIP IN MATERIALS SCIENCE &amp; ENGINEERING"
+    },
+    {
         "code": "MSE299",
         "description": "RESEARCH FOR THE THESIS OR DISSERTATION"
+    },
+    {
+        "code": "MSE302",
+        "description": "TEACHING PRACTICUM"
     },
     {
         "code": "MATH004",
@@ -3288,6 +4404,10 @@
         "description": "RESEARCH FOR UNDERGRADUATES"
     },
     {
+        "code": "MATH198I",
+        "description": "INTERNSHIP IN MATHEMATICS"
+    },
+    {
         "code": "MATH201C",
         "description": "ALGEBRA"
     },
@@ -3328,8 +4448,20 @@
         "description": "COLLOQUIUM IN MATHEMATICS"
     },
     {
+        "code": "MATH290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
         "code": "MATH291",
         "description": "INDIVIDUAL STUDY IN COORDINATED AREAS"
+    },
+    {
+        "code": "MATH297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "MATH299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION"
     },
     {
         "code": "ME002",
@@ -3394,6 +4526,14 @@
     {
         "code": "ME180",
         "description": "OPTICS AND LASERS IN ENGINEERING"
+    },
+    {
+        "code": "ME190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
+        "code": "ME197",
+        "description": "RESEARCH FOR UNDERGRADUATES"
     },
     {
         "code": "ME200",
@@ -3462,6 +4602,18 @@
     {
         "code": "ME290",
         "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "ME297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "ME298I",
+        "description": "INDIVIDUAL INTERNSHIP"
+    },
+    {
+        "code": "ME299",
+        "description": "RESEARCH FOR THE THESIS OR DISSERTATION"
     },
     {
         "code": "ME302",
@@ -3560,8 +4712,32 @@
         "description": "JAPANESE DOCUMENTARY"
     },
     {
+        "code": "MCS190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
+        "code": "MCS198I",
+        "description": "INDIVIDUAL INTERNSHIP IN MEDIA AND CULTURAL STUDIES"
+    },
+    {
         "code": "MCS278",
         "description": "SEMINAR IN MINORITY DISCOURSE"
+    },
+    {
+        "code": "MCS280",
+        "description": "COLLOQUIUM IN BOOK, ARCHIVE AND MANUSCRIPT STUDIES"
+    },
+    {
+        "code": "MCS290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "MCS292",
+        "description": "CONCURRENT ANALYTICAL STUDIES IN MEDIA AND CULTURAL STUDIES"
+    },
+    {
+        "code": "MCS302",
+        "description": "TEACHING PRACTICUM"
     },
     {
         "code": "MCBL121",
@@ -3588,6 +4764,14 @@
         "description": "HOST RESPONSES TO VIRAL PATHOGENS"
     },
     {
+        "code": "MCBL190",
+        "description": "BIOTHREATS AND BIODEFENSE"
+    },
+    {
+        "code": "MCBL197",
+        "description": "RESEARCH FOR UNDERGRADUATES"
+    },
+    {
         "code": "MCBL241",
         "description": "SPECIAL TOPICS"
     },
@@ -3600,8 +4784,24 @@
         "description": "SEMINAR IN MOLECULAR BIOLOGY AND GENOMICS OF DISEASE VECTORS"
     },
     {
+        "code": "MCBL290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "MCBL297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "MCBL299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION"
+    },
+    {
         "code": "MEIS151",
         "description": "PALESTINE/ALGERIA"
+    },
+    {
+        "code": "MEIS199",
+        "description": "SENIOR RESEARCH"
     },
     {
         "code": "MEIS278",
@@ -3642,6 +4842,106 @@
     {
         "code": "MUS037",
         "description": "INTRODUCTION TO COMPOSITION"
+    },
+    {
+        "code": "MUS080E",
+        "description": "VOICE"
+    },
+    {
+        "code": "MUS080F",
+        "description": "CLASSICAL PIANO"
+    },
+    {
+        "code": "MUS080G",
+        "description": "JAZZ PIANO"
+    },
+    {
+        "code": "MUS080J",
+        "description": "CARILLON"
+    },
+    {
+        "code": "MUS080K",
+        "description": "JAZZ GUITAR"
+    },
+    {
+        "code": "MUS080L",
+        "description": "ELECTRIC BASS GUITAR"
+    },
+    {
+        "code": "MUS080N",
+        "description": "CLASSICAL GUITAR"
+    },
+    {
+        "code": "MUS080P",
+        "description": "PIANO PROFICIENCY"
+    },
+    {
+        "code": "MUS080Q",
+        "description": "ORGAN"
+    },
+    {
+        "code": "MUS080R",
+        "description": "VIOLIN"
+    },
+    {
+        "code": "MUS080S",
+        "description": "VIOLA"
+    },
+    {
+        "code": "MUS080T",
+        "description": "VIOLONCELLO"
+    },
+    {
+        "code": "MUS080U",
+        "description": "ACOUSTIC STRING BASS - CLASSCL"
+    },
+    {
+        "code": "MUS080V",
+        "description": "HARP"
+    },
+    {
+        "code": "MUS081E",
+        "description": "TRUMPET - JAZZ"
+    },
+    {
+        "code": "MUS081F",
+        "description": "TROMBONE"
+    },
+    {
+        "code": "MUS081G",
+        "description": "TUBA"
+    },
+    {
+        "code": "MUS081I",
+        "description": "FRENCH HORN"
+    },
+    {
+        "code": "MUS081J",
+        "description": "FLUTE"
+    },
+    {
+        "code": "MUS081K",
+        "description": "OBOE"
+    },
+    {
+        "code": "MUS081L",
+        "description": "CLARINET"
+    },
+    {
+        "code": "MUS081M",
+        "description": "BASSOON"
+    },
+    {
+        "code": "MUS081N",
+        "description": "SAXOPHONE"
+    },
+    {
+        "code": "MUS081P",
+        "description": "DRUM SET"
+    },
+    {
+        "code": "MUS081R",
+        "description": "BAGPIPE"
     },
     {
         "code": "MUS112C",
@@ -3732,6 +5032,102 @@
         "description": "MUSIC OF NORTH INDIA: TABLA (DRUMS)"
     },
     {
+        "code": "MUS180E",
+        "description": "VOICE"
+    },
+    {
+        "code": "MUS180F",
+        "description": "CLASSICAL PIANO"
+    },
+    {
+        "code": "MUS180G",
+        "description": "JAZZ PIANO"
+    },
+    {
+        "code": "MUS180J",
+        "description": "CARILLON"
+    },
+    {
+        "code": "MUS180K",
+        "description": "JAZZ GUITAR"
+    },
+    {
+        "code": "MUS180L",
+        "description": "ELECTRIC BASS GUITAR"
+    },
+    {
+        "code": "MUS180N",
+        "description": "CLASSICAL GUITAR"
+    },
+    {
+        "code": "MUS180Q",
+        "description": "ORGAN"
+    },
+    {
+        "code": "MUS180R",
+        "description": "VIOLIN"
+    },
+    {
+        "code": "MUS180S",
+        "description": "VIOLA"
+    },
+    {
+        "code": "MUS180T",
+        "description": "VIOLONCELLO"
+    },
+    {
+        "code": "MUS180U",
+        "description": "ACOUSTIC STRING BASS - CLASSCL"
+    },
+    {
+        "code": "MUS180V",
+        "description": "HARP"
+    },
+    {
+        "code": "MUS181E",
+        "description": "TRUMPET - JAZZ"
+    },
+    {
+        "code": "MUS181F",
+        "description": "TROMBONE"
+    },
+    {
+        "code": "MUS181G",
+        "description": "TUBA"
+    },
+    {
+        "code": "MUS181I",
+        "description": "FRENCH HORN"
+    },
+    {
+        "code": "MUS181J",
+        "description": "FLUTE"
+    },
+    {
+        "code": "MUS181K",
+        "description": "OBOE"
+    },
+    {
+        "code": "MUS181L",
+        "description": "CLARINET"
+    },
+    {
+        "code": "MUS181M",
+        "description": "BASSOON"
+    },
+    {
+        "code": "MUS181N",
+        "description": "SAXOPHONE"
+    },
+    {
+        "code": "MUS181P",
+        "description": "DRUM SET"
+    },
+    {
+        "code": "MUS181R",
+        "description": "BAGPIPE"
+    },
+    {
         "code": "MUS257",
         "description": "MUSIC AND AUDIO PRODUCTION"
     },
@@ -3744,8 +5140,32 @@
         "description": "AREA STUDIES RESEARCH IN MUSIC"
     },
     {
+        "code": "MUS290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "MUS291",
+        "description": "INDIVIDUAL STUDY IN COORDINATED AREAS"
+    },
+    {
+        "code": "MUS292",
+        "description": "CONCURRENT ANALYTICAL STUDIES IN MUSIC"
+    },
+    {
+        "code": "MUS297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "MUS299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION"
+    },
+    {
         "code": "MUS301",
         "description": "DIRECTED STUDIES IN THE TEACHING OF MUSIC"
+    },
+    {
+        "code": "MUS302",
+        "description": "TEACHING PRACTICUM"
     },
     {
         "code": "MUS400",
@@ -3760,8 +5180,36 @@
         "description": "INTRODUCTION TO ORAL PRESENTATIONS"
     },
     {
+        "code": "NASC191S",
+        "description": "SEMINAR IN SACRAMENTO"
+    },
+    {
         "code": "NASC198",
         "description": "R&#39;CRS - EEOB SPORTS SCIENCE"
+    },
+    {
+        "code": "NASC198I",
+        "description": "INDIVIDUAL INTERNSHIP IN THE NATURAL AND AGRICULTURAL SCIENCES"
+    },
+    {
+        "code": "NEM190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
+        "code": "NEM197",
+        "description": "RESEARCH FOR UNDERGRADUATES"
+    },
+    {
+        "code": "NEM199",
+        "description": "SENIOR RESEARCH"
+    },
+    {
+        "code": "NEM290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "NEM297",
+        "description": "DIRECTED RESEARCH"
     },
     {
         "code": "NRSC200C",
@@ -3778,6 +5226,30 @@
     {
         "code": "NRSC289",
         "description": "SPECIAL TOPICS IN NEUROSCIENCE"
+    },
+    {
+        "code": "NRSC290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "NRSC297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "NRSC299",
+        "description": "RESEARCH FOR THE THESIS OR DISSERTATION"
+    },
+    {
+        "code": "PCST190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
+        "code": "PCST197",
+        "description": "RESEARCH FOR UNDERGRADUATES"
+    },
+    {
+        "code": "PCST198I",
+        "description": "INDIVIDUAL INTERNSHIP IN PEACE AND CONFLICT STUDIES"
     },
     {
         "code": "PHIL001",
@@ -3844,8 +5316,16 @@
         "description": "READING PHILOSOPHICAL GERMAN"
     },
     {
+        "code": "PHIL190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
         "code": "PHIL193",
         "description": "SENIOR SEMINAR"
+    },
+    {
+        "code": "PHIL270",
+        "description": "PHILOSOPHY COLLOQUIA"
     },
     {
         "code": "PHIL272B",
@@ -3870,6 +5350,30 @@
     {
         "code": "PHIL283",
         "description": "SEMINAR IN CONTEMPORARY PHILOSOPHY"
+    },
+    {
+        "code": "PHIL290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "PHIL292",
+        "description": "CONCURRENT ANALYTICAL STUDIES IN PHILOSOPHY"
+    },
+    {
+        "code": "PHIL297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "PHIL299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION"
+    },
+    {
+        "code": "PHIL302",
+        "description": "TEACHING PRACTICUM"
+    },
+    {
+        "code": "PHIL400",
+        "description": "RESEARCH AND PROFESSIONAL DEVELOPMENT WORKSHOP"
     },
     {
         "code": "PHYS002A",
@@ -3916,6 +5420,10 @@
         "description": "INTRODUCTORY PHYSICS FOR PHYSICS MAJORS"
     },
     {
+        "code": "PHYS097",
+        "description": "LOWER-DIVISION RESEARCH"
+    },
+    {
         "code": "PHYS132",
         "description": "THERMAL PHYSICS"
     },
@@ -3938,6 +5446,26 @@
     {
         "code": "PHYS190",
         "description": "SPECIAL STUDIES"
+    },
+    {
+        "code": "PHYS195A",
+        "description": "SENIOR THESIS"
+    },
+    {
+        "code": "PHYS195B",
+        "description": "SENIOR THESIS"
+    },
+    {
+        "code": "PHYS195C",
+        "description": "SENIOR THESIS"
+    },
+    {
+        "code": "PHYS197",
+        "description": "RESEARCH FOR UNDERGRADUATES"
+    },
+    {
+        "code": "PHYS198I",
+        "description": "INDIVIDUAL INTERNSHIP IN PHYSICS"
     },
     {
         "code": "PHYS203",
@@ -4004,6 +5532,10 @@
         "description": "INTRODUCTION TO APPLIED DATA SCIENCE"
     },
     {
+        "code": "PHYS250",
+        "description": "METH OF OBSERVATIONAL COSMOLGY"
+    },
+    {
         "code": "PHYS258",
         "description": "SEMINAR IN SURFACE SCIENCE"
     },
@@ -4012,8 +5544,36 @@
         "description": "COLLOQUIUM IN PHYSICS"
     },
     {
+        "code": "PHYS290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "PHYS291",
+        "description": "INDIVIDUAL STUDY IN COORDINATED AREAS"
+    },
+    {
+        "code": "PHYS297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "PHYS299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION"
+    },
+    {
+        "code": "PHYS302",
+        "description": "TEACHING PRACTICUM"
+    },
+    {
         "code": "PLPA123",
         "description": "INTRODUCTION TO COMPARATIVE VIROLOGY"
+    },
+    {
+        "code": "PLPA190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
+        "code": "PLPA197",
+        "description": "RESEARCH FOR UNDERGRADUATES"
     },
     {
         "code": "PLPA241",
@@ -4026,6 +5586,22 @@
     {
         "code": "PLPA265",
         "description": "A COLLOQUIUM ON THE PRINCIPLES OF PLANT PATHOLOGY"
+    },
+    {
+        "code": "PLPA290",
+        "description": "RESEARCH OR STUDY ON SPECIAL TOPICS BY INDIVIDUAL GRADUATE STUDENTS"
+    },
+    {
+        "code": "PLPA291",
+        "description": "INDIVIDUAL STUDY IN COORDINATED AREAS"
+    },
+    {
+        "code": "PLPA297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "PLPA299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION"
     },
     {
         "code": "POSC007",
@@ -4124,6 +5700,22 @@
         "description": "REGULATION: A POLITICAL PERSPECTIVE"
     },
     {
+        "code": "POSC190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
+        "code": "POSC197",
+        "description": "RESEARCH FOR UNDERGRADUATES"
+    },
+    {
+        "code": "POSC198I",
+        "description": "INDIVIDUAL INTERNSHIP IN POLITICAL SCIENCE"
+    },
+    {
+        "code": "POSC199",
+        "description": "SENIOR RESEARCH"
+    },
+    {
         "code": "POSC203",
         "description": "SOCIAL SCIENCE, HISTORY, AND QUALITATIVE METHODOLOGY"
     },
@@ -4150,6 +5742,38 @@
     {
         "code": "POSC264",
         "description": "SEMINAR IN INTERNATIONAL POLITICAL ECONOMY"
+    },
+    {
+        "code": "POSC285",
+        "description": "PROFESSIONAL RESEARCH PAPER"
+    },
+    {
+        "code": "POSC290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "POSC291",
+        "description": "INDIVIDUAL STUDY IN COORDINATED AREAS"
+    },
+    {
+        "code": "POSC292",
+        "description": "CONCURRENT ANALYTICAL STUDIES IN POLITICAL SCIENCE"
+    },
+    {
+        "code": "POSC293",
+        "description": "RESEARCH TOPICS IN POLITICAL SCIENCE"
+    },
+    {
+        "code": "POSC297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "POSC299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION"
+    },
+    {
+        "code": "POSC302",
+        "description": "COLLEGE TEACHING PRACTICUM"
     },
     {
         "code": "PSYC001",
@@ -4280,6 +5904,10 @@
         "description": "GROUP INTERNSHIP IN PSYCHOLOGY"
     },
     {
+        "code": "PSYC199H",
+        "description": "SENIOR HONORS RESEARCH"
+    },
+    {
         "code": "PSYC200C",
         "description": "FUNDAMENTALS OF NEUROSCIENCE"
     },
@@ -4336,6 +5964,34 @@
         "description": "SPECIAL TOPICS IN NEUROSCIENCE"
     },
     {
+        "code": "PSYC290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "PSYC291",
+        "description": "INDIVIDUAL STUDY IN COORDINATED AREAS"
+    },
+    {
+        "code": "PSYC292",
+        "description": "CONCURRENT ANALYTICAL STUDIES"
+    },
+    {
+        "code": "PSYC296",
+        "description": "RESEARCH TUTORIAL"
+    },
+    {
+        "code": "PSYC297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "PSYC299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION"
+    },
+    {
+        "code": "PSYC301",
+        "description": "TEACHING PSYCHOLOGY AT THE COLLEGE LEVEL"
+    },
+    {
         "code": "PBPL001",
         "description": "INTRODUCTION TO PUBLIC POLICY ANALYSIS"
     },
@@ -4366,6 +6022,14 @@
     {
         "code": "PBPL185",
         "description": "RACE AND LAW ENFORCEMENT"
+    },
+    {
+        "code": "PBPL191",
+        "description": "SEMINAR IN PUBLIC POLICY"
+    },
+    {
+        "code": "PBPL198I",
+        "description": "INDIVIDUAL INTERNSHIP IN PUBLIC POLICY"
     },
     {
         "code": "PBPL206",
@@ -4432,8 +6096,44 @@
         "description": "WOMEN&#39;S ISSUES IN MODERN MUSLIM THOUGHT"
     },
     {
+        "code": "RLST190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
         "code": "RLST204",
         "description": "ANALYTICS OF POWER"
+    },
+    {
+        "code": "RLST290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "RLST291",
+        "description": "INDIVIDUAL STUDY IN COORDINATED AREAS"
+    },
+    {
+        "code": "RLST292",
+        "description": "CONCURRENT STUDIES IN RELIGIOUS STUDIES"
+    },
+    {
+        "code": "RLST297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "RLST299",
+        "description": "RESEARCH FOR THE DISSERTATION"
+    },
+    {
+        "code": "RLST302",
+        "description": "TEACHING PRACTICUM"
+    },
+    {
+        "code": "RLST401",
+        "description": "COLLOQUIUM IN RELIGIOUS STUDIES"
+    },
+    {
+        "code": "RLST403",
+        "description": "SURVIVING THE JOB MARKET"
     },
     {
         "code": "RUSN003",
@@ -4442,6 +6142,94 @@
     {
         "code": "RUSN120F",
         "description": "READINGS IN TWENTIETH CENTURY"
+    },
+    {
+        "code": "MDCL234",
+        "description": "MUSCULOSKELETAL MEDICINE"
+    },
+    {
+        "code": "MDCL235",
+        "description": "CLINICAL NEUROSCIENCES I"
+    },
+    {
+        "code": "MDCL239",
+        "description": "CLINICAL NEUROSCIENCES II"
+    },
+    {
+        "code": "MDCL240",
+        "description": "INTEGRATIVE HUMAN BIOLOGY &amp; DISEASE"
+    },
+    {
+        "code": "MDCL241B",
+        "description": "INTERNAL MEDICINE II"
+    },
+    {
+        "code": "MDCL242B",
+        "description": "SURGERY II"
+    },
+    {
+        "code": "MDCL243B",
+        "description": "PEDIATRICS II"
+    },
+    {
+        "code": "MDCL244B",
+        "description": "OBSTETRICS/GYNECOLOGY II"
+    },
+    {
+        "code": "MDCL245B",
+        "description": "FAMILY MEDICINE II"
+    },
+    {
+        "code": "MDCL246B",
+        "description": "PSYCHIATRY II"
+    },
+    {
+        "code": "MDCL246D",
+        "description": "PSYCHIATRY IV"
+    },
+    {
+        "code": "MDCL247B",
+        "description": "EMERGENCY MEDICINE II"
+    },
+    {
+        "code": "MDCL247D",
+        "description": "EMERGENCY MEDICINE IV"
+    },
+    {
+        "code": "MDCL248B",
+        "description": "LONGITUDINAL AMBULATORY CARE EXPERIENCE (LACE) II"
+    },
+    {
+        "code": "MDCL248D",
+        "description": "LONGITUDINAL AMBULATORY CARE EXPERIENCE (LACE) IV"
+    },
+    {
+        "code": "MDCL250",
+        "description": "FAMILY MEDICINE"
+    },
+    {
+        "code": "MDCL251",
+        "description": "RADIOLOGY"
+    },
+    {
+        "code": "MDCL252",
+        "description": "CRITICAL CARE"
+    },
+    {
+        "code": "MDCL253",
+        "description": "BACK-TO-BASICS"
+    },
+    {
+        "code": "MDCL254",
+        "description": "FOURTH YEAR CLINICAL ROTATION"
+    },
+    {
+        "code": "MDCL289",
+        "description": "PRACTICING GRAPHIC MEDICINE"
+    },
+    {
+        "code": "MDCL293",
+        "description": "CLINICAL SELECTIVES"
     },
     {
         "code": "SOC001",
@@ -4464,6 +6252,10 @@
         "description": "STATISTICAL ANALYSIS"
     },
     {
+        "code": "SOC010",
+        "description": "THE SOCIOLOGICAL IMAGINATION"
+    },
+    {
         "code": "SOC020",
         "description": "AMERICAN SOCIETY"
     },
@@ -4478,6 +6270,10 @@
     {
         "code": "SOC130",
         "description": "RACE AND ETHNIC RELATIONS"
+    },
+    {
+        "code": "SOC133",
+        "description": "INEQUALITY AND SOCIAL CLASS"
     },
     {
         "code": "SOC142",
@@ -4512,6 +6308,18 @@
         "description": "SPECIAL STUDIES"
     },
     {
+        "code": "SOC195",
+        "description": "SENIOR THESIS"
+    },
+    {
+        "code": "SOC198I",
+        "description": "INDIVIDUAL INTERNSHIP IN SOCIOLOGY"
+    },
+    {
+        "code": "SOC199H",
+        "description": "SENIOR HONORS RESEARCH"
+    },
+    {
         "code": "SOC203B",
         "description": "QUANTITATIVE METHODS II"
     },
@@ -4536,6 +6344,26 @@
         "description": "COGNITIVE SOCIOLOGY"
     },
     {
+        "code": "SOC290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "SOC291",
+        "description": "INDIVIDUAL STUDY IN COORDINATED AREAS"
+    },
+    {
+        "code": "SOC293",
+        "description": "RESEARCH TOPICS IN SOCIOLOGY"
+    },
+    {
+        "code": "SOC297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "SOC299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION"
+    },
+    {
         "code": "SEAS063",
         "description": "READING SOUTHEAST ASIAN STORIES"
     },
@@ -4550,6 +6378,22 @@
     {
         "code": "SEAS186",
         "description": "MODERN SOUTHEAST ASIA, 1800 TO PRESENT"
+    },
+    {
+        "code": "SEAS290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "SEAS292",
+        "description": "CONCURRENT ANALYTICAL STUDIES IN SOUTHEAST ASIAN STUDIES"
+    },
+    {
+        "code": "SEAS297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "SEAS299",
+        "description": "RESEARCH FOR THE THESIS"
     },
     {
         "code": "SPN001",
@@ -4612,6 +6456,10 @@
         "description": "DECOLONIZING CREATIVITY"
     },
     {
+        "code": "SPN192",
+        "description": "TUTORIAL ACTIVITIES"
+    },
+    {
         "code": "SPN193",
         "description": "SENIOR SEMINAR IN THE LITERATURES AND CULTURES OF THE HISPANIC WORLD"
     },
@@ -4630,6 +6478,26 @@
     {
         "code": "SPN279",
         "description": "STUDIES IN SPANISH LITERATURE AND CULTURE"
+    },
+    {
+        "code": "SPN290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "SPN291",
+        "description": "INDIVIDUAL STUDIES IN COORDINATED AREAS"
+    },
+    {
+        "code": "SPN292",
+        "description": "CONCURRENT ANALYTICAL STUDIES"
+    },
+    {
+        "code": "SPN299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION"
+    },
+    {
+        "code": "SPN302",
+        "description": "TEACHING PRACTICUM"
     },
     {
         "code": "STAT040",
@@ -4680,6 +6548,18 @@
         "description": "STATISTICAL CONSULTING"
     },
     {
+        "code": "STAT190",
+        "description": "SPECIAL STUDIES"
+    },
+    {
+        "code": "STAT197",
+        "description": "RESEARCH FOR UNDERGRADUATES"
+    },
+    {
+        "code": "STAT198I",
+        "description": "INDIVIDUAL INTERNSHIP IN STATISTICS"
+    },
+    {
         "code": "STAT201C",
         "description": "THEORY OF PROBABILITY AND STATISTICS"
     },
@@ -4718,6 +6598,30 @@
     {
         "code": "STAT288",
         "description": "LITERATURE SEMINAR"
+    },
+    {
+        "code": "STAT290",
+        "description": "DIRECTED STUDIES"
+    },
+    {
+        "code": "STAT291",
+        "description": "INDIVIDUAL STUDIES IN COORDINATED AREAS"
+    },
+    {
+        "code": "STAT292",
+        "description": "CONCURRENT ANALYTICAL STUDIES"
+    },
+    {
+        "code": "STAT297",
+        "description": "DIRECTED RESEARCH"
+    },
+    {
+        "code": "STAT299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION"
+    },
+    {
+        "code": "STAT302",
+        "description": "COLLEGE TEACHING PRACTICUM"
     },
     {
         "code": "TFDP010",
