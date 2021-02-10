@@ -97,6 +97,8 @@ def schedules():
         temp = dict()
         for section in course_data:
             fullData.update({int(section['courseReferenceNumber']): section})
+            if not section['meetingsFaculty']:
+                return Response(f'No specified meeting times for {code}', status=400)
             times.update({int(section['courseReferenceNumber']): section['meetingsFaculty'][0]['meetingTime']})
             type = section['scheduleTypeDescription']
             num = section['linkIdentifier'][1:] if section['linkIdentifier'] and (section['linkIdentifier'][1:]).isnumeric() else 1
