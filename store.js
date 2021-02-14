@@ -19,3 +19,8 @@ export const courses = localStorage.getItem('courses') ? writable(JSON.parse(loc
 courses.subscribe(value => {
     localStorage.setItem("courses", JSON.stringify(value));
 });
+
+export const crns = sessionStorage.getItem('crns') ? writable(JSON.parse(sessionStorage.getItem('crns'))) : writable([]);
+crns.subscribe(value => {
+    sessionStorage.setItem("crns", JSON.stringify(value));
+});
