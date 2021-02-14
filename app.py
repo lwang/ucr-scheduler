@@ -177,8 +177,7 @@ def create_term_plan():
     print(data)
     plan_name = data['plan_name'] if data['plan_name'] else f'Generated Plan {time.strftime("%Y%m%d T%H:%M:%S", time.localtime())}'
     term = data['term']
-    # courselist = data['crns']
-    courselist = [56508, 56507, 58056, 56542, 64439, 58094]
+    courselist = set(data['crns'])
 
     s = requests.Session()
 
@@ -193,51 +192,47 @@ def create_term_plan():
         'geolocation': None
     }
     if 'have successfully logged' not in s.post(url, login_data).text:
-        print('fail')
-        return jsonify('Login failed!')
-    print('success')
-    # return jsonify('Login successful!')
+        return Response('Username or password is incorrect.', status=403)
+    # print('success')
 
     s.post(f'https://registrationssb.ucr.edu/StudentRegistrationSsb/ssb/term/search?mode=plan&dataType=json&term={term}&studyPath=&studyPathText=&startDatepicker=&endDatepicker=')
-    s.post('https://registrationssb.ucr.edu/StudentRegistrationSsb/ssb/plan/plan')
+    r = s.post('https://registrationssb.ucr.edu/StudentRegistrationSsb/ssb/plan/plan')
+    # print(r.status_code)
+    if r.status_code > 400:
+        return Response('Error uploading term plan! Please try again in a few minutes.', status=500)
 
-    for i in range(5):
-        models = []
-        valid = True
-        for crn in courselist:
-            print(crn)
-            addData = {
-                'dataType': 'json',
-                'term': term,
-                'courseReferenceNumber': crn,
-                'section': 'section'
-            }
-            try:
-                models.append(s.post('https://registrationssb.ucr.edu/StudentRegistrationSsb/ssb/plan/addPlanItem',data=addData).json()['model'])
-            except Exception as e:
-                if 'Expecting value' in str(e):
-                    print(f'error {i}')
-                    valid = False
-                continue
-        models.append({"headerDescription": plan_name, "headerComment": None})
-        if valid:
-            break
-
+    models = []
+    for crn in courselist:
+        print(crn)
+        addData = {
+            'dataType': 'json',
+            'term': term,
+            'courseReferenceNumber': crn,
+            'section': 'section'
+        }
+        try:
+            r = s.post('https://registrationssb.ucr.edu/StudentRegistrationSsb/ssb/plan/addPlanItem',data=addData)
+            # print(r.status_code)
+            models.append(r.json()['model'])
+        except:
+            return Response('Error uploading term plan! Please try again in a few minutes.', status=500)
+    models.append({"headerDescription": plan_name, "headerComment": None})
 
     submitData = {
         "create": models,
         "update": [],
         "destroy": []
     }
-    response = s.post('https://registrationssb.ucr.edu/StudentRegistrationSsb/ssb/plan/submitPlan/batch', data=json.dumps(submitData))
-    confirm = s.post('https://registrationssb.ucr.edu/StudentRegistrationSsb/ssb/plan/getPlanEvents').json()
+    s.post('https://registrationssb.ucr.edu/StudentRegistrationSsb/ssb/plan/submitPlan/batch', data=json.dumps(submitData))
+    r = s.post('https://registrationssb.ucr.edu/StudentRegistrationSsb/ssb/plan/getPlanEvents')
+    confirm = r.json()
+    # print(r.status_code)
     if not confirm:
-        print('Error creating term plan! Check the number of plans you have on RWeb!')
-    print('Term plan created successfully!')
-    for crn, title in set([(class_dict["crn"], class_dict["title"]) for class_dict in confirm]):
-        print(f'{crn}\t{title}')
+        return Response('Error uploading term plan! You already have 3 plans on RWeb!', status=500)
+    # for crn, title in set([(class_dict["crn"], class_dict["title"]) for class_dict in confirm]):
+    #     print(f'{crn}\t{title}')
 
     if data['preferred']:
         s.post('https://registrationssb.ucr.edu/StudentRegistrationSsb/ssb/plan/selectPlan')
         s.post(f"https://registrationssb.ucr.edu/StudentRegistrationSsb/ssb/plan/makePreferred?dataType=json&preferred={response.json()['data']['planHeader']['sequenceNumber']}")
-    return 'finished'
+    return Response('Term plan created successfully!')
