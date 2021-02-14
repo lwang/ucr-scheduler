@@ -1,13 +1,15 @@
 import requests
-from flask import Flask, request, Response, jsonify
+from flask import Flask, request, Response, jsonify, make_response
 from flask_cors import CORS
 from lxml import html
-import time
+from icalendar import Calendar, Event
 
+import time
 from itertools import product, combinations
 import json
 from random import shuffle
 import concurrent.futures
+from datetime import datetime, timedelta
 
 app = Flask(__name__)
 CORS(app)
@@ -67,7 +69,7 @@ def home():
 @app.route('/schedules', methods=['GET'])
 def schedules():
     term = request.args['term']
-    codes = request.args['courses'].split(',') if ',' in request.args['courses'] else []
+    codes = request.args['courses'].split(',')# if ',' in request.args['courses'] else []
     print(len(codes))
     if not term or not codes:
         return Response(f"Missing parameter(s):{' term' if not term else ''} {' courses' if not codes else ''}", status=400)
@@ -236,3 +238,49 @@ def create_term_plan():
         s.post('https://registrationssb.ucr.edu/StudentRegistrationSsb/ssb/plan/selectPlan')
         s.post(f"https://registrationssb.ucr.edu/StudentRegistrationSsb/ssb/plan/makePreferred?dataType=json&preferred={response.json()['data']['planHeader']['sequenceNumber']}")
     return Response('Term plan created successfully!')
+
+@app.route('/ical', methods=['GET'])
+def ical():
+    term = request.args['term']
+    courses = set(request.args['courses'].split(','))
+    crns = set(request.args['crns'].split(','))
+    found = []
+    week = ['monday','tuesday','wednesday','thursday','friday','saturday','sunday']
+    print(courses)
+    print(crns)
+    time_format = '%m/%d/%Y-%H%M'
+    cal = Calendar()
+    term_data = json.load(open(f'json/{term}_data.json', 'r'))
+    for course in courses:
+        for crn in crns:
+            if crn in term_data[course] and crn not in found:
+                data = term_data[course][crn]
+                event = Event()
+    
+                dtstart = datetime.strptime(f"{data['meetingsFaculty'][0]['meetingTime']['startDate']}-{data['meetingsFaculty'][0]['meetingTime']['beginTime']}", time_format)
+                # dtend = datetime.strptime(f"{data['meetingsFaculty'][0]['meetingTime']['startDate']}-{data['meetingsFaculty'][0]['meetingTime']['endTime']}", time_format)
+                for i in range(7):
+                    if data['meetingsFaculty'][0]['meetingTime'][week[dtstart.weekday()]]:
+                        break
+                    dtstart += timedelta(days=1)
+                x = data['meetingsFaculty'][0]['meetingTime']['endTime']
+                dtend = dtstart.replace(hour=int(x[:2]), minute=int(x[2:]))
+                end = datetime.strptime(f"{data['meetingsFaculty'][0]['meetingTime']['endDate']}-{data['meetingsFaculty'][0]['meetingTime']['beginTime']}", time_format)
+                BYDAY = [day[:2] for day in week if data['meetingsFaculty'][0]['meetingTime'][day]]
+                location = f"{data['meetingsFaculty'][0]['meetingTime']['buildingDescription']} - Room {data['meetingsFaculty'][0]['meetingTime']['room']}" if data['meetingsFaculty'][0]['meetingTime']['buildingDescription'] and data['meetingsFaculty'][0]['meetingTime']['room'] and data['meetingsFaculty'][0]['meetingTime']['buildingDescription'].lower() != data['meetingsFaculty'][0]['meetingTime']['room'].lower() else data['meetingsFaculty'][0]['meetingTime']['room']
+                summary = f"{data['subjectCourse']} {data['scheduleTypeDescription']}"
+                description = f"Instructor: {data['faculty'][0]['displayName'] if data['faculty'] else ''}\nSection Number: {data['sequenceNumber']}\nTitle: {data['courseTitle']}\nCredit Hours: {data['creditHours']}"
+
+                event.add('dtstart', dtstart)
+                event.add('dtend', dtend)
+                event.add('summary', summary) #Title
+                event.add('description', description) #desc
+                event.add('location', location)
+                event.add('rrule', {'freq': 'weekly','byday':BYDAY,'until':end})
+
+                cal.add_component(event)
+                found.append(crn)
+
+    response = make_response(cal.to_ical())
+    response.headers["Content-Disposition"] = "attachment; filename=schedule.ics"
+    return response
