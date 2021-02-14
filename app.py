@@ -149,6 +149,7 @@ def schedules():
     schedules = []
     for code in validSchedules:
         schedule = {'data':[]}
+        crns = []
         for n in [j for sub in code for j in sub]:
             num = int(n)
             courseData = fullData[num]
@@ -161,10 +162,82 @@ def schedules():
                     event.update({'text': f'{courseData["subject"]}{courseData["courseNumber"]} {courseData["scheduleTypeDescription"]}'})
                     # '\nCRN: {courseData["courseReferenceNumber"]}\nSeats: {courseData["seatsAvailable"]}/{courseData["maximumEnrollment"]}\n'
                     event.update({'details': ''})
+                    crns.append(int(courseData["courseReferenceNumber"]))
                     schedule['data'].append(event)
-        schedules.append(schedule)
+        schedules.append([schedule, crns])
     print(len(schedules))
 
     shuffle(schedules)
     return jsonify(schedules)
     # return jsonify(json.dumps(schedules, separators=(',', ":")))
+
+@app.route('/term_plan', methods=['POST'])
+def create_term_plan():
+    data = request.get_json(force=True)
+    print(data)
+    plan_name = data['plan_name'] if data['plan_name'] else f'Generated Plan {time.strftime("%Y%m%d T%H:%M:%S", time.localtime())}'
+    term = data['term']
+    # courselist = data['crns']
+    courselist = [56508, 56507, 58056, 56542, 64439, 58094]
+
+    s = requests.Session()
+
+    url = 'https://auth.ucr.edu/cas/login'
+    tree = html.fromstring(s.get(url).content)
+    auth = tree.xpath('//input[@name="execution"]/@value')
+    login_data = {
+        'username': data['username'],
+        'password': data['password'],
+        'execution': auth,
+        '_eventId': 'submit',
+        'geolocation': None
+    }
+    if 'have successfully logged' not in s.post(url, login_data).text:
+        print('fail')
+        return jsonify('Login failed!')
+    print('success')
+    # return jsonify('Login successful!')
+
+    s.post(f'https://registrationssb.ucr.edu/StudentRegistrationSsb/ssb/term/search?mode=plan&dataType=json&term={term}&studyPath=&studyPathText=&startDatepicker=&endDatepicker=')
+    s.post('https://registrationssb.ucr.edu/StudentRegistrationSsb/ssb/plan/plan')
+
+    for i in range(5):
+        models = []
+        valid = True
+        for crn in courselist:
+            print(crn)
+            addData = {
+                'dataType': 'json',
+                'term': term,
+                'courseReferenceNumber': crn,
+                'section': 'section'
+            }
+            try:
+                models.append(s.post('https://registrationssb.ucr.edu/StudentRegistrationSsb/ssb/plan/addPlanItem',data=addData).json()['model'])
+            except Exception as e:
+                if 'Expecting value' in str(e):
+                    print(f'error {i}')
+                    valid = False
+                continue
+        models.append({"headerDescription": plan_name, "headerComment": None})
+        if valid:
+            break
+
+
+    submitData = {
+        "create": models,
+        "update": [],
+        "destroy": []
+    }
+    response = s.post('https://registrationssb.ucr.edu/StudentRegistrationSsb/ssb/plan/submitPlan/batch', data=json.dumps(submitData))
+    confirm = s.post('https://registrationssb.ucr.edu/StudentRegistrationSsb/ssb/plan/getPlanEvents').json()
+    if not confirm:
+        print('Error creating term plan! Check the number of plans you have on RWeb!')
+    print('Term plan created successfully!')
+    for crn, title in set([(class_dict["crn"], class_dict["title"]) for class_dict in confirm]):
+        print(f'{crn}\t{title}')
+
+    if data['preferred']:
+        s.post('https://registrationssb.ucr.edu/StudentRegistrationSsb/ssb/plan/selectPlan')
+        s.post(f"https://registrationssb.ucr.edu/StudentRegistrationSsb/ssb/plan/makePreferred?dataType=json&preferred={response.json()['data']['planHeader']['sequenceNumber']}")
+    return 'finished'
