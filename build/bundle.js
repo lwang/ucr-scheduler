@@ -3850,7 +3850,7 @@ var app = (function () {
     const { console: console_1$3 } = globals;
     const file$8 = "src\\Scheduler.svelte";
 
-    // (147:0) {#if !loaded}
+    // (149:0) {#if !loaded}
     function create_if_block$2(ctx) {
     	let spinner;
     	let t0;
@@ -3865,7 +3865,7 @@ var app = (function () {
     			h1 = element("h1");
     			h1.textContent = "Loading Schedules...";
     			attr_dev(h1, "class", "svelte-k0q3gb");
-    			add_location(h1, file$8, 148, 4, 4415);
+    			add_location(h1, file$8, 150, 4, 4458);
     		},
     		m: function mount(target, anchor) {
     			mount_component(spinner, target, anchor);
@@ -3893,14 +3893,14 @@ var app = (function () {
     		block,
     		id: create_if_block$2.name,
     		type: "if",
-    		source: "(147:0) {#if !loaded}",
+    		source: "(149:0) {#if !loaded}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (152:4) <Modal bind:showModal>
+    // (154:4) <Modal bind:showModal>
     function create_default_slot$1(ctx) {
     	let termplan;
     	let current;
@@ -3932,7 +3932,7 @@ var app = (function () {
     		block,
     		id: create_default_slot$1.name,
     		type: "slot",
-    		source: "(152:4) <Modal bind:showModal>",
+    		source: "(154:4) <Modal bind:showModal>",
     		ctx
     	});
 
@@ -3940,9 +3940,6 @@ var app = (function () {
     }
 
     function create_fragment$8(ctx) {
-    	let script;
-    	let script_src_value;
-    	let link;
     	let t0;
     	let t1;
     	let div4;
@@ -3989,7 +3986,7 @@ var app = (function () {
     	let if_block = !/*loaded*/ ctx[1] && create_if_block$2(ctx);
 
     	function modal_showModal_binding(value) {
-    		/*modal_showModal_binding*/ ctx[8].call(null, value);
+    		/*modal_showModal_binding*/ ctx[7].call(null, value);
     	}
 
     	let modal_props = {
@@ -4006,8 +4003,6 @@ var app = (function () {
 
     	const block = {
     		c: function create() {
-    			script = element("script");
-    			link = element("link");
     			t0 = space();
     			if (if_block) if_block.c();
     			t1 = space();
@@ -4046,53 +4041,45 @@ var app = (function () {
     			div2 = element("div");
     			t20 = space();
     			div3 = element("div");
-    			if (script.src !== (script_src_value = "./codebase/dhtmlxscheduler.js")) attr_dev(script, "src", script_src_value);
-    			add_location(script, file$8, 1, 4, 19);
-    			attr_dev(link, "rel", "stylesheet");
-    			attr_dev(link, "href", "./codebase/dhtmlxscheduler_terrace.css");
-    			attr_dev(link, "type", "text/css");
-    			add_location(link, file$8, 3, 4, 182);
     			attr_dev(span0, "class", "invisible svelte-k0q3gb");
-    			add_location(span0, file$8, 155, 8, 4648);
+    			add_location(span0, file$8, 157, 8, 4691);
     			attr_dev(input, "class", "inpnum svelte-k0q3gb");
     			attr_dev(input, "type", "number");
     			input.value = input_value_value = /*idx*/ ctx[3] + 1;
     			attr_dev(input, "min", "1");
     			attr_dev(input, "max", input_max_value = /*items*/ ctx[2].length);
-    			add_location(input, file$8, 156, 31, 4714);
+    			add_location(input, file$8, 158, 31, 4757);
     			attr_dev(span1, "class", "svelte-k0q3gb");
-    			add_location(span1, file$8, 156, 8, 4691);
-    			add_location(br0, file$8, 157, 56, 4897);
+    			add_location(span1, file$8, 158, 8, 4734);
+    			add_location(br0, file$8, 159, 56, 4940);
     			attr_dev(span2, "class", "svelte-k0q3gb");
-    			add_location(span2, file$8, 157, 8, 4849);
-    			add_location(br1, file$8, 158, 38, 4956);
+    			add_location(span2, file$8, 159, 8, 4892);
+    			add_location(br1, file$8, 160, 38, 4999);
     			attr_dev(span3, "class", "svelte-k0q3gb");
-    			add_location(span3, file$8, 158, 8, 4926);
-    			add_location(br2, file$8, 159, 34, 5011);
+    			add_location(span3, file$8, 160, 8, 4969);
+    			add_location(br2, file$8, 161, 34, 5054);
     			attr_dev(span4, "class", "svelte-k0q3gb");
-    			add_location(span4, file$8, 159, 8, 4985);
+    			add_location(span4, file$8, 161, 8, 5028);
     			attr_dev(span5, "class", "invisible svelte-k0q3gb");
-    			add_location(span5, file$8, 160, 8, 5040);
+    			add_location(span5, file$8, 162, 8, 5083);
     			attr_dev(div0, "class", "overlay svelte-k0q3gb");
-    			add_location(div0, file$8, 154, 4, 4617);
+    			add_location(div0, file$8, 156, 4, 4660);
     			attr_dev(div1, "class", "dhx_cal_navline svelte-k0q3gb");
-    			add_location(div1, file$8, 162, 4, 5089);
+    			add_location(div1, file$8, 164, 4, 5132);
     			attr_dev(div2, "class", "dhx_cal_header");
-    			add_location(div2, file$8, 163, 4, 5130);
+    			add_location(div2, file$8, 165, 4, 5173);
     			attr_dev(div3, "class", "dhx_cal_data");
-    			add_location(div3, file$8, 164, 4, 5170);
+    			add_location(div3, file$8, 166, 4, 5213);
     			attr_dev(div4, "id", "scheduler_here");
     			attr_dev(div4, "class", "dhx_cal_container");
     			set_style(div4, "width", "100%");
     			set_style(div4, "height", (/*loaded*/ ctx[1] ? 100 : 0) + "%");
-    			add_location(div4, file$8, 150, 0, 4453);
+    			add_location(div4, file$8, 152, 0, 4496);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
     		},
     		m: function mount(target, anchor) {
-    			append_dev(document.head, script);
-    			append_dev(document.head, link);
     			insert_dev(target, t0, anchor);
     			if (if_block) if_block.m(target, anchor);
     			insert_dev(target, t1, anchor);
@@ -4134,11 +4121,10 @@ var app = (function () {
 
     			if (!mounted) {
     				dispose = [
-    					listen_dev(script, "load", /*fetchSchedules*/ ctx[4], false, false, false),
-    					listen_dev(input, "input", /*input_handler*/ ctx[9], false, false, false),
-    					listen_dev(span2, "click", /*click_handler*/ ctx[10], false, false, false),
-    					listen_dev(span3, "click", /*prev*/ ctx[7], false, false, false),
-    					listen_dev(span4, "click", /*next*/ ctx[6], false, false, false)
+    					listen_dev(input, "input", /*input_handler*/ ctx[8], false, false, false),
+    					listen_dev(span2, "click", /*click_handler*/ ctx[9], false, false, false),
+    					listen_dev(span3, "click", /*prev*/ ctx[6], false, false, false),
+    					listen_dev(span4, "click", /*next*/ ctx[5], false, false, false)
     				];
 
     				mounted = true;
@@ -4206,8 +4192,6 @@ var app = (function () {
     			current = false;
     		},
     		d: function destroy(detaching) {
-    			detach_dev(script);
-    			detach_dev(link);
     			if (detaching) detach_dev(t0);
     			if (if_block) if_block.d(detaching);
     			if (detaching) detach_dev(t1);
@@ -4245,9 +4229,9 @@ var app = (function () {
     	let $courses;
     	let $term;
     	validate_store(courses, "courses");
-    	component_subscribe($$self, courses, $$value => $$invalidate(11, $courses = $$value));
+    	component_subscribe($$self, courses, $$value => $$invalidate(10, $courses = $$value));
     	validate_store(term, "term");
-    	component_subscribe($$self, term, $$value => $$invalidate(12, $term = $$value));
+    	component_subscribe($$self, term, $$value => $$invalidate(11, $term = $$value));
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots("Scheduler", slots, []);
     	let showModal = false;
@@ -4364,6 +4348,7 @@ var app = (function () {
     		crns.set(items[idx][1]);
     	}
 
+    	fetchSchedules();
     	const writable_props = [];
 
     	Object.keys($$props).forEach(key => {
@@ -4419,7 +4404,6 @@ var app = (function () {
     		loaded,
     		items,
     		idx,
-    		fetchSchedules,
     		typeIDX,
     		next,
     		prev,
