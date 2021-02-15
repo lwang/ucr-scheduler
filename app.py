@@ -170,7 +170,7 @@ def schedules():
     print(len(schedules))
 
     shuffle(schedules)
-    return jsonify(schedules)
+    return jsonify(schedules[:5000])
     # return jsonify(json.dumps(schedules, separators=(',', ":")))
 
 @app.route('/term_plan', methods=['POST'])
