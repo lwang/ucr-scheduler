@@ -124,15 +124,24 @@ def schedules():
     
     start = time.perf_counter()
     with concurrent.futures.ThreadPoolExecutor(max_workers=2*len(codes)) as executor:
+        s = time.perf_counter()
         futures = [(code, executor.submit(get_class_data, term, code)) for code in codes] # Add class data
         coreqs = []
+        print(time.perf_counter() - s)
+        s = time.perf_counter()
         for _, future in futures:
             for section in future.result():
                 coreqs += [f'{section["subject"]}{creq}' for creq in section['coreq'] if f'{section["subject"]}{creq}' not in coreqs and f'{section["subject"]}{creq}' not in codes]
+        print('a', time.perf_counter() - s)
+        s = time.perf_counter()
         futures += [(code, executor.submit(get_class_data, term, code)) for code in coreqs] # Add coreq class data
+        print(time.perf_counter() - s)
+        s = time.perf_counter()
         for code, future in futures:
             executor.submit(get_course_sections, code, future, full_data, times, term, course_sections)
+        print(time.perf_counter() - s)
     print('Get Class Data/Course Sections:', time.perf_counter() - start)
+    quit()
 
     """
     # 

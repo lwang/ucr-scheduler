@@ -1,3 +1,5 @@
 push.cmd
 logs.cmd
 *ld*
+json/Backup
+*.bkp*
