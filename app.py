@@ -4,12 +4,14 @@ from flask_cors import CORS
 from lxml import html
 from icalendar import Calendar, Event
 
+from math import prod
 import time
-from itertools import product, combinations
+from itertools import product, combinations, repeat
 import json
 from random import shuffle
 import concurrent.futures
 from datetime import datetime, timedelta
+import pickle
 
 app = Flask(__name__)
 CORS(app)
@@ -24,18 +26,25 @@ week = {
     'thursday': '2020-01-02',
     'friday': '2020-01-03'
 }
-times = dict()
 
-def getSeats(term, crn):
+def get_seats(term, crn):
     res = requests.get(f'https://registrationssb.ucr.edu/StudentRegistrationSsb/ssb/searchResults/getEnrollmentInfo?term={term}&courseReferenceNumber={crn}')
     tree = html.fromstring(res.content)
     temp = [int(x) for x in tree.xpath('//span[@dir="ltr"]/text()')]
-    # print(temp)
-    if not temp or temp[2] <= 0:
+    """
+    Enrollment Actual: 0
+    Enrollment Maximum: 10
+    Enrollment Seats Available (may have been offered to students on the waitlist or are reserved for specific populations): 10
+    Waitlist Capacity: 0
+    Waitlist Actual: 0
+    Waitlist Seats Available: 0
+    """
+    # print(temp) 
+    if not temp or temp[2] <= 0: ### TODO RETURN BACK TO NORMAL
         return False
     return True
 
-def getClassData(term, course):
+def get_class_data(term, course):
     # s = requests.Session()
     # s.get(f'https://registrationssb.ucr.edu/StudentRegistrationSsb/ssb/term/search?mode=search&dataType=json&term={term}&studyPath=&studyPathText=&startDatepicker=&endDatepicker=')
     # parsed_json = s.get(f'https://registrationssb.ucr.edu/StudentRegistrationSsb/ssb/searchResults/searchResults?txt_subjectcoursecombo={course}&txt_term={term}&startDatepicker=&endDatepicker=&pageOffset=0&pageMaxSize=999&sortColumn=subjectDescription&sortDirection=asc&[object%20Object]').json()
@@ -45,133 +54,177 @@ def getClassData(term, course):
     course_json = json.load(open(f'json/{term}_data.json', 'r'))[course]
     return [course_json[key] for key in course_json]
 
-def IsConflict(crn1, crn2):
+def is_conflict(crn1, crn2, times):
     for day in week:
-        if times[int(crn1)][day] and times[int(crn2)][day]:
-            s1, e1 = int(times[int(crn1)]['beginTime']), int(times[int(crn1)]['endTime'])
-            s2, e2 = int(times[int(crn2)]['beginTime']), int(times[int(crn2)]['endTime'])
+        if times[crn1][day] and times[crn2][day]:
+            s1, e1 = int(times[crn1]['beginTime']), int(times[crn1]['endTime'])
+            s2, e2 = int(times[crn2]['beginTime']), int(times[crn2]['endTime'])
             if (s1 < e2) and (e1 > s2):
                 return True
-    return False;
+    return False
 
 @app.route('/', methods=['GET'])
 def home():
     term = request.args['term']
     course = request.args['course']
-    start = time.perf_counter()
     try: 
-        class_data = getClassData(term, course)
+        class_data = get_class_data(term, course)
     except Exception as e:
         return Response(str(e), status=400)
     return jsonify(class_data)
-    # return jsonify(time.perf_counter() - start)
+    
+def get_course_sections(code, future, full_data, times, term, course_sections):
+    temp = dict()
+    for section in future.result():
+        # if section['meetingsFaculty'][0]['meetingTime']['friday'] or int(section['meetingsFaculty'][0]['meetingTime']['beginTime']) < 1200: #todo fix filtering times
+        #     continue
+        if not section['meetingsFaculty']:
+            return Response(f'No specified meeting times for {code}', status=400)
+        full_data.update({section['courseReferenceNumber']: section})
+        times.update({section['courseReferenceNumber']: section['meetingsFaculty'][0]['meetingTime']})
+        
+        num = section['linkIdentifier'][1:] if section['linkIdentifier'] and (section['linkIdentifier'][1:]).isnumeric() else 1
+        if num not in temp:
+            temp.update({num: dict()})
+        type = section['scheduleTypeDescription']
+        if type not in temp[num]:
+            temp[num].update({type: []})
+
+        # if not showFull and not seats[section['courseReferenceNumber']]:#and section['seatsAvailable'] == 0: # give option to make waitlist schedules
+        if not showFull and not get_seats(term, section['courseReferenceNumber']):
+            continue
+        temp[num].update({type: temp[num][type] + [section['courseReferenceNumber']]})
+    toDelete = set()
+    for section in temp:
+        for type in temp[section]:
+            if(len(temp[section][type]) == 0):
+                toDelete.add(section)
+                break
+    for section in toDelete:
+        del temp[section]
+    if len(temp) != 0:
+        course_sections.update({code: temp})
+    else:
+        return Response(f'Unable to find open sections for {code}', status=400)
     
 @app.route('/schedules', methods=['GET'])
 def schedules():
+    start, _start = time.perf_counter(), time.perf_counter()
     term = request.args['term']
     codes = request.args['courses'].split(',')# if ',' in request.args['courses'] else []
-    print(len(codes))
+    print(len(codes), end=": ")
     if not term or not codes:
         return Response(f"Missing parameter(s):{' term' if not term else ''} {' courses' if not codes else ''}", status=400)
     course_sections = dict()
-    times.clear()
-    fullData = dict()
-    seats = dict()
+    times = dict()
+    full_data = dict()
+    # seats = dict()
     print(codes)
-    with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
-        futures = [(code, executor.submit(getClassData, term, code)) for code in codes]
+    print('Start:', time.perf_counter() - start)
+    
+    start = time.perf_counter()
+    with concurrent.futures.ThreadPoolExecutor(max_workers=2*len(codes)) as executor:
+        futures = [(code, executor.submit(get_class_data, term, code)) for code in codes] # Add class data
         coreqs = []
         for _, future in futures:
             for section in future.result():
                 coreqs += [f'{section["subject"]}{creq}' for creq in section['coreq'] if f'{section["subject"]}{creq}' not in coreqs and f'{section["subject"]}{creq}' not in codes]
-        print(coreqs)
-        futures += [(code, executor.submit(getClassData, term, code)) for code in coreqs]
+        futures += [(code, executor.submit(get_class_data, term, code)) for code in coreqs] # Add coreq class data
+        for code, future in futures:
+            executor.submit(get_course_sections, code, future, full_data, times, term, course_sections)
+    print('Get Class Data/Course Sections:', time.perf_counter() - start)
 
+    """
+    # 
     for _, future in futures:
         # print(future.result())
         try:
             # print(future.result()[0]['subjectCourse'])
             with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
-                for crn, future in [(int(section['courseReferenceNumber']), executor.submit(getSeats, term, int(section['courseReferenceNumber']))) for section in future.result()]:
-                    seats.update({crn: future.result()})
+                for crn, future in [(section['courseReferenceNumber'], executor.submit(get_seats, term, section['courseReferenceNumber'])) for section in future.result()]:
+                    # seats.update({crn: future.result()})
+                    future.result()
         except Exception as e:
             return Response(str(e), status=400)
+    """
 
-    for code, future in futures:
-        course_data = future.result()
-        temp = dict()
-        for section in course_data:
-            fullData.update({int(section['courseReferenceNumber']): section})
-            if not section['meetingsFaculty']:
-                return Response(f'No specified meeting times for {code}', status=400)
-            times.update({int(section['courseReferenceNumber']): section['meetingsFaculty'][0]['meetingTime']})
-            type = section['scheduleTypeDescription']
-            num = section['linkIdentifier'][1:] if section['linkIdentifier'] and (section['linkIdentifier'][1:]).isnumeric() else 1
-            if num not in temp:
-                temp.update({num: dict()})
-            if type not in temp[num]:
-                temp[num].update({type: []})
-            
-            if not showFull and not seats[int(section['courseReferenceNumber'])]:#and section['seatsAvailable'] == 0: # give option to make waitlist schedules
-                continue
-            temp[num].update({type: temp[num][type] + [section['courseReferenceNumber']]})
-        toDelete = []
-        if not showFull:
-            for section in temp:
-                for type in temp[section]:
-                    if(len(temp[section][type]) == 0):
-                        toDelete.append(section)
-                        break
-            for section in toDelete:
-                del temp[section]
-        if len(temp) != 0:
-            course_sections.update({code: temp})
-        else:
-            return Response(f'Unable to find open sections for {code}', status=400)
-        
-    sectionCombinations = []
+    """ course_sections
+        "BIOL005A": {
+            "1": {
+               "Lecture":["50922"],
+               "Discussion":["50924",]
+            }
+        }
+    """
+    ### GENERATE SECTION PAIRS ###
+    start = time.perf_counter()
+    section_combinations = []
     for course in course_sections: #PHYS040A course key
         section_comb = []
         for section in course_sections[course]: #1 course section
             temp = [course_sections[course][section][type] for type in course_sections[course][section]] # List of list of section codes [['58054'], ['62842', '62843'], ['58095', '60520']]
             section_comb += [x for x in product(*temp)]
-        sectionCombinations.append(section_comb);
-
-    allSchedules, validSchedules = [], []
-    for i in product(*sectionCombinations):
-        allSchedules.append(i)
+        shuffle(section_comb) #Used when excess sections are truncated in next step
+        section_combinations.append(section_comb)
+    ### REMOVE EXCESS SECTIONS ###
+    # To reduce the total number of "possible" schedules
+    sc_lengths = [len(x) for x in section_combinations]
+    print(sc_lengths, prod(sc_lengths), end='\t')
+    while prod(sc_lengths) > 350000*5:  # 5 seconds
+        section_combinations[sc_lengths.index(max(sc_lengths))].pop()
+        sc_lengths = [len(x) for x in section_combinations]
+    print(sc_lengths, prod(sc_lengths))
+    print('Gen Section Pairs:', time.perf_counter() - start)
+    
+    ### CHECK IF TWO SECTIONS IN A SCHEDULE CONFLICT """
+    conflicts = pickle.load(open(f'json/{term}_conflicts.pickle', 'rb'))
+    all_schedules, valid_schedules = 0, set()
+    start = time.perf_counter()
+    for i in product(*section_combinations): #350000 schedules / sec
+        all_schedules += 1
         conflict = False
         for pair in combinations([j for sub in i for j in sub], 2):
-            if IsConflict(*pair):
+            # if is_conflict(*pair, times):
+            if pair[0] in conflicts and pair[1] in conflicts[pair[0]]:
                 conflict = True
                 break
         if not conflict:
-            validSchedules.append(i)
+            valid_schedules.add(i)
+            if len(valid_schedules) >= 200:
+                break
+    print('Schedule Conflicts:', time.perf_counter() - start)
 
+    
+    ### FORMAT VALID SCHEDULES IN FRONTEND FORMAT ###
+    start = time.perf_counter()
     schedules = []
-    for code in validSchedules:
+    for code in valid_schedules:
         schedule = {'data':[]}
         crns = []
         for n in [j for sub in code for j in sub]:
-            num = int(n)
-            courseData = fullData[num]
+            courseData = full_data[n]
             for day in week:
                 if courseData['meetingsFaculty'][0]['meetingTime'][day]:
-                    event = dict()
-                    event.update({'id': str(num)+day})
-                    event.update({'start_date': f'{week[day]} {courseData["meetingsFaculty"][0]["meetingTime"]["beginTime"][:2]}:{courseData["meetingsFaculty"][0]["meetingTime"]["beginTime"][2:]}:00'})
-                    event.update({'end_date': f'{week[day]} {courseData["meetingsFaculty"][0]["meetingTime"]["endTime"][:2]}:{courseData["meetingsFaculty"][0]["meetingTime"]["endTime"][2:]}:00'})
-                    event.update({'text': f'{courseData["subject"]}{courseData["courseNumber"]} {courseData["scheduleTypeDescription"]}'})
+                    event = {
+                        'id': n+day,
+                        'start_date': f'{week[day]} {courseData["meetingsFaculty"][0]["meetingTime"]["beginTime"][:2]}:{courseData["meetingsFaculty"][0]["meetingTime"]["beginTime"][2:]}:00',
+                        'end_date': f'{week[day]} {courseData["meetingsFaculty"][0]["meetingTime"]["endTime"][:2]}:{courseData["meetingsFaculty"][0]["meetingTime"]["endTime"][2:]}:00',
+                        'text': f'{courseData["subject"]}{courseData["courseNumber"]} {courseData["scheduleTypeDescription"]}',
+                        'details': ''
+                    }
                     # '\nCRN: {courseData["courseReferenceNumber"]}\nSeats: {courseData["seatsAvailable"]}/{courseData["maximumEnrollment"]}\n'
-                    event.update({'details': ''})
-                    crns.append(int(courseData["courseReferenceNumber"]))
+                    crns.append(courseData["courseReferenceNumber"])
                     schedule['data'].append(event)
         schedules.append([schedule, crns])
-    print(len(schedules))
-
-    shuffle(schedules)
-    return jsonify(schedules[:5000])
+    print('Format Schedules:', time.perf_counter() - start)
+    print(all_schedules, len(valid_schedules), len(schedules))
+    # shuffle(schedules)
+    print('End:', time.perf_counter() - _start)
     # return jsonify(json.dumps(schedules, separators=(',', ":")))
+    if len(schedules) > 0:
+        return jsonify(schedules[:500])
+    else:
+        return Response(f'No schedules found', status=400)
 
 @app.route('/term_plan', methods=['POST'])
 def create_term_plan():
