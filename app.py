@@ -73,7 +73,7 @@ def home():
         return Response(str(e), status=400)
     return jsonify(class_data)
     
-def get_course_sections(code, future, full_data, times, term, course_sections):
+def get_course_sections(code, future, full_data, times, term, course_sections, seats):
     s = time.perf_counter()
     temp = dict()
     for section in future.result():
@@ -91,8 +91,8 @@ def get_course_sections(code, future, full_data, times, term, course_sections):
         if type not in temp[num]:
             temp[num].update({type: []})
 
-        # if not showFull and not seats[section['courseReferenceNumber']]:#and section['seatsAvailable'] == 0: # give option to make waitlist schedules
-        if not showFull and not get_seats(term, section['courseReferenceNumber']):
+        if not showFull and not seats[section['courseReferenceNumber']]:#and section['seatsAvailable'] == 0: # give option to make waitlist schedules
+        # if not showFull and not get_seats(term, section['courseReferenceNumber']):
             continue
         temp[num].update({type: temp[num][type] + [section['courseReferenceNumber']]})
     toDelete = set()
@@ -105,7 +105,6 @@ def get_course_sections(code, future, full_data, times, term, course_sections):
         del temp[section]
     if len(temp) != 0:
         course_sections.update({code: temp})
-        print(time.perf_counter() - s, code, term)
     else:
         return Response(f'Unable to find open sections for {code}', status=400)
     
@@ -120,7 +119,7 @@ def schedules():
     course_sections = dict()
     times = dict()
     full_data = dict()
-    # seats = dict()
+    seats = dict()
     print(codes)
     print('Start:', time.perf_counter() - start)
     
@@ -132,23 +131,16 @@ def schedules():
             for section in future.result():
                 coreqs += [f'{section["subject"]}{creq}' for creq in section['coreq'] if f'{section["subject"]}{creq}' not in coreqs and f'{section["subject"]}{creq}' not in codes]
         futures += [(code, executor.submit(get_class_data, term, code)) for code in coreqs] # Add coreq class data
+        for _, future in futures:
+            try:
+                for crn, future in [(section['courseReferenceNumber'], executor.submit(get_seats, term, section['courseReferenceNumber'])) for section in future.result()]:
+                    seats.update({crn: future.result()})
+            except Exception as e:
+                return Response(str(e), status=400)
         for code, future in futures:
-            executor.submit(get_course_sections, code, future, full_data, times, term, course_sections)
+            executor.submit(get_course_sections, code, future, full_data, times, term, course_sections, seats)
     print('Get Class Data/Course Sections:', time.perf_counter() - start)
 
-    """
-    # 
-    for _, future in futures:
-        # print(future.result())
-        try:
-            # print(future.result()[0]['subjectCourse'])
-            with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
-                for crn, future in [(section['courseReferenceNumber'], executor.submit(get_seats, term, section['courseReferenceNumber'])) for section in future.result()]:
-                    # seats.update({crn: future.result()})
-                    future.result()
-        except Exception as e:
-            return Response(str(e), status=400)
-    """
 
     """ course_sections
         "BIOL005A": {
@@ -171,7 +163,7 @@ def schedules():
     ### REMOVE EXCESS SECTIONS ###
     # To reduce the total number of "possible" schedules
     sc_lengths = [len(x) for x in section_combinations]
-    print(sc_lengths, prod(sc_lengths), end='\t')
+    print('Section Lengths|Total:', sc_lengths, prod(sc_lengths), end='\t')
     while prod(sc_lengths) > 350000*5:  # 5 seconds
         section_combinations[sc_lengths.index(max(sc_lengths))].pop()
         sc_lengths = [len(x) for x in section_combinations]
@@ -219,9 +211,9 @@ def schedules():
                     schedule['data'].append(event)
         schedules.append([schedule, crns])
     print('Format Schedules:', time.perf_counter() - start)
-    print(all_schedules, len(valid_schedules), len(schedules))
+    print('All | Valid:', all_schedules, len(valid_schedules), len(schedules))
     # shuffle(schedules)
-    print('End:', time.perf_counter() - _start)
+    print('End:', time.perf_counter() - _start, end='\n\n')
     # return jsonify(json.dumps(schedules, separators=(',', ":")))
     if len(schedules) > 0:
         return jsonify(schedules[:500])
