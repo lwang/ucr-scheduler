@@ -1,12 +1,5 @@
 [
     {
-        "code": "ARC035",
-        "description": "INTRMDIATE ALGEBRA WRKSHOP-IAW",
-        "credits": 0,
-        "average": "----",
-        "comments": []
-    },
-    {
         "code": "ANTH001",
         "description": "CULTURAL ANTHROPOLOGY",
         "credits": 4,
@@ -216,14 +209,20 @@
         ]
     },
     {
-        "code": "ANTH007",
+        "code": "ANTH007S",
         "description": "INTRODUCTION TO LINGUISTIC ANTHROPOLOGY",
-        "credits": 4,
-        "average": "----",
-        "comments": []
+        "credits": 5,
+        "average": "2.00",
+        "comments": [
+            {
+                "comment": "Easy A. Took it with Stephan James. Completely asynchronous (10-30 minute podcasts). A couple of 3-4 sentence short assignments, a presentaion (3 minutes long, it is meant to be commercial of sorts for your final project) and a final project on a language of your choice(your given multiple options on how to do it: essay, powerpoint, art peice, presentation, podcast). Discussion section was just going over key points, show up and you get participation points.",
+                "rating": "2",
+                "date": "3/25/2021"
+            }
+        ]
     },
     {
-        "code": "ANTH100",
+        "code": "ANTH100W",
         "description": "HISTORY OF ANTHROPOLOGICAL THEORY",
         "credits": 4,
         "average": "----",
@@ -251,7 +250,7 @@
         "comments": []
     },
     {
-        "code": "ANTH127",
+        "code": "ANTH127S",
         "description": "POLITICAL ANTHROPOLOGY",
         "credits": 4,
         "average": "----",
@@ -265,8 +264,15 @@
         "comments": []
     },
     {
-        "code": "ANTH136",
-        "description": "ANTHROPOLOGICAL PERSPECTIVES ON GENDER IN SOUTHEAST ASIA",
+        "code": "ANTH144E",
+        "description": " CULTURE AND MEDICINE",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "ANTH144J",
+        "description": " BIOLOGICAL APPROACHES TO MEDICAL ANTHROPOLOGY",
         "credits": 4,
         "average": "----",
         "comments": []
@@ -274,20 +280,6 @@
     {
         "code": "ANTH145",
         "description": "SEXUALITIES AND CULTURE",
-        "credits": 4,
-        "average": "----",
-        "comments": []
-    },
-    {
-        "code": "ANTH158",
-        "description": "BIOLOGICAL APPROACHES TO MEDICAL ANTHROPOLOGY",
-        "credits": 4,
-        "average": "----",
-        "comments": []
-    },
-    {
-        "code": "ANTH162",
-        "description": "CULTURE AND MEDICINE",
         "credits": 4,
         "average": "----",
         "comments": []
@@ -421,6 +413,13 @@
         "comments": []
     },
     {
+        "code": "AHS007",
+        "description": "WORLD ART: IMAGES, ISSUES, AND IDEAS",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "AHS020",
         "description": "INTRODUCTION TO MEDIA ART",
         "credits": 4,
@@ -435,15 +434,22 @@
         "comments": []
     },
     {
-        "code": "AHS180",
-        "description": "MODERN EUROPEAN ART I: NINETEENTH CENTURY",
+        "code": "AHS136",
+        "description": "HISTORY OF VIDEO ART",
         "credits": 4,
         "average": "----",
         "comments": []
     },
     {
-        "code": "AHS182",
-        "description": "VISUAL ART AND VISUAL THEORY AFTER 1945",
+        "code": "AHS165",
+        "description": "WOMEN ARTISTS IN RENAISSANCE EUROPE, 1400-1600",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "AHS180",
+        "description": "MODERN EUROPEAN ART I: NINETEENTH CENTURY",
         "credits": 4,
         "average": "----",
         "comments": []
@@ -458,6 +464,13 @@
     {
         "code": "AST123",
         "description": "SOUTHEAST ASIAN PERFORMANCE",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "AST184",
+        "description": "JAPANESE MEDIA AND CULTURAL STUDIES",
         "credits": 4,
         "average": "----",
         "comments": []
@@ -494,7 +507,7 @@
     },
     {
         "code": "BCH100",
-        "description": "ELEMENTARY BIOCHEMISTRY",
+        "description": "INTRODUCTORY BIOCHEMISTRY",
         "credits": 4,
         "average": "5.83",
         "comments": [
@@ -1063,6 +1076,29 @@
         ]
     },
     {
+        "code": "BIOL121",
+        "description": "INTRODUCTORY MICROBIOLOGY",
+        "credits": 4,
+        "average": "4.33",
+        "comments": [
+            {
+                "comment": "Take with Roper",
+                "rating": "3",
+                "date": "2/5/2019"
+            },
+            {
+                "comment": "This class was easy with Hsiao. Just focus on objectives and HW. Go to office hours and he'll tell you the extent of what he wants you to know. Second exam is the hardest so don't let your guard down. 100 pts extra credit available and a few % curve at the end.",
+                "rating": "4",
+                "date": "3/7/2020"
+            },
+            {
+                "comment": "The class is not difficult. Roper is not very good at lecturing and the class is heavy on memorization. There is barely any curve at the end of the course.",
+                "rating": "6",
+                "date": "4/2/2021"
+            }
+        ]
+    },
+    {
         "code": "BIOL121L",
         "description": "MICROBIOLOGY LABORATORY",
         "credits": 3,
@@ -1268,6 +1304,34 @@
         ]
     },
     {
+        "code": "BUS100W",
+        "description": "MANAGEMENT WRITING AND COMMUNICATION",
+        "credits": 4,
+        "average": "6.40",
+        "comments": [
+            {
+                "comment": "I had Corrine Knight. 4 books needed for this class but they weren't expensive. 4 essays in total: first was easy, second was alright but a bit hard, third was hard, and fourth was easy for me. Quizzes were given randomly and sometimes in the middle of lecture, so go to class on time. Only one midterm and all questions come from quizzes so it's easy. Two presentations (one video pres.) but they're pretty simple. TAs can be a bit strict in grading essays so try to get feedback from them.",
+                "rating": "6",
+                "date": "12/1/2018"
+            },
+            {
+                "comment": "Be prepared to do the most for this class just to get a passing grade. The essays are very time consuming and are scrutinized by the TA's",
+                "rating": "9",
+                "date": "12/11/2019"
+            },
+            {
+                "comment": "I took this Winter 2019 (i think). TAs grades based on the syllabus the professor gives but the feedback will always be ~2-3 week slate and by then you will have to start on your next essay. What the professor says to do and what the TA says tend to be different AND the TA's have to give 3 essays from each of their discussion to the professor to be graded. \nOne incident where a student had an A paper but the professor graded it to a C paper because the tone of her essay wasn't professional enough but the TA said it was perfectly fine. The first midterm is really easy because it's all lecture-based but the final is a timed write and basically feels kind of like an AP Lang/Lit timed write.\nThere are around 4 essays total. Just don't take it with other heavy writing business courses",
+                "rating": "8",
+                "date": "11/12/2020"
+            },
+            {
+                "comment": "I had it with Acker and it was an easy class for me, someone who sucks at English. There's three main assignments and a project. The textbook is also really helpful and there's a required workshop course you have to enroll in (0.5 units). Before every assignment (except the final paper), you have to go to this workshop. Overall, this class is definitely not a stress inducer. ",
+                "rating": "3",
+                "date": "12/23/2020"
+            }
+        ]
+    },
+    {
         "code": "BUS101",
         "description": "INFORMATION TECHNOLOGY MANAGEMENT",
         "credits": 4,
@@ -1453,15 +1517,15 @@
         "comments": []
     },
     {
-        "code": "BUS113",
-        "description": "MARKETING INSTITUTIONS",
+        "code": "BUS114",
+        "description": "MARKETING IN A GLOBAL ENVIRONMENT",
         "credits": 4,
         "average": "----",
         "comments": []
     },
     {
-        "code": "BUS114",
-        "description": "MARKETING IN A GLOBAL ENVIRONMENT",
+        "code": "BUS116",
+        "description": "PRICING STRATEGY AND MANAGEMENT",
         "credits": 4,
         "average": "----",
         "comments": []
@@ -1476,13 +1540,6 @@
     {
         "code": "BUS118",
         "description": "DIGITAL MARKETING",
-        "credits": 4,
-        "average": "----",
-        "comments": []
-    },
-    {
-        "code": "BUS119",
-        "description": "DATA-DRIVEN MARKETING",
         "credits": 4,
         "average": "----",
         "comments": []
@@ -1527,6 +1584,24 @@
         "comments": []
     },
     {
+        "code": "BUS143",
+        "description": "JUDGMENT AND DECISION MAKING",
+        "credits": 4,
+        "average": "3.50",
+        "comments": [
+            {
+                "comment": "[COVID-19] I took this class with Ye Li and it was honestly a really good class. At first, it was annoying that he sends out about 5 emails reminding you to do the web assignment before the first lecture (basically a ~15 minute survey for every class that relates to the lesson - he collects the students' stats to present in class). The professor is pretty lenient with the web assignments being submitted a little bit late, but that's not the case for the write ups. In the class besides the web assignments, there are 5 write-ups (with assigned readings ranging from like 5 to 15 pages, a big one being 30ish) in total that you need to do out of 8 offered in 10 weeks. The first two write ups (counted as 1) is with a randomly assigned group and was 600 words each. The rest, you are free to chose as long as you have done 5. There's no midterm and only a final - the final you have the option to go solo or choose a partner/have the professor choose one for you. The final is about a case study with 6 questions and all he tells you is that you have to use class concepts for it. You have 5 days to complete it and it had a word limit of 2000. The professor is great, he makes every topic interesting and has a lot of opportunities for extra credit throughout the quarter. Should basically be a pretty easy A class as long as you make the effort to do the web assignments and write ups. They're due every Thursday but if you turn it in the Sunday before, you get an extra credit point added to your score. I'd really recommend this class as an elective! My concentration is IS and this was definitely one of the easier classes I've taken and it was genuinely a good class. ",
+                "rating": "4",
+                "date": "3/22/2021"
+            },
+            {
+                "comment": "Professor Ye is amazing and the class is really interesting. Your grade is based on 4 write-ups (you can pick from out of 8 topics), participation, and a final. The class isn't hard at all if you spend time doing the readings and listen in class.",
+                "rating": "3",
+                "date": "3/26/2021"
+            }
+        ]
+    },
+    {
         "code": "BUS144",
         "description": "NEGOTIATION FUNDAMENTALS",
         "credits": 4,
@@ -1535,7 +1610,7 @@
     },
     {
         "code": "BUS145",
-        "description": "CONFLICT AND COOPERATION IN GROUPS",
+        "description": "DESIGNING AND LEADING TEAMS",
         "credits": 4,
         "average": "4.00",
         "comments": [
@@ -1545,13 +1620,6 @@
                 "date": "12/14/2019"
             }
         ]
-    },
-    {
-        "code": "BUS146",
-        "description": "INTRODUCTION TO ENTREPRENEURSHIP",
-        "credits": 4,
-        "average": "----",
-        "comments": []
     },
     {
         "code": "BUS149",
@@ -1662,6 +1730,19 @@
         "comments": []
     },
     {
+        "code": "BUS171",
+        "description": "SYSTEMS ANALYSIS AND DESIGN",
+        "credits": 4,
+        "average": "5.00",
+        "comments": [
+            {
+                "comment": "Took class Fall 2020. Class was online. Kan was a great guy. We had 1 final and 1 midterm, noncumulative. Homework assignments were very reasonable. He recorded all lectures and only required 2-3 in Zoom sessions whereas the rest of the course was done asynchronously. ",
+                "rating": "5",
+                "date": "12/28/2020"
+            }
+        ]
+    },
+    {
         "code": "BUS173",
         "description": "INTRODUCTION TO DATABASES FOR MANAGEMENT",
         "credits": 4,
@@ -1691,6 +1772,13 @@
     {
         "code": "BUS178",
         "description": "INTERNATIONAL TRADE",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BUS198I",
+        "description": "INDIVIDUAL INTERNSHIP IN BUSINESS ADMINISTRATION",
         "credits": 4,
         "average": "----",
         "comments": []
@@ -1815,6 +1903,24 @@
                 "comment": "Took it over the summer with Professor Kurt Spurgin and it was pretty easy going. Questions are straight from notes/slides. Dont need a book and no discussion so that was great. Lots of info but memorizing is enough for this course, averages for his were around 70-75 so pretty high",
                 "rating": "5",
                 "date": "8/27/2020"
+            }
+        ]
+    },
+    {
+        "code": "CBNS150",
+        "description": "CANCER BIOLOGY",
+        "credits": 4,
+        "average": "10.00",
+        "comments": [
+            {
+                "comment": "A+ lecturer, but the multiple choice on the exams will leave you praying to any and all gods you can think of.",
+                "rating": "10",
+                "date": "6/17/2019"
+            },
+            {
+                "comment": "2 MT's that aren't cumulative and a final that is. 7 quizzes in discussion and you present a research article in either weeks 8,9,10. First half will be easy, but the second half the information becomes a lot more difficult. MT2 was extremely difficult. ",
+                "rating": "10",
+                "date": "5/26/2020"
             }
         ]
     },
@@ -2255,6 +2361,19 @@
                 "comment": "(Fall 2020 Via Zoom) I gave this class 7/10 in difficulty because I had a hard time working through the calculations. It's not like math where you know exactly what equation to use. You have to be able to read the word problem and realized if an acid is weak or not and from there see which, of the various equations, to use. I had Dr. Xue. He is a laid back professor and does a good job at teaching the material. He applies it to the real world as well. Homework is assigned through smartwork and is due at the end of the quarter before the final. He also assigned practice quizzes which are really important because they are exactly like the midterms and final. There are 2 midterms and 1 final. Your better score is weighted heavier so that you get a better grade and exams are not proctored. He also offers 100 EC for good questions. Each question is worth 1 extra point. There is also a decent curve. I was at a C+ and got a B.",
                 "rating": "7",
                 "date": "12/28/2020"
+            }
+        ]
+    },
+    {
+        "code": "CHEM005",
+        "description": "QUANTITATIVE ANALYSIS",
+        "credits": 5,
+        "average": "6.00",
+        "comments": [
+            {
+                "comment": "Content and labs are similar to genchem, but the labs emphasize precision and accuracy. Difficulty depends on the TA and when you take it. Some TAs require 5-ish page lab reports for every experiment and others don't. There are 12 labs total, so try not to take it in the summer because it was a 5 week session. Writing reports will prepare you for CHEM125W.",
+                "rating": "6",
+                "date": "3/2/2020"
             }
         ]
     },
@@ -2780,6 +2899,13 @@
         "comments": []
     },
     {
+        "code": "CLA050",
+        "description": "FOLKTALES, MONSTERS, AND MAGIC IN  ANCIENT GREECE AND ROME",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "CPLT001",
         "description": "INTRODUCTION TO CLOSE READING",
         "credits": 4,
@@ -2955,15 +3081,317 @@
         ]
     },
     {
-        "code": "CS010",
+        "code": "CS010A",
         "description": "INTRODUCTION TO COMPUTER SCIENCE FOR SCIENCE, MATHEMATICS, AND ENGINEERING I",
         "credits": 4,
-        "average": "----",
-        "comments": []
+        "average": "3.19",
+        "comments": [
+            {
+                "comment": "Note: Formerly CS010",
+                "rating": "",
+                "date": ""
+            },
+            {
+                "comment": "Just do the work and you'll get an A. I have a concentration in CS so it wasn't that bad for me",
+                "rating": "3",
+                "date": "7/1/2017"
+            },
+            {
+                "comment": "Easy class if you make time to learn programming. Each lab has about 5-6 assignments that take a few hours to complete. The two programming assignments take about 2 days and 3-4 days (respectively) to complete. Anything lower than a 70% on the final auto-caps your grade at a C-.",
+                "rating": "4",
+                "date": "3/28/2018"
+            },
+            {
+                "comment": "Just do the labs & HW. You can get by only knowing the basic functions. Easy A.",
+                "rating": "1",
+                "date": "5/17/2018"
+            },
+            {
+                "comment": "Stay on top of the reading and labs and you'll do great. Kelley Downy was a Great Professor! ",
+                "rating": "4",
+                "date": "6/19/2018"
+            },
+            {
+                "comment": "Super easy, even if you don't have any programming background. Covers basic functions, loops, vectors, etc. For those of you with a background in C or C++ this class will be a breeze. Make sure you go to labs, attendance is 5% of the final grade. Even if you do them ahead of time and don't show up, you'll get docked points. I ended up with an A- instead of an A because I skipped two labs.",
+                "rating": "2",
+                "date": "12/16/2018"
+            },
+            {
+                "comment": "As long as you understand Zybooks and can successfully complete the labs without much help, you should be fine. ",
+                "rating": "4",
+                "date": "12/18/2018"
+            },
+            {
+                "comment": "Took it with Kelly Downey. I had no previous experience with CS and got an A in the class, I found it really easy.",
+                "rating": "2",
+                "date": "3/21/2019"
+            },
+            {
+                "comment": "Had Kelly Downey, even if you have no programming experience (like I did), this class isn't too difficult at all. If you do the zyBook assignments, you'll be fine.",
+                "rating": "3",
+                "date": "3/26/2019"
+            },
+            {
+                "comment": "Avoid professor Rusich, Ryan at all cost. He gets really mad if you take pictures or use any electronics and calls out on you. When he writes notes in lecture, its so small that you have to sit in first few rows; he wants you too.... I don't know if its just me but he breathes very hard so its hard to concentrate and understand him sometimes. Another thing is that he makes us do the lab few days earlier than the due date for a non-procastination score which is like 5% of total grade... Other than that, the midterm and final is straightforward. make sure to do the zybooks.",
+                "rating": "6",
+                "date": "6/3/2019"
+            },
+            {
+                "comment": "Basic introduction to fundamental CS concepts, should be pretty easy for anyone who's programmed before. Just remember to keep up on the ZyBooks",
+                "rating": "3",
+                "date": "12/10/2019"
+            },
+            {
+                "comment": "I had Ryan Rusich as my professor. He isn't as bad as people say, he's very lenient on exams for giving partial credit. He will help you if you need help, don't be shy to ask questions. The class isn't too difficult but it's very important to understand the logic and the reasoning behind why you are doing something, as it will only help you better for CS012 onwards. Labs and programming assignments become increasingly difficult but manageable. The midterm was harder than the final but both are relatively simple and straightforward. Make sure to do all labs, programming, and challenge activities as it's just free points and it'll hurt your grade if you do not complete them.",
+                "rating": "4",
+                "date": "12/12/2019"
+            },
+            {
+                "comment": "Do not skip your reading! I know people who fell behind on the reading and it nearly cost them the whole semester. As long as you take the time to read and fully understand the zybooks content, the class won\u2019t be very hard",
+                "rating": "4",
+                "date": "12/13/2019"
+            },
+            {
+                "comment": "Ryan Rusich -This class is really easy. You honestly never ever have to attend class since Zybooks is the main way the material is taught. Attend on Fridays though since in class participation activity is recorded.",
+                "rating": "3",
+                "date": "12/14/2019"
+            },
+            {
+                "comment": "I had Rusich. He was alright, didn't really get angry. Guess he loosened up his electronics policy because he let people take pictures with their phones. I learned more from zyBooks than from any lecture. Class was pretty easy as long as you could do the labs yourself without any help.",
+                "rating": "3",
+                "date": "12/14/2019"
+            },
+            {
+                "comment": "EZ Cash money, prof is the CEO of zybooks, ta was very handsome",
+                "rating": "3",
+                "date": "2/11/2020"
+            },
+            {
+                "comment": "Easiest class you will take as a CS major.",
+                "rating": "3",
+                "date": "3/7/2020"
+            },
+            {
+                "comment": "I wish I could take Kelly Downey again just for fun, her class was amazing and I  have never written code before.",
+                "rating": "3",
+                "date": "10/9/2020"
+            },
+            {
+                "comment": "Took it with Prof Frank Vahid Fall 2020 pandemic, was pretty easy as it is an intro CS course that doesn't require any previous knowledge of the material. ",
+                "rating": "4",
+                "date": "12/28/2020"
+            },
+            {
+                "comment": "Professor Vahid was very understanding and made sure that students came first. The course is naturally challenging, and that's why he made it so that you can work with people to complete assignments. He's readily accessible and super nice! Programs are really easy for the first 3 weeks. After that, you really need to try and understand the topics, cuz trust, they're not easy. Although professor vahid does an amazing job in lectures explaining the concepts and going through examples using those concepts, you need to do your part too. He does all of his assignments via Zybooks. Tip for the class, plan out your schedule because every week, there's 5 activities that you have to complete every week (some of them might be really short, some of them might take a long time). I started with 0 coding experience and now, I consider myself pretty knowledgeable now! Professor Vahid = 10/10, WOULD HIGHLY RECOMMEND",
+                "rating": "7",
+                "date": "12/28/2020"
+            },
+            {
+                "comment": "Prof Ali helped me out a lot. Definitely would recommend her. Also, do your readings before class and you'll easily ace it. Best of luck!",
+                "rating": "1",
+                "date": "3/4/2021"
+            }
+        ]
+    },
+    {
+        "code": "CS010B",
+        "description": "INTRODUCTION TO COMPUTER SCIENCE FOR SCIENCE, MATHEMATICS, AND ENGINEERING II",
+        "credits": 4,
+        "average": "6.95",
+        "comments": [
+            {
+                "comment": "Note: Formerly CS012",
+                "rating": "",
+                "date": ""
+            },
+            {
+                "comment": "Start your assignments early, and do the work. Honestly the midterms were not difficult at all. ",
+                "rating": "4",
+                "date": "12/9/2017"
+            },
+            {
+                "comment": "As a transfer student the first thing you'll realize is that the prof only teaches about 30% of the class. The student teacher aide teaches the other 30%. The Zybooks teach 40% of the class. The prof will just be there to answer questions and introduce the subject. The student aide will be actually teaching the implementation lol actually she'll just explain the projects for 10 min at the start of class then you're on your own. Thank god I went over topics in this class at my community college so I was familiar with mostly everything. ",
+                "rating": "6",
+                "date": "12/19/2017"
+            },
+            {
+                "comment": "CS12 is a relatively difficult class if you don't study the material and actually understand it. Midterms aren't too hard. Had to retake this class even though I had a B overall because I got a 68% on the final(anything lower than a %70 requires you to retake the class). Second time thru I got a solid A. Do your work thats it.",
+                "rating": "7",
+                "date": "1/10/2018"
+            },
+            {
+                "comment": "The main reason I think people don't do well in CS012 is because they are babied by CS010 and lulled into a sense of security by how easy the class is. CS010 is very easy, but CS012 really picks up the pace.\n\nAlso if you take it with Miller, his exams have \"themes\", where the MC part of the exam will completely revolve around 1 concept. He'll usually give hints to what it is during class. He'll talk about some concept for 30 seconds and will say \"ya this might be on your midterm\" and then never talk about it again. When I took it with him, the theme of our midterm was compiler flags. It's basically his way of figuring out whether you went to class or not. Also, its his way of ensuring that if you only study the mock midterm he posts like the night before, you will fail, because he changes the themes every couple of quarters. The night before my midterm, he posted a mock midterm that completely revolved around argc and argv[], and because I studied just that, I completely bombed the midterm the next day, which like I said before, mostly revolved around compiler flags.  \n\nIf you take anything from this, just do your assignments on time, go to class, and take note on anything that he says \"might be on the exam\" and you can basically predict what questions will end up on the exam. ",
+                "rating": "7",
+                "date": "2/11/2018"
+            },
+            {
+                "comment": "Harder than CS10. I took it with Kris Miller. The programs and labs were okay, going to office hours helps, but the exams kicked my butt. He had some practice exams which helped a bit but you definitely need to study more than that to be ready for the exams. Make sure you understand inheritance, recursion, and linked lists.",
+                "rating": "9",
+                "date": "3/21/2019"
+            },
+            {
+                "comment": "I have Kris Miller for this class and overall you need to have a strong C++ foundation in order for this course to be smooth sailing . This means that you should be able to to work on the labs/programming assignments and complete them within 3 hours. If you are not confident or rusty with C++,  the course is still doable but you need to go to office hours (a lot) for any kind of help. Also, it is helpful to attend lectures since he will often leave hints on what\u2019s going to be tested in the midterms and finals. Good luck!",
+                "rating": "7",
+                "date": "12/17/2019"
+            },
+            {
+                "comment": "Go to office hours for help on projects.  They will help tremendously.",
+                "rating": "7",
+                "date": "12/17/2019"
+            },
+            {
+                "comment": "Make sure to pay attention to what Mr. Miller says during lectures as he will often drop hints about what will be on the midterms + finals.",
+                "rating": "6",
+                "date": "1/1/2020"
+            },
+            {
+                "comment": "The class felt quite manageable and easy at first, but as time went on, the workload started getting greater and greater. This class is meant to be difficult and I recommend managing your time well and studying various concepts repeatedly to gain a better understanding of the course materials, especially for the final project.",
+                "rating": "7",
+                "date": "3/15/2020"
+            },
+            {
+                "comment": "CS012 is an extremely difficult class. Some upperclassmen have told me that it's harder than CS014, but I have yet to see that for myself. I took this class Winter 2020 with Jeffrey McDaniel. He's an extremely good lecturer with lots of knowledge of the subject of C++, although I do wish he would smile more (he kinda has that mean, scary face, but really isn't all that scary). CS012 is filled with content, and you have to be on your toes and learn quickly. If you find yourself falling behind then make sure to quickly get help via office hours. Both professors and TAs have office hours, and there is SI sessions as well. This course is not too bad up until the midterm, but the stuff after is very hard. Pointers, Linked Lists, and Recursion are all difficult topics, which difficult programming assignments. I found myself having to collaborate with people to get through the assignments, even though you are not allowed to collaborate. Please make sure you do not use GitHub code on your assignments, that's how many people got caught. Instead, get help from friends, TAs, and professors, they will often lead you in the right path and that way you make sure that you are learning the material. Definitely review pointers and linked lists before going to CS014.",
+                "rating": "7",
+                "date": "3/21/2020"
+            },
+            {
+                "comment": "Moves fast, hard concepts, be ready for lots of more programming ",
+                "rating": "7",
+                "date": "3/21/2020"
+            },
+            {
+                "comment": "The midterm and final multiple choice are hard",
+                "rating": "8",
+                "date": "3/21/2020"
+            },
+            {
+                "comment": "This class was really really hard even with quarantine mainly because of the programs Kris Miller gave us. Best advice I can give is make a study group so you guys can help each other understand the concepts. Pointers, linked lists, and recursion are some of the hardest concepts in this class. Really try your best to understand everything well and ask your TA for help! They\u2019re very nice and want you to do well. Also if you\u2019re struggling with concepts from CS010 don\u2019t be afraid to ask because everything builds on it. Overall it\u2019s a hard class but if you take the time each week to understand the readings and assignments, it\u2019ll be slightly less painful.",
+                "rating": "8",
+                "date": "6/12/2020"
+            },
+            {
+                "comment": "Took this class online during the pandemic, so it was a little different from the usual course. Everyone told me it was super hard so i was prepared for the worst. honestly not bad at all though. the first half was easy. the second half was when things started to pick up. just make sure you do your programs early, take notes from zybooks, and you'll be fine. i say pay special attention to pointers and linked lists, bc those were some of the harder topics for me to get down and understand. don't worry too much about this class but definitely be prepared to spend a lot of time on it ",
+                "rating": "6",
+                "date": "6/12/2020"
+            }
+        ]
+    },
+    {
+        "code": "CS010C",
+        "description": "INTRODUCTION TO DATA STRUCTURES AND ALGORITHMS",
+        "credits": 4,
+        "average": "7.83",
+        "comments": [
+            {
+                "comment": "Note: Formerly CS014",
+                "rating": "",
+                "date": ""
+            },
+            {
+                "comment": "Harder than CS12, but manageable. The projects require much more work than 12",
+                "rating": "8",
+                "date": "3/28/2017"
+            },
+            {
+                "comment": "Avoid Mart Molle if you don't feel like you have a solid foundation in CS10-12. Always start assignments as far in advance as possible. Class is typically curved a lot (out of sheer necessity).",
+                "rating": "10",
+                "date": "3/31/2017"
+            },
+            {
+                "comment": "One of the most challenging lower division cs class. AVOID MART MOLLE AT ALL COSTS",
+                "rating": "10",
+                "date": "3/31/2017"
+            },
+            {
+                "comment": "Probably the hardest lower division CS class out there. Some people say CS061 is more difficult but I highly disagree; CS014 is much, much more difficult contentwise. CS061 is \"effort-based\" and CS014 is \"intelligence-based,\" would be the best way to put it. It is DS&A after all, so this should come as no surprise to CS students, just make sure you put in a lot of effort and build a solid foundation for CS141 or you will seriously regret it.",
+                "rating": "10",
+                "date": "6/28/2017"
+            },
+            {
+                "comment": "Honestly I thought I was gonna fail this class but the curve literally saved me. The material in CS14 is pretty damn hard. You have to understand the concept thoroughly in order to be able to the programs. I took this class with professor Evangelos so I was pretty lucky. I got an F on the final and a D on the midterm but still somehow ended with a B+ in the class. I'm pretty sure he curved the hell out of the class cuz I'm pretty damn sure I was supposed to fail.  ",
+                "rating": "7",
+                "date": "3/28/2018"
+            },
+            {
+                "comment": "MUCH harder than cs061 (with mart molle)\nhardest lower division cs class by far",
+                "rating": "10",
+                "date": "8/24/2018"
+            },
+            {
+                "comment": "Take time to complete the programs and labs. This will give you a strong buffer before going into the midterms. Also, McDaniel is tough, but understanding so try to be well-liked by him before finals.",
+                "rating": "8",
+                "date": "12/6/2018"
+            },
+            {
+                "comment": "Took with McDaniel fall 2018. As background, I *thought* of myself has a strong competent programmer coming into cs014. Yet this was certainly the hardest class I\u2019ve taken yet and it was the last of my lower division. Labs and programming assignments are straight forward IF YOU GO TO OFFICE HOURS. The hard part is certainly the tests. I aced everything in labs and programming assignments and still failed the second test (38%.) Multiple choice is e z p z but short answer is 60% of tests and will destroy you. Especially coding/ drawing in pencil. MASTER data structures and standard library member functions and the rest will follow. Good luck. You\u2019ll need it",
+                "rating": "9",
+                "date": "1/6/2019"
+            },
+            {
+                "comment": "By far the undergrad class with the MOST work. Not the hardest intellectually. If you breezed through CS012, you have the capability to breeze through 14. You dedicate time to your programming assignments (esp 2-3 trees, they will fuck you over.) If you struggled in CS012, you will have trouble in 14, beware. The concepts are straightforward but the programs require time to implement.",
+                "rating": "8",
+                "date": "2/13/2019"
+            },
+            {
+                "comment": "I had Dr. Lependu, and honestly the class isn't that bad. If you put in the time on your programs and study the material you will do well in the class. His midterms are a reflection of what he teaches in class so ATTEND LECTURE!!! make sure to ask him questions if you need help, he is very nice and bubbly.",
+                "rating": "7",
+                "date": "5/30/2019"
+            },
+            {
+                "comment": "Paea's midterms were extremely easy but the final was difficult ",
+                "rating": "4",
+                "date": "6/18/2019"
+            },
+            {
+                "comment": "Had Vagelis, the class itself was not too hard. IMO the material was more interesting than CS012, but the assignments are very time consuming , yet manageable so DO NOT slack off on them. There's a very large curve at the end, went from a D+/C- to an A.",
+                "rating": "6",
+                "date": "12/17/2019"
+            },
+            {
+                "comment": "I had McDaniel in Fall'19 and passed with a B. The labs and tests weren't too bad (focus on studying the slides), but the assignments were tough as shit in my opinion. You have to work on them in groups of at most 3, and the person I worked with was absolutely no help, so make sure to get a good group. The TA's weren't much help on the assignments either, so START EARLY. The final was also very difficult, but I think he curved the class because I'm pretty sure I averaged around a 70% overall. Just keep up with the pace of the class and you will be fine.",
+                "rating": "8",
+                "date": "2/3/2020"
+            },
+            {
+                "comment": "Reem is good.",
+                "rating": "7",
+                "date": "5/8/2020"
+            },
+            {
+                "comment": "Programming assignments were extremely difficult to implement. Labs also get progressively more challenging. Tests weren\u2019t too bad. A big step up from CS012, know your CS012 stuff before stepping into this class (linked lists!)",
+                "rating": "10",
+                "date": "5/16/2020"
+            },
+            {
+                "comment": "[COVID-19 ERA] This class with a Professor Paea LePendu was a pleasure to partake in. Data Structures and Algorithms is an initially scary class as the jump/learning curve from CS012 was drastic and you had to be really confident in your ability to program. If you don't understand the concepts from the previous class, beware, this class will be difficult programming-wise. Conceptual understanding wasn't a problem, as LePendu really makes sure people nail that portion of the subject. It's not too difficult of a class but taking it online because of COVID-19 did add some learning struggles. The midterm was easy but the final was HARD. I do wish that some of the programming labs that were smaller in size would be 1-person labs as working on them with a group meant you didn't do much coding on your own. More coding practice would've been better as all technical interviews pull from the knowledge you learn in CS014. The most fun CS class so far, though coding some of the challenge activities was mentally stressful lol.",
+                "rating": "9",
+                "date": "6/11/2020"
+            },
+            {
+                "comment": "Had the class with Ali Reem. She was a very nice professor, so I did not struggle as much, but again, make sure you understand all the concepts!",
+                "rating": "6",
+                "date": "7/25/2020"
+            },
+            {
+                "comment": "A massive step up from CS012 but as long as you understand the basic concepts and how to implement them in code you should be fine. In terms of the types of questions you'll be asked in programming interviews this class covers them the most so PAY ATTENTION if you wanna get a job later on. ",
+                "rating": "6",
+                "date": "9/4/2020"
+            },
+            {
+                "comment": "Took it with Evangelos Christidis (fall 2020, online), would NOT recommend. It was hard asf especially with the assignments we got no help/feedback on. lecture was really boring, but theres a huge curve at the end so dw about failing.",
+                "rating": "8",
+                "date": "12/20/2020"
+            },
+            {
+                "comment": "Took it with Vagelis Hristidis in fall 2020. Wouldn't say it was easy as he would make up program assignments all on his own that were very difficult and required us to know things we've never seen before. But at least they were graded pretty generously. ",
+                "rating": "5",
+                "date": "2/23/2021"
+            }
+        ]
     },
     {
         "code": "CS011",
-        "description": "INTRODUCTION TO DISCRETE STRUCTURES\r\n",
+        "description": "INTRODUCTION TO DISCRETE STRUCTURES",
         "credits": 4,
         "average": "4.81",
         "comments": [
@@ -3028,20 +3456,6 @@
                 "date": "3/19/2021"
             }
         ]
-    },
-    {
-        "code": "CS012",
-        "description": "INTRODUCTION TO COMPUTER SCIENCE FOR SCIENCE, MATHEMATICS, AND ENGINEERING II",
-        "credits": 4,
-        "average": "----",
-        "comments": []
-    },
-    {
-        "code": "CS014",
-        "description": "INTRODUCTION TO DATA STRUCTURES AND ALGORITHMS",
-        "credits": 4,
-        "average": "----",
-        "comments": []
     },
     {
         "code": "CS061",
@@ -3735,6 +4149,69 @@
         ]
     },
     {
+        "code": "CS150",
+        "description": "AUTOMATA AND FORMAL LANGUAGES",
+        "credits": 4,
+        "average": "6.45",
+        "comments": [
+            {
+                "comment": "Took it with Tao Jiang. He's very passionate about this subject and you can tell by the way he lectures. There's one midterm and one final. The class is entirely composed of homeworks, midterm and final, no lab or project points. The tests are very fair, questions from the homework that you should be expected to know. The class itself is tough, but imo not as tough as 141. Make sure you understand each topic, as each builds off of each other. The homework is a good gauge on how well you know the material. No programming in this class, exams and homework are done in pencil and paper. Difficult, but manageable.",
+                "rating": "8",
+                "date": "3/23/2018"
+            },
+            {
+                "comment": "Had Tao Jiang. Class was difficult. The tests were fair though, since they're similar to homework problems as well as the sample problems he gives during the lectures before exams. There's only the final, the midterm, and the homework, but homework was worth 30% of the grade, and he gives over a week to do them, so you should be working on them seriously as they're an indicator of whether or not you'll be prepared for the exam as well as easy points for your grade.",
+                "rating": "8",
+                "date": "3/26/2018"
+            },
+            {
+                "comment": "Took it with Tao Jiang. Inductions can be hard to follow, but as long as you can do examples, you should be fine.",
+                "rating": "6",
+                "date": "3/29/2018"
+            },
+            {
+                "comment": "Took it with Tao. Make sure to understand the homework and don't skip the discussions, midterms and final are similar to homework and discussion examples.",
+                "rating": "5",
+                "date": "6/15/2018"
+            },
+            {
+                "comment": "Like many others, I took it with Tao Jiang. The class is very easy if you make sure you don't fall behind at ANY point in the content. If you did poorly on a particular section in the midterm or on homeworks, you MUST figure out what you did wrong to succeed in this course because the content builds on each other really fast. So, if your foundation is shaky you will have a terrible time in this course. It is easy in the sense that it's very straightforward: if you do well on homeworks, you WILL do well on midterms. The questions are extremely similar. ",
+                "rating": "7",
+                "date": "6/19/2018"
+            },
+            {
+                "comment": "Took this class with Paea LePendu. Honestly, this class wasn't that difficult. It's \"automata and formal languages\"; in this class, you learn about push-down automata and the many formal languages from regular languages to context-free languages to decidable languages to recognizable languages. If you're familiar with state machines, this class will feel similar, but not exactly. LePendu is passionate about this subject, and doesn't want anyone to not pass; he gives out extra credit opportunities on the homeworks, occasional quizzes, and on the tests. You'll still need to work hard in this class. At first, it'll feel a little intimidating, but over time, you'll realize that this class isn't that hard at all especially when taught by LePendu.",
+                "rating": "4",
+                "date": "3/25/2019"
+            },
+            {
+                "comment": "Taught by Tao Jiang. He is really good. Attend every class, as this class builds upon itself basically every lecture. Study the notation, as that can be a big roadblock to understanding the ideas. And make sure you have a solid understanding of induction. Very interesting and fun.",
+                "rating": "7",
+                "date": "6/15/2019"
+            },
+            {
+                "comment": "Took this class with Lependu and got A+. Super easy; if you do the homework, you'll do well on the midterms. If you do well on the midterms, you'll do well on the final. It's super straightforward and I didn't even do any of the reading. A tip is to not overthink, and you'll realize that it's easier than it seems.",
+                "rating": "3",
+                "date": "12/30/2019"
+            },
+            {
+                "comment": "I finished the class and still have no idea what/how any of it benefits my future career lol. This class is confusing, difficult to understand, and what\u2019s worse is that the lectures are a bore. Discussions, on the other hand, is EXTREMELY HELPFUL. I repeat, EXTREMELY HELPFUL. Watch/go to discussion session before you attempt homework! ",
+                "rating": "10",
+                "date": "12/28/2020"
+            },
+            {
+                "comment": "Took with Tao Jiang (Remote). The theory can be hard to follow and the lectures are very abstract, to the point where I didn't find them very useful. This is a class I found doable, but had to put a fair amount of time into. Class has a built in curve of about 10% (85 is an A, 80% is A-). Homeworks areworth 8% each, so make sure you do a good job on them as every point will make a difference if you're aiming for an A. My best advice would be to get as many points you can on the homework, and then find similar practice problems for the midterm/final. Do this and you should be solid.",
+                "rating": "7",
+                "date": "1/3/2021"
+            },
+            {
+                "comment": "Take with Lependu, he genuinely cares about you and your grade and wants everyone to succeed. 40% of grade based on homeworks and he guides you thru the homework problems if you need help. Really nice and caring professor, made it an easy class",
+                "rating": "6",
+                "date": "3/25/2021"
+            }
+        ]
+    },
+    {
         "code": "CS152",
         "description": "COMPILER DESIGN",
         "credits": 4,
@@ -3897,34 +4374,6 @@
         ]
     },
     {
-        "code": "CS170",
-        "description": "INTRODUCTION TO ARTIFICIAL INTELLIGENCE",
-        "credits": 4,
-        "average": "4.75",
-        "comments": [
-            {
-                "comment": "As long as it\u2019s taught by Eamonn Keogh you\u2019ll have a great time. Super cool professor with an Irish accent who really loves Artificial Intelligence and Machine Learning. He makes the material pretty simple, the exams pretty straight-forward, and always plays really cool music videos before class starts. He assigns 2 projects with an arseload of time to complete them. ",
-                "rating": "6",
-                "date": "12/18/2017"
-            },
-            {
-                "comment": "This is the class that doesn't exist. A CS upper div that doesn't completely kill you. It's not easy per say, but a lot easier than some of the options out there. W/ Eamonn. 2 projects, written in whatever language you desire. No discussion. Tests - 1 midterm 1 final. They were during class hours, multiple choice. Some quizzes, but he'll give you notice of them beforehand so not too bad. All in all an interesting class. Easier than most of the other upper div cs ones so keep an eye out. ",
-                "rating": "5",
-                "date": "12/15/2018"
-            },
-            {
-                "comment": "Take it with Eamonn Keogh if you can. Midterm and final were completely MC and he assigned two project with a lot of time to do them. There was one HW assignment as well as a couple quizzes. No discussions either. The tests might be relatively difficult, but overall the class isn't very demanding and shouldn't take up much of your time compared to other CS upper divs.",
-                "rating": "5",
-                "date": "2/12/2019"
-            },
-            {
-                "comment": "Took it with Dr Keogh, and this class was very simple and fair. The two projects were as easy as Dr Keogh suggests. That doesn't mean you should not start it early. The reports are what takes your time. The exams are multiple choice and very fair. He gives out some quizzes, which have been known to have questions that show up on the final.",
-                "rating": "3",
-                "date": "12/27/2019"
-            }
-        ]
-    },
-    {
         "code": "CS179E",
         "description": "PROJECT IN COMPUTER SCIENCE: COMPLIERS",
         "credits": 4,
@@ -3932,18 +4381,17 @@
         "comments": []
     },
     {
-        "code": "CS179J",
-        "description": "PROJECT IN COMPUTER SCIENCE: COMPUTER ARCHITECTURE AND EMBEDDED SYSTEMS",
+        "code": "CS179N",
+        "description": "PROJECT IN COMPUTER SCIENCE: GRAPHICS AND ELECTRONIC GAMES",
         "credits": 4,
-        "average": "----",
-        "comments": []
-    },
-    {
-        "code": "CS179M",
-        "description": "PROJECT IN COMPUTER SCIENCE: ARTIFICIAL INTELLIGENCE",
-        "credits": 4,
-        "average": "----",
-        "comments": []
+        "average": "2.00",
+        "comments": [
+            {
+                "comment": "super easy. Student presentations and a final project. Meets once per week for one hour and one lab. Just build a game or something. Had Tamar but I don't think that really matters.",
+                "rating": "2",
+                "date": "6/22/2019"
+            }
+        ]
     },
     {
         "code": "CRWT040",
@@ -3971,6 +4419,13 @@
                 "date": "4/11/2019"
             }
         ]
+    },
+    {
+        "code": "CRWT048S",
+        "description": "CRAFT OF WRITING: SURVEY IN CONTEMPORARY NONFICTION",
+        "credits": 5,
+        "average": "----",
+        "comments": []
     },
     {
         "code": "CRWT056",
@@ -4033,6 +4488,19 @@
         "comments": []
     },
     {
+        "code": "CRWT057C",
+        "description": "INTRODUCTION TO CREATIVE NONFICTION",
+        "credits": 4,
+        "average": "5.00",
+        "comments": [
+            {
+                "comment": "Taken online with Abbie Reese. Pretty easy class. There\u2019s only one piece that you need to write over the course of the quarter. The second one is optional. The class itself is more of a workshop, you spend 90% of the time in class critiquing other people\u2019s pieces as a group and rarely do you ever have to do writing exercises. Final is pretty simple. It\u2019s just a revision of your own piece from earlier in the quarter and a brief reflection of the class.",
+                "rating": "5",
+                "date": "12/30/2020"
+            }
+        ]
+    },
+    {
         "code": "CRWT066",
         "description": "SCREENWRITING: HOW MOVIES WORK",
         "credits": 4,
@@ -4055,6 +4523,13 @@
     {
         "code": "CRWT150",
         "description": "BEGINNING POETRY WORKSHOP",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "CRWT152",
+        "description": "BEGINNING FICTION WORKSHOP",
         "credits": 4,
         "average": "----",
         "comments": []
@@ -4412,7 +4887,7 @@
     {
         "code": "ECON103",
         "description": "INTERMEDIATE MACROECONOMICS",
-        "credits": 5,
+        "credits": 0,
         "average": "6.57",
         "comments": [
             {
@@ -4546,6 +5021,19 @@
         ]
     },
     {
+        "code": "ECON143",
+        "description": "ENVIRONMENTAL ECONOMICS",
+        "credits": 4,
+        "average": "3.00",
+        "comments": [
+            {
+                "comment": "Joab Corey\u2019s an interesting and fun teacher, relatively easy class, no discussion section! ",
+                "rating": "3",
+                "date": "4/11/2019"
+            }
+        ]
+    },
+    {
         "code": "ECON153",
         "description": "LABOR ECONOMICS",
         "credits": 4,
@@ -4650,8 +5138,29 @@
         "comments": []
     },
     {
+        "code": "EDUC141",
+        "description": "HISTORICAL AND CONTEMPORARY PERSPECTIVES ON LGBTQ STUDENTS AND FACULTY",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "EDUC147",
         "description": "EDUCATION IN A DIVERSE SOCIETY",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "EDUC154",
+        "description": "EDUCATIONAL LEADERSHIP IN A DIVERSE SOCIETY",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "EDUC162",
+        "description": "LEARNING THEORY AND PSYCHOLOGY IN EDUCATION",
         "credits": 4,
         "average": "----",
         "comments": []
@@ -4664,8 +5173,22 @@
         "comments": []
     },
     {
+        "code": "EDUC178",
+        "description": "READING AND WRITING IN THE CONTENT AREAS",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "EDUC179A",
         "description": "LANGUAGE DEVELOPMENT IN CONTENT AREAS",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "EDUC246E",
+        "description": "AUTISM SPECTRUM DISORDERS IN THE CLASSROOM",
         "credits": 4,
         "average": "----",
         "comments": []
@@ -4681,27 +5204,6 @@
         "code": "EDUC280L",
         "description": "THE LEARNER",
         "credits": 4,
-        "average": "----",
-        "comments": []
-    },
-    {
-        "code": "EDUC331",
-        "description": "EDUCATION SPECIALIST CREDENTIAL SEMINAR",
-        "credits": 2,
-        "average": "----",
-        "comments": []
-    },
-    {
-        "code": "EDUC332",
-        "description": "MULTIPLE SUBJECT CREDENTIAL SEMINAR",
-        "credits": 2,
-        "average": "----",
-        "comments": []
-    },
-    {
-        "code": "EDUC333",
-        "description": "SINGLE SUBJECT CREDENTIAL SEMINAR",
-        "credits": 2,
         "average": "----",
         "comments": []
     },
@@ -5766,6 +6268,44 @@
         "comments": []
     },
     {
+        "code": "ENGL012I",
+        "description": "SCIENCE FICTION: MAJOR THEMES AND MOTIFS",
+        "credits": 4,
+        "average": "2.00",
+        "comments": [
+            {
+                "comment": "Taken with Josh Pearson- It's a really fun class! You can get away without doing the reading (about 2-3 short stories a week) but you'll have trouble following the discussion. There's a few papers that aren't too bad (and he frequently pushes the due date later.)",
+                "rating": "3",
+                "date": "11/18/2019"
+            },
+            {
+                "comment": "Super interesting class that defines a lot of different subgenres of science fiction literature. The professor is very passionate and humorous about the subject he teaches. He has all kinds of knowledge. He's also easy going. There is a lot of reading, but nothing too much.",
+                "rating": "1",
+                "date": "12/13/2019"
+            }
+        ]
+    },
+    {
+        "code": "ENGL012K",
+        "description": "INTRODUCTION TO GAY AND LESBIAN FICTION",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "ENGL012R",
+        "description": "CHICANA AND CHICANO LITERATURE",
+        "credits": 4,
+        "average": "3.00",
+        "comments": [
+            {
+                "comment": "Prof Gutierrez is great, and if you're interested in Chicano theory at all you'll love this class. The only assignments are journals every week, and class time just consists of watching presentations by other students (you also have to present at least once in the quarter btw). Attendance isn't mandatory, and she uploads recordings of the lectures later on for whoever needs it. One essay at the end of the quarter and that was it. Really cool professor, also really flexible with deadlines if you need a bit of extra time.",
+                "rating": "3",
+                "date": "3/17/2021"
+            }
+        ]
+    },
+    {
         "code": "ENGL020A",
         "description": "INTRODUCTION TO BRITISH LITERARY TRADITION",
         "credits": 5,
@@ -5779,11 +6319,49 @@
         ]
     },
     {
-        "code": "ENGL102",
-        "description": "INTRODUCTION TO CRITICAL METHODS",
-        "credits": 4,
+        "code": "ENGL020B",
+        "description": "INTRODUCTION TO AMERICAN LITERARY TRADITION",
+        "credits": 5,
         "average": "----",
         "comments": []
+    },
+    {
+        "code": "ENGL020C",
+        "description": "INTRODUCTION TO ALTERNATIVE CRITICAL PERSPECTIVES ON LITERATURE AND CULTURE",
+        "credits": 5,
+        "average": "3.00",
+        "comments": [
+            {
+                "comment": "a lot of readings but i never did them, cancelled midterm and final, just 2 papers for final and midterm ",
+                "rating": "3",
+                "date": "6/4/2019"
+            },
+            {
+                "comment": "Took this course with Professor Jennifer Doyle. She's such an understanding professor in the sense that she knew her students had much harder courses for their schedules. As a result, she changed the original structure of the course from: 10% reading exam, 20% difficulty assignment, 30% discussion participation, 25% final essay, and 15% reading exam, to the same format but converting the two reading exams into Notes Submission (Credit/No Credit). The way she structures the prompts is that there is no correct idea, as long as you are able to relate the core concepts and theories with the assigned readings. She genuinely wants her students to succeed. Lectures sparked in-class discussions that engaged everybody with the difficult concepts.",
+                "rating": "3",
+                "date": "6/13/2019"
+            },
+            {
+                "comment": "Took it with Professor Doyle (Fall 19). Super easy. she does not believe in 'grading', so she has a list of assignments that you can do. Once you turn in the assignments you get the points no matter what. 75 points was from the assignments list, and another 25 is from an reflection essay, attendence, and a plan of what assignments you were going to do. She didn't tell people that attendence was being taken for credit, so not a lot of people showed up to lecture. So a lot of people lost points for no attendence. On another note, the class structure was constantly changing, so it was slightly confusing. This also means there is a good chance the class might be a bit different next quarter. ",
+                "rating": "1",
+                "date": "12/10/2019"
+            },
+            {
+                "comment": "Never went to lectures and got an A+. I had Jennifer Doyle. She's really funny and entertaining so if you aren't the type to want to skip class, you won't suffer at all. She's also very understanding and gives good feedback on homework. You get to choose which homework assignments you do and there are no finals or midterms. Her homework is also based on participation not actual content. If you actually follow directions, you'll get full credit. And as long as you do a decent amount of the homework or at least one's that are worth a lot of points and one of the graded essays, you'll get an A.",
+                "rating": "2",
+                "date": "2/29/2020"
+            },
+            {
+                "comment": "Took with Stapely online bc of quarantine. Highly recommend, super easy and written assignments were short (3 pgs max). An easy A as long as you complete every assignment.  2 discussion posts each week based on readings. ",
+                "rating": "2",
+                "date": "6/3/2020"
+            },
+            {
+                "comment": "I had Dr. James Tobias. He is very kind and caring, he tries his best to make the class easier on students, emphasizing how \"quizzes don't do much, but a research paper will help you in the real world.\" He teaches very interesting subjects, sometimes he talks a lot, and gives a lot of information. It is important to attend class but you don't need to write about every subject he talks about, though they are connected and will give you many ideas about what to write about. The TA I had was super helpful,  so I am not sure what it is like to take this course without a good TA. There is a lot of reading and writing, and the writing is pretty difficult, however, you just have to be organized and keep a good schedule and it should not be too hard to complete. Grade depends mostly on TA, professor is open to questions and likes to be challenged/ asked questions or when students bring up topics for discussion. ",
+                "rating": "7",
+                "date": "12/20/2020"
+            }
+        ]
     },
     {
         "code": "ENGL117T",
@@ -5807,6 +6385,13 @@
         "comments": []
     },
     {
+        "code": "ENGL136T",
+        "description": "STUDIES IN LATINA AND LATINO LITERATURE",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "ENGL139T",
         "description": "STUDIES IN ASIAN AMERICAN LITERATURE",
         "credits": 4,
@@ -5821,8 +6406,8 @@
         "comments": []
     },
     {
-        "code": "ENGL179T",
-        "description": "STUDIES IN SCIENCE FICTION",
+        "code": "ENGL146E",
+        "description": "SPECIAL TOPICS IN TECHNOCULTURE AND DIGITAL MEDIA",
         "credits": 4,
         "average": "----",
         "comments": []
@@ -5889,6 +6474,13 @@
                 "date": "9/10/2020"
             }
         ]
+    },
+    {
+        "code": "ENTX150",
+        "description": "CANCER BIOLOGY",
+        "credits": 4,
+        "average": "----",
+        "comments": []
     },
     {
         "code": "ETST001",
@@ -6088,13 +6680,6 @@
         ]
     },
     {
-        "code": "ETST098",
-        "description": "INTRODUCTION TO ARAB/MUSLIM AMERICAN STUDIES",
-        "credits": 4,
-        "average": "----",
-        "comments": []
-    },
-    {
         "code": "ETST102",
         "description": "THE POLITICAL ECONOMY OF RACE AND CLASS",
         "credits": 4,
@@ -6128,15 +6713,8 @@
         ]
     },
     {
-        "code": "ETST132",
-        "description": "CHICANO CONTEMPORARY ISSUES",
-        "credits": 4,
-        "average": "----",
-        "comments": []
-    },
-    {
-        "code": "ETST170",
-        "description": "THIRD WORLD LITERATURE",
+        "code": "ETST163E",
+        "description": "INTRODUCTION TO QUEER STUDIES",
         "credits": 4,
         "average": "----",
         "comments": []
@@ -6212,22 +6790,31 @@
         "comments": []
     },
     {
-        "code": "GSST016",
-        "description": "SEXUALITY AND RELIGION IN GLOBAL PERSPECTIVE",
+        "code": "GSST020",
+        "description": "WOMEN, FEMINISM, AND SOCIETY IN A GLOBAL PERSPECTIVE",
         "credits": 4,
-        "average": "3.00",
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "GSST021",
+        "description": "GENDER AND SUSTAINABILITY",
+        "credits": 5,
+        "average": "4.00",
         "comments": [
             {
-                "comment": "Wilcox was an amazing professor. This class is new so I recommend going to her office hours for help/to discuss. Not that hard though, but make sure you at least skim the readings. There's no tests, just 2 essays for midterms and one final document of short answers/a really short essay. And TAKE NOTES. Slides are uploaded so they're easy to make up if you miss, but either way make sure you take good notes.",
+                "comment": "If you take it with Professor Allison, just pay attention during lecture and go to discussion. If you go to lecture 85% of the time you get extra credit, but if you don't you lose points. You don't have to do the readings. Only read the ones that are mentioned during lecture. Also on exams she gives multiple questions and you can pick and choose the ones you want to answer. ",
                 "rating": "4",
-                "date": "3/27/2019"
-            },
-            {
-                "comment": "READ. READ READ READ. ",
-                "rating": "2",
-                "date": "3/27/2019"
+                "date": "12/11/2019"
             }
         ]
+    },
+    {
+        "code": "GSST040",
+        "description": "WOMEN, AIDS, AND THE GLOBAL ECONOMY",
+        "credits": 4,
+        "average": "----",
+        "comments": []
     },
     {
         "code": "GSST100",
@@ -6265,6 +6852,20 @@
         "comments": []
     },
     {
+        "code": "GSST170",
+        "description": "WOMEN ARTISTS IN RENAISSANCE EUROPE, 1400-1600",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "GSST183",
+        "description": "FEMINIST POLITICS OF FOOD\r\n",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "GSST191C",
         "description": "SEMINAR IN GENDER AND SEXUALITY STUDIES: RESEARCH PRACTICUM IN GENDER AND SUSTAINABILITY",
         "credits": 4,
@@ -6283,6 +6884,26 @@
                 "date": "8/26/2020"
             }
         ]
+    },
+    {
+        "code": "GEO005",
+        "description": "GEOSCIENCE IN MOVIES",
+        "credits": 4,
+        "average": "3.00",
+        "comments": [
+            {
+                "comment": "Taken with Professor Douilly. Class not hard - lots of work though. Think HS science class. Easy A. Lots of intresting movies",
+                "rating": "3",
+                "date": "11/4/2019"
+            }
+        ]
+    },
+    {
+        "code": "GEO007",
+        "description": "MINERALS AND HUMAN HEALTH",
+        "credits": 4,
+        "average": "----",
+        "comments": []
     },
     {
         "code": "GEO008",
@@ -6389,6 +7010,13 @@
         "code": "GBST001",
         "description": "GLOBAL HISTORY, CULTURE, AND IDEAS",
         "credits": 5,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "GBST110",
+        "description": "GLOBAL MIGRATIONS AND MOVEMENTS",
+        "credits": 4,
         "average": "----",
         "comments": []
     },
@@ -6564,7 +7192,7 @@
     },
     {
         "code": "HIST020",
-        "description": "WORLD HISTORY: TWENTIETH CENTURY",
+        "description": "WORLD HISTORY: THE LONG TWENTIETH CENTURY",
         "credits": 4,
         "average": "5.25",
         "comments": [
@@ -6612,7 +7240,14 @@
     },
     {
         "code": "HIST030",
-        "description": "WE ARE WHAT WE EAT?",
+        "description": "RACE &amp; ETH IN THE ANC MED WLD",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "HIST075",
+        "description": "INTRODUCTION TO LATIN AMERICA",
         "credits": 4,
         "average": "----",
         "comments": []
@@ -6620,7 +7255,7 @@
     {
         "code": "HIST099W",
         "description": "THE HISTORIAN&#39;S WORKSHOP",
-        "credits": 0,
+        "credits": 4,
         "average": "3.00",
         "comments": [
             {
@@ -6637,7 +7272,7 @@
     },
     {
         "code": "HIST104",
-        "description": "THE SCIENTIFIC REVOLUTION",
+        "description": "SCIENTIFIC REVOLUTION, 1500-1700",
         "credits": 4,
         "average": "2.00",
         "comments": [
@@ -6650,7 +7285,7 @@
     },
     {
         "code": "HIST106",
-        "description": "SCIENCE IN TRIUMPH AND CRISIS",
+        "description": "SCIENCE IN THE 20TH CENTURY",
         "credits": 4,
         "average": "----",
         "comments": []
@@ -6707,8 +7342,15 @@
         ]
     },
     {
+        "code": "HIST128",
+        "description": "IRAN THROUGH LITERATURE AND CINEMA",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "HIST197",
-        "description": "U.S. AND THE PACIFIC",
+        "description": "AMERICA &amp; THE PACIFIC",
         "credits": 4,
         "average": "----",
         "comments": []
@@ -6721,8 +7363,8 @@
         "comments": []
     },
     {
-        "code": "HISE152",
-        "description": "MODERN BRITAIN",
+        "code": "HISE133",
+        "description": "WOMEN ARTISTS IN RENAISSANCE EUROPE, 1400-1600",
         "credits": 4,
         "average": "----",
         "comments": []
@@ -6763,6 +7405,20 @@
     {
         "code": "HISA120B",
         "description": "THE SUPREME COURT AND THE CONSTITUTION",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "HISA138",
+        "description": "CALIFORNIA",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "HISA139",
+        "description": "AMERICAN MUSICAL SUBCULTURES: A GENEALOGY OF ROCK",
         "credits": 4,
         "average": "----",
         "comments": []
@@ -6809,8 +7465,22 @@
         "comments": []
     },
     {
+        "code": "JPN184",
+        "description": "JAPANESE MEDIA AND CULTURAL STUDIES",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "KOR004",
         "description": "SECOND-YEAR KOREAN",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "KOR020B",
+        "description": "FIRST-YEAR KOREAN FOR HERITAGE LEARNERS",
         "credits": 4,
         "average": "----",
         "comments": []
@@ -6836,13 +7506,6 @@
         "comments": []
     },
     {
-        "code": "LNST142S",
-        "description": "LATIN AMERICA:  THE QUEST FOR DEVELOPMENT AND DEMOCRACY",
-        "credits": 5,
-        "average": "----",
-        "comments": []
-    },
-    {
         "code": "LNST148",
         "description": "POLITICS OF MEXICO",
         "credits": 5,
@@ -6850,15 +7513,15 @@
         "comments": []
     },
     {
-        "code": "LWSO100",
-        "description": "INTRODUCTION TO THE STUDY OF LAW AND SOCIETY",
-        "credits": 4,
+        "code": "LNST188",
+        "description": "U.S.-LATIN AMERICAN RELATIONS",
+        "credits": 5,
         "average": "----",
         "comments": []
     },
     {
-        "code": "LGBS001",
-        "description": "INTRODUCTION TO LESBIAN, GAY, BISEXUAL, AND TRANSGENDER STUDIES",
+        "code": "LWSO100",
+        "description": "INTRODUCTION TO THE STUDY OF LAW AND SOCIETY",
         "credits": 4,
         "average": "----",
         "comments": []
@@ -6914,15 +7577,15 @@
         "comments": []
     },
     {
-        "code": "LING131",
-        "description": "MORPHOLOGY",
+        "code": "LING121",
+        "description": "SYNTAX",
         "credits": 4,
         "average": "----",
         "comments": []
     },
     {
-        "code": "LING141",
-        "description": "PHONOLOGY",
+        "code": "LING151",
+        "description": "SEMANTICS",
         "credits": 4,
         "average": "----",
         "comments": []
@@ -7447,7 +8110,7 @@
     },
     {
         "code": "MATH011",
-        "description": "INTRODUCTION TO DISCRETE STRUCTURES\r\n",
+        "description": "INTRODUCTION TO DISCRETE STRUCTURES",
         "credits": 4,
         "average": "4.81",
         "comments": [
@@ -7772,6 +8435,19 @@
         ]
     },
     {
+        "code": "MATH146B",
+        "description": "ORDINARY AND PARTIAL DIFFERENTIAL EQUATIONS",
+        "credits": 4,
+        "average": "3.50",
+        "comments": [
+            {
+                "comment": "",
+                "rating": "",
+                "date": ""
+            }
+        ]
+    },
+    {
         "code": "MATH149A",
         "description": "PROBABILITY AND MATHEMATICAL STATISTICS",
         "credits": 4,
@@ -8064,13 +8740,6 @@
         "comments": []
     },
     {
-        "code": "MCS046",
-        "description": "INTRODUCTION TO LATIN AMERICAN FILM",
-        "credits": 5,
-        "average": "----",
-        "comments": []
-    },
-    {
         "code": "MCS066",
         "description": "SCREENWRITING: HOW MOVIES WORK",
         "credits": 4,
@@ -8078,15 +8747,36 @@
         "comments": []
     },
     {
-        "code": "MCS120",
-        "description": "ANGELA MCROBBIE",
+        "code": "MCS069",
+        "description": "THE POLITICS OF PUBLIC SPACE",
         "credits": 4,
         "average": "----",
         "comments": []
     },
     {
-        "code": "MCS139",
-        "description": "MASS MEDIA AND POPULAR CULTURE",
+        "code": "MCS120",
+        "description": "MAJOR FIGURES IN FILM AND MEDIA",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MCS129",
+        "description": "DISNEY: PRODUCING RACE, GENDER AND SEXUALITY",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MCS132",
+        "description": "INTERSECTIONS OF MEDIA AND POPULAR CULTURE",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MCS137",
+        "description": "HISTORY OF VIDEO ART",
         "credits": 4,
         "average": "----",
         "comments": []
@@ -8099,8 +8789,15 @@
         "comments": []
     },
     {
-        "code": "MCS172",
-        "description": "KOREAN FILM, POP MEDIA &amp; KPOP",
+        "code": "MCS146E",
+        "description": "SPECIAL TOPICS IN TECHNOCULTURE AND DIGITAL MEDIA",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MCS166",
+        "description": "PUNK AND POST-PUNK CULTURES",
         "credits": 4,
         "average": "----",
         "comments": []
@@ -8111,6 +8808,31 @@
         "credits": 4,
         "average": "----",
         "comments": []
+    },
+    {
+        "code": "MCS184",
+        "description": "JAPANESE MEDIA AND CULTURAL STUDIES",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MCBL121",
+        "description": "INTRODUCTORY MICROBIOLOGY",
+        "credits": 0,
+        "average": "6.00",
+        "comments": [
+            {
+                "comment": "Hsiao has pretty simple exams.  Watch out for his free response questions cuz they take longer than you might think.  Pretty fair for 50 mins and no cumulative final.  Uses TopHat for extra credit and assigned a powerpoint group presentation in discussion.  Very straightforward class overall.",
+                "rating": "4",
+                "date": "12/17/2018"
+            },
+            {
+                "comment": "Interesting class but Wenbo Ma had really hard exams & her TA was a super. She had the audacity to get mad at us when the average was mid 50s.. don't you know the common denominator between all of us is having YOU as a professor?",
+                "rating": "10",
+                "date": "6/6/2020"
+            }
+        ]
     },
     {
         "code": "MCBL121L",
@@ -8217,6 +8939,13 @@
         ]
     },
     {
+        "code": "MUS023",
+        "description": "AUDIO RECORDING AND PRODUCTION",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "MUS123",
         "description": "SOUTHEAST ASIAN PERFORMANCE",
         "credits": 4,
@@ -8226,6 +8955,13 @@
     {
         "code": "MUS126",
         "description": "GENDER, SEXUALITY, AND MUSIC IN CROSS-CULTURAL PERSPECTIVES",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MUS140",
+        "description": "AMERICAN MUSICAL SUBCULTURES: A GENEALOGY OF ROCK",
         "credits": 4,
         "average": "----",
         "comments": []
@@ -8326,7 +9062,7 @@
     {
         "code": "PHIL007",
         "description": "INTRODUCTION TO CRITICAL THINKING",
-        "credits": 0,
+        "credits": 4,
         "average": "6.67",
         "comments": [
             {
@@ -8390,6 +9126,24 @@
         ]
     },
     {
+        "code": "PHIL009",
+        "description": "BIOMEDICAL ETHICS",
+        "credits": 4,
+        "average": "4.50",
+        "comments": [
+            {
+                "comment": "There's only 2 mandatory essays. 4 if you count the first one, which is a practice essay to get feedback and stuff, while the fourth one replaces your lowest essay score (provided that it was above a 70%? I believe). I got an A- but you still have to work for your grade, especially since the readings are pretty difficult to process BUT the professor (I had Joshua Wood) will give you outlines of the articles, so it's easier to understand. He's also pretty funny in the slack channel. One girl was like, \"Where is the 10th assignment?\" when we only had two essays, and he was like \"you're scaring people\" LOL. Make sure you don't procrastinate on your essays! My TA liked a direct approach to writing, so be concise with your wording and make it easy to understand. ",
+                "rating": "6",
+                "date": "12/26/2020"
+            },
+            {
+                "comment": "Took it with Dr. Joshua Wood during Fall 2020. No mandatory lectures and he gives you an free version of the textbook online. Dr. Wood is super sweet and his lectures (if you do decide to go) are essentially a discussion about the assigned readings. If you choose not to go, he offers recorded lectures and notes as supplements.  Homework are the assigned readings but you don't really need to read any of them unless you're choosing that specific one to write the essay about. No exams only four essays two of which are mandatory; the first one is a practice one and the last one is an extra credit opportunity. Each essay increases in page limit; the first one 1-2, second 2-3, etc. Essays are super easy and basically an analysis essay on the argument of the document. TAs grade the essays so it really depends on them. I had Gustavo for my discussion and he was pretty easy going, attending was also not mandatory. The only assignment was a discussion question regarding the material due every Wednesday and in the discussion he'd address those questions.",
+                "rating": "3",
+                "date": "1/5/2021"
+            }
+        ]
+    },
+    {
         "code": "PHIL108",
         "description": "PHILOSOPHICAL ISSUES OF RACE AND GENDER",
         "credits": 4,
@@ -8404,15 +9158,15 @@
         "comments": []
     },
     {
-        "code": "PHIL112",
-        "description": "MORTAL QUESTIONS",
+        "code": "PHIL117",
+        "description": "ENVIRONMENTAL ETHICS",
         "credits": 4,
         "average": "----",
         "comments": []
     },
     {
-        "code": "PHIL117",
-        "description": "ENVIRONMENTAL ETHICS",
+        "code": "PHIL138",
+        "description": "PHILOSOPHY OF AGENCY",
         "credits": 4,
         "average": "----",
         "comments": []
@@ -8427,6 +9181,13 @@
     {
         "code": "PHIL164",
         "description": "JUSTICE",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "PHIL174",
+        "description": "PHILOSOPHY OF ART AND AESTHETICS",
         "credits": 4,
         "average": "----",
         "comments": []
@@ -8882,13 +9643,6 @@
         ]
     },
     {
-        "code": "PHYS050",
-        "description": "INTRODUCTION TO APPLIED DATA SCIENCE: A MULTI-DISCIPLINARY APPROACH",
-        "credits": 4,
-        "average": "----",
-        "comments": []
-    },
-    {
         "code": "POSC005",
         "description": "POLITICAL IDEOLOGIES",
         "credits": 5,
@@ -9085,19 +9839,6 @@
         ]
     },
     {
-        "code": "POSC126",
-        "description": "THE POLITICS OF INTERNATIONAL TRADE, FINANCE, AND DEVELOPMENT",
-        "credits": 4,
-        "average": "4.00",
-        "comments": [
-            {
-                "comment": "Taken with Professor Serieux-Lubin. The class was very easy and flexible. Two easy term papers and multiple-choice midterm and final. The only tedious thing was the discussion boards. ",
-                "rating": "4",
-                "date": "11/10/2020"
-            }
-        ]
-    },
-    {
         "code": "POSC129",
         "description": "THE PROLIFERATION OF WEAPONS OF MASS DESTRUCTION",
         "credits": 4,
@@ -9109,6 +9850,13 @@
                 "date": "9/7/2020"
             }
         ]
+    },
+    {
+        "code": "POSC138S",
+        "description": "LABOR AND GLOBALIZATION",
+        "credits": 5,
+        "average": "----",
+        "comments": []
     },
     {
         "code": "POSC143S",
@@ -9129,17 +9877,11 @@
         ]
     },
     {
-        "code": "POSC146",
-        "description": "MASS MEDIA AND PUBLIC OPINION",
+        "code": "POSC145",
+        "description": "MONEY IN AMERICAN POLITICS",
         "credits": 4,
-        "average": "6.00",
-        "comments": [
-            {
-                "comment": "Professor Merolla taught the class. Lots of assignmnets and group work. She is very helpful and approachable. ",
-                "rating": "6",
-                "date": "3/12/2020"
-            }
-        ]
+        "average": "----",
+        "comments": []
     },
     {
         "code": "POSC150S",
@@ -9163,11 +9905,17 @@
         "comments": []
     },
     {
-        "code": "POSC162S",
-        "description": "LATIN AMERICA:  THE QUEST FOR DEVELOPMENT AND DEMOCRACY",
+        "code": "POSC161",
+        "description": "U.S.-LATIN AMERICAN RELATIONS",
         "credits": 5,
-        "average": "----",
-        "comments": []
+        "average": "4.00",
+        "comments": [
+            {
+                "comment": "Taken with Serieux-Lubin. Straightforward asynchronous class with somewhat long video lectures. TA was a bit of a mess and graded wildly, but besides that, the classroom components are easy.",
+                "rating": "4",
+                "date": "3/18/2021"
+            }
+        ]
     },
     {
         "code": "POSC164",
@@ -9175,6 +9923,19 @@
         "credits": 4,
         "average": "----",
         "comments": []
+    },
+    {
+        "code": "POSC166",
+        "description": "JUDICIAL POLITICS AND POLICY MAKING",
+        "credits": 5,
+        "average": "7.00",
+        "comments": [
+            {
+                "comment": "Taken with Cioffi. Dude's exam was hard and his lectures are delivered in a boring fashion. He is SUPER smart though. He sorta drops hints about his exams when he talks so you should pay attention to EVERYTHING he says. 70% of grade is determined through Midterm Essay and Final",
+                "rating": "7",
+                "date": "5/10/2020"
+            }
+        ]
     },
     {
         "code": "POSC168",
@@ -9197,17 +9958,11 @@
         "comments": []
     },
     {
-        "code": "POSC182",
-        "description": "POLITICS AND ECONOMIC POLICY",
+        "code": "POSC186",
+        "description": "REGULATION: A POLITICAL PERSPECTIVE",
         "credits": 5,
-        "average": "5.00",
-        "comments": [
-            {
-                "comment": "Taken with Noel Johnston. Simple asynchronous class with a lot of application of theoretical concepts. It can be tough, but the concepts themselves are broken down very well. Midterm's and Finals are very fair and require a lot of application. Some extra credit opportunities are available",
-                "rating": "5",
-                "date": "3/18/2021"
-            }
-        ]
+        "average": "----",
+        "comments": []
     },
     {
         "code": "PSYC001",
@@ -9571,6 +10326,13 @@
         "comments": []
     },
     {
+        "code": "PSYC129",
+        "description": "HUMAN NEUROPSYCHOLOGY",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "PSYC132",
         "description": "PERCEPTION",
         "credits": 4,
@@ -9603,8 +10365,26 @@
         ]
     },
     {
+        "code": "PSYC142",
+        "description": "INDUSTRIAL/ORGANIZATIONAL PSYCHOLOGY",
+        "credits": 4,
+        "average": "3.00",
+        "comments": [
+            {
+                "comment": "Prof. Sy is entertaining; he really makes an effort to be funny. Tests are easy and straightforward. The extra credit is crazy hard though.  ",
+                "rating": "3",
+                "date": "3/7/2019"
+            },
+            {
+                "comment": "Psy\u2019s a fun prof, I didn\u2019t go to lecture much (3 hrs at night? no thanks) but attendance is required for discussion and the TAs give pop quizzes in discussion on the chapter for the week. easy A. ",
+                "rating": "3",
+                "date": "4/11/2019"
+            }
+        ]
+    },
+    {
         "code": "PSYC148",
-        "description": "THE SOCIAL BRAIN",
+        "description": "THE PSYCHOLOGY OF PRODUCTIVITY",
         "credits": 4,
         "average": "----",
         "comments": []
@@ -9658,31 +10438,11 @@
         "comments": []
     },
     {
-        "code": "PSYC165B",
-        "description": "THE DEVELOPMENT OF IMMIGRANT AND ETHNIC MINORITY YOUTH",
-        "credits": 4,
-        "average": "----",
-        "comments": []
-    },
-    {
         "code": "PSYC166C",
         "description": "ADOLESCENCE AND EMERGING ADULTHOOD",
         "credits": 4,
         "average": "----",
         "comments": []
-    },
-    {
-        "code": "PSYC175",
-        "description": "PSYCHOLOGY AND LAW",
-        "credits": 4,
-        "average": "4.00",
-        "comments": [
-            {
-                "comment": "It\u2019s an upper division class, but honestly SOOOO INTERESTING. This class is taught my professor Clark and he\u2019s very well versed in it since he created the class. I loved this class so much and he\u2019s an amazing professor. I took the class online so it was a little different. But- 10 quizzes = 50% of your grade and 1 final = 50% of your grade. ",
-                "rating": "4",
-                "date": "6/8/2020"
-            }
-        ]
     },
     {
         "code": "PSYC178",
@@ -9692,22 +10452,15 @@
         "comments": []
     },
     {
-        "code": "PSYC182J",
-        "description": "ATTENTION &amp; MEMORY",
-        "credits": 5,
-        "average": "----",
-        "comments": []
-    },
-    {
         "code": "PSYC182N",
-        "description": "ADULT DEVELOPMENT &amp; AGING",
+        "description": "LABORATORY IN PSYCHOLOGY",
         "credits": 5,
         "average": "----",
         "comments": []
     },
     {
         "code": "PSYC189",
-        "description": "THE SCIENCE OF EMOTIONS",
+        "description": "PHYSICAL ACTIVITY ON COGNITION",
         "credits": 4,
         "average": "7.00",
         "comments": [
@@ -9721,7 +10474,7 @@
     {
         "code": "PBPL001",
         "description": "INTRODUCTION TO PUBLIC POLICY ANALYSIS",
-        "credits": 4,
+        "credits": 0,
         "average": "2.67",
         "comments": [
             {
@@ -9787,7 +10540,7 @@
     {
         "code": "PBPL004",
         "description": "ETHICS, PROFESSIONALISM, AND PUBLIC POLICY",
-        "credits": 4,
+        "credits": 0,
         "average": "2.60",
         "comments": [
             {
@@ -9825,8 +10578,22 @@
         "comments": []
     },
     {
-        "code": "RLST005",
-        "description": "INTRODUCTION TO ASIAN RELIGIONS",
+        "code": "PBPL127",
+        "description": "SOCIOLOGICAL DETERMINANTS OF HEALTH",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "PBPL167",
+        "description": "MEDICAL SOCIOLOGY",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "PBPL185",
+        "description": "RACE AND LAW ENFORCEMENT",
         "credits": 4,
         "average": "----",
         "comments": []
@@ -9846,6 +10613,19 @@
                 "comment": "I took this class with Professor Chang and I had Kori as a TA. They were both very nice and easy going. This class requires two books, one of them you can just find the pdf but I had to buy the other book. It was pretty much easy, just do your section's reading (the online class is set up in a specific way where you're broken up into groups and are given questions that correlate with your group number to which you answer during lectures). There was one midterm and one final, both of which Prof. Chang gave out study guides to (the guides were literally the exact same questions so make sure to do it, he also lets you use the guides during the exams). It's a pretty easy class, you don't really need to spend much energy and time on it. ",
                 "rating": "3",
                 "date": "3/20/2021"
+            }
+        ]
+    },
+    {
+        "code": "RLST007",
+        "description": "JEWS, CHRISTIANS, AND MUSLIMS",
+        "credits": 5,
+        "average": "2.00",
+        "comments": [
+            {
+                "comment": "Professor Bayer is an awesome and chill professor. He knows that most of his students are only taking the class as a requirement and doesn't try to force the material on students. Course consists of three end-of-section exams and one final project.",
+                "rating": "2",
+                "date": "6/2/2019"
             }
         ]
     },
@@ -9885,13 +10665,6 @@
                 "date": "1/15/2021"
             }
         ]
-    },
-    {
-        "code": "RLST016",
-        "description": "SEXUALITY AND RELIGION IN GLOBAL PERSPECTIVE",
-        "credits": 4,
-        "average": "----",
-        "comments": []
     },
     {
         "code": "SOC001",
@@ -10158,13 +10931,6 @@
         "comments": []
     },
     {
-        "code": "SOC139",
-        "description": "MASS MEDIA AND POPULAR CULTURE",
-        "credits": 4,
-        "average": "----",
-        "comments": []
-    },
-    {
         "code": "SOC140",
         "description": "THE SOCIOLOGY OF WOMEN",
         "credits": 4,
@@ -10219,6 +10985,19 @@
         ]
     },
     {
+        "code": "SOC167",
+        "description": "MEDICAL SOCIOLOGY",
+        "credits": 4,
+        "average": "8.00",
+        "comments": [
+            {
+                "comment": "Such a caring professor, clear criteria, optional zoom class because he records them all. A lot of readings & exams aren\u2019t crazy unless you don\u2019t read everything he mentions as well as watch lecture. Overall would take again but study! ",
+                "rating": "8",
+                "date": "2/17/2021"
+            }
+        ]
+    },
+    {
         "code": "SOC168",
         "description": "DEVELOPMENT OF SOCIOLOGICAL THEORY",
         "credits": 5,
@@ -10263,13 +11042,6 @@
     {
         "code": "SEAS123",
         "description": "SOUTHEAST ASIAN PERFORMANCE",
-        "credits": 4,
-        "average": "----",
-        "comments": []
-    },
-    {
-        "code": "SEAS136",
-        "description": "ANTHROPOLOGICAL PERSPECTIVES ON GENDER IN SOUTHEAST ASIA",
         "credits": 4,
         "average": "----",
         "comments": []
@@ -10346,11 +11118,30 @@
         ]
     },
     {
-        "code": "SPN046",
-        "description": "INTRODUCTION TO LATIN AMERICAN FILM",
-        "credits": 5,
-        "average": "----",
-        "comments": []
+        "code": "SPN109A",
+        "description": "SPANISH FOR THE NATIVE SPEAKER",
+        "credits": 4,
+        "average": "6.00",
+        "comments": [
+            {
+                "comment": "Hard grader. Professor Vargas very strict with native speakers, but prepares you well especially if desiring a major/minor in Spanish.",
+                "rating": "6",
+                "date": "1/21/2019"
+            }
+        ]
+    },
+    {
+        "code": "SPN109B",
+        "description": "SPANISH FOR THE NATIVE SPEAKER",
+        "credits": 4,
+        "average": "4.00",
+        "comments": [
+            {
+                "comment": "Class is hella easy compared to 109A. Taken with Mirta Copa Vargas and even though the class was hella on her head for being hard, she was not. Her essay topics can be confusing but asking others in the class is key to understanding what to write about. Once you understand her essay prompt/expectations her class is cake. I did essays two days before and walked out with an A. ",
+                "rating": "4",
+                "date": "12/16/2020"
+            }
+        ]
     },
     {
         "code": "SPN110",
@@ -10557,6 +11348,24 @@
         ]
     },
     {
+        "code": "TFDP010",
+        "description": "INTRODUCTION TO ACTING",
+        "credits": 4,
+        "average": "1.50",
+        "comments": [
+            {
+                "comment": "I recommend Professor Bucklin for this class. He is funny, grades easily as long as you put in some effort for your acting, and practically gives you an \"A\" if you show up to the lecture (participation counts). There is no h.w. for this class. He occasionally gives small quizzes on the plays/screen writes (which can be found online) and write a short review for a play. The final is also super easy (it's a 3-5 min group performance, you get full points for participation).",
+                "rating": "1",
+                "date": "11/18/2019"
+            },
+            {
+                "comment": "This class with Buklin was pretty easy. Only 1 midterm, 2 quizzes about easy plays, and no final. He's easy to understand.",
+                "rating": "2",
+                "date": "11/22/2019"
+            }
+        ]
+    },
+    {
         "code": "TFDP020",
         "description": "PRODUCTION TECHNIQUEST FOR THEATRE, FILM, AND TELEVISION",
         "credits": 4,
@@ -10609,6 +11418,20 @@
         "comments": []
     },
     {
+        "code": "TFDP110A",
+        "description": "ACTING: FUNDAMENTALS",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "TFDP110B",
+        "description": "ACTING: TECHNIQUES",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "TFDP115",
         "description": "HIP HOP THEATRE",
         "credits": 4,
@@ -10618,6 +11441,20 @@
     {
         "code": "TFDP155",
         "description": "INTRODUCTION TO DIGITAL FILM PRODUCTION",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "TFDP156A",
+        "description": "DIGITAL FILM PRODUCTION",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "TFDP156B",
+        "description": "DIGITAL FILM PRODUCTION",
         "credits": 4,
         "average": "----",
         "comments": []
@@ -10658,6 +11495,13 @@
         "comments": []
     },
     {
+        "code": "URST069",
+        "description": "THE POLITICS OF PUBLIC SPACE",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "URST143",
         "description": "URBAN SOCIOLOGY",
         "credits": 5,
@@ -10667,13 +11511,6 @@
     {
         "code": "VNM004",
         "description": "INTERMEDIATE VIETNAMESE",
-        "credits": 4,
-        "average": "----",
-        "comments": []
-    },
-    {
-        "code": "WRLT170",
-        "description": "THIRD WORLD LITERATURE",
         "credits": 4,
         "average": "----",
         "comments": []
