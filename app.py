@@ -3,6 +3,7 @@ from flask import Flask, request, Response, jsonify, make_response
 from flask_cors import CORS
 from lxml import html
 from icalendar import Calendar, Event
+from Pyro5.api import Proxy
 
 from math import prod
 import time
@@ -65,13 +66,16 @@ def is_conflict(crn1, crn2, times):
 
 @app.route('/', methods=['GET'])
 def home():
-    term = request.args['term']
-    course = request.args['course']
-    try: 
-        class_data = get_class_data(term, course)
-    except Exception as e:
-        return Response(str(e), status=400)
-    return jsonify(class_data)
+    num = request.args['num']
+    with Proxy("PYRO:TestAPI@localhost:9999") as serv:
+        return serv.test(int(num))
+    # term = request.args['term']
+    # course = request.args['course']
+    # try: 
+        # class_data = get_class_data(term, course)
+    # except Exception as e:
+        # return Response(str(e), status=400)
+    # return jsonify(class_data)
     
 def get_course_sections(code, future, full_data, times, term, course_sections, seats):
     s = time.perf_counter()
@@ -81,60 +85,58 @@ def get_course_sections(code, future, full_data, times, term, course_sections, s
         #     continue
         if not section['meetingsFaculty']:
             return Response(f'No specified meeting times for {code}', status=400)
-        full_data.update({section['courseReferenceNumber']: section})
-        times.update({section['courseReferenceNumber']: section['meetingsFaculty'][0]['meetingTime']})
+        full_data[section['courseReferenceNumber']] = section
+        times[section['courseReferenceNumber']] = section['meetingsFaculty'][0]['meetingTime']
         
         num = section['linkIdentifier'][1:] if section['linkIdentifier'] and (section['linkIdentifier'][1:]).isnumeric() else 1
-        if num not in temp:
-            temp.update({num: dict()})
+        temp[num] = temp.get(num, dict())
         type = section['scheduleTypeDescription']
-        if type not in temp[num]:
-            temp[num].update({type: []})
+        temp[num][type] = temp[num].get(type, [])
 
         if not showFull and not seats[section['courseReferenceNumber']]:#and section['seatsAvailable'] == 0: # give option to make waitlist schedules
         # if not showFull and not get_seats(term, section['courseReferenceNumber']):
             continue
-        temp[num].update({type: temp[num][type] + [section['courseReferenceNumber']]})
+        temp[num][type] = temp[num][type] + [section['courseReferenceNumber']]
     toDelete = set()
     for section in temp:
         for type in temp[section]:
             if(len(temp[section][type]) == 0):
                 toDelete.add(section)
                 break
+                
     for section in toDelete:
         del temp[section]
     if len(temp) != 0:
-        course_sections.update({code: temp})
+        course_sections[code] = temp
     else:
         return Response(f'Unable to find open sections for {code}', status=400)
     
 @app.route('/schedules', methods=['GET'])
 def schedules():
+    course_sections, times, full_data, seats = dict(), dict(), dict(), dict()
     start, _start = time.perf_counter(), time.perf_counter()
     term = request.args['term']
-    codes = request.args['courses'].split(',')# if ',' in request.args['courses'] else []
+    codes = request.args['courses'].split(',')
     print(len(codes), end=": ")
     if not term or not codes:
         return Response(f"Missing parameter(s):{' term' if not term else ''} {' courses' if not codes else ''}", status=400)
-    course_sections = dict()
-    times = dict()
-    full_data = dict()
-    seats = dict()
     print(codes)
     print('Start:', time.perf_counter() - start)
     
+    
+    ### RETRIEVE COURSE SECTION DATA ###
     start = time.perf_counter()
     with concurrent.futures.ThreadPoolExecutor(max_workers=2*len(codes)) as executor:
         futures = [(code, executor.submit(get_class_data, term, code)) for code in codes] # Add class data
         coreqs = []
-        for _, future in futures:
+        for _, future in futures: # Add coreq to codes list
             for section in future.result():
                 coreqs += [f'{section["subject"]}{creq}' for creq in section['coreq'] if f'{section["subject"]}{creq}' not in coreqs and f'{section["subject"]}{creq}' not in codes]
         futures += [(code, executor.submit(get_class_data, term, code)) for code in coreqs] # Add coreq class data
-        for _, future in futures:
+        for _, future in futures: # Update seat info
             try:
                 for crn, future in [(section['courseReferenceNumber'], executor.submit(get_seats, term, section['courseReferenceNumber'])) for section in future.result()]:
-                    seats.update({crn: future.result()})
+                    seats[crn] = future.result()
             except Exception as e:
                 return Response(str(e), status=400)
         for code, future in futures:
@@ -142,14 +144,6 @@ def schedules():
     print('Get Class Data/Course Sections:', time.perf_counter() - start)
 
 
-    """ course_sections
-        "BIOL005A": {
-            "1": {
-               "Lecture":["50922"],
-               "Discussion":["50924",]
-            }
-        }
-    """
     ### GENERATE SECTION PAIRS ###
     start = time.perf_counter()
     section_combinations = []
@@ -169,6 +163,7 @@ def schedules():
         sc_lengths = [len(x) for x in section_combinations]
     print(sc_lengths, prod(sc_lengths))
     print('Gen Section Pairs:', time.perf_counter() - start)
+    
     
     ### CHECK IF TWO SECTIONS IN A SCHEDULE CONFLICT """
     conflicts = pickle.load(open(f'json/{term}_conflicts.pickle', 'rb'))
@@ -214,7 +209,6 @@ def schedules():
     print('All | Valid:', all_schedules, len(valid_schedules), len(schedules))
     # shuffle(schedules)
     print('End:', time.perf_counter() - _start, end='\n\n')
-    # return jsonify(json.dumps(schedules, separators=(',', ":")))
     if len(schedules) > 0:
         return jsonify(schedules[:500])
     else:
