@@ -1,2 +1,1 @@
-release: chmod u+x pypy.sh && ./pypy.sh
-web: gunicorn app:app
+web: chmod u+x pypy.sh && ./pypy.sh && gunicorn app:app
