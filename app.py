@@ -68,7 +68,7 @@ def is_conflict(crn1, crn2, times):
 def home():
     num = request.args['num']
     with Proxy("PYRO:TestAPI@localhost:9999") as serv:
-        return serv.test(int(num))
+        return str(serv.test(int(num)))
     # term = request.args['term']
     # course = request.args['course']
     # try: 
