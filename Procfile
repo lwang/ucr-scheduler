@@ -1,2 +1,2 @@
 web: gunicorn app:app
-test: bash ./pypy.sh
+worker: bash ./pypy.sh
