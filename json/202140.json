@@ -126,6 +126,11 @@
                 "comment": "dr nida winter 2021: super interesting subject, lectures optional. never really had to study past the weekly homework \"quizzes\", and grading of writing assignments all depends on your ta--i got really lucky w reed who was super nice and lenient.",
                 "rating": "3",
                 "date": "3/20/2021"
+            },
+            {
+                "comment": "Had this with Professor Nida. This isn't a difficult class at all and was my first Breadth class I took at UCR. As long as you study before the exams, you should be good.",
+                "rating": "3",
+                "date": "5/22/2021"
             }
         ]
     },
@@ -133,7 +138,7 @@
         "code": "ANTH002",
         "description": "BIOLOGICAL ANTHROPOLOGY",
         "credits": 5,
-        "average": "4.20",
+        "average": "4.00",
         "comments": [
             {
                 "comment": "Took this class with Professor Greer.  Really nice guy and funny at times.  Final exam is easy.  Study his powerpoints (he posts them on iLearn) and you won't even need to read the book.",
@@ -179,6 +184,11 @@
                 "comment": "Took this with Berger, and I loved it! You get out of the class what you put in...literally. You choose your assignments worth diff points to build your grade with only one essay being mandatory to pass (beyond discussion work and attendance). ",
                 "rating": "3",
                 "date": "12/30/2020"
+            },
+            {
+                "comment": "Taken Fall 2020 with Dr. Berger, like others mentioned you get out what you put into the class. There's no formal midterm or final and with the bare minimum effort of showing up to class, discussions, doing the weekly open book/note lecture quizzes, and one 900-1200 word essay you'd get a 75%. Doing additional assignments (another essay, an infographic, an around 10 minute podcast/YouTube video, or a research poster) would raise your grade by 10 or 15 percent each. ",
+                "rating": "2",
+                "date": "6/6/2021"
             }
         ]
     },
@@ -186,7 +196,7 @@
         "code": "ANTH005",
         "description": "INTRODUCTION TO ARCHAEOLOGY",
         "credits": 5,
-        "average": "3.89",
+        "average": "3.70",
         "comments": [
             {
                 "comment": "Took it with Professor Stanton and his grading policy is very straightforward. He doesn't post slides online, so if you don't attend lecture regularly, you'll most likely fail the class. Easy to follow the class but it could get really boring sometimes. Going to discussion and following the study guide helps a lot for the exams",
@@ -232,6 +242,11 @@
                 "comment": "This class is pretty lecture heavy BUT there's no exams, only writing assignments / \"projects\" and so it's a pretty easy class if writing is your thing. Professor Santasilia is kinda strict at times and lectures are mandatory but it's a great class",
                 "rating": "4",
                 "date": "2/2/2021"
+            },
+            {
+                "comment": "(Spring 2021 Online) Professor Stanton. Maybe it's because the course was online but it was really simple. He had pre-recorded lectures but also held lectures that were optional. I never went and I did well on my quizzes/exams just by using the resources given by him. The class itself was graded by a few assignments given during discussion, easy chapter quizzes, 2 midterms, and the final. Discussion attendance is a must. (Be prepared to pay for the website/book he uses). Again, this course was online for me so it might be different when courses are back on campus.",
+                "rating": "2",
+                "date": "6/3/2021"
             }
         ]
     },
@@ -262,13 +277,6 @@
         ]
     },
     {
-        "code": "ANTH117",
-        "description": "ANTHROPOLOGY OF CITIES",
-        "credits": 4,
-        "average": "----",
-        "comments": []
-    },
-    {
         "code": "ANTH120",
         "description": "LANGUAGE AND CULTURE",
         "credits": 4,
@@ -279,8 +287,14 @@
         "code": "ANTH127S",
         "description": "POLITICAL ANTHROPOLOGY",
         "credits": 4,
-        "average": "----",
-        "comments": []
+        "average": "2.00",
+        "comments": [
+            {
+                "comment": "Took Phuoc Duong. Weekly Responses (5 -10 sentences; 10 total). 1 syllabus quiz. 1 midterm (multiple choice; 52 questions). 1 Final (multiple choice). 1 final essay(6-8 pages)(For our class he took it out and added essay questions into the final due to time constraints.)Graded for attendance to lecture. Graded for attendance to discussion section. Lectures are a bit useless since he reads straight from the slide show, but he grades for attendance. before the midterm you can get away with not doing the readings since there are only 2-3 questions about the readings in the midterm, but after the midterm he starts to heavily rely on the readings in the weekly responses. Not a whole lot of work, just tedious. ",
+                "rating": "2",
+                "date": "5/21/2021"
+            }
+        ]
     },
     {
         "code": "ANTH132",
@@ -358,13 +372,6 @@
         "comments": []
     },
     {
-        "code": "ANTH177",
-        "description": "GENDER, SEXUALITY, AND MUSIC IN CROSS-CULTURAL PERSPECTIVES",
-        "credits": 4,
-        "average": "----",
-        "comments": []
-    },
-    {
         "code": "ANTH189",
         "description": "GENDER AND POWER IN MUSLIM SOCIETIES",
         "credits": 4,
@@ -435,6 +442,13 @@
         "comments": []
     },
     {
+        "code": "ARBC003",
+        "description": "ELEMENTARY ARABIC",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "ARBC004",
         "description": "INTERMEDIATE ARABIC",
         "credits": 4,
@@ -458,8 +472,14 @@
         "code": "ART002",
         "description": "BEGINNING PAINTING AND DESIGN",
         "credits": 4,
-        "average": "----",
-        "comments": []
+        "average": "1.00",
+        "comments": [
+            {
+                "comment": "(COVID ERA) I took this class with Gerald Sheffield and it was extremely easy. Art is a subjective course so you can pretty much do whatever you want in this class (as long as it pertains to the theme). Every week there's a new theme (figure, landscape, still life, etc.) and you just need to paint things based on that theme. The materials can get really pricey but Gerald was pretty lenient with whatever material you use. The online class was set up with you logging on and following Gerald's painting examples but there were also times where you explain your painting process and thoughts when you showcase and review your pieces in class. If you want an easy course without minding spending somewhere between $50-$100+ on materials then go for this class. ",
+                "rating": "1",
+                "date": "6/10/2021"
+            }
+        ]
     },
     {
         "code": "ART003",
@@ -580,14 +600,8 @@
         "code": "AHS008",
         "description": "MODERN WESTERN VISUAL CULTURE",
         "credits": 4,
-        "average": "1.00",
-        "comments": [
-            {
-                "comment": "if you just do the essays and participate a little in class you can get an easy A. Professor Brookshire is super nice and accommodating. ",
-                "rating": "1",
-                "date": "12/17/2020"
-            }
-        ]
+        "average": "----",
+        "comments": []
     },
     {
         "code": "AHS010S",
@@ -640,13 +654,6 @@
     {
         "code": "AHS251A",
         "description": "PROSEMINAR IN HISTORIOGRAPHY\r\n",
-        "credits": 4,
-        "average": "----",
-        "comments": []
-    },
-    {
-        "code": "AHS267",
-        "description": "SEMINAR IN ASIAN ART",
         "credits": 4,
         "average": "----",
         "comments": []
@@ -751,7 +758,7 @@
         "code": "BSWT003",
         "description": "BASIC WRITING FOR SECOND-LANGUAGE STUDENTS",
         "credits": 4,
-        "average": "6.00",
+        "average": "7.00",
         "comments": [
             {
                 "comment": "Class is a remedial class. Focus on the feedback of the professor and use your essay as a standing point. The class is a S/NC so focus on getting easy point early  and not worrying on the final later on. ",
@@ -762,6 +769,11 @@
                 "comment": "might be a hard class if you are not native speaker, but professor Fenton is super nice if you go to his OH and watch his pre recorded lectures. Don't bomb your essay cause those are like 75% of your grade. At the end this is only a S/NS class.",
                 "rating": "5",
                 "date": "3/16/2021"
+            },
+            {
+                "comment": "This class fail you twice or more on purposely so u can take it again before you get ready for engl 004, especially ucr English department or UC trying make money from our pocket. U only get 5 tries then they automatically move you up to engl 004. Personally I would definitely not take that class again Bc it\u2019s just waste of time, units and dragging ur own major requirements, so I would said take \u201ccity college classes\u201d to skip bswt 003 and English 004, so u can waive out engl 1a. Used \u201cAssist.org\u201d to help which city college class can transfer to ucr engl 1a. In the end, don\u2019t waste your energy this class because bswt 003 is joke and rigged asf. I wouldn\u2019t recommend it if ppl got place this class after taking AWPE, either place to bswt 001, 002 and 003. It just waste of energy and time investment. ",
+                "rating": "9",
+                "date": "6/17/2021"
             }
         ]
     },
@@ -810,7 +822,7 @@
         "code": "BCH100",
         "description": "INTRODUCTORY BIOCHEMISTRY",
         "credits": 4,
-        "average": "5.83",
+        "average": "5.86",
         "comments": [
             {
                 "comment": "Dingwall is the best prof for this course. Cutoffs are awesome. But dont fall behind in her coursework. ",
@@ -841,6 +853,11 @@
                 "comment": "Dingwall was amazing and fair. Focus on her lectures to do well on the exam. Grade is determined by 8 homework assignments. Grade is determined by 1 midterm and 1 final",
                 "rating": "5",
                 "date": "12/31/2020"
+            },
+            {
+                "comment": "Took it with Dingwall and Eulgem online during Spring 2021. Tbh one of my favorite classes at UCR so far. The profs are extremely passionate and very helpful if you go to office hours. The material is a bit difficult to keep up with at first, but it is very manageable. To study for midterms, I would write out notes based off of the learning objectives. Then I would make Anki cards using my notes and the exact wording that was used on the learning objectives. Try to start memorizing pathways 2-3 days before the exams (at least). ",
+                "rating": "6",
+                "date": "6/15/2021"
             }
         ]
     },
@@ -854,7 +871,7 @@
     {
         "code": "BCH110A",
         "description": "GENERAL BIOCHEMISTRY",
-        "credits": 4,
+        "credits": 0,
         "average": "8.33",
         "comments": [
             {
@@ -1450,6 +1467,11 @@
                 "comment": "Took this during Fall 2020 (virtual), asynchronous lectures, weekly mandatory discussion. open note quizzes, midterm, and final. Only 2 assignments and they were pretty straightforward, ",
                 "rating": "4",
                 "date": "12/28/2020"
+            },
+            {
+                "comment": "Took this class during covid with Professor Kahn. I am giving the class a 4 because even though the assignments, exams, and everything was easy you needed virtually all of the points to actually get an A. She claims that she doesn't curve the class at all. The class was out of 500 points and there wasn't any homework. You can really not mess up on any assignment or there goes your A. ",
+                "rating": "4",
+                "date": "5/25/2021"
             }
         ]
     },
@@ -1497,7 +1519,7 @@
         "code": "BIOL102",
         "description": "INTRODUCTORY GENETICS",
         "credits": 4,
-        "average": "6.33",
+        "average": "6.50",
         "comments": [
             {
                 "comment": "Legitimately not that hard.  Many complain Maslov doesn't really teach but learning genetics is mostly rote memorization and practice.  You're just getting the basic principles down.  He provides lots of practice problems and old exams, so if you go through those and understand the problems, you're guaranteed an A.",
@@ -1513,6 +1535,11 @@
                 "comment": "Had Gachomo for the first half and her teaching consists of reading the slides while the midterms consists of material we rarely went over. Her midterms not only cheated our time but she would have so many questions that were impossible for many students to finish in the time allotted. Bachant was an amazing professor in the second half. Definitely understood the struggle of the students and thoroughly went through the material. The material itself isn't that hard except that if you miss a part then it gets slightly confusing. ",
                 "rating": "7",
                 "date": "6/25/2020"
+            },
+            {
+                "comment": "Took with Dr. Arthur Jia Spring 2021. AMAZING professor he truly cares for his students and wants you to do well. Ample opportunities for office hours and midterm review. HOWEVER, his two midterms were short answer, fair, and closed book. Final was 25 mc closed book. Class is graded on a class scale (20-25% get A's etc.)",
+                "rating": "7",
+                "date": "6/7/2021"
             }
         ]
     },
@@ -1555,7 +1582,7 @@
     {
         "code": "BIOL108",
         "description": "POPULATION GENETICS AND GENOMICS",
-        "credits": 0,
+        "credits": 4,
         "average": "7.00",
         "comments": [
             {
@@ -1622,6 +1649,13 @@
         "code": "BIOL120",
         "description": "INTRODUCTION TO PLANT PATHOLOGY",
         "credits": 3,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BIOL120L",
+        "description": "INTRODUCTION TO PLANT PATHOLOGY LABORATORY",
+        "credits": 1,
         "average": "----",
         "comments": []
     },
@@ -1805,6 +1839,13 @@
         "comments": []
     },
     {
+        "code": "BMSC202",
+        "description": "MOLECULAR BASIS OF DISEASE",
+        "credits": 3,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "BMSC252",
         "description": "GENERAL SEMINAR IN BIOMEDICAL SCIENCES",
         "credits": 1,
@@ -1815,6 +1856,13 @@
         "code": "BMSC254",
         "description": "GRADUATE SEMINAR IN BIOMEDICAL SCIENCES",
         "credits": 1,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BMSC260A",
+        "description": "TOPICS IN TRANSLATIONAL BIOMEDICAL RESEARCH",
+        "credits": 2,
         "average": "----",
         "comments": []
     },
@@ -1983,7 +2031,7 @@
         "code": "BUS020",
         "description": "FINANCIAL ACCOUNTING AND REPORTING",
         "credits": 4,
-        "average": "5.70",
+        "average": "6.00",
         "comments": [
             {
                 "comment": "The final is so hard that it is majorly curved.",
@@ -2024,6 +2072,16 @@
                 "comment": "I took this class during winter 2021 when classes were online with Naman Desai. This is probably the worst class I have ever taken. The midterm and exam weren't too difficult. Honestly, if you just find random quizlets with accounting questions and use those to study, chances are that you'll see similar questions on his exams. The prof doesn't really teach - he just shows you how to do textbook problems without explaining anything. He assigned us weekly quizzes, but I didn't find them that useful. They only showed us what types of questions he was going to give us on the exams. He also didn't give us a practice midterm or final which I thought was inconsiderate, considering we were online and he wasn't that good of a professor. The TAs were also barely useful. They would just upload videos explaining the answers to quizzes, but those explanations weren't that good in my opinion. I think that this class was manageable, but not a good experience. ",
                 "rating": "8",
                 "date": "3/25/2021"
+            },
+            {
+                "comment": "Barry Mishra is a horrible professor. He steals lectures from other professors and does not care about students. Basically self teach",
+                "rating": "9",
+                "date": "5/12/2021"
+            },
+            {
+                "comment": "I had Mishra and he was alright. tuesdays were asynchronous lectures and thursdays were synchronous but not mandatory. the asynchronous lectures were the most helpful because the practice problems he went over were the same format as test questions. the material was pretty hard tbh but if you're willing to study and do practice questions it should be manageable. ",
+                "rating": "6",
+                "date": "5/23/2021"
             }
         ]
     },
@@ -2031,7 +2089,7 @@
         "code": "BUS100W",
         "description": "MANAGEMENT WRITING AND COMMUNICATION",
         "credits": 4,
-        "average": "6.40",
+        "average": "6.00",
         "comments": [
             {
                 "comment": "I had Corrine Knight. 4 books needed for this class but they weren't expensive. 4 essays in total: first was easy, second was alright but a bit hard, third was hard, and fourth was easy for me. Quizzes were given randomly and sometimes in the middle of lecture, so go to class on time. Only one midterm and all questions come from quizzes so it's easy. Two presentations (one video pres.) but they're pretty simple. TAs can be a bit strict in grading essays so try to get feedback from them.",
@@ -2059,7 +2117,7 @@
         "code": "BUS101",
         "description": "INFORMATION TECHNOLOGY MANAGEMENT",
         "credits": 4,
-        "average": "2.75",
+        "average": "2.60",
         "comments": [
             {
                 "comment": "I took it with Rich Yueh. One of the best business professors you'll have imo. He's new to UCR but he knows his stuff and actually relates to us. I will admit, lectures were boring every now and then, but he had a good sense of humor that made up for it and the material was pretty easy to understand. He's really nice and accommodating, and goes the extra mile for students. Posts slides on iLearn but they're not that comprehensive, so you need to go to lecture for a more detailed understanding of the material. Five homework assignments but were super easy and quizzes given in lecture every other week, no midterm or final. No book needed for this class. Overall, a fun, easy class with a great professor.",
@@ -2082,7 +2140,7 @@
         "code": "BUS102",
         "description": "ETHICS AND LAW IN BUSINESS AND SOCIETY",
         "credits": 4,
-        "average": "5.50",
+        "average": "6.33",
         "comments": [
             {
                 "comment": "It's hard to rate this classes difficulty since it was entirely artificially difficult. The professor, Sean Jasso, caps all of the grades on any assignment at a high B or a very low A, essentially ensuring that you will receive a B or B- in the class. If you want to receive anything higher than a B or B-, you'll have to go to office hours and do a little brown nosing of the T.A and the professor, as well as do any \"value added\" activities that he assigns in the class. When you do the writing assignments make sure that you write each one out to the maximum length. I.E, if he tells you to write 3 pages, write to the very bottom of page 3, no more, no less.",
@@ -2159,7 +2217,7 @@
         "code": "BUS106",
         "description": "INTRODUCTION TO FINANCIAL MANAGEMENT",
         "credits": 4,
-        "average": "6.50",
+        "average": "6.20",
         "comments": [
             {
                 "comment": "I took it with Professor Peter Chung. Easily the worst professor I have ever had. He is so hard to understand and is an extremely harsh grader. If you do bad on the first midterm, the best grade you can get in the class is a C. ",
@@ -2180,6 +2238,11 @@
                 "comment": "Took the course Fall 2020. It was online. Professor Chung was very accessible and the TAs put in an impressive amount of work. The course was difficult in that the material can be foreign and the conceptual questions in exams really test your knowledge of the material. 3 exams (2 MT, 1 final), noncumulative. Homework was very doable. ",
                 "rating": "6",
                 "date": "12/28/2020"
+            },
+            {
+                "comment": "Took it online with Dr. Damian Dunbar in Spring 2021. The class is really not that difficult if you do the extra practice problems and skim through the textbook to gain a better understanding of the concepts. Do well on the homework and the extra practice quizzes because some of the questions are the same as the exam questions with only a few numbers switched around. Would also recommend doing the textbook problems for more practice. ",
+                "rating": "5",
+                "date": "6/15/2021"
             }
         ]
     },
@@ -2223,8 +2286,14 @@
         "code": "BUS109",
         "description": "COMPETITIVE AND STRATEGIC ANALYSIS",
         "credits": 4,
-        "average": "----",
-        "comments": []
+        "average": "5.00",
+        "comments": [
+            {
+                "comment": "Took with Raveendran online Spring 2021. Super easy course, some busy work but insanely doable. Consider her as your professor as opposed to Jasso or Weigel if you don't like suffering",
+                "rating": "5",
+                "date": "6/7/2021"
+            }
+        ]
     },
     {
         "code": "BUS111",
@@ -2290,6 +2359,19 @@
         "comments": []
     },
     {
+        "code": "BUS132",
+        "description": "FOUNDATIONS OF FINANCE",
+        "credits": 4,
+        "average": "8.00",
+        "comments": [
+            {
+                "comment": "",
+                "rating": "",
+                "date": ""
+            }
+        ]
+    },
+    {
         "code": "BUS133",
         "description": "ACCELERATED FOUNDATIONS OF FINANCE",
         "credits": 4,
@@ -2330,6 +2412,19 @@
         "credits": 4,
         "average": "----",
         "comments": []
+    },
+    {
+        "code": "BUS146",
+        "description": "INTRODUCTION TO ENTREPRENEURSHIP",
+        "credits": 4,
+        "average": "3.00",
+        "comments": [
+            {
+                "comment": "This class with Haibo Liu is a really fun class about entrepreneurship. It mainly consist of a midterm presentation, a final presentation, a take home final, and participation credit. Doing the bare minimum and showing interest can get you a good grade in this class.\n",
+                "rating": "3",
+                "date": "5/24/2021"
+            }
+        ]
     },
     {
         "code": "BUS149",
@@ -2565,6 +2660,19 @@
         ]
     },
     {
+        "code": "CBNS120L",
+        "description": "NEUROSCIENCE LABORATORY",
+        "credits": 2,
+        "average": "6.00",
+        "comments": [
+            {
+                "comment": "Michael Adams; Lab reports are graded by TAs and it was fairly easy. As long as you answer the questions on the lab manual and explain the figures, you should be fine. Adams is very lenient when it comes to extensions. He extended all of the lab reports with no questions, just ask! Nice man, but very monotoned. ",
+                "rating": "6",
+                "date": "6/21/2021"
+            }
+        ]
+    },
+    {
         "code": "CBNS121",
         "description": "DEVELOPMENTAL NEUROSCIENCE",
         "credits": 4,
@@ -2575,12 +2683,17 @@
         "code": "CBNS124",
         "description": "SYSTEMS NEUROSCIENCE",
         "credits": 4,
-        "average": "7.00",
+        "average": "8.50",
         "comments": [
             {
                 "comment": "Studying at least once a day three times a week helped.",
                 "rating": "7",
                 "date": "12/15/2018"
+            },
+            {
+                "comment": "With professor Curras during covid. She is horrible. Does not teach in zoom, instead, she posts a lot of lectures that actually have a due date, so you have to watch it before the deadline otherwise it closes. She requires both yuja and a lockdown browser. She does not make accommodations ",
+                "rating": "10",
+                "date": "7/31/2021"
             }
         ]
     },
@@ -3238,8 +3351,13 @@
         "code": "CHEM008C",
         "description": "ORGANIC CHEMISTRY",
         "credits": 3,
-        "average": "6.86",
+        "average": "7.00",
         "comments": [
+            {
+                "comment": "Note: Formerly CHEM012C",
+                "rating": "",
+                "date": ""
+            },
             {
                 "comment": "Take Switzer if you can, he's very clear about what will be on the exam and gives good lecture notes on ilearn",
                 "rating": "8",
@@ -3274,6 +3392,11 @@
                 "comment": "Took with Switzer Fall 2020. Three midterms and third midterm was our final and not cumulative. 8C is easier than 8B and there's less reactions as most of them just tweak stuff already learned in 8A/8B. First two chapters are probably the hardest of the entire class, and after CH 18/19 the rest of the class is biochem focused and generally the material is easier to understand as nothing new is learned, just apply ochem to bio which isn't hard. Do the practice problems as usual for Switzer as some pop up on the exam word for word and going to SI really helped. Easier than 8B though and not a bad time. ",
                 "rating": "7",
                 "date": "12/16/2020"
+            },
+            {
+                "comment": "Took it with Switzer online during Spring 2021. The actual material is not that difficult, but his notes are extremely vague so you have to do a lot of self-studying to gain a better understanding. I highly recommend going to office hours and SI and studying a lot for the first exam, and then taking it easy from there. His grading system is based off of curved exam grades, so the average for the exam is a B, one SD above is an A, and one SD below is a C. Also do as many of his practice problems as you can, as it will give you a better idea of what he wants you to focus on for the exams. ",
+                "rating": "8",
+                "date": "6/15/2021"
             }
         ]
     },
@@ -3398,11 +3521,6 @@
                 "comment": "Took it during COVID. Honestly your TA makes or breaks your experience. My TA was really bad, so I had to go other TA's office hours to get help with the lab reports. The labs weren't too confusing to understand, but sometimes they word things weirdly and I would need clarification on that. The lab final focused a lot on the material from experiments 1-5 in my opinion (chair structures, IR spectra, acids and bases are the main topics I can think of). Don't think you can study for the final in one day, because you won't be able to.",
                 "rating": "6",
                 "date": "12/16/2020"
-            },
-            {
-                "comment": "Note: Formerly CHEM012B",
-                "rating": "",
-                "date": ""
             }
         ]
     },
@@ -3410,7 +3528,7 @@
         "code": "CHEM08LC",
         "description": "ORGANIC CHEMISTRY LABORATORY",
         "credits": 1,
-        "average": "6.50",
+        "average": "6.00",
         "comments": [
             {
                 "comment": "More guesswork in the lab work.  A little more difficult than previous quarters of chem lab.  Final is the same as always.  Pirrung writes them, so memorize the manual.",
@@ -3421,6 +3539,11 @@
                 "comment": "Taken online so the labs were different. Lab TA are picky as hell during online so really put in time and effort. I hated using the Marvin sketch for drawing the mechanisms so be prepared for that. 8LC final wasn't hard you just need to memorize the answers to the post lab questions. Just the TA I had was too damn picky lol. ",
                 "rating": "6",
                 "date": "12/16/2020"
+            },
+            {
+                "comment": "Took it online during Spring 2021. Lab was much easier than prev ochem labs. Reports are entirely based on NMR and are extremely short, so try to finish it during the actual lab period while you have the TA there. Don't underestimate the final; it was much more difficult than previous courses. ",
+                "rating": "5",
+                "date": "6/15/2021"
             }
         ]
     },
@@ -3500,6 +3623,20 @@
         "comments": []
     },
     {
+        "code": "CHEM201A",
+        "description": "ADVANCED PHYSICAL CHEMISTRY: QUANTUM MECHANICS",
+        "credits": 3,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "CHEM201C",
+        "description": "ADVANCED PHYSICAL CHEMISTRY: ELEMENTARY STATISTICAL MECHANICS",
+        "credits": 3,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "CHEM201D",
         "description": "ADVANCED PHYSICAL CHEMISTRY: THERMODYNAMICS",
         "credits": 3,
@@ -3531,6 +3668,13 @@
         "code": "CHEM231A",
         "description": "STRUCTURE AND BONDING IN INORGANIC CHEMISTRY",
         "credits": 3,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "CHEM250",
+        "description": "GRADUATE SEMINAR IN CHEMISTRY",
+        "credits": 1,
         "average": "----",
         "comments": []
     },
@@ -3796,7 +3940,7 @@
         "code": "CS005",
         "description": "INTRODUCTION TO COMPUTER PROGRAMMING",
         "credits": 4,
-        "average": "4.83",
+        "average": "4.33",
         "comments": [
             {
                 "comment": "I had Dr. Linard as a lecturer; he was great. My TA (who runs/grades labs and projects) wasn't extremely helpful, but as long as you pay attention in lectures and show up to all 9 or 10 labs to the best of your ability, you will be fine.",
@@ -3822,6 +3966,21 @@
                 "comment": "SUPERRRRR EASY has few labs worth 40% of your grade but has literal step by step just do 2x speed, worksheets during class super easy and she just wants you to attempt it (no matter what you get she gives you full credit), 4 quizzes but she goes over examples and the worksheets, and 2 projects",
                 "rating": "1",
                 "date": "2/24/2021"
+            },
+            {
+                "comment": "take with professor bashar!! he's super organized and goes through labs/quizzes in class and doesn't give a final. material is much easier to understand if you attend lectures bc he teaches using thunkable.",
+                "rating": "3",
+                "date": "5/28/2021"
+            },
+            {
+                "comment": "Take this class with Sandra Ruiz. Multiple opportunities for extra credit, quiz reviews in class before the quizzes happen, the coding labs have clear step by step instructions.",
+                "rating": "4",
+                "date": "6/8/2021"
+            },
+            {
+                "comment": "Professor Yifei Ding is really great. The material isn't that easy, but she's really good at explaining it and makes it as easy as possible. The labs are very easy. ",
+                "rating": "3",
+                "date": "8/3/2021"
             }
         ]
     },
@@ -3862,7 +4021,7 @@
         "code": "CS008",
         "description": "INTRODUCTION TO COMPUTING",
         "credits": 4,
-        "average": "2.56",
+        "average": "2.53",
         "comments": [
             {
                 "comment": "3 midterms, no finals",
@@ -3943,6 +4102,11 @@
                 "comment": "Took this winter quarter during Covid times. The class is not difficult at all. If you have used a computer and are able to memorize simple concepts it is an easy A. I got a B+ because I accidenly forgot one of the labs... there are 3 different places to keep track of your due dates so it can get a little messy. Overall easy class and chill professor. The only think that might get tedious is the \"coding\" which is not really coding, it's basically copy, paste, change a few things, boom. Most labs you can finish in 1-2 hours max. ",
                 "rating": "4",
                 "date": "3/25/2021"
+            },
+            {
+                "comment": "Gustafson, so easy, all midterms and tests were MC and labs were easy enough.",
+                "rating": "2",
+                "date": "5/22/2021"
             }
         ]
     },
@@ -3957,7 +4121,7 @@
         "code": "CS010A",
         "description": "INTRODUCTION TO COMPUTER SCIENCE FOR SCIENCE, MATHEMATICS, AND ENGINEERING I",
         "credits": 4,
-        "average": "3.19",
+        "average": "3.14",
         "comments": [
             {
                 "comment": "Note: Formerly CS010",
@@ -4063,6 +4227,11 @@
                 "comment": "Prof Ali helped me out a lot. Definitely would recommend her. Also, do your readings before class and you'll easily ace it. Best of luck!",
                 "rating": "1",
                 "date": "3/4/2021"
+            },
+            {
+                "comment": "Avoid taking with Ryan Rusich, he does not teach at all pretty much and goes on tangents on other topics about CS that isn't related to the class material or what's being taught. However, this class is so easy that you really don't need a professor, just keep up and understand Zybooks.",
+                "rating": "2",
+                "date": "5/22/2021"
             }
         ]
     },
@@ -4070,7 +4239,7 @@
         "code": "CS010B",
         "description": "INTRODUCTION TO COMPUTER SCIENCE FOR SCIENCE, MATHEMATICS, AND ENGINEERING II",
         "credits": 4,
-        "average": "6.95",
+        "average": "6.76",
         "comments": [
             {
                 "comment": "Note: Formerly CS012",
@@ -4146,6 +4315,16 @@
                 "comment": "Took this class online during the pandemic, so it was a little different from the usual course. Everyone told me it was super hard so i was prepared for the worst. honestly not bad at all though. the first half was easy. the second half was when things started to pick up. just make sure you do your programs early, take notes from zybooks, and you'll be fine. i say pay special attention to pointers and linked lists, bc those were some of the harder topics for me to get down and understand. don't worry too much about this class but definitely be prepared to spend a lot of time on it ",
                 "rating": "6",
                 "date": "6/12/2020"
+            },
+            {
+                "comment": "Had this class with Jeff McDaniel. He was extremely knowledgeable but I could not for the life of me understand his teaching or learn from it. I went to a the majority of Kris Miller's lectures who was teaching it at the same time and found him to be extremely clear and helpful. ",
+                "rating": "8",
+                "date": "5/22/2021"
+            },
+            {
+                "comment": "(Spring'21 -online) - Prof Kris Miller - Big step up from CS10A, but manageable, TA Uday Saini was the best, THE BEST!! - Do the assignments ahead of time as it would be a big pain to do them at the last minute - Definitely don't skip over any concepts as they are very important for further cs classes. Good luck!",
+                "rating": "2",
+                "date": "6/14/2021"
             }
         ]
     },
@@ -4153,7 +4332,7 @@
         "code": "CS010C",
         "description": "INTRODUCTION TO DATA STRUCTURES AND ALGORITHMS",
         "credits": 4,
-        "average": "7.83",
+        "average": "7.84",
         "comments": [
             {
                 "comment": "Note: Formerly CS014",
@@ -4266,7 +4445,7 @@
         "code": "CS011",
         "description": "INTRODUCTION TO DISCRETE STRUCTURES",
         "credits": 4,
-        "average": "4.81",
+        "average": "4.67",
         "comments": [
             {
                 "comment": "Didn't really go to class, didn't really understand the material but ended up with an A- somehow",
@@ -4327,6 +4506,16 @@
                 "comment": "Probably the easiest math class I've ever taken at UCR. The class is mostly focused on logic and proofs as opposed to raw computation but they're super easy to learn. I rarely attended lectures or discussions and got a nearly perfect score on the final. ",
                 "rating": "3",
                 "date": "3/19/2021"
+            },
+            {
+                "comment": "Take this class with Neal Livesay if possible. Explains all the material very clearly and was very knowledgeable. ",
+                "rating": "3",
+                "date": "5/22/2021"
+            },
+            {
+                "comment": "(Spring'21 - online) - Prof Jacob Greenstein - highly recommend you take Prof Greenstein as there are a lot of ways to earn extra credit, I didn't even give the final and ended the class with an A+ - Easy if you understand the theory but difficult otherwise. Good luck.",
+                "rating": "4",
+                "date": "6/14/2021"
             }
         ]
     },
@@ -4334,7 +4523,7 @@
         "code": "CS061",
         "description": "MACHINE ORGANIZATION AND ASSEMBLY LANGUAGE PROGRAMMING",
         "credits": 4,
-        "average": "6.82",
+        "average": "6.83",
         "comments": [
             {
                 "comment": "Do all homework assignments; the final is basically a collection of past homeworks and quizzes.",
@@ -4460,6 +4649,11 @@
                 "comment": "Midterm was kinda hard, but final was very easy. Try not to wait until saturday to start the program assignments. 70% rule was removed for the winter 2021 but I'm not sure if it'll happen for future quarters. Do the weekly homeworks with a group of 4 as its a lot less work for each person. ",
                 "rating": "6",
                 "date": "3/23/2021"
+            },
+            {
+                "comment": "Had this class with Kelly Downey. The concepts were pretty difficult and the midterms and finals were decently difficult as well. Her teachings were sort of clear. You don't need to read the textbook too much with her but as long as you keep up with lectures and get the hang of it, you should be okay.",
+                "rating": "7",
+                "date": "5/22/2021"
             }
         ]
     },
@@ -4467,7 +4661,7 @@
         "code": "CS100",
         "description": "SOFTWARE CONSTRUCTION",
         "credits": 4,
-        "average": "7.22",
+        "average": "7.15",
         "comments": [
             {
                 "comment": "the whole class was essentially one big project. Build a linux shell. But it's done with partners, and my partner did pretty much nothing. Choose your partner wisely.",
@@ -4573,6 +4767,21 @@
                 "comment": "Professor Ali was awesome. But to get an A you really have to understand the software development methodologies and design patterns to do well. Also pick good a good lab partner and final project group.",
                 "rating": "5",
                 "date": "3/29/2021"
+            },
+            {
+                "comment": "Had Professor Ali for this class. Very important to choose a good lab and project partner to work with you, you'll depend on them heavily. If your partner is very bad or very poor in C++, you will most likely have a more difficult time in this class.",
+                "rating": "7",
+                "date": "5/22/2021"
+            },
+            {
+                "comment": "This class is HEAVILY project-based so make sure you get a good lab partner/final group. We had 3 exams that made up like 23% of our grade and the other 75% or so was all from the labs and the final project. The final project replaces the final so start it early so you're not up till 5 grinding the day before it's due. Most of the actual course content is just learning git and design patterns, so make sure you know how the design patterns work before the exams. ",
+                "rating": "5",
+                "date": "6/16/2021"
+            },
+            {
+                "comment": "Exams were tough but luckily they weren't worth too much. Last lab on the visitor pattern was really hard so try and get that out of the way asap. Start the final project early and make sure your uml diagram has the two design patterns shown in them by the time phase 2 is done. Get a good group and make sure your groupmates are contributing code to the project frequently",
+                "rating": "8",
+                "date": "6/21/2021"
             }
         ]
     },
@@ -4608,7 +4817,7 @@
         "code": "CS111",
         "description": "DISCRETE STRUCTURES",
         "credits": 4,
-        "average": "7.77",
+        "average": "7.88",
         "comments": [
             {
                 "comment": "Just study and put in the work. Utilize any and all resources your professor may give you, always, always go to office hours if you have any questions, and you should be fine.",
@@ -4749,6 +4958,16 @@
                 "comment": "I had Prof. Elena she is a great professor. she really wants you to understand the material. If you put in the time to truly understand the homework and do the practice quizzes she post you will be fine. The final was tough I dont think anyone in our class said it was easy. don't skip lectures it will hurt you and ask questions. Got a B in the class. there was like a 5-6% percent curve at the end.",
                 "rating": "7",
                 "date": "3/29/2021"
+            },
+            {
+                "comment": "Had this class with Chrobak. The examinations were extremely difficult and there was very little time on every quiz. Every test is a time scramble and time is probably one of the largest factors here. The homeworks are required to be written in LATEX which you have to learn at the beginning but is not too bad once you get the hang of it, just time consuming. However do be warned, the grading was extremely non transparent. A grade shift curve was applied at the end but however was not released so students did not know how much their grades got shifted if at all and emails to the professor asking about the general curve were not answered. Basically, watch your time during quizzes tests and know proofs. This class has many proofs in the lectures and in the final. There were a total of 4 quizzes total and a 2 part final, the 2nd part of the final being optional (If you didn't take, the average of your quizzes were the score used for the second part of the final). The averages for the quizzes in our class were 74.4%, 71.3%, 80%, and 71.5% and the finals were 61.73%(part 1) and 67.92% (part 2) and the homework average across 5 assignments were 88.29%.  (After regrades, the averages are probably slightly higher) Asking many students about their grades after the curved, I could be totally off but I would give an estimated guess of about a 3-6% curve to your final grade.",
+                "rating": "9",
+                "date": "5/22/2021"
+            },
+            {
+                "comment": "Took Chrobak in Spring 2021. No matter if you choose Chrobak or Elena (who is the head professor), you will have a hard time. \nLectures are heavily dense with explanations on the mathematical proofs behind why a certain theorem exists, which aren't utilized for the homework or exams at all, at least for this quarter. It is unironically a better experience watching Khan Academy or Numberphile on YouTube than attending lecture. ACR tutoring for this class filled up extremely fast too, so good luck getting any outside tutoring. The final only focused on graphs and was worth 30% of the grade.\nFinal for BOTH sections were moved to the earlier scheduled final, which opens up the risk for time conflicts. The final was also only 2 hours instead of 3 hours. Grades released within TWO days of taking the final, which created grading errors. Average on the final across both sections was a 57%. However, because the maximum was a 93.8%, that was the curve that was used, so it didn't impact much. \nSurvey was taken for this class. 50% were expecting to fail the final, 48% hated the decision to move the final earlier, 81% felt that 2 hours wasn't enough, 67% felt sample materials weren't sufficient enough to study for the final, 67% said the final was harder than expected, and 90% were in favor of a steeper curve.\nFuture classes that require this class as a prerequisite only require a D-, keep that in mind before dropping early -- it will still screw with your GPA though",
+                "rating": "10",
+                "date": "6/10/2021"
             }
         ]
     },
@@ -4756,7 +4975,7 @@
         "code": "CS120A",
         "description": "LOGIC DESIGN",
         "credits": 5,
-        "average": "4.39",
+        "average": "4.67",
         "comments": [
             {
                 "comment": "First half of the course is essentially CS061 material, while second half gets slightly rough due to HLSM, etc.",
@@ -4842,6 +5061,21 @@
                 "comment": "Sheriff was super flexible with everything. Midterms and finals were based off homework and he even provided practice exams! They pretty much gave the code for the labs in the manual, however the final project can be tough if you don't understand what the labs. You can do well by just watching the office hour lectures where he reviews the practice exams.",
                 "rating": "3",
                 "date": "3/29/2021"
+            },
+            {
+                "comment": "I do not recommend taking this class with Matt Vaezi, I believe it is his first year teaching at UCR as of writing this and I personally do not like his teaching style at all. He makes up his own slides which aren't great either and his homework assignments are the most confusing things ever. The labs are a huge pain as well since the TA (Amir Kavousi) requires an entire list of requirements in the lab reports and gets angry pretty easily. ",
+                "rating": "7",
+                "date": "5/22/2021"
+            },
+            {
+                "comment": "Our entire grade for this class came from 2 assignments, 1 midterm, 1 final, and all the labs/final project. Most of the content is a repeat of CS061, just more in-depth. If you did well in CS061 then 120A will be a breeze, if not then it might be a little challenging for you. ",
+                "rating": "3",
+                "date": "6/16/2021"
+            },
+            {
+                "comment": "Took this class in spring 2021 with Matt Vaezi as the professor and Amir Kavousi as the TA. This course was a horrible experience as neither of them put any preparation towards instructing the class and expected us to figure stuff out on our own with assignments and labs. Also couldnt even stick to their own syllabus as they said there would be 4 assignments throughout the quarter and the professor only assigned 2. Very little if any communication with emails and questions. Avoid instructor if possible",
+                "rating": "9",
+                "date": "6/16/2021"
             }
         ]
     },
@@ -4849,7 +5083,7 @@
         "code": "CS120B",
         "description": "INTRODUCTION TO EMBEDDED SYSTEMS",
         "credits": 4,
-        "average": "5.91",
+        "average": "5.83",
         "comments": [
             {
                 "comment": "Took with Phillip Brisk. Not as bad as 120A. The labs are done in C not Verilog which was a big relief for pretty much everyone lol. I'd recommend taking with Brisk to avoid getting Jeff'd, which at this point has become a meme. Tests and Midterms/Final were as expected, nothing that was not taught in class. Homework is done on zybooks. The custom lab project at the end of the year can be challenging, depending on how in depth you go. Labs aren't too bad. You can do it with a partner which makes things easier. You must pass (60%) the lab portion and the lecture section to pass the class. Must also pass the final exam and the custom lab project to pass as well. All said and done not too bad of a class. ",
@@ -4905,6 +5139,11 @@
                 "comment": "Took with Brisk. No examinations but hits you with 2 labs a week to compensate, and little help along the way. Honestly don't know where I would be if the people in discord weren't so helpful. Be prepared to drop $220 on lab parts. Don't procrastinate on the labs, try to finish one in the beginning of the week and one before the weekend for a good schedule set up.",
                 "rating": "7",
                 "date": "3/25/2021"
+            },
+            {
+                "comment": "I took this in Spring 2021 with Frank Vahid. This is easily one of my favorite CS classes. It can be difficult for CS/EE majors at first, but if you're a Computer Engineer, you'll feel right at home. I recommend taking this after CS100 to get used to Github. This class is VERY VERY VERY lab-focused. Labs were 45% of the total grade, and you have 1-2 each week. No final, but there weekly quizzes that aren't worth stressing over. Most of the labs take at least 3 hours minimum, and the average is 4ish hours. If you have a good professor (like Vahid), you'll love Embedded Systems.",
+                "rating": "5",
+                "date": "6/9/2021"
             }
         ]
     },
@@ -4993,7 +5232,7 @@
         "code": "CS141",
         "description": "INTERMEDIATE DATA STRUCTURES AND ALGORITHMS",
         "credits": 4,
-        "average": "8.23",
+        "average": "8.50",
         "comments": [
             {
                 "comment": "The curve was huge at the end lul",
@@ -5099,21 +5338,34 @@
                 "comment": "Took 141 with Eldawy. He's a great professor who teaches really well. The concepts in this class are fairly difficult to wrap your head around. A solid foundation of DS&A from CS014 (CS010C) is required to do well in this class.",
                 "rating": "8",
                 "date": "3/21/2021"
+            },
+            {
+                "comment": "Extremely hard, I gave CS111 a 10/10 rating and if there was an option for 12/10 in this database I would give it one lmao. This class made 111 look like an average difficulty class, this class is so heavy on proofs and concepts (sometimes you just gotta take the L and make up random stuff out of thin air and put in on your paper). CS141 with Elena was brutal but honestly she's not as bad as people say, it's just the class structure and material tbh.",
+                "rating": "10",
+                "date": "6/2/2021"
+            },
+            {
+                "comment": "Probably the hardest computer science course I've taken so far. It's not easy and you will need to be ready to spend hours outside of class looking up other resources if you want to pass. Have a good understanding of Data Structures and Algorithm Analysis going into this class.",
+                "rating": "9",
+                "date": "6/15/2021"
+            },
+            {
+                "comment": "Took it with Amey and the whole time I was questioning whether I would pass or not but he came with a fat curve in the end. Study the study guide and examples to pass the class. Try to get average or above the average to get B and higher. Also he's very understanding with the whole class as its in pandemic so he push back deadline for a bit. Trust the process. ",
+                "rating": "9",
+                "date": "6/15/2021"
+            },
+            {
+                "comment": "Genuinely the hardest class I have ever taken. Foremost, I took this class with Amey in spring 2021, rated it a 10/10 difficulty, and received a B grade by some miracle of god. This class is significantly more difficult than cs111; to pass this class you will need to have a solid study schedule. I watched every lecture 3 times since it was an online class. The real challenge of this class is that every problem is nothing like any problem you have ever seen; every question is completely unique and you must rely on basic principles to figure out an optimal solution. Midterms that were 20% of your grade often only had 2 problems, each question being 10% of your grade. So you MUST get them correct. The curve was probably around 30% at the end I would bet.",
+                "rating": "10",
+                "date": "6/15/2021"
             }
         ]
-    },
-    {
-        "code": "CS145",
-        "description": "COMBINATORIAL OPTIMIZATION ALGORITHMS",
-        "credits": 4,
-        "average": "----",
-        "comments": []
     },
     {
         "code": "CS150",
         "description": "AUTOMATA AND FORMAL LANGUAGES",
         "credits": 4,
-        "average": "6.45",
+        "average": "6.50",
         "comments": [
             {
                 "comment": "Took it with Tao Jiang. He's very passionate about this subject and you can tell by the way he lectures. There's one midterm and one final. The class is entirely composed of homeworks, midterm and final, no lab or project points. The tests are very fair, questions from the homework that you should be expected to know. The class itself is tough, but imo not as tough as 141. Make sure you understand each topic, as each builds off of each other. The homework is a good gauge on how well you know the material. No programming in this class, exams and homework are done in pencil and paper. Difficult, but manageable.",
@@ -5169,6 +5421,11 @@
                 "comment": "Take with Lependu, he genuinely cares about you and your grade and wants everyone to succeed. 40% of grade based on homeworks and he guides you thru the homework problems if you need help. Really nice and caring professor, made it an easy class",
                 "rating": "6",
                 "date": "3/25/2021"
+            },
+            {
+                "comment": "Took with Tao Jiang, Spring 21. It's not bad if you study ahead. It builds off a lot of topics covered in CS111, so get ready for a decent amount of proofs. This class is very theory-heavy. The class can be broken down into sections: 1.DFA/NFA, 2. Regexes, 3. Pumping Lemma, 4. CFG's/PDA's, 5. CFL Pumping Lemma. Expose yourself to these topics ahead of time to save yourself a lot of trouble. Definitely manageable. The HW is the key to success.",
+                "rating": "7",
+                "date": "6/9/2021"
             }
         ]
     },
@@ -5176,7 +5433,7 @@
         "code": "CS152",
         "description": "COMPILER DESIGN",
         "credits": 4,
-        "average": "7.63",
+        "average": "7.50",
         "comments": [
             {
                 "comment": "Take this class (compilers) after taking automata ",
@@ -5207,6 +5464,16 @@
                 "comment": "Gupta, Winter 2021. The previous review still holds up. Slides are straightforward for the exams so learn the examples well. Lecture content is dense. Final is non-cumulative. Phase 1 and 2 could be done in a single day if you wanted to. For Phase 3, they give you a good example in the slides that's completed in C++. You can choose to complete Phase 3 in C++ or C, but you need to take extra steps to implement in C++. There's some good info about that on stackoverflow and the bison documentation. You will get at least 70/100 points on Phase 3 if you implement enough stuff, so even if it doesn't pass the test cases, you should be fine if the implementation makes sense. It also has to compile on the bolt server without errors or else you will get a 0; they won't fix your makefile for you. Overall, the class isn't too stressful until you reach those last couple of weeks with phase 3. ",
                 "rating": "7",
                 "date": "3/27/2021"
+            },
+            {
+                "comment": "Took this class online with prof Gupta, first half of the class plus the midterm is fairly easy. The second half is pretty tough in the sense that there are a few real examples you can practice for the final. But prof was really accessible for asking questions.  Most of the project is pretty easy until you reach phase 3, start that early if you value your sanity. Curves grades based on class average.",
+                "rating": "7",
+                "date": "6/14/2021"
+            },
+            {
+                "comment": "Gupta, Summer 2021. Good guy. His lecture are jam-packed with info. Everything said about him and this class is true. Start early on the phases. Phase 1 and 2 can be done in a day, but Phase 3 will take a while. The entire compiler project takes about 20 hours total for each partner. The exams are hard though, but he tries to give 50% of the class at least a B+.",
+                "rating": "7",
+                "date": "7/27/2021"
             }
         ]
     },
@@ -5295,7 +5562,7 @@
         "code": "CS161",
         "description": "DESIGN AND ARCHITECTURE OF COMPUTER SYSTEMS",
         "credits": 4,
-        "average": "4.00",
+        "average": "4.40",
         "comments": [
             {
                 "comment": "Took this class with Prof Chen. Super easy, honestly. Very scary on day one, but turns out to be a big softy. The test questions were verbatim from the homework. Though I heard Najjar is a bit tougher, so you may want to avoid him unless you\u2019re computer engineering in which case you\u2019ll probably want to learn the material really well. ",
@@ -5331,6 +5598,11 @@
                 "comment": "No final, 3 midterms based closely on hw, with extra credit questions",
                 "rating": "4",
                 "date": "12/15/2019"
+            },
+            {
+                "comment": "Kuan-Chieh in Summer 2021. This class was not too bad in the beginning, but it picks up. Most people didn't have a bad time in this class, but with Kuan-Chieh, it was sort of a hot mess. He's a really nice guy, but there's just a lot of content  that he doesn't teach very well. A lot of the content on exams could not be found in the textbook nor his lectures. Aside from that, the material is somewhat challenging.",
+                "rating": "8",
+                "date": "7/27/2021"
             }
         ]
     },
@@ -5412,7 +5684,7 @@
         "code": "CS171",
         "description": "INTRODUCTION TO MACHINE LEARNING AND DATA MINING",
         "credits": 4,
-        "average": "9.70",
+        "average": "9.73",
         "comments": [
             {
                 "comment": "When you read the title of the class you probably think \"Sweet Machine Learning, this is going to be awesome\" but it's a trap! TBH this class should have several pre reqs that are really needed in order to succeed. You need to def have Calc3/Physics > above level math skills. You really need to take Statistics before this class. Lastly you need to at least be an intermediate Python user. You will be doing proofs and if you're proof is wrong there is no way to complete a HW assignment. You need to be familiar with Python or be confused with how to do the HW. The lectures are terrible. It's just the prof reading his slides which are 80% just unlabeled graphs. The slides provided have no context so you have to come to class to understand them but even if you do no one knows what the prof is talking about and are too afraid to ask for clarification, everyone literally admitted this during a talk in the discussion. The exams don't really test you on topics the prof taught but rather you're general knowledge of the algorithms basically he expects you to know the ins and outs of the algorithms even if he didn't directly tell you about them. If you really want to take a Machine Learning course just watch Andrew NG's youtube videos, you'll learn more, not be stressed out, and you'll actually have fun. If you still want to take the course I hope you're a math god that studies every night. ",
@@ -5463,6 +5735,11 @@
                 "comment": "Fun course topic, but incredibly challenging. By far the hardest course I've taken in all of my 4 years at UCR. There are no easy or \"free\" points in this class. Every question on every problem set, midterm, and final are very involved and a minor mistake can lead to only getting half/partial credit. You'll need to be very comfortable with Python by week 2 or you will not be able to keep up with the assignments even if you have a solid understanding of statistics and math. I thought I was comfortable with the prereqs, and still ended with a C-. (Shelton)",
                 "rating": "10",
                 "date": "12/19/2020"
+            },
+            {
+                "comment": "iEvals are out for Spring 2021 so I figured I'd update here too. Asif lectured this quarter my perception is that he's slightly easier than Shelton but you still learn a lot. The class is super hard, but also very interesting and rewarding if you like the topic",
+                "rating": "10",
+                "date": "5/24/2021"
             }
         ]
     },
@@ -5634,15 +5911,8 @@
         "comments": []
     },
     {
-        "code": "CS215",
-        "description": "THEORY OF COMPUTATION",
-        "credits": 4,
-        "average": "----",
-        "comments": []
-    },
-    {
         "code": "CS217",
-        "description": "GPU ARCHITECTURE AND PARALLEL PROGRAMMING",
+        "description": "GRAPHICS PROCESSING UNIT ARCHITECTURE AND PARALLEL PROGRAMMING",
         "credits": 4,
         "average": "----",
         "comments": []
@@ -5735,13 +6005,6 @@
         "comments": []
     },
     {
-        "code": "CS260",
-        "description": "SEMINAR IN COMPUTER SCIENCE",
-        "credits": 4,
-        "average": "----",
-        "comments": []
-    },
-    {
         "code": "CS287",
         "description": "COLLOQUIUM IN COMPUTER SCIENCE",
         "credits": 1,
@@ -5764,7 +6027,7 @@
     },
     {
         "code": "CRWT046S",
-        "description": "CRAFT OF WRITING: SURVEY IN CONTEMPORARY FICTION\r\n",
+        "description": "COOL &amp; EXCITNG FICTION",
         "credits": 4,
         "average": "4.00",
         "comments": [
@@ -5988,13 +6251,6 @@
         "comments": []
     },
     {
-        "code": "CWPA282",
-        "description": "FILM NOIR: STORIES AND CINEMA FROM THE SHADOWS",
-        "credits": 4,
-        "average": "----",
-        "comments": []
-    },
-    {
         "code": "CWPA290",
         "description": "DIRECTED STUDIES",
         "credits": 0,
@@ -6012,7 +6268,7 @@
         "code": "DNCE005",
         "description": "INTRODUCTION TO DANCE",
         "credits": 4,
-        "average": "3.14",
+        "average": "2.89",
         "comments": [
             {
                 "comment": "Super easy. Just show up and dance. Three essays. Super simple. ",
@@ -6048,6 +6304,16 @@
                 "comment": "Highly recommend taking during online classes, all we did was discuss dance videos and do a one second a day midterm and random dance video for our final.",
                 "rating": "2",
                 "date": "3/18/2021"
+            },
+            {
+                "comment": "Super Easy, we only had to show up once a week to class and keep a journal, that was it lol ",
+                "rating": "1",
+                "date": "4/18/2021"
+            },
+            {
+                "comment": "I had Manny and our focus was modern dance. it was really chill and easy. the first half of class theres some dancing (easy exercises and moving around) and the second half was the lecture (all slides were online). the midterm was a combo of multiple choice q's, short answer, and an essay based on a dance performance you have to go to. it sounds like a lot but its rly not. final is a 2 min group dance performance that you choreograph together and a few paragraphs about the process",
+                "rating": "3",
+                "date": "5/23/2021"
             }
         ]
     },
@@ -6075,26 +6341,6 @@
         "code": "DNCE019",
         "description": "INTRODUCTION TO DANCE STUDIES",
         "credits": 4,
-        "average": "----",
-        "comments": []
-    },
-    {
-        "code": "DNCE065A",
-        "description": "BEGINNING LATIN AMERICAN SOCIAL DANCES",
-        "credits": 2,
-        "average": "3.00",
-        "comments": [
-            {
-                "comment": "Intro to latin dance. Easy A. Just show up and dance. Very enjoyable even if you never dance before ",
-                "rating": "3",
-                "date": "3/23/2019"
-            }
-        ]
-    },
-    {
-        "code": "DNCE065B",
-        "description": "INTERMEDIATE LATIN AMERICAN SOCIAL DANCES",
-        "credits": 2,
         "average": "----",
         "comments": []
     },
@@ -6183,13 +6429,6 @@
         "comments": []
     },
     {
-        "code": "DNCE173J",
-        "description": "DIGITIZED BODIES",
-        "credits": 4,
-        "average": "----",
-        "comments": []
-    },
-    {
         "code": "DNCE180R",
         "description": "PEDAGOGY",
         "credits": 4,
@@ -6211,8 +6450,8 @@
         "comments": []
     },
     {
-        "code": "DNCE241",
-        "description": "CREATING THE EXPERIMENT: IDENTIFYING THE NEW",
+        "code": "DNCE243",
+        "description": "COLLABORATING IN DANCE MAKING: MATERIALS, METHODS, AND INTERACTIONS",
         "credits": 4,
         "average": "----",
         "comments": []
@@ -6241,8 +6480,8 @@
     {
         "code": "ECON002",
         "description": "INTRODUCTION TO MACROECONOMICS",
-        "credits": 0,
-        "average": "3.79",
+        "credits": 5,
+        "average": "3.70",
         "comments": [
             {
                 "comment": "Pretty basic intro to econ class. Had a good TA so discussion was helpful",
@@ -6328,6 +6567,11 @@
                 "comment": "Took with Lang during Covid Winter 2021. The class was pretty easy and his lectures were live. You have to buy tophat but it comes with his textbook which is optional to read (but I recommend reading it since he uses questions from the textbook for quizzes sometimes). Midterm and Final are open note and not proctored, and I'd recommend going over the textbook before taking the exams. ",
                 "rating": "3",
                 "date": "3/29/2021"
+            },
+            {
+                "comment": "Super easy with McLaren, just really boring",
+                "rating": "2",
+                "date": "5/22/2021"
             }
         ]
     },
@@ -6335,7 +6579,7 @@
         "code": "ECON003",
         "description": "INTRODUCTION TO MICROECONOMICS",
         "credits": 5,
-        "average": "3.77",
+        "average": "3.88",
         "comments": [
             {
                 "comment": "Easy A if you pay attention and study. I did my studying last minute and never went to lecture so I got a C+",
@@ -6426,6 +6670,16 @@
                 "comment": "I took this class during COVID with Professor Joab Corey. You can tell that he's passionate about the material and cares a lot about his students. There were weekly quizzes, but you could use your notes for those. The 2 midterms and the final had questions similar to the quizzes and the practice exams he gave us. As long as you keep up with the lectures and take notes, you will most likely get and A. I also took the honors version of this class (ECON003H), and that just has essays every 2 weeks and a book project at the end. The essays and book project were super easy (i'm pretty sure he gave everyone 100s on them).",
                 "rating": "3",
                 "date": "3/25/2021"
+            },
+            {
+                "comment": "I took this class with prof Joab and I can honestly say he was the best Econ teacher I've ever had. He makes the material very easy to understand for it being online and his classes and discussions are asynchronous. Workload consists of weekly quizzes and discussion modules and the exams which are all fairly easy. Definitely recommend taking with him! ",
+                "rating": "4",
+                "date": "6/1/2021"
+            },
+            {
+                "comment": "I took this class with Bree Lang and she was super kind and connected really well with her students. It was obvious that she really cared about helping us get a good grade. The major assignments in this class was broken into the categories of: Discussion assignments, Lecture quizzes, midterm (only 1), final. For the discussion assignments, if you get 20/40, she considers it full credit while for the lecture quizzes (8 in total), she considers 50/80 full credit. I struggled a bit in this class because you really need to be careful with reading the questions and you need to have good reading comprehension to not make mistakes. I got a D on the midterm but for the final I got a B and eventually passed with a B+ so even if you don't do well on the midterm, just make sure you get full credit of the LQ's and the DS's. Every exam was open notes too. ",
+                "rating": "6",
+                "date": "6/10/2021"
             }
         ]
     },
@@ -6455,7 +6709,7 @@
     {
         "code": "ECON101",
         "description": "STATISTICS FOR ECONOMICS",
-        "credits": 5,
+        "credits": 0,
         "average": "5.00",
         "comments": [
             {
@@ -6575,7 +6829,7 @@
     },
     {
         "code": "ECON150",
-        "description": "ROCKONOMICS",
+        "description": "ROCKONOMICS: TOPICS IN APPLIED MICROECONOMICS THROUGH THE LENS OF THE MUSIC INDUSTRY",
         "credits": 4,
         "average": "----",
         "comments": []
@@ -6639,13 +6893,6 @@
         "comments": []
     },
     {
-        "code": "ECON186",
-        "description": "POLICY EVALUATION IN DEVELOPMENT ECONOMICS",
-        "credits": 4,
-        "average": "----",
-        "comments": []
-    },
-    {
         "code": "ECON188",
         "description": "THE CHINESE ECONOMY",
         "credits": 4,
@@ -6696,14 +6943,14 @@
     },
     {
         "code": "ECON283E",
-        "description": "ADVANCED MICROECONOMIC THEORY",
+        "description": "RATIONAL CHOICE THEORY",
         "credits": 4,
         "average": "----",
         "comments": []
     },
     {
         "code": "ECON285F",
-        "description": "ADVANCED ECONOMETRICS",
+        "description": "TOPICS IN ECONOMETRICS",
         "credits": 4,
         "average": "----",
         "comments": []
@@ -6832,6 +7079,13 @@
         "comments": []
     },
     {
+        "code": "EDUC162",
+        "description": "LEARNING THEORY AND PSYCHOLOGY IN EDUCATION",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "EDUC171",
         "description": "READING AND LANGUAGE DEVELOPMENT",
         "credits": 4,
@@ -6860,8 +7114,15 @@
         "comments": []
     },
     {
-        "code": "EDUC202",
-        "description": "DEMOCRACY AND EDUCATION",
+        "code": "EDUC198",
+        "description": "RCOURSE PUBLIC HEALTH APPLICATIONS IN THE IE",
+        "credits": 1,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "EDUC209",
+        "description": "EDUCATION POLICY ANALYSIS",
         "credits": 4,
         "average": "----",
         "comments": []
@@ -6883,6 +7144,13 @@
     {
         "code": "EDUC215C",
         "description": "STRUCTURAL EQUATION MODELING",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "EDUC220A",
+        "description": "SOCIOCULTURAL THEORY AND EDUCATION",
         "credits": 4,
         "average": "----",
         "comments": []
@@ -6937,15 +7205,15 @@
         "comments": []
     },
     {
-        "code": "EDUC245G",
-        "description": "THE OPPORTUNITY/ACHIEVEMENT GAP",
+        "code": "EDUC246N",
+        "description": "EARLY INTERVENTION",
         "credits": 4,
         "average": "----",
         "comments": []
     },
     {
-        "code": "EDUC246N",
-        "description": "EARLY INTERVENTION",
+        "code": "EDUC248E",
+        "description": "DEMOGRAPHICS&amp;DIVERSITY HIGH ED",
         "credits": 4,
         "average": "----",
         "comments": []
@@ -6958,13 +7226,6 @@
         "comments": []
     },
     {
-        "code": "EDUC248Q",
-        "description": "FOUNDATIONS OF STUDENT SERVICS",
-        "credits": 4,
-        "average": "----",
-        "comments": []
-    },
-    {
         "code": "EDUC248T",
         "description": "UNDERSTANDG RES IN HIGHER EDUC",
         "credits": 4,
@@ -6972,8 +7233,8 @@
         "comments": []
     },
     {
-        "code": "EDUC248V",
-        "description": "CAMPUS ENVIRONMENTS",
+        "code": "EDUC248U",
+        "description": "HISTORY OF HIGHER EDUC IN USA",
         "credits": 4,
         "average": "----",
         "comments": []
@@ -6993,6 +7254,13 @@
         "comments": []
     },
     {
+        "code": "EDUC259",
+        "description": "RESEARCH SEMINAR",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "EDUC261",
         "description": "SCHOOL PSYCHOLOGICAL CONSULTATION",
         "credits": 4,
@@ -7007,8 +7275,15 @@
         "comments": []
     },
     {
+        "code": "EDUC268A",
+        "description": "ADVANCED PRACTICUM IN SCHOOL PSYCHOLOGY: LEVEL 1",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "EDUC269E",
-        "description": "EDUCATIONAL PSYCHOLOGY",
+        "description": "Embodied Cognition and STEM Teaching and Learning",
         "credits": 4,
         "average": "----",
         "comments": []
@@ -7016,6 +7291,13 @@
     {
         "code": "EDUC275A",
         "description": "RACE AND EDUCATIONAL INEQUITY",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "EDUC282A",
+        "description": "CURRICULUM THEORY AND INSTRUCTIONAL PROCESSES: MATHEMATICS AND SCIENCE",
         "credits": 4,
         "average": "----",
         "comments": []
@@ -7063,6 +7345,34 @@
         "comments": []
     },
     {
+        "code": "EDUC335A",
+        "description": "SUPERVISED TEACHING IN SPECIAL EDUCATION",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "EDUC344A",
+        "description": "MULTIPLE SUBJECTS CREDENTIAL SEMINAR",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "EDUC348A",
+        "description": "SINGLE SUBJECT CREDENTIAL SEMINAR",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "EE005",
+        "description": "CIRCUITS AND ELECTRONICS",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "EE010",
         "description": "INTRODUCTION TO ELECTRICAL ENGINEERING",
         "credits": 2,
@@ -7081,13 +7391,6 @@
         ]
     },
     {
-        "code": "EE020B",
-        "description": "LINEAR METHODS FOR ENGINEERING ANALYSIS AND DESIGN USING MATLAB",
-        "credits": 4,
-        "average": "----",
-        "comments": []
-    },
-    {
         "code": "EE030A",
         "description": "FUNDAMENTALS OF ELECTRIC CIRCUITS I",
         "credits": 3,
@@ -7102,11 +7405,22 @@
         "comments": []
     },
     {
-        "code": "EE100B",
-        "description": "ELECTRONIC CIRCUITS II",
+        "code": "EE100A",
+        "description": "ELECTRONIC CIRCUITS I",
         "credits": 4,
-        "average": "----",
-        "comments": []
+        "average": "6.00",
+        "comments": [
+            {
+                "comment": "Although challenging, it's definitely easier the first few EE courses. Understand BJTs and MOSFETs thoroughly. You'll be using the same equations all throughout the class, but knowing when to apply them is when it gets tricky. Took with Ming Liu (Spring 2021), and it was a somewhat enjoyable experience. He's a good prof.",
+                "rating": "7",
+                "date": "6/9/2021"
+            },
+            {
+                "comment": "90% of the class is about various kinds of transistors. There's only like ~10 equations you need to know in order to solve most problems as long as you know how to apply them. Ming Liu's tests were harder than anticipated but he grades very generously. ",
+                "rating": "5",
+                "date": "6/16/2021"
+            }
+        ]
     },
     {
         "code": "EE110A",
@@ -7149,8 +7463,8 @@
     {
         "code": "EE120A",
         "description": "LOGIC DESIGN",
-        "credits": 0,
-        "average": "4.39",
+        "credits": 5,
+        "average": "4.67",
         "comments": [
             {
                 "comment": "First half of the course is essentially CS061 material, while second half gets slightly rough due to HLSM, etc.",
@@ -7236,6 +7550,21 @@
                 "comment": "Sheriff was super flexible with everything. Midterms and finals were based off homework and he even provided practice exams! They pretty much gave the code for the labs in the manual, however the final project can be tough if you don't understand what the labs. You can do well by just watching the office hour lectures where he reviews the practice exams.",
                 "rating": "3",
                 "date": "3/29/2021"
+            },
+            {
+                "comment": "I do not recommend taking this class with Matt Vaezi, I believe it is his first year teaching at UCR as of writing this and I personally do not like his teaching style at all. He makes up his own slides which aren't great either and his homework assignments are the most confusing things ever. The labs are a huge pain as well since the TA (Amir Kavousi) requires an entire list of requirements in the lab reports and gets angry pretty easily. ",
+                "rating": "7",
+                "date": "5/22/2021"
+            },
+            {
+                "comment": "Our entire grade for this class came from 2 assignments, 1 midterm, 1 final, and all the labs/final project. Most of the content is a repeat of CS061, just more in-depth. If you did well in CS061 then 120A will be a breeze, if not then it might be a little challenging for you. ",
+                "rating": "3",
+                "date": "6/16/2021"
+            },
+            {
+                "comment": "Took this class in spring 2021 with Matt Vaezi as the professor and Amir Kavousi as the TA. This course was a horrible experience as neither of them put any preparation towards instructing the class and expected us to figure stuff out on our own with assignments and labs. Also couldnt even stick to their own syllabus as they said there would be 4 assignments throughout the quarter and the professor only assigned 2. Very little if any communication with emails and questions. Avoid instructor if possible",
+                "rating": "9",
+                "date": "6/16/2021"
             }
         ]
     },
@@ -7243,7 +7572,7 @@
         "code": "EE120B",
         "description": "INTRODUCTION TO EMBEDDED SYSTEMS",
         "credits": 4,
-        "average": "5.91",
+        "average": "5.83",
         "comments": [
             {
                 "comment": "Took with Phillip Brisk. Not as bad as 120A. The labs are done in C not Verilog which was a big relief for pretty much everyone lol. I'd recommend taking with Brisk to avoid getting Jeff'd, which at this point has become a meme. Tests and Midterms/Final were as expected, nothing that was not taught in class. Homework is done on zybooks. The custom lab project at the end of the year can be challenging, depending on how in depth you go. Labs aren't too bad. You can do it with a partner which makes things easier. You must pass (60%) the lab portion and the lecture section to pass the class. Must also pass the final exam and the custom lab project to pass as well. All said and done not too bad of a class. ",
@@ -7299,6 +7628,11 @@
                 "comment": "Took with Brisk. No examinations but hits you with 2 labs a week to compensate, and little help along the way. Honestly don't know where I would be if the people in discord weren't so helpful. Be prepared to drop $220 on lab parts. Don't procrastinate on the labs, try to finish one in the beginning of the week and one before the weekend for a good schedule set up.",
                 "rating": "7",
                 "date": "3/25/2021"
+            },
+            {
+                "comment": "I took this in Spring 2021 with Frank Vahid. This is easily one of my favorite CS classes. It can be difficult for CS/EE majors at first, but if you're a Computer Engineer, you'll feel right at home. I recommend taking this after CS100 to get used to Github. This class is VERY VERY VERY lab-focused. Labs were 45% of the total grade, and you have 1-2 each week. No final, but there weekly quizzes that aren't worth stressing over. Most of the labs take at least 3 hours minimum, and the average is 4ish hours. If you have a good professor (like Vahid), you'll love Embedded Systems.",
+                "rating": "5",
+                "date": "6/9/2021"
             }
         ]
     },
@@ -7319,7 +7653,7 @@
     {
         "code": "EE136",
         "description": "SEMICONDUCTOR DEVICE PROCESSING",
-        "credits": 4,
+        "credits": 0,
         "average": "----",
         "comments": []
     },
@@ -7464,7 +7798,7 @@
     },
     {
         "code": "EE217",
-        "description": "GPU ARCHITECTURE AND PARALLEL PROGRAMMING",
+        "description": "GRAPHICS PROCESSING UNIT ARCHITECTURE AND PARALLEL PROGRAMMING",
         "credits": 4,
         "average": "----",
         "comments": []
@@ -7514,7 +7848,7 @@
     {
         "code": "EE260",
         "description": "SEMINAR IN ELECTRICAL ENGINEERING",
-        "credits": 0,
+        "credits": 4,
         "average": "----",
         "comments": []
     },
@@ -7609,7 +7943,7 @@
         "code": "ENGR180W",
         "description": "TECHNICAL COMMUNICATIONS",
         "credits": 4,
-        "average": "3.33",
+        "average": "3.42",
         "comments": [
             {
                 "comment": "Bonni and Sharon. The dynamic duo. This was a great class. I've heard bad things about ENGL001C, this is the alternative for BCOE majors. And it's not that bad either. You can tell both of them are passionate about their topics and like to share their lives with the class. They take turns alternating lectures and present material relevant to life. The first half is pretty much introducing the concepts and exercises, the second half of the class is producing a technical spec to standards. Extra credit is given, both before the midterm and after the midterm. I believe in our quarter 300 extra points could be earned by doing all the extra credit. If you do everything and put in a decent amount of effort, this class shouldn't be too bad. The workshops were often only 30 minutes or less. Time consuming, but difficulty wise not too bad.",
@@ -7655,6 +7989,21 @@
                 "comment": "Pay extremely close attention to every rule they mention. It's obvious what they want, but if you don't do it then your grade will suffer",
                 "rating": "3",
                 "date": "6/15/2019"
+            },
+            {
+                "comment": "Sharon and Bonni are good profs who know what they're talking about. The course isn't hard, but luckily you learn a good deal of work advice. As long as you submit your assignment with on time with the correct file name, you'll be fine.",
+                "rating": "3",
+                "date": "6/9/2021"
+            },
+            {
+                "comment": "It's a lot of writing. Follow their guidelines on the writing requirements and do ALL the extra credit. Easy A.",
+                "rating": "2",
+                "date": "6/15/2021"
+            },
+            {
+                "comment": "Like others have said above, just pray you get paired with people that actually follow their writing guidelines otherwise your grade will suffer in the group assignments as a result. Do as many of the extra credit assignments as you possibly can so you can skip one or two essays on the final and start writing those final essays as early as possible. As long as you follow their writing guidelines you should be in good shape. And make sure you name your files properly, you don't want to end up like my partner who did 1500 words worth of extra credit just to get no points because he forgot to change the file name. ",
+                "rating": "6",
+                "date": "6/21/2021"
             }
         ]
     },
@@ -7676,7 +8025,7 @@
         "code": "ENGL001A",
         "description": "BEGINNING COMPOSITION",
         "credits": 4,
-        "average": "4.91",
+        "average": "4.90",
         "comments": [
             {
                 "comment": "pretty basic english class. 4 essays on various topics.",
@@ -7877,6 +8226,21 @@
                 "comment": "A TA will be teaching this class, I had 3 essays with an additional draft for essay 3 and a fine. I procrastinated lot and still ended up getting an A so it depends how the TA will grade.",
                 "rating": "7",
                 "date": "3/18/2021"
+            },
+            {
+                "comment": "I took this class with Professor Washburn. Her lectures aren't too bad and the workload is fair. We pretty much only wrote three essays, read \"In Between the World and Me\", and took the final, which was a timed essay. Honestly, I'd recommend taking English with her. She's really nice and understanding.",
+                "rating": "4",
+                "date": "6/2/2021"
+            },
+            {
+                "comment": "I took this class with Professor Gurnett during Spring 2021. She\u2019s a tough grader and a huge part of the class is participation. I had read on Ratemyprofessor that she often accused students of plagiarism but decided to take the class anyway. I can definitely say that this is a problem but you can meet with her during office hours to discuss it. ",
+                "rating": "7",
+                "date": "6/4/2021"
+            },
+            {
+                "comment": "Took it online(Spring'21) -Prof Anne Schnarr - small and easy quizzes, 3 essays (+1 final essay) easiest final , go to office hours for each essay(she will write the essay with you). Good luck!",
+                "rating": "3",
+                "date": "6/14/2021"
             }
         ]
     },
@@ -7884,7 +8248,7 @@
         "code": "ENGL001B",
         "description": "INTERMEDIATE COMPOSITION",
         "credits": 4,
-        "average": "4.98",
+        "average": "4.92",
         "comments": [
             {
                 "comment": "harder than 1A mainly because my professor required participation... I didn't participate at all really but ended up with a B",
@@ -8120,6 +8484,21 @@
                 "comment": "Take this with Colin Innes",
                 "rating": "6",
                 "date": "4/1/2021"
+            },
+            {
+                "comment": "(Online Class)THIS CLASS MADE ME LOVE ENGLISH CLASSES AGAIN!!!! Had Kurt Paczkowski. 3 take home essays and 1 essay final (timed online). You're allowed to revise 1 of the take home essays and that score will average with your original essay score. Attendance is required but he is super lenient and understanding. His grading is really easy compared to most English professors and he provides time extensions like candy. He also connects with the students and converses with them during each meeting (writers workshop) and shows up with the biggest smile and all those positive vibes even if he's not having a great day. ",
+                "rating": "1",
+                "date": "5/17/2021"
+            },
+            {
+                "comment": "I took ENGL1B with Professor Furtado. It was okay. Most classes were spent doing group activities on the book we were reading (The Fifth Season) and then presenting our work. As long as your group pulls their weight, the class is okay. There are also three essays, a final, and quizzes. The essays were okay. She doesn't grade super hard but it does take a while for her to get the grades back to you. It took about a month to receive the grade for the first essay.. The quizzes are okay. Most of them were take home so we had a day or two to work on it. She did have one pop quiz though. It was a little hard, but it wasn't worth too much. Overall, I would recommend taking ENGL1B with Professor Furtado. Sometimes it was a little frustrating because she'd take so long to grade (and the class is more work than ENGL1A), but she's a really nice professor and I felt that I learned a thing or two.",
+                "rating": "5",
+                "date": "6/2/2021"
+            },
+            {
+                "comment": "This class basically changed my pov on English. It really depends on who you get as your TA. I surprisingly loved it because of TA I had. She was super helpful and made going to class fun and interesting. 3 essays and 1 final like the previous Engl001 classes. ",
+                "rating": "6",
+                "date": "6/30/2021"
             }
         ]
     },
@@ -8127,7 +8506,7 @@
         "code": "ENGL001C",
         "description": "APPLIED INTERMEDIATE COMPOSITION",
         "credits": 4,
-        "average": "5.73",
+        "average": "5.81",
         "comments": [
             {
                 "comment": "Hackelton was a good professor but a hard grader.  Easy to get a B, hard to get an A.  Lots of in-class essays and the final was take home.  Would give pop quizzes so show up to class!",
@@ -8293,7 +8672,7 @@
     },
     {
         "code": "ENGL012R",
-        "description": "CHICANA AND CHICANO LITERATURE",
+        "description": "CHICANA &amp; CHICANO LITERATURE",
         "credits": 4,
         "average": "3.00",
         "comments": [
@@ -8371,7 +8750,7 @@
     },
     {
         "code": "ENGL100E",
-        "description": "THE KING JAMES BIBLE AS LITERATURE",
+        "description": "KING JAMES BIBLE AS LITERATURE",
         "credits": 4,
         "average": "----",
         "comments": []
@@ -8452,7 +8831,7 @@
     },
     {
         "code": "ENGL143K",
-        "description": "GENDER, SEXUALITY, AND VISUAL CULTURES",
+        "description": "QUEERS THAT KILL",
         "credits": 4,
         "average": "----",
         "comments": []
@@ -8495,13 +8874,6 @@
     {
         "code": "ENGL247",
         "description": "SEMINAR IN SCIENCE, LITERATURE AND MEDIA",
-        "credits": 4,
-        "average": "----",
-        "comments": []
-    },
-    {
-        "code": "ENGL262",
-        "description": "SEMINAR IN RENAISSANCE LITERATURE",
         "credits": 4,
         "average": "----",
         "comments": []
@@ -8918,7 +9290,7 @@
         "code": "ETST001",
         "description": "INTRODUCTION TO THE STUDY OF RACE AND ETHNICITY",
         "credits": 4,
-        "average": "2.86",
+        "average": "2.63",
         "comments": [
             {
                 "comment": "No final, no midterm ",
@@ -8954,6 +9326,11 @@
                 "comment": "do not take w najera!!! she was so bad and unprofessional too! one time a couple guys weren't paying attention and couldn't answer a question so she kicked them out of lecture..but yeah this class is lowkey a trap bc ppl say it's easy but tbh it's kinda a lot of work",
                 "rating": "7",
                 "date": "6/2/2020"
+            },
+            {
+                "comment": "(COVID ERA) Easiest A+ next to dance 5, you only have to do essays each week but you get full credit as long as u try. No midterm or finals.",
+                "rating": "1",
+                "date": "4/22/2021"
             }
         ]
     },
@@ -9029,7 +9406,7 @@
         "code": "ETST005",
         "description": "INTRODUCTION TO ASIAN AMERICAN STUDIES IN COMPARATIVE PERSPECTIVE",
         "credits": 4,
-        "average": "3.67",
+        "average": "3.50",
         "comments": [
             {
                 "comment": "This class was a joke and an easy A! ",
@@ -9045,6 +9422,11 @@
                 "comment": "This is not a class that you can get an easy A in. You actually have to do the readings in order to get some form of understanding on what's being asked. This is important as the take home midterms/final would be asking for specific examples from the readings. Be prepared to read at least 80+ pages a week, too.",
                 "rating": "8",
                 "date": "6/15/2019"
+            },
+            {
+                "comment": "Edward Chang; Easy A depending on your TA. He was very cranky and couldn't accommodate online. There's no doubt in my mind that he is passionate in what he does, but he has a really bad attitude towards the class. He has blocked people from zoom (to join his class) because they were a few minutes late. When he finishes lectures early, before we can ask questions or anything, he ends the meeting. He seems like he hates it online.",
+                "rating": "3",
+                "date": "6/21/2021"
             }
         ]
     },
@@ -9337,20 +9719,6 @@
         "comments": []
     },
     {
-        "code": "GSST124",
-        "description": "ASIAN AMERICAN WOMEN: WRITING THE SELF IN LITERATURE AND FILM",
-        "credits": 4,
-        "average": "----",
-        "comments": []
-    },
-    {
-        "code": "GSST126",
-        "description": "GENDER, SEXUALITY, AND MUSIC IN CROSS-CULTURAL PERSPECTIVES",
-        "credits": 4,
-        "average": "----",
-        "comments": []
-    },
-    {
         "code": "GSST127",
         "description": "DANCE, GENDER, SEXUALITY",
         "credits": 4,
@@ -9526,7 +9894,7 @@
         "code": "GEO009",
         "description": "OCEANOGRAPHY",
         "credits": 4,
-        "average": "4.00",
+        "average": "3.88",
         "comments": [
             {
                 "comment": "Everything is on Tophat, slides, hw, etc. Basically AP Environmental Science in HS, but only the ocean parts. Pretty steep learning curve after the first midterm.",
@@ -9562,6 +9930,11 @@
                 "comment": "FALL 2020: Had Gordon Love. Not mandatory to attend lecture but his poll questions that he does during his lectures help sometimes for quizzes and tests. Poll questions aren't counted towards anything; he just does it to help you. There were quizzes every week in your discussion sections on the previous week's material. All quizzes and exams were open note. Straightforward questions. Just make sure to know your stuff and stay on top of the material. Even though the class is open note, it takes a lot of time to search through the slides for the answers since his slides are quite heavy for every chapter/lecture. He drops your lowest 2 quiz scores and takes your best midterm score out of the 2. Final was cumulative and formatted like the quizzes and midterms. Overall, pretty easy class and material isn't that hard to understand. ",
                 "rating": "3",
                 "date": "1/4/2021"
+            },
+            {
+                "comment": "Had this class with Gordon Love. Extremely straightforward class with tests based on lecture slides. Tests were open notes so control F is your best friend and pretty much all you need in this class.",
+                "rating": "3",
+                "date": "5/22/2021"
             }
         ]
     },
@@ -9712,13 +10085,6 @@
         "comments": []
     },
     {
-        "code": "GBST130",
-        "description": "MANAGEMENT OF INTERNATIONAL WATER",
-        "credits": 4,
-        "average": "----",
-        "comments": []
-    },
-    {
         "code": "GDIV301",
         "description": "ADVANCED UNIVERSITY LEVEL PEDAGOGY",
         "credits": 2,
@@ -9762,8 +10128,8 @@
     {
         "code": "HIST010",
         "description": "WORLD HISTORY: PREHISTORY TO 1500",
-        "credits": 0,
-        "average": "4.00",
+        "credits": 4,
+        "average": "4.36",
         "comments": [
             {
                 "comment": "Chrissanthos: Great lecturer, story format, no slides, so take your notes on a laptop. 2 MTs (short answer/fill in blank Q's from lecture and Q's from TA) 1 Final (cumulative, short essays) 1 Term Research Paper on topic of choice. TA/discussion matters! Some TAs grade hard on exams and easy on paper, and vice versa.",
@@ -9826,7 +10192,7 @@
         "code": "HIST015",
         "description": "WORLD HISTORY: 1500 TO 1900",
         "credits": 4,
-        "average": "5.47",
+        "average": "5.52",
         "comments": [
             {
                 "comment": "Took this class with Prof Eacott.  Grading is largely determined by how picky your TA is with your essays/midterms.  Please keep in mind there are multiple essays and many assigned readings for this class.  It isn't extremely difficult but not a cakewalk either.",
@@ -9912,6 +10278,11 @@
                 "comment": "Take with prof downs if you can! During Winter 2021, just weekly readings and listening ti podcasts. No midterms or finals, just a book review final which was 6-8 pages",
                 "rating": "3",
                 "date": "3/16/2021"
+            },
+            {
+                "comment": "Don't take this with Eacott. He's very charismatic but this class was unnecessarily difficult for an intro level History class. Lots of required readings. If you're interested in the subject I say go for it because Eacott was pretty cool but otherwise look for an easier option.",
+                "rating": "7",
+                "date": "5/22/2021"
             }
         ]
     },
@@ -9919,19 +10290,24 @@
         "code": "HIST017B",
         "description": "INTRODUCTION TO UNITED STATES HISTORY",
         "credits": 4,
-        "average": "6.00",
+        "average": "4.50",
         "comments": [
             {
                 "comment": "I have professor Nicolette Rohr. She is a good professor. You need to be in class at all times because it is an oral class with absolutely no text book. She never repeats anything. You can't take pictures or videos of lectures. The slides are not posted. I got an A- on the essay and the midterm. Honestly I had one of the highest grades on both. It's harder than it should be for a breadth, but it's not bad. Discussion is really chill but mandatory. She gives a study guide with what will be on the test (exact questions)-she picks from them but they are all written tests. 2 essays, 1 midterm, 1 final + discussion.",
                 "rating": "6",
                 "date": "2/28/2020"
+            },
+            {
+                "comment": "Professor Hawkins is one of the BEST professors at UCR. I was never much of a history fan but the way he lectures feels like he is reading you a story, it's so engaging! 2 Midterms, both essay questions, which are really simple since the answers are in his lectures. One 4-5 page paper, which was really easy as well. Laid back class, no traditional tests, & took it asynchronously.",
+                "rating": "3",
+                "date": "6/11/2021"
             }
         ]
     },
     {
         "code": "HIST020",
         "description": "WORLD HISTORY: THE LONG TWENTIETH CENTURY",
-        "credits": 4,
+        "credits": 0,
         "average": "5.25",
         "comments": [
             {
@@ -10134,13 +10510,6 @@
         "comments": []
     },
     {
-        "code": "HIST201C",
-        "description": "READING SEMINAR IN AMERICAN HISTORY: UNITED STATES, 1877 TO THE PRESENT",
-        "credits": 4,
-        "average": "----",
-        "comments": []
-    },
-    {
         "code": "HIST250",
         "description": "NEW DIRECTIONS: URBAN HISTORY",
         "credits": 4,
@@ -10232,7 +10601,7 @@
     },
     {
         "code": "HISA119",
-        "description": "MODERN U.S. CONSUMER CULTURE",
+        "description": "MODERN UNITED STATES CONSUMER CULTURE",
         "credits": 4,
         "average": "4.00",
         "comments": [
@@ -10245,7 +10614,7 @@
     },
     {
         "code": "HISA125G",
-        "description": "TOPICS IN AMERICAN SOCIETY AND CULTURE",
+        "description": "UNITED STATES AND THE PHILIPPINES",
         "credits": 4,
         "average": "----",
         "comments": []
@@ -10275,12 +10644,17 @@
         "code": "HNPG002W",
         "description": "PRINCIPLES OF CIVIC ENGAGEMENT",
         "credits": 0,
-        "average": "6.00",
+        "average": "5.50",
         "comments": [
             {
                 "comment": "Took this online. Cardullo is the professor who gives the lectures which are very insightful on real world problems and important things about Riverside, so it's more interesting than English classes, but the TA grades everything including essays and participation. Lectures were asynchronous and we had to submit a google form reflection on them which were simple, but discussion with TA met once a week. We had to read 2 books and had discussions on those/lectures each week and also had student led discussions. I struggled in this class because I'm a reserved person and found it hard to participate since a lot of honors students are well-spoken and always have something to say. I also dislike writing essays, so that was a struggle to me too but there were 4 essays of increasing length. I averaged A- on the essays(which was about the class average of each essay) and somehow ended up with an A in the class, so I'm guessing most people get A's in the class or at least half the class does as long as you participate, show up to discussion, and do decent on the essays. If you struggle with writing, they offer lots of help/resources. Don't procrastinate on the essays, so you can get advice/feedback from TAs and other writing helpers. I also never got the score for my participation/last essay, so I'm not sure how they grade those lol, but I didn't participate every time, I only made sure to participate in the student led discussions, but it probably depends how picky your TA is. If you're good with participating in class and don't struggle that much with writing, then this class should not be too bad.",
                 "rating": "6",
                 "date": "12/25/2020"
+            },
+            {
+                "comment": "I believe Professor Cardullo is the only professor to teach this class (I could be wrong). The class was pretty straightforward as long as you kept up with the work. The probably most difficult aspect of this class is participating in the discussions since class participation is part of your grade. So if you're an outspoken person, this class should be really easy but if you are more quiet, you need to push yourself more to speak.",
+                "rating": "5",
+                "date": "5/22/2021"
             }
         ]
     },
@@ -10313,6 +10687,26 @@
         "code": "HNPG018",
         "description": "HUNGER &amp; FAMINE",
         "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "HASS001",
+        "description": "STEP-BY-STEP TO COLLEGE SUCCESS FOR FIRST YEAR STUDENTS",
+        "credits": 2,
+        "average": "1.00",
+        "comments": [
+            {
+                "comment": "Super easy class. Mostly is just a class to help ease you into the recources available on campus and help you set up goals you want to acheive while at UCR. There are short essay assignments, but they are all opinion essays that you can BS in an hour or two. ",
+                "rating": "1",
+                "date": "3/25/2021"
+            }
+        ]
+    },
+    {
+        "code": "HASS100",
+        "description": "STUDIES IN LEADERSHIP AND ORGANIZATIONAL EFFECTIVENESS",
+        "credits": 5,
         "average": "----",
         "comments": []
     },
@@ -10503,7 +10897,7 @@
     },
     {
         "code": "LNST188",
-        "description": "U.S.-LATIN AMERICAN RELATIONS",
+        "description": "UNITED STATES AND LATIN AMERICAN RELATIONS",
         "credits": 5,
         "average": "----",
         "comments": []
@@ -10531,7 +10925,7 @@
     },
     {
         "code": "LGBS143K",
-        "description": "GENDER, SEXUALITY, AND VISUAL CULTURES",
+        "description": "QUEERS THAT KILL",
         "credits": 4,
         "average": "----",
         "comments": []
@@ -10547,7 +10941,7 @@
         "code": "LING020",
         "description": "LANGUAGE AND LINGUISTICS",
         "credits": 4,
-        "average": "6.00",
+        "average": "6.25",
         "comments": [
             {
                 "comment": "Quizzes are super easy, but weren\u2019t worth a lot. Quiz questions were given ahead of time. Homework is a BIG part of your grade & the TAs grade homework in a very strict manner. Do not use internet sources or peers for your homework or else you\u2019ll be excused if cheating & reported to student conduct (our professor would threaten us every week about this lmao). Exams are fairly easy, study the study guide slides & you\u2019ll do fine. Our prof said she\u2019d curve the grades at the end. But avoid Prof Chidambaram PLZ lol",
@@ -10583,6 +10977,11 @@
                 "comment": "This class was so hard with Professor Chidambaram!! do not take it when you are have a lot on your plate. She made this class wayyyyy too hard than it seems. Thank God I took this class during remote learning. If I took the class in person, I probably would have done credit/no credit or failed. ",
                 "rating": "8",
                 "date": "6/2/2020"
+            },
+            {
+                "comment": "Professor Chidambaram is really difficult. She isn't understanding at all when it comes to technical difficulties. The TAs are doing their best, but because the material Is so difficult and the professor is hard to get in contact with, its not easy. ",
+                "rating": "8",
+                "date": "8/3/2021"
             }
         ]
     },
@@ -10624,6 +11023,13 @@
     {
         "code": "CWLR201S",
         "description": "LOW RESIDENCY SEMINAR IN LITERATURE,THEATRE, AND FILM",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MGT200",
+        "description": "ORGANIZATIONAL BEHAVIOR AND THEORY",
         "credits": 4,
         "average": "----",
         "comments": []
@@ -10686,6 +11092,13 @@
     {
         "code": "MGT218",
         "description": "ETHICS IN MANAGEMENT",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MGT220",
+        "description": "NEGOTIATIONS FOR MANAGERS",
         "credits": 4,
         "average": "----",
         "comments": []
@@ -10826,6 +11239,13 @@
         "code": "MGT400E",
         "description": "AUDITING AND ASSURANCE",
         "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MGT402",
+        "description": "BUSINESS CAREER PROFESSIONAL DEVELOPMENT WORKSHOP",
+        "credits": 2,
         "average": "----",
         "comments": []
     },
@@ -11349,7 +11769,7 @@
         "code": "MATH009B",
         "description": "FIRST-YEAR CALCULUS",
         "credits": 4,
-        "average": "5.06",
+        "average": "5.16",
         "comments": [
             {
                 "comment": "Lopez-Garcia is a great professor",
@@ -11430,6 +11850,16 @@
                 "comment": "I had Dr. Wee Liang Gan, He is very kind and will answer emails right away. Sometimes he does not explain context? To avoid confusion, pre-view the textbook before the class. it takes about 15 minutes to do so, and makes the class easier to understand. He gave no midterm or final, but he gave 10, 10 minute quizzes for each chapter. The quizzes are a bit rushed, but it is not that hard. Just review the homework questions by finishing them in a spread out manner, then reviewing them the day before the test. It is not a hard class to get an A in. If you are ever confused, send an email. Be careful on quizzes and take organized notes, because quizzes are open book/note. The class structure is organized and easy to understand.  ",
                 "rating": "4",
                 "date": "12/20/2020"
+            },
+            {
+                "comment": "Had this class with John Baez. Would definitely recommend him, as long as you have a solid Math9A (or AP Calculus AB) knowledge, this class is mostly a breeze. ",
+                "rating": "4",
+                "date": "5/22/2021"
+            },
+            {
+                "comment": "With Gonzalex I thought that he was super helpful and very kind but his exams and the material are no joke. He has 2 midterms which have 3 questions that are a and b questions, 1 final so you need to study hard for these since 1 answer wrong brings your test grade down a whole letter. Had webwork problems for the homework. If you're good at calculus this class should be very easy ",
+                "rating": "8",
+                "date": "6/1/2021"
             }
         ]
     },
@@ -11535,7 +11965,7 @@
         "code": "MATH010A",
         "description": "CALCULUS OF SEVERAL VARIABLES",
         "credits": 4,
-        "average": "4.68",
+        "average": "4.65",
         "comments": [
             {
                 "comment": "Had a 100% until the final, which fucked me. Ended up with a B+",
@@ -11636,6 +12066,11 @@
                 "comment": "Unlike 9A, most of this class isn't actually about calculus but rather general problems involving 3D space/matrices. If you autopiloted through 9A this class may be hard for you but if you can think though a problem conceptually you should do fine. ",
                 "rating": "6",
                 "date": "3/19/2021"
+            },
+            {
+                "comment": "Had this class with Alessandra Costantini, she is an excellent professor and taught the material very well. The class was pretty easy from how she taught the material.",
+                "rating": "4",
+                "date": "5/22/2021"
             }
         ]
     },
@@ -11650,7 +12085,7 @@
         "code": "MATH011",
         "description": "INTRODUCTION TO DISCRETE STRUCTURES",
         "credits": 4,
-        "average": "4.81",
+        "average": "4.67",
         "comments": [
             {
                 "comment": "Didn't really go to class, didn't really understand the material but ended up with an A- somehow",
@@ -11711,6 +12146,16 @@
                 "comment": "Probably the easiest math class I've ever taken at UCR. The class is mostly focused on logic and proofs as opposed to raw computation but they're super easy to learn. I rarely attended lectures or discussions and got a nearly perfect score on the final. ",
                 "rating": "3",
                 "date": "3/19/2021"
+            },
+            {
+                "comment": "Take this class with Neal Livesay if possible. Explains all the material very clearly and was very knowledgeable. ",
+                "rating": "3",
+                "date": "5/22/2021"
+            },
+            {
+                "comment": "(Spring'21 - online) - Prof Jacob Greenstein - highly recommend you take Prof Greenstein as there are a lot of ways to earn extra credit, I didn't even give the final and ended the class with an A+ - Easy if you understand the theory but difficult otherwise. Good luck.",
+                "rating": "4",
+                "date": "6/14/2021"
             }
         ]
     },
@@ -12170,15 +12615,29 @@
         "comments": []
     },
     {
-        "code": "MATH227A",
-        "description": "LIE ALGEBRAS",
+        "code": "MATH213A",
+        "description": "NUMERICAL METHODS FOR PARTIAL DIFFERENTIAL EQUATIONS I",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MATH232A",
+        "description": "GEOMETRY I (INTRODUCTION TO MANIFOLDS)",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MATH245",
+        "description": "ANALYTIC NUMBER THEORY",
         "credits": 4,
         "average": "----",
         "comments": []
     },
     {
         "code": "MATH260",
-        "description": "INTERDIS MATH &amp; COMP MODELING",
+        "description": "MATHEMATICL PHYS&amp;DYNAMICAL SYS",
         "credits": 0,
         "average": "----",
         "comments": []
@@ -12467,13 +12926,6 @@
         "comments": []
     },
     {
-        "code": "ME240A",
-        "description": "FUNDAMENTALS OF FLUID MECHANICS",
-        "credits": 4,
-        "average": "----",
-        "comments": []
-    },
-    {
         "code": "ME243A",
         "description": "ADVANCED MECHANICAL ENGINEERING THERMODYNAMICS I",
         "credits": 4,
@@ -12484,13 +12936,6 @@
         "code": "ME250",
         "description": "SEMINAR IN MECHANICAL ENGINEERING",
         "credits": 1,
-        "average": "----",
-        "comments": []
-    },
-    {
-        "code": "ME261",
-        "description": "THEORY OF ELASTICITY",
-        "credits": 4,
         "average": "----",
         "comments": []
     },
@@ -12526,12 +12971,17 @@
         "code": "MCS001",
         "description": "INTRODUCTION TO MEDIA AND CULTURAL STUDIES",
         "credits": 4,
-        "average": "8.00",
+        "average": "5.50",
         "comments": [
             {
                 "comment": "Ruhi Khan was the professor and she has made an intro class pretty hard. There are a bunch of readings and she is so freaking opinionated and won't listen to anyone else's opinions. The midterms are not exactly that hard, but man that teacher is brutal. I don't recommend taking it with her, she makes everything so much complicated than it should be and when I went to office hours for a paper, the ta and the professor both said different things so it was extremely confusing. She complained for a whole class on how bad our essays were and  she grades pretty hard. ",
                 "rating": "8",
                 "date": "11/21/2019"
+            },
+            {
+                "comment": "Had Contreras. TBH the hardest part of the entire class was just the 3 hr lecture slot. Super boring but an easy A overall.",
+                "rating": "3",
+                "date": "5/22/2021"
             }
         ]
     },
@@ -12574,29 +13024,6 @@
         "comments": []
     },
     {
-        "code": "MCS020",
-        "description": "INTRODUCTION TO FILM STUDIES",
-        "credits": 4,
-        "average": "1.33",
-        "comments": [
-            {
-                "comment": "derek burrill. take the class ",
-                "rating": "1",
-                "date": "4/1/2018"
-            },
-            {
-                "comment": "Prof Burril is an excellent and cares about his students truly. Class isn't hard just need to watch 8 movies. The midterm and final was to choose a movie and write a review. which were really easy.",
-                "rating": "1",
-                "date": "12/28/2020"
-            },
-            {
-                "comment": "I had Professor Burrill for Fall 2020 online. The class was asynchronous, but the professor had office hours. Powerpoint lecture slides were lengthy. Only hw was watching a film each week. Midterms weren't proctored, and we had a generous amount of time to complete them. They were essays, and nearly everyone got A's. Don't try to take advantage of Professor Burrill's kindness. ",
-                "rating": "2",
-                "date": "12/30/2020"
-            }
-        ]
-    },
-    {
         "code": "MCS066",
         "description": "SCREENWRITING: HOW MOVIES WORK",
         "credits": 4,
@@ -12606,13 +13033,6 @@
     {
         "code": "MCS110J",
         "description": "FILM &amp;MEDIA HISTORY AFTER WWII",
-        "credits": 4,
-        "average": "----",
-        "comments": []
-    },
-    {
-        "code": "MCS123",
-        "description": "ASIAN AMERICAN WOMEN: WRITING THE SELF IN LITERATURE AND FILM",
         "credits": 4,
         "average": "----",
         "comments": []
@@ -12633,7 +13053,7 @@
     },
     {
         "code": "MCS143K",
-        "description": "GENDER, SEXUALITY, AND VISUAL CULTURES",
+        "description": "QUEERS THAT KILL",
         "credits": 4,
         "average": "----",
         "comments": []
@@ -12654,21 +13074,14 @@
     },
     {
         "code": "MCS149",
-        "description": "BETWEEN THE PANELS: INTRODUCTION TO U.S AND IDENTITY IN VISUAL CULTURE",
-        "credits": 4,
-        "average": "----",
-        "comments": []
-    },
-    {
-        "code": "MCS153J",
-        "description": "DIGITIZED BODIES",
+        "description": "BETWEEN THE PANELS: INTRODUCTION TO UNITED STATES AND IDENTITY IN VISUAL CULTURE",
         "credits": 4,
         "average": "----",
         "comments": []
     },
     {
         "code": "MCS160",
-        "description": "RACE, STATE VIOLENCE, AND INCARCERATION IN THE U.S.",
+        "description": "RACE, STATE VIOLENCE, AND INCARCERATION IN THE UNITED STATES",
         "credits": 4,
         "average": "----",
         "comments": []
@@ -12689,7 +13102,7 @@
     },
     {
         "code": "MCS193",
-        "description": "SENIOR SEMINAR",
+        "description": "WHITE SLAVE TRADE",
         "credits": 4,
         "average": "----",
         "comments": []
@@ -12712,6 +13125,13 @@
         "code": "MCBL120",
         "description": "INTRODUCTION TO PLANT PATHOLOGY",
         "credits": 3,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MCBL120L",
+        "description": "INTRODUCTION TO PLANT PATHOLOGY LABORATORY",
+        "credits": 1,
         "average": "----",
         "comments": []
     },
@@ -12909,6 +13329,13 @@
         "comments": []
     },
     {
+        "code": "MUS154E",
+        "description": "BEETHOVEN: THE MUSIC &amp;THE MYTH",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "MUS160",
         "description": "ORCHESTRA",
         "credits": 0,
@@ -13013,20 +13440,6 @@
         "comments": []
     },
     {
-        "code": "MUS191U",
-        "description": "SEMINAR IN MUSIC",
-        "credits": 4,
-        "average": "----",
-        "comments": []
-    },
-    {
-        "code": "MUS200",
-        "description": "MUSIC BIBLIOGRAPHY",
-        "credits": 4,
-        "average": "----",
-        "comments": []
-    },
-    {
         "code": "MUS263",
         "description": "SEMINAR IN SPECIAL TOPICS IN MUSICOLOGY",
         "credits": 4,
@@ -13039,6 +13452,50 @@
         "credits": 4,
         "average": "----",
         "comments": []
+    },
+    {
+        "code": "NASC092",
+        "description": "CAMP SUCCESS SEMINAR",
+        "credits": 1,
+        "average": "1.00",
+        "comments": [
+            {
+                "comment": "(Fall 2020 Online) This class is for the PERSIST Research program. I had Dr. Nugent and it was honestly a pleasure. She is a sweet soul that is absolutely intelligent and intimidating because of it haha. Nonetheless, she allowed a welcoming environment that had room for errors and asking questions. I learned a lot from her in this course even though at times the course seemed to be a little unorganized. ",
+                "rating": "1",
+                "date": "12/28/2020"
+            }
+        ]
+    },
+    {
+        "code": "NASC093",
+        "description": "FRESHMAN ADVISING SEMINAR IN THE NATURAL AND AGRICULTURAL SCIENCES",
+        "credits": 2,
+        "average": "2.00",
+        "comments": [
+            {
+                "comment": "Freshmen Advising Seminar: Just show up, take notes, and learn. The class requires homework but you do not need to buy the textbook. You will never use that textbook so go only for the online things to access.",
+                "rating": "1",
+                "date": "4/16/2020"
+            },
+            {
+                "comment": "The main lecture is by Morrison and she is very chill...the only problem you would have is when you have discussions, try to avoid getting Nancy Vasquez. Remember one thing for the class, if you miss the class or are late you can't make up for it and it will affect your grade. The classes are both pass/fail so it isn't bad but if you miss a class that is your only strike. Miss more than one and you will be failed for both the discussion section and lecture section. Oh yeah there's a textbook which is completely useless but you need it for the access code. Honestly it was a huge waste of money because you never use it. The only thing you will use however is Launchpad. Make sure to keep up with ur discussion section person because they don't always update your grades correctly on there.",
+                "rating": "3",
+                "date": "10/20/2020"
+            }
+        ]
+    },
+    {
+        "code": "NASC198",
+        "description": "R&#39;CRS-CHEM BHD UR SKN,HAIR&amp;TTH",
+        "credits": 1,
+        "average": "2.00",
+        "comments": [
+            {
+                "comment": "Aquaponics. Fun.",
+                "rating": "2",
+                "date": "3/13/2020"
+            }
+        ]
     },
     {
         "code": "NEM120",
@@ -13182,7 +13639,7 @@
     },
     {
         "code": "PHIL030E",
-        "description": "INTRODUCTION TO THE HISTORY OF PHILOSOPHY",
+        "description": "HELLENC PHIL:PRE-SOCRTCS-ARIST",
         "credits": 4,
         "average": "8.50",
         "comments": [
@@ -13288,7 +13745,7 @@
         "code": "PHYS002A",
         "description": "GENERAL PHYSICS",
         "credits": 4,
-        "average": "7.50",
+        "average": "7.63",
         "comments": [
             {
                 "comment": "Take Gabor. He's absolutely amazing",
@@ -13349,6 +13806,16 @@
                 "comment": "\"Never took PHYS, but taking it with Professor John Ellison was the best choice ever! He is very patient in answering questions during lecture, reexplains concepts that are hard/what he thinks most students struggle with, and is very very understanding of the pandemic conditions! His midterm is very similar to his practice exams and homework is difficult so if you struggle with that don't worry to much just make sure to understand the practice exams and concepts. Final is NOT cumulative so that helps too. Does online clickers for credit so class is kinda mandatory and I never read his reading notes before lecture, but doing that would've helped me .\nPHYS 2A is known as a weeder class, but I learned a lot and walked out with a B+ because of Prof Ellison so definitely take it with him!\"",
                 "rating": "7",
                 "date": "12/16/2020"
+            },
+            {
+                "comment": "Took it with Beyermann online during Spring 2021. His grading system is very fair; I just suck at physics. Study a lot and do extremely well on the first midterm, because the material gets really difficult after that. Also try to get as many points as possible on the poll questions because the amount to as much as a midterm. We had 2 midterms and a cumulative final. Try to stay on top of the material as much as possible, because it is really easy to fall behind. ",
+                "rating": "9",
+                "date": "6/15/2021"
+            },
+            {
+                "comment": "Joshua Lui was very clear, but his exams are hard. It's almost unfair. His lectures glosses over the topic for the day. His homework was okay. It didn't help. His curves are okay, but theres definitely professors who has better. I would not recommend. ",
+                "rating": "8",
+                "date": "6/21/2021"
             }
         ]
     },
@@ -13356,7 +13823,7 @@
         "code": "PHYS002B",
         "description": "GENERAL PHYSICS",
         "credits": 4,
-        "average": "6.13",
+        "average": "6.56",
         "comments": [
             {
                 "comment": "Take Wimpenny for his good curve, by the class is still challenging no matter who you take it with. It's hard to understand what exactly is going on most of the time. ",
@@ -13392,6 +13859,11 @@
                 "comment": "Took the class with Harry Tom over the summer, would not recommend, got an A+ but I had to sell my soul cause his midterm, quizzes, and final were some of the hardest things I've ever done. ",
                 "rating": "10",
                 "date": "9/26/2020"
+            },
+            {
+                "comment": "Took it online with Harry Tom during summer 2021. Got an A+ but the worst experience of my life. Honestly, the content itself isn't that difficult, but the prof expects so much of you as a student. The exams and quizzes were super unreasonable and difficult, and even the TAs said that, too. He didn't even give us a formula sheet. The TAs said they were going to try and do something about how difficult he makes this class, but I am not sure what or if it will work. If you can avoid him and don't mind spending 10 weeks on a physics class, I would recommend taking the class at a different time with a different prof. If you can't avoid him, I would suggest reading each chapter before the lecture and doing the homework way early on so you can ask questions at office hours. The best way to study for exams is to review quizzes and discussion worksheets, because there's a lot of similar themes since he writes his own questions. Even though he curved the midterm, quizzes, polls, and the final exam grades by A LOT, the midterm average was a ~39% and the final exam average was 49-50%. 71.5% was the cutoff for an A, and passing was a 40%. ",
+                "rating": "10",
+                "date": "7/27/2021"
             }
         ]
     },
@@ -13431,7 +13903,7 @@
         "code": "PHYS02LA",
         "description": "GENERAL PHYSICS LABORATORY",
         "credits": 1,
-        "average": "5.75",
+        "average": "6.20",
         "comments": [
             {
                 "comment": "Good grades if you do the labs properly.  Easy final.",
@@ -13447,6 +13919,11 @@
                 "comment": "I think it is imperative to read the lab before you come to class so you have somewhat of an idea to complete the lab. It will help save you a lot of points and time. It also helps to ask the TA for certain sections in the lab. In addition, final assessment was done online (as a timed iLearn exam). Honestly, if you are well prepared for the lecture and know how to do the labs, you should be able to ace the final exam. P.S. You are allowed to use your lab notebook during quizzes and the final assessment, so write down those formulas and concepts if you need it (as a cheat sheet). :) ",
                 "rating": "5",
                 "date": "12/18/2019"
+            },
+            {
+                "comment": "Took it online during Spring 2021. The lab notebooks were extremely difficult because they are very concept-based and require you to derive formulas you learn in lecture. To study for the final, read through your lab notebooks and the corrections TAs make so you know what you did wrong. ",
+                "rating": "8",
+                "date": "6/15/2021"
             }
         ]
     },
@@ -13479,7 +13956,7 @@
         "code": "PHYS040A",
         "description": "GENERAL PHYSICS",
         "credits": 5,
-        "average": "6.00",
+        "average": "6.06",
         "comments": [
             {
                 "comment": "This class the exactly equivalent to AP Physics 1(but they don't give credit for some reason). Pay attention during rotation(moment of inertia, rotational kinetic energy). It's harder than it looks. ",
@@ -13557,7 +14034,7 @@
         "code": "PHYS040C",
         "description": "GENERAL PHYSICS",
         "credits": 5,
-        "average": "7.10",
+        "average": "7.18",
         "comments": [
             {
                 "comment": "Much more difficult than 40B.",
@@ -13613,6 +14090,11 @@
                 "comment": "This class was made unnecessarily hard online, only 1 lecture a week (fall 2020),  a bunch of useless videos and a garbage textbook, if you have prior physics knowledge it is not that hard",
                 "rating": "6",
                 "date": "1/2/2020"
+            },
+            {
+                "comment": "dont do it with becker, he spends all of lecture rambling and not even half the class understands what hes saying. also he worries way more abt catching cheaters than making sure students understand material.",
+                "rating": "8",
+                "date": "6/21/2021"
             }
         ]
     },
@@ -13742,42 +14224,8 @@
         ]
     },
     {
-        "code": "PHYS164",
-        "description": "INTRODUCTION TO NUCLEAR PHYSICS",
-        "credits": 4,
-        "average": "----",
-        "comments": []
-    },
-    {
-        "code": "PHYS177",
-        "description": "COMPUTATIONAL METHODS FOR PHYSICAL SCIENCES",
-        "credits": 4,
-        "average": "1.00",
-        "comments": [
-            {
-                "comment": "Dr. Barton is a very good professor. Class is an easy A for physics electives. Just do your assignments. TA pretty much grades whether the code runs or not. TA and Dr. Barton pretty much set up the assignment for you as well. I didn't know how to code, but still got an A+ in the class. Easy A. ",
-                "rating": "1",
-                "date": "6/8/2020"
-            }
-        ]
-    },
-    {
-        "code": "PHYS203",
-        "description": "STATISTICAL ASTRONOMY",
-        "credits": 4,
-        "average": "----",
-        "comments": []
-    },
-    {
         "code": "PHYS205",
         "description": "CLASSICAL MECHANICS",
-        "credits": 4,
-        "average": "----",
-        "comments": []
-    },
-    {
-        "code": "PHYS209A",
-        "description": "QUANTUM ELECTRONICS",
         "credits": 4,
         "average": "----",
         "comments": []
@@ -13846,13 +14294,6 @@
         "comments": []
     },
     {
-        "code": "PHYS241A",
-        "description": "ADVANCED STATISTICAL PHYSICS AND FIELD THEORY",
-        "credits": 4,
-        "average": "----",
-        "comments": []
-    },
-    {
         "code": "PHYS243",
         "description": "FOUNDATIONS OF APPLIED MACHINE LEARNING",
         "credits": 4,
@@ -13863,20 +14304,6 @@
         "code": "PHYS258",
         "description": "SEMINAR IN SURFACE SCIENCE",
         "credits": 1,
-        "average": "----",
-        "comments": []
-    },
-    {
-        "code": "PHYS260",
-        "description": "SPECIAL TOPICS IN CONDENSED MATTER PHYSICS",
-        "credits": 4,
-        "average": "----",
-        "comments": []
-    },
-    {
-        "code": "PHYS262",
-        "description": "SPECIAL TOPICS IN HIGH ENERGY PHYSICS",
-        "credits": 4,
         "average": "----",
         "comments": []
     },
@@ -13912,6 +14339,13 @@
                 "date": "12/19/2017"
             }
         ]
+    },
+    {
+        "code": "PLPA120L",
+        "description": "INTRODUCTION TO PLANT PATHOLOGY LABORATORY",
+        "credits": 1,
+        "average": "----",
+        "comments": []
     },
     {
         "code": "PLPA125",
@@ -13987,7 +14421,7 @@
         "code": "POSC005W",
         "description": "POLITICAL IDEOLOGIES",
         "credits": 5,
-        "average": "5.00",
+        "average": "4.83",
         "comments": [
             {
                 "comment": "I had Prof. William (Parkes) Riley. His lectures were an absolute drag and nobody went to them. He literally put paragraphs on the slides and then just read off them and uploaded them right after lecture so there was no point in attending. 3 papers, and the midterm was just two in class essays, the final was 3 take home or in class essays (your choice so I did all 3 take home). So basically, your whole grade is determined by a series of papers and your attendance, which made it quite easy if you're a strong writer. However, I would never take this class if I didn't have to. It was so boring and basic and I was bored within a week.",
@@ -14013,6 +14447,11 @@
                 "comment": "Took Online during pandemic with Riley Parkes. He's very knowledgably about the material, but his lectures are long and often boring. There was a lot of reading, but it is still interesting. Overall I would say the readings are the most important and sometimes the lectures are. There were 3 papers and a midterm. There was supposed to be a final, but it got dropped. ",
                 "rating": "6",
                 "date": "12/28/2020"
+            },
+            {
+                "comment": "Professor Kehlenbach is amazing. Lots of reading and writing, but not too bad. ",
+                "rating": "4",
+                "date": "8/3/2021"
             }
         ]
     },
@@ -14053,7 +14492,7 @@
         "code": "POSC015",
         "description": "COMPARATIVE POLITICS",
         "credits": 5,
-        "average": "4.33",
+        "average": "3.60",
         "comments": [
             {
                 "comment": "Took with Prof Busacca.  Short answer essays on midterms and multiple papers.  No final, at least for my quarter.  Easy as long as you get a easy-ish TA grader and pay attention in class.",
@@ -14069,6 +14508,16 @@
                 "comment": "Easy A. I highly recommend you read the assigned reading. 2 midterms, one final. The tests  compose of multiple choice, fill in the blank and short answers. That may seem a lot, but if you go over the book and lecture slides, it's a breeze. I had Heba Hodaly. ",
                 "rating": "2",
                 "date": "6/4/2020"
+            },
+            {
+                "comment": "TAKE WITH IREPOGLU CARRERAS. So easy, just a bit boring but def an easy pass, and an easy A with minimal effort. Provides extra credit opportunities.",
+                "rating": "3",
+                "date": "5/22/2021"
+            },
+            {
+                "comment": "Irepoglu-Carreras is the best! If you can choose, take it with her. ",
+                "rating": "2",
+                "date": "8/3/2021"
             }
         ]
     },
@@ -14109,7 +14558,7 @@
         "code": "POSC020",
         "description": "WORLD POLITICS",
         "credits": 5,
-        "average": "6.25",
+        "average": "5.71",
         "comments": [
             {
                 "comment": "Irrepoglu-Carreras talks way too much; you don't need to write down everything she says. The 2 exams/final and notes are based on the slides/study guides. Reading the textbook helps to clarify the slides but you definitely don't need to do any more than skim the chapters. ",
@@ -14170,12 +14619,17 @@
                 "comment": "I had professor irepoglu-carreras and she was really great! there's biweekly quizzes but they're only participation based and don't effect your grade. the midterm and final are take-home and aren't very hard at all, most of the answers you can find in her lectures. other than that, there's readings every week, but they're usually like no more than 12 pages and are pretty interesting!",
                 "rating": "3",
                 "date": "1/11/2021"
+            },
+            {
+                "comment": "Irepoglu-Carreras is the best professor! Take it with her if you have the choice! ",
+                "rating": "2",
+                "date": "8/3/2021"
             }
         ]
     },
     {
         "code": "POSC101",
-        "description": "THE U.S. CONGRESS",
+        "description": "THE UNITED STATES CONGRESS",
         "credits": 4,
         "average": "----",
         "comments": []
@@ -14300,7 +14754,7 @@
     },
     {
         "code": "POSC161",
-        "description": "U.S.-LATIN AMERICAN RELATIONS",
+        "description": "UNITED STATES AND LATIN AMERICAN RELATIONS",
         "credits": 5,
         "average": "4.00",
         "comments": [
@@ -14361,19 +14815,6 @@
         "comments": []
     },
     {
-        "code": "POSC198G",
-        "description": "FIELD WORK IN POLITICAL SCIENCE",
-        "credits": 4,
-        "average": "3.00",
-        "comments": [
-            {
-                "comment": "Do the readings and Loveridge will give you a good grade. Essentially, don't be exceptionally lazy.",
-                "rating": "3",
-                "date": "8/23/2018"
-            }
-        ]
-    },
-    {
         "code": "POSC201",
         "description": "INTRODUCTION TO POLITICAL INQUIRY",
         "credits": 4,
@@ -14419,7 +14860,7 @@
         "code": "PSYC001",
         "description": "INTRODUCTORY PSYCHOLOGY",
         "credits": 4,
-        "average": "3.30",
+        "average": "3.35",
         "comments": [
             {
                 "comment": "He gives you most of the answers to the test questions every lecture. So I got a B just by studying all the test questions he gave us. Never went to lecture.",
@@ -14515,6 +14956,21 @@
                 "comment": "took online with professor ditta, she's great at teaching the material and gives you everything you need to succeed in the class. 1 midterm, 1 cumulative final & a final media project, all free response but it's open note/textbook. there are also lots of extra credit quiz opportunities!",
                 "rating": "3",
                 "date": "3/29/2021"
+            },
+            {
+                "comment": "Took this class Winter 2021 with Professor Ditta! AMAZINGGGG PROFESSOR I highly recommend her! She kept online lectures interesting and fun, & also provides a synchronous or asynchronous option for her students. The workload was not hard at all and the midterm and final was easy if you just watch the lectures. She is super organized so it made things so easy. Chapter in the textbook every week (although you don't really have to but the textbook is super interactive so it was very easy to read), Quizzes for every chapter (but you can just keep going till you get 100%, questions are unlimited), and then an assignment every week (but it was lowk busy work, only takes about 20 minutes). At the beginning of the week she also sends out what should be done for the week which is superrr helpful. Oh and media project at the end (I just did a tiktok and got a 102%, super easy) and UCR research hours (just participate in a study) Take this class!!! You'll enjoy it. Got an A+",
+                "rating": "3",
+                "date": "4/18/2021"
+            },
+            {
+                "comment": "Rosenbaum gives you all the answers in the lectures and in the reading. He is so adorable and sweet. He makes me laugh and makes it interesting. Make sure to go to every lecture and participate in every discussion if you want points. Hunter the discussion TA is really nice. Don't miss the midterm or the exam or you will have to write a paper.",
+                "rating": "5",
+                "date": "5/18/2021"
+            },
+            {
+                "comment": "I took PSYC1 with Professor Ditta. She's really nice and tries hard to make the class engaging. It's pretty easy to get an A if you put in a little effort. Most of my friends and I ended with a 100%. The main assignments are a midterm, final, and a project. There are also discussion activities and weekly \"quizzes,\" that you can take until you get a 100%. \n\nThis class is basically just about putting in effort and it's pretty interesting!",
+                "rating": "3",
+                "date": "6/2/2021"
             }
         ]
     },
@@ -14522,7 +14978,7 @@
         "code": "PSYC002",
         "description": "INTRODUCTORY PSYCHOLOGY",
         "credits": 4,
-        "average": "3.61",
+        "average": "3.53",
         "comments": [
             {
                 "comment": "Easier than PSYCH001 imo",
@@ -14588,6 +15044,11 @@
                 "comment": "I had Prof. Wu for PSYC002 during online classes. All of the lectures, quizzes, and exams are asynchronous, so it's super helpful to go at your own pace. My advice to make sure you don't procrastinate because it WILL screw you over in the end. Make sure you watch the lecture videos and attend the discussion and you'll be fine. I finished with an A. ",
                 "rating": "6",
                 "date": "3/8/2021"
+            },
+            {
+                "comment": "I took PSYC2 with Professor Sy. Honestly, I would recommend if you just want an A. I feel that I didn't learn a ton, but the class was really easy. All the tests were multiple choice and open book. The professor is also super nice and upbeat. There wasn't much homework, just reading, which I guess was optional. The textbook is a little boring, but hey, it's free!",
+                "rating": "2",
+                "date": "6/2/2021"
             }
         ]
     },
@@ -14683,11 +15144,22 @@
         ]
     },
     {
-        "code": "PSYC013",
-        "description": "SKEPTICISM AND PSEUDOSCIENCE IN PSYCHOLOGY",
+        "code": "PSYC049",
+        "description": "EARLY CHILDHOOD EDUCATION",
         "credits": 4,
-        "average": "----",
-        "comments": []
+        "average": "3.00",
+        "comments": [
+            {
+                "comment": "Psychology of Creativity: Professor Ditta is probably one of the best professors ever. She really prioritizes the learning and understanding of her students in terms of making her lectures very engaging by adding activities that help you understand the concepts. She has weekly quizzes that give you a sense of how she writes her exam questions which I find very useful. There are 2 midterms and 1 Final project (no final exam). ",
+                "rating": "5",
+                "date": "11/5/2019"
+            },
+            {
+                "comment": "Annie Ditta was the professor and she was a new professor to UCR. She makes the class so engaging and brings in interesting guest lecturers. Exams are extremely easy if you just simply memorize the content/ use common sense. There's a project at the end of the class, it's very simple practically everyone gets 100s. Just make sure to show up to every discussion. ",
+                "rating": "1",
+                "date": "6/17/2020"
+            }
+        ]
     },
     {
         "code": "PSYC110",
@@ -14725,6 +15197,13 @@
         "comments": []
     },
     {
+        "code": "PSYC120L",
+        "description": "NEUROSCIENCE LABORATORY",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "PSYC121",
         "description": "DEVELOPMENTAL NEUROSCIENCE",
         "credits": 4,
@@ -14753,13 +15232,6 @@
         "comments": []
     },
     {
-        "code": "PSYC130",
-        "description": "FUNDAMENTALS OF LEARNING AND CONDITIONING",
-        "credits": 4,
-        "average": "----",
-        "comments": []
-    },
-    {
         "code": "PSYC132",
         "description": "PERCEPTION",
         "credits": 4,
@@ -14782,7 +15254,7 @@
     {
         "code": "PSYC140",
         "description": "SOCIAL PSYCHOLOGY",
-        "credits": 4,
+        "credits": 0,
         "average": "2.50",
         "comments": [
             {
@@ -14861,11 +15333,17 @@
         "code": "PSYC178",
         "description": "HEALTH PSYCHOLOGY",
         "credits": 4,
-        "average": "----",
-        "comments": []
+        "average": "2.00",
+        "comments": [
+            {
+                "comment": "SPRING 2021 - Professor Melissa Wilson - Super interesting and easygoing class. The exams are basically just lecture material with a little bit of questions where you apply certain concepts to specific scenarios. 1 essay that is pretty easy because most TAs are really nice and helpful. 1 final, 4 \"mini-exams,\" and reading quizzes. ",
+                "rating": "2",
+                "date": "6/17/2021"
+            }
+        ]
     },
     {
-        "code": "PSYC182N",
+        "code": "PSYC182E",
         "description": "LABORATORY IN PSYCHOLOGY",
         "credits": 5,
         "average": "----",
@@ -14943,7 +15421,7 @@
     },
     {
         "code": "PSYC270",
-        "description": "MAMA",
+        "description": "CURRENT RESEARCH IN QUANT",
         "credits": 2,
         "average": "----",
         "comments": []
@@ -14993,8 +15471,8 @@
     {
         "code": "PBPL001",
         "description": "INTRODUCTION TO PUBLIC POLICY ANALYSIS",
-        "credits": 4,
-        "average": "2.67",
+        "credits": 0,
+        "average": "3.38",
         "comments": [
             {
                 "comment": "I had professor Bruce Babcock. He's pretty cool, slightly unorganized. But if you go to lecture and do the 3 assignments, you'll be just fine. If you're interested in government you should have no problem taking interest into this class and getting a good grade. Readings not necessary",
@@ -15025,13 +15503,23 @@
                 "comment": "Taken online with Professor Serieux-Lubin. Professor was extremely uninvolved, most interaction was through the TA. Never started anything before the day it was due in this class & got an A easily. \n\n-3 Written assignments (~200, 800, 2000 words)\n-Exam every 2 week on 2 weeks of material that you learn from videos + linked readings. Used to be 2 short answer + multiple choice, was just multiple choice by the end of the quarter\n-attendance taken once a week from discussion with the TA\n-plenty of extra credit offered via discussion boards/submitting early drafts of written assignments",
                 "rating": "2",
                 "date": "3/23/2021"
+            },
+            {
+                "comment": "Took it with Brady and Babcock Spring 2021. Please avoid this class if you are a stem major as it will get in your way of focusing on your major classes. I have a few complaints. 1. There is a lot of reading. They are mostly 5-10pg articles and they average about 7 different articles A WEEK. The exams are reading heavy so you have to read the articles to do well. 2. The TAs are absolutely useless. It sucks enough that all lectures are recorded so you have no contact with the professor. My TA took an average of 1 week to respond to my emails, which would be too late anyway. The only actual class time is during discussion and most of the TAs for this class will straight up say to not ask them about the material because they don't have time to look at it. For exams, they tell you to do the reading, give you a study guide of what they think will be on the exam and call it a day. 2. There are 4 midterms and 1 final exam. Basically, there is an exam every other week on Fridays, so be careful about what classes you might have on Fridays. 4. The assignments are tedious and boring and the TAs grade harshly for things like citations, grammar, word count, etc. If you go over or under the word requirement, you will get points deducted. 5. The professors are not empathetic. A peer of mine got sick with covid and was in the hospital. When they let the professor know since they missed an assignment, the professor said that they should have told him sooner and the student received a 0 on the assignment. Good things about the course: 1. open-note exams 2. recorded lectures if that's your thing 3. Sometimes curves exam scores. 4. They drop your lowest exam score. (somehow got an A, but still. Good luck lol)",
+                "rating": "6",
+                "date": "5/7/2021"
+            },
+            {
+                "comment": "I took this class online, for spring quarter in 2021, because I had read some threads recommending this class. This class is basically Busywork: The Class, and I would strongly, STRONGLY advise against taking this class if you don't need to. I took this class for credits, and the amount of time I had to put into this class was ridiculous. I ended up having to put more time in this class than the other two classes I took this quarter combined. The grading for this class is based around biweekly exams (that's 5 exams total - 5!!) that are open-book, but because they are open-book, the professor takes that as an excuse to grill you on minute details of the readings assigned for that week. Readings are pretty lengthy, and on top of doing readings as well as studying for each of the 5 exams, you are also given writing assignments that progressively get longer on creating your own public policy. I did fine on these writing assignments, as well as the exams. It feels like you only have to do the bare minimum to succeed in this class, but the bare minimum is still a ridiculous amount of time. ",
+                "rating": "5",
+                "date": "6/2/2021"
             }
         ]
     },
     {
         "code": "PBPL002",
         "description": "POLITICS AND PUBLIC POLICY",
-        "credits": 0,
+        "credits": 4,
         "average": "4.00",
         "comments": [
             {
@@ -15097,6 +15585,19 @@
         "comments": []
     },
     {
+        "code": "PBPL101",
+        "description": "CASE STUDIES IN PUBLIC POLICY",
+        "credits": 4,
+        "average": "6.00",
+        "comments": [
+            {
+                "comment": "Taken with Brady. Nice class a lot of application of sociological concepts and ideas. A lot of reading but the class is completely doable. Super nice and curves exams. Make sure you read/skim read for the exams - completely fair!",
+                "rating": "6",
+                "date": "5/27/2021"
+            }
+        ]
+    },
+    {
         "code": "PBPL102",
         "description": "BORDERLINE IMMIGRATION POLICIES AND COMMUNITY CHANGE PROCESS",
         "credits": 4,
@@ -15117,8 +15618,8 @@
         "comments": []
     },
     {
-        "code": "PBPL130",
-        "description": "MANAGEMENT OF INTERNATIONAL WATER",
+        "code": "PBPL150",
+        "description": "EXPLORING URBAN COMMUNITIES USING GEOGRAPHIC INFORMATION SYSTEM",
         "credits": 4,
         "average": "----",
         "comments": []
@@ -15126,13 +15627,6 @@
     {
         "code": "PBPL155",
         "description": "WOMEN&#39;S LABOR AND THE ECONOMY",
-        "credits": 4,
-        "average": "----",
-        "comments": []
-    },
-    {
-        "code": "PBPL190",
-        "description": "SPECIAL STUDIES",
         "credits": 4,
         "average": "----",
         "comments": []
@@ -15180,15 +15674,15 @@
         "comments": []
     },
     {
-        "code": "PBPL271",
-        "description": "RACIAL INEQUALITY IN POLITICS AND POLICY",
+        "code": "PBPL264",
+        "description": "METHODS IN HEALTH DISPARITIES RESEARCH: AN INTRODUCTION TO COMMUNITY ENGAGED RESEARCH",
         "credits": 4,
         "average": "----",
         "comments": []
     },
     {
-        "code": "PBPL280",
-        "description": "SPECIAL TOPICS IN PUBLIC POLICY",
+        "code": "PBPL271",
+        "description": "RACIAL INEQUALITY IN POLITICS AND POLICY",
         "credits": 4,
         "average": "----",
         "comments": []
@@ -15282,7 +15776,7 @@
     },
     {
         "code": "RLST125",
-        "description": "STUDIES IN RELIGION",
+        "description": "GENDER, SEXUALITY, AND ISLAM",
         "credits": 4,
         "average": "----",
         "comments": []
@@ -15340,7 +15834,7 @@
         "code": "SOC001",
         "description": "INTRODUCTION TO SOCIOLOGY",
         "credits": 4,
-        "average": "5.67",
+        "average": "5.50",
         "comments": [
             {
                 "comment": "Only take with professor simmons",
@@ -15446,6 +15940,11 @@
                 "comment": "I had Rotondi for this class (Fall 2020). He\u2019s a great professor. He\u2019s very passionate about his teaching. READ! READ! READ! The class has quizzes and doesn\u2019t have final.You\u2019ll pass the quizzes as long as you read.",
                 "rating": "3",
                 "date": "1/4/2021"
+            },
+            {
+                "comment": "Spring 2021 no midterm, or final just weekly 20 point quizzes but they are easy if you do the reading. asynchronous only meet weekly for TA ",
+                "rating": "2",
+                "date": "6/1/2021"
             }
         ]
     },
@@ -15505,32 +16004,6 @@
         ]
     },
     {
-        "code": "SOC005",
-        "description": "STATISTICAL ANALYSIS",
-        "credits": 5,
-        "average": "9.00",
-        "comments": [
-            {
-                "comment": "I took this class with Kalousova and it was pretty hard. Go to discussions and put in work, doing homework cost like $120. Not an impossible class but definitely not an easy A",
-                "rating": "9",
-                "date": "2/23/2021"
-            }
-        ]
-    },
-    {
-        "code": "SOC020",
-        "description": "AMERICAN SOCIETY",
-        "credits": 5,
-        "average": "4.00",
-        "comments": [
-            {
-                "comment": "Grade is based on three exams and an 8 page paper, not cumulative. The paper is a research proposal. The study guide is basically the same as the questions on the test. Also, the answers are the same as the notes from the slides. ",
-                "rating": "4",
-                "date": "2/21/2020"
-            }
-        ]
-    },
-    {
         "code": "SOC028",
         "description": "INTRODUCTION TO THE SOCIOLOGY OF GENDER",
         "credits": 4,
@@ -15558,13 +16031,6 @@
     {
         "code": "SOC128",
         "description": "CHICANO SOCIOLOGY",
-        "credits": 4,
-        "average": "----",
-        "comments": []
-    },
-    {
-        "code": "SOC129",
-        "description": "RACISM IN WESTERN SOCIETY",
         "credits": 4,
         "average": "----",
         "comments": []
@@ -15730,13 +16196,6 @@
         "comments": []
     },
     {
-        "code": "SEAS175",
-        "description": "ASIAN AMERICAN WOMEN: WRITING THE SELF IN LITERATURE AND FILM",
-        "credits": 4,
-        "average": "----",
-        "comments": []
-    },
-    {
         "code": "SEAS184",
         "description": "THE VIETNAM WARS",
         "credits": 4,
@@ -15772,7 +16231,7 @@
         "code": "SPN002",
         "description": "ELEMENTARY SPANISH",
         "credits": 4,
-        "average": "6.50",
+        "average": "6.60",
         "comments": [
             {
                 "comment": "Kind of tedious and annoying. Especially if you have Yolanda Cardenas. Good Professor, but it will require a lot of work from you with an exam one week and a composition the next. ",
@@ -15793,6 +16252,11 @@
                 "comment": "I took this class with Pedro Garcia Lopez and while he was nice, he was a tough grader and really expects you to get down Spanish. Class has 2 written exams, 5 textbook assignments and quizzes, 2 oral presentations (one for the midterm and one for the final), and a final written exam. However, the textbook assignments/quizzes are 30% of your grade, so do good on those and try to get B's on the other assignments. Be prepared because the quizzes can take a while to complete because of how lengthy the questions are. Plus the textbook was online and terrible (not to mention it was 50 bucks).",
                 "rating": "8",
                 "date": "3/20/2021"
+            },
+            {
+                "comment": "If you're taking with Oscar Valle, be ready to teach yourself all of the material. He teaches the class very differently than other TAs so he doesn't really seem like hes organized or has a lesson plan but he's pretty helpful. Spanish 2 concepts were okay, just lots of memorizing and I say if you're a decent spanish speaker and you're able to teach yourself, take him! ",
+                "rating": "7",
+                "date": "6/1/2021"
             }
         ]
     },
@@ -15800,8 +16264,14 @@
         "code": "SPN003",
         "description": "ELEMENTARY SPANISH",
         "credits": 4,
-        "average": "----",
-        "comments": []
+        "average": "8.00",
+        "comments": [
+            {
+                "comment": "It is not too bad, I say 8 just because of the work load. Lots of McGraw Hill homework plus extra assignments by the TA. 2 writing assignments and 2 oral exams just like every spanish class. It is important to know your grammar very well to pass.",
+                "rating": "8",
+                "date": "6/2/2021"
+            }
+        ]
     },
     {
         "code": "SPN004",
@@ -15940,7 +16410,14 @@
     },
     {
         "code": "SPN193",
-        "description": "SENIOR SEMINAR IN THE LITERATURES AND CULTURES OF THE HISPANIC WORLD",
+        "description": "CAPITAIST SOCIAL REPRODUCTION",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "SPN207",
+        "description": "HISTORY OF THE SPANISH LANGUAGE",
         "credits": 4,
         "average": "----",
         "comments": []
@@ -15960,16 +16437,16 @@
         "comments": []
     },
     {
-        "code": "SPN301",
-        "description": "TEACHING SPANISH AT THE COLLEGE LEVEL",
-        "credits": 2,
+        "code": "SPN291",
+        "description": "INDIVIDUAL STUDIES IN COORDINATED AREAS",
+        "credits": 0,
         "average": "----",
         "comments": []
     },
     {
         "code": "STAT008",
         "description": "STATISTICS FOR BUSINESS",
-        "credits": 5,
+        "credits": 0,
         "average": "----",
         "comments": []
     },
@@ -16092,6 +16569,16 @@
                 "comment": "Probability and Combinatorics are the hardest part of this class. Sometimes differentiating between probability distributions can be tricky but if you keep up, this class will be easy. Make sure to do the HW as this is the most helpful part in ensuring a good grade on tests. Lectures are confusing so reading the book instead is useful. Teacher: Shuheng Zhou",
                 "rating": "6",
                 "date": "3/25/2021"
+            },
+            {
+                "comment": "Take it Professor Analisa Flores if you can, she's very organized and fair when it comes to grading and curves. Not a hard class, just hard to keep up with the content as it's a lot.",
+                "rating": "6",
+                "date": "6/2/2021"
+            },
+            {
+                "comment": "I had Analisa Flores. Wasn't too bad. Two midterms worth 15% each and a cumulative final worth 30%. Both were curved generously. Study the notes as much as possible and fill them out. Quizzes were worth 15% and are confusing at times, the correct answer choices often didn't make sense. All in all, great professor only thing I wish is that she could've provided us practice exams :(",
+                "rating": "6",
+                "date": "6/21/2021"
             }
         ]
     },
@@ -16159,6 +16646,13 @@
         "comments": []
     },
     {
+        "code": "STAT232",
+        "description": "STATISTICS FOR BUSINESS ANALYTICS",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "STAT240",
         "description": "NONPARAMETRIC METHODS",
         "credits": 4,
@@ -16173,7 +16667,7 @@
         "comments": []
     },
     {
-        "code": "STAT255T",
+        "code": "STAT255S",
         "description": "SEMINAR ON TOPICS IN APPLIED STATISTICS",
         "credits": 4,
         "average": "----",
@@ -16190,7 +16684,7 @@
         "code": "TFDP010",
         "description": "INTRODUCTION TO ACTING",
         "credits": 4,
-        "average": "1.50",
+        "average": "1.67",
         "comments": [
             {
                 "comment": "I recommend Professor Bucklin for this class. He is funny, grades easily as long as you put in some effort for your acting, and practically gives you an \"A\" if you show up to the lecture (participation counts). There is no h.w. for this class. He occasionally gives small quizzes on the plays/screen writes (which can be found online) and write a short review for a play. The final is also super easy (it's a 3-5 min group performance, you get full points for participation).",
@@ -16201,6 +16695,11 @@
                 "comment": "This class with Buklin was pretty easy. Only 1 midterm, 2 quizzes about easy plays, and no final. He's easy to understand.",
                 "rating": "2",
                 "date": "11/22/2019"
+            },
+            {
+                "comment": "Professor Carazo is so cool and the class is fun! ",
+                "rating": "2",
+                "date": "8/3/2021"
             }
         ]
     },
@@ -16357,6 +16856,13 @@
         "code": "TFDP166B",
         "description": "SCREENWRITING: OUTLINE TO FIRST DRAFT",
         "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "TFDP190",
+        "description": "SPECIAL STUDIES",
+        "credits": 0,
         "average": "----",
         "comments": []
     },
