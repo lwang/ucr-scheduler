@@ -3,8 +3,8 @@ from flask import Flask, request, Response, jsonify, make_response
 from flask_cors import CORS
 from lxml import html
 from icalendar import Calendar, Event
-from Pyro5.api import Proxy
 
+import gzip
 from math import prod
 import time
 from itertools import product, combinations, repeat
@@ -28,9 +28,17 @@ week = {
     'friday': '2020-01-03'
 }
 
-def get_seats(term, crn):
-    res = requests.get(f'https://registrationssb.ucr.edu/StudentRegistrationSsb/ssb/searchResults/getEnrollmentInfo?term={term}&courseReferenceNumber={crn}')
+def format_sse(data: str, event=None) -> str:
+    msg = f'data: {data}\n\n'
+    if event is not None:
+        msg = f'event: {event}\n{msg}'
+    return msg
+
+def get_seats(term, crn, session):
+    # return True
+    res = session.get(f'https://registrationssb.ucr.edu/StudentRegistrationSsb/ssb/searchResults/getEnrollmentInfo?term={term}&courseReferenceNumber={crn}')
     tree = html.fromstring(res.content)
+
     temp = [int(x) for x in tree.xpath('//span[@dir="ltr"]/text()')]
     """
     Enrollment Actual: 0
@@ -45,30 +53,31 @@ def get_seats(term, crn):
         return False
     return True
 
-def get_class_data(term, course):
+def get_class_data(term, course, map):
     # s = requests.Session()
     # s.get(f'https://registrationssb.ucr.edu/StudentRegistrationSsb/ssb/term/search?mode=search&dataType=json&term={term}&studyPath=&studyPathText=&startDatepicker=&endDatepicker=')
     # parsed_json = s.get(f'https://registrationssb.ucr.edu/StudentRegistrationSsb/ssb/searchResults/searchResults?txt_subjectcoursecombo={course}&txt_term={term}&startDatepicker=&endDatepicker=&pageOffset=0&pageMaxSize=999&sortColumn=subjectDescription&sortDirection=asc&[object%20Object]').json()
     # if parsed_json['totalCount'] == 0:
     #     raise Exception(f'No sections found for {course}')
     # return [class_dict for class_dict in parsed_json['data']]
-    course_json = json.load(open(f'json/{term}_data.json', 'r'))[course]
+    # course_json = json.load(open(f'json/{term}_data.json', 'r'))[course]
+    # course_json = pickle.load(open(f'json/{term}_data.pickle', 'rb'))[course]
+
+    # course_json = pickle.load(open(f'json/{term}_data/{course}.pickle', 'rb'))
+    course_json = pickle.load(open(f'json/{term}_data/{map[course]}.pickle', 'rb'))[course]
     return [course_json[key] for key in course_json]
 
-def is_conflict(crn1, crn2, times):
-    for day in week:
-        if times[crn1][day] and times[crn2][day]:
-            s1, e1 = int(times[crn1]['beginTime']), int(times[crn1]['endTime'])
-            s2, e2 = int(times[crn2]['beginTime']), int(times[crn2]['endTime'])
-            if (s1 < e2) and (e1 > s2):
-                return True
-    return False
+# def is_conflict(crn1, crn2, times):
+#     for day in week:
+#         if times[crn1][day] and times[crn2][day]:
+#             s1, e1 = int(times[crn1]['beginTime']), int(times[crn1]['endTime'])
+#             s2, e2 = int(times[crn2]['beginTime']), int(times[crn2]['endTime'])
+#             if (s1 < e2) and (e1 > s2):
+#                 return True
+#     return False
 
-@app.route('/', methods=['GET'])
-def home():
-    num = request.args['num']
-    with Proxy("PYRO:TestAPI@localhost:9999") as serv:
-        return str(serv.test(int(num)))
+# @app.route('/', methods=['GET'])
+# def home():
     # term = request.args['term']
     # course = request.args['course']
     # try: 
@@ -76,8 +85,20 @@ def home():
     # except Exception as e:
         # return Response(str(e), status=400)
     # return jsonify(class_data)
+    # num = request.args['num']
+    # with Proxy("PYRO:TestAPI@localhost:9999") as serv:
+    #     return str(serv.test(int(num)))
     
 def get_course_sections(code, future, full_data, times, term, course_sections, seats):
+    """
+    code: READ -- e.g. ECON002, ANTH001
+    future: READ --
+    full_data: UPDATE --
+    times: UNUSED
+    term: UNUSED
+    course_sections: UPDATE --
+    seats: READ -- {'53609': True, '53610': False}
+    """
     s = time.perf_counter()
     temp = dict()
     for section in future.result():
@@ -86,7 +107,7 @@ def get_course_sections(code, future, full_data, times, term, course_sections, s
         if not section['meetingsFaculty']:
             return Response(f'No specified meeting times for {code}', status=400)
         full_data[section['courseReferenceNumber']] = section
-        times[section['courseReferenceNumber']] = section['meetingsFaculty'][0]['meetingTime']
+        # times[section['courseReferenceNumber']] = section['meetingsFaculty'][0]['meetingTime']
         
         num = section['linkIdentifier'][1:] if section['linkIdentifier'] and (section['linkIdentifier'][1:]).isnumeric() else 1
         temp[num] = temp.get(num, dict())
@@ -113,36 +134,38 @@ def get_course_sections(code, future, full_data, times, term, course_sections, s
     
 @app.route('/schedules', methods=['GET'])
 def schedules():
-    course_sections, times, full_data, seats = dict(), dict(), dict(), dict()
-    start, _start = time.perf_counter(), time.perf_counter()
+    # times = dict()
+    course_sections, full_data = dict(), dict()
     term = request.args['term']
     codes = request.args['courses'].split(',')
-    print(len(codes), end=": ")
+    print('\n', len(codes), end=": ")
     if not term or not codes:
         return Response(f"Missing parameter(s):{' term' if not term else ''} {' courses' if not codes else ''}", status=400)
     print(codes)
-    print('Start:', time.perf_counter() - start)
-    
     
     ### RETRIEVE COURSE SECTION DATA ###
     start = time.perf_counter()
     with concurrent.futures.ThreadPoolExecutor(max_workers=2*len(codes)) as executor:
-        futures = [(code, executor.submit(get_class_data, term, code)) for code in codes] # Add class data
+        map = pickle.load(open(f'json/{term}_data/_map.pickle', 'rb'))
+        futures = [(code, executor.submit(get_class_data, term, code, map)) for code in codes] # Add class data
         coreqs = []
         for _, future in futures: # Add coreq to codes list
             for section in future.result():
                 coreqs += [f'{section["subject"]}{creq}' for creq in section['coreq'] if f'{section["subject"]}{creq}' not in coreqs and f'{section["subject"]}{creq}' not in codes]
-        futures += [(code, executor.submit(get_class_data, term, code)) for code in coreqs] # Add coreq class data
+        futures += [(code, executor.submit(get_class_data, term, code, map)) for code in coreqs] # Add coreq class data
+        print('Get Class Data/Course Sections:', time.perf_counter() - start)
+        start = time.perf_counter()
+        session = requests.session()
+        seats = {}
         for _, future in futures: # Update seat info
             try:
-                for crn, future in [(section['courseReferenceNumber'], executor.submit(get_seats, term, section['courseReferenceNumber'])) for section in future.result()]:
+                for crn, future in [(section['courseReferenceNumber'], executor.submit(get_seats, term, section['courseReferenceNumber'], session)) for section in future.result()]:
                     seats[crn] = future.result()
             except Exception as e:
                 return Response(str(e), status=400)
         for code, future in futures:
-            executor.submit(get_course_sections, code, future, full_data, times, term, course_sections, seats)
-    print('Get Class Data/Course Sections:', time.perf_counter() - start)
-
+            executor.submit(get_course_sections, code, future, full_data, [], term, course_sections, seats)
+    print('Update Seat Info:', time.perf_counter() - start)
 
     ### GENERATE SECTION PAIRS ###
     start = time.perf_counter()
@@ -152,67 +175,54 @@ def schedules():
         for section in course_sections[course]: #1 course section
             temp = [course_sections[course][section][type] for type in course_sections[course][section]] # List of list of section codes [['58054'], ['62842', '62843'], ['58095', '60520']]
             section_comb += [x for x in product(*temp)]
-        shuffle(section_comb) #Used when excess sections are truncated in next step
+        # shuffle(section_comb) #Used when excess sections are truncated in next step
         section_combinations.append(section_comb)
     ### REMOVE EXCESS SECTIONS ###
     # To reduce the total number of "possible" schedules
-    sc_lengths = [len(x) for x in section_combinations]
-    print('Section Lengths|Total:', sc_lengths, prod(sc_lengths), end='\t')
-    while prod(sc_lengths) > 350000*5:  # 5 seconds
-        section_combinations[sc_lengths.index(max(sc_lengths))].pop()
-        sc_lengths = [len(x) for x in section_combinations]
-    print(sc_lengths, prod(sc_lengths))
-    print('Gen Section Pairs:', time.perf_counter() - start)
-    
-    
+    # sc_lengths = [len(x) for x in section_combinations]
+    # print('Section Lengths|Total:', sc_lengths, prod(sc_lengths), end='\t')
+    # while prod(sc_lengths) > 350000*5:  # 5 seconds
+    #     section_combinations[sc_lengths.index(max(sc_lengths))].pop()
+    #     sc_lengths = [len(x) for x in section_combinations]
+    # print(sc_lengths, prod(sc_lengths))
+    # print('Gen Section Pairs:', time.perf_counter() - start)
+    import base64
     ### CHECK IF TWO SECTIONS IN A SCHEDULE CONFLICT """
-    conflicts = pickle.load(open(f'json/{term}_conflicts.pickle', 'rb'))
-    all_schedules, valid_schedules = 0, set()
-    start = time.perf_counter()
-    for i in product(*section_combinations): #350000 schedules / sec
-        all_schedules += 1
-        conflict = False
-        for pair in combinations([j for sub in i for j in sub], 2):
-            # if is_conflict(*pair, times):
-            if pair[0] in conflicts and pair[1] in conflicts[pair[0]]:
-                conflict = True
+    def stream():
+        start = time.perf_counter()
+        valid_schedules = 0
+        conflicts = pickle.load(open(f'json/{term}_data/_conflicts.pickle', 'rb'))
+        conflicts = frozenset([pair for pair in product([c for d in [a for b in section_combinations for a in b] for c in d], repeat=2) if pair[1] in conflicts[pair[0]]])
+        for i in product(*section_combinations): #350000 schedules / sec
+            conflict = False
+            for pair in combinations([j for sub in i for j in sub], 2):
+                if pair in conflicts:
+                    conflict = True
+                    break
+            if conflict:
+                continue
+            if valid_schedules > 1000:
                 break
-        if not conflict:
-            valid_schedules.add(i)
-            if len(valid_schedules) >= 200:
-                break
-    print('Schedule Conflicts:', time.perf_counter() - start)
-
-    
-    ### FORMAT VALID SCHEDULES IN FRONTEND FORMAT ###
-    start = time.perf_counter()
-    schedules = []
-    for code in valid_schedules:
-        schedule = {'data':[]}
-        crns = []
-        for n in [j for sub in code for j in sub]:
-            courseData = full_data[n]
-            for day in week:
-                if courseData['meetingsFaculty'][0]['meetingTime'][day]:
-                    event = {
-                        'id': n+day,
-                        'start_date': f'{week[day]} {courseData["meetingsFaculty"][0]["meetingTime"]["beginTime"][:2]}:{courseData["meetingsFaculty"][0]["meetingTime"]["beginTime"][2:]}:00',
-                        'end_date': f'{week[day]} {courseData["meetingsFaculty"][0]["meetingTime"]["endTime"][:2]}:{courseData["meetingsFaculty"][0]["meetingTime"]["endTime"][2:]}:00',
-                        'text': f'{courseData["subject"]}{courseData["courseNumber"]} {courseData["scheduleTypeDescription"]}',
-                        'details': ''
-                    }
-                    # '\nCRN: {courseData["courseReferenceNumber"]}\nSeats: {courseData["seatsAvailable"]}/{courseData["maximumEnrollment"]}\n'
-                    crns.append(courseData["courseReferenceNumber"])
-                    schedule['data'].append(event)
-        schedules.append([schedule, crns])
-    print('Format Schedules:', time.perf_counter() - start)
-    print('All | Valid:', all_schedules, len(valid_schedules), len(schedules))
-    # shuffle(schedules)
-    print('End:', time.perf_counter() - _start, end='\n\n')
-    if len(schedules) > 0:
-        return jsonify(schedules[:500])
-    else:
-        return Response(f'No schedules found', status=400)
+            valid_schedules += 1
+            schedule, crns = {'data':[]}, []
+            for n in [j for sub in i for j in sub]:
+                courseData = full_data[n]
+                for day in week:
+                    if courseData['meetingsFaculty'][0]['meetingTime'][day]:
+                        event = {
+                            'id': n+day,
+                            'start_date': f'{week[day]} {courseData["meetingsFaculty"][0]["meetingTime"]["beginTime"][:2]}:{courseData["meetingsFaculty"][0]["meetingTime"]["beginTime"][2:]}:00',
+                            'end_date': f'{week[day]} {courseData["meetingsFaculty"][0]["meetingTime"]["endTime"][:2]}:{courseData["meetingsFaculty"][0]["meetingTime"]["endTime"][2:]}:00',
+                            'text': f'{courseData["subject"]}{courseData["courseNumber"]} {courseData["scheduleTypeDescription"]}',
+                            'details': ''
+                        }
+                        crns.append(courseData["courseReferenceNumber"])
+                        schedule['data'].append(event)
+            yield format_sse(data=base64.b64encode(gzip.compress(json.dumps([schedule, crns]).encode(), 5)))
+            # yield format_sse(data=json.dumps([schedule, crns]))
+        print('Schedule Conflicts:', valid_schedules, time.perf_counter() - start)
+        yield format_sse(data='', event='stream-end')
+    return Response(stream(), mimetype='text/event-stream')
 
 @app.route('/term_plan', methods=['POST'])
 def create_term_plan():
@@ -291,11 +301,11 @@ def ical():
     print(crns)
     time_format = '%m/%d/%Y-%H%M'
     cal = Calendar()
-    term_data = json.load(open(f'json/{term}_data.json', 'r'))
+    map = pickle.load(open(f'json/{term}_data/_map.pickle', 'rb'))
     for course in courses:
         for crn in crns:
-            if crn in term_data[course] and crn not in found:
-                data = term_data[course][crn]
+            if crn in map[course] and crn not in found:
+                data = pickle.load(open(f'json/{term}_data/{map[course]}.pickle', 'rb'))[course][crn]
                 event = Event()
     
                 dtstart = datetime.strptime(f"{data['meetingsFaculty'][0]['meetingTime']['startDate']}-{data['meetingsFaculty'][0]['meetingTime']['beginTime']}", time_format)

@@ -3,3 +3,6 @@ logs.cmd
 *ld*
 json/Backup
 *.bkp*
+*_READONLY*
+__pycache__/
+Old*/

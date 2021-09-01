@@ -4,4 +4,3 @@ gunicorn
 flask_cors
 lxml
 icalendar
-Pyro5
