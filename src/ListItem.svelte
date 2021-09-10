@@ -3,7 +3,7 @@
 	import { createEventDispatcher } from 'svelte';
 	const dispatch = createEventDispatcher();
 
-	export let title;
+	export let name;
 	export let content;
 	export let sendDispatch = null;
 	let active = false;
@@ -15,7 +15,7 @@
 </script>
 
 <div class='card {$theme}' class:active="{active}" on:click="{() => {handleDispatch({sendDispatch});}}">
-	<h2>{title}</h2>
+	<h2>{name}</h2>
 	<p>{content}</p>
 </div>
 
