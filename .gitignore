@@ -3,4 +3,4 @@
 _old
 node_modules
 public
-push.cmd
+push*.cmd
