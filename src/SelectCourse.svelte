@@ -1,0 +1,191 @@
+<script>
+	import { fade } from 'svelte/transition';
+    import { theme, term, courses, options, schedules } from './store.js';
+	import VirtualList from './VirtualList.svelte';
+	import ListItem from './ListItem.svelte';
+    $: $options, schedules.set([])
+
+    export let items = [];
+	fetch(`json/${$term['code']}.json`)
+        .then((data) => data.json())
+		.then((jsonData) => 
+		{
+			jsonData.forEach((element) => 
+			{
+				items = [...items, 
+				{
+					"name": element.code,
+					"content": element.description,
+					"sendDispatch":element.code,
+				}];
+			});
+		});
+    ;
+
+	let searchTerm = "";
+	$: filteredList = items.filter(item => item.name.toLowerCase().indexOf(searchTerm.toLowerCase()) !== -1);
+	
+	let start, end;
+	function receiveDispatch(e) {
+		schedules.set([])
+		let tempcourses = $courses;
+		console.log(tempcourses.indexOf(e.detail.text))
+		if (tempcourses.indexOf(e.detail.text) == -1)
+			tempcourses = [...tempcourses, e.detail.text];
+		console.log(tempcourses);
+		courses.set(tempcourses);
+	}
+
+	function removeCourse(course) {
+		schedules.set([])
+		let tempcourses = $courses;
+		tempcourses.splice(tempcourses.indexOf(course), 1);
+		courses.set(tempcourses);
+	}
+
+	function clear() {
+		schedules.set([])
+		courses.set([])
+	}
+</script>
+
+<div>
+	<div style='float:left; width:30%;'>
+		<h1 for="search" style='display:inline;'>Filter:&nbsp;</h1>
+		<input type="text" id="search" bind:value={searchTerm} style='display:inline;width:50%;padding: 0.5%;' />
+	</div>
+	<div style='float:left; width:30%;'>
+		<h1 style='display:inline;'>Selected Courses ({$courses.length}):</h1>
+	</div>
+	<div style='float:right; width:40%;'>
+		<h1 style='display:inline;'>Scheduler Options:</h1>
+	</div>
+</div>
+<hr style="border-top: 1px solid #bbb; width: 100%">
+<div style='width: 100%; height:75vh'>
+	<div class='container' style='float:left; width:30%; height:100%'>
+		<div style='height:100%'>
+			<VirtualList items={filteredList} height={'100%'} bind:start bind:end let:item>
+				<ListItem {...item} on:message={receiveDispatch} />
+			</VirtualList>
+		</div>
+	</div>
+	<div class='container' style='float:left; width:30%; height:100%'>
+		<div style='height: 100%; overflow: auto;'>
+			{#if $courses.length}
+				{#each $courses as course, index (course)}
+					<div in:fade={{delay:10}} on:click={removeCourse(course)} class='card {$theme}'>
+						<h2>{course}</h2>
+					</div>
+				{/each}
+			{:else}
+				<h2 style='font-size: 2em; font-weight: 1;'>No courses</h2>
+			{/if}
+			<h1 on:click={clear} style='position:absolute; bottom:10px; margin: 0 auto; width:30%; cursor: pointer; '>Clear All Courses</h1>
+		</div>
+	</div>
+	<div class='container options' style='float:right; width:40%; display:flex; flex-direction: column;'>
+		<div><input style='margin-right: 0.2em;' type=checkbox bind:checked={$options.randomize}><span>Randomize generated schedule order</span></div>
+		<div><span>Generate a maximum of <input type="number" bind:value={$options.max_schedules} min=0 max=5000> schedule(s)</span></div>
+		<div><span>Only find sections with a minimum of <input type="number" bind:value={$options.min_seats} min=0> seat(s)</span></div>
+		<div><span>Only find sections that start after
+			<input style='margin:0 0.3em 0 0.35em;' type=checkbox bind:checked={$options.enable_early_time}>
+			<input style='height:1.5em;' type="time" disabled={!$options.enable_early_time} bind:value={$options.early_time} min="00:00" max="24:00">
+		</div>
+		<div><span style='margin-bottom:0em'>Only find sections that meet on the following days</span>
+			<div>
+				<input type=checkbox bind:checked={$options.day_restrictions.monday}><span>Mon</span>
+				<input type=checkbox bind:checked={$options.day_restrictions.tuesday}><span>Tue</span>
+				<input type=checkbox bind:checked={$options.day_restrictions.wednesday}><span>Wed</span>
+				<input type=checkbox bind:checked={$options.day_restrictions.thursday}><span>Thu</span>
+				<input type=checkbox bind:checked={$options.day_restrictions.friday}><span>Fri</span>
+				<input type=checkbox bind:checked={$options.day_restrictions.saturday}><span>Sat</span>
+				<input type=checkbox bind:checked={$options.day_restrictions.sunday}><span>Sun</span>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<style>
+	h1 {
+		font-size: 2em;
+		font-weight: 100;
+    }
+
+	h2 {
+		margin: auto;
+		font-size: 20px;
+	}
+
+	.container {
+		min-height: 200px;
+		height: calc(100vh - 15em);
+		grid-template-rows: calc(105%);
+		width:100%;
+	}
+
+	.card {
+		cursor: pointer;
+		position: relative;
+		margin: 0.5em;
+		padding: 1em 0.5em 1em 0.5em;
+		border-radius: 8px;
+		box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+		min-height: 2em;
+
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+	}
+
+	.light {
+		background-color: var(--gray2);
+		color: var(--gray6);
+	}
+
+	.dark {
+		background-color: var(--gray5);
+		color: var(--gray0);
+	}
+
+	.card::after {
+		clear: both;
+		display: block;
+	}
+
+	.card:hover.light {
+		background: #6c79837a;
+	}
+
+	.card:hover.dark {
+		background: #0000003d /* var(--gray4); */
+	}
+
+	* {
+		text-align: center;
+		transition: 0.15s;
+	}
+
+    .options span {
+        display: inline-block;
+        justify-content: center;
+        text-align: center;
+		font-size: 1.25em;
+		font-weight: 100;
+        margin: 0.5em 0.5em 0.5em 0.5em;
+    }
+
+    .options input[type='checkbox'] {
+        transform : scale(2);
+        margin: 0;
+        position: relative;
+        top: 0;
+    }
+
+    .options input[type='number'] {
+        height:1.5em;
+        width:7ch;
+    }
+</style>

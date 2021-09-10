@@ -1,0 +1,5 @@
+.vscode
+.DS_Store
+_old
+node_modules
+public
