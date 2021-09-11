@@ -4,5 +4,6 @@ logs.cmd
 json/Backup
 *.bkp*
 *_READONLY*
-__pycache__/
+__pycache__
+.vscode
 Old*/
