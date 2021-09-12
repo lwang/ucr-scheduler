@@ -43,19 +43,29 @@ def get_class_data(term, code):
     if not data: raise Exception(f'Course "{code}" not found for term {term}!')
     return data
 
+def is_conflict(crn1, crn2, full_data):
+    times = {crn1:full_data[crn1]['meetingsFaculty'][0]['meetingTime'], crn2:full_data[crn2]['meetingsFaculty'][0]['meetingTime']}
+    for day in {'saturday': '2019-12-28','sunday': '2019-12-29','monday': '2019-12-30','tuesday': '2019-12-31','wednesday': '2020-01-01','thursday': '2020-01-02','friday': '2020-01-03'}:
+        if times[crn1][day] and times[crn2][day]:
+            s1, e1 = int(times[crn1]['beginTime']), int(times[crn1]['endTime'])
+            s2, e2 = int(times[crn2]['beginTime']), int(times[crn2]['endTime'])
+            if (s1 < e2) and (e1 > s2):
+                return True
+    return False
+
 @app.route('/', methods=['GET'])
 def home():
     temp = request.args.get('temp', default=[], type=json.loads)
     print(temp)
     return {'data':temp}, 200
     
-def get_course_sections(code, future, min_seats, day_restrictions, time_restrictions):
+def get_course_sections(code: str, future: list, min_seats: dict, day_restrictions: list, time_restrictions: dict) -> dict:
     """
-    code: READ -- ECON002, ANTH001
-    future: READ -- [ [{}, {}, {}], [{}, {}, {}]]
-    seats: READ -- {'53609': True, '53610': False}
+    code: ECON002, ANTH001
+    future: [ [{}, {}, {}], [{}, {}, {}]]
+    seats: {'53609': True, '53610': False}
 
-    temp: OUT -- {'1': {'Lecture': ['20943'], 'Studio': ['20944']}, '2': {'Lecture': ['10405'], 'Studio': ['19953']}}
+    temp: {'1': {'Lecture': ['20943'], 'Studio': ['20944']}, '2': {'Lecture': ['10405'], 'Studio': ['19953']}}
     """
     temp = {}
     for section in future.result():
@@ -68,7 +78,7 @@ def get_course_sections(code, future, min_seats, day_restrictions, time_restrict
             or not section['meetingsFaculty'][0]['meetingTime']['beginTime'] #async
             or section['seatsAvailable'] < min_seats
             or True in [section['meetingsFaculty'][0]['meetingTime'][day] for day in day_restrictions]
-            or True in [((int(section['meetingsFaculty'][0]['meetingTime']['beginTime']) < int(restriction['end'])) and (int(section['meetingsFaculty'][0]['meetingTime']['endTime']) > int(restriction['start']))) for restriction in time_restrictions]
+            or True in [((int(section['meetingsFaculty'][0]['meetingTime']['beginTime']) < int(''.join(i for i in restriction['end'] if i.isdigit()))) and (int(section['meetingsFaculty'][0]['meetingTime']['endTime']) > int(''.join(i for i in restriction['start'] if i.isdigit())))) for restriction in time_restrictions.values()]
         ): continue
 
 
@@ -98,12 +108,12 @@ def schedules():
     codes += [coreq for code in codes for coreq in coreqs.get(code, [])]
     options = request.args.get('options', default={}, type=json.loads)
     _max_schedules = options['max_schedules'] #request.args.get('max_schedules', default=500, type=int)
-    if _max_schedules > 1000: _max_schedules = 1000
+    if _max_schedules > 10000: _max_schedules = 10000
     elif _max_schedules < 1: _max_schedules = 1;
     _min_seats = options['min_seats'] #request.args.get('min_seats', default=0, type=int)
     _randomize = options['randomize'] #request.args.get('randomize', default=False, type=lambda v: v.lower() == 'true')
     _day_restrictions = [day for day, enabled in options['day_restrictions'].items() if not enabled] #request.args.get('day_restrictions', default=[], type=json.loads)
-    _time_restrictions = request.args.get('time_restrictions', default=[], type=json.loads)
+    _time_restrictions = options['time_restrictions']
 
     def stream():
         print('\n', len(codes), codes)
@@ -114,7 +124,7 @@ def schedules():
         ### RETRIEVE COURSE SECTION DATA ###
         start = time.perf_counter()
         full_data = {}
-        with concurrent.futures.ThreadPoolExecutor(max_workers=2*len(codes)) as executor:
+        with concurrent.futures.ThreadPoolExecutor(max_workers=len(codes)) as executor:
             futures = [(code, executor.submit(get_class_data, term, code)) for code in codes] # Add class data (code .e.g. = ART005)
             try:
                 for code, future in futures:
@@ -152,8 +162,12 @@ def schedules():
         temp11 = []
         start = time.perf_counter()
         valid_schedules = 0
-        conflicts = pickle.load(open(f'json/{term}_data/_CONFLICTS.pickle', 'rb'))
-        conflicts = frozenset([pair for pair in product([c for d in [a for b in section_combinations for a in b] for c in d], repeat=2) if pair[1] in conflicts[pair[0]]])
+        conflicts_pickle = pickle.load(open(f'json/{term}_data/_CONFLICTS.pickle', 'rb'))
+        # conflicts = frozenset([pair for pair in product([c for d in [a for b in section_combinations for a in b] for c in d], repeat=2) if pair[1] in conflicts.get(pair[0], [])])
+        conflicts = set()
+        for pair in product([c for d in [a for b in section_combinations for a in b] for c in d], repeat=2):
+            if (pair[0] in conflicts_pickle and pair[1] in conflicts_pickle[pair[0]]) or is_conflict(*pair, full_data):
+                conflicts.add(pair)
         for i in product(*section_combinations):
             conflict = False
             for pair in combinations([j for sub in i for j in sub], 2):
@@ -178,7 +192,7 @@ def schedules():
                             'details': ''
                         }
                         crns.add(courseData["courseReferenceNumber"])
-                        # crns.add((courseData["subjectCourse"], courseData["courseReferenceNumber"], day))
+                        # crns.add(f'{courseData["subjectCourse"]}_{courseData["courseReferenceNumber"]}')
                         schedule['data'].append(event)
             # temp11.append(list(crns))
             yield format_sse(data=base64.b64encode(gzip.compress(json.dumps([schedule, list(crns)]).encode(), 5)))
