@@ -9,7 +9,7 @@
     let sse = [];
     let showModal = false;
     let itemsFull = [];
-    $: idx = items ? (index => index >= 0 ? index : 0)(items.findIndex((sched) => sched[1].every((crn, index) => crn === $crns[index]))) : 5;
+    $: idx = items ? (index => index >= 0 ? index : 0)(items.findIndex((sched) => sched[1].every((crn, index) => crn === $crns[index]))) : 0;
 
     $: items = itemsFull.filter(function(sched, a) {
         for (const crn of $pinned)
@@ -37,8 +37,8 @@
         }
         else
         {
-            const sse = new EventSource(`http://localhost:8000/schedules?term=${$term['code']}&courses=${$courses.join(',')}&options=${JSON.stringify($options)}`)
-            // const sse = new EventSource(`https://jcurda-api.herokuapp.com/schedules?term=${$term['code']}&courses=${$courses.join(',')}`)
+            // const sse = new EventSource(`http://localhost:8000/schedules?term=${$term['code']}&courses=${$courses.join(',')}&options=${JSON.stringify($options)}`)
+            const sse = new EventSource(`https://jcurda-api.herokuapp.com/schedules?term=${$term['code']}&courses=${$courses.join(',')}&options=${JSON.stringify($options)}`)
 
             sse.addEventListener('error', (e) => {
                 const response = e.data
@@ -54,11 +54,11 @@
                 const binData = new Uint8Array(charData);
                 const response = JSON.parse(pako.inflate(binData, {to:'string'}))
                 itemsFull = [...itemsFull, response]
-                update();
             });
 
             sse.addEventListener('stream-end', (e) => {
-                schedules.set(itemsFull)
+                schedules.set(itemsFull.slice(0, 2500))
+                update();
                 sse.close();
                 console.log('Server Sent Events Stream Closed!')
             });
@@ -71,6 +71,7 @@
         }
     })  
 
+    let pin_objs = [];
     
     function start() {
         console.log('starting')
@@ -93,18 +94,24 @@
         
         scheduler.attachEvent("onDataRender", function(){
             var divs = document.getElementsByClassName("dhx_cal_event");
+            for(let i = 0; i < pin_objs.length; i++)
+            {
+                pin_objs[i].$destroy()
+            }
+            pin_objs = []
             for(var i = 0; i < divs.length; i++){
                 let element = divs[i];
                 for (const e of element.getElementsByClassName("dhx_event_resize"))
                 {
                     e.remove()
                 }
-                new Pin({
+                const pin = new Pin({
                     target: element,
                     props: {
                         id: parseInt(element.getAttribute("event_id")).toString()
                     }
                 })
+                pin_objs.push(pin)
             }
         });
     }
@@ -113,13 +120,13 @@
         let num = e.target.value - 1
         if (!(num >= 0 && num <= items.length))
             return
-        console.log(num)
+        // console.log(num)
         idx = num
         update()
     }
 
     const next = () => {
-        console.log(idx);
+        // console.log(idx);
         if (idx + 1 >= items.length)
             return;
         idx++;
@@ -127,7 +134,7 @@
     }
 
     const prev = () => {
-        console.log(idx);
+        // console.log(idx);
         if (idx <= 0)
             return;
         idx--;

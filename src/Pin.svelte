@@ -16,7 +16,6 @@
             pinned.set(tempPinned);
         }
     }
-    
 </script>
 
 <div class="favButton gifFavoriteButton showPulse {selected ? 'selected' : ''}" tabindex="-1" on:click={toggle}>

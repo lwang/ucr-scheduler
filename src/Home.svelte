@@ -46,14 +46,14 @@
         let hours = Math.floor((timeleft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)).toString();
         let minutes = Math.floor((timeleft % (1000 * 60 * 60)) / (1000 * 60)).toString();
         let seconds = Math.floor((timeleft % (1000 * 60)) / 1000).toString();
-        undergradLimitTime = days + ' days, ' + hours.padStart(2, '0') + ':' + minutes.padStart(2, '0') + ':' + seconds.padStart(2, '0')
+        undergradLimitTime = days < 0 ? '0 days, 00:00:00' : `${days} days, ${hours.padStart(2, '0')}:${minutes.padStart(2, '0')}:${seconds.padStart(2, '0')}`
 
         timeleft = nextTermtDate - new Date().getTime();
         days = Math.floor(timeleft / (1000 * 60 * 60 * 24)).toString();
         hours = Math.floor((timeleft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)).toString();
         minutes = Math.floor((timeleft % (1000 * 60 * 60)) / (1000 * 60)).toString();
         seconds = Math.floor((timeleft % (1000 * 60)) / 1000).toString();
-        nextTermTime = '\t' + days + ' days, ' + hours.padStart(2, '0') + ':' + minutes.padStart(2, '0') + ':' + seconds.padStart(2, '0')
+        nextTermTime = days < 0 ? '0 days, 00:00:00' : `${days} days, ${hours.padStart(2, '0')}:${minutes.padStart(2, '0')}:${seconds.padStart(2, '0')}`
     }
 </script>
 

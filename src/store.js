@@ -33,7 +33,9 @@ export const options = localStorage.getItem('options') ? writable(JSON.parse(loc
         saturday : true,
         sunday : true
     },
-    enable_early_time : false
+    early_time : '07:00',
+    late_time : '20:00',
+    time_restrictions : {}
 });
 options.subscribe(value => {
     localStorage.setItem("options", JSON.stringify(value));

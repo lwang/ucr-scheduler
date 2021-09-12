@@ -44,7 +44,8 @@
 
     function cal()
     {
-        window.location=`http://localhost:8000/ical?term=${$term['code']}&crns=${$crns}&courses=${$courses}`
+        window.location=`https://jcurda-api.herokuapp.com/ical?term=${$term['code']}&crns=${$crns}&courses=${$courses}`
+        // window.location=`http://localhost:8000/ical?term=${$term['code']}&crns=${$crns}&courses=${$courses}`
     }
 </script>
 

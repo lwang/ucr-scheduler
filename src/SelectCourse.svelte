@@ -1,9 +1,9 @@
 <script>
 	import { fade } from 'svelte/transition';
-    import { theme, term, courses, options, schedules } from './store.js';
+    import { theme, term, courses, options, schedules, pinned } from './store.js';
 	import VirtualList from './VirtualList.svelte';
 	import ListItem from './ListItem.svelte';
-    $: $options, schedules.set([])
+    $: $options, schedules.set([]), pinned.set([])
 
     export let items = [];
 	fetch(`json/${$term['code']}.json`)
@@ -28,6 +28,7 @@
 	let start, end;
 	function receiveDispatch(e) {
 		schedules.set([])
+		pinned.set([])
 		let tempcourses = $courses;
 		console.log(tempcourses.indexOf(e.detail.text))
 		if (tempcourses.indexOf(e.detail.text) == -1)
@@ -38,6 +39,7 @@
 
 	function removeCourse(course) {
 		schedules.set([])
+		pinned.set([])
 		let tempcourses = $courses;
 		tempcourses.splice(tempcourses.indexOf(course), 1);
 		courses.set(tempcourses);
@@ -45,6 +47,7 @@
 
 	function clear() {
 		schedules.set([])
+		pinned.set([])
 		courses.set([])
 	}
 </script>
@@ -86,11 +89,23 @@
 	</div>
 	<div class='container options' style='float:right; width:40%; display:flex; flex-direction: column;'>
 		<div><input style='margin-right: 0.2em;' type=checkbox bind:checked={$options.randomize}><span>Randomize generated schedule order</span></div>
-		<div><span>Generate a maximum of <input type="number" bind:value={$options.max_schedules} min=0 max=5000> schedule(s)</span></div>
+		<div><span>Generate a maximum of <input type="number" bind:value={$options.max_schedules} min=0 max=9999> schedule(s)</span></div>
 		<div><span>Only find sections with a minimum of <input type="number" bind:value={$options.min_seats} min=0> seat(s)</span></div>
 		<div><span>Only find sections that start after
-			<input style='margin:0 0.3em 0 0.35em;' type=checkbox bind:checked={$options.enable_early_time}>
-			<input style='height:1.5em;' type="time" disabled={!$options.enable_early_time} bind:value={$options.early_time} min="00:00" max="24:00">
+			<input style='margin:0 0.3em 0 0.35em;' type=checkbox checked={$options.time_restrictions.hasOwnProperty('early')} on:change={(e) => {
+				if (e.target.checked) $options.time_restrictions.early = {start:'0:00', end:$options.early_time}
+				else delete $options.time_restrictions.early;
+				options.set($options);
+			}}>
+			<input style='height:1.5em;' type="time" disabled={!$options.time_restrictions.hasOwnProperty('early')} bind:value={$options.early_time} on:change={() => {$options.time_restrictions.early = {start:'0:00', end:$options.early_time}; options.set($options);}}>
+		</div>
+		<div><span>Only find sections that end before
+			<input style='margin:0 0.3em 0 0.35em;' type=checkbox checked={$options.time_restrictions.hasOwnProperty('late')} on:change={(e) => {
+				if (e.target.checked) $options.time_restrictions.late = {start:$options.late_time, end:'24:00'}
+				else delete $options.time_restrictions.late;
+				options.set($options);
+			}}>
+			<input style='height:1.5em;' type="time" disabled={!$options.time_restrictions.hasOwnProperty('late')} bind:value={$options.late_time} on:change={() => {$options.time_restrictions.late = {start:$options.late_time, end:'24:00'}; options.set($options);}}>
 		</div>
 		<div><span style='margin-bottom:0em'>Only find sections that meet on the following days</span>
 			<div>
