@@ -171,9 +171,11 @@
         <span on:click={next}>Next<br>Schedule</span>
         <span class='invisible'></span>
     </div>
+    <div class='font'>
     <div class="dhx_cal_navline"></div>
     <div class="dhx_cal_header"></div>
     <div class="dhx_cal_data"></div>
+    </div>
 </div>
 
 
@@ -217,5 +219,19 @@
     .overlay span.invisible {
         background: transparent;
         color: transparent;
+    }
+
+    @media (max-width: 570px) {
+        .overlay span {
+            font-size: 1em;
+        }
+
+        .font {
+            font-size:.7em;
+        }
+
+        :global(.dhx_cal_event .dhx_title) {
+            font-size: 1em !important;
+        }
     }
 </style>

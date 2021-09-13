@@ -2,10 +2,11 @@
     import { theme } from './store.js';
     import { fade } from 'svelte/transition';
     export let showModal;
+    export let width = '80%';
 </script>
 
 {#if showModal}
-    <div class="backdrop" on:click|self={() => showModal=!showModal} transition:fade="{{duration: 100}}">
+    <div class="backdrop" style='width:{width}' on:click|self={() => showModal=!showModal} transition:fade="{{duration: 100}}">
         <div class="modal {$theme}">
             <!-- <div style="padding: 1em;"> -->
             <slot></slot>
@@ -30,7 +31,6 @@
         /* border-radius: 5%; */
         /* box-shadow: 0 10px 50px 0 rgb(0 0 0 / 50%); */
         padding: 10px;
-        max-width: 80%;
         min-height: 25%;
         margin:5% auto;
         /* text-align: center; */

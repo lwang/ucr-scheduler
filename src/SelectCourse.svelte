@@ -1,6 +1,7 @@
 <script>
 	import { fade } from 'svelte/transition';
     import { theme, term, courses, options, schedules, pinned } from './store.js';
+	import MediaQuery from './MediaQuery.svelte'
 	import VirtualList from './VirtualList.svelte';
 	import ListItem from './ListItem.svelte';
     $: $options, schedules.set([]), pinned.set([])
@@ -57,23 +58,24 @@
 		<h1 for="search" style='display:inline;'>Filter:&nbsp;</h1>
 		<input type="text" id="search" bind:value={searchTerm} style='display:inline;width:50%;padding: 0.5%;' />
 	</div>
-	<div style='float:left; width:30%;'>
-		<h1 style='display:inline;'>Selected Courses ({$courses.length}):</h1>
+	<div style='float:left; width:20%;'>
+		<h1 style='display:inline;'>Selected ({$courses.length}):</h1>
 	</div>
-	<div style='float:right; width:40%;'>
+	<div style='float:right; width:50%;'>
 		<h1 style='display:inline;'>Scheduler Options:</h1>
 	</div>
 </div>
 <hr style="border-top: 1px solid #bbb; width: 100%">
 <div style='width: 100%; height:75vh'>
+	<MediaQuery query="(max-width: 750px)" let:matches>
 	<div class='container' style='float:left; width:30%; height:100%'>
 		<div style='height:100%'>
 			<VirtualList items={filteredList} height={'100%'} bind:start bind:end let:item>
-				<ListItem {...item} on:message={receiveDispatch} />
+				<ListItem {...item} fontScale={matches?0.7:1.0} on:message={receiveDispatch} />
 			</VirtualList>
 		</div>
 	</div>
-	<div class='container' style='float:left; width:30%; height:100%'>
+	<div class='container' style='float:left; width:20%; height:100%'>
 		<div style='height: 100%; overflow: auto;'>
 			{#if $courses.length}
 				{#each $courses as course, index (course)}
@@ -82,13 +84,13 @@
 					</div>
 				{/each}
 			{:else}
-				<h2 style='font-size: 2em; font-weight: 1;'>No courses</h2>
+				<h2>No courses</h2>
 			{/if}
-			<h1 on:click={clear} style='position:absolute; bottom:10px; margin: 0 auto; width:30%; cursor: pointer; '>Clear All Courses</h1>
+			<h1 on:click={clear} style='position:absolute; bottom:10px; margin: 0 auto; width:20%; cursor: pointer; '>Clear All Courses</h1>
 		</div>
 	</div>
-	<div class='container options' style='float:right; width:40%; display:flex; flex-direction: column;'>
-		<div><input style='margin-right: 0.2em;' type=checkbox bind:checked={$options.randomize}><span>Randomize generated schedule order</span></div>
+	<div class='container options' style='float:right; width:50%; display:flex; flex-direction: column;'>
+		<div><input style='margin-right: 0.1em;' type=checkbox bind:checked={$options.randomize}><span>Randomize generated schedule order</span></div>
 		<div><span>Generate a maximum of <input type="number" bind:value={$options.max_schedules} min=0 max=9999> schedule(s)</span></div>
 		<div><span>Only find sections with a minimum of <input type="number" bind:value={$options.min_seats} min=0> seat(s)</span></div>
 		<div><span>Only find sections that start after
@@ -119,17 +121,17 @@
 			</div>
 		</div>
 	</div>
+	</MediaQuery>
 </div>
 
 
 <style>
 	h1 {
 		font-size: 2em;
-		font-weight: 100;
+		font-weight: 1;
     }
 
 	h2 {
-		margin: auto;
 		font-size: 20px;
 	}
 
@@ -188,7 +190,7 @@
         justify-content: center;
         text-align: center;
 		font-size: 1.25em;
-		font-weight: 100;
+		font-weight: 1;
         margin: 0.5em 0.5em 0.5em 0.5em;
     }
 
@@ -202,5 +204,57 @@
     .options input[type='number'] {
         height:1.5em;
         width:7ch;
+    }
+
+	@media (max-width: 1024px) {
+        h1 {
+            font-size: 1.5em;
+        }
+
+		.card {
+			padding: .5em 0;
+		}
+
+		.card h2 {
+			font-size: .7em;
+		}
+
+        .options span {
+			font-size: 1em;
+		}
+
+		.options input[type='checkbox'] {
+			transform : scale(1.5);
+		}
+
+		div.container.options {
+			max-width: 90%;
+		}
+    }
+
+	@media (max-width: 600px) {
+        h1 {
+            font-size: 1em;
+        }
+
+		.card {
+			padding: .5em 0;
+		}
+
+		.card h2 {
+			font-size: .6em;
+		}
+
+        .options span {
+			font-size: .8em;
+		}
+
+		.options input[type='checkbox'] {
+			transform : scale(1);
+		}
+
+		div.container.options {
+			max-width: 90%;
+		}
     }
 </style>

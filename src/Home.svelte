@@ -58,7 +58,7 @@
 </script>
 
 
-<h2 style='display: inline-block;'>Current scheduling term:</h2>
+<div><span>Current scheduling term:</span>
 {#if terms.length}
     <select class='{$theme}' bind:value={term_select}>
         {#each terms as term}
@@ -68,18 +68,26 @@
         {/each}
     </select>
 {/if}
-<h2>Undergraduate 17 unit maximum load lifted in: <span class='{$theme}' style="margin-left: 0.25em;">{undergradLimitTime}</span></h2>
-<h2>Next term (<span class='{$theme}'>{nextTerm}</span>) data will be available in: <span class='{$theme}' style="margin-left: 0.25em">{nextTermTime}</span></h2>
-<hr style="border-top: 1px solid #bbb; width: 50%">
+</div>
+<div><span>Undergraduate 17 unit maximum load lifted in:&nbsp;</span><span class='{$theme}'>{undergradLimitTime}</span></div>
+<div><span>Next term (</span><span class='{$theme}'>{nextTerm}</span><span>) data will be available in:&nbsp;</span><span class='{$theme}'>{nextTermTime}</span></div>
+<hr style="border-top: 1px solid #bbb; width: 50%; margin-top:1em;">
 <p>Welcome to the University of California, Riverside schedule generator. 
     This tool allows you to easily create several potential class schedules by choosing the courses you want to take without having to deal with time conflicts or linked sections yourself.
     Schedules containing sections with no specified meeting time such as asynchronous lecture sections cannot be generated, please add those courses to your term plan manually.
     Corequisite courses will be added automatically however restrictions and prerequisites are not considered.
 </p>
+<footer style='position:absolute; width:100%; bottom:1em'>
+<span on:click={() => {theme.set($theme == 'dark' ? 'light' : 'dark');}} class='toggle'>Toggle {$theme} mode</span>
+</footer>
 
 <style>
-    h2 {
-        display: flex;
+    div {
+        max-width: 90%;
+        margin: 0.5em auto;
+    }
+
+    span {
         justify-content: center;
         text-align: center;
 		font-size: 1.5em;
@@ -87,8 +95,8 @@
         margin-top: 0;
     }
 
-    span {
-        display: inline-block; 
+    .toggle {
+        cursor: pointer;
     }
 
     .light {
@@ -101,12 +109,12 @@
 
     p {
         margin-top: 0.3em;
-        max-width:60%;
         display: inline-block;
         justify-content: center;
         text-align: center;
+        max-width:60%;
+		font-weight: 1;
 		font-size: 1.5em;
-		font-weight: 100;
         line-height: 1.5em;
     }
 
@@ -118,6 +126,7 @@
         border: none;
         padding: 0 1em 0 0;
         margin-left: 0.25em;
+        margin-bottom: 0;
         outline: none;
         width: 100%;
         min-width: 10ch;
@@ -136,5 +145,45 @@
     select.light {
         border: 1px solid var(--gray4);
         background-color: rgba(0, 0, 0, 0.05);
+    }
+
+    @media (max-width: 1024px) {
+        p {
+            max-width:80%;
+            font-size: 1.25em;
+            line-height: 1.35em;
+        }
+    }
+
+    @media (max-width: 600px) {
+        p {
+            max-width:90%;
+            font-size: 1.25em;
+            line-height: 1.2em;
+        }
+
+        span {
+            font-size: 1.25em;
+        }
+
+        select {
+            font-size: 1.25em;
+        }
+    }
+
+    @media (max-width: 500px) {
+        p {
+            max-width:90%;
+            font-size: 1em;
+            line-height: 1.2em;
+        }
+
+        span {
+            font-size: 1.25em;
+        }
+
+        select {
+            font-size: 1.25em;
+        }
     }
 </style>

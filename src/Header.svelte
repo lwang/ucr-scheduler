@@ -1,7 +1,7 @@
 <script>
     import { theme, active } from './store.js';
+    import MediaQuery from "./MediaQuery.svelte";
     import { fade } from 'svelte/transition';
-    const toggleTheme = () => {theme.set($theme == 'dark' ? 'light' : 'dark');}
 
     let tabs = ['Home', 'Select Courses', 'Choose Schedule'];
     let showHeader = true;
@@ -16,16 +16,19 @@
 
 <!-- <div class="triangle" title="Toggle header" on:click={()=>showHeader=!showHeader}></div> -->
 {#if showHeader}
-    <header class={$theme}>
-        <button on:click={toggleTheme} class='toggle'>{$theme}<br>mode</button>
-
-        {#if tabs.indexOf($active) != 0}
-            <button class='left' on:click={() => toggleTab('prev')}>prev</button>
-        {/if}
-        <h1>{$active}</h1>
-        {#if tabs.indexOf($active) + 1 != tabs.length}
-            <button class='right' on:click={() => toggleTab('next')}>next</button> <br>
-        {/if}
+    <header class={$theme} id='header'>
+        <MediaQuery query="(min-width: 750px)" let:matches>
+            {#if matches}
+                <h1>UCR Scheduler</h1>
+            {/if}
+        <nav id="nav" style="right: {matches?'1.5em':''}">
+            <ul>
+                <li><span on:click={() => active.set(tabs[0])} style="color: {$active === tabs[0] ? "#e44c65" : ""}">Home</span></li>
+                <li><span on:click={() => active.set(tabs[1])} style="color: {$active === tabs[1] ? "#e44c65" : ""}">Courses</span></li>
+                <li><span on:click={() => active.set(tabs[2])} style="color: {$active === tabs[2] ? "#e44c65" : ""}">Schedules</span></li>
+            </ul>
+        </nav>
+        </MediaQuery>
     </header>
 {:else}
     <div style='height:5%'></div>
@@ -38,23 +41,19 @@
         -khtml-user-select: none; /* Konqueror HTML */
         -moz-user-select: none; /* Old versions of Firefox */
         -ms-user-select: none; /* Internet Explorer/Edge */
-        user-select: none; /* Non-prefixed version, currently
-    }
-    header {
-        z-index: 90;
-        height: 95px;
-        margin-bottom: 2em;
-        /* border-bottom: 1px solid var(--gray3); */
+        user-select: none; /* Non-prefixed version, currently*/
     }
 
     h1 {
-		/* display: inline; */
+        height: inherit;
+        line-height: inherit;
 		text-transform: uppercase;
+        display:inline-block;
 		font-size: 4em;
 		font-weight: 100;
-        margin-top: 0;
-        top: 100px;
-        margin-bottom: 10px;
+        position: absolute;
+        left: .5em;
+        margin: 0;
     }
 
     .light h1 {
@@ -63,6 +62,50 @@
 
 	.dark h1 {
 		color: rgb(139, 160, 255);
+    }
+
+    #header {
+        height: 5em;
+        cursor: default;
+        line-height: 5em;
+        width: 100%;
+    }
+
+    #header nav {
+        top: 0;
+    }
+
+    #header nav ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    #header nav ul li {
+        display: inline-block;
+        margin-left: 1.25em;
+    }
+
+    #header nav ul li span {
+        /* border: 0; */
+        display: inline-block;
+        height: inherit;
+        line-height: 1.5;
+        outline: 0;
+    }
+
+    span {
+        -moz-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
+        -webkit-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
+        -ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
+        transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
+        border-bottom: solid 1px;
+        font-size: 2em;
+        font-weight: 1;
+        cursor: pointer;
+    }
+
+    span:hover {
+        color: #e44c65 !important;
     }
     
     button {
@@ -82,9 +125,26 @@
         height: 4em;
         border: none;
     }
-    
-    .toggle {
-        right: 2em;
+
+    @media (max-width: 950px) {
+        h1 {
+            font-size: 3em;
+        }
+        span {
+            font-size: 1.75em;
+        }
+    }
+
+    @media (min-width: 750px) {
+        #header nav {
+            position: absolute;
+        }
+    }
+
+    @media (max-width: 360px) {
+        span {
+            font-size: 1.5em;
+        }
     }
 
     .left {

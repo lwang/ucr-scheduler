@@ -6,6 +6,7 @@
 	export let name;
 	export let content;
 	export let sendDispatch = null;
+	export let fontScale = 1;
 	let active = false;
 
 	function handleDispatch(e) {
@@ -15,8 +16,8 @@
 </script>
 
 <div class='card {$theme}' class:active="{active}" on:click="{() => {handleDispatch({sendDispatch});}}">
-	<h2>{name}</h2>
-	<p>{content}</p>
+	<h2 style='font-size: {fontScale*16}px;'>{name}</h2>
+	<p style='font-size: {fontScale*14}px;'>{content}</p>
 </div>
 
 <style>
@@ -28,7 +29,7 @@
 		padding: 1em 0.5em 0.5em 0.5em;
 		border-radius: 8px;
 		box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-		min-height: 2em;
+		/* min-height: 2em; */
 		/* transition: 0.25s; */
 		/* background: #454e56; */
 
@@ -67,12 +68,10 @@
 	/*} */
 
 	h2 {
-		margin: 0 0 0 0;
-		font-size: 16px;
+		margin: 0;
 	}
 
 	p {
 		margin: 0.7em 0;
-		font-size: 14px;
 	}
 </style>
