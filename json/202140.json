@@ -7,6 +7,27 @@
         "comments": []
     },
     {
+        "code": "ARC051",
+        "description": "GRE PREPARATION SEMINAR",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "ARC052",
+        "description": "LSAT PREPARATION SEMINAR",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "ARC053",
+        "description": "GMAT PREPARATION SEMINAR",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "ARC072",
         "description": "CHEM SPLMNTL INST - CNAS",
         "credits": 0,
@@ -22,6 +43,20 @@
     {
         "code": "ARC073",
         "description": "MATH SPLMNTL INST - CNAS",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "ARC075",
+        "description": "PHYS- SPLMNTL INST - CNAS",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "ARC080",
+        "description": "COE: LEARNING CENTER WORKSHOP",
         "credits": 0,
         "average": "----",
         "comments": []
@@ -381,6 +416,41 @@
     {
         "code": "ANTH190",
         "description": "SPECIAL STUDIES",
+        "credits": 1,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "ANTH195A",
+        "description": "SENIOR THESIS",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "ANTH195B",
+        "description": "SENIOR THESIS",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "ANTH195C",
+        "description": "SENIOR THESIS",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "ANTH198I",
+        "description": "INTERNSHIP IN ANTHROPOLOGY",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "ANTH199H",
+        "description": "SENIOR HONORS RESEARCH",
         "credits": 0,
         "average": "----",
         "comments": []
@@ -424,6 +494,41 @@
         "code": "ANTH256",
         "description": "SEMINAR IN CULTURAL ANTHROPOLOGY",
         "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "ANTH290",
+        "description": "DIRECTED STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "ANTH291",
+        "description": "INDIVIDUAL STUDIES IN COORDINATED AREAS",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "ANTH292",
+        "description": "CONCURRENT ANALYTICAL STUDIES IN ANTHROPOLOGY",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "ANTH297",
+        "description": "DIRECTED RESEARCH",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "ANTH299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION",
+        "credits": 0,
         "average": "----",
         "comments": []
     },
@@ -673,6 +778,13 @@
         "comments": []
     },
     {
+        "code": "AHS302",
+        "description": "TEACHING PRACTICUM",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "AST023",
         "description": "MODERN JAPAN AND PERSONAL NARRATIVE",
         "credits": 4,
@@ -683,6 +795,13 @@
         "code": "AST030",
         "description": "INTRODUCTION TO CHINESE CIVILIZATION",
         "credits": 5,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "AST090",
+        "description": "SPECIAL STUDIES",
+        "credits": 0,
         "average": "----",
         "comments": []
     },
@@ -724,6 +843,20 @@
     {
         "code": "AST170",
         "description": "RONDALLA ENSEMBLE",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "AST190",
+        "description": "SPECIAL STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "AST195",
+        "description": "CAPSTONE SENIOR THESIS",
         "credits": 0,
         "average": "----",
         "comments": []
@@ -778,6 +911,20 @@
         ]
     },
     {
+        "code": "BSWT003L",
+        "description": "BASIC WRITING FOR SECOND-LANGUAGE STUDENTS",
+        "credits": 1,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BSWT004",
+        "description": "BASIC WRITING JOURNAL WORKSHOP",
+        "credits": 1,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "BCH015",
         "description": "INTRODUCTION BIOCHEMISTRY LABORATORY",
         "credits": 3,
@@ -817,6 +964,20 @@
                 "date": "5/8/2020"
             }
         ]
+    },
+    {
+        "code": "BCH097",
+        "description": "RESEARCH TUTORIAL IN BIOCHEMISTRY",
+        "credits": 1,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BCH098I",
+        "description": "INDIVIDUAL INTERNSHIP IN A HUMANITARIAN OR HEALTHCARE ARENA",
+        "credits": 1,
+        "average": "----",
+        "comments": []
     },
     {
         "code": "BCH100",
@@ -908,9 +1069,30 @@
         "comments": []
     },
     {
+        "code": "BCH190",
+        "description": "SPECIAL STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BCH197",
+        "description": "RESEARCH FOR UNDERGRADUATE STUDENTS",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "BCH210",
         "description": "BIOCHEMISTRY OF MACROMOLECULES",
         "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BCH240",
+        "description": "PLANT DEFENSE MECHANISMS",
+        "credits": 2,
         "average": "----",
         "comments": []
     },
@@ -939,6 +1121,41 @@
         "code": "BCH289",
         "description": "SPECIAL TOPICS IN NEUROSCIENCE",
         "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BCH290",
+        "description": "DIRECTED STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BCH291",
+        "description": "INDIVIDUAL STUDY IN BIOCHEMISTRY",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BCH297",
+        "description": "DIRECTED RESEARCH",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BCH299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BCH302",
+        "description": "APPRENTICE TEACHING",
+        "credits": 0,
         "average": "----",
         "comments": []
     },
@@ -1016,6 +1233,20 @@
         "comments": []
     },
     {
+        "code": "BIEN190",
+        "description": "SPECIAL STUDIES",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BIEN197",
+        "description": "RESEARCH FOR UNDERGRADUATES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "BIEN201",
         "description": "MATHEMATICAL METHODS FOR BIOENGINEERING",
         "credits": 4,
@@ -1044,9 +1275,100 @@
         "comments": []
     },
     {
+        "code": "BIEN260",
+        "description": "SPECIAL TOPICS IN BIOINSTRUMENTATION",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BIEN261",
+        "description": "SPECIAL TOPICS IN BIOTRANSPORT",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BIEN262",
+        "description": "SPECIAL TOPICS IN BIOSIGNALING",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BIEN263",
+        "description": "SPECIAL TOPICS IN BIOCOMPUTATION",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BIEN265",
+        "description": "SPECIAL TOPICS IN BIOMEDICAL OPTICAL IMAGING",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BIEN269",
+        "description": "SPECIAL TOPICS IN OPTICAL MEASUREMENTS AND PHOTOMEDICINE",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BIEN272",
+        "description": "SPECIAL TOPICS IN BIOMATERIALS AND TISSUE ENGINEERING",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BIEN273",
+        "description": "SPECIAL TOPICS IN REGENERATIVE ENGINEERING AND BIOMECHANICS",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BIEN274",
+        "description": "SPECIAL TOPICS IN ENDOTHELIAL BIOMEDICINE",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "BIEN286",
         "description": "COLLOQUIUM IN BIOENGINEERING",
         "credits": 1,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BIEN297",
+        "description": "DIRECTED RESEARCH",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BIEN298I",
+        "description": "INDIVIDUAL INTERNSHIP",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BIEN299",
+        "description": "RESEARCH FOR THE THESIS OR DISSERTATION",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BIEN302",
+        "description": "TEACHING PRACTICUM",
+        "credits": 0,
         "average": "----",
         "comments": []
     },
@@ -1797,6 +2119,34 @@
         "comments": []
     },
     {
+        "code": "BIOL190",
+        "description": "SPECIAL STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BIOL194",
+        "description": "INDEPENDENT READING",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BIOL197",
+        "description": "INTRODUCTION TO RESEARCH",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BIOL199",
+        "description": "JUNIOR/SENIOR RESEARCH",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "BIOL201",
         "description": "MOLECULAR BIOLOGY",
         "credits": 4,
@@ -1814,6 +2164,13 @@
         "code": "BIOL221",
         "description": "MICROBIAL GENETICS",
         "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BIOL250",
+        "description": "SPECIAL TOPICS IN BIOLOGY",
+        "credits": 0,
         "average": "----",
         "comments": []
     },
@@ -1839,9 +2196,177 @@
         "comments": []
     },
     {
+        "code": "BIOL301",
+        "description": "TEACHING OF BIOLOGY AT THE COLLEGE LEVEL",
+        "credits": 1,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BMSC092",
+        "description": "FIRST-YEAR SEMINAR FOR MEDICAL SCHOLARS PROGRAM STUDENTS:  TOPICS IN HEALTH CAREERS",
+        "credits": 1,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BMSC094",
+        "description": "INDEPENDENT READING",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BMSC097",
+        "description": "RESEARCH TUTORIAL IN BIOMEDICAL SCIENCES",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BMSC194",
+        "description": "INDEPENDENT READING",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BMSC197L",
+        "description": "RESEARCH FOR UNDERGRADUATES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "BMSC202",
         "description": "MOLECULAR BASIS OF DISEASE",
         "credits": 3,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BMSC222E",
+        "description": "BASIC EPITHELIOLOGY",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BMSC222G",
+        "description": "REGULATION OF GENE EXPRESSION",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BMSC222J",
+        "description": "MICRBL PATHGNSIS&amp;HOST-PTH INTR",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BMSC222L",
+        "description": "CURRENT TOPICS IN CELL BIOLOGY",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BMSC222M",
+        "description": "HORMONE ACTION",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BMSC222N",
+        "description": "MECHANISMS OF STEROID HORMONES",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BMSC222O",
+        "description": "STEROID METABOLISM",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BMSC222P",
+        "description": "MOLECULAR PHARMACOLOGY",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BMSC222Q",
+        "description": "MECHANISMS OF CARCINOGENESIS",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BMSC222U",
+        "description": "TRANSPORT PHYSIOLOGY",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BMSC222W",
+        "description": "SPECIAL TOPICS IN BIOMEDICAL SCIENCES",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BMSC222X",
+        "description": "MUTAGENESIS&amp;GENETIC INSTABILTY",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BMSC222Y",
+        "description": "CANCER GENETICS",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BMSC223F",
+        "description": "CARDIOVASCULAR PHYSIOLOGY",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BMSC231",
+        "description": "FOUNDATIONS OF MEDICINE I",
+        "credits": 7,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BMSC232",
+        "description": "CARDIOVASCULAR, RENAL, AND RESPIRATORY SCIENCES I",
+        "credits": 12,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BMSC236",
+        "description": "FOUNDATIONS OF MEDICINE II",
+        "credits": 10,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BMSC251",
+        "description": "COLLOQUIUM IN BIOMEDICAL SCIENCES",
+        "credits": 1,
         "average": "----",
         "comments": []
     },
@@ -1867,9 +2392,72 @@
         "comments": []
     },
     {
+        "code": "BMSC261",
+        "description": "METHODS IN BIOMEDICAL RESEARCH",
+        "credits": 1,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BMSC297",
+        "description": "DIRECTED RESEARCH",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BMSC299",
+        "description": "RESEARCH FOR DISSERTATION",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BMSC302",
+        "description": "DIRECTED TEACHING",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BPHY252",
+        "description": "SEMINAR IN BIOPHYSICS",
+        "credits": 1,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BPHY290",
+        "description": "DIRECTED STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BPHY297",
+        "description": "DIRECTED RESEARCH",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BPHY299",
+        "description": "THESIS OR DISSERTATION",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "BPSC021",
         "description": "CALIFORNIA&#39;S CORNUCOPIA: FOOD FROM THE FIELD TO YOUR TABLE",
         "credits": 5,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BPSC097",
+        "description": "LOWER-DIVISION RESEARCH",
+        "credits": 0,
         "average": "----",
         "comments": []
     },
@@ -1894,16 +2482,37 @@
         "comments": []
     },
     {
-        "code": "BPSC200A",
-        "description": "PLANT BIOLOGY CORE",
-        "credits": 2,
+        "code": "BPSC190",
+        "description": "SPECIAL STUDIES",
+        "credits": 0,
         "average": "----",
         "comments": []
     },
     {
-        "code": "BPSC230",
-        "description": "MOLECULAR PLANT-MICROBIAL INTERACTIONS",
-        "credits": 3,
+        "code": "BPSC197",
+        "description": "RESEARCH FOR UNDERGRADUATES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BPSC198I",
+        "description": "INDIVIDUAL INTERNSHIP IN BOTANY AND PLANT SCIENCES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BPSC199",
+        "description": "SENIOR RESEARCH",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BPSC200A",
+        "description": "PLANT BIOLOGY CORE",
+        "credits": 2,
         "average": "----",
         "comments": []
     },
@@ -1939,6 +2548,34 @@
         "code": "BPSC261",
         "description": "SEMINAR IN GENETICS, GENOMICS, AND BIOINFORMATICS",
         "credits": 1,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BPSC290",
+        "description": "DIRECTED STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BPSC291",
+        "description": "INDIVIDUAL STUDY IN COORDINATED AREAS",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BPSC297",
+        "description": "DIRECTED RESEARCH",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "BPSC299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION",
+        "credits": 0,
         "average": "----",
         "comments": []
     },
@@ -2576,6 +3213,13 @@
         "comments": []
     },
     {
+        "code": "BUS190",
+        "description": "SPECIAL STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "BUS198I",
         "description": "INDIVIDUAL INTERNSHIP IN BUSINESS ADMINISTRATION",
         "credits": 0,
@@ -2725,6 +3369,48 @@
         ]
     },
     {
+        "code": "CBNS190",
+        "description": "SPECIAL STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "CBNS194",
+        "description": "INDEPENDENT READING",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "CBNS197",
+        "description": "RESEARCH FOR UNDERGRADUATES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "CBNS198I",
+        "description": "INDIVIDUAL INTERNSHIP",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "CBNS199",
+        "description": "SENIOR RESEARCH",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "CBNS240",
+        "description": "TELOMERES, DNA REPLICATION",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "CMDB201",
         "description": "MOLECULAR BIOLOGY",
         "credits": 4,
@@ -2739,9 +3425,9 @@
         "comments": []
     },
     {
-        "code": "CMDB230",
-        "description": "MOLECULAR PLANT-MICROBIAL INTERACTIONS",
-        "credits": 3,
+        "code": "CMDB250",
+        "description": "SPECIAL TOPICS IN CELL, MOLECULAR, AND DEVELOPMENTAL BIOLOGY",
+        "credits": 0,
         "average": "----",
         "comments": []
     },
@@ -2749,6 +3435,20 @@
         "code": "CMDB257",
         "description": "SEMINAR IN CELL, MOLECULAR, AND DEVELOPMENTAL BIOLOGY",
         "credits": 1,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "CMDB297",
+        "description": "DIRECTED RESEARCH",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "CMDB299",
+        "description": "RESEARCH FOR THE THESIS OR DISSERTATION",
+        "credits": 0,
         "average": "----",
         "comments": []
     },
@@ -2803,6 +3503,13 @@
         "code": "CHE160B",
         "description": "CHEMICAL ENGINEERING LABORATORY",
         "credits": 3,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "CHE190",
+        "description": "SPECIAL STUDIES",
+        "credits": 0,
         "average": "----",
         "comments": []
     },
@@ -2898,9 +3605,30 @@
         "comments": []
     },
     {
+        "code": "CEE250",
+        "description": "SPECIAL TOPICS IN CHEMICAL AND ENVIRONMENTAL ENGINEERING",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "CEE256",
+        "description": "SPECIAL TOPICS IN PARTICULATE MEASUREMENT AND AIR QUALITY",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "CEE258",
         "description": "BIOSENSING AND BIODETOXIFICATION",
         "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "CEE259",
+        "description": "SPECIAL TOPICS IN MATERIALS ELECTROCHEMISTRY",
+        "credits": 1,
         "average": "----",
         "comments": []
     },
@@ -2912,6 +3640,27 @@
         "comments": []
     },
     {
+        "code": "CEE265",
+        "description": "SPECIAL TOPICS IN MICROBIAL FATE AND TRANSPORT IN AQUATIC ENVIRONMENTS",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "CEE266",
+        "description": "SPECIAL TOPICS IN BIOLOGICAL CONVERSION OF BIOMASS",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "CEE267",
+        "description": "SPECIAL TOPICS IN BIONANOTECHNOLOGY",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "CEE286",
         "description": "COLLOQUIUM IN CHEMICAL AND ENVIRONMENTAL ENGINEERING",
         "credits": 1,
@@ -2919,9 +3668,58 @@
         "comments": []
     },
     {
+        "code": "CEE290",
+        "description": "DIRECTED STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "CEE292",
+        "description": "CONCURRENT STUDIES IN CHEMICAL AND ENVIRONMENTAL ENGINEERING",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "CEE297",
+        "description": "DIRECTED RESEARCH",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "CEE298I",
+        "description": "INDIVIDUAL INTERNSHIP",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "CEE299",
+        "description": "RESEARCH FOR THE THESIS OR DISSERTATION",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "CEE302",
+        "description": "TEACHING PRACTICUM",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "CHEM001",
+        "description": "PREPARATION FOR GENERAL CHEMISTRY",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "CHEM001A",
         "description": "GENERAL CHEMISTRY",
-        "credits": 4,
+        "credits": 0,
         "average": "5.74",
         "comments": [
             {
@@ -3548,6 +4346,13 @@
         ]
     },
     {
+        "code": "CHEM097H",
+        "description": "FRESHMAN HONORS PROJECT: INTRODUCTION TO RESEARCH",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "CHEM109",
         "description": "SURVEY OF PHYSICAL CHEMISTRY",
         "credits": 4,
@@ -3623,6 +4428,41 @@
         "comments": []
     },
     {
+        "code": "CHEM190",
+        "description": "SPECIAL STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "CHEM197",
+        "description": "RESEARCH FOR UNDERGRADUATES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "CHEM198I",
+        "description": "INDIVIDUAL INTERNSHIP",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "CHEM199",
+        "description": "SENIOR RESEARCH",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "CHEM199H",
+        "description": "SENIOR HONORS RESEARCH",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "CHEM201A",
         "description": "ADVANCED PHYSICAL CHEMISTRY: QUANTUM MECHANICS",
         "credits": 3,
@@ -3632,13 +4472,6 @@
     {
         "code": "CHEM201C",
         "description": "ADVANCED PHYSICAL CHEMISTRY: ELEMENTARY STATISTICAL MECHANICS",
-        "credits": 3,
-        "average": "----",
-        "comments": []
-    },
-    {
-        "code": "CHEM201D",
-        "description": "ADVANCED PHYSICAL CHEMISTRY: THERMODYNAMICS",
         "credits": 3,
         "average": "----",
         "comments": []
@@ -3714,9 +4547,23 @@
         "comments": []
     },
     {
-        "code": "CHEM289",
-        "description": "SPECIAL TOPICS IN NEUROSCIENCE",
+        "code": "CHEM296",
+        "description": "SPECIAL TOPICS SEMINAR",
         "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "CHEM297",
+        "description": "DIRECTED RESEARCH",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "CHEM299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION",
+        "credits": 0,
         "average": "----",
         "comments": []
     },
@@ -3909,6 +4756,13 @@
         "comments": []
     },
     {
+        "code": "CPLT190",
+        "description": "SPECIAL STUDIES",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "CPLT193",
         "description": "CAPSTONE RESEARCH SEMINAR",
         "credits": 4,
@@ -3933,6 +4787,97 @@
         "code": "CPLT277",
         "description": "SEMINAR IN COMPARATIVE LITERATURE",
         "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "CPLT290",
+        "description": "DIRECTED STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "CPLT291",
+        "description": "INDIVIDUAL STUDIES IN COORDINATED AREAS",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "CPLT292",
+        "description": "CONCURRENT ANALYTICAL STUDIES",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "CPLT293E",
+        "description": "RESEARCH TOPICS IN COMPARATIVE LITERATURE &amp; FOREIGN LANGUAGES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "CPLT293F",
+        "description": "RESEARCH TOPICS IN COMPARATIVE LITERATURE &amp; FOREIGN LANGUAGES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "CPLT293G",
+        "description": "RESEARCH TOPICS IN COMPARATIVE LITERATURE &amp; FOREIGN LANGUAGES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "CPLT293I",
+        "description": "RESEARCH TOPICS IN COMPARATIVE LITERATURE &amp; FOREIGN LANGUAGES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "CPLT293J",
+        "description": "RESEARCH TOPICS IN COMPARATIVE LITERATURE &amp; FOREIGN LANGUAGES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "CPLT293N",
+        "description": "RESEARCH TOPICS IN COMPARATIVE LITERATURE &amp; FOREIGN LANGUAGES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "CPLT293T",
+        "description": "RESEARCH TOPICS IN COMPARATIVE LITERATURE &amp; FOREIGN LANGUAGES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "CPLT293U",
+        "description": "RESEARCH TOPICS IN COMPARATIVE LITERATURE &amp; FOREIGN LANGUAGES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "CPLT299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "CPLT302",
+        "description": "TEACHING PRACTICUM",
+        "credits": 0,
         "average": "----",
         "comments": []
     },
@@ -5845,6 +6790,27 @@
         ]
     },
     {
+        "code": "CS190",
+        "description": "SPECIAL STUDIES",
+        "credits": 1,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "CS193",
+        "description": "DESIGN PROJECT",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "CS198I",
+        "description": "INDIVIDUAL INTERNSHIP IN COMPUTER SCIENCE",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "CS201",
         "description": "COMPILER CONSTRUCTION",
         "credits": 4,
@@ -6008,6 +6974,34 @@
         "code": "CS287",
         "description": "COLLOQUIUM IN COMPUTER SCIENCE",
         "credits": 1,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "CS290",
+        "description": "DIRECTED STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "CS297",
+        "description": "DIRECTED RESEARCH",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "CS298I",
+        "description": "INDIVIDUAL INTERNSHIP",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "CS299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION",
+        "credits": 0,
         "average": "----",
         "comments": []
     },
@@ -6320,7 +7314,7 @@
     {
         "code": "DNCE007",
         "description": "DANCE: CULTURES AND CONTEXTS\r\n",
-        "credits": 0,
+        "credits": 4,
         "average": "6.00",
         "comments": [
             {
@@ -6460,6 +7454,13 @@
         "code": "DNCE267",
         "description": "CHOREOGRAPHIES OF WRITING",
         "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "DNCE290",
+        "description": "DIRECTED STUDIES",
+        "credits": 0,
         "average": "----",
         "comments": []
     },
@@ -6709,7 +7710,7 @@
     {
         "code": "ECON101",
         "description": "STATISTICS FOR ECONOMICS",
-        "credits": 0,
+        "credits": 5,
         "average": "5.00",
         "comments": [
             {
@@ -6872,13 +7873,6 @@
         ]
     },
     {
-        "code": "ECON164",
-        "description": "BEHAVIORAL ECONOMICS",
-        "credits": 4,
-        "average": "----",
-        "comments": []
-    },
-    {
         "code": "ECON175",
         "description": "COMPARATIVE ECONOMICS",
         "credits": 4,
@@ -6970,6 +7964,48 @@
         "comments": []
     },
     {
+        "code": "ECON290",
+        "description": "DIRECTED STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "ECON291",
+        "description": "INDIVIDUAL STUDY IN COORDINATED AREAS",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "ECON292",
+        "description": "CONCURRENT ANALYTICAL STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "ECON297",
+        "description": "DIRECTED RESEARCH",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "ECON299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "ECON302",
+        "description": "TEACHING PRACTICUM",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "EDUC004",
         "description": "LOOKING IN CLASSROOMS: SCIENCE/MATHEMATICS EMPHASIS",
         "credits": 3,
@@ -6995,9 +8031,34 @@
         ]
     },
     {
+        "code": "EDUC010",
+        "description": "PRINCIPALS OF LEARNING STRATEGIES",
+        "credits": 4,
+        "average": "1.50",
+        "comments": [
+            {
+                "comment": "Lussier was easy and wonderful. It's a pretty useful class. ",
+                "rating": "2",
+                "date": "5/24/2019"
+            },
+            {
+                "comment": "A high school freshman student could pass this class, it\u2019s crazy to think I\u2019m paying to take this class. It\u2019s an easy and chill class about \u201clearning strategies\u201d (ex. Get a planner, have time management). The catch is the prof doesn\u2019t post the slides so you do have to come and do the notes. However, the prof posts relevant study guides which makes things even easier. Consisted of a few small writing assignments with one large final writing prompt and 2 midterms with no real final.",
+                "rating": "1",
+                "date": "6/15/2019"
+            }
+        ]
+    },
+    {
         "code": "EDUC010H",
         "description": "HONORS PRINCIPALS OF LEARNING STRATEGIES",
-        "credits": 0,
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "EDUC023",
+        "description": "INTRODUCTION TO EDUCATION POLICY",
+        "credits": 4,
         "average": "----",
         "comments": []
     },
@@ -7007,6 +8068,19 @@
         "credits": 4,
         "average": "----",
         "comments": []
+    },
+    {
+        "code": "EDUC050",
+        "description": "INTERCOLLEGIATE ATHLETICS AND AMERICAN HIGHER EDUCATION",
+        "credits": 4,
+        "average": "5.00",
+        "comments": [
+            {
+                "comment": "The class material is pretty interesting, it's about the NCAA and student athletes. There's a number of weekly assignments due on different days and times that can be a bit hard to keep up with unless you write them down/set reminders! The midterm wasn't too bad, the prof tells you what will be on it. There's a final paper due at  the end which is like 5-8 pages. ",
+                "rating": "5",
+                "date": "12/28/2020"
+            }
+        ]
     },
     {
         "code": "EDUC093A",
@@ -7039,7 +8113,7 @@
     {
         "code": "EDUC122",
         "description": "EDUCATION, DIGITAL MEDIA, AND DEMOCRATIC ENGAGEMENT",
-        "credits": 0,
+        "credits": 4,
         "average": "----",
         "comments": []
     },
@@ -7110,6 +8184,20 @@
         "code": "EDUC181",
         "description": "INTRODUCTION TO APPLIED BEHAVIOR ANALYSIS",
         "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "EDUC184",
+        "description": "SOCIAL EMOTIONAL LEARNING IN THE SCHOOLS",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "EDUC190",
+        "description": "SPECIAL STUDIES",
+        "credits": 0,
         "average": "----",
         "comments": []
     },
@@ -7187,6 +8275,13 @@
         "code": "EDUC236D",
         "description": "BEHAVIOR ANALYTIC SKILLS DEVELOPMENT: LEVEL 4",
         "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "EDUC237",
+        "description": "CONCENTRATED FIELDWORK IN APPLIED BEHAVIOR ANALYSIS",
+        "credits": 0,
         "average": "----",
         "comments": []
     },
@@ -7275,6 +8370,13 @@
         "comments": []
     },
     {
+        "code": "EDUC265D",
+        "description": "INTERMEDIATE PRACTICUM IN SCHOOL PSYCHOLOGY: LEVEL 1",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "EDUC268A",
         "description": "ADVANCED PRACTICUM IN SCHOOL PSYCHOLOGY: LEVEL 1",
         "credits": 2,
@@ -7291,7 +8393,7 @@
     {
         "code": "EDUC275A",
         "description": "RACE AND EDUCATIONAL INEQUITY",
-        "credits": 4,
+        "credits": 0,
         "average": "----",
         "comments": []
     },
@@ -7338,6 +8440,20 @@
         "comments": []
     },
     {
+        "code": "EDUC290",
+        "description": "DIRECTED STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "EDUC291",
+        "description": "INDIVIDUAL STUDIES IN COORDINATED AREAS",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "EDUC295C",
         "description": "CURRICULUM AND INSTRUCTION FOR STUDENTS WITH SEVERE DISABILITIES",
         "credits": 4,
@@ -7345,9 +8461,51 @@
         "comments": []
     },
     {
+        "code": "EDUC297",
+        "description": "DIRECTED RESEARCH",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "EDUC298I",
+        "description": "INDIVIDUAL INTERNSHIP",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "EDUC299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "EDUC302",
+        "description": "COLLEGE TEACHING PRACTICUM",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "EDUC335A",
         "description": "SUPERVISED TEACHING IN SPECIAL EDUCATION",
         "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "EDUC336A",
+        "description": "SUPERVISED TEACHING IN THE ELEMENTARY SCHOOL",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "EDUC337A",
+        "description": "TEACHING PERFORMANCE FOR MULTIPLE SUBJECT CANDIDATES",
+        "credits": 2,
         "average": "----",
         "comments": []
     },
@@ -7361,6 +8519,20 @@
     {
         "code": "EDUC348A",
         "description": "SINGLE SUBJECT CREDENTIAL SEMINAR",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "EDUC376A",
+        "description": "SUPERVISED TEACHING IN THE SECONDARY SCHOOL",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "EDUC377A",
+        "description": "TEACHING PERFORMANCE FOR SINGLE SUBJECT CANDIDATES",
         "credits": 2,
         "average": "----",
         "comments": []
@@ -7653,7 +8825,7 @@
     {
         "code": "EE136",
         "description": "SEMICONDUCTOR DEVICE PROCESSING",
-        "credits": 0,
+        "credits": 4,
         "average": "----",
         "comments": []
     },
@@ -7783,6 +8955,27 @@
         "comments": []
     },
     {
+        "code": "EE190",
+        "description": "SPECIAL STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "EE197",
+        "description": "RESEARCH FOR UNDERGRADUATES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "EE198I",
+        "description": "INDIVIDUAL INTERNSHIP IN ELECTRICAL ENGINEERING",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "EE201",
         "description": "APPLIED QUANTUM MECHANICS",
         "credits": 4,
@@ -7849,6 +9042,34 @@
         "code": "EE260",
         "description": "SEMINAR IN ELECTRICAL ENGINEERING",
         "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "EE290",
+        "description": "DIRECTED STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "EE297",
+        "description": "DIRECTED RESEARCH",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "EE298I",
+        "description": "INDIVIDUAL INTERNSHIP IN ELECTRICAL ENGINEERING",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "EE299",
+        "description": "RESEARCH FOR THE THESIS OR DISSERTATION",
+        "credits": 0,
         "average": "----",
         "comments": []
     },
@@ -8008,6 +9229,20 @@
         ]
     },
     {
+        "code": "ENGR190",
+        "description": "SPECIAL STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "ENGR198I",
+        "description": "INDIVIDUAL INTERNSHIP",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "ENGR203",
         "description": "PRINCIPLES OF ENGINEERING MANAGEMENT\r\n\r\n",
         "credits": 4,
@@ -8017,7 +9252,7 @@
     {
         "code": "ENGR296",
         "description": "PROFESSIONAL PROJECT DESIGN",
-        "credits": 0,
+        "credits": 1,
         "average": "----",
         "comments": []
     },
@@ -8664,6 +9899,27 @@
         ]
     },
     {
+        "code": "ENGL004L",
+        "description": "ENGLISH WRITING",
+        "credits": 1,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "ENGL005L",
+        "description": "ENGLISH WRITING",
+        "credits": 1,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "ENGL007",
+        "description": "WORKSHOP IN WRITING ACROSS THE CURRICULUM",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "ENGL012A",
         "description": "INTRODUCTION TO POETRY",
         "credits": 4,
@@ -8865,6 +10121,13 @@
         "comments": []
     },
     {
+        "code": "ENGL198I",
+        "description": "INDIVIDUAL INTERNSHIP IN ENGLISH",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "ENGL200",
         "description": "INTRODUCTION TO GRADUATE STUDY IN ENGLISH",
         "credits": 4,
@@ -8907,6 +10170,34 @@
         "comments": []
     },
     {
+        "code": "ENGL290",
+        "description": "DIRECTED STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "ENGL292",
+        "description": "CONCURRENT ANALYTICAL STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "ENGL297",
+        "description": "DIRECTED RESEARCH",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "ENGL299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "ENGL301",
         "description": "INTRODUCTION TO THE TEACHING OF ENGLISH",
         "credits": 1,
@@ -8917,6 +10208,20 @@
         "code": "ENGL302",
         "description": "TEACHING PRACTICUM",
         "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "ENGL303",
+        "description": "ADVANCED TEACHING PRACTICUM",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "ENGL304",
+        "description": "PROFESSIONAL RESEARCH PREPARATIONS",
+        "credits": 4,
         "average": "----",
         "comments": []
     },
@@ -9027,6 +10332,27 @@
         ]
     },
     {
+        "code": "ENTM190",
+        "description": "SPECIAL STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "ENTM197",
+        "description": "RESEARCH FOR UNDERGRADUATES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "ENTM199",
+        "description": "SENIOR RESEARCH",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "ENTM201",
         "description": "CORE AREAS OF ENTOMOLOGY I: SUBCELLULAR-CELLULAR DISCIPLINES",
         "credits": 5,
@@ -9083,6 +10409,48 @@
         "comments": []
     },
     {
+        "code": "ENTM290",
+        "description": "DIRECTED STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "ENTM291",
+        "description": "INDIVIDUAL STUDY IN COORDINATED AREAS",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "ENTM297",
+        "description": "DIRECTED RESEARCH",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "ENTM299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "ENTM301",
+        "description": "TEACHING ENTOMOLOGY AT THE COLLEGE LEVEL",
+        "credits": 1,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "ENTM302",
+        "description": "COLLEGE TEACHING PRACTICUM",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "ENVE120",
         "description": "UNIT OPERATIONS AND PROCESSES IN ENVIRONMENTAL ENGINEERING",
         "credits": 4,
@@ -9108,6 +10476,13 @@
                 "date": ""
             }
         ]
+    },
+    {
+        "code": "ENVE190",
+        "description": "SPECIAL STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
     },
     {
         "code": "ENSC001",
@@ -9245,6 +10620,20 @@
         "comments": []
     },
     {
+        "code": "ENSC197",
+        "description": "RESEARCH FOR UNDERGRADUATES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "ENSC198I",
+        "description": "INTERNSHIP IN ENVIRONMENTAL SCIENCES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "ENSC227",
         "description": "GLOBAL CHANGE AND THE EARTH SYSTEM",
         "credits": 4,
@@ -9255,6 +10644,41 @@
         "code": "ENSC275",
         "description": "RESEARCH SEMINAR IN ENVIRONMENTAL SCIENCES",
         "credits": 1,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "ENSC290",
+        "description": "DIRECTED STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "ENSC292",
+        "description": "CONCURRENT AND ADVANCED STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "ENSC297",
+        "description": "DIRECTED RESEARCH",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "ENSC299",
+        "description": "RESEARCH FOR THE THESIS OR DISSERTATION",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "ENSC302",
+        "description": "TEACHING PRACTICUM",
+        "credits": 0,
         "average": "----",
         "comments": []
     },
@@ -9280,9 +10704,37 @@
         "comments": []
     },
     {
+        "code": "ENTX201L",
+        "description": "LABORATORY ROTATION",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "ENTX270",
         "description": "SEMINAR IN ENVIRONMENTAL TOXICOLOGY",
         "credits": 1,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "ENTX290",
+        "description": "DIRECTED STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "ENTX297",
+        "description": "DIRECTED RESEARCH",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "ENTX299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION",
+        "credits": 0,
         "average": "----",
         "comments": []
     },
@@ -9519,16 +10971,30 @@
         "comments": []
     },
     {
-        "code": "ETST181",
-        "description": "SOUTHWESTERN INDIAN HISTORY",
+        "code": "ETST184",
+        "description": "AMERICAN INDIAN POLICY IN THE TWENTIETH CENTURY",
         "credits": 4,
         "average": "----",
         "comments": []
     },
     {
-        "code": "ETST184",
-        "description": "AMERICAN INDIAN POLICY IN THE TWENTIETH CENTURY",
-        "credits": 4,
+        "code": "ETST190",
+        "description": "SPECIAL STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "ETST198G",
+        "description": "GROUP INTERNSHIP",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "ETST198I",
+        "description": "INDIVIDUAL INTERNSHIP",
+        "credits": 0,
         "average": "----",
         "comments": []
     },
@@ -9543,6 +11009,55 @@
         "code": "ETST243G",
         "description": "RACE AND HUMAN RIGHTS",
         "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "ETST289",
+        "description": "COLLOQUIUM IN ETHNIC STUDIES",
+        "credits": 1,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "ETST290",
+        "description": "DIRECTED STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "ETST291",
+        "description": "INDIVIDUAL STUDY IN COORDINATED AREAS",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "ETST292",
+        "description": "CONCURRENT ANALYTICAL STUDIES IN ETHNIC STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "ETST297",
+        "description": "DIRECTED RESEARCH",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "ETST299",
+        "description": "RESEARCH FOR THE DISSERTATION",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "ETST302",
+        "description": "TEACHING PRACTICUM",
+        "credits": 0,
         "average": "----",
         "comments": []
     },
@@ -9575,6 +11090,13 @@
         "comments": []
     },
     {
+        "code": "EEOB211",
+        "description": "FOUNDATIONS OF ECOLOGY",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "EEOB230",
         "description": "ANALYSIS OF ECOLOGICAL COMMUNITIES",
         "credits": 5,
@@ -9584,6 +11106,41 @@
     {
         "code": "EEOB265",
         "description": "ADVANCES IN POPULATION AND EVOLUTIONARY BIOLOGY",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "EEOB290",
+        "description": "DIRECTED STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "EEOB291",
+        "description": "INDIVIDUAL STUDY IN COORDINATED AREAS",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "EEOB292",
+        "description": "CONCURRENT ANALYTICAL STUDIES IN EVOLUTION, ECOLOGY, AND ORGANISMAL BIOLOGY",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "EEOB297",
+        "description": "DIRECTED RESEARCH",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "EEOB299",
+        "description": "RESEARCH FOR THE THESIS OR DISSERTATION",
         "credits": 0,
         "average": "----",
         "comments": []
@@ -9671,9 +11228,23 @@
         "comments": []
     },
     {
+        "code": "FREN190",
+        "description": "SPECIAL STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "FREN290",
+        "description": "DIRECTED STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "GSST001S",
         "description": "GENDER AND SEXUALITY",
-        "credits": 5,
+        "credits": 0,
         "average": "----",
         "comments": []
     },
@@ -9782,8 +11353,36 @@
         "comments": []
     },
     {
+        "code": "GSST190",
+        "description": "SPECIAL STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "GSST198G",
         "description": "GRP INTRNSHP: GNDR &amp; SXLTY",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "GSST198I",
+        "description": "INDIVIDUAL INTERNSHIP IN GENDER &amp; SEXUALITY STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "GSST292",
+        "description": "CONCURRENT ANALYTICAL STUDIES IN GENDER AND SEXUALITY STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "GSST302",
+        "description": "TEACHING PRACTICUM",
         "credits": 0,
         "average": "----",
         "comments": []
@@ -9813,6 +11412,27 @@
         "code": "GEN261",
         "description": "SEMINAR IN GENETICS, GENOMICS, AND BIOINFORMATICS",
         "credits": 1,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "GEN290",
+        "description": "DIRECTED STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "GEN297",
+        "description": "DIRECTED RESEARCH",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "GEN299",
+        "description": "RESEARCH FOR THE DISSERTATION",
+        "credits": 0,
         "average": "----",
         "comments": []
     },
@@ -10001,8 +11621,64 @@
         "comments": []
     },
     {
+        "code": "GEO169",
+        "description": "CALIFORNIA VEGETATION",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "GEO190",
+        "description": "SPECIAL STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "GEO191",
         "description": "UNDERGRADUATE SEMINAR IN GEOLOGICAL SCIENCES",
+        "credits": 1,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "GEO195A",
+        "description": "SENIOR THESIS",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "GEO195B",
+        "description": "SENIOR THESIS",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "GEO195C",
+        "description": "SENIOR THESIS",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "GEO198I",
+        "description": "INDEPENDENT INTERNSHIP",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "GEO201B",
+        "description": "PROPOSAL WRITING AND REVIEW",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "GEO240",
+        "description": "SEMINAR IN EARTHQUAKE PROCESSES AND GEOPHYSICS",
         "credits": 1,
         "average": "----",
         "comments": []
@@ -10011,6 +11687,20 @@
         "code": "GEO250",
         "description": "GRADUATE SEMINAR IN GEOLOGICAL SCIENCES",
         "credits": 1,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "GEO253",
+        "description": "ADVANCED TOPICS IN PETROLOGY AND GEOCHEMISTRY",
+        "credits": 3,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "GEO257G",
+        "description": "EARTHQUAKE PREDICTION",
+        "credits": 4,
         "average": "----",
         "comments": []
     },
@@ -10031,6 +11721,41 @@
     {
         "code": "GEO290",
         "description": "DIRECTED STUDIES",
+        "credits": 1,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "GEO297",
+        "description": "DIRECTED RESEARCH",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "GEO299M",
+        "description": "RESEARCH FOR MASTER&#39;S THESIS",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "GEO299P",
+        "description": "RESEARCH FOR DISSERTATION",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "GEO301",
+        "description": "TEACHING OF GEOSCIENCES AT THE COLLEGE LEVEL",
+        "credits": 1,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "GEO302",
+        "description": "TEACHING PRACTICUM",
         "credits": 0,
         "average": "----",
         "comments": []
@@ -10071,6 +11796,13 @@
         "comments": []
     },
     {
+        "code": "GER190",
+        "description": "SPECIAL STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "GBST001",
         "description": "GLOBAL HISTORY, CULTURE, AND IDEAS",
         "credits": 5,
@@ -10085,6 +11817,27 @@
         "comments": []
     },
     {
+        "code": "GBST190",
+        "description": "SPECIAL STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "GBST198I",
+        "description": "INDIVIDUAL INTERNSHIP IN GLOBAL STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "GBST302",
+        "description": "TEACHING PRACTICUM",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "GDIV301",
         "description": "ADVANCED UNIVERSITY LEVEL PEDAGOGY",
         "credits": 2,
@@ -10095,6 +11848,13 @@
         "code": "GDIV403",
         "description": "INTERDISCIPLINARY SEMINAR:  RESEARCH AND SCHOLARSHIP ETHICS",
         "credits": 1,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "GDIV498I",
+        "description": "INDIVIDUAL INTERNSHIP",
+        "credits": 0,
         "average": "----",
         "comments": []
     },
@@ -10115,6 +11875,20 @@
         "code": "GRK107",
         "description": "PLATO",
         "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "GRK190",
+        "description": "SPECIAL STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "GRK292",
+        "description": "CONCURRENT ANALYTICAL STUDIES",
+        "credits": 2,
         "average": "----",
         "comments": []
     },
@@ -10307,7 +12081,7 @@
     {
         "code": "HIST020",
         "description": "WORLD HISTORY: THE LONG TWENTIETH CENTURY",
-        "credits": 0,
+        "credits": 4,
         "average": "5.25",
         "comments": [
             {
@@ -10510,6 +12284,20 @@
         "comments": []
     },
     {
+        "code": "HIST212",
+        "description": "GREEK HISTORICAL TEXTS",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "HIST213",
+        "description": "LATIN HISTORICAL TEXTS",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "HIST250",
         "description": "NEW DIRECTIONS: URBAN HISTORY",
         "credits": 4,
@@ -10531,9 +12319,58 @@
         "comments": []
     },
     {
+        "code": "HIST290",
+        "description": "DIRECTED STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "HIST291",
+        "description": "INDIVIDUAL STUDY IN HISTORY",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "HIST292",
+        "description": "CONCURRENT ANALYTICAL STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "HIST297",
+        "description": "DIRECTED RESEARCH",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "HIST299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "HIST301",
         "description": "THE TEACHING OF HISTORY AT THE COLLEGE LEVEL",
         "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "HIST302",
+        "description": "TEACHING PRACTICUM",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "HIST398I",
+        "description": "INTERNSHIP IN PUBLIC HISTORY",
+        "credits": 0,
         "average": "----",
         "comments": []
     },
@@ -10620,20 +12457,6 @@
         "comments": []
     },
     {
-        "code": "HISA137",
-        "description": "FRONTIER HISTORY OF THE UNITED STATES",
-        "credits": 4,
-        "average": "----",
-        "comments": []
-    },
-    {
-        "code": "HISA141",
-        "description": "SOUTHWESTERN INDIAN HISTORY",
-        "credits": 4,
-        "average": "----",
-        "comments": []
-    },
-    {
         "code": "HISA168",
         "description": "HISTORY OF THE CHURCH IN LATIN AMERICA",
         "credits": 4,
@@ -10643,7 +12466,7 @@
     {
         "code": "HNPG002W",
         "description": "PRINCIPLES OF CIVIC ENGAGEMENT",
-        "credits": 0,
+        "credits": 4,
         "average": "5.50",
         "comments": [
             {
@@ -10691,6 +12514,13 @@
         "comments": []
     },
     {
+        "code": "HNPG199H",
+        "description": "SENIOR HONORS RESEARCH",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "HASS001",
         "description": "STEP-BY-STEP TO COLLEGE SUCCESS FOR FIRST YEAR STUDENTS",
         "credits": 2,
@@ -10704,6 +12534,13 @@
         ]
     },
     {
+        "code": "HASS090",
+        "description": "SPECIAL STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "HASS100",
         "description": "STUDIES IN LEADERSHIP AND ORGANIZATIONAL EFFECTIVENESS",
         "credits": 5,
@@ -10713,6 +12550,20 @@
     {
         "code": "HASS189",
         "description": "MELLON MAYS UNDERGRADUATE FELLOWSHIP SEMINAR",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "HASS190",
+        "description": "SPECIAL STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "HASS195",
+        "description": "SENIOR THESIS",
         "credits": 0,
         "average": "----",
         "comments": []
@@ -10841,6 +12692,13 @@
         "comments": []
     },
     {
+        "code": "LABR198I",
+        "description": "INDIVIDUAL INTERNSHIP IN LABOR STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "LATN001",
         "description": "INTRODUCTION TO LATIN",
         "credits": 4,
@@ -10870,7 +12728,7 @@
     {
         "code": "LNST015",
         "description": "LATIN AMERICAN FOLK AND POPULAR STYLES",
-        "credits": 4,
+        "credits": 0,
         "average": "----",
         "comments": []
     },
@@ -10903,6 +12761,13 @@
         "comments": []
     },
     {
+        "code": "LNST190",
+        "description": "SPECIAL STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "LWSO100",
         "description": "INTRODUCTION TO THE STUDY OF LAW AND SOCIETY",
         "credits": 4,
@@ -10927,6 +12792,20 @@
         "code": "LGBS143K",
         "description": "QUEERS THAT KILL",
         "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "LGBS190",
+        "description": "SPECIAL STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "LGBS198I",
+        "description": "INDIVIDUAL INTERNSHIP",
+        "credits": 0,
         "average": "----",
         "comments": []
     },
@@ -11000,6 +12879,20 @@
         "comments": []
     },
     {
+        "code": "LING190",
+        "description": "SPECIAL STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "CWLR200",
+        "description": "PROFESSIONAL FUNDAMENTALS",
+        "credits": 1,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "CWLR201F",
         "description": "LOW RESIDENCY SEMINAR IN LITERATURE,THEATRE, AND FILM",
         "credits": 4,
@@ -11024,6 +12917,83 @@
         "code": "CWLR201S",
         "description": "LOW RESIDENCY SEMINAR IN LITERATURE,THEATRE, AND FILM",
         "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "CWLR201T",
+        "description": "LOW RESIDENCY SEMINAR IN LITERATURE,THEATRE, AND FILM",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "CWLR211F",
+        "description": "LOW RESIDENCY GENRE WORKSHOP",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "CWLR211N",
+        "description": "LOW RESIDENCY GENRE WORKSHOP",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "CWLR211P",
+        "description": "LOW RESIDENCY GENRE WORKSHOP",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "CWLR211S",
+        "description": "LOW RESIDENCY GENRE WORKSHOP",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "CWLR211T",
+        "description": "LOW RESIDENCY GENRE WORKSHOP",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "CWLR221F",
+        "description": "LOW RESIDENCY CROSS-GENRE WORKSHOP",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "CWLR221N",
+        "description": "LOW RESIDENCY CROSS-GENRE WORKSHOP",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "CWLR221P",
+        "description": "LOW RESIDENCY CROSS-GENRE WORKSHOP",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "CWLR221S",
+        "description": "LOW RESIDENCY CROSS-GENRE WORKSHOP",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "CWLR221T",
+        "description": "LOW RESIDENCY CROSS-GENRE WORKSHOP",
+        "credits": 2,
         "average": "----",
         "comments": []
     },
@@ -11215,6 +13185,13 @@
         "comments": []
     },
     {
+        "code": "MGT285",
+        "description": "FIELD COLLOQUIUM",
+        "credits": 1,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "MGT289D",
         "description": "DESIGNING ORGANIZATIONAL RESEARCH",
         "credits": 4,
@@ -11225,6 +13202,13 @@
         "code": "MGT298I",
         "description": "FIELDWORK IN MANAGEMENT",
         "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MGT299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION",
+        "credits": 0,
         "average": "----",
         "comments": []
     },
@@ -11351,6 +13335,41 @@
         "code": "MSE251",
         "description": "TOPICS IN MATERIALS SCIENCE AND ENGINEERING",
         "credits": 1,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MSE280",
+        "description": "SPECIAL TOPICS IN BIOMATERIALS AND TISSUE ENGINEERING",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MSE290",
+        "description": "DIRECTED STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MSE297",
+        "description": "DIRECTED RESEARCH",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MSE298I",
+        "description": "INDIVIDUAL INTERNSHIP IN MATERIALS SCIENCE &amp; ENGINEERING",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MSE299",
+        "description": "RESEARCH FOR THE THESIS OR DISSERTATION",
+        "credits": 0,
         "average": "----",
         "comments": []
     },
@@ -12573,6 +14592,34 @@
         ]
     },
     {
+        "code": "MATH190",
+        "description": "SPECIAL STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MATH194",
+        "description": "INDEPENDENT READING",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MATH197",
+        "description": "RESEARCH FOR UNDERGRADUATES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MATH198I",
+        "description": "INTERNSHIP IN MATHEMATICS",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "MATH201A",
         "description": "ALGEBRA",
         "credits": 4,
@@ -12638,6 +14685,34 @@
     {
         "code": "MATH260",
         "description": "MATHEMATICL PHYS&amp;DYNAMICAL SYS",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MATH290",
+        "description": "DIRECTED STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MATH291",
+        "description": "INDIVIDUAL STUDY IN COORDINATED AREAS",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MATH297",
+        "description": "DIRECTED RESEARCH",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MATH299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION",
         "credits": 0,
         "average": "----",
         "comments": []
@@ -12905,6 +14980,20 @@
         "comments": []
     },
     {
+        "code": "ME190",
+        "description": "SPECIAL STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "ME197",
+        "description": "RESEARCH FOR UNDERGRADUATES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "ME200",
         "description": "METHODS OF ENGINEERING ANALYSIS",
         "credits": 4,
@@ -12957,6 +15046,34 @@
         "code": "ME280",
         "description": "OPTICS AND LASERS IN ENGINEERING AND APPLIED SCIENCE",
         "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "ME290",
+        "description": "DIRECTED STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "ME297",
+        "description": "DIRECTED RESEARCH",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "ME298I",
+        "description": "INDIVIDUAL INTERNSHIP",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "ME299",
+        "description": "RESEARCH FOR THE THESIS OR DISSERTATION",
+        "credits": 0,
         "average": "----",
         "comments": []
     },
@@ -13101,9 +15218,23 @@
         "comments": []
     },
     {
+        "code": "MCS190",
+        "description": "SPECIAL STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "MCS193",
         "description": "WHITE SLAVE TRADE",
         "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MCS198I",
+        "description": "INDIVIDUAL INTERNSHIP IN MEDIA AND CULTURAL STUDIES",
+        "credits": 0,
         "average": "----",
         "comments": []
     },
@@ -13118,6 +15249,27 @@
         "code": "MCS278",
         "description": "SEMINAR IN MINORITY DISCOURSE",
         "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MCS290",
+        "description": "DIRECTED STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MCS292",
+        "description": "CONCURRENT ANALYTICAL STUDIES IN MEDIA AND CULTURAL STUDIES",
+        "credits": 1,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MCS302",
+        "description": "TEACHING PRACTICUM",
+        "credits": 0,
         "average": "----",
         "comments": []
     },
@@ -13180,6 +15332,27 @@
         ]
     },
     {
+        "code": "MCBL190",
+        "description": "SPECIAL STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MCBL197",
+        "description": "RESEARCH FOR UNDERGRADUATES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MCBL198I",
+        "description": "INDIVIDUAL INTERNSHIP IN MICROBIOLOGY",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "MCBL221",
         "description": "MICROBIAL GENETICS",
         "credits": 4,
@@ -13197,6 +15370,34 @@
         "code": "MCBL250",
         "description": "SEMINAR IN MICROBIOLOGY",
         "credits": 1,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MCBL290",
+        "description": "DIRECTED STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MCBL297",
+        "description": "DIRECTED RESEARCH",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MCBL299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MEIS199",
+        "description": "SENIOR RESEARCH",
+        "credits": 4,
         "average": "----",
         "comments": []
     },
@@ -13283,6 +15484,179 @@
         "code": "MUS031A",
         "description": "MUSIC THEORY AND MUSICIANSHIP I",
         "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MUS080E",
+        "description": "VOICE",
+        "credits": 1,
+        "average": "7.00",
+        "comments": [
+            {
+                "comment": "Individual private Voice Lessons with either a male or female instructor. Worth 1 unit. There is a required final performance in front of other classmates taking this class. You will be given a music piece to sing to, could be classical or before 1980s pieces, but no contemporary music. You do have to practice by yourself for at least 5 hours a week. ",
+                "rating": "7",
+                "date": "4/16/2020"
+            }
+        ]
+    },
+    {
+        "code": "MUS080F",
+        "description": "CLASSICAL PIANO",
+        "credits": 1,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MUS080G",
+        "description": "JAZZ PIANO",
+        "credits": 1,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MUS080J",
+        "description": "CARILLON",
+        "credits": 1,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MUS080K",
+        "description": "JAZZ GUITAR",
+        "credits": 1,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MUS080L",
+        "description": "ELECTRIC BASS GUITAR",
+        "credits": 1,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MUS080N",
+        "description": "CLASSICAL GUITAR",
+        "credits": 1,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MUS080P",
+        "description": "PIANO PROFICIENCY",
+        "credits": 1,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MUS080Q",
+        "description": "ORGAN",
+        "credits": 1,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MUS080R",
+        "description": "VIOLIN",
+        "credits": 1,
+        "average": "1.00",
+        "comments": [
+            {
+                "comment": "Violin Class",
+                "rating": "1",
+                "date": "7/1/2017"
+            }
+        ]
+    },
+    {
+        "code": "MUS080S",
+        "description": "VIOLA",
+        "credits": 1,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MUS080T",
+        "description": "VIOLONCELLO",
+        "credits": 1,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MUS080U",
+        "description": "DOUBLE BASS VIOL",
+        "credits": 1,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MUS080V",
+        "description": "HARP",
+        "credits": 1,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MUS081E",
+        "description": "TRUMPET",
+        "credits": 1,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MUS081F",
+        "description": "TROMBONE",
+        "credits": 1,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MUS081G",
+        "description": "TUBA",
+        "credits": 1,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MUS081I",
+        "description": "FRENCH HORN",
+        "credits": 1,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MUS081J",
+        "description": "FLUTE",
+        "credits": 1,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MUS081L",
+        "description": "CLARINET",
+        "credits": 1,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MUS081N",
+        "description": "SAXOPHONE",
+        "credits": 1,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MUS081P",
+        "description": "PERCUSSION/DRUM SET",
+        "credits": 1,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MUS081R",
+        "description": "BAGPIPE",
+        "credits": 1,
         "average": "----",
         "comments": []
     },
@@ -13440,6 +15814,174 @@
         "comments": []
     },
     {
+        "code": "MUS180E",
+        "description": "VOICE",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MUS180F",
+        "description": "CLASSICAL PIANO",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MUS180G",
+        "description": "JAZZ PIANO",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MUS180J",
+        "description": "CARILLON",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MUS180K",
+        "description": "JAZZ GUITAR",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MUS180L",
+        "description": "ELECTRIC BASS GUITAR",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MUS180N",
+        "description": "CLASSICAL GUITAR",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MUS180P",
+        "description": "PIANO PROFICIENCY",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MUS180Q",
+        "description": "ORGAN",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MUS180R",
+        "description": "VIOLIN",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MUS180S",
+        "description": "VIOLA",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MUS180T",
+        "description": "VIOLONCELLO",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MUS180U",
+        "description": "DOUBLE BASS VIOL",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MUS180V",
+        "description": "HARP",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MUS181E",
+        "description": "TRUMPET",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MUS181F",
+        "description": "TROMBONE",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MUS181G",
+        "description": "TUBA",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MUS181I",
+        "description": "FRENCH HORN",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MUS181J",
+        "description": "FLUTE",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MUS181L",
+        "description": "CLARINET",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MUS181N",
+        "description": "SAXOPHONE",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MUS181P",
+        "description": "PERCUSSION/DRUM SET",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MUS181R",
+        "description": "BAGPIPE",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MUS195",
+        "description": "SENIOR THESIS",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "MUS263",
         "description": "SEMINAR IN SPECIAL TOPICS IN MUSICOLOGY",
         "credits": 4,
@@ -13450,6 +15992,62 @@
         "code": "MUS270",
         "description": "SPECIAL TOPICS IN ETHNOMUSICOLOGY",
         "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MUS290",
+        "description": "DIRECTED STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MUS291",
+        "description": "INDIVIDUAL STUDY IN COORDINATED AREAS",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MUS292",
+        "description": "CONCURRENT ANALYTICAL STUDIES IN MUSIC",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MUS293",
+        "description": "COMPOSITION PRACTICUM",
+        "credits": 1,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MUS297",
+        "description": "DIRECTED RESEARCH",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MUS299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MUS301",
+        "description": "DIRECTED STUDIES IN THE TEACHING OF MUSIC",
+        "credits": 3,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MUS302",
+        "description": "TEACHING PRACTICUM",
+        "credits": 0,
         "average": "----",
         "comments": []
     },
@@ -13505,6 +16103,41 @@
         "comments": []
     },
     {
+        "code": "NEM190",
+        "description": "SPECIAL STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "NEM197",
+        "description": "RESEARCH FOR UNDERGRADUATES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "NEM199",
+        "description": "SENIOR RESEARCH",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "NEM290",
+        "description": "DIRECTED STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "NEM297",
+        "description": "DIRECTED RESEARCH",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "NRSC200A",
         "description": "FUNDAMENTALS OF NEUROSCIENCE",
         "credits": 3,
@@ -13522,6 +16155,48 @@
         "code": "NRSC289",
         "description": "SPECIAL TOPICS IN NEUROSCIENCE",
         "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "NRSC290",
+        "description": "DIRECTED STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "NRSC297",
+        "description": "DIRECTED RESEARCH",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "NRSC299",
+        "description": "RESEARCH FOR THE THESIS OR DISSERTATION",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "PCST190",
+        "description": "SPECIAL STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "PCST197",
+        "description": "RESEARCH FOR UNDERGRADUATES",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "PCST198I",
+        "description": "INDIVIDUAL INTERNSHIP IN PEACE AND CONFLICT STUDIES",
+        "credits": 4,
         "average": "----",
         "comments": []
     },
@@ -13721,6 +16396,34 @@
         "comments": []
     },
     {
+        "code": "PHIL190",
+        "description": "SPECIAL STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "PHIL195",
+        "description": "SENIOR THESIS",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "PHIL198I",
+        "description": "INDIVIDUAL INTERNSHIP IN PHILOSOPHY",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "PHIL270",
+        "description": "PHILOSOPHY COLLOQUIA",
+        "credits": 1,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "PHIL275C",
         "description": "PROSEMINAR FOR FIRST-YEAR GRADUATE STUDENTS: MORAL PHILOSOPHY",
         "credits": 4,
@@ -13738,6 +16441,55 @@
         "code": "PHIL283",
         "description": "SEMINAR IN CONTEMPORARY PHILOSOPHY",
         "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "PHIL290",
+        "description": "DIRECTED STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "PHIL291",
+        "description": "INDIVIDUAL STUDIES IN COORDINATED AREAS",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "PHIL292",
+        "description": "CONCURRENT ANALYTICAL STUDIES IN PHILOSOPHY",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "PHIL297",
+        "description": "DIRECTED RESEARCH",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "PHIL299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "PHIL302",
+        "description": "TEACHING PRACTICUM",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "PHIL400",
+        "description": "RESEARCH AND PROFESSIONAL DEVELOPMENT WORKSHOP",
+        "credits": 1,
         "average": "----",
         "comments": []
     },
@@ -14119,6 +16871,13 @@
         ]
     },
     {
+        "code": "PHYS097",
+        "description": "LOWER-DIVISION RESEARCH",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "PHYS111",
         "description": "ASTROPHYSICS AND STELLAR ASTRONOMY",
         "credits": 4,
@@ -14224,6 +16983,48 @@
         ]
     },
     {
+        "code": "PHYS190",
+        "description": "SPECIAL STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "PHYS195A",
+        "description": "SENIOR THESIS",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "PHYS195B",
+        "description": "SENIOR THESIS",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "PHYS195C",
+        "description": "SENIOR THESIS",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "PHYS197",
+        "description": "RESEARCH FOR UNDERGRADUATES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "PHYS198I",
+        "description": "INDIVIDUAL INTERNSHIP IN PHYSICS",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "PHYS205",
         "description": "CLASSICAL MECHANICS",
         "credits": 4,
@@ -14301,6 +17102,13 @@
         "comments": []
     },
     {
+        "code": "PHYS250",
+        "description": "SURFACE SCIENCE",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "PHYS258",
         "description": "SEMINAR IN SURFACE SCIENCE",
         "credits": 1,
@@ -14311,6 +17119,34 @@
         "code": "PHYS289",
         "description": "COLLOQUIUM IN PHYSICS",
         "credits": 1,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "PHYS290",
+        "description": "DIRECTED STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "PHYS291",
+        "description": "INDIVIDUAL STUDY IN COORDINATED AREAS",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "PHYS297",
+        "description": "DIRECTED RESEARCH",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "PHYS299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION",
+        "credits": 0,
         "average": "----",
         "comments": []
     },
@@ -14369,6 +17205,20 @@
         "comments": []
     },
     {
+        "code": "PLPA190",
+        "description": "SPECIAL STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "PLPA197",
+        "description": "RESEARCH FOR UNDERGRADUATES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "PLPA210",
         "description": "INTRODUCTION TO PLANT PATHOLOGY",
         "credits": 5,
@@ -14379,13 +17229,6 @@
         "code": "PLPA226",
         "description": "MICROBIAL GENETICS",
         "credits": 4,
-        "average": "----",
-        "comments": []
-    },
-    {
-        "code": "PLPA230",
-        "description": "MOLECULAR PLANT-MICROBIAL INTERACTIONS",
-        "credits": 3,
         "average": "----",
         "comments": []
     },
@@ -14414,6 +17257,34 @@
         "code": "PLPA261",
         "description": "SEMINAR IN GENETICS, GENOMICS, AND BIOINFORMATICS",
         "credits": 1,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "PLPA290",
+        "description": "RESEARCH OR STUDY ON SPECIAL TOPICS BY INDIVIDUAL GRADUATE STUDENTS",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "PLPA291",
+        "description": "INDIVIDUAL STUDY IN COORDINATED AREAS",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "PLPA297",
+        "description": "DIRECTED RESEARCH",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "PLPA299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION",
+        "credits": 0,
         "average": "----",
         "comments": []
     },
@@ -14766,16 +17637,9 @@
         ]
     },
     {
-        "code": "POSC163S",
-        "description": "ETHNIC POLITICS",
-        "credits": 5,
-        "average": "----",
-        "comments": []
-    },
-    {
         "code": "POSC164S",
         "description": "THE NATION STATE AND CAPITALISM",
-        "credits": 5,
+        "credits": 0,
         "average": "----",
         "comments": []
     },
@@ -14811,6 +17675,27 @@
         "code": "POSC186",
         "description": "REGULATION: A POLITICAL PERSPECTIVE",
         "credits": 5,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "POSC190",
+        "description": "SPECIAL STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "POSC197",
+        "description": "RESEARCH FOR UNDERGRADUATES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "POSC199",
+        "description": "SENIOR RESEARCH",
+        "credits": 0,
         "average": "----",
         "comments": []
     },
@@ -14853,6 +17738,69 @@
         "code": "POSC271",
         "description": "COMPARATIVE POLITICAL ECONOMICS",
         "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "POSC285",
+        "description": "PROFESSIONAL RESEARCH PAPER",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "POSC290",
+        "description": "DIRECTED STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "POSC291",
+        "description": "INDIVIDUAL STUDY IN COORDINATED AREAS",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "POSC292",
+        "description": "CONCURRENT ANALYTICAL STUDIES IN POLITICAL SCIENCE",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "POSC293",
+        "description": "RESEARCH TOPICS IN POLITICAL SCIENCE",
+        "credits": 1,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "POSC297",
+        "description": "DIRECTED RESEARCH",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "POSC299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "POSC301",
+        "description": "TEACHING OF POLITICAL SCIENCE AT THE COLLEGE LEVEL",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "POSC302",
+        "description": "COLLEGE TEACHING PRACTICUM",
+        "credits": 0,
         "average": "----",
         "comments": []
     },
@@ -15254,7 +18202,7 @@
     {
         "code": "PSYC140",
         "description": "SOCIAL PSYCHOLOGY",
-        "credits": 0,
+        "credits": 4,
         "average": "2.50",
         "comments": [
             {
@@ -15448,6 +18396,20 @@
         "comments": []
     },
     {
+        "code": "PSYC286E",
+        "description": "DIVERSITY &amp; INCLUSION",
+        "credits": 1,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "PSYC286F",
+        "description": "HEALTH &amp; WELLBEING",
+        "credits": 1,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "PSYC287",
         "description": "COLLOQUIUM IN NEUROSCIENCE",
         "credits": 1,
@@ -15462,6 +18424,41 @@
         "comments": []
     },
     {
+        "code": "PSYC291",
+        "description": "INDIVIDUAL STUDY IN COORDINATED AREAS",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "PSYC292",
+        "description": "CONCURRENT ANALYTICAL STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "PSYC296",
+        "description": "RESEARCH TUTORIAL",
+        "credits": 3,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "PSYC297",
+        "description": "DIRECTED RESEARCH",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "PSYC299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "PSYC309B",
         "description": "PROFESSIONAL DEVELOPMENT",
         "credits": 3,
@@ -15471,7 +18468,7 @@
     {
         "code": "PBPL001",
         "description": "INTRODUCTION TO PUBLIC POLICY ANALYSIS",
-        "credits": 0,
+        "credits": 4,
         "average": "3.38",
         "comments": [
             {
@@ -15632,6 +18629,20 @@
         "comments": []
     },
     {
+        "code": "PBPL191",
+        "description": "SEMINAR IN PUBLIC POLICY",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "PBPL198I",
+        "description": "INDIVIDUAL INTERNSHIP IN PUBLIC POLICY",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "PBPL200",
         "description": "INTRODUCTION TO POLICY ANALYSIS",
         "credits": 4,
@@ -15699,13 +18710,6 @@
                 "date": "6/2/2019"
             }
         ]
-    },
-    {
-        "code": "RLST007H",
-        "description": "HONORS  JEWS, CHRISTIANS, AND MUSLIMS",
-        "credits": 5,
-        "average": "----",
-        "comments": []
     },
     {
         "code": "RLST012",
@@ -15782,16 +18786,23 @@
         "comments": []
     },
     {
-        "code": "RLST149",
-        "description": "SOUTHEAST ASIAN RELIGIONS",
+        "code": "RLST177",
+        "description": "HISTORY OF THE CHURCH IN LATIN AMERICA",
         "credits": 4,
         "average": "----",
         "comments": []
     },
     {
-        "code": "RLST177",
-        "description": "HISTORY OF THE CHURCH IN LATIN AMERICA",
-        "credits": 4,
+        "code": "RLST190",
+        "description": "SPECIAL STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "RLST197",
+        "description": "RESEARCH FOR UNDERGRADUATES",
+        "credits": 0,
         "average": "----",
         "comments": []
     },
@@ -15803,16 +18814,65 @@
         "comments": []
     },
     {
-        "code": "RLST220",
-        "description": "ADVANCED TOPICS IN METHOD AND THEORY IN THE STUDY OF RELIGION\r\n",
+        "code": "RLST263",
+        "description": "HISTORIOGRAPHY OF SIKH HERMENEUTICS",
         "credits": 4,
         "average": "----",
         "comments": []
     },
     {
-        "code": "RLST263",
-        "description": "HISTORIOGRAPHY OF SIKH HERMENEUTICS",
-        "credits": 4,
+        "code": "RLST290",
+        "description": "DIRECTED STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "RLST291",
+        "description": "INDIVIDUAL STUDY IN COORDINATED AREAS",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "RLST292",
+        "description": "CONCURRENT STUDIES IN RELIGIOUS STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "RLST297",
+        "description": "DIRECTED RESEARCH",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "RLST299",
+        "description": "RESEARCH FOR THE DISSERTATION",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "RLST302",
+        "description": "TEACHING PRACTICUM",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "RLST401",
+        "description": "COLLOQUIUM IN RELIGIOUS STUDIES",
+        "credits": 1,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "RLST402",
+        "description": "PEDAGOGY",
+        "credits": 1,
         "average": "----",
         "comments": []
     },
@@ -15827,6 +18887,181 @@
         "code": "RUSN004",
         "description": "INTERMEDIATE RUSSIAN",
         "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "RUSN190",
+        "description": "SPECIAL STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MDCL231",
+        "description": "FOUNDATIONS OF MEDICINE I",
+        "credits": 10,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MDCL232",
+        "description": "CARDIOVASCULAR, RENAL AND RESPIRATORY SCIENCES I",
+        "credits": 17,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MDCL236",
+        "description": "FOUNDATIONS OF MEDICINE II",
+        "credits": 14,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MDCL237",
+        "description": "CARDIO, RENAL &amp; RESP SCIENCES II",
+        "credits": 12,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MDCL241B",
+        "description": "INTERNAL MEDICINE II",
+        "credits": 5,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MDCL242B",
+        "description": "SURGERY II",
+        "credits": 5,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MDCL243B",
+        "description": "PEDIATRICS II",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MDCL244B",
+        "description": "OBSTETRICS/GYNECOLOGY II",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MDCL245",
+        "description": "FAMILY MEDICINE",
+        "credits": 5,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MDCL245B",
+        "description": "FAMILY MEDICINE II",
+        "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MDCL246",
+        "description": "PSYCHIATRY",
+        "credits": 5,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MDCL246D",
+        "description": "PSYCHIATRY IV",
+        "credits": 1,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MDCL247",
+        "description": "EMERGENCY MEDICINE",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MDCL247D",
+        "description": "EMERGENCY MEDICINE IV",
+        "credits": 1,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MDCL248B",
+        "description": "LONGITUDINAL AMBULATORY CARE EXPERIENCE II",
+        "credits": 1,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MDCL248D",
+        "description": "LONGITUDINAL AMBULATORY CARE EXPERIENCE IV",
+        "credits": 1,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MDCL249",
+        "description": "NEUROLOGY",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MDCL250",
+        "description": "FAMILY MEDICINE",
+        "credits": 8,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MDCL251",
+        "description": "RADIOLOGY",
+        "credits": 8,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MDCL252",
+        "description": "CRITICAL CARE",
+        "credits": 8,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MDCL254",
+        "description": "FOURTH YEAR CLINICAL ELECTIVE",
+        "credits": 8,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MDCL289",
+        "description": "DEATH AND DYING ANYONE?",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MDCL290",
+        "description": "DIRECTED STUDIES",
+        "credits": 6,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "MDCL293",
+        "description": "CLINICAL SELECTIVES",
+        "credits": 1,
         "average": "----",
         "comments": []
     },
@@ -16004,6 +19239,19 @@
         ]
     },
     {
+        "code": "SOC005",
+        "description": "STATISTICAL ANALYSIS",
+        "credits": 5,
+        "average": "9.00",
+        "comments": [
+            {
+                "comment": "I took this class with Kalousova and it was pretty hard. Go to discussions and put in work, doing homework cost like $120. Not an impossible class but definitely not an easy A",
+                "rating": "9",
+                "date": "2/23/2021"
+            }
+        ]
+    },
+    {
         "code": "SOC028",
         "description": "INTRODUCTION TO THE SOCIOLOGY OF GENDER",
         "credits": 4,
@@ -16045,13 +19293,6 @@
     {
         "code": "SOC142",
         "description": "SOCIOLOGY OF THE FAMILY",
-        "credits": 5,
-        "average": "----",
-        "comments": []
-    },
-    {
-        "code": "SOC143",
-        "description": "URBAN SOCIOLOGY",
         "credits": 5,
         "average": "----",
         "comments": []
@@ -16133,6 +19374,34 @@
         "comments": []
     },
     {
+        "code": "SOC195",
+        "description": "SENIOR THESIS",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "SOC197",
+        "description": "RESEARCH FOR UNDERGRADUATES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "SOC198I",
+        "description": "INDIVIDUAL INTERNSHIP IN SOCIOLOGY",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "SOC199H",
+        "description": "SENIOR HONORS RESEARCH",
+        "credits": 1,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "SOC200",
         "description": "RESEARCH DESIGN",
         "credits": 4,
@@ -16182,16 +19451,37 @@
         "comments": []
     },
     {
-        "code": "SOC301",
-        "description": "DIRECTED STUDIES IN THE TEACHING OF SOCIOLOGY",
-        "credits": 2,
+        "code": "SOC290",
+        "description": "DIRECTED STUDIES",
+        "credits": 0,
         "average": "----",
         "comments": []
     },
     {
-        "code": "SEAS149",
-        "description": "SOUTHEAST ASIAN RELIGIONS",
-        "credits": 4,
+        "code": "SOC291",
+        "description": "INDIVIDUAL STUDY IN COORDINATED AREAS",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "SOC297",
+        "description": "DIRECTED RESEARCH",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "SOC299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "SOC301",
+        "description": "DIRECTED STUDIES IN THE TEACHING OF SOCIOLOGY",
+        "credits": 2,
         "average": "----",
         "comments": []
     },
@@ -16206,6 +19496,27 @@
         "code": "SEAS203",
         "description": "SOUTHEAST ASIAN CULTURES",
         "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "SEAS290",
+        "description": "DIRECTED STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "SEAS292",
+        "description": "CONCURRENT ANALYTICAL STUDIES IN SOUTHEAST ASIAN STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "SEAS299",
+        "description": "RESEARCH FOR THE THESIS",
+        "credits": 0,
         "average": "----",
         "comments": []
     },
@@ -16437,6 +19748,13 @@
         "comments": []
     },
     {
+        "code": "SPN290",
+        "description": "DIRECTED STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "SPN291",
         "description": "INDIVIDUAL STUDIES IN COORDINATED AREAS",
         "credits": 0,
@@ -16444,9 +19762,23 @@
         "comments": []
     },
     {
+        "code": "SPN292",
+        "description": "CONCURRENT ANALYTICAL STUDIES",
+        "credits": 2,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "SPN299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "STAT008",
         "description": "STATISTICS FOR BUSINESS",
-        "credits": 0,
+        "credits": 5,
         "average": "----",
         "comments": []
     },
@@ -16618,6 +19950,34 @@
         "comments": []
     },
     {
+        "code": "STAT190",
+        "description": "SPECIAL STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "STAT197",
+        "description": "RESEARCH FOR UNDERGRADUATES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "STAT198I",
+        "description": "INDIVIDUAL INTERNSHIP IN STATISTICS",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "STAT199H",
+        "description": "SENIOR HONORS RESEARCH",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "STAT201A",
         "description": "THEORY OF PROBABILITY AND STATISTICS",
         "credits": 4,
@@ -16674,9 +20034,44 @@
         "comments": []
     },
     {
+        "code": "STAT290",
+        "description": "DIRECTED STUDIES",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "STAT291",
+        "description": "INDIVIDUAL STUDIES IN COORDINATED AREAS",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
         "code": "STAT293",
         "description": "METHODS IN APPLIED STATISTICS",
         "credits": 4,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "STAT297",
+        "description": "DIRECTED RESEARCH",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "STAT299",
+        "description": "RESEARCH FOR THESIS OR DISSERTATION",
+        "credits": 0,
+        "average": "----",
+        "comments": []
+    },
+    {
+        "code": "STAT302",
+        "description": "COLLEGE TEACHING PRACTICUM",
+        "credits": 0,
         "average": "----",
         "comments": []
     },
@@ -16719,7 +20114,7 @@
     {
         "code": "TFDP050S",
         "description": "PUBLIC SPEAKING",
-        "credits": 0,
+        "credits": 4,
         "average": "3.00",
         "comments": [
             {
@@ -16874,9 +20269,9 @@
         "comments": []
     },
     {
-        "code": "URST143",
-        "description": "URBAN SOCIOLOGY",
-        "credits": 5,
+        "code": "TFDP198I",
+        "description": "INDIVIDUAL INTERNSHIP IN THEATRE",
+        "credits": 0,
         "average": "----",
         "comments": []
     },
