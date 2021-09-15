@@ -1,11 +1,13 @@
 <script>
     import pako from "pako"
     import { onMount, onDestroy } from "svelte";
-    import { term, courses, active, crns, pinned, schedules, options } from './store.js';
+    import { term, courses, active, crns, pinned, schedules, options, theme, tutorial } from './store.js';
     import Spinner from './LoadingSpinner.svelte'
     import Modal from './Modal.svelte'
     import TermPlan from './TermPlan.svelte'
     import Pin from './Pin.svelte'
+
+    const showTutorial = !$tutorial.schedules;
     let sse = [];
     let showModal = false;
     let itemsFull = [];
@@ -15,7 +17,7 @@
         for (const crn of $pinned)
         {
             if (!sched[1].includes(crn))
-            {
+            { 
                 return false;
             }
         }
@@ -151,25 +153,38 @@
         } catch (error) {
             console.log(error)
         }
-
     }
+
+    let innerWidth = 0;
 </script>
 
+<svelte:window bind:innerWidth/>
+
+{#if showTutorial}
+	<Modal showModal=true width="{innerWidth>1024?35:60}%" height="60%">
+		<h1 style='margin: 0;'>Select Courses</h1>
+		<ul style='max-width:80%'>
+			<li style='text-align:left'>Browse through the generated schedules until you find one that is right for you</li>
+			<li style='text-align:left'>Pin a section to only show schedules containing that section</li>
+			<!-- <li style='text-align:left'>Click on a section to show additional information</li> -->
+			<li style='text-align:left'>Save your schedule by downloading the iCal file to import into Google Calendar, then use the list of CRNs to create a term plan on RWEB</li>
+		</ul>
+		<div><input id='show_again' type=checkbox bind:checked={$tutorial.schedules}><label for='show_again' style='display:inline;'>Never show again</label></div>
+	</Modal>
+{/if}
 {#if itemsFull.length === 0}
     <Spinner />
     <h1>Loading Schedules...</h1>
 {/if}
-<div id="scheduler_here" class="dhx_cal_container" style='width:100%; height:100%; visibility:{itemsFull.length>0?'visible':'hidden'};'>
-    <Modal bind:showModal>
+<div id="scheduler_here" class="dhx_cal_container {$theme}" style='width:100%; height:90%; visibility:{itemsFull.length>0?'visible':'hidden'};'>
+    <Modal bind:showModal width="{innerWidth>1024?35:60}%" height="55%">
         <TermPlan/>
     </Modal>
     <div class='overlay'>
-        <span class='invisible'>aa</span>
-        <span>Showing schedule <input class="inpnum" type="number" value={idx+1} on:input={e=>typeIDX(e)} min=1 max={items.length}> of {items.length}</span>
-        <span on:click={() => showModal=!showModal}>Save<br>Schedule</span>
-        <span on:click={prev}>Previous<br>Schedule</span>
-        <span on:click={next}>Next<br>Schedule</span>
-        <span class='invisible'></span>
+        <span class='schedule_num {$theme}'>Showing schedule <input class="inpnum" type="number" value={idx+1} on:input={e=>typeIDX(e)} min=1 max={items.length}> of {items.length}</span>
+        <span class='save button {$theme}' on:click={() => showModal=!showModal}>Save Schedule</span>
+        <span class='prev button {$theme}' on:click={prev}>Previous Schedule</span>
+        <span class='next button {$theme}' on:click={next}>Next Schedule</span>
     </div>
     <div class='font'>
     <div class="dhx_cal_navline"></div>
@@ -189,7 +204,9 @@
     }
 
    .inpnum {
-       width: 25%;
+        width: 25%;
+        margin: 0;
+        padding: 0.5%;
    }
 
    .dhx_cal_navline {
@@ -200,6 +217,8 @@
    }
 
    .overlay {
+        max-width: 90%;
+        margin: auto;
         display: flex;
         align-items:center;
         justify-content: space-between;
@@ -216,22 +235,87 @@
 		font-size: 1.5em;
     }
 
-    .overlay span.invisible {
-        background: transparent;
-        color: transparent;
+    .font {
+        font-size: .8em;
     }
 
-    @media (max-width: 570px) {
+    span {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+        font-weight: 600;
+    }
+
+    span.button {
+        border: 1px solid black;
+        background: rgb(213 106 124);
+        display: inline-block;
+        padding: .5em .5em;
+        border: 0;
+        border-radius: .4em;
+    }
+
+    @media (max-width: 800px) {
+        span.save {
+            max-width: 15%;
+        }
+
+        span.prev {
+            max-width: 20%;
+        }
+
+        span.next {
+            max-width: 15%;
+        }
+
+        .overlay span {
+            font-size: 1.2em;
+        }
+    }
+
+    @media (max-width: 700px) {
+        span.button {
+            padding: .4em 0;
+        }
+    }
+
+    @media (max-width: 600px) {
         .overlay span {
             font-size: 1em;
         }
 
+        .schedule_num {
+            width: 30%;
+        }
+    }
+
+    @media (max-width: 500px) {
         .font {
-            font-size:.7em;
+            font-size: .6em;
         }
 
         :global(.dhx_cal_event .dhx_title) {
             font-size: 1em !important;
         }
+
+        span.button {
+            padding: .4em .4em;
+        }
     }
+    
+    div.light {
+		background-color: var(--gray2);
+		color: var(--gray6);
+	}
+
+	div.dark {
+		background-color: var(--gray4);
+		color: var(--gray0);
+	}
+
+    span.light {
+		color: var(--gray6);
+	}
+
+	span.dark {
+		color: var(--gray0);
+	}
 </style>

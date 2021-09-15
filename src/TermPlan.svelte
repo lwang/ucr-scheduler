@@ -53,7 +53,7 @@
     <h1>Export to Google Calendar</h1>
     <span>Learn how to import iCal files into Google Calender </span> <a href='https://support.google.com/calendar/answer/37118#import_to_gcal' target="_blank" rel="noopener noreferrer">here</a> <br> <br>
     <button on:click={() => cal()}>Download</button>
-    <hr>
+    <hr style='width:75%'>
     <!-- <h1>Upload term plan to RWeb</h1>
     <input type="text" placeholder="Term plan name" bind:value={plan_name} style="width: 50%"/> <br>
     <input type="text" placeholder="RWeb username" bind:value={username} style="width: 50%"/> <br>
@@ -61,8 +61,8 @@
     <label style="padding:0 0 15px 0;"><input type="checkbox" bind:checked={preferred}/> Set current schedule as preferred term plan</label> 
     <button on:click={() => submit_term_plan()}>Submit</button>
     <hr> -->
-    <h1>Schedule sections crns as plaintext</h1>
-    <textarea style="width: 50%; height:15em;">{[...new Set($crns)].join('\n')}</textarea>
+    <h1>section crns</h1>
+    <textarea style='height:{$crns.length*2}em; overflow:hidden;'>{[...new Set($crns)].join('\n')}</textarea>
 </div>
 
 <style>
@@ -70,7 +70,7 @@
 		text-transform: uppercase;
 		font-size: 1.8em;
 		font-weight: 100;
-        margin-top: 0;
+        margin-top: 1em;
         /* top: 100px; */
         margin-bottom: 10px;
     }
@@ -82,9 +82,14 @@
         margin-top: 0;
         top: 100px;
         margin-bottom: 10px;
-        width: 30%;
+        width: 50%;
         /* height: 10%; */
         font-size: 20px;
+    }
+
+    textarea {
+        font-size: 1.25em;
+        width: 50%; 
     }
 
     a:visited {

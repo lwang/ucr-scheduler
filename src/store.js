@@ -1,5 +1,7 @@
 import { writable } from "svelte/store";
 
+export const temp = writable({});
+
 export const theme = localStorage.getItem('theme') ? writable(JSON.parse(localStorage.getItem('theme'))) : writable('dark');
 theme.subscribe(value => {
     localStorage.setItem("theme", JSON.stringify(value));
@@ -39,6 +41,14 @@ export const options = localStorage.getItem('options') ? writable(JSON.parse(loc
 });
 options.subscribe(value => {
     localStorage.setItem("options", JSON.stringify(value));
+});
+
+export const tutorial = localStorage.getItem('tutorial') ? writable(JSON.parse(localStorage.getItem('tutorial'))) : writable({
+    courses : false,
+    schedules : false
+});
+tutorial.subscribe(value => {
+    localStorage.setItem("tutorial", JSON.stringify(value));
 });
 
 export const crns = sessionStorage.getItem('crns') ? writable(JSON.parse(sessionStorage.getItem('crns'))) : writable([]);
