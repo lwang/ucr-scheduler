@@ -273,11 +273,10 @@ def create_term_plan():
 def ical():
     term = request.args['term']
     courses = set(request.args['courses'].split(','))
-    crns = set([int(c) for c in request.args['crns'].split(',')])
+    crns = set([str(c) for c in request.args['crns'].split(',')])
     found = []
     week = ['monday','tuesday','wednesday','thursday','friday','saturday','sunday']
-    print(courses)
-    print(crns)
+    print(courses, crns)
     time_format = '%m/%d/%Y-%H%M'
     cal = Calendar()
     map = pickle.load(open(f'json/{term}_data/local/_map.pickle', 'rb'))
@@ -312,7 +311,9 @@ def ical():
 
             cal.add_component(event)
             found.append(crn)
-
+    if len(found) != len(crns):
+        print('ERROR', found, crns)
     response = make_response(cal.to_ical())
     response.headers["Content-Disposition"] = "attachment; filename=schedule.ics"
+    response.headers["Content-Type"] = "text/calendar"
     return response
