@@ -1,13 +1,15 @@
 <script>
 	import { theme, courses, schedules, pinned } from './store.js';
 	import Modal from './Modal.svelte'
+	import MediaQuery from "./MediaQuery.svelte";
 	export let name;
 	export let content;
-	export let difficulty = '---';
-	export let comments = [];
+	export let difficulty;
+	export let comments;
 	$: active = $courses.indexOf(name) != -1
 
 	function addCourse(e) {
+		showModal = false;
 		schedules.set([])
 		pinned.set([])
 		let tempcourses = $courses;
@@ -19,14 +21,17 @@
 	}
 
 	let showModal = false;
-	function handleClick() {
-		if (comments.length)
-			showModal=!showModal
+	function toggleModal() {
+		showModal=!showModal
 	}
 </script>
 
-<Modal bind:showModal width={'60%'} height='{comments.length*40}%'>
+<MediaQuery query="(max-width: 500px)" let:matches>
+<Modal bind:showModal width={'60%'} height='{Math.max(comments.length, 1)*40}%'>
 	<h2>{name}</h2>
+	{#if matches}
+		<button class='add' on:click={(e) => addCourse(e)}>Add course</button>
+	{/if}
 	<h3>Difficulty: {difficulty}</h3>
 	<h3>Difficulty Reviews ({comments.length}):</h3>
 	<!-- <div style='display:flex; flex-direction:column;'> -->
@@ -35,14 +40,15 @@
 		{/each}
 	<!-- </div> -->
 </Modal>
-<div class='card {$theme}' class:active={active} on:click={(e) => addCourse(e)}>
+<div class='card {$theme}' class:active={active} on:click={(e) => {matches?toggleModal():addCourse(e)}}>
 	<!-- <div> -->
 	<h2 class='font' style='display:inline-block;'>{name}</h2>
-	<span class='font' on:click|stopPropagation={handleClick}>({difficulty})</span>
+	<span class='font' on:click|stopPropagation={toggleModal}>({difficulty})</span>
 	<p class='font'>{content}</p>
 	<!-- </div> -->
 	<!-- <svg style='height:1em' viewBox="0 0 512 512" class="svg-inline--fa fa-info-circle fa-w-16"><path fill="currentColor" d="M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 110c23.196 0 42 18.804 42 42s-18.804 42-42 42-42-18.804-42-42 18.804-42 42-42zm56 254c0 6.627-5.373 12-12 12h-88c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h12v-64h-12c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h64c6.627 0 12 5.373 12 12v100h12c6.627 0 12 5.373 12 12v24z" class=""></path></svg> -->
 </div>
+</MediaQuery>
 
 <style>
 	h3 {
@@ -52,6 +58,16 @@
 	.comment {
 		margin: 1em 3em; 
 		text-align:left;
+
+		/* These are technically the same, but use both */
+		overflow-wrap: break-word;
+		word-wrap: break-word;
+
+		-ms-word-break: break-all;
+		/* This is the dangerous one in WebKit, as it breaks things wherever */
+		word-break: break-all;
+		/* Instead use this non-standard one: */
+		word-break: break-word;
 	}
 
 	.card {
@@ -119,6 +135,18 @@
 		font-size: 14px;
 	}
 
+	button.add {
+		width: 30%;
+		cursor: pointer;
+		margin: .5em auto;
+		font-weight: bold;
+		border: 1px solid black;
+        background: rgb(213 106 124);
+        display: inline-block;
+        padding: 1em .5em;
+        border: 0;
+        border-radius: .4em;
+	}
 	@media (max-width: 1024px) {
 		.font {
 			font-size: 14px;

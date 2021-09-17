@@ -11,7 +11,7 @@
 {#if showModal}
 <MediaQuery query="(max-width: 500px)" let:matches>
     <div class="backdrop" on:click|self={() => showModal=!showModal} transition:fade="{{duration: 100}}" style="visibility: {backdrop?'visible':'hidden'}">
-        <div class="modal {$theme}" style='max-width:{matches?'100%':width}; height:{height}; max-height:{matches?'100%':'70%'}; margin:{matches?`${parseInt(height)/2}% 0`:'5% auto'};'>
+        <div class="modal {$theme}" style='max-width:{matches?'100%':width}; height:{height}; max-height:{matches?'90%':'70%'}; margin:{matches&&parseInt(height)<50?`${parseInt(height)/2}% 0`:'5% auto'};'>
             <div class='close' on:click={() => showModal=!showModal}><svg width="36" height="36" viewBox="0 0 24 24"><path d="M18.4 4L12 10.4L5.6 4L4 5.6L10.4 12L4 18.4L5.6 20L12 13.6L18.4 20L20 18.4L13.6 12L20 5.6L18.4 4Z"></path></svg></div>
             <div class='container'>
                 <div class='spacer'></div>

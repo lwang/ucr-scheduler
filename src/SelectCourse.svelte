@@ -1,7 +1,6 @@
 <script>
 	import { fade } from 'svelte/transition';
     import { theme, term, courses, options, schedules, pinned, tutorial } from './store.js';
-	import MediaQuery from './MediaQuery.svelte'
 	import VirtualList from './VirtualList.svelte';
 	import ListItem from './ListItem.svelte';
 	import Modal from './Modal.svelte'
@@ -27,6 +26,11 @@
 							temp.difficulty = ratings[element.code].average;
 							temp.comments = ratings[element.code].comments.reverse();
 						}
+						else
+						{
+							temp.difficulty = '---';
+							temp.comments = [];
+						}
 						items = [...items, temp];
 					});
 				});
@@ -36,6 +40,7 @@
 
 	let searchTerm = "";
 	$: filteredList = items.filter(item => item.name.toLowerCase().indexOf(searchTerm.toLowerCase()) !== -1);
+
 	
 	let start, end;
 
@@ -266,11 +271,19 @@
 		height: 100%
 	}
 	.container.clear {
-		width: 31%;
+		width: 29%;
+		/* width: 31%; */
 		position: absolute; 
 		bottom: 10px; 
 		margin: 0 auto; 
-		cursor: pointer
+		cursor: pointer;
+
+		font-weight: bold;
+		border: 1px solid black;
+        background: rgb(213 106 124);
+        padding: .3em .2em;
+        border: 0;
+        border-radius: .4em;
 	}
 	.container.options {
 		width: 40%;

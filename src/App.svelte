@@ -6,7 +6,6 @@
 	import Scheduler from './Scheduler.svelte'
 </script>
 
-
 <body class='{$theme}'>
 	<div style='height:100vh; overflow:hidden;'>
 		<Header />

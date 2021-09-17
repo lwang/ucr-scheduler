@@ -44,8 +44,20 @@
 
     function cal()
     {
-        window.location=`https://jcurda-api.herokuapp.com/ical?term=${$term['code']}&crns=${$crns}&courses=${$courses}`
-        // window.location=`http://localhost:8000/ical?term=${$term['code']}&crns=${$crns}&courses=${$courses}`
+        // const url = `http://localhost:8000/ical?term=${$term['code']}&crns=${$crns}&courses=${$courses}`
+        const url = `https://jcurda-api.herokuapp.com/ical?term=${$term['code']}&crns=${$crns}&courses=${$courses}`
+        // window.location.assign(url);
+		fetch(url)
+		.then(response => response.blob())
+		.then(blob => URL.createObjectURL(blob))
+		.then(uril => {
+			var link = document.createElement("a");
+			link.href = uril;
+			link.download = "schedule.ics";
+			document.body.appendChild(link);
+			link.click();
+			document.body.removeChild(link);
+		});
     }
 </script>
 
@@ -61,7 +73,7 @@
     <label style="padding:0 0 15px 0;"><input type="checkbox" bind:checked={preferred}/> Set current schedule as preferred term plan</label> 
     <button on:click={() => submit_term_plan()}>Submit</button>
     <hr> -->
-    <h1>section crns</h1>
+    <h1>Section Crns</h1>
     <textarea style='height:{$crns.length*2}em; overflow:hidden;'>{[...new Set($crns)].join('\n')}</textarea>
 </div>
 

@@ -62,7 +62,7 @@
                 schedules.set(itemsFull.slice(0, 2500))
                 update();
                 sse.close();
-                console.log('Server Sent Events Stream Closed!')
+                // console.log('Server Sent Events Stream Closed!')
             });
         }
     });
@@ -76,7 +76,7 @@
     let pin_objs = [];
     
     function start() {
-        console.log('starting')
+        // console.log('starting')
         scheduler.config.multi_day = true;
         scheduler.config.readonly = true;
         // scheduler.config.readonly_form = true;

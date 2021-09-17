@@ -9,7 +9,7 @@ function toggle() {
     {
         
     }
-    console.log(id)
+    // console.log(id)
 }
 
 </script>
