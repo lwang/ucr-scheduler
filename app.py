@@ -55,9 +55,7 @@ def is_conflict(crn1, crn2, full_data):
 
 @app.route('/', methods=['GET'])
 def home():
-    temp = request.args.get('temp', default=[], type=json.loads)
-    print(temp)
-    return {'data':temp}, 200
+    return '', 200
     
 def get_course_sections(code: str, future: list, min_seats: dict, day_restrictions: list, time_restrictions: dict) -> dict:
     """
