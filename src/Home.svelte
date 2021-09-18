@@ -11,7 +11,7 @@
         .then((jsonData) => 
         {
             terms = jsonData;
-            if (!$term)
+            if (!$term || !Object.keys($term).length)
             {
                 term.set(terms[0]);   
             }

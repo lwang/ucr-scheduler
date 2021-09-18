@@ -2,17 +2,22 @@ import { writable } from "svelte/store";
 
 export const temp = writable({});
 
-export const theme = localStorage.getItem('theme') ? writable(JSON.parse(localStorage.getItem('theme'))) : writable('dark');
+export const version = localStorage.getItem('version') ? writable(localStorage.getItem('version')) : writable(0.0);
+version.subscribe(value => {
+    localStorage.setItem("version", value);
+});
+
+export const theme = localStorage.getItem('theme') ? writable(localStorage.getItem('theme')) : writable('dark');
 theme.subscribe(value => {
-    localStorage.setItem("theme", JSON.stringify(value));
+    localStorage.setItem("theme", value);
 });
 
-export const active = localStorage.getItem('active') ? writable(JSON.parse(localStorage.getItem('active'))) : writable('Home');
+export const active = localStorage.getItem('active') ? writable(localStorage.getItem('active')) : writable('Home');
 active.subscribe(value => {
-    localStorage.setItem("active", JSON.stringify(value));
+    localStorage.setItem("active", value);
 });
 
-export const term = localStorage.getItem('term') ? writable(JSON.parse(localStorage.getItem('term'))) : writable('');
+export const term = localStorage.getItem('term') ? writable(JSON.parse(localStorage.getItem('term'))) : writable({});
 term.subscribe(value => {
     localStorage.setItem("term", JSON.stringify(value));
 });

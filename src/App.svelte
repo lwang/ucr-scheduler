@@ -1,11 +1,14 @@
 <script>
+	const version = 1.0;
 	import {theme, active} from './store.js';
 	import Header from './Header.svelte'
 	import Home from './Home.svelte'
 	import SelectCourse from './SelectCourse.svelte'
 	import Scheduler from './Scheduler.svelte'
+	import VersionCheck from './VersionCheck.svelte'
 </script>
 
+<VersionCheck current={version}/>
 <body class='{$theme}'>
 	<div style='height:100vh; overflow:hidden;'>
 		<Header />

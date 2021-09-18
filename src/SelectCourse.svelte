@@ -8,6 +8,7 @@
 
 	const showTutorial = !$tutorial.courses;
     export let items = [];
+	fetch("https://jcurda-api.herokuapp.com/"); // wake up heroku server
 	fetch(`json/ratings.json`)
 		.then((data) => data.json())
 		.then((ratings) => 
