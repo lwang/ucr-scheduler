@@ -10,7 +10,7 @@
 
 <VersionCheck current={version}/>
 <body class='{$theme}'>
-	<div style='height:100vh; overflow:hidden;'>
+	<div style='height:100%; overflow:hidden;'>
 		<Header />
 		{#if $active == 'Home'}
 			<Home />

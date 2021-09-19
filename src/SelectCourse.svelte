@@ -59,9 +59,10 @@
 		courses.set([])
 	}
     let innerWidth = 0;
+    let innerHeight = 0;
 </script>
 
-<svelte:window bind:innerWidth/>
+<svelte:window bind:innerWidth bind:innerHeight/>
 
 {#if showTutorial}
 	<Modal showModal=true width="{innerWidth>1024?35:60}%" height="60%">
@@ -89,7 +90,7 @@
 	</div>
 </div>
 <hr style="border-top: 1px solid #bbb; width: 100%">
-<div class='container list wrap'>
+<div class='container list wrap' style='height:{innerHeight-130}px'>
 	<div class='container list'>
 		<div style='height:100%'>
 			<VirtualList items={filteredList} height={'100%'} bind:start bind:end let:item>

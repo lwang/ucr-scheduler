@@ -18,7 +18,7 @@
     }
 </script>
 
-<div class="favButton gifFavoriteButton showPulse {selected ? 'selected' : ''}" tabindex="-1" on:click={toggle}>
+<div class="pin showPulse {selected?'selected':''}" tabindex="-1" on:click={toggle}>
 	<svg class="icon" width="16" height="16" viewBox="0 0 24 24"> 
 		<path 
 			fill="currentColor" 
@@ -36,7 +36,7 @@
 	outline: none;
 }
 
-.favButton {
+.pin {
 	position: absolute;
 	top: 10px;
 	right: 0px;
@@ -53,17 +53,14 @@
 	width: 2em;
 	/* height: 3em; */
 	cursor: pointer;
-}
-
-.gifFavoriteButton {
 	color: white;
 }
 
-.gifFavoriteButton:hover,.gifFavoriteButton.selected {
+.pin.selected {
 	color: red;
 }
 
-.gifFavoriteButton.selected.showPulse .icon {
+.pin.selected.showPulse .icon {
 	-webkit-animation:bounce-3lTARC .4s linear;
 	animation:bounce-3lTARC .4s linear;
 }
