@@ -1,6 +1,6 @@
 from re import I
 import requests
-from flask import Flask, request, Response, jsonify, make_response
+from flask import Flask, request, Response, jsonify, make_response, send_from_directory
 from flask_cors import CORS
 from lxml import html
 from icalendar import Calendar, Event
@@ -311,7 +311,16 @@ def ical():
             found.append(crn)
     if len(found) != len(crns):
         print('ERROR', found, crns)
-    response = make_response(cal.to_ical())
-    response.headers["Content-Disposition"] = "attachment; filename=schedule.ics"
-    response.headers["Content-Type"] = "text/calendar"
-    return response
+    filename = f"{str(time.time()).replace('.', '')}.ics"
+    with open(f"cal/{filename}", 'w') as file:
+        file.write(cal.to_ical().decode("utf-8") )
+    return filename
+    
+    # response = make_response(cal.to_ical())
+    # response.headers["Content-Disposition"] = "attachment; filename=schedule.ics"
+    # response.headers["Content-Type"] = "text/calendar"
+    # return response
+
+@app.route('/cal/<path:path>')
+def send_cal(path):
+    return send_from_directory('cal', path)
