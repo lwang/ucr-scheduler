@@ -1,70 +1,41 @@
 <script>
     import { term, crns, courses } from './store.js';
 
-    // let plan_name = '';
-	// let username = '';
-	// let password = '';
-	// let preferred = true;
+    const url = `https://jcurda-api.herokuapp.com/ical?term=${$term['code']}&crns=${$crns}&courses=${$courses}`
 
-	// function submit_term_plan()
-    // {
-		// if (!username || !password)
-        // {
-            // window.alert('Missing username or password!');
-			// return;
-        // }
-        // window.alert('Term plan submitted')
-        // fetch('http://localhost:8000/term_plan', {
-			// method: 'post',
-			// body: JSON.stringify
-            // ({
-				// "plan_name": plan_name,
-				// "username": username,
-    			// "password": password,
-				// "term": $term['code'],
-				// "crns": $crns,
-				// "preferred": preferred
-			// })
-		// })
-        // .then((response) => 
-            // {
-                // if (!response.ok) 
-                // {
-                    // response.text()
-                        // .then(text => {window.alert(text); active.set('Select Courses');})
-                // }
-                // else 
-                // {
-                    // response.text()
-                        // .then(text => {window.alert(text);})
-                // }
-            // })
-		// ;
-	// }
-
-    function cal()
-    {
-        // const url = `http://localhost:8000/ical?term=${$term['code']}&crns=${$crns}&courses=${$courses}`
-        const url = `https://jcurda-api.herokuapp.com/ical?term=${$term['code']}&crns=${$crns}&courses=${$courses}`
+    function downloadCal() {
         // window.location.assign(url);
-		fetch(url)
-		.then(response => response.blob())
-		.then(blob => URL.createObjectURL(blob))
-		.then(uril => {
-			var link = document.createElement("a");
-			link.href = uril;
-			link.download = "schedule.ics";
-			document.body.appendChild(link);
-			link.click();
-			document.body.removeChild(link);
-		});
+        fetch(url)
+        .then(response => response.text())
+        .then(filename => {
+            fetch(`https://jcurda-api.herokuapp.com/cal/${filename}`)
+            .then(response => response.blob())
+            .then(blob => URL.createObjectURL(blob))
+            .then(uril => {
+                var link = document.createElement("a");
+                link.href = uril;
+                link.download = "schedule.ics";
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+            });
+        });
+    }
+
+    function googleCal() {
+        fetch(url)
+		.then(response => response.text())
+        .then(filename => {
+            window.open(`https://calendar.google.com/calendar/u/0/r?cid=http://jcurda-api.herokuapp.com/cal/${filename}`, '_blank');
+        });
     }
 </script>
 
 <div style="position: relative; max-height: calc(100vh - 5%); overflow: auto;">
-    <h1>Export to Google Calendar</h1>
-    <span>Learn how to import iCal files into Google Calender </span> <a href='https://support.google.com/calendar/answer/37118#import_to_gcal' target="_blank" rel="noopener noreferrer">here</a> <br> <br>
-    <button on:click={() => cal()}>Download</button>
+    <h1>Export to Calendar</h1>
+    <!-- <span>Learn how to import iCal files into Google Calendar </span> <a href='https://support.google.com/calendar/answer/37118#import_to_gcal' target="_blank" rel="noopener noreferrer">here</a> <br> <br> -->
+    <button on:click={() => googleCal()}>Google Calendar</button>
+    <button on:click={() => downloadCal()}>Download ICS File</button>
     <hr style='width:75%'>
     <!-- <h1>Upload term plan to RWeb</h1>
     <input type="text" placeholder="Term plan name" bind:value={plan_name} style="width: 50%"/> <br>
