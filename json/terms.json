@@ -1,9 +1,9 @@
 [
-    {
-        "code": "202210",
-        "description": "Winter 2022",
-        "next_term": "Spring 2022",
-        "undergrad_limit_date": "2021-12-07T09:00:00",
-        "next_term_data_date": "2022-01-27T09:00:00"
-    }
+   {
+      "code":"202140",
+      "description":"Fall 2021",
+      "next_term":"Winter 2022",
+      "undergrad_limit_date":"2021-09-10T09:00:00",
+      "next_term_data_date":"2021-10-21T09:00:00"
+   }
 ]
