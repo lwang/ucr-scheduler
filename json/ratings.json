@@ -364,6 +364,16 @@
             }
         ]
     },
+    "ANTH120": {
+        "average": "2.00",
+        "comments": [
+            {
+                "comment": "Online Summer course with Francisco Ramos. Very laid back professor. He grades mostly on effort of your assessments. There were 4 assignments, each being 1 - 2.5 pages (MLA format). For the online course we only had to attend class once a week. You could honestly get away with not readings or modules. Not sure how much will change once we go back to in person classes but he practically hands out A's. Textbook is given for free by professor along with any other reading materials. ",
+                "rating": "2",
+                "date": "8/23/2021"
+            }
+        ]
+    },
     "ANTH132": {
         "average": "9.00",
         "comments": [
@@ -445,12 +455,17 @@
         ]
     },
     "ART002": {
-        "average": "1.00",
+        "average": "2.50",
         "comments": [
             {
                 "comment": "(COVID ERA) I took this class with Gerald Sheffield and it was extremely easy. Art is a subjective course so you can pretty much do whatever you want in this class (as long as it pertains to the theme). Every week there's a new theme (figure, landscape, still life, etc.) and you just need to paint things based on that theme. The materials can get really pricey but Gerald was pretty lenient with whatever material you use. The online class was set up with you logging on and following Gerald's painting examples but there were also times where you explain your painting process and thoughts when you showcase and review your pieces in class. If you want an easy course without minding spending somewhere between $50-$100+ on materials then go for this class. ",
                 "rating": "1",
                 "date": "6/10/2021"
+            },
+            {
+                "comment": "Online summer course with Pearl Hsiung and Rosie Galanis. Easy enough class. The hardest part is dedicating enough time to paint the assignments. There are a 3 smaller assignments focusing on color and scales, 3 medium paintings and 1 final large painting. If you take the class be sure to shop around as soon as you get the requirement list so you can get the best price. The kit she recommends to get for the class starts at about $120. Don't be afraid to get cheap materials. The art department also has free art supplies they give out, so be sure to check with them too.",
+                "rating": "4",
+                "date": "8/23/2021"
             }
         ]
     },
@@ -1146,6 +1161,16 @@
                 "comment": "Took this class during covid with Professor Kahn. I am giving the class a 4 because even though the assignments, exams, and everything was easy you needed virtually all of the points to actually get an A. She claims that she doesn't curve the class at all. The class was out of 500 points and there wasn't any homework. You can really not mess up on any assignment or there goes your A. ",
                 "rating": "4",
                 "date": "5/25/2021"
+            }
+        ]
+    },
+    "BIOL040": {
+        "average": "3.00",
+        "comments": [
+            {
+                "comment": "Class is History of Infectious Diseases Took over the Summer with Eleana Guardado. The material isn't super easy, but definitely not hard. Definitely easy as far as BIO classes go. All quiz and exam answers are from the slideshows she posts on iLearn. There were 3 \"projects\" during the quarter: a timeline of events you make from the slideshows, a \"diary\" about the diseases we learn about, and a very short \"essay\" about a disease of your choice. The material is SO interesting, especially during a pandemic. ",
+                "rating": "3",
+                "date": "9/30/2021"
             }
         ]
     },
@@ -2685,7 +2710,7 @@
         ]
     },
     "CHEM01LC": {
-        "average": "7.00",
+        "average": "7.17",
         "comments": [
             {
                 "comment": "Standard material.  Arguably easier than LB.",
@@ -2725,7 +2750,7 @@
         ]
     },
     "CHEM008A": {
-        "average": "6.70",
+        "average": "6.83",
         "comments": [
             {
                 "comment": "Note: Formerly CHEM012A",
@@ -2841,6 +2866,11 @@
                 "comment": "Took with Casselman, Winter 2021. Expect it to be difficult. Casselman's structure for the panoramic was top tier, most of your grade is homework/activities and as long as you have almost all of those points, the final will just decide if you get a C,B, or A. Go to SI discussions and just stay on top of your stuff. ",
                 "rating": "8",
                 "date": "3/19/2021"
+            },
+            {
+                "comment": "This course with Larsen is the reason for me dropping out of CNAS. ",
+                "rating": "10",
+                "date": "8/24/2021"
             }
         ]
     },
@@ -3055,7 +3085,7 @@
         ]
     },
     "CHEM08LC": {
-        "average": "6.00",
+        "average": "6.50",
         "comments": [
             {
                 "comment": "More guesswork in the lab work.  A little more difficult than previous quarters of chem lab.  Final is the same as always.  Pirrung writes them, so memorize the manual.",
@@ -3071,6 +3101,11 @@
                 "comment": "Took it online during Spring 2021. Lab was much easier than prev ochem labs. Reports are entirely based on NMR and are extremely short, so try to finish it during the actual lab period while you have the TA there. Don't underestimate the final; it was much more difficult than previous courses. ",
                 "rating": "5",
                 "date": "6/15/2021"
+            },
+            {
+                "comment": "Took this with Rena Hayashi in Summer 2021. One of the worst classes I've ever taken. The entire lab is figuring out NMR charts that are incredibly complicated and not intuitive at all (multiple charts have peaks that are on top of each other and are hard to decipher). The lab manual itself had a ton of typos and alot of the information was straight up wrong or came with some caveat. Also completely dependent on your TA. Mine wasn't helpful so I often had to go to Office Hours for multiple TA's per day. Labs were assigned Monday and due Tuesday, but ZERO TA's had Office Hours on Mondays, so I had to completely rely on the hour after class to get help. The final is also super scary and some questions were insane. I got an A by working day and night on Ochem and going to Office Hours almost everyday.",
+                "rating": "8",
+                "date": "8/19/2021"
             }
         ]
     },
@@ -4251,6 +4286,11 @@
                 "comment": "First time this class has ever been offered. Took with Professor Mariam and she's super sweet and cares about the students a lot, definitely will listen to any feedback students give her. Course structure: 35% labs, 30% final project, 30% quizzes, and 5% participation. Honestly not a difficult class but super unorganized, which is not a surprise considering it's a new class being taught for the first time. Mariam was super understanding of all of the students and even removed a couple quizzes/labs as the quarter went on, and made the final project grading basis easier. Not a bad class to take if you want to learn the fundamentals of web development but for a class like this where the technology used in industry is constantly changing everyday, it might be better to self-learn it.",
                 "rating": "7",
                 "date": "6/2/2021"
+            },
+            {
+                "comment": "Introduction to Web Development\n\nI took this Spring of 2021 when it was first offered as a class. I rated this a 7 mainly because of how Web Development is in the real world where technologies are quick to rise and quick to die meaning that there are a multitude of concepts and stacks to learn. \n\nI came in with about 3 years of previous web dev experience and I was able to tackle all quizzes, labs, and final project fairly easily but if you have no experience whatsoever, it will be pretty hard because of the sheer amount of concepts that you need to learn on the fly and apply to your labs.\n\nFor example, lab 1 was a simple static mock twitter page. Lab 2 and 3 extended on lab 1 by adding in data fetching, sorting, and live updates from a JSON file. Lab 4 was about building a real time chat app using express and handlebars which imo was outdated technologies and it should've been taught with web sockets.\n\nOn top of these labs, you have a final project where you are tasked with building any website as long as you implement some sort of fairly complex features. The default project is building a fully functional Social Media web app that allows a user to perform all the CRUD operations along with dynamic profile pages, commenting, uploading images, search bar, sessions, and user email/password.\n\nOverall though it was the most interesting class I took (albeit because I want to go into web dev) but  Professor Mariam Salloum was a wonderful and accommodating professor. It will be offered next Spring 2022 I think and I believe she will end up reforming the structure of the class better.",
+                "rating": "7",
+                "date": "8/22/2021"
             }
         ]
     },
@@ -4485,7 +4525,7 @@
         ]
     },
     "CS141": {
-        "average": "8.50",
+        "average": "8.52",
         "comments": [
             {
                 "comment": "The curve was huge at the end lul",
@@ -4611,6 +4651,11 @@
                 "comment": "Genuinely the hardest class I have ever taken. Foremost, I took this class with Amey in spring 2021, rated it a 10/10 difficulty, and received a B grade by some miracle of god. This class is significantly more difficult than cs111; to pass this class you will need to have a solid study schedule. I watched every lecture 3 times since it was an online class. The real challenge of this class is that every problem is nothing like any problem you have ever seen; every question is completely unique and you must rely on basic principles to figure out an optimal solution. Midterms that were 20% of your grade often only had 2 problems, each question being 10% of your grade. So you MUST get them correct. The curve was probably around 30% at the end I would bet.",
                 "rating": "10",
                 "date": "6/15/2021"
+            },
+            {
+                "comment": "Took this class with Fuad Jamour over summer 2021, PLEASE take it with him if you can or take it over summer. I probably wouldve failed it if I took it during the school year tbh. the class was so damn hard, but most of the hw/test questions are already from code that is online so that makes things a bit easier.",
+                "rating": "9",
+                "date": "9/1/2021"
             }
         ]
     },
@@ -6271,71 +6316,6 @@
                 "comment": "The material is pretty hard, the professor is good in class but lecture notes are trash, however he curves hard and makes avg a B+",
                 "rating": "7",
                 "date": "12/15/2019"
-            },
-            {
-                "comment": "",
-                "rating": "",
-                "date": ""
-            },
-            {
-                "comment": "",
-                "rating": "",
-                "date": ""
-            },
-            {
-                "comment": "",
-                "rating": "",
-                "date": ""
-            },
-            {
-                "comment": "",
-                "rating": "",
-                "date": ""
-            },
-            {
-                "comment": "",
-                "rating": "",
-                "date": ""
-            },
-            {
-                "comment": "",
-                "rating": "",
-                "date": ""
-            },
-            {
-                "comment": "",
-                "rating": "",
-                "date": ""
-            },
-            {
-                "comment": "",
-                "rating": "",
-                "date": ""
-            },
-            {
-                "comment": "",
-                "rating": "",
-                "date": ""
-            },
-            {
-                "comment": "",
-                "rating": "",
-                "date": ""
-            },
-            {
-                "comment": "",
-                "rating": "",
-                "date": ""
-            },
-            {
-                "comment": "",
-                "rating": "",
-                "date": ""
-            },
-            {
-                "comment": "",
-                "rating": "",
-                "date": ""
             }
         ]
     },
@@ -6815,7 +6795,7 @@
         ]
     },
     "ENGL001C": {
-        "average": "5.81",
+        "average": "5.39",
         "comments": [
             {
                 "comment": "Hackelton was a good professor but a hard grader.  Easy to get a B, hard to get an A.  Lots of in-class essays and the final was take home.  Would give pop quizzes so show up to class!",
@@ -6876,6 +6856,16 @@
                 "comment": "took online with professor anderson, he was pretty chill but grades essays pretty hard. easy to get a B, hard to get an A.",
                 "rating": "7",
                 "date": "3/29/2021"
+            },
+            {
+                "comment": "I took this class Summer 2021, Instructor Enriquez was firmly one of the best instructors I've ever attended. His enthusiasm for the class was one that is very rare, and his slides and explanations throughout the course were the best. Definitely had a strong impression on what is like to be an English professor. He explained many things again and again, until he was sure that ALL students understood the material. He was clear about what he expects in his essays, and his grading were very generous in my opinion. He pushed back essay deadlines to account for his student's comforts, and he was so nice with his comments and grading. I went to him 4 times for one thesis of a particular essay, and he perfected it with me for as long as I went! ",
+                "rating": "2",
+                "date": "8/26/2021"
+            },
+            {
+                "comment": "I had a TA named Nolan Goetzinger and he was super nice and a fair grader. I haven't received an A in English since freshman year of high school, but I was able to get a 97 in this class. Only drawback is his focus is on nature poetry but at least it's modern poetry and you don't have to write poems. I took it over this past summer (2021) and he gave us 3 essays, journal entries graded on completion, and a \"final\" journal where you write about your experience in the class.",
+                "rating": "2",
+                "date": "9/9/2021"
             }
         ]
     },
@@ -6976,6 +6966,16 @@
                 "comment": "Dr. Musgrove is a really sweet teacher. The course involved a lot of grammar. You should make sure to be aware of your grammar when your write your essays. There are about five essays including the final which is an essay. I read Antigone and Electra, but she might choose different plays. It's good to get drafts reviewed by her during office hours. ",
                 "rating": "4",
                 "date": "12/18/2019"
+            }
+        ]
+    },
+    "ENGL012B": {
+        "average": "2.00",
+        "comments": [
+            {
+                "comment": "Online Summer course with Francisco Ramos. Very laid back professor. He grades mostly on effort of your assessments. There were 4 assignments, each being 1 - 2.5 pages (MLA format). For the online course we only had to attend class once a week. You could honestly get away with not readings or modules. Not sure how much will change once we go back to in person classes but he practically hands out A's. Textbook is given for free by professor along with any other reading materials. ",
+                "rating": "2",
+                "date": "9/30/2021"
             }
         ]
     },
@@ -9240,7 +9240,7 @@
         ]
     },
     "MATH010A": {
-        "average": "4.65",
+        "average": "4.63",
         "comments": [
             {
                 "comment": "Had a 100% until the final, which fucked me. Ended up with a B+",
@@ -9346,6 +9346,11 @@
                 "comment": "Had this class with Alessandra Costantini, she is an excellent professor and taught the material very well. The class was pretty easy from how she taught the material.",
                 "rating": "4",
                 "date": "5/22/2021"
+            },
+            {
+                "comment": "Took it with instructor Jonathan Alcaraz during Summer 2021 (online) and he was the MOST lenient instructor/prof I have ever had in a STEM class.  Had weekly quizzes (worth 30% of your grade, not proctored) where there would be three problems and you only needed to solve two (each question was worth 4 points, but total grade of the quiz was out of 6).  You can do all three to get partial points to get 8/6.  Attendance was mandatory, but it was worth 20% of your grade (your final was worth 20%), simply joining the class via Zoom will give you your attendance credit.  He also offers as much extra credit you need to get your attendance grade up (2-3 sentences about the history of any topic covered during the course).  Ended up with a 97% in the class, just go to lecture and do not fall behind on the homework.",
+                "rating": "4",
+                "date": "8/28/2021"
             }
         ]
     },
@@ -11370,7 +11375,7 @@
         ]
     },
     "PHYS002C": {
-        "average": "5.25",
+        "average": "5.40",
         "comments": [
             {
                 "comment": "Avoid Anderson. Google \"UCSD 1C final exam\" and there's over 100 practice problems from the equivalent course at UCSD",
@@ -11391,6 +11396,11 @@
                 "comment": "Anderson; I would say this class is the easiest within the series. Though, it doesn't mean that it's a walk in the park. Anderson was one of the laziest professors. He sent us into breakout rooms so we can discuss with each other. He goes into the breakout room one time and ask if everything is okay. He leaves before we can respond. The only perk is that his study guide/discussion questions is almost exactly like the exams. He changes the number, but it's not difficult to grasp. ",
                 "rating": "6",
                 "date": "6/21/2021"
+            },
+            {
+                "comment": "Took it online during summer 2021 with Jory Yarmoff. The material isn't that bad, but don't underestimate the exams. Try to do well on the polls and hw because those will help your grade a lot at the end. ",
+                "rating": "6",
+                "date": "9/9/2021"
             }
         ]
     },
