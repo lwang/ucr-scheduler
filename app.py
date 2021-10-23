@@ -104,6 +104,7 @@ def schedules():
     codes = request.args.get('courses', default=None, type=str).split(',')
     coreqs = pickle.load(open(f'json/{term}_data/_COREQUISITES.pickle', 'rb'))
     codes += [coreq for code in codes for coreq in coreqs.get(code, [])]
+    codes = list(set(codes))
     options = request.args.get('options', default={}, type=json.loads)
     _max_schedules = options['max_schedules'] #request.args.get('max_schedules', default=500, type=int)
     if _max_schedules > 10000: _max_schedules = 10000
