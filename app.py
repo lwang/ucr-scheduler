@@ -201,7 +201,10 @@ def schedules():
             # yield format_sse(data=json.dumps([schedule, crns]))
         print('Schedule Conflicts:', valid_schedules, time.perf_counter() - start)
         # return temp11
-        yield format_sse(data='', event='stream-end')
+        if valid_schedules == 0:
+            yield format_sse('Unable to generate schedules without time conflicts! Try selecting fewer courses.', event='error')
+        else:
+            yield format_sse(data='', event='stream-end')
     # return jsonify(stream())
     return Response(stream(), mimetype='text/event-stream')
 
