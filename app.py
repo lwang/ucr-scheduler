@@ -166,7 +166,13 @@ def schedules():
         for pair in product([c for d in [a for b in section_combinations for a in b] for c in d], repeat=2):
             if (pair[0] in conflicts_pickle and pair[1] in conflicts_pickle[pair[0]]) or is_conflict(*pair, full_data):
                 conflicts.add(pair)
+        print('Conflicts Set Created')
         for i in product(*section_combinations):
+            if valid_schedules == 0 and time.perf_counter() - start > 5:
+                yield format_sse('Unable to generate schedules without time conflicts! Try selecting fewer courses.', event='error')
+                break
+            if valid_schedules >= _max_schedules or time.perf_counter() - start > 10:
+                break
             conflict = False
             for pair in combinations([j for sub in i for j in sub], 2):
                 if pair in conflicts:
@@ -174,8 +180,6 @@ def schedules():
                     break
             if conflict:
                 continue
-            if valid_schedules >= _max_schedules:
-                break
             valid_schedules += 1
             schedule, crns = {'data':[]}, set()
             for n in [j for sub in i for j in sub]:
