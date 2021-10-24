@@ -136,47 +136,56 @@ def schedules():
         print('Get Class Data/Course Sections:', time.perf_counter() - start)
 
         ### GENERATE SECTION PAIRS ###
-        start = time.perf_counter_ns()
-        section_combinations = []
-        error_courses = []
+        start = time.perf_counter()
+        section_combinations = [] # List of all possible linked sections for each course (e.g. if there are 4 courses then section_combinations will contain 4 lists)
+        error_courses = [] # List of courses that do not have enough sections to make a full schedule
+        crn_course_map = dict() # Maps section CRN to the course the section belings to (e.g. '39974':'STAT155')
         for future in futures:
             try:
-                course_sections = future.result()
-                for course in course_sections: #PHYS040A course key
-                    section_comb = []
-                    for section in course_sections[course]: #1 course section
-                        temp = [course_sections[course][section][type] for type in course_sections[course][section]] # List of list of section codes [['58054'], ['62842', '62843'], ['58095', '60520']]
+                course_sections = future.result() # RuntimeError might be raised here if the course does not have enough section
+                for course_code, sections in course_sections.items(): #STAT155 {'1': {'Lecture': ['39974'], 'Discussion': ['39975', '39976', '39977', '51548', '52200', '52201']}
+                    section_comb = [] # List of linked sections for each course (contains 1 lecture section, 1 disc section, etc)
+                    for link_num, link_sections in sections.items(): #{'1': {'Lecture': ['39974'], 'Discussion': ['39975', '39976', '39977', '51548', '52200', '52201']}}
+                        temp = [] # List of list of section codes [['58054'], ['62842', '62843'], ['58095', '60520']] only without section types
+                        for section_type, section_crns in link_sections.items():
+                            temp.append(section_crns)
+                            for section_crn in section_crns:
+                                crn_course_map[section_crn] = course_code
                         section_comb += [x for x in product(*temp)]
-                    if _randomize: shuffle(section_comb)
+                    if _randomize: 
+                        shuffle(section_comb)
                     section_combinations.append(section_comb)
             except RuntimeError as e:
                 error_courses.append(str(e))
         if error_courses:
             yield format_sse(f'Unable to find open sections for {", ".join(error_courses)}', event='error')
             return
-        print('Generate Sections:', time.perf_counter_ns() - start)
+        print('Generate Sections:', time.perf_counter() - start)
         
     
         ### CHECK IF TWO SECTIONS IN A SCHEDULE CONFLICT """
-        temp11 = []
         start = time.perf_counter()
-        valid_schedules = 0
+        total_schedules, valid_schedules = 0, 0
         conflicts_pickle = pickle.load(open(f'json/{term}_data/_CONFLICTS.pickle', 'rb'))
         # conflicts = frozenset([pair for pair in product([c for d in [a for b in section_combinations for a in b] for c in d], repeat=2) if pair[1] in conflicts.get(pair[0], [])])
         conflicts = set()
+        conflicts_errors = dict()
         for pair in product([c for d in [a for b in section_combinations for a in b] for c in d], repeat=2):
             if (pair[0] in conflicts_pickle and pair[1] in conflicts_pickle[pair[0]]) or is_conflict(*pair, full_data):
                 conflicts.add(pair)
         print('Conflicts Set Created')
         for i in product(*section_combinations):
-            if valid_schedules == 0 and time.perf_counter() - start > 5:
-                yield format_sse('Unable to generate schedules without time conflicts! Try selecting fewer courses.', event='error')
+            if (
+                valid_schedules == 0 and time.perf_counter() - start > 5
+                or valid_schedules >= _max_schedules
+                or time.perf_counter() - start > 10
+            ):
                 break
-            if valid_schedules >= _max_schedules or time.perf_counter() - start > 10:
-                break
+            total_schedules += 1
             conflict = False
             for pair in combinations([j for sub in i for j in sub], 2):
                 if pair in conflicts:
+                    conflicts_errors[frozenset(pair)] = conflicts_errors.get(frozenset(pair), 0) + 1
                     conflict = True
                     break
             if conflict:
@@ -185,6 +194,8 @@ def schedules():
             schedule, crns = {'data':[]}, set()
             for n in [j for sub in i for j in sub]:
                 courseData = full_data[n]
+                crns.add(courseData["courseReferenceNumber"])
+                # crns.add(f'{courseData["subjectCourse"]}_{courseData["courseReferenceNumber"]}')
                 for day in week:
                     if courseData['meetingsFaculty'][0]['meetingTime'][day]:
                         event = {
@@ -194,16 +205,13 @@ def schedules():
                             'text': f'{courseData["subject"]}{courseData["courseNumber"]} {courseData["scheduleTypeDescription"]}',
                             'details': ''
                         }
-                        crns.add(courseData["courseReferenceNumber"])
-                        # crns.add(f'{courseData["subjectCourse"]}_{courseData["courseReferenceNumber"]}')
                         schedule['data'].append(event)
-            # temp11.append(list(crns))
             yield format_sse(data=base64.b64encode(gzip.compress(json.dumps([schedule, list(crns)]).encode(), 5)))
             # yield format_sse(data=json.dumps([schedule, crns]))
-        print('Schedule Conflicts:', valid_schedules, time.perf_counter() - start)
-        # return temp11
+        print(f'Schedule Conflicts -- VALID:{valid_schedules} -- TOTAL:{total_schedules} -- TIME:{time.perf_counter() - start}')
         if valid_schedules == 0:
-            yield format_sse('Unable to generate schedules without time conflicts! Try selecting fewer courses.', event='error')
+            conflict_str = ''.join([f'\n{crn_course_map[c1]} & {crn_course_map[c2]}' for (c1, c2), num in conflicts_errors.items() if num == total_schedules])
+            yield format_sse(f'Unable to generate schedules without time conflicts! Following courses have time conflicts:{conflict_str}', event='error')
         else:
             yield format_sse(data='', event='stream-end')
     # return jsonify(stream())
