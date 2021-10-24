@@ -152,6 +152,7 @@ def schedules():
                             for section_crn in section_crns:
                                 crn_course_map[section_crn] = course_code
                         section_comb += [x for x in product(*temp)]
+                    crn_course_map[course_code] = len(section_comb)
                     if _randomize: 
                         shuffle(section_comb)
                     section_combinations.append(section_comb)
@@ -169,7 +170,7 @@ def schedules():
         conflicts_pickle = pickle.load(open(f'json/{term}_data/_CONFLICTS.pickle', 'rb'))
         # conflicts = frozenset([pair for pair in product([c for d in [a for b in section_combinations for a in b] for c in d], repeat=2) if pair[1] in conflicts.get(pair[0], [])])
         conflicts = set()
-        conflicts_errors = set()
+        conflicts_errors = dict()
         for pair in product([c for d in [a for b in section_combinations for a in b] for c in d], repeat=2):
             if (pair[0] in conflicts_pickle and pair[1] in conflicts_pickle[pair[0]]) or is_conflict(*pair, full_data):
                 conflicts.add(pair)
@@ -185,7 +186,7 @@ def schedules():
             conflict = False
             for pair in combinations([j for sub in i for j in sub], 2):
                 if pair in conflicts:
-                    conflicts_errors.add(frozenset(pair))
+                    conflicts_errors[frozenset(pair)] = conflicts_errors.get(frozenset(pair), 0) + 1
                     conflict = True
                     break
             if conflict:
@@ -210,7 +211,7 @@ def schedules():
             # yield format_sse(data=json.dumps([schedule, crns]))
         print(f'Schedule Conflicts -- VALID:{valid_schedules} -- TOTAL:{total_schedules} -- TIME:{time.perf_counter() - start}')
         if valid_schedules == 0:
-            conflict_str = ', '.join([f'{crn_course_map[c1]} & {crn_course_map[c2]}' for (c1, c2) in conflicts_errors])
+            conflict_str = ', '.join([f'{crn_course_map[c1]} & {crn_course_map[c2]}' for (c1, c2), num in conflicts_errors.items() if num >= crn_course_map[crn_course_map[c1]] or num >= crn_course_map[crn_course_map[c2]]])
             yield format_sse(f'Unable to generate schedules without time conflicts! Following courses have time conflicts: {conflict_str}', event='error')
         else:
             yield format_sse(data='', event='stream-end')
