@@ -93,6 +93,10 @@
 			// show modal for course information
             return true;
         });
+
+        scheduler.templates.event_date = function(date){
+            return scheduler.date.date_to_str("%h:%i")(date);
+        }
         
         scheduler.attachEvent("onDataRender", function(){
             var divs = document.getElementsByClassName("dhx_cal_event");

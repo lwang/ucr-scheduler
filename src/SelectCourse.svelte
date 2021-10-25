@@ -99,7 +99,7 @@
 		</div>
 	</div>
 	<div class='container selected'>
-		<div style='height: 100%; overflow: auto;'>
+		<div style='height: 90%; overflow: auto;'>
 			{#if $courses.length}
 				{#each $courses as course, index (course)}
 					<div in:fade={{delay:10}} on:click={removeCourse(course)} class='card {$theme}'>
