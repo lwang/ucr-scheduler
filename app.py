@@ -57,7 +57,7 @@ def is_conflict(crn1, crn2, full_data):
 def home():
     return '', 200
     
-def get_course_sections(code: str, future: list, min_seats: dict, day_restrictions: list, time_restrictions: dict) -> dict:
+def get_course_sections(code: str, future: list, min_seats: dict, override_empty: bool, day_restrictions: list, time_restrictions: dict) -> dict:
     """
     code: ECON002, ANTH001
     future: [ [{}, {}, {}], [{}, {}, {}]]
@@ -71,25 +71,24 @@ def get_course_sections(code: str, future: list, min_seats: dict, day_restrictio
         type = section['scheduleTypeDescription']
         temp[num] = temp.get(num, {})
         temp[num][type] = temp[num].get(type, [])
-
         if (not section['meetingsFaculty'] 
             or not section['meetingsFaculty'][0]['meetingTime']['beginTime'] #async
             or section['seatsAvailable'] < min_seats
             or True in [section['meetingsFaculty'][0]['meetingTime'][day] for day in day_restrictions]
             or True in [((int(section['meetingsFaculty'][0]['meetingTime']['beginTime']) < int(''.join(i for i in restriction['end'] if i.isdigit()))) and (int(section['meetingsFaculty'][0]['meetingTime']['endTime']) > int(''.join(i for i in restriction['start'] if i.isdigit())))) for restriction in time_restrictions.values()]
         ): continue
-
-
         temp[num][type].append(section['courseReferenceNumber'])
-
+        
     toDelete = set()
-    for linkIdentifier in temp:
-        for type in temp[linkIdentifier]:
-            if(len(temp[linkIdentifier][type]) == 0):
-                toDelete.add(linkIdentifier)
-                break
-    for section in toDelete:
-        del temp[section]
+    for linkIdentifier, linkedsections in temp.items():
+        for type, crnslist in linkedsections.items():
+            if(len(crnslist) == 0):
+                toDelete.add((linkIdentifier,type))
+    for (linkIdentifier,type) in toDelete:
+        if override_empty:
+            del temp[linkIdentifier][type]
+        if not override_empty or len(temp[linkIdentifier]) == 0:
+            del temp[linkIdentifier]
 
     if not temp:
         raise RuntimeError(code)
@@ -106,13 +105,14 @@ def schedules():
     codes += [coreq for code in codes for coreq in coreqs.get(code, [])]
     codes = list(set(codes))
     options = request.args.get('options', default={}, type=json.loads)
-    _max_schedules = options['max_schedules'] #request.args.get('max_schedules', default=500, type=int)
+    _max_schedules = options.get('max_schedules', 500)
     if _max_schedules > 10000: _max_schedules = 10000
     elif _max_schedules < 1: _max_schedules = 1;
-    _min_seats = options['min_seats'] #request.args.get('min_seats', default=0, type=int)
-    _randomize = options['randomize'] #request.args.get('randomize', default=False, type=lambda v: v.lower() == 'true')
-    _day_restrictions = [day for day, enabled in options['day_restrictions'].items() if not enabled] #request.args.get('day_restrictions', default=[], type=json.loads)
-    _time_restrictions = options['time_restrictions']
+    _min_seats = options.get('min_seats', 1)
+    _override_empty = options.get('allow_empty', False)
+    _randomize = options.get('randomize', False)
+    _day_restrictions = [day for day, enabled in options.get('day_restrictions', {}).items() if not enabled]
+    _time_restrictions = options.get('time_restrictions', {})
 
     def stream():
         print('\n', len(codes), codes)
@@ -132,7 +132,7 @@ def schedules():
             except Exception as e:
                 yield format_sse(str(e), event='error')
                 return
-            futures = [executor.submit(get_course_sections, code, future, _min_seats, _day_restrictions, _time_restrictions) for code, future in futures]
+            futures = [executor.submit(get_course_sections, code, future, _min_seats, _override_empty, _day_restrictions, _time_restrictions) for code, future in futures]
         print('Get Class Data/Course Sections:', time.perf_counter() - start)
 
         ### GENERATE SECTION PAIRS ###
