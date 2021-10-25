@@ -114,6 +114,7 @@
 	</div>
 	<div class='container options'>
 		<div style='display: flex;align-items: center;justify-content: center;'><input id='randomize' type=checkbox bind:checked={$options.randomize}><label class='randomize' for='randomize'>Randomize generated schedule order</label></div>
+		<div style='display: flex;align-items: center;justify-content: center;'><input id='allow_empty' type=checkbox bind:checked={$options.allow_empty}><label class='allow_empty' for='allow_empty'>Allow sections without meeting times</label></div>
 		<div><label class='max_schedule' for='max_schedule'>Generate a maximum of <input id='max_schedule' type="number" bind:value={$options.max_schedules} min=0 max=9999> schedule(s)</label></div>
 		<div><label class='min_seats' for='min_seats'>Only find sections with a minimum of <input id='min_seats' type="number" bind:value={$options.min_seats} min=0> seat(s)</label></div>
 		<div><label class='start_after' for='start_after'>Only find sections that start after
@@ -337,6 +338,9 @@
 		label.randomize {
 			max-width:50%;
 		}
+		label.allow_empty {
+			max-width:50%;
+		}
 		label.max_schedule {
 			max-width:60%;
 		}
@@ -406,6 +410,9 @@
 		label.randomize {
 			max-width:70%;
 		}
+		label.allow_empty {
+			max-width:70%;
+		}
 		label.max_schedule {
 			max-width:80%;
 		}
@@ -427,6 +434,9 @@
 		}
 
 		label.randomize {
+			max-width:75%;
+		}
+		label.allow_empty {
 			max-width:75%;
 		}
 

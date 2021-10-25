@@ -29,6 +29,7 @@ courses.subscribe(value => {
 
 export const options = localStorage.getItem('options') ? writable(JSON.parse(localStorage.getItem('options'))) : writable({
     randomize : false,
+    allow_empty : false,
     max_schedules : 500,
     min_seats : 1,
     day_restrictions : {
