@@ -108,7 +108,7 @@
         color: #e44c65 !important;
     }
     
-    button {
+    /* button {
         opacity: 0.7;
         transition: opacity 0.5s, visibility 0.5s;
 		border-radius: 50%;
@@ -124,7 +124,7 @@
         width: 4em;
         height: 4em;
         border: none;
-    }
+    } */
 
     @media (max-width: 950px) {
         h1 {
