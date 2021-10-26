@@ -6,5 +6,7 @@
         term.set({});
         courses.set([]);
         version.set(current);
+        localStorage.removeItem('options');
+        location.reload();
     }
 </script>
