@@ -87,7 +87,7 @@ def get_course_sections(code: str, future: list, min_seats: dict, override_empty
     for (linkIdentifier,type) in toDelete:
         if override_empty:
             del temp[linkIdentifier][type]
-        if not override_empty or len(temp[linkIdentifier]) == 0:
+        if (not override_empty or len(temp[linkIdentifier]) == 0) and linkIdentifier in temp:
             del temp[linkIdentifier]
 
     if not temp:
@@ -159,7 +159,7 @@ def schedules():
             except RuntimeError as e:
                 error_courses.append(str(e))
         if error_courses:
-            yield format_sse(f'Unable to find open sections for {", ".join(error_courses)}', event='error')
+            yield format_sse(f'Unable to find open sections for {", ".join(error_courses)} with the selected options.', event='error')
             return
         print('Generate Sections:', time.perf_counter() - start)
         

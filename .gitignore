@@ -7,3 +7,4 @@ json/Backup
 __pycache__
 .vscode
 Old*/
+logs.txt 
