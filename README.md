@@ -3,8 +3,7 @@
 ## About
 ### This tool allows students to easily view many potential class schedules so they can select the one that fits best for their needs. Time conflicts and linked sections are dealt with automatically saving students time and energy and preventing frustration.
 
-## Link
-### lwgw.github.io/ucr-scheduler/
+## [Link to website](lwgw.github.io/ucr-scheduler/)
 
 
 ## Images
