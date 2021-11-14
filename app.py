@@ -1,4 +1,5 @@
 from re import I
+import pytz
 import requests
 from flask import Flask, request, Response, jsonify, make_response, send_from_directory
 from flask_cors import CORS
@@ -303,7 +304,7 @@ def ical():
             data = course_data[crn]
             event = Event()
 
-            dtstart = datetime.strptime(f"{data['meetingsFaculty'][0]['meetingTime']['startDate']}-{data['meetingsFaculty'][0]['meetingTime']['beginTime']}", time_format)
+            dtstart = datetime.strptime(f"{data['meetingsFaculty'][0]['meetingTime']['startDate']}-{data['meetingsFaculty'][0]['meetingTime']['beginTime']}", time_format).replace(tzinfo=pytz.timezone('America/Los_Angeles'))
             # dtend = datetime.strptime(f"{data['meetingsFaculty'][0]['meetingTime']['startDate']}-{data['meetingsFaculty'][0]['meetingTime']['endTime']}", time_format)
             for i in range(7):
                 if data['meetingsFaculty'][0]['meetingTime'][week[dtstart.weekday()]]:
