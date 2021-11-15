@@ -12,7 +12,7 @@ from math import prod
 import time
 from itertools import product, combinations, repeat
 import json
-from random import shuffle
+from random import shuffle, choice
 import concurrent.futures
 from datetime import datetime, timedelta
 import pickle
@@ -20,7 +20,7 @@ import pickle
 app = Flask(__name__)
 CORS(app)
 
-showFull = False
+colors = ['#b24747', '#b2af47', '#4fb347', '#47b3a8', '#4756b3', '#a147b3', '#b2475d'] # 0 360 60 | 60 0 100 | 70 0 100
 week = {
     'saturday': '2019-12-28',
     'sunday': '2019-12-29',
@@ -194,18 +194,21 @@ def schedules():
                 continue
             valid_schedules += 1
             schedule, crns = {'data':[]}, set()
-            for n in [j for sub in i for j in sub]:
-                courseData = full_data[n]
+            color_idxs = []
+            for color_idx, crn in enumerate([j for sub in i for j in sub]):
+                courseData = full_data[crn]
                 crns.add(courseData["courseReferenceNumber"])
+                if courseData["subjectCourse"] not in color_idxs: color_idxs.append(courseData["subjectCourse"])
                 # crns.add(f'{courseData["subjectCourse"]}_{courseData["courseReferenceNumber"]}')
                 for day in week:
                     if courseData['meetingsFaculty'][0]['meetingTime'][day]:
                         event = {
-                            'id': n+day,
+                            'id': crn+day,
                             'start_date': f'{week[day]} {courseData["meetingsFaculty"][0]["meetingTime"]["beginTime"][:2]}:{courseData["meetingsFaculty"][0]["meetingTime"]["beginTime"][2:]}:00',
                             'end_date': f'{week[day]} {courseData["meetingsFaculty"][0]["meetingTime"]["endTime"][:2]}:{courseData["meetingsFaculty"][0]["meetingTime"]["endTime"][2:]}:00',
                             'text': f'{courseData["subject"]}{courseData["courseNumber"]} {courseData["scheduleTypeDescription"]}',
-                            'details': ''
+                            'details': '',
+                            'color': colors[color_idxs.index(courseData["subjectCourse"])%len(colors)]
                         }
                         schedule['data'].append(event)
             yield format_sse(data=base64.b64encode(gzip.compress(json.dumps([schedule, list(crns)]).encode(), 5)))
