@@ -13,7 +13,7 @@
             terms = jsonData;
             if (!$term || !Object.keys($term).length)
             {
-                term.set(terms[0]);   
+                term.set(terms[0]);
             }
             termUpdate();
             countdownTimeFunc = setInterval(function() {countdownTime()}, 1000)
@@ -24,15 +24,13 @@
 
     function termUpdate()
     {
-        if (Object.keys(term_select).length && JSON.stringify(term_select) !== JSON.stringify($term))
+        if (Object.keys(term_select).length && JSON.stringify(terms[0]) !== JSON.stringify($term))
         {
             courses.set([])
-            term.set(term_select)
+            // term.set(term_select)
+            term.set(terms[0]);
         }
-        else
-        {
-            term_select = $term
-        }
+        term_select = $term
         nextTermtDate = new Date($term['next_term_data_date']).getTime();
         undergradLimitDate = new Date($term['undergrad_limit_date']).getTime();
         nextTerm = $term['next_term'];
