@@ -585,7 +585,7 @@
         ]
     },
     "BCH100": {
-        "average": "5.75",
+        "average": "5.40",
         "comments": [
             {
                 "comment": "Dingwall is the best prof for this course. Cutoffs are awesome. But dont fall behind in her coursework. ",
@@ -626,6 +626,16 @@
                 "comment": "Dr. Dingwall is amazing! Everything you need to know is on her lectures, so really study them and understand it inside out. Midterm and finals are similar to quizzes and homework. Very nice professor and tries to make subject as easy as possible. ",
                 "rating": "5",
                 "date": "12/13/2021"
+            },
+            {
+                "comment": "take with Larsen, great teacher, cares about students and super hard to fail class (you would have to really try to fail) he gives you so many redemption points",
+                "rating": "3",
+                "date": "12/28/2021"
+            },
+            {
+                "comment": "Dr. Dingwall is the best! As long as you study how she tells you to, this class is an easy A. ",
+                "rating": "5",
+                "date": "1/27/2022"
             }
         ]
     },
@@ -640,7 +650,7 @@
         ]
     },
     "BCH110A": {
-        "average": "8.33",
+        "average": "8.25",
         "comments": [
             {
                 "comment": "Biochemistry is a very difficult subject going into if you don\u2019t put in the work for the class. Took this class with Dr. O\u2019Leary and Dr. Blaha and both were really great professors. Dr. O\u2019Leary kept the lecture a little more upbeat than Dr. Blaha but both of them truly want their students to succeed. Averages are mid to high 60s but the deviations for grades are huge. An A is definitely attainable and having them record their lectures and post them up on iLearn was really useful when wanting to study for exams. ",
@@ -651,6 +661,11 @@
                 "comment": "Avoid Blaha, he's very boring lol",
                 "rating": "8",
                 "date": "12/28/2020"
+            },
+            {
+                "comment": "The material itself was not bad, it was actually interesting. The only problem was that there is so much material you have to know but only a few would show up in the exam. Exams were difficult, some were straight from the power point, but some were also from the power point but written differently. Understand the material and you'll be good.",
+                "rating": "8",
+                "date": "1/3/2022"
             }
         ]
     },
@@ -750,7 +765,7 @@
         ]
     },
     "BIOL002": {
-        "average": "3.50",
+        "average": "3.33",
         "comments": [
             {
                 "comment": "Cellular basis of life, taken with Quinn McFrederick. Class itself isn't too difficult. It's biology for non-majors so no-one expects too much of you. General intro to biology course. Labs require a lab coat though, which is fun. Midterms and final aren't too bad, just study mastering biology and the previous in class material and you'll be fine.",
@@ -761,6 +776,11 @@
                 "comment": "Took the class with Maslov. Maslov only had exams, but you'll be fine even if you never went to lecture by simply studying the slides as well as the past midterms he provides for the respective midterms. Labs were easy, since you never really do anything complicated and could just follow the lab manual step by step, and most of the time, they were short and you'll be leaving early. ",
                 "rating": "3",
                 "date": "3/26/2018"
+            },
+            {
+                "comment": "Took this with McFrederick. The midterm and finals are based on previous homeworks and quizzes and they are open notes. Class is pretty free as long as you do the quizzes and homeworks. Homeworks and quizzes have unlimited tries and they take the highest scores so basically full points on both categories. Labs are extremely easy as long as you follow the instructions which aren't difficult at all.",
+                "rating": "3",
+                "date": "12/22/2021"
             }
         ]
     },
@@ -1550,7 +1570,7 @@
         ]
     },
     "BUS010": {
-        "average": "4.14",
+        "average": "4.20",
         "comments": [
             {
                 "comment": "Raj Singh the first of many extremely easy classes by him. Do online quizes and the extra credit assignments for an easy A.",
@@ -1621,6 +1641,11 @@
                 "comment": "The lectures and discussions are mandatory but he was out sick a lot so the schedule changed constantly. Would highly recommend studying from the textbook as some of his questions are very specific that he doesn't go over in the lecture. Group project was okay, definitely regret not starting earlier and I ended up having to do most of it myself.",
                 "rating": "4",
                 "date": "1/31/2021"
+            },
+            {
+                "comment": "I had Intro to Business with Raj Singh, he is nice but goes on long tangents, it gets super boring. Lectures are hard to pay attention to. There are 2 midterms, 1 final (not cumulative), 6-7 homework assignments, 1 final project (+ presentation), and a couple small e-portfolio presentations. Do not let the prof\u2019s boring lectures get in the way of you getting a good grade. Use the Cengage practice questions, do the textbook reading, and try to pay attention during lectures. For the final project, make sure to pick reliable people and refer to sample projects! Ask your TA\u2019s to review any parts of the project you don\u2019t understand (the rubric is confusing). If you focus and don\u2019t treat the class as a joke, you can get a good grade. ",
+                "rating": "5",
+                "date": "1/20/2022"
             }
         ]
     },
@@ -1934,6 +1959,16 @@
             }
         ]
     },
+    "BUS136": {
+        "average": "5.00",
+        "comments": [
+            {
+                "comment": "The content of the class itself is not that hard, but for me the professor sucked. I took the class with Jean Helwege in F21. She tends to go off topic, so you don't really know what is most important. For exams, she asks questions about things that were barely mentioned in class, like the name of some obscure person. The paper she assigned for the end of the quarter was the most difficult. She didn't give us proper instructions and just expected us to know what to do based off a complicated example. She also graded us relative to other groups in the class, so in a way it wasn't fairly graded.",
+                "rating": "5",
+                "date": "1/27/2022"
+            }
+        ]
+    },
     "BUS143": {
         "average": "3.50",
         "comments": [
@@ -2065,7 +2100,7 @@
         ]
     },
     "CBNS101": {
-        "average": "7.00",
+        "average": "6.20",
         "comments": [
             {
                 "comment": "Bachant is a terrific prof.  He provides all you need to know in his slides and supplementals.  The final was harder than the material from the first two midterms though.  Don't expect a huge curve since averages on midterms were 77-80%.",
@@ -2086,11 +2121,16 @@
                 "comment": "Zur nieden and Karginov: class was split in half and the first half was very difficult. We just had a quiz and a midterm (create your own study guide). Quizzes were very difficult with zur nieden. Study guide was graded based on comparison, not how you study, which defeats the purpose of the study guide. The 2nd half was much easier. Brought my grade back up. ",
                 "rating": "7",
                 "date": "12/13/2021"
+            },
+            {
+                "comment": "Zur Nieden is great. Had the study guide midterm assignment and thought it was an easy A. Quizzes were okay but easier when studying with friends.",
+                "rating": "3",
+                "date": "1/3/2022"
             }
         ]
     },
     "CBNS106": {
-        "average": "6.40",
+        "average": "6.67",
         "comments": [
             {
                 "comment": "No homework, but there is a lot of material to go over, especially post midterm. Make sure you are on top of all the material, because it\u2019s honestly a bit too much to cram right before the exam. Class is was really interesting though!",
@@ -2116,6 +2156,11 @@
                 "comment": "Online exams were no back-tracking, but it wasn't bad. Very straightforward questions, and Dr. Fiacco had lecture outlines that were really helpful when studying. Really enjoyed this class overall! :)",
                 "rating": "7",
                 "date": "12/31/2020"
+            },
+            {
+                "comment": "Took it in Fall 2021, 97% of your grade is midterm and final, 6% discussion. Final is not cumulative but the exams are tricky. Understand the material well enough to answer tricky mc questions. ",
+                "rating": "8",
+                "date": "1/3/2022"
             }
         ]
     },
@@ -2140,27 +2185,37 @@
         ]
     },
     "CBNS120L": {
-        "average": "6.00",
+        "average": "5.50",
         "comments": [
             {
                 "comment": "Michael Adams; Lab reports are graded by TAs and it was fairly easy. As long as you answer the questions on the lab manual and explain the figures, you should be fine. Adams is very lenient when it comes to extensions. He extended all of the lab reports with no questions, just ask! Nice man, but very monotoned. ",
                 "rating": "6",
                 "date": "6/21/2021"
+            },
+            {
+                "comment": "Took with Peter Hickmott. Love him! Lab reports were heavy (20-30 pages) and graded harshly by TAs but there was a big curve. Also allowed extensions, but I recommend always doing reports ahead of time.",
+                "rating": "5",
+                "date": "1/3/2022"
             }
         ]
     },
     "CBNS121": {
-        "average": "5.00",
+        "average": "4.00",
         "comments": [
             {
                 "comment": "Took this class with Martin Riccomango and he has a very heavy accent. It\u2019s hard to understand him at times, but his exams correlates with his lectures. Tests in person were difficult, but manageable if you watch lectures/attend meetings. ",
                 "rating": "5",
                 "date": "12/13/2021"
+            },
+            {
+                "comment": "Dr. Riccomagno was amazing for this course. His tests are based off his slides. Slides are more filled with images rather than words, but they were fairly easy to understand. I really enjoyed this class a lot.",
+                "rating": "3",
+                "date": "1/27/2022"
             }
         ]
     },
     "CBNS124": {
-        "average": "8.50",
+        "average": "7.67",
         "comments": [
             {
                 "comment": "Studying at least once a day three times a week helped.",
@@ -2171,6 +2226,26 @@
                 "comment": "With professor Curras during covid. She is horrible. Does not teach in zoom, instead, she posts a lot of lectures that actually have a due date, so you have to watch it before the deadline otherwise it closes. She requires both yuja and a lockdown browser. She does not make accommodations ",
                 "rating": "10",
                 "date": "7/31/2021"
+            },
+            {
+                "comment": "Had Curass (Fall '21) and liked her. The posted lectures had a recommended due date only for time management purposes but you can still watch it after. 2 midterms and a final. I did rough on the first midterm and final but still got an A with the curve. ",
+                "rating": "6",
+                "date": "1/3/2022"
+            }
+        ]
+    },
+    "CBNS125": {
+        "average": "8.00",
+        "comments": [
+            {
+                "comment": "Took this Fall '21 with Garret Anderson. Nice professor but difficult exams. (It was my first in person course since the pandemic).  There is mcq, frq and a matching with drugs and their mechanisms of action. VERY interesting course but required a lot more studying than other CBNS upper divs imo. Course is basically 2 exams + discussion presentation on a drug.",
+                "rating": "",
+                "date": ""
+            },
+            {
+                "comment": "Took it with Dr. Hickmott and his tests were pretty difficult. You had to know everything. His TA Sarah was terrible. She's very strict and grades harshly on presentations. ",
+                "rating": "8",
+                "date": "1/27/2022"
             }
         ]
     },
@@ -2285,12 +2360,17 @@
         ]
     },
     "CHE114": {
-        "average": "8.00",
+        "average": "7.00",
         "comments": [
             {
                 "comment": "Fundamental course for ChE and EvnE. Calculus heavy.  ",
                 "rating": "8",
                 "date": "9/23/2018"
+            },
+            {
+                "comment": "If you get on the professor Min's good side you will be fine. Asking for help makes this class 200% easier. She will curve the tests if people do really bad and give second chances if you mess up, or at least if enough people have an issue with failing lol",
+                "rating": "6",
+                "date": "1/27/2022"
             }
         ]
     },
@@ -2334,6 +2414,16 @@
             }
         ]
     },
+    "CHE135": {
+        "average": "4.00",
+        "comments": [
+            {
+                "comment": "Group Project is pretty hard, since it's a research paper on a material and the rubric doesn't do a great job of telling you what kind of information to include. The class is pretty easy and honestly interesting if you are half interested in material science as a chem/env e. ",
+                "rating": "4",
+                "date": "1/27/2022"
+            }
+        ]
+    },
     "CHE160A": {
         "average": "4.00",
         "comments": [
@@ -2345,7 +2435,7 @@
         ]
     },
     "CHEM001A": {
-        "average": "5.69",
+        "average": "5.73",
         "comments": [
             {
                 "comment": "Very general chemistry, just know your stuff",
@@ -2541,6 +2631,21 @@
                 "comment": "As a senior in STEM, this class was a piece of cake. Took with Eichler. However, a lot of freshman (mainly in CHASS) struggle with this course.",
                 "rating": "4",
                 "date": "12/10/2021"
+            },
+            {
+                "comment": "Eichler for CHEM001A is very doable if you put in the work to get the grade you want. His lectures were online except his discussions and his weekly online quizzes are open notes. His midterm was easy but his final was a bit brutal for some people (MCQ was the hardest part actually imo). Eichler is def easier than most CHEM001A profs but don\u2019t slack off just bc he\u2019s \u201ceasier\u201d. Go to office hours, listen and take good, thorough notes on his video lectures, and review review review! Other than that, eichler is very easy to approach in office hours if you need any help and explains concepts very concisely. ",
+                "rating": "5",
+                "date": "12/19/2021"
+            },
+            {
+                "comment": "AVOID LAVALLO AT ALL COSTS. Prof gives unfair exams and teaches incoherently. My largest complaint is that he taught incorrect information because the correct information was \u201coutside the scope of this class\u201d?????",
+                "rating": "10",
+                "date": "1/6/2022"
+            },
+            {
+                "comment": "I always looked forward to Lavallo's zoom lectures but not because he's good at teaching chem. Most of class is him going on tangents about having fun with his best friend R-OH or him ranting about his iPad not working ever since he ran over it with his car. Basically a self-study course with 2 midterms and 1 final. If you score higher on the final than the midterm, he replaces your midterm grade with your final exam grade. HW is optional but you should do it because most of the exam questions come directly from the HW. Weekly quizzes in discussion for bonus points. It's basically impossible to fail his class since a 40% is passing, but you won't learn anything. If you are confident in your knowledge about the first two units of AP Chem and are looking for a low-commitment class, then take Lavallo.  ",
+                "rating": "4",
+                "date": "1/7/2022"
             }
         ]
     },
@@ -3220,17 +3325,22 @@
         ]
     },
     "CHEM109": {
-        "average": "10.00",
+        "average": "9.00",
         "comments": [
             {
                 "comment": "Yo, this class is some serious business. The exams are actually really simple in concept but you still need to bus' down for that A. Doctor Debus is an absolute G when it comes to asking for help and if you go to the discussions you should be able to pull off that A.",
                 "rating": "10",
                 "date": "12/19/2019"
+            },
+            {
+                "comment": "This class is the real deal. The material is confusing and unintuitive and ranges from thermodynamics to quantum chemistry. There will be moments where the notes make absolutely no sense no matter how hard you try to understand them. So getting an A is difficult, but not impossible, so long as you're willing to put more work in than usual. The curves are generous, and Dr. Debus gives homework that is (mostly) representative of his exams barring any conceptual questions, and those are generally straight forward. 8/10",
+                "rating": "8",
+                "date": "1/5/2022"
             }
         ]
     },
     "CHEM110A": {
-        "average": "5.00",
+        "average": "5.40",
         "comments": [
             {
                 "comment": "Ok, this class is easy to understand, hard to master. You can score 100% on the exama if you do ALL evens on the back of the chapters. Kawai Tam uses chapter problems as the problems in her midterms/finals, so always do them as extra apart from assigned wileyplus hw, you can get an easy A this way while the rest of the class who doesnt do this struggles at a 50% midterm score",
@@ -3251,6 +3361,11 @@
                 "comment": "If you can do dimensional analysis and solve a systems of equations this class is a joke, professor Ivey is very fair and is understanding of a lot during covid.",
                 "rating": "4",
                 "date": "1/2/2020"
+            },
+            {
+                "comment": "material was not too difficult, definitely go to class tho, and brush up on math or you'll have a hard time ",
+                "rating": "7",
+                "date": "12/28/2021"
             }
         ]
     },
@@ -3525,7 +3640,7 @@
         ]
     },
     "CRWT046S": {
-        "average": "4.00",
+        "average": "3.50",
         "comments": [
             {
                 "comment": "Winer\u2019s a fun professor, pretty easy, just a lot of reading (~200-500pg book per week, every week)",
@@ -4130,7 +4245,7 @@
         ]
     },
     "CS061": {
-        "average": "6.74",
+        "average": "6.75",
         "comments": [
             {
                 "comment": "Do all homework assignments; the final is basically a collection of past homeworks and quizzes.",
@@ -4271,6 +4386,11 @@
                 "comment": "Labs and programming assignments (coding in assembly language) can be long and quite time consuming if you get confused, but if you make sure to learn from each one, they're not too bad since they build upon each other. The midterm/final are more conceptual, and very similar to the practice exams, so if you do the practice ones, they're not too bad.",
                 "rating": "4",
                 "date": "11/12/2021"
+            },
+            {
+                "comment": "I think just spend time with lab and the program will help a lot with the grade.",
+                "rating": "7",
+                "date": "1/5/2022"
             }
         ]
     },
@@ -4450,7 +4570,7 @@
         ]
     },
     "CS111": {
-        "average": "7.85",
+        "average": "7.77",
         "comments": [
             {
                 "comment": "Just study and put in the work. Utilize any and all resources your professor may give you, always, always go to office hours if you have any questions, and you should be fine.",
@@ -4611,6 +4731,11 @@
                 "comment": "Everything is graded like its an exam, be careful.",
                 "rating": "8",
                 "date": "12/10/2021"
+            },
+            {
+                "comment": "So I had to retake this class so I took it with Elena as she was the only one teaching at the time. The lectures weren't particularly helpful tbh. For the quizzes, the mock quizzes she gave a few days before the quiz were more helpful than the google drive ones. She also gave 40 mins a quiz vs 30 mins when I took it the first time with chrobak so that definitely helped me a lot. I would spend around 3 days studying for the quizzes, 1 day to work through google drive samples, 1 day to time myself on the mock quiz, and another to go through lecture problems. This is really necessary as the final was all on graphs and since its worth 35% it can bring your grade down harshly. The average on the final was around a 50% so my grade dropped from a b- to a c- but then she pulled some magic at the end and I ended with a b-",
+                "rating": "5",
+                "date": "1/4/2022"
             }
         ]
     },
@@ -4850,7 +4975,7 @@
         ]
     },
     "CS150": {
-        "average": "6.50",
+        "average": "6.46",
         "comments": [
             {
                 "comment": "Took it with Tao Jiang. He's very passionate about this subject and you can tell by the way he lectures. There's one midterm and one final. The class is entirely composed of homeworks, midterm and final, no lab or project points. The tests are very fair, questions from the homework that you should be expected to know. The class itself is tough, but imo not as tough as 141. Make sure you understand each topic, as each builds off of each other. The homework is a good gauge on how well you know the material. No programming in this class, exams and homework are done in pencil and paper. Difficult, but manageable.",
@@ -5111,6 +5236,11 @@
                 "comment": "Tons of information to process in the class, be ready to work. 2 Midterms 1 Final, the reviews are very helpful, and the professor does a good job in communicating the concepts and his expectations. ",
                 "rating": "9",
                 "date": "12/16/2021"
+            },
+            {
+                "comment": "This class is hard but super informative. K.K. has hard exams with some tough grades but curves class hella at the end. Some of the labs didn't make sense but they were not too difficult. Go to class for extra credit and to engrain concepts. Not a class you can cram last minute for to get an A. ",
+                "rating": "8",
+                "date": "12/19/2021"
             }
         ]
     },
@@ -5195,7 +5325,7 @@
         ]
     },
     "CS170": {
-        "average": "4.75",
+        "average": "4.40",
         "comments": [
             {
                 "comment": "As long as it\u2019s taught by Eamonn Keogh you\u2019ll have a great time. Super cool professor with an Irish accent who really loves Artificial Intelligence and Machine Learning. He makes the material pretty simple, the exams pretty straight-forward, and always plays really cool music videos before class starts. He assigns 2 projects with an arseload of time to complete them. ",
@@ -5216,6 +5346,11 @@
                 "comment": "Took it with Dr Keogh, and this class was very simple and fair. The two projects were as easy as Dr Keogh suggests. That doesn't mean you should not start it early. The reports are what takes your time. The exams are multiple choice and very fair. He gives out some quizzes, which have been known to have questions that show up on the final.",
                 "rating": "3",
                 "date": "12/27/2019"
+            },
+            {
+                "comment": "Lovely professor. 2 relatively easy projects. Infrequent quizzes that he gives you ample notice of. Exams and quizzes worth small portions of grade and are straight from lecture",
+                "rating": "3",
+                "date": "1/29/2022"
             }
         ]
     },
@@ -5535,7 +5670,7 @@
         ]
     },
     "DNCE005": {
-        "average": "2.89",
+        "average": "2.80",
         "comments": [
             {
                 "comment": "Super easy. Just show up and dance. Three essays. Super simple. ",
@@ -5581,6 +5716,11 @@
                 "comment": "I had Manny and our focus was modern dance. it was really chill and easy. the first half of class theres some dancing (easy exercises and moving around) and the second half was the lecture (all slides were online). the midterm was a combo of multiple choice q's, short answer, and an essay based on a dance performance you have to go to. it sounds like a lot but its rly not. final is a 2 min group dance performance that you choreograph together and a few paragraphs about the process",
                 "rating": "3",
                 "date": "5/23/2021"
+            },
+            {
+                "comment": "Very fun and easy class if you wanna fulfill your breadth requirements! The class was online for me unfortunately, but I had a lot of fun anyways. I had Yeji Moon (TA) as my instructor and our genre of focus was K-Pop which made it even easier for me since I already listened to the genre on the daily and have a background in dance. 2 dance video projects, 1 essay, and weekly discussion posts you have to participate in. As long as you try on the assignments you\u2019ll be fine, and you don\u2019t really need a background in dance to do well. Don\u2019t forget to participate on the weekly discussion posts because it\u2019s very easy to forget, and some easy points to lose if you don\u2019t do them. Attendance isn\u2019t mandatory for the class, but you should go to the sessions where you have to learn your dance piece to see what is expected of you regarding your dance video projects. Overall great class that doesn\u2019t require too much effort!",
+                "rating": "2",
+                "date": "12/19/2021"
             }
         ]
     },
@@ -6515,7 +6655,7 @@
         ]
     },
     "EE120B": {
-        "average": "6.90",
+        "average": "7.05",
         "comments": [
             {
                 "comment": "Took with Phillip Brisk. Not as bad as 120A. The labs are done in C not Verilog which was a big relief for pretty much everyone lol. I'd recommend taking with Brisk to avoid getting Jeff'd, which at this point has become a meme. Tests and Midterms/Final were as expected, nothing that was not taught in class. Homework is done on zybooks. The custom lab project at the end of the year can be challenging, depending on how in depth you go. Labs aren't too bad. You can do it with a partner which makes things easier. You must pass (60%) the lab portion and the lecture section to pass the class. Must also pass the final exam and the custom lab project to pass as well. All said and done not too bad of a class. ",
@@ -6611,6 +6751,11 @@
                 "comment": "TAKE IT WITH VAHID, AVOID BRISK IF U CAN",
                 "rating": "7",
                 "date": "12/11/2021"
+            },
+            {
+                "comment": "Took this with Brisk. Would avoid if possible. The final project is what you need to focus on, it takes 3 weeks and is quite a lot of coding. TA's were unhelpful this quarter. There are 2 labs assigned per week, each designed to take 3 hours. However, they take longer than 3 hours usually per lab. Additionally, there is no dedicated lab session so you have to spend your own time on the labs. The exams are fair but wouldn't recommend taking with Brisk either way. Basically, the exams and in classes exercises and lectures aren't bad, but the final project with the 2 weekly labs are easily the worst part of the class. Adding that on with an unhelpful TA overall gives a bad experience. ",
+                "rating": "8",
+                "date": "12/22/2021"
             }
         ]
     },
@@ -6694,8 +6839,18 @@
             }
         ]
     },
+    "EE252": {
+        "average": "2.00",
+        "comments": [
+            {
+                "comment": "Fairly easy class, and the professor was very helpful ",
+                "rating": "2",
+                "date": "1/3/2022"
+            }
+        ]
+    },
     "ENGL001A": {
-        "average": "4.90",
+        "average": "4.85",
         "comments": [
             {
                 "comment": "pretty basic english class. 4 essays on various topics.",
@@ -6921,11 +7076,21 @@
                 "comment": "I had Professor Vasquez, she is very kind. She has a class critique structure such that you could see how other people reflect on different essays from your classmates.",
                 "rating": "5",
                 "date": "12/15/2021"
+            },
+            {
+                "comment": "Make sure to start essays earlier on! Apply strategies professors mention in your essays.",
+                "rating": "4",
+                "date": "12/25/2021"
+            },
+            {
+                "comment": "Pretty easy class tbh. I had Akshay Ganesh. We only had one book to read and he went through it during many classes so it was pretty easy. Essay prompts are okay as well, only difficulty is time management imo.",
+                "rating": "3",
+                "date": "12/25/2021"
             }
         ]
     },
     "ENGL001B": {
-        "average": "4.92",
+        "average": "4.94",
         "comments": [
             {
                 "comment": "harder than 1A mainly because my professor required participation... I didn't participate at all really but ended up with a B",
@@ -7181,6 +7346,11 @@
                 "comment": "Ben Harder is an amazing lecturer but very harsh grader. Just by going off of canvas, the highest possible score anyone has is a 93.87. Expect to finish with an A- max.",
                 "rating": "5",
                 "date": "12/7/2021"
+            },
+            {
+                "comment": "Had Robyn Johnson as my ENGL001B instructor. Wasn\u2019t super hard of a class if you did AP English Lang in high school. Go to her office hours if you struggle with writing, and do it in advanced so you\u2019re not scrambling to finish your essay. 4 essays, 1 student presentation + analysis, and a final in the class overall. Participation and peer review is a big part of the class, so you\u2019ll be expected to talk to your peers during class about your essays, readings, etc. Johnson is very fair in terms of grading and is flexible with extensions so long as you let her know before the deadlines. You\u2019ll be guaranteed a one week extension to use for one of your first 3 essays but other than that, there isn\u2019t any extra credit she can give. There may be some opportunities to receive more extensions, but it\u2019ll depend on Johnson\u2019s feelings about it. There aren\u2019t a lot of assignments in the class so try not to miss any assignments or your grade will drop by a lot.",
+                "rating": "6",
+                "date": "12/19/2021"
             }
         ]
     },
@@ -7525,7 +7695,7 @@
         ]
     },
     "ENGR118": {
-        "average": "4.25",
+        "average": "4.00",
         "comments": [
             {
                 "comment": "With prof. K barsanti, this class is easy if you habe programming experience, (understand function calls, executions, declarations, and how to work with arrays) if you dont then it will set you back, lectures are boring she reads off the powerpoint and always be in class cause she gives clicker and it counts toward grade, skim through the book for more pointers on the numerical methods, not a hard class but Barsanti is new and very disorganized at times",
@@ -7546,6 +7716,11 @@
                 "comment": "Barsanti is an easy A if you know MATLAB. If you don't know, work with the TA as much as possible. HW/MATLAB grader can be a pain. Though, her class is a bit unorganized and you'll see that she doesn't know MATLAB too well. ",
                 "rating": "4",
                 "date": "12/22/2020"
+            },
+            {
+                "comment": "If you have coding experience this class is a joke. It's literally basic applied calculus with MATLAB as the tool for approximating solutions. If you can understand for loops and function calls you will ace the class. The TA will carry you if you go to lab sections, which were optional attendance for fall 2021 (but you needed to do the assignments given in lab for credit).",
+                "rating": "3",
+                "date": "1/27/2022"
             }
         ]
     },
@@ -7630,7 +7805,7 @@
         ]
     },
     "ENSC001": {
-        "average": "2.13",
+        "average": "2.00",
         "comments": [
             {
                 "comment": "Easy Class with Professor Volz",
@@ -7666,6 +7841,11 @@
                 "comment": "Easy class but how 94% is an A- and not an A in this class I will never know",
                 "rating": "3",
                 "date": "12/12/2021"
+            },
+            {
+                "comment": "Easiest class ever",
+                "rating": "1",
+                "date": "12/28/2021"
             }
         ]
     },
@@ -7966,6 +8146,11 @@
                 "comment": "Online Covid/Zoom time: Super easy I didn't even do the readings (they were long, interesting, but you didn't have to do them to pass) 1 research paper on a tribe TA Micheal super easy grader it's an easy glass and Prof Gerald Clarke was really interesting and teaches you a lot he's funny too",
                 "rating": "2",
                 "date": "12/17/2021"
+            },
+            {
+                "comment": "Really easy class (I took Gerald Clarke), just go to lecture even though you don't really have to since they're recorded, but the professor is such a good speaker and passionate about the subject, you're going to be missing out. Grades was based on a few discussions, 1 essay paper, and a final. 10 questions were given to you prior to the final, only 3 shows up on the actual final.",
+                "rating": "2",
+                "date": "1/3/2022"
             }
         ]
     },
@@ -8545,7 +8730,7 @@
         ]
     },
     "HIST010": {
-        "average": "4.33",
+        "average": "4.50",
         "comments": [
             {
                 "comment": "Chrissanthos: Great lecturer, story format, no slides, so take your notes on a laptop. 2 MTs (short answer/fill in blank Q's from lecture and Q's from TA) 1 Final (cumulative, short essays) 1 Term Research Paper on topic of choice. TA/discussion matters! Some TAs grade hard on exams and easy on paper, and vice versa.",
@@ -8606,6 +8791,11 @@
                 "comment": "I took this course with Professor Chrissanthos online. He had asynchronous lectures twice a week, which were only around 30-50 minutes each. They were pretty interesting, but he doesn't have any slides so it can be hard figuring out how to spell the names of cities or people from that time period. The grade is made up of your discussion section, two midterms, one term paper, and one final. The midterms were okay, but only because of the way they were graded. It's basically 10ish questions from the professor, which are either fill in the blank or ask you to write five bullet points in response. Then, there are a few questions from your TA. Honestly, some of the questions had nothing to do with what we learned in the lectures, but the TA seemed to grade easy so it was okay.. Next, as for the term paper, its 5-7 pages and you can't really use sources from the internet (history.com, etc), which is a little difficult. Overall, the class is okay, but I wouldn't necessarily recommend it unless you're super interested in the time period.",
                 "rating": "4",
                 "date": "11/19/2021"
+            },
+            {
+                "comment": "Not an easy A, you actually have to watch the lectures and read the book.. sigh",
+                "rating": "7",
+                "date": "12/23/2021"
             }
         ]
     },
@@ -8920,7 +9110,7 @@
         ]
     },
     "HIST108": {
-        "average": "2.78",
+        "average": "2.80",
         "comments": [
             {
                 "comment": "Pretty easy, almost always gives out A+ for minimal effort, 3 multiple choice tests are open everything",
@@ -8961,6 +9151,11 @@
                 "comment": "3 multiple choice tests, midterm and final (all open note btw) are essay based which sounds a little bit scary until you realize that there is no deep analysis at all, you literally just answer content knowledge based questions. Don't use Google for these essays though, get the content straight from the reading and the powerpoints because thats what they look for. Personally I never really showed up to lecture or did the readings and got by really easily with an A just using my resources during the tests since you're allowed to use any material. If you need the extra points Professor Tofigh offers a grade bump with iEval (i think it was 10% extra on the 3rd mc test).",
                 "rating": "2",
                 "date": "12/10/2021"
+            },
+            {
+                "comment": "Professor was Tofigh. No homework for this class, required readings from textbooks that to be honest you don't need to read until the final. 3 tests total which are multiple choice. Only the third one is more difficult. Honestly, don't even need to go to lectures since the powerpoint slides are super helpful. ",
+                "rating": "3",
+                "date": "12/22/2021"
             }
         ]
     },
@@ -9545,7 +9740,7 @@
         ]
     },
     "MATH009B": {
-        "average": "5.16",
+        "average": "5.25",
         "comments": [
             {
                 "comment": "Lopez-Garcia is a great professor",
@@ -9636,6 +9831,11 @@
                 "comment": "With Gonzalex I thought that he was super helpful and very kind but his exams and the material are no joke. He has 2 midterms which have 3 questions that are a and b questions, 1 final so you need to study hard for these since 1 answer wrong brings your test grade down a whole letter. Had webwork problems for the homework. If you're good at calculus this class should be very easy ",
                 "rating": "8",
                 "date": "6/1/2021"
+            },
+            {
+                "comment": "I had Proffesor Dugan for this course. The quizzes and midterm were easy to do. However, the final was worth 45% of your grade and it was extremely hard. I went from an A- to a B- because of the final.",
+                "rating": "7",
+                "date": "12/28/2021"
             }
         ]
     },
@@ -9965,7 +10165,7 @@
         ]
     },
     "MATH022": {
-        "average": "6.33",
+        "average": "6.30",
         "comments": [
             {
                 "comment": "I took calculus back in highschool, so this class was a breeze to me. But for the people who didnt take this. this class is a bit challenging... recommend studying with a friend who is good at math carry your way to pass",
@@ -10011,11 +10211,16 @@
                 "comment": "Curtis is assigns a lot of homework and it takes a bit of time to finish even if you are good at Calculus, but it prepares you for his tests. Work hard and you will be fine.",
                 "rating": "5",
                 "date": "6/21/2020"
+            },
+            {
+                "comment": "MATH022 with Curtis, this is not an easy A class but not an impossible A either. There are weekly quizzes, two midterms, 1 cumulative final, discussion worksheets, and webassign homework. If you go to all the lectures, stay on top of homework and do all study guide questions before tests/exams you will get an A. The more work you put in the better your grade will be. Be prepared to spend time on this class. Don\u2019t let Curtis intimidate or scare you, especially kids who came straight from high school pre-calc. There is no trig and very little pre-calc in this class. Do NOT miss lecture or skip study guide q\u2019s (he takes study guide questions and puts them directly on the quiz.) Also, try to make a couple study buddies- it will go a long way. Not difficult, just time-consuming.",
+                "rating": "6",
+                "date": "1/20/2022"
             }
         ]
     },
     "MATH031": {
-        "average": "4.14",
+        "average": "4.27",
         "comments": [
             {
                 "comment": "Just do the homework and the quizzes, and the exams aren't too difficult. Had a great TA, Matt O'Dell. Helped tremendously. Professor would tell him to give us a quiz, and he would, but everyone failed, so he allowed us to take it home and redo it. Projects aren't too difficult, just show decent effort and you'll get a 100%",
@@ -10111,6 +10316,11 @@
                 "comment": "I had this with Patricio Candela. This class is not the standard math class where you calculate stuff. It is more focused on theorems and T/F questions. If you want an A in this class, be prepared to study and memorize all the theorems. The calculation part is the easy part so don't focus too much on those. Be prepared to pay $60 for mymathlab.",
                 "rating": "6",
                 "date": "3/28/2021"
+            },
+            {
+                "comment": "(Fall 2021 - in person) Professor Samuelson was unbelievably lenient this quarter due to covid. The class was set up to be MyLab hw (40%), problem sets (20%), midterm (20%), and final (20%).  MyLab homework was pretty easy (I got 100%) and problem sets were okay (some questions can be found online).  He made it where if you missed a midterm or final, nothing will happen to you.  I got a 62% on the midterm and didn't even show up for the final, ended up with a B. ",
+                "rating": "7",
+                "date": "12/20/2021"
             }
         ]
     },
@@ -10840,7 +11050,7 @@
         ]
     },
     "ME018B": {
-        "average": "9.00",
+        "average": "8.83",
         "comments": [
             {
                 "comment": "Took it the first time the class was being offered. ME018 was split into 18A and 18B beginning Fall 2018. This class involves a lot of theorem. You really need to understand the theorem, not just the formulas, or you will fail the class. You will have homework every week -- do not slack off on these. The homework will help you understand the material on the exams (2 midterms and 1 final). There are also quizzes almost every week in discussion. In addition, there was a project due at the end of the quarter. Start the project early cause it's something you can not procrastinate. In fact, a majority of the class didn't finish the project. Class had a huge curve at the end but I'm guessing it was because we were the first ones to take it so be wary. There may not be any more curves for future classes.",
@@ -10866,6 +11076,11 @@
                 "comment": "Taken with Professor Sundar. Ignored all of my classes and put all of my focus on this class. I didn't think it was too bad, and it would have been worse in person. Still a really difficult class though.",
                 "rating": "10",
                 "date": "12/16/2020"
+            },
+            {
+                "comment": "barely felt like I was passing tests and understanding how to apply concepts correctly throughout, came out with a B+ somehow. Center of mass, forward/inverse kinematics, MATLAB, and other concepts are hurled at you rapid fire, be sure to utilize all available resources for this class (TA, discussion, other students, study groups, discord, HW help sites)",
+                "rating": "8",
+                "date": "12/21/2021"
             }
         ]
     },
@@ -10900,7 +11115,7 @@
         ]
     },
     "ME110": {
-        "average": "7.80",
+        "average": "7.33",
         "comments": [
             {
                 "comment": "Professor Eskandari is an amazing professor. She will put more focus on learning than grades. Exams are very fair but beware of pop quizzes.",
@@ -10921,6 +11136,11 @@
                 "comment": "Professor DInsmore is a joke. He does not listen nor respond to any of his students' concerns regarding grading for the class. The average for the midterm was a low F and he was not willing to curve the midterm nor change the grading scale for the course. The only piece of information he gave was to do better on the final because it can replace the midterm, leaving the final to be 95% of the grade for the majority of the class... Be prepared to teach yourself the material. He doesn't respond to his emails in a timely manner and gives extremely short notice for exams. It become impossible to reach out to him and it's gotten so bad that I had to reach out to our faculty advisor Professor Sundar to speak with him just so that his students' concerns reach him. I would avoid him at all costs if possible",
                 "rating": "10",
                 "date": "11/22/2021"
+            },
+            {
+                "comment": "Professor Dinsmore covered the material very broadly, making it so that we had to learn from the homework and from Youtube on our own time. He decided to curve at the end probably due to pressure from the students and administration. Otherwise, the material and concepts learned through this class are actually pretty fun. ",
+                "rating": "5",
+                "date": "12/20/2021"
             }
         ]
     },
@@ -11550,7 +11770,7 @@
         ]
     },
     "PHIL003W": {
-        "average": "7.00",
+        "average": "6.00",
         "comments": [
             {
                 "comment": "The TAs never coordinate with each other so the writing and the philosophy ones will never say the same thing. The professor is also boring and the readings can become quite difficult to understand.",
@@ -11561,6 +11781,11 @@
                 "comment": "I had this class with Professor Frost for Fall 2021 and ended up with an A. I believe the course itself is pretty interesting, but the readings/lectures are very long and sometimes confusing. The TA really makes or breaks the class imo but personally I loved my TA. As long as you finish the journal assignments, then you should be okay. Also, there's no final!! just two essays due (one on Week 5 and one of Week 7 I believe).",
                 "rating": "6",
                 "date": "12/17/2021"
+            },
+            {
+                "comment": "I had Ethics and the Meaning of Life with Kim Frost as my prof. Frost is pretty chill and accommodating. All lectures were asynchronous, 1 in-person discussion section a week. No tests, no finals. There were two 5-6 page papers and weekly journal assignments (3-4 questions). The grading is a little confusing, but basically the more work you do the likelier you will have a good grade. There are no books to buy, everything is supplied with PDFs. TA\u2019s are really important, my TA was wonderful and explained things well and helped us with everything. In general, if you keep up with the assignments and double check your ideas/thesis statements with the TA before writing papers you will get an A. Not a difficult class. Also, asynchronous lectures & readings can be skimmed as long as you can do the journal assignments well. \n\nPre-requisite is Eng 1a and 1b. This is an English 1c class. Need to be good at forming ideas, actual writing is not as complicated.",
+                "rating": "4",
+                "date": "1/20/2022"
             }
         ]
     },
@@ -11690,7 +11915,7 @@
         ]
     },
     "PHIL009": {
-        "average": "3.67",
+        "average": "3.60",
         "comments": [
             {
                 "comment": "There's only 2 mandatory essays. 4 if you count the first one, which is a practice essay to get feedback and stuff, while the fourth one replaces your lowest essay score (provided that it was above a 70%? I believe). I got an A- but you still have to work for your grade, especially since the readings are pretty difficult to process BUT the professor (I had Joshua Wood) will give you outlines of the articles, so it's easier to understand. He's also pretty funny in the slack channel. One girl was like, \"Where is the 10th assignment?\" when we only had two essays, and he was like \"you're scaring people\" LOL. Make sure you don't procrastinate on your essays! My TA liked a direct approach to writing, so be concise with your wording and make it easy to understand. ",
@@ -11701,6 +11926,16 @@
                 "comment": "Took it with Dr. Joshua Wood during Fall 2020. No mandatory lectures and he gives you an free version of the textbook online. Dr. Wood is super sweet and his lectures (if you do decide to go) are essentially a discussion about the assigned readings. If you choose not to go, he offers recorded lectures and notes as supplements.  Homework are the assigned readings but you don't really need to read any of them unless you're choosing that specific one to write the essay about. No exams only four essays two of which are mandatory; the first one is a practice one and the last one is an extra credit opportunity. Each essay increases in page limit; the first one 1-2, second 2-3, etc. Essays are super easy and basically an analysis essay on the argument of the document. TAs grade the essays so it really depends on them. I had Gustavo for my discussion and he was pretty easy going, attending was also not mandatory. The only assignment was a discussion question regarding the material due every Wednesday and in the discussion he'd address those questions.",
                 "rating": "3",
                 "date": "1/5/2021"
+            },
+            {
+                "comment": "I took it with Dr. Wood. The class will be relatively easy, however there is a lot of reading. Some of the readings are interesting and will keep you entertained in a way, but sometimes they can be a bit hard to read. I recommend taking notes! Your grade is all based on papers! So, your TA will determine your grade. Averages for papers are B's, so as long as you have decent essay-writing skills and actually read the papers or looked at lecture notes/videos, you'll do fine! Grammar doesn't seem to matter too much on papers, but the information will matter A LOT! Don't push off all the readings till last minute!",
+                "rating": "4",
+                "date": "12/19/2021"
+            },
+            {
+                "comment": "Had Professor Wood for Fall 2021 (asynchronous). Pretty chill class, Wood's lecture vids were ~15min long and he provided notes that summarized each reading. No exams, only four papers (the first one was optional). How well you did in the class depended on your TA since they're the only one who read your essays. I had John Green, and he was nice but graded ruthlessly. General consensus was that TA's liked papers that were concise and straightforward.",
+                "rating": "3",
+                "date": "1/7/2022"
             }
         ]
     },
@@ -12100,7 +12335,7 @@
         ]
     },
     "PHYS040A": {
-        "average": "6.06",
+        "average": "6.05",
         "comments": [
             {
                 "comment": "This class the exactly equivalent to AP Physics 1(but they don't give credit for some reason). Pay attention during rotation(moment of inertia, rotational kinetic energy). It's harder than it looks. ",
@@ -12171,6 +12406,11 @@
                 "comment": "Screw Michael Anderson, worst professor I ever had at UCR, avoid him at all costs for any physics classes.",
                 "rating": "8",
                 "date": "3/24/2021"
+            },
+            {
+                "comment": "Had Anderson, class is very simple in terms of format, midterms (total of 2) are pretty much the same from class examples, and final takes questions from the midterms and practice tests. Make sure to attend lectures since he has clicker questions and participation activities. class is easy if you put some work. ",
+                "rating": "6",
+                "date": "1/9/2022"
             }
         ]
     },
@@ -13230,7 +13470,7 @@
         ]
     },
     "PSYC011": {
-        "average": "5.56",
+        "average": "5.40",
         "comments": [
             {
                 "comment": "Take with professor psy because he makes course easy",
@@ -14270,7 +14510,7 @@
         ]
     },
     "STAT155": {
-        "average": "5.88",
+        "average": "6.00",
         "comments": [
             {
                 "comment": "I had Zhiwei Zhang. Zhang allows us to bring one paper of our own notes to exams. He doesn't curve, but if you have good notes and understand the homework, you shouldn't be struggling that much. The actual content is very easy for the most part. I only seriously looked at the lecture notes the day before exams to make my notes and ended up doing well.",
@@ -14346,6 +14586,11 @@
                 "comment": "Material isn't too bad. Chapter 3 will appear kind of foreign at first, but once you get used to the rhythm of it, you should be fine for most of the content. Took with Flores. She's very fair and friendly.",
                 "rating": "5",
                 "date": "12/10/2021"
+            },
+            {
+                "comment": "Had Professor Flores for this class. Lectures are pretty clear and the testing is decently fair. The homeworks are pretty difficult and more difficult than any test questions so if you can do those, you're all set. There is calculus in the later materials. There are weekly quizzes that you have 2 attempts on which is nice. ",
+                "rating": "8",
+                "date": "12/22/2021"
             }
         ]
     },
@@ -14805,7 +15050,7 @@
         ]
     },
     "CS120B": {
-        "average": "6.90",
+        "average": "7.05",
         "comments": [
             {
                 "comment": "Took with Phillip Brisk. Not as bad as 120A. The labs are done in C not Verilog which was a big relief for pretty much everyone lol. I'd recommend taking with Brisk to avoid getting Jeff'd, which at this point has become a meme. Tests and Midterms/Final were as expected, nothing that was not taught in class. Homework is done on zybooks. The custom lab project at the end of the year can be challenging, depending on how in depth you go. Labs aren't too bad. You can do it with a partner which makes things easier. You must pass (60%) the lab portion and the lecture section to pass the class. Must also pass the final exam and the custom lab project to pass as well. All said and done not too bad of a class. ",
@@ -14901,11 +15146,16 @@
                 "comment": "TAKE IT WITH VAHID, AVOID BRISK IF U CAN",
                 "rating": "7",
                 "date": "12/11/2021"
+            },
+            {
+                "comment": "Took this with Brisk. Would avoid if possible. The final project is what you need to focus on, it takes 3 weeks and is quite a lot of coding. TA's were unhelpful this quarter. There are 2 labs assigned per week, each designed to take 3 hours. However, they take longer than 3 hours usually per lab. Additionally, there is no dedicated lab session so you have to spend your own time on the labs. The exams are fair but wouldn't recommend taking with Brisk either way. Basically, the exams and in classes exercises and lectures aren't bad, but the final project with the 2 weekly labs are easily the worst part of the class. Adding that on with an unhelpful TA overall gives a bad experience. ",
+                "rating": "8",
+                "date": "12/22/2021"
             }
         ]
     },
     "ENGR108": {
-        "average": "2.78",
+        "average": "2.80",
         "comments": [
             {
                 "comment": "Pretty easy, almost always gives out A+ for minimal effort, 3 multiple choice tests are open everything",
@@ -14946,6 +15196,11 @@
                 "comment": "3 multiple choice tests, midterm and final (all open note btw) are essay based which sounds a little bit scary until you realize that there is no deep analysis at all, you literally just answer content knowledge based questions. Don't use Google for these essays though, get the content straight from the reading and the powerpoints because thats what they look for. Personally I never really showed up to lecture or did the readings and got by really easily with an A just using my resources during the tests since you're allowed to use any material. If you need the extra points Professor Tofigh offers a grade bump with iEval (i think it was 10% extra on the 3rd mc test).",
                 "rating": "2",
                 "date": "12/10/2021"
+            },
+            {
+                "comment": "Professor was Tofigh. No homework for this class, required readings from textbooks that to be honest you don't need to read until the final. 3 tests total which are multiple choice. Only the third one is more difficult. Honestly, don't even need to go to lectures since the powerpoint slides are super helpful. ",
+                "rating": "3",
+                "date": "12/22/2021"
             }
         ]
     },
@@ -15035,7 +15290,7 @@
         ]
     },
     "MATH111": {
-        "average": "7.85",
+        "average": "7.77",
         "comments": [
             {
                 "comment": "Just study and put in the work. Utilize any and all resources your professor may give you, always, always go to office hours if you have any questions, and you should be fine.",
@@ -15196,6 +15451,11 @@
                 "comment": "Everything is graded like its an exam, be careful.",
                 "rating": "8",
                 "date": "12/10/2021"
+            },
+            {
+                "comment": "So I had to retake this class so I took it with Elena as she was the only one teaching at the time. The lectures weren't particularly helpful tbh. For the quizzes, the mock quizzes she gave a few days before the quiz were more helpful than the google drive ones. She also gave 40 mins a quiz vs 30 mins when I took it the first time with chrobak so that definitely helped me a lot. I would spend around 3 days studying for the quizzes, 1 day to work through google drive samples, 1 day to time myself on the mock quiz, and another to go through lecture problems. This is really necessary as the final was all on graphs and since its worth 35% it can bring your grade down harshly. The average on the final was around a 50% so my grade dropped from a b- to a c- but then she pulled some magic at the end and I ended with a b-",
+                "rating": "5",
+                "date": "1/4/2022"
             }
         ]
     },
