@@ -215,7 +215,7 @@ def schedules():
             # yield format_sse(data=json.dumps([schedule, crns]))
         print(f'Schedule Conflicts -- VALID:{valid_schedules} -- TOTAL:{total_schedules} -- TIME:{time.perf_counter() - start}')
         if valid_schedules == 0:
-            conflict_str = ', '.join(set(f'{crn_course_map[c1]} & {crn_course_map[c2]}' for (c1, c2), num in conflicts_errors.items() if num >= crn_course_map[crn_course_map[c1]] or num >= crn_course_map[crn_course_map[c2]]]))
+            conflict_str = ', '.join(set(f'{crn_course_map[c1]} & {crn_course_map[c2]}' for (c1, c2), num in conflicts_errors.items() if num >= crn_course_map[crn_course_map[c1]] or num >= crn_course_map[crn_course_map[c2]]))
             yield format_sse(f'Unable to generate schedules without time conflicts! Following courses have time conflicts: {conflict_str}', event='error')
         else:
             yield format_sse(data='', event='stream-end')
