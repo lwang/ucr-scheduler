@@ -1,5 +1,12 @@
 [
     {
+        "code": "202230",
+        "description": "Summer 2022",
+        "next_term": "Fall 2022",
+        "undergrad_limit_date": "2022-04-01T09:00:00",
+        "next_term_data_date": "2022-05-05T09:00:00"
+    },
+    {
         "code": "202220",
         "description": "Spring 2022",
         "next_term": "Summer 2022",
