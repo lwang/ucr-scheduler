@@ -20,7 +20,7 @@
 
     function termUpdate()
     {
-        if (!$term || !Object.keys($term).length) // no term saved in local storage
+        if (!$term || !Object.keys($term).length && terms.length) // no term saved in local storage
         {
             courses.set([]);
             term.set(terms[0]);
