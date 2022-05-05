@@ -6,30 +6,6 @@
         "average": "----"
     },
     {
-        "code": "ARC051",
-        "description": "GRE PREPARATION SEMINAR",
-        "credits": 0,
-        "average": "----"
-    },
-    {
-        "code": "ARC052",
-        "description": "LSAT PREPARATION SEMINAR",
-        "credits": 0,
-        "average": "----"
-    },
-    {
-        "code": "ARC053",
-        "description": "GMAT PREPARATION SEMINAR",
-        "credits": 0,
-        "average": "----"
-    },
-    {
-        "code": "ARC072",
-        "description": "CHEM SPLMNTL INST - CNAS",
-        "credits": 0,
-        "average": "2.00"
-    },
-    {
         "code": "ARC073",
         "description": "MATH SPLMNTL INST - CNAS",
         "credits": 0,
@@ -51,7 +27,7 @@
         "code": "ANTH001",
         "description": "CULTURAL ANTHROPOLOGY",
         "credits": 4,
-        "average": "3.00"
+        "average": "2.88"
     },
     {
         "code": "ANTH002",
@@ -66,16 +42,34 @@
         "average": "3.70"
     },
     {
+        "code": "ANTH006",
+        "description": "INTRODUCTION TO WORLD MUSIC",
+        "credits": 4,
+        "average": "5.50"
+    },
+    {
         "code": "ANTH020S",
         "description": "CULTURE, HEALTH AND HEALING",
         "credits": 4,
         "average": "3.00"
     },
     {
-        "code": "ANTH115S",
-        "description": "ARCHAEOLOGY OF WESTERN MESOAMERICA",
+        "code": "ANTH027",
+        "description": "ART OF PRE-COLUMBIAN AMERICA",
         "credits": 4,
-        "average": "9.00"
+        "average": "----"
+    },
+    {
+        "code": "ANTH100",
+        "description": "HISTORY OF ANTHROPOLOGICAL THEORY",
+        "credits": 4,
+        "average": "4.00"
+    },
+    {
+        "code": "ANTH115U",
+        "description": "ANDEAN PREHISTORY",
+        "credits": 4,
+        "average": "----"
     },
     {
         "code": "ANTH120",
@@ -84,22 +78,16 @@
         "average": "2.00"
     },
     {
+        "code": "ANTH122",
+        "description": "ECONOMIC ANTHROPOLOGY",
+        "credits": 4,
+        "average": "----"
+    },
+    {
         "code": "ANTH127S",
         "description": "POLITICAL ANTHROPOLOGY",
         "credits": 4,
         "average": "2.00"
-    },
-    {
-        "code": "ANTH132",
-        "description": "CULTURAL ECOLOGY",
-        "credits": 4,
-        "average": "9.00"
-    },
-    {
-        "code": "ANTH134",
-        "description": "THE WILL TO ADORN  DRESS AND IDENTITY",
-        "credits": 4,
-        "average": "----"
     },
     {
         "code": "ANTH139",
@@ -120,14 +108,14 @@
         "average": "----"
     },
     {
-        "code": "ANTH144N",
-        "description": "ANTHROPOLOGY OF GLOBAL HEALTH",
+        "code": "ANTH144K",
+        "description": "DRUGS AND CULTURE",
         "credits": 4,
         "average": "----"
     },
     {
-        "code": "ANTH145",
-        "description": "SEXUALITIES AND CULTURE",
+        "code": "ANTH151",
+        "description": "THE ART OF THE AZTEC EMPIRE",
         "credits": 4,
         "average": "----"
     },
@@ -140,18 +128,6 @@
     {
         "code": "ANTH165E",
         "description": "METHODS IN ARCHAEOLOGY",
-        "credits": 4,
-        "average": "----"
-    },
-    {
-        "code": "ANTH177",
-        "description": "GENDER, SEXUALITY, AND MUSIC IN CROSS-CULTURAL PERSPECTIVES",
-        "credits": 4,
-        "average": "----"
-    },
-    {
-        "code": "ANTH189",
-        "description": "GENDER AND POWER IN MUSLIM SOCIETIES",
         "credits": 4,
         "average": "----"
     },
@@ -194,24 +170,6 @@
     {
         "code": "ANTH200A",
         "description": "CORE THEORY IN ANTHROPOLOGY",
-        "credits": 4,
-        "average": "----"
-    },
-    {
-        "code": "ANTH203",
-        "description": "SOUTHEAST ASIAN CULTURES",
-        "credits": 4,
-        "average": "----"
-    },
-    {
-        "code": "ANTH207",
-        "description": "ARCHAEOLOGY OF POWER AND IDEOLOGY",
-        "credits": 4,
-        "average": "----"
-    },
-    {
-        "code": "ANTH255",
-        "description": "FEMINISM, GENDER, AND ARCHAEOLOGY",
         "credits": 4,
         "average": "----"
     },
@@ -318,8 +276,8 @@
         "average": "----"
     },
     {
-        "code": "ART066",
-        "description": "INTRODUCTION TO THREE-DIMENSIONAL DIGITAL MODELING",
+        "code": "ART065",
+        "description": "INTRODUCTION TO DIGITAL PAINTING AND DRAWING: PAINTING WITHOUT A TRACE",
         "credits": 4,
         "average": "----"
     },
@@ -332,12 +290,6 @@
     {
         "code": "ART115",
         "description": "INTERMEDIATE SCULPTURE",
-        "credits": 4,
-        "average": "----"
-    },
-    {
-        "code": "ART131",
-        "description": "INTERMEDIATE PHOTOGRAPHY AND DIGITAL TECHNOLOGY",
         "credits": 4,
         "average": "----"
     },
@@ -366,22 +318,10 @@
         "average": "----"
     },
     {
-        "code": "AHS007",
-        "description": "WORLD ART: IMAGES, ISSUES, AND IDEAS",
+        "code": "AHS013",
+        "description": "ARTS AND ARCHITECTURE OF THE ISLAMIC WORLD",
         "credits": 4,
         "average": "----"
-    },
-    {
-        "code": "AHS008",
-        "description": "MODERN WESTERN VISUAL CULTURE",
-        "credits": 4,
-        "average": "----"
-    },
-    {
-        "code": "AHS010S",
-        "description": "PHOTOGRAPHY AND THE BODY",
-        "credits": 5,
-        "average": "4.00"
     },
     {
         "code": "AHS017A",
@@ -390,20 +330,44 @@
         "average": "----"
     },
     {
-        "code": "AHS124",
-        "description": "CONCEPTUAL ART IN LATIN AMERICA",
+        "code": "AHS021",
+        "description": "INTRODUCTION TO ARCHITECTURE AND URBANISM",
+        "credits": 4,
+        "average": "3.00"
+    },
+    {
+        "code": "AHS025",
+        "description": "ART OF MESOAMERICA",
         "credits": 4,
         "average": "----"
     },
     {
-        "code": "AHS156",
-        "description": "MEMORY OF EMPIRE: THE ART OF EARLY MEDIEVAL EUROPE",
+        "code": "AHS027",
+        "description": "ART OF PRE-COLUMBIAN AMERICA",
         "credits": 4,
         "average": "----"
     },
     {
-        "code": "AHS189E",
-        "description": "ART SINCE CONCEPTUAL ART",
+        "code": "AHS112",
+        "description": "THE ART OF THE AZTEC EMPIRE",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "AHS115",
+        "description": "MODERN AND CONTEMPORARY ART OF LATIN AMERICA",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "AHS160",
+        "description": "RENAISSANCE ARCHITECTURE",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "AHS183",
+        "description": "PHOTOGRAPHY ON DISPLAY",
         "credits": 4,
         "average": "----"
     },
@@ -420,8 +384,8 @@
         "average": "----"
     },
     {
-        "code": "AHS274",
-        "description": "SEMINAR IN SEVENTEENTH- AND EIGHTEENTH-CENTURY ART",
+        "code": "AHS263",
+        "description": "SEMINAR IN ISLAMIC ART AND CULTURE",
         "credits": 4,
         "average": "----"
     },
@@ -438,15 +402,21 @@
         "average": "----"
     },
     {
-        "code": "AST023",
-        "description": "MODERN JAPAN AND PERSONAL NARRATIVE",
-        "credits": 4,
-        "average": "4.50"
-    },
-    {
         "code": "AST030",
         "description": "INTRODUCTION TO CHINESE CIVILIZATION",
         "credits": 5,
+        "average": "----"
+    },
+    {
+        "code": "AST047",
+        "description": "INTRODUCTION TO KOREAN FILM",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "AST056",
+        "description": "CULTURES OF THE JAPANESE EMPIRE",
+        "credits": 4,
         "average": "----"
     },
     {
@@ -456,27 +426,21 @@
         "average": "----"
     },
     {
-        "code": "AST136",
-        "description": "FAMILY AND GENDER IN THE CHINESE SHORT STORY",
-        "credits": 4,
-        "average": "----"
-    },
-    {
         "code": "AST137",
         "description": "CONTEMPORARY CHINESE LITERATURE IN TRANSLATION",
         "credits": 4,
         "average": "----"
     },
     {
-        "code": "AST154F",
-        "description": "HIST OF JAPANESE POPULAR CULTU",
+        "code": "AST145",
+        "description": "MILITARISM AND HEGEMONY IN THE ANCIENT WORLD",
         "credits": 4,
         "average": "----"
     },
     {
-        "code": "AST160",
-        "description": "THE VIETNAM WARS",
-        "credits": 4,
+        "code": "AST168",
+        "description": "JAVANESE GAMELAN ENSEMBLE: BEGINNING",
+        "credits": 2,
         "average": "----"
     },
     {
@@ -502,6 +466,12 @@
         "description": "CAPSTONE SENIOR THESIS",
         "credits": 0,
         "average": "----"
+    },
+    {
+        "code": "BSWT003",
+        "description": "BASIC WRITING FOR SECOND-LANGUAGE STUDENTS",
+        "credits": 4,
+        "average": "7.50"
     },
     {
         "code": "BSWT003L",
@@ -576,6 +546,12 @@
         "average": "----"
     },
     {
+        "code": "BCH185",
+        "description": "EPIGENETICS IN DEVELOPMENT AND DISEASE",
+        "credits": 4,
+        "average": "----"
+    },
+    {
         "code": "BCH190",
         "description": "SPECIAL STUDIES",
         "credits": 0,
@@ -594,8 +570,14 @@
         "average": "----"
     },
     {
+        "code": "BCH230H",
+        "description": "ADVANCED TOPICS IN BIOCHEMISTRY",
+        "credits": 2,
+        "average": "----"
+    },
+    {
         "code": "BCH240",
-        "description": "PLANT STRESS GENOMICS",
+        "description": "OPTICAL INSTRUMENTAL METHODS",
         "credits": 2,
         "average": "----"
     },
@@ -678,6 +660,12 @@
         "average": "----"
     },
     {
+        "code": "BIEN111",
+        "description": "ADVANCED STATISTICAL METHODS AND RESEARCH DESIGN FOR BIOENGINEERING",
+        "credits": 4,
+        "average": "----"
+    },
+    {
         "code": "BIEN135",
         "description": "BIOPHYSICS AND BIOTHERMODYNAMICS",
         "credits": 4,
@@ -752,12 +740,6 @@
     {
         "code": "BIEN262",
         "description": "SPECIAL TOPICS IN BIOSIGNALING",
-        "credits": 0,
-        "average": "----"
-    },
-    {
-        "code": "BIEN263",
-        "description": "SPECIAL TOPICS IN BIOCOMPUTATION",
         "credits": 0,
         "average": "----"
     },
@@ -837,7 +819,7 @@
         "code": "BIOL005A",
         "description": "INTRODUCTION TO CELL AND MOLECULAR BIOLOGY",
         "credits": 4,
-        "average": "6.36"
+        "average": "6.38"
     },
     {
         "code": "BIOL005B",
@@ -882,6 +864,12 @@
         "average": "6.80"
     },
     {
+        "code": "BIOL104",
+        "description": "FOUNDATIONS OF PLANT BIOLOGY",
+        "credits": 4,
+        "average": "7.00"
+    },
+    {
         "code": "BIOL105",
         "description": "EVOLUTION",
         "credits": 4,
@@ -909,7 +897,7 @@
         "code": "BIOL116",
         "description": "ECOLOGY AND CONSERVATION BIOLOGY",
         "credits": 4,
-        "average": "3.75"
+        "average": "3.80"
     },
     {
         "code": "BIOL118",
@@ -921,18 +909,12 @@
         "code": "BIOL119",
         "description": "INTRODUCTION TO GENOMICS AND BIOINFORMATICS",
         "credits": 4,
-        "average": "5.50"
+        "average": "6.67"
     },
     {
         "code": "BIOL120",
         "description": "INTRODUCTION TO PLANT PATHOLOGY",
         "credits": 3,
-        "average": "----"
-    },
-    {
-        "code": "BIOL120L",
-        "description": "INTRODUCTION TO PLANT PATHOLOGY LABORATORY",
-        "credits": 1,
         "average": "----"
     },
     {
@@ -942,8 +924,8 @@
         "average": "4.33"
     },
     {
-        "code": "BIOL128",
-        "description": "IMMUNOLOGY",
+        "code": "BIOL121L",
+        "description": "MICROBIOLOGY LABORATORY",
         "credits": 3,
         "average": "----"
     },
@@ -966,16 +948,10 @@
         "average": "----"
     },
     {
-        "code": "BIOL152",
-        "description": "PRINCIPLES OF INVERTEBRATE PALEOBIOLOGY AND PALEOECOLOGY",
-        "credits": 4,
-        "average": "----"
-    },
-    {
         "code": "BIOL157",
         "description": "PARASITOLOGY",
         "credits": 4,
-        "average": "6.00"
+        "average": "5.67"
     },
     {
         "code": "BIOL161A",
@@ -1092,111 +1068,9 @@
         "average": "----"
     },
     {
-        "code": "BMSC222E",
-        "description": "BASIC EPITHELIOLOGY",
-        "credits": 2,
-        "average": "----"
-    },
-    {
-        "code": "BMSC222G",
-        "description": "REGULATION OF GENE EXPRESSION",
-        "credits": 2,
-        "average": "----"
-    },
-    {
-        "code": "BMSC222J",
-        "description": "MICRBL PATHGNSIS&amp;HOST-PTH INTR",
-        "credits": 2,
-        "average": "----"
-    },
-    {
-        "code": "BMSC222L",
-        "description": "CURRENT TOPICS IN CELL BIOLOGY",
-        "credits": 2,
-        "average": "----"
-    },
-    {
-        "code": "BMSC222M",
-        "description": "HORMONE ACTION",
-        "credits": 2,
-        "average": "----"
-    },
-    {
-        "code": "BMSC222N",
-        "description": "MECHANISMS OF STEROID HORMONES",
-        "credits": 2,
-        "average": "----"
-    },
-    {
-        "code": "BMSC222O",
-        "description": "STEROID METABOLISM",
-        "credits": 2,
-        "average": "----"
-    },
-    {
-        "code": "BMSC222P",
-        "description": "MOLECULAR PHARMACOLOGY",
-        "credits": 2,
-        "average": "----"
-    },
-    {
-        "code": "BMSC222Q",
-        "description": "MECHANISMS OF CARCINOGENESIS",
-        "credits": 2,
-        "average": "----"
-    },
-    {
-        "code": "BMSC222U",
-        "description": "TRANSPORT PHYSIOLOGY",
-        "credits": 2,
-        "average": "----"
-    },
-    {
-        "code": "BMSC222W",
-        "description": "ADVANCED IMMUNOLOGY",
-        "credits": 2,
-        "average": "----"
-    },
-    {
-        "code": "BMSC222X",
-        "description": "MUTAGENESIS&amp;GENETIC INSTABILTY",
-        "credits": 2,
-        "average": "----"
-    },
-    {
-        "code": "BMSC222Y",
-        "description": "CANCER GENETICS",
-        "credits": 2,
-        "average": "----"
-    },
-    {
-        "code": "BMSC223F",
-        "description": "CARDIOVASCULAR PHYSIOLOGY",
-        "credits": 4,
-        "average": "----"
-    },
-    {
-        "code": "BMSC231",
-        "description": "FOUNDATIONS OF MEDICINE I",
-        "credits": 7,
-        "average": "----"
-    },
-    {
         "code": "BMSC232",
         "description": "CARDIOVASCULAR, RENAL, AND RESPIRATORY SCIENCES I",
         "credits": 12,
-        "average": "----"
-    },
-    {
-        "code": "BMSC236",
-        "description": "FOUNDATIONS OF MEDICINE II",
-        "credits": 10,
-        "average": "----"
-    },
-    {
-        "code": "BMSC251",
-        "description": "COLLOQUIUM IN BIOMEDICAL SCIENCES",
-        "credits": 1,
         "average": "----"
     },
     {
@@ -1272,10 +1146,10 @@
         "average": "----"
     },
     {
-        "code": "BPSC097",
-        "description": "LOWER-DIVISION RESEARCH",
-        "credits": 0,
-        "average": "----"
+        "code": "BPSC104",
+        "description": "FOUNDATIONS OF PLANT BIOLOGY",
+        "credits": 4,
+        "average": "7.00"
     },
     {
         "code": "BPSC143",
@@ -1320,14 +1194,14 @@
         "average": "----"
     },
     {
-        "code": "BPSC237",
-        "description": "PLANT CELL BIOLOGY",
-        "credits": 4,
+        "code": "BPSC230",
+        "description": "MOLECULAR PLANT-MICROBIAL INTERACTIONS",
+        "credits": 3,
         "average": "----"
     },
     {
-        "code": "BPSC245",
-        "description": "ADVANCED PLANT ECOLOGY",
+        "code": "BPSC237",
+        "description": "PLANT CELL BIOLOGY",
         "credits": 4,
         "average": "----"
     },
@@ -1413,7 +1287,7 @@
         "code": "BUS104",
         "description": "DECISION ANALYSIS AND MANAGEMENT SCIENCE",
         "credits": 4,
-        "average": "5.40"
+        "average": "5.67"
     },
     {
         "code": "BUS105",
@@ -1446,12 +1320,6 @@
         "average": "5.00"
     },
     {
-        "code": "BUS111",
-        "description": "SERVICES MARKETING",
-        "credits": 4,
-        "average": "----"
-    },
-    {
         "code": "BUS112",
         "description": "CONSUMER BEHAVIOR",
         "credits": 4,
@@ -1460,6 +1328,12 @@
     {
         "code": "BUS113",
         "description": "MARKETING INSTITUTIONS",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "BUS114",
+        "description": "MARKETING IN A GLOBAL ENVIRONMENT",
         "credits": 4,
         "average": "----"
     },
@@ -1476,12 +1350,6 @@
         "average": "----"
     },
     {
-        "code": "BUS119",
-        "description": "DATA-DRIVEN MARKETING",
-        "credits": 4,
-        "average": "----"
-    },
-    {
         "code": "BUS123",
         "description": "SPREADSHEET MODELING FOR DECISION-MAKING",
         "credits": 4,
@@ -1494,8 +1362,8 @@
         "average": "----"
     },
     {
-        "code": "BUS129",
-        "description": "SUPPLY CHAIN MANAGEMENT",
+        "code": "BUS128",
+        "description": "PROJECT PLANNING AND CONTROL",
         "credits": 4,
         "average": "----"
     },
@@ -1542,20 +1410,20 @@
         "average": "----"
     },
     {
-        "code": "BUS146",
-        "description": "INTRODUCTION TO ENTREPRENEURSHIP",
+        "code": "BUS149",
+        "description": "ADVANCED TOPICS IN MANAGEMENT AND DECISION-MAKING",
         "credits": 4,
         "average": "3.00"
     },
     {
-        "code": "BUS149",
-        "description": "ADVANCED TOPICS IN MANAGEMENT AND DECISION-MAKING",
+        "code": "BUS152",
+        "description": "SALES MANAGEMENT",
         "credits": 4,
         "average": "----"
     },
     {
-        "code": "BUS152",
-        "description": "SALES MANAGEMENT",
+        "code": "BUS153",
+        "description": "LABOR ECONOMICS",
         "credits": 4,
         "average": "----"
     },
@@ -1584,8 +1452,8 @@
         "average": "6.00"
     },
     {
-        "code": "BUS162",
-        "description": "MANAGERIAL ECONOMICS",
+        "code": "BUS160",
+        "description": "INDUSTRIAL ORGANIZATION",
         "credits": 4,
         "average": "----"
     },
@@ -1608,32 +1476,20 @@
         "average": "----"
     },
     {
-        "code": "BUS169A",
-        "description": "AUDITING",
-        "credits": 4,
-        "average": "----"
-    },
-    {
-        "code": "BUS171",
-        "description": "SYSTEMS ANALYSIS AND DESIGN",
-        "credits": 4,
-        "average": "5.00"
-    },
-    {
         "code": "BUS172",
         "description": "INFORMATION ECONOMICS",
         "credits": 4,
         "average": "----"
     },
     {
-        "code": "BUS174",
-        "description": "ELECTRONIC COMMERCE",
+        "code": "BUS173",
+        "description": "INTRODUCTION TO DATABASES FOR MANAGEMENT",
         "credits": 4,
-        "average": "----"
+        "average": "4.00"
     },
     {
-        "code": "BUS176",
-        "description": "THE SOCIOLOGY OF WORK IN ORGANIZATIONS",
+        "code": "BUS174",
+        "description": "ELECTRONIC COMMERCE",
         "credits": 4,
         "average": "----"
     },
@@ -1683,25 +1539,13 @@
         "code": "CBNS101",
         "description": "FUNDAMENTALS OF CELL BIOLOGY",
         "credits": 4,
-        "average": "6.20"
-    },
-    {
-        "code": "CBNS106",
-        "description": "INTRODUCTION TO NEUROSCIENCE",
-        "credits": 4,
-        "average": "6.67"
+        "average": "6.33"
     },
     {
         "code": "CBNS120L",
         "description": "NEUROSCIENCE LABORATORY",
         "credits": 2,
         "average": "5.50"
-    },
-    {
-        "code": "CBNS121",
-        "description": "DEVELOPMENTAL NEUROSCIENCE",
-        "credits": 4,
-        "average": "4.00"
     },
     {
         "code": "CBNS124",
@@ -1720,12 +1564,6 @@
         "description": "NEUROSCIENCE OF LEARNING AND MEMORY",
         "credits": 4,
         "average": "----"
-    },
-    {
-        "code": "CBNS128",
-        "description": "IMMUNOLOGY",
-        "credits": 3,
-        "average": "5.00"
     },
     {
         "code": "CBNS190",
@@ -1773,6 +1611,12 @@
         "code": "CMDB203",
         "description": "ADVANCED GENETIC ANALYSIS IN MODEL ORGANISMS",
         "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "CMDB230",
+        "description": "MOLECULAR PLANT-MICROBIAL INTERACTIONS",
+        "credits": 3,
         "average": "----"
     },
     {
@@ -1854,12 +1698,6 @@
         "average": "6.00"
     },
     {
-        "code": "CEE136",
-        "description": "AEROSOL TECHNOLOGY",
-        "credits": 4,
-        "average": "----"
-    },
-    {
         "code": "CEE158",
         "description": "PROFESSIONAL DEVELOPMENT FOR ENGINEERS",
         "credits": 3,
@@ -1891,7 +1729,7 @@
     },
     {
         "code": "CEE236",
-        "description": "ENERGY: PRDUCTION, UES, ECONOMICS, AND SUSTAINABILITY",
+        "description": "ENERGY: PRODUCTION, USE, ECONOMICS, AND SUSTAINABILITY",
         "credits": 4,
         "average": "----"
     },
@@ -1920,20 +1758,8 @@
         "average": "----"
     },
     {
-        "code": "CEE259",
-        "description": "SPECIAL TOPICS IN MATERIALS ELECTROCHEMISTRY",
-        "credits": 1,
-        "average": "----"
-    },
-    {
         "code": "CEE260",
         "description": "STRUCTURAL ORDERING IN COLLOIDAL DISPERSIONS",
-        "credits": 0,
-        "average": "----"
-    },
-    {
-        "code": "CEE265",
-        "description": "SPECIAL TOPICS IN MICROBIAL FATE AND TRANSPORT IN AQUATIC ENVIRONMENTS",
         "credits": 0,
         "average": "----"
     },
@@ -1944,21 +1770,9 @@
         "average": "----"
     },
     {
-        "code": "CEE267",
-        "description": "SPECIAL TOPICS IN BIONANOTECHNOLOGY",
-        "credits": 2,
-        "average": "----"
-    },
-    {
         "code": "CEE286",
         "description": "COLLOQUIUM IN CHEMICAL AND ENVIRONMENTAL ENGINEERING",
         "credits": 1,
-        "average": "----"
-    },
-    {
-        "code": "CEE290",
-        "description": "DIRECTED STUDIES",
-        "credits": 0,
         "average": "----"
     },
     {
@@ -2001,7 +1815,7 @@
         "code": "CHEM001A",
         "description": "GENERAL CHEMISTRY",
         "credits": 4,
-        "average": "5.73"
+        "average": "5.71"
     },
     {
         "code": "CHEM001C",
@@ -2010,10 +1824,16 @@
         "average": "5.96"
     },
     {
+        "code": "CHEM002A",
+        "description": "GENERAL CHEMISTRY FOR CHEMISTRY MAJORS",
+        "credits": 4,
+        "average": "----"
+    },
+    {
         "code": "CHEM008A",
         "description": "ORGANIC CHEMISTRY",
         "credits": 3,
-        "average": "6.83"
+        "average": "6.92"
     },
     {
         "code": "CHEM008C",
@@ -2032,6 +1852,18 @@
         "description": "GENERAL CHEMISTRY LABORATORY",
         "credits": 1,
         "average": "7.17"
+    },
+    {
+        "code": "CHEM02LA",
+        "description": "GENERAL CHEMISTRY LABORATORY FOR CHEMISTRY MAJORS",
+        "credits": 1,
+        "average": "----"
+    },
+    {
+        "code": "CHEM08HA",
+        "description": "HONORS ORGANIC CHEMISTRY",
+        "credits": 3,
+        "average": "----"
     },
     {
         "code": "CHEM08LA",
@@ -2226,6 +2058,12 @@
         "average": "----"
     },
     {
+        "code": "CHN002",
+        "description": "FIRST-YEAR CHINESE",
+        "credits": 4,
+        "average": "----"
+    },
+    {
         "code": "CHN003",
         "description": "FIRST-YEAR CHINESE",
         "credits": 4,
@@ -2259,17 +2097,17 @@
         "code": "CHN101A",
         "description": "THIRD-YEAR CHINESE",
         "credits": 4,
-        "average": "----"
-    },
-    {
-        "code": "CHN136",
-        "description": "FAMILY AND GENDER IN THE CHINESE SHORT STORY",
-        "credits": 4,
-        "average": "----"
+        "average": "4.00"
     },
     {
         "code": "CHN137",
         "description": "CONTEMPORARY CHINESE LITERATURE IN TRANSLATION",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "CHN141",
+        "description": "MILITARISM AND HEGEMONY IN THE ANCIENT WORLD",
         "credits": 4,
         "average": "----"
     },
@@ -2283,11 +2121,23 @@
         "code": "CLA040",
         "description": "CLASSICAL MYTHOLOGY",
         "credits": 4,
-        "average": "4.00"
+        "average": "3.33"
+    },
+    {
+        "code": "CLA141",
+        "description": "MILITARISM AND HEGEMONY IN THE ANCIENT WORLD",
+        "credits": 4,
+        "average": "----"
     },
     {
         "code": "CPAC133",
         "description": "ANCIENT WRITING AND LITERACY",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "CPAC141",
+        "description": "MILITARISM AND HEGEMONY IN THE ANCIENT WORLD",
         "credits": 4,
         "average": "----"
     },
@@ -2298,10 +2148,10 @@
         "average": "----"
     },
     {
-        "code": "CPLT023",
-        "description": "MODERN JAPAN AND PERSONAL NARRATIVE",
+        "code": "CPLT024",
+        "description": "WORLD CINEMA",
         "credits": 4,
-        "average": "4.50"
+        "average": "----"
     },
     {
         "code": "CPLT030",
@@ -2310,32 +2160,26 @@
         "average": "----"
     },
     {
-        "code": "CPLT070",
-        "description": "INTRODUCTION TO AFRICAN LITERATURE",
-        "credits": 4,
-        "average": "8.50"
-    },
-    {
-        "code": "CPLT131",
-        "description": "MARX, NIETZSCHE, FREUD",
+        "code": "CPLT056",
+        "description": "CULTURES OF THE JAPANESE EMPIRE",
         "credits": 4,
         "average": "----"
     },
     {
-        "code": "CPLT193",
-        "description": "CAPSTONE RESEARCH SEMINAR",
+        "code": "CPLT116",
+        "description": "JAPAN AND ITS OTHERS",
         "credits": 4,
         "average": "----"
     },
     {
-        "code": "CPLT210",
-        "description": "CANONS IN COMPARATIVE LITERATURE",
+        "code": "CPLT187",
+        "description": "METAFICTION",
         "credits": 4,
         "average": "----"
     },
     {
-        "code": "CPLT270",
-        "description": "MODERN AFRICAN LITERATURE",
+        "code": "CPLT277",
+        "description": "SEMINAR IN COMPARATIVE LITERATURE",
         "credits": 4,
         "average": "----"
     },
@@ -2442,16 +2286,34 @@
         "average": "2.53"
     },
     {
+        "code": "CS009A",
+        "description": "DATA ORIENTED INTRODUCTION TO COMPUTING I",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "CS009B",
+        "description": "DATA ORIENTED INTRODUCTION TO COMPUTING II",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "CS009C",
+        "description": "C++ FOR PROGRAMMERS",
+        "credits": 2,
+        "average": "----"
+    },
+    {
         "code": "CS010A",
         "description": "INTRODUCTION TO COMPUTER SCIENCE FOR SCIENCE, MATHEMATICS, AND ENGINEERING I",
-        "credits": 4,
+        "credits": 0,
         "average": "3.14"
     },
     {
         "code": "CS010B",
         "description": "INTRODUCTION TO COMPUTER SCIENCE FOR SCIENCE, MATHEMATICS, AND ENGINEERING II",
         "credits": 4,
-        "average": "6.68"
+        "average": "6.65"
     },
     {
         "code": "CS010C",
@@ -2469,7 +2331,7 @@
         "code": "CS061",
         "description": "MACHINE ORGANIZATION AND ASSEMBLY LANGUAGE PROGRAMMING",
         "credits": 4,
-        "average": "6.75"
+        "average": "6.70"
     },
     {
         "code": "CS100",
@@ -2487,7 +2349,7 @@
         "code": "CS111",
         "description": "DISCRETE STRUCTURES",
         "credits": 4,
-        "average": "7.77"
+        "average": "7.75"
     },
     {
         "code": "CS120A",
@@ -2499,7 +2361,7 @@
         "code": "CS120B",
         "description": "INTRODUCTION TO EMBEDDED SYSTEMS",
         "credits": 4,
-        "average": "7.05"
+        "average": "7.04"
     },
     {
         "code": "CS130",
@@ -2520,6 +2382,12 @@
         "average": "8.55"
     },
     {
+        "code": "CS145",
+        "description": "COMBINATORIAL OPTIMIZATION ALGORITHMS",
+        "credits": 4,
+        "average": "----"
+    },
+    {
         "code": "CS150",
         "description": "AUTOMATA AND FORMAL LANGUAGES",
         "credits": 4,
@@ -2529,13 +2397,13 @@
         "code": "CS152",
         "description": "COMPILER DESIGN",
         "credits": 4,
-        "average": "7.50"
+        "average": "7.25"
     },
     {
         "code": "CS153",
         "description": "DESIGN OF OPERATING SYSTEMS",
         "credits": 4,
-        "average": "6.62"
+        "average": "6.53"
     },
     {
         "code": "CS160",
@@ -2547,7 +2415,7 @@
         "code": "CS161",
         "description": "DESIGN AND ARCHITECTURE OF COMPUTER SYSTEMS",
         "credits": 4,
-        "average": "4.45"
+        "average": "4.42"
     },
     {
         "code": "CS164",
@@ -2556,10 +2424,10 @@
         "average": "8.00"
     },
     {
-        "code": "CS165",
-        "description": "COMPUTER SECURITY",
+        "code": "CS166",
+        "description": "DATABASE MANAGEMENT SYSTEMS",
         "credits": 4,
-        "average": "9.60"
+        "average": "8.60"
     },
     {
         "code": "CS170",
@@ -2574,16 +2442,16 @@
         "average": "9.73"
     },
     {
+        "code": "CS175",
+        "description": "ENTREPRENEURSHIP IN COMPUTING",
+        "credits": 4,
+        "average": "3.50"
+    },
+    {
         "code": "CS178A",
         "description": "PROJECT SEQUENCE IN COMPUTER SCIENCE AND ENGINEERING",
         "credits": 4,
         "average": "----"
-    },
-    {
-        "code": "CS179E",
-        "description": "PROJECT IN COMPUTER SCIENCE: COMPLIERS",
-        "credits": 4,
-        "average": "10.00"
     },
     {
         "code": "CS179F",
@@ -2598,16 +2466,22 @@
         "average": "4.00"
     },
     {
-        "code": "CS180",
-        "description": "INTRODUCTION TO SOFTWARE ENGINEERING",
+        "code": "CS181",
+        "description": "PRINCIPLES OF PROGRAMMING LANGUAGES",
+        "credits": 4,
+        "average": "9.00"
+    },
+    {
+        "code": "CS182",
+        "description": "SOFTWARE TESTING AND VERIFICATION",
         "credits": 4,
         "average": "6.00"
     },
     {
-        "code": "CS183",
-        "description": "UNIX SYSTEM ADMINISTRATION",
-        "credits": 4,
-        "average": "4.00"
+        "code": "CS189",
+        "description": "APPRENTICE TUTORING",
+        "credits": 1,
+        "average": "----"
     },
     {
         "code": "CS190",
@@ -2631,7 +2505,7 @@
         "code": "CS201",
         "description": "COMPILER CONSTRUCTION",
         "credits": 4,
-        "average": "----"
+        "average": "6.00"
     },
     {
         "code": "CS202",
@@ -2682,12 +2556,6 @@
         "average": "9.00"
     },
     {
-        "code": "CS224",
-        "description": "FUNDAMENTALS OF MACHINE LEARNING",
-        "credits": 4,
-        "average": "----"
-    },
-    {
         "code": "CS225",
         "description": "SPATIAL COMPUTING",
         "credits": 4,
@@ -2698,6 +2566,12 @@
         "description": "BIG-DATA MANAGEMENT",
         "credits": 4,
         "average": "4.00"
+    },
+    {
+        "code": "CS234",
+        "description": "COMPUTATIONAL METHODS FOR BIOMOLECULAR DATA",
+        "credits": 4,
+        "average": "----"
     },
     {
         "code": "CS235",
@@ -2712,10 +2586,10 @@
         "average": "7.00"
     },
     {
-        "code": "CS240",
-        "description": "NETWORK ROUTING",
+        "code": "CS239",
+        "description": "PERFORMANCE EVALUATION OF COMPUTER NETWORKS",
         "credits": 4,
-        "average": "3.00"
+        "average": "----"
     },
     {
         "code": "CS248",
@@ -2724,8 +2598,14 @@
         "average": "----"
     },
     {
-        "code": "CS253",
-        "description": "DISTRIBUTED SYSTEMS",
+        "code": "CS255",
+        "description": "COMPUTER SECURITY",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "CS260",
+        "description": "SEMINAR IN COMPUTER SCIENCE",
         "credits": 4,
         "average": "----"
     },
@@ -2772,8 +2652,14 @@
         "average": "----"
     },
     {
+        "code": "CRWT045",
+        "description": "THE PROSE POEM AND &quot;SHORT-SHORT&quot; STORY",
+        "credits": 4,
+        "average": "----"
+    },
+    {
         "code": "CRWT046S",
-        "description": "COOL &amp; EXCITNG FICTION",
+        "description": "CRAFT OF WRITING: SURVEY IN CONTEMPORARY FICTION",
         "credits": 4,
         "average": "3.50"
     },
@@ -2781,7 +2667,7 @@
         "code": "CRWT056",
         "description": "INTRODUCTION TO CREATIVE WRITING",
         "credits": 4,
-        "average": "2.55"
+        "average": "2.46"
     },
     {
         "code": "CRWT057A",
@@ -2808,14 +2694,26 @@
         "average": "2.00"
     },
     {
+        "code": "CRWT076",
+        "description": "THE VERBAL COLISEUM: SPOKEN WORD WORKSHOP",
+        "credits": 5,
+        "average": "----"
+    },
+    {
         "code": "CRWT130",
         "description": "BEGINNING CREATIVE NONFICTION",
         "credits": 4,
         "average": "----"
     },
     {
+        "code": "CRWT132",
+        "description": "INTERMEDIATE CREATIVE NONFICTION",
+        "credits": 4,
+        "average": "----"
+    },
+    {
         "code": "CRWT146",
-        "description": "THE SENTENCE",
+        "description": "MISFITS, MISCREANTS AND WEIRDO",
         "credits": 4,
         "average": "----"
     },
@@ -2856,8 +2754,8 @@
         "average": "----"
     },
     {
-        "code": "CRWT185",
-        "description": "SPECIAL TOPICS IN NONFICTION",
+        "code": "CRWT187",
+        "description": "METAFICTION",
         "credits": 4,
         "average": "----"
     },
@@ -2868,14 +2766,20 @@
         "average": "----"
     },
     {
+        "code": "CWPA231",
+        "description": "DIRECTING FOR WRITERS",
+        "credits": 4,
+        "average": "----"
+    },
+    {
         "code": "CWPA246",
-        "description": "FICTION AND FILM",
+        "description": "THE END OF THE WORLD",
         "credits": 4,
         "average": "----"
     },
     {
         "code": "CWPA252E",
-        "description": "THE PRINCIPLES OF POETRY",
+        "description": "TRANSFORMATIONAL WORKS",
         "credits": 4,
         "average": "----"
     },
@@ -2898,8 +2802,8 @@
         "average": "----"
     },
     {
-        "code": "CWPA268",
-        "description": "WRITING THE HALF-HOUR TELEVISION COMEDY",
+        "code": "CWPA267",
+        "description": "WRITING FOR TELEVISION",
         "credits": 4,
         "average": "----"
     },
@@ -2925,13 +2829,19 @@
         "code": "DNCE005",
         "description": "INTRODUCTION TO DANCE",
         "credits": 4,
-        "average": "2.80"
+        "average": "2.83"
     },
     {
         "code": "DNCE007",
         "description": "DANCE: CULTURES AND CONTEXTS",
-        "credits": 0,
+        "credits": 4,
         "average": "6.00"
+    },
+    {
+        "code": "DNCE012",
+        "description": "DANCE AND POPULAR CULTURE",
+        "credits": 4,
+        "average": "----"
     },
     {
         "code": "DNCE014",
@@ -2946,6 +2856,18 @@
         "average": "----"
     },
     {
+        "code": "DNCE065A",
+        "description": "BEGINNING LATIN AMERICAN SOCIAL DANCES",
+        "credits": 2,
+        "average": "3.00"
+    },
+    {
+        "code": "DNCE065B",
+        "description": "INTERMEDIATE LATIN AMERICAN SOCIAL DANCES",
+        "credits": 2,
+        "average": "----"
+    },
+    {
         "code": "DNCE066A",
         "description": "BEGINNING WEST AFRICAN DANCE",
         "credits": 2,
@@ -2954,6 +2876,24 @@
     {
         "code": "DNCE066B",
         "description": "INTERMEDIATE WEST AFRICAN DANCE",
+        "credits": 2,
+        "average": "----"
+    },
+    {
+        "code": "DNCE067A",
+        "description": "BEGINNING MODERN DANCE TECHNIQUE",
+        "credits": 2,
+        "average": "----"
+    },
+    {
+        "code": "DNCE067C",
+        "description": "ADVANCED MODERN DANCE TECHNIQUE",
+        "credits": 2,
+        "average": "----"
+    },
+    {
+        "code": "DNCE068",
+        "description": "SOMATIC TECHNIQUES AND EXPERIENTIAL ANATOMY",
         "credits": 2,
         "average": "----"
     },
@@ -2976,26 +2916,14 @@
         "average": "----"
     },
     {
-        "code": "DNCE071B",
-        "description": "INTERMEDIATE BALLET TECHNIQUE",
-        "credits": 2,
-        "average": "----"
-    },
-    {
-        "code": "DNCE073A",
-        "description": "BEGINNING JAZZ DANCE",
-        "credits": 2,
-        "average": "----"
-    },
-    {
         "code": "DNCE075A",
-        "description": "BEGINNING DANCE TECHNIQUES AND PRACTICES",
+        "description": "HULA DANCE",
         "credits": 2,
         "average": "----"
     },
     {
         "code": "DNCE075B",
-        "description": "IMPROVISATION",
+        "description": "KOREAN DANCE",
         "credits": 2,
         "average": "----"
     },
@@ -3006,8 +2934,8 @@
         "average": "----"
     },
     {
-        "code": "DNCE131",
-        "description": "DANCE, GENDER, SEXUALITY",
+        "code": "DNCE136",
+        "description": "HIP HOP DANCE, COLLECTIVITY, &amp; CHANGE",
         "credits": 4,
         "average": "----"
     },
@@ -3042,12 +2970,6 @@
         "average": "----"
     },
     {
-        "code": "DNCE267",
-        "description": "CHOREOGRAPHIES OF WRITING",
-        "credits": 4,
-        "average": "----"
-    },
-    {
         "code": "DNCE290",
         "description": "DIRECTED STUDIES",
         "credits": 0,
@@ -3069,19 +2991,13 @@
         "code": "ECON002",
         "description": "INTRODUCTION TO MACROECONOMICS",
         "credits": 5,
-        "average": "3.71"
+        "average": "3.92"
     },
     {
         "code": "ECON003",
         "description": "INTRODUCTION TO MICROECONOMICS",
         "credits": 5,
-        "average": "3.88"
-    },
-    {
-        "code": "ECON006",
-        "description": "INTRODUCTION TO ENVIRONMENTAL ECONOMICS",
-        "credits": 4,
-        "average": "4.67"
+        "average": "3.92"
     },
     {
         "code": "ECON101",
@@ -3098,14 +3014,14 @@
     {
         "code": "ECON104A",
         "description": "INTERMEDIATE MICROECONOMIC THEORY",
-        "credits": 5,
-        "average": "5.33"
+        "credits": 0,
+        "average": "5.75"
     },
     {
         "code": "ECON105A",
         "description": "INTERMEDIATE MACROECONOMIC THEORY",
         "credits": 5,
-        "average": "6.00"
+        "average": "5.00"
     },
     {
         "code": "ECON107",
@@ -3116,6 +3032,18 @@
     {
         "code": "ECON119",
         "description": "LAW AND ECONOMICS",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "ECON123",
+        "description": "AMERICAN ECONOMIC HISTORY",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "ECON130",
+        "description": "INTRODUCTION TO MONEY, BANKING, AND CREDIT",
         "credits": 4,
         "average": "----"
     },
@@ -3132,22 +3060,28 @@
         "average": "6.00"
     },
     {
-        "code": "ECON143",
-        "description": "ENVIRONMENTAL ECONOMICS",
-        "credits": 4,
-        "average": "3.00"
-    },
-    {
         "code": "ECON150",
         "description": "ROCKONOMICS: TOPICS IN APPLIED MICROECONOMICS THROUGH THE LENS OF THE MUSIC INDUSTRY",
         "credits": 4,
         "average": "----"
     },
     {
-        "code": "ECON162",
-        "description": "MANAGERIAL ECONOMICS",
+        "code": "ECON153",
+        "description": "LABOR ECONOMICS",
         "credits": 4,
-        "average": "6.67"
+        "average": "----"
+    },
+    {
+        "code": "ECON160",
+        "description": "INDUSTRIAL ORGANIZATION",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "ECON171",
+        "description": "INTERNATIONAL FINANCE",
+        "credits": 4,
+        "average": "6.00"
     },
     {
         "code": "ECON178",
@@ -3156,9 +3090,33 @@
         "average": "4.00"
     },
     {
+        "code": "ECON181",
+        "description": "ECONOMIC DEVELOPMENT: THEORY AND POLICY",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "ECON193A",
+        "description": "SENIOR SEMINAR",
+        "credits": 4,
+        "average": "----"
+    },
+    {
         "code": "ECON200A",
         "description": "MICROECONOMIC THEORY",
         "credits": 6,
+        "average": "----"
+    },
+    {
+        "code": "ECON201A",
+        "description": "MACROECONOMIC THEORY",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "ECON205A",
+        "description": "ECONOMETRIC METHODS I",
+        "credits": 4,
         "average": "----"
     },
     {
@@ -3243,25 +3201,19 @@
         "code": "EDUC005",
         "description": "INTRODUCTION TO EDUCATION STUDIES",
         "credits": 4,
-        "average": "2.00"
+        "average": "2.75"
     },
     {
         "code": "EDUC010",
         "description": "PRINCIPALS OF LEARNING STRATEGIES",
         "credits": 4,
-        "average": "1.50"
+        "average": "1.67"
     },
     {
         "code": "EDUC023",
         "description": "INTRODUCTION TO EDUCATION POLICY",
         "credits": 4,
         "average": "5.00"
-    },
-    {
-        "code": "EDUC032A",
-        "description": "INTRODUCTION TO CHILDREN WITH SPECIAL NEEDS",
-        "credits": 4,
-        "average": "----"
     },
     {
         "code": "EDUC050",
@@ -3294,8 +3246,14 @@
         "average": "----"
     },
     {
-        "code": "EDUC122",
-        "description": "EDUCATION, DIGITAL MEDIA, AND DEMOCRATIC ENGAGEMENT",
+        "code": "EDUC123",
+        "description": "SCHOOL EFFECTIVENESS AND EDUCATIONAL EQUITY",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "EDUC142",
+        "description": "LANGUAGE AND SOCIETY",
         "credits": 4,
         "average": "----"
     },
@@ -3306,20 +3264,14 @@
         "average": "----"
     },
     {
-        "code": "EDUC151",
-        "description": "WO/MEN WHO CONTROL OUR UNIVERSITIES: LEADERSHIP, ADMINISTRATION,AND GOVERNANCE IN HIGHER EDUCATION",
+        "code": "EDUC149",
+        "description": "ETHNIC STUDIES IN K12 CONTEXTS",
         "credits": 4,
         "average": "----"
     },
     {
-        "code": "EDUC154",
-        "description": "EDUCATIONAL LEADERSHIP IN A DIVERSE SOCIETY",
-        "credits": 4,
-        "average": "----"
-    },
-    {
-        "code": "EDUC160",
-        "description": "COGNITIVE DEVELOPMENT AND EDUCATION",
+        "code": "EDUC153",
+        "description": "WHITENESS, POWER, AND PRIVILEGE",
         "credits": 4,
         "average": "----"
     },
@@ -3366,38 +3318,20 @@
         "average": "----"
     },
     {
-        "code": "EDUC198",
-        "description": "RCOURSE PUBLIC HEALTH APPLICATIONS IN THE IE",
-        "credits": 1,
-        "average": "----"
-    },
-    {
-        "code": "EDUC209",
-        "description": "EDUCATION POLICY ANALYSIS",
-        "credits": 4,
-        "average": "----"
-    },
-    {
-        "code": "EDUC211A",
-        "description": "COGNITIVE DEVELOPMENT",
-        "credits": 4,
-        "average": "----"
-    },
-    {
         "code": "EDUC214A",
         "description": "INTRODUCTION TO QUANTITATIVE METHODS",
         "credits": 4,
         "average": "----"
     },
     {
-        "code": "EDUC215C",
-        "description": "STRUCTURAL EQUATION MODELING",
+        "code": "EDUC220B",
+        "description": "SOCIOCULTURAL THEORY AND EDUCATION",
         "credits": 4,
         "average": "----"
     },
     {
-        "code": "EDUC220A",
-        "description": "SOCIOCULTURAL THEORY AND EDUCATION",
+        "code": "EDUC225",
+        "description": "CHICANA/O CURRICULA K-12: THEORY INTO PRAXIS",
         "credits": 4,
         "average": "----"
     },
@@ -3438,26 +3372,20 @@
         "average": "----"
     },
     {
-        "code": "EDUC238",
-        "description": "EDUCATION AND GENDER",
-        "credits": 4,
-        "average": "----"
-    },
-    {
         "code": "EDUC241B",
         "description": "INTRODUCTION TO QUALITATIVE METHODS",
         "credits": 4,
         "average": "----"
     },
     {
-        "code": "EDUC246N",
-        "description": "EARLY INTERVENTION",
+        "code": "EDUC246J",
+        "description": "CONTEMPORARY ISSUES AND TRENDS",
         "credits": 4,
         "average": "----"
     },
     {
-        "code": "EDUC248E",
-        "description": "DEMOGRAPHICS&amp;DIVERSITY HIGH ED",
+        "code": "EDUC246T",
+        "description": "BRAIN AND BEHAVIOR",
         "credits": 4,
         "average": "----"
     },
@@ -3468,14 +3396,20 @@
         "average": "----"
     },
     {
+        "code": "EDUC248S",
+        "description": "THE COLLEGE STUDENT",
+        "credits": 4,
+        "average": "----"
+    },
+    {
         "code": "EDUC248T",
         "description": "UNDERSTANDG RES IN HIGHER EDUC",
         "credits": 4,
         "average": "----"
     },
     {
-        "code": "EDUC248U",
-        "description": "HISTORY OF HIGHER EDUC IN USA",
+        "code": "EDUC248W",
+        "description": "WHITENESS, POWER, AND PRIVILEGE",
         "credits": 4,
         "average": "----"
     },
@@ -3516,26 +3450,20 @@
         "average": "----"
     },
     {
+        "code": "EDUC267",
+        "description": "INTRODUCTION TO IMPLEMENTATION SCIENCE AND PRACTICE: REDUCING THE RESEARCH TO PRACTICE GAP IN SCHOOL",
+        "credits": 4,
+        "average": "----"
+    },
+    {
         "code": "EDUC268A",
         "description": "ADVANCED PRACTICUM IN SCHOOL PSYCHOLOGY: LEVEL 1",
         "credits": 2,
         "average": "----"
     },
     {
-        "code": "EDUC269E",
-        "description": "Embodied Cognition and STEM Teaching and Learning",
-        "credits": 4,
-        "average": "----"
-    },
-    {
-        "code": "EDUC275A",
-        "description": "RACE AND EDUCATIONAL INEQUITY",
-        "credits": 4,
-        "average": "----"
-    },
-    {
-        "code": "EDUC282A",
-        "description": "CURRICULUM THEORY AND INSTRUCTIONAL PROCESSES: MATHEMATICS AND SCIENCE",
+        "code": "EDUC278",
+        "description": "CRITICAL RACE THEORY IN EDUCATION",
         "credits": 4,
         "average": "----"
     },
@@ -3570,6 +3498,12 @@
         "average": "----"
     },
     {
+        "code": "EDUC287A",
+        "description": "CURRICULUM, INSTRUCTION, AND FUNCTIONAL COMMUNICATION FOR STUDENTS WITH SEVERE DISABILITIES",
+        "credits": 4,
+        "average": "----"
+    },
+    {
         "code": "EDUC290",
         "description": "DIRECTED STUDIES",
         "credits": 0,
@@ -3590,7 +3524,7 @@
     {
         "code": "EDUC298I",
         "description": "INDIVIDUAL INTERNSHIP",
-        "credits": 4,
+        "credits": 0,
         "average": "----"
     },
     {
@@ -3603,12 +3537,6 @@
         "code": "EDUC302",
         "description": "COLLEGE TEACHING PRACTICUM",
         "credits": 0,
-        "average": "----"
-    },
-    {
-        "code": "EDUC335A",
-        "description": "SUPERVISED TEACHING IN SPECIAL EDUCATION",
-        "credits": 4,
         "average": "----"
     },
     {
@@ -3642,16 +3570,22 @@
         "average": "----"
     },
     {
-        "code": "EE005",
-        "description": "CIRCUITS AND ELECTRONICS",
-        "credits": 4,
-        "average": "----"
-    },
-    {
         "code": "EE010",
         "description": "INTRODUCTION TO ELECTRICAL ENGINEERING",
         "credits": 2,
         "average": "2.00"
+    },
+    {
+        "code": "EE016",
+        "description": "DATA ANALYSIS FOR ENGINEERING APPLICATIONS",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "EE020A",
+        "description": "INTRODUCTION TO ORDINARY DIFFERENTIAL EQUATIONS FOR PHYSICAL SCIENCES AND ENGINEERING",
+        "credits": 4,
+        "average": "----"
     },
     {
         "code": "EE030A",
@@ -3678,6 +3612,12 @@
         "average": "4.00"
     },
     {
+        "code": "EE114",
+        "description": "PROBABILITY, RANDOM VARIABLES, AND RANDOM PROCESSES IN ELECTRICAL ENGINEERING",
+        "credits": 4,
+        "average": "5.00"
+    },
+    {
         "code": "EE115",
         "description": "INTRODUCTION TO COMMUNICATION SYSTEMS",
         "credits": 4,
@@ -3699,7 +3639,7 @@
         "code": "EE120B",
         "description": "INTRODUCTION TO EMBEDDED SYSTEMS",
         "credits": 4,
-        "average": "7.05"
+        "average": "7.04"
     },
     {
         "code": "EE128",
@@ -3750,15 +3690,27 @@
         "average": "8.00"
     },
     {
+        "code": "EE145",
+        "description": "ROBOTIC PLANNING AND KINEMATICS",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "EE161",
+        "description": "ANALYTICAL MATERIALS CHARACTERIZATION",
+        "credits": 4,
+        "average": "----"
+    },
+    {
         "code": "EE175A",
         "description": "SENIOR DESIGN PROJECT",
-        "credits": 4,
+        "credits": 0,
         "average": "----"
     },
     {
         "code": "EE190",
         "description": "SPECIAL STUDIES",
-        "credits": 0,
+        "credits": 4,
         "average": "----"
     },
     {
@@ -3798,8 +3750,8 @@
         "average": "----"
     },
     {
-        "code": "EE231",
-        "description": "CONVEX OPTIMIZATION IN ENGINEERING APPLICATIONS",
+        "code": "EE233",
+        "description": "OPTIMAL CONTROL AND ESTIMATION",
         "credits": 4,
         "average": "----"
     },
@@ -3912,6 +3864,12 @@
         "average": "----"
     },
     {
+        "code": "ENGR202",
+        "description": "INTRODUCTION TO SYSTEMS ENGINEERING",
+        "credits": 4,
+        "average": "----"
+    },
+    {
         "code": "ENGR203",
         "description": "PRINCIPLES OF ENGINEERING MANAGEMENT",
         "credits": 4,
@@ -3927,19 +3885,25 @@
         "code": "ENGL001A",
         "description": "BEGINNING COMPOSITION",
         "credits": 4,
-        "average": "4.85"
+        "average": "4.67"
     },
     {
         "code": "ENGL001B",
         "description": "INTERMEDIATE COMPOSITION",
         "credits": 4,
-        "average": "4.94"
+        "average": "5.00"
     },
     {
         "code": "ENGL001C",
         "description": "APPLIED INTERMEDIATE COMPOSITION",
         "credits": 4,
-        "average": "5.16"
+        "average": "5.29"
+    },
+    {
+        "code": "ENGL004",
+        "description": "ENGLISH WRITING",
+        "credits": 4,
+        "average": "6.22"
     },
     {
         "code": "ENGL004L",
@@ -3954,8 +3918,20 @@
         "average": "----"
     },
     {
+        "code": "ENGL007",
+        "description": "BUS 100W WRITING WORKSHOP",
+        "credits": 0,
+        "average": "----"
+    },
+    {
         "code": "ENGL012A",
         "description": "INTRODUCTION TO POETRY",
+        "credits": 4,
+        "average": "3.00"
+    },
+    {
+        "code": "ENGL012O",
+        "description": "AMERICAN INDIAN LITERATURE",
         "credits": 4,
         "average": "----"
     },
@@ -3966,16 +3942,22 @@
         "average": "3.00"
     },
     {
-        "code": "ENGL017",
-        "description": "SHAKESPEARE",
+        "code": "ENGL018",
+        "description": "SHAKESPEARE ON FILM",
         "credits": 4,
-        "average": "2.00"
+        "average": "----"
     },
     {
-        "code": "ENGL020C",
-        "description": "INTRODUCTION TO ALTERNATIVE CRITICAL PERSPECTIVES ON LITERATURE AND CULTURE",
+        "code": "ENGL01PA",
+        "description": "BEGINNING COMPOSITION:  INTENSIVE",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "ENGL020A",
+        "description": "INTRODUCTION TO BRITISH LITERARY TRADITION",
         "credits": 5,
-        "average": "3.00"
+        "average": "5.00"
     },
     {
         "code": "ENGL022",
@@ -3984,16 +3966,16 @@
         "average": "----"
     },
     {
-        "code": "ENGL100E",
-        "description": "KING JAMES BIBLE AS LITERATURE",
-        "credits": 4,
-        "average": "----"
-    },
-    {
         "code": "ENGL102W",
         "description": "INTRODUCTION TO CRITICAL METHODS",
         "credits": 4,
         "average": "8.00"
+    },
+    {
+        "code": "ENGL104",
+        "description": "FILM AND MEDIA THEORY",
+        "credits": 4,
+        "average": "----"
     },
     {
         "code": "ENGL117T",
@@ -4008,14 +3990,14 @@
         "average": "----"
     },
     {
-        "code": "ENGL127SC",
-        "description": "AMERICAN POETRY:  LATER TWENTIETH CENTURY TO THE PRESENT",
+        "code": "ENGL127SA",
+        "description": "AMERICAN POETRY: BEFORE 1900",
         "credits": 5,
         "average": "----"
     },
     {
-        "code": "ENGL128O",
-        "description": "MELVILLE",
+        "code": "ENGL129C",
+        "description": "ENGLISH AND AMERICAN DRAMA: MODERN BRITISH AND AMERICAN DRAMA",
         "credits": 4,
         "average": "----"
     },
@@ -4026,39 +4008,63 @@
         "average": "----"
     },
     {
-        "code": "ENGL134",
-        "description": "AMERICAN LITERATURE, 1945 TO THE PRESENT",
+        "code": "ENGL138A",
+        "description": "AFRICAN AMERICAN LITERATURE THROUGH THE HARLEM RENAISSANCE",
         "credits": 4,
         "average": "----"
     },
     {
-        "code": "ENGL136",
-        "description": "LATINA AND LATINO LITERATURE",
+        "code": "ENGL139",
+        "description": "ASIAN AMERICAN LITERATURE",
         "credits": 4,
         "average": "----"
     },
     {
-        "code": "ENGL141M",
-        "description": "LITERATURE AND MEDICINE",
+        "code": "ENGL140J",
+        "description": "THE MODES OF NARRATIVE",
         "credits": 4,
         "average": "----"
     },
     {
-        "code": "ENGL143K",
-        "description": "QUEERS THAT KILL",
+        "code": "ENGL144J",
+        "description": "FILM, RACE,&amp;IDEOLGY:VIETNM WA",
         "credits": 4,
         "average": "----"
     },
     {
-        "code": "ENGL146G",
-        "description": "CULTRS&amp;TECHNLGIES OF THE AURAL",
+        "code": "ENGL144K",
+        "description": "DECOLONIZING THE SCREEN",
         "credits": 4,
         "average": "----"
     },
     {
-        "code": "ENGL176T",
-        "description": "STUDIES IN TWENTIETH-CENTURY BRITISH AND AMERICAN LITERATURE",
+        "code": "ENGL145E",
+        "description": "HOLLYWOOD IN THE 1960S",
         "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "ENGL145K",
+        "description": "AFRICAN AMERICAN VISUAL CULTUR",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "ENGL146E",
+        "description": "IDENTITIES AND INTERACTIONS",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "ENGL166T",
+        "description": "STUDIES IN ENGLISH ROMANTICISM",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "ENGL179SD",
+        "description": "SCIENCE FICTION ON FILM",
+        "credits": 5,
         "average": "----"
     },
     {
@@ -4074,26 +4080,20 @@
         "average": "----"
     },
     {
-        "code": "ENGL198I",
-        "description": "INDIVIDUAL INTERNSHIP IN ENGLISH",
-        "credits": 0,
-        "average": "----"
-    },
-    {
         "code": "ENGL200",
         "description": "INTRODUCTION TO GRADUATE STUDY IN ENGLISH",
         "credits": 4,
         "average": "----"
     },
     {
-        "code": "ENGL247",
-        "description": "SEMINAR IN SCIENCE, LITERATURE AND MEDIA",
+        "code": "ENGL251",
+        "description": "SEMINAR IN BLACK LITERARY AND CULTURAL STUDIES",
         "credits": 4,
         "average": "----"
     },
     {
-        "code": "ENGL270",
-        "description": "SEMINAR IN AMERICAN LITERATURE SINCE 1900",
+        "code": "ENGL273",
+        "description": "SEMINAR IN CULTURAL STUDIES",
         "credits": 4,
         "average": "----"
     },
@@ -4104,14 +4104,8 @@
         "average": "----"
     },
     {
-        "code": "ENGL278",
-        "description": "SEMINAR IN MINORITY DISCOURSE",
-        "credits": 4,
-        "average": "----"
-    },
-    {
-        "code": "ENGL289",
-        "description": "SEMINAR IN GENRES",
+        "code": "ENGL276",
+        "description": "SEMINAR IN COLONIALISM AND POSTCOLONIALITY",
         "credits": 4,
         "average": "----"
     },
@@ -4231,7 +4225,7 @@
     },
     {
         "code": "ENTM249",
-        "description": "SPECIAL TOPICS IN ENTOMOLOGY",
+        "description": "TOPICS IN SOCIAL EVOLUTION",
         "credits": 6,
         "average": "----"
     },
@@ -4250,6 +4244,18 @@
     {
         "code": "ENTM261",
         "description": "SEMINAR IN GENETICS, GENOMICS, AND BIOINFORMATICS",
+        "credits": 1,
+        "average": "----"
+    },
+    {
+        "code": "ENTM271",
+        "description": "RESEARCH SEMINAR IN MANAGEMENT OF VEGETABLE CROP PESTS",
+        "credits": 1,
+        "average": "----"
+    },
+    {
+        "code": "ENTM276",
+        "description": "RESEARCH SEMINAR IN MEDICAL, URBAN, AND VETERINARY ENTOMOLOGY",
         "credits": 1,
         "average": "----"
     },
@@ -4302,6 +4308,12 @@
         "average": "----"
     },
     {
+        "code": "ENVE138",
+        "description": "COMBUSTION ENGINEERING",
+        "credits": 4,
+        "average": "----"
+    },
+    {
         "code": "ENVE160B",
         "description": "ENVIRONMENTAL ENGINEERING LABORATORY",
         "credits": 3,
@@ -4324,18 +4336,6 @@
         "description": "INTRODUCTION TO ENVIRONMENTAL SCIENCE: NATURAL RESOURCES",
         "credits": 4,
         "average": "2.00"
-    },
-    {
-        "code": "ENSC006",
-        "description": "INTRODUCTION TO ENVIRONMENTAL ECONOMICS",
-        "credits": 4,
-        "average": "5.80"
-    },
-    {
-        "code": "ENSC100",
-        "description": "INTRODUCTION TO SOIL SCIENCE",
-        "credits": 4,
-        "average": "4.50"
     },
     {
         "code": "ENSC102",
@@ -4404,12 +4404,6 @@
         "average": "----"
     },
     {
-        "code": "ENSC292",
-        "description": "CONCURRENT AND ADVANCED STUDIES",
-        "credits": 0,
-        "average": "----"
-    },
-    {
         "code": "ENSC297",
         "description": "DIRECTED RESEARCH",
         "credits": 0,
@@ -4425,6 +4419,12 @@
         "code": "ENSC302",
         "description": "TEACHING PRACTICUM",
         "credits": 0,
+        "average": "----"
+    },
+    {
+        "code": "ENTX101",
+        "description": "FUNDAMENTAL TOXICOLOGY",
+        "credits": 4,
         "average": "----"
     },
     {
@@ -4488,6 +4488,12 @@
         "average": "5.08"
     },
     {
+        "code": "ETST004",
+        "description": "INTRODUCTION TO CHICANO HISTORY",
+        "credits": 4,
+        "average": "----"
+    },
+    {
         "code": "ETST007",
         "description": "INTRODUCTION TO NATIVE AMERICAN STUDIES IN COMPARATIVE PERSPECTIVE",
         "credits": 4,
@@ -4506,8 +4512,26 @@
         "average": "----"
     },
     {
+        "code": "ETST106",
+        "description": "THEORY IN ASIAN AMERICAN STUDIES",
+        "credits": 4,
+        "average": "3.00"
+    },
+    {
         "code": "ETST109I",
         "description": "THE BLACK DIASPORA: CULTURAL, POLITICAL, AND HISTORICAL CONNECTIONS",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "ETST121",
+        "description": "CALIFORNIA NATIVE CULTURES",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "ETST124",
+        "description": "THE CHICANA",
         "credits": 4,
         "average": "----"
     },
@@ -4524,15 +4548,21 @@
         "average": "----"
     },
     {
-        "code": "ETST179",
-        "description": "RACE AND ENVIRONMENT: NATURE, COLONIALISM, AND JUSTICE",
+        "code": "ETST189",
+        "description": "POPULAR CULTURE AND THE PRODUCTION OF RACE",
         "credits": 4,
-        "average": "----"
+        "average": "3.00"
     },
     {
         "code": "ETST190",
         "description": "SPECIAL STUDIES",
         "credits": 0,
+        "average": "----"
+    },
+    {
+        "code": "ETST191R",
+        "description": "RESEARCH METHODOLOGY",
+        "credits": 4,
         "average": "----"
     },
     {
@@ -4548,14 +4578,14 @@
         "average": "----"
     },
     {
-        "code": "ETST200",
-        "description": "HISTORY OF IDEAS IN ETHNIC STUDIES",
+        "code": "ETST243E",
+        "description": "RACE AND NATIONAL CHARACTER",
         "credits": 4,
         "average": "----"
     },
     {
         "code": "ETST243G",
-        "description": "RACE AND HUMAN RIGHTS",
+        "description": "RACIAL CAPITALISM",
         "credits": 4,
         "average": "----"
     },
@@ -4602,13 +4632,13 @@
         "average": "----"
     },
     {
-        "code": "EUR042",
-        "description": "ITALIAN AMERICANS: VOICES AND VISIONS",
-        "credits": 4,
+        "code": "ETST405",
+        "description": "PROSEMINAR ON PROFESSIONALIZATION",
+        "credits": 2,
         "average": "----"
     },
     {
-        "code": "EUR111A",
+        "code": "EUR111C",
         "description": "SURVEY OF RUSSIAN CIVILIZATION",
         "credits": 4,
         "average": "----"
@@ -4620,8 +4650,8 @@
         "average": "----"
     },
     {
-        "code": "EUR150",
-        "description": "ITALIAN THEATRE",
+        "code": "EUR185",
+        "description": "MODERN AND CONTEMPORARY ITALIAN LITERATURE IN TRANSLATION",
         "credits": 4,
         "average": "----"
     },
@@ -4701,7 +4731,7 @@
         "code": "FREN002",
         "description": "INTRODUCTION TO FRENCH",
         "credits": 4,
-        "average": "2.00"
+        "average": "2.50"
     },
     {
         "code": "FREN003",
@@ -4728,8 +4758,8 @@
         "average": "----"
     },
     {
-        "code": "FREN112",
-        "description": "MYTHOLOGY IN FRENCH LITERATURE, FILM, AND THE VISUAL ARTS",
+        "code": "FREN124P",
+        "description": "PORTRAYLS OF WOMN IN LIT &amp;FILM",
         "credits": 4,
         "average": "----"
     },
@@ -4752,9 +4782,9 @@
         "average": "----"
     },
     {
-        "code": "GSST011",
-        "description": "MEDIA IMAGERY OF WOMEN AND CLASS",
-        "credits": 4,
+        "code": "GSST010S",
+        "description": "WOMEN AND CULTURE",
+        "credits": 5,
         "average": "----"
     },
     {
@@ -4776,38 +4806,32 @@
         "average": "----"
     },
     {
-        "code": "GSST103",
-        "description": "SEXUALITIES AND CULTURE",
+        "code": "GSST101",
+        "description": "WOMEN, WORK, AND CAPITALISM",
         "credits": 4,
         "average": "----"
     },
     {
-        "code": "GSST126",
-        "description": "GENDER, SEXUALITY, AND MUSIC IN CROSS-CULTURAL PERSPECTIVES",
+        "code": "GSST108",
+        "description": "PHILOSOPHICAL ISSUES OF RACE AND GENDER",
         "credits": 4,
         "average": "----"
     },
     {
-        "code": "GSST127",
-        "description": "DANCE, GENDER, SEXUALITY",
+        "code": "GSST112",
+        "description": "HISTORY OF QUEER CINEMA",
         "credits": 4,
         "average": "----"
     },
     {
-        "code": "GSST131",
-        "description": "SUSTAINABILITY, GENDER AND DEVELOPMENT IN THE GLOBAL SOUTH",
+        "code": "GSST139",
+        "description": "COMING OUT AND SEXUAL IDENTITY",
         "credits": 4,
         "average": "----"
     },
     {
-        "code": "GSST136",
-        "description": "WOMEN AND GRASSROOTS ORGANIZING",
-        "credits": 4,
-        "average": "----"
-    },
-    {
-        "code": "GSST137",
-        "description": "CRITICAL QUEER POLITICS",
+        "code": "GSST146",
+        "description": "HISTORY OF NATIVE AMERICAN WOMEN",
         "credits": 4,
         "average": "----"
     },
@@ -4824,26 +4848,20 @@
         "average": "----"
     },
     {
-        "code": "GSST168",
-        "description": "GENDER AND POWER IN MUSLIM SOCIETIES",
+        "code": "GSST162",
+        "description": "WOMEN&#39;S ISSUES IN MODERN MUSLIM THOUGHT",
         "credits": 4,
         "average": "----"
     },
     {
-        "code": "GSST183",
-        "description": "FEMINIST POLITICS OF FOOD",
+        "code": "GSST186",
+        "description": "GENDER, POWER, AND SHIFTING IDENTITIES",
         "credits": 4,
         "average": "----"
     },
     {
         "code": "GSST190",
         "description": "SPECIAL STUDIES",
-        "credits": 0,
-        "average": "----"
-    },
-    {
-        "code": "GSST198G",
-        "description": "GRP INTRNSHP: GNDR &amp; SXLTY",
         "credits": 0,
         "average": "----"
     },
@@ -4874,6 +4892,12 @@
     {
         "code": "GEN220",
         "description": "COMPUTATIONAL ANALYSIS OF HIGH THROUGHPUT BIOLOGICAL DATA",
+        "credits": 3,
+        "average": "----"
+    },
+    {
+        "code": "GEN230",
+        "description": "MOLECULAR PLANT-MICROBIAL INTERACTIONS",
         "credits": 3,
         "average": "----"
     },
@@ -4914,6 +4938,12 @@
         "average": "3.00"
     },
     {
+        "code": "GEO006",
+        "description": "PLANETS IN SCIENCE FICTION",
+        "credits": 4,
+        "average": "----"
+    },
+    {
         "code": "GEO008",
         "description": "EARTHQUAKE COUNTRY",
         "credits": 4,
@@ -4924,12 +4954,6 @@
         "description": "OCEANOGRAPHY",
         "credits": 4,
         "average": "3.88"
-    },
-    {
-        "code": "GEO013",
-        "description": "OUR PLANETARY NEIGHBORS: THE SOLAR SYSTEM AND BEYOND",
-        "credits": 4,
-        "average": "6.00"
     },
     {
         "code": "GEO111",
@@ -4950,21 +4974,15 @@
         "average": "----"
     },
     {
+        "code": "GEO144",
+        "description": "EARTHQUAKE SEISMOLOGY",
+        "credits": 4,
+        "average": "----"
+    },
+    {
         "code": "GEO150",
         "description": "YOUR FUTURE IN THE EARTH AND PLANETARY SCIENCES",
         "credits": 1,
-        "average": "----"
-    },
-    {
-        "code": "GEO152",
-        "description": "PRINCIPLES OF INVERTEBRATE PALEOBIOLOGY AND PALEOECOLOGY",
-        "credits": 4,
-        "average": "----"
-    },
-    {
-        "code": "GEO162",
-        "description": "GEOMORPHOLOGY",
-        "credits": 4,
         "average": "----"
     },
     {
@@ -5025,6 +5043,12 @@
         "code": "GEO240",
         "description": "SEMINAR IN EARTHQUAKE PROCESSES AND GEOPHYSICS",
         "credits": 1,
+        "average": "----"
+    },
+    {
+        "code": "GEO249",
+        "description": "TECTONIC GEOMORPHOLOGY AND QUATERNARY FIELD TECHNIQUES",
+        "credits": 4,
         "average": "----"
     },
     {
@@ -5118,12 +5142,6 @@
         "average": "----"
     },
     {
-        "code": "GER131",
-        "description": "MARX, NIETZSCHE, FREUD",
-        "credits": 4,
-        "average": "----"
-    },
-    {
         "code": "GER190",
         "description": "SPECIAL STUDIES",
         "credits": 0,
@@ -5133,6 +5151,12 @@
         "code": "GBST001",
         "description": "GLOBAL HISTORY, CULTURE, AND IDEAS",
         "credits": 5,
+        "average": "----"
+    },
+    {
+        "code": "GBST003",
+        "description": "CROSSING CULTURE",
+        "credits": 1,
         "average": "----"
     },
     {
@@ -5184,8 +5208,8 @@
         "average": "7.00"
     },
     {
-        "code": "GRK107",
-        "description": "PLATO",
+        "code": "GRK101N",
+        "description": "XENOPHON",
         "credits": 4,
         "average": "----"
     },
@@ -5202,16 +5226,28 @@
         "average": "----"
     },
     {
+        "code": "HIST001",
+        "description": "THE HISTORIAN AS DETECTIVE",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "HIST004",
+        "description": "INTRODUCTION TO CHICANO HISTORY",
+        "credits": 4,
+        "average": "----"
+    },
+    {
         "code": "HIST010",
         "description": "WORLD HISTORY: PREHISTORY TO 1500",
         "credits": 4,
-        "average": "4.50"
+        "average": "4.53"
     },
     {
         "code": "HIST015",
         "description": "WORLD HISTORY: 1500 TO 1900",
         "credits": 4,
-        "average": "5.52"
+        "average": "5.50"
     },
     {
         "code": "HIST017B",
@@ -5223,19 +5259,25 @@
         "code": "HIST020",
         "description": "WORLD HISTORY: THE LONG TWENTIETH CENTURY",
         "credits": 4,
-        "average": "4.67"
-    },
-    {
-        "code": "HIST020W",
-        "description": "WORLD HISTORY: THE LONG TWENTIETH CENTURY",
-        "credits": 4,
-        "average": "6.25"
+        "average": "4.57"
     },
     {
         "code": "HIST030",
-        "description": "CHE GUEVARA",
+        "description": "THOMAS JEFFERSON&amp;SALLY HEMINGS",
         "credits": 4,
         "average": "----"
+    },
+    {
+        "code": "HIST037",
+        "description": "HISTORY OF NORTH AMERICAN INDIANS, 1900-PRESENT",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "HIST039",
+        "description": "INTRODUCTION TO ASIAN AMERICAN HISTORY",
+        "credits": 4,
+        "average": "3.00"
     },
     {
         "code": "HIST099W",
@@ -5250,14 +5292,32 @@
         "average": "2.80"
     },
     {
-        "code": "HIST184",
-        "description": "THE VIETNAM WARS",
+        "code": "HIST122",
+        "description": "MODERN MIDDLE EAST HISTORY (1800-1935)",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "HIST130B",
+        "description": "HISTORY OF CHRISTIANITY: MODERN ERA",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "HIST138",
+        "description": "AFRICAN CITIES IN MODERN HISTORY",
         "credits": 4,
         "average": "----"
     },
     {
         "code": "HIST197",
-        "description": "DONALD TRUMP&#39;S AMERICA",
+        "description": "RELIGION IN MEXICO",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "HIST201C",
+        "description": "READING SEMINAR IN AMERICAN HISTORY: UNITED STATES, 1877 TO THE PRESENT",
         "credits": 4,
         "average": "----"
     },
@@ -5274,8 +5334,14 @@
         "average": "----"
     },
     {
-        "code": "HIST263",
-        "description": "ARCHIVAL MANAGEMENT",
+        "code": "HIST254",
+        "description": "Hemispheric and Transnational Histories",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "HIST260",
+        "description": "HISTORIC PRESERVATION",
         "credits": 4,
         "average": "----"
     },
@@ -5328,8 +5394,20 @@
         "average": "----"
     },
     {
+        "code": "HISE112",
+        "description": "ANCIENT GREECE FROM CLASSICAL ATHENS TO THE DEATH OF ALEXANDER",
+        "credits": 4,
+        "average": "----"
+    },
+    {
         "code": "HISE114",
         "description": "ANCIENT WRITING AND LITERACY",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "HISE115",
+        "description": "THE ROMAN REPUBLIC",
         "credits": 4,
         "average": "----"
     },
@@ -5340,16 +5418,46 @@
         "average": "----"
     },
     {
+        "code": "HISE150",
+        "description": "ANCIENT AND MEDIEVAL ENGLAND",
+        "credits": 4,
+        "average": "----"
+    },
+    {
         "code": "HISA114",
         "description": "THE AMERICAN CIVIL WAR",
         "credits": 4,
         "average": "----"
     },
     {
+        "code": "HISA117A",
+        "description": "UNITED STATES, 1914 TO 1945",
+        "credits": 4,
+        "average": "3.00"
+    },
+    {
         "code": "HISA119",
         "description": "MODERN UNITED STATES CONSUMER CULTURE",
         "credits": 4,
         "average": "3.50"
+    },
+    {
+        "code": "HISA123",
+        "description": "AMERICAN ECONOMIC HISTORY",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "HISA146",
+        "description": "HISTORY OF NATIVE AMERICAN WOMEN",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "HISA163A",
+        "description": "COLONIAL MEXICO",
+        "credits": 4,
+        "average": "----"
     },
     {
         "code": "HNPG002W",
@@ -5371,13 +5479,7 @@
     },
     {
         "code": "HNPG018",
-        "description": "HUNGER &amp; FAMINE",
-        "credits": 4,
-        "average": "----"
-    },
-    {
-        "code": "HNPG150",
-        "description": "RESEARCH AND CREATIVE ACTIVITY ACROSS THE DISCIPLINES",
+        "description": "GENOMES AND SOCIETY",
         "credits": 4,
         "average": "----"
     },
@@ -5397,12 +5499,6 @@
         "code": "HASS090",
         "description": "SPECIAL STUDIES",
         "credits": 0,
-        "average": "----"
-    },
-    {
-        "code": "HASS100",
-        "description": "STUDIES IN LEADERSHIP AND ORGANIZATIONAL EFFECTIVENESS",
-        "credits": 5,
         "average": "----"
     },
     {
@@ -5448,14 +5544,14 @@
         "average": "----"
     },
     {
-        "code": "ITAL042",
-        "description": "ITALIAN AMERICANS: VOICES AND VISIONS",
+        "code": "ITAL045",
+        "description": "ITALIAN CINEMA",
         "credits": 4,
         "average": "----"
     },
     {
-        "code": "ITAL150",
-        "description": "ITALIAN THEATRE",
+        "code": "ITAL185",
+        "description": "MODERN AND CONTEMPORARY ITALIAN LITERATURE IN TRANSLATION",
         "credits": 4,
         "average": "----"
     },
@@ -5478,10 +5574,10 @@
         "average": "----"
     },
     {
-        "code": "JPN023",
-        "description": "MODERN JAPAN AND PERSONAL NARRATIVE",
+        "code": "JPN056",
+        "description": "CULTURES OF THE JAPANESE EMPIRE",
         "credits": 4,
-        "average": "4.50"
+        "average": "----"
     },
     {
         "code": "JPN101A",
@@ -5490,8 +5586,8 @@
         "average": "----"
     },
     {
-        "code": "JPN154F",
-        "description": "HIST OF JAPANESE POPULAR CULTU",
+        "code": "JPN116",
+        "description": "JAPAN AND ITS OTHERS",
         "credits": 4,
         "average": "----"
     },
@@ -5514,6 +5610,18 @@
         "average": "----"
     },
     {
+        "code": "KOR047",
+        "description": "INTRODUCTION TO KOREAN FILM",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "LABR001",
+        "description": "INTRODUCTION TO LABOR STUDIES",
+        "credits": 4,
+        "average": "----"
+    },
+    {
         "code": "LABR198I",
         "description": "INDIVIDUAL INTERNSHIP IN LABOR STUDIES",
         "credits": 0,
@@ -5526,8 +5634,8 @@
         "average": "----"
     },
     {
-        "code": "LATN101G",
-        "description": "VIRGIL",
+        "code": "LATN101J",
+        "description": "OVID",
         "credits": 4,
         "average": "----"
     },
@@ -5538,20 +5646,20 @@
         "average": "2.00"
     },
     {
-        "code": "LNST015",
-        "description": "LATIN AMERICAN FOLK AND POPULAR STYLES",
+        "code": "LNST027",
+        "description": "ART OF PRE-COLUMBIAN AMERICA",
         "credits": 4,
         "average": "----"
     },
     {
-        "code": "LNST105",
-        "description": "IMAGINING THE NATION:  FILM AND MEDIA IN LATIN AMERICA",
+        "code": "LNST112",
+        "description": "THE ART OF THE AZTEC EMPIRE",
         "credits": 4,
         "average": "----"
     },
     {
-        "code": "LNST124",
-        "description": "CONCEPTUAL ART IN LATIN AMERICA",
+        "code": "LNST115",
+        "description": "MODERN AND CONTEMPORARY ART OF LATIN AMERICA",
         "credits": 4,
         "average": "----"
     },
@@ -5586,14 +5694,14 @@
         "average": "----"
     },
     {
-        "code": "LGBS137",
-        "description": "CRITICAL QUEER POLITICS",
+        "code": "LGBS112",
+        "description": "HISTORY OF QUEER CINEMA",
         "credits": 4,
         "average": "----"
     },
     {
-        "code": "LGBS143K",
-        "description": "QUEERS THAT KILL",
+        "code": "LGBS139",
+        "description": "COMING OUT AND SEXUAL IDENTITY",
         "credits": 4,
         "average": "----"
     },
@@ -5622,8 +5730,14 @@
         "average": "6.25"
     },
     {
-        "code": "LING131",
-        "description": "MORPHOLOGY",
+        "code": "LING141",
+        "description": "PHONOLOGY",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "LING151",
+        "description": "SEMANTICS",
         "credits": 4,
         "average": "----"
     },
@@ -5754,12 +5868,6 @@
         "average": "----"
     },
     {
-        "code": "MGT203",
-        "description": "ECONOMICS FOR MANAGEMENT",
-        "credits": 4,
-        "average": "----"
-    },
-    {
         "code": "MGT204",
         "description": "COST AND MANAGEMENT ACCOUNTING",
         "credits": 4,
@@ -5768,6 +5876,12 @@
     {
         "code": "MGT205",
         "description": "INFORMATION SYSTEMS",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "MGT207",
+        "description": "OPERATIONS MANAGEMENT FOR COMPETITIVE ADVANTAGE",
         "credits": 4,
         "average": "----"
     },
@@ -5784,8 +5898,20 @@
         "average": "----"
     },
     {
+        "code": "MGT212",
+        "description": "APPLICATION OF BEHAVIORAL ECONOMICS TO MANAGEMENT, DECISION-MAKING, AND POLICY",
+        "credits": 4,
+        "average": "----"
+    },
+    {
         "code": "MGT218",
         "description": "ETHICS IN MANAGEMENT",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "MGT219",
+        "description": "SPREADSHEET MODELING FOR DECISION-MAKING",
         "credits": 4,
         "average": "----"
     },
@@ -5844,14 +5970,14 @@
         "average": "----"
     },
     {
-        "code": "MGT245",
-        "description": "FINANCIAL STATEMENT ANALYSIS",
+        "code": "MGT243",
+        "description": "ENTREPRENEURIAL MARKETING",
         "credits": 4,
         "average": "----"
     },
     {
-        "code": "MGT246",
-        "description": "ENTREPRENEURIAL MANAGEMENT",
+        "code": "MGT247",
+        "description": "ADVERTISING AND SALES PROMOTION MANAGEMENT",
         "credits": 4,
         "average": "----"
     },
@@ -5862,26 +5988,8 @@
         "average": "----"
     },
     {
-        "code": "MGT250",
-        "description": "MARKETING CHANNELS AND SALES FORCE",
-        "credits": 4,
-        "average": "----"
-    },
-    {
-        "code": "MGT266",
-        "description": "PROJECT MANAGEMENT",
-        "credits": 4,
-        "average": "----"
-    },
-    {
-        "code": "MGT267",
-        "description": "APPLIED BUSINESS FORECASTING",
-        "credits": 4,
-        "average": "----"
-    },
-    {
-        "code": "MGT274",
-        "description": "SPECIAL TOPICS IN FINANCE",
+        "code": "MGT256",
+        "description": "BUSINESS ANALYTICS FOR MANAGEMENT",
         "credits": 4,
         "average": "----"
     },
@@ -5952,6 +6060,12 @@
         "average": "----"
     },
     {
+        "code": "MSE155",
+        "description": "MATERIALS SCIENCE OF THE SOLID STATE",
+        "credits": 4,
+        "average": "----"
+    },
+    {
         "code": "MSE161",
         "description": "ANALYTICAL MATERIALS CHARACTERIZATION",
         "credits": 4,
@@ -5964,6 +6078,12 @@
         "average": "----"
     },
     {
+        "code": "MSE201",
+        "description": "THERMODYNAMIC FOUNDATIONS OF MATERIALS",
+        "credits": 4,
+        "average": "----"
+    },
+    {
         "code": "MSE205",
         "description": "ADVANCED PHYSICAL CHEMISTRY: THERMODYNAMICS",
         "credits": 3,
@@ -5972,12 +6092,6 @@
     {
         "code": "MSE207",
         "description": "APPLIED QUANTUM MECHANICS",
-        "credits": 4,
-        "average": "----"
-    },
-    {
-        "code": "MSE210",
-        "description": "CRYSTAL STRUCTURE AND BONDING",
         "credits": 4,
         "average": "----"
     },
@@ -6002,12 +6116,6 @@
     {
         "code": "MSE246",
         "description": "CELLULAR AND MOLECULAR ENGINEERING",
-        "credits": 4,
-        "average": "----"
-    },
-    {
-        "code": "MSE248A",
-        "description": "NANOSCALE SCIENCE AND ENGINEERING",
         "credits": 4,
         "average": "----"
     },
@@ -6093,13 +6201,13 @@
         "code": "MATH009A",
         "description": "FIRST-YEAR CALCULUS",
         "credits": 4,
-        "average": "5.50"
+        "average": "5.38"
     },
     {
         "code": "MATH009B",
         "description": "FIRST YEAR CALCULUS",
         "credits": 4,
-        "average": "5.25"
+        "average": "5.10"
     },
     {
         "code": "MATH009C",
@@ -6111,13 +6219,13 @@
         "code": "MATH010A",
         "description": "CALCULUS OF SEVERAL VARIABLES",
         "credits": 4,
-        "average": "4.64"
+        "average": "4.69"
     },
     {
         "code": "MATH010B",
         "description": "CALCULUS OF SEVERAL VARIABLES",
         "credits": 4,
-        "average": "7.00"
+        "average": "6.88"
     },
     {
         "code": "MATH011",
@@ -6129,13 +6237,19 @@
         "code": "MATH022",
         "description": "CALCULUS FOR BUSINESS",
         "credits": 5,
-        "average": "6.30"
+        "average": "6.36"
     },
     {
         "code": "MATH031",
         "description": "APPLIED LINEAR ALGEBRA",
         "credits": 5,
         "average": "4.27"
+    },
+    {
+        "code": "MATH045",
+        "description": "INTRODUCTION TO ORDINARY DIFFERENTIAL EQUATIONS FOR PHYSICAL SCIENCES AND ENGINEERING",
+        "credits": 4,
+        "average": "----"
     },
     {
         "code": "MATH046",
@@ -6271,7 +6385,7 @@
     },
     {
         "code": "MATH260",
-        "description": "OPERATR ALGEBRAS&amp;RELATED TOPCS",
+        "description": "MATHEMATICL PHYS&amp;DYNAMICAL SYS",
         "credits": 0,
         "average": "----"
     },
@@ -6304,12 +6418,6 @@
         "description": "APPRENTICE TEACHING",
         "credits": 0,
         "average": "----"
-    },
-    {
-        "code": "ME009",
-        "description": "ENGINEERING GRAPHICS AND DESIGN",
-        "credits": 4,
-        "average": "6.00"
     },
     {
         "code": "ME018A",
@@ -6360,10 +6468,22 @@
         "average": "----"
     },
     {
+        "code": "ME136",
+        "description": "ENVIRONMENTAL IMPACTS OF ENERGY PRODUCTION AND CONVERSION",
+        "credits": 4,
+        "average": "----"
+    },
+    {
         "code": "ME144",
         "description": "FOUNDATIONS OF ROBOTICS",
         "credits": 4,
         "average": "8.00"
+    },
+    {
+        "code": "ME145",
+        "description": "ROBOTIC PLANNING AND KINEMATICS",
+        "credits": 4,
+        "average": "----"
     },
     {
         "code": "ME156",
@@ -6387,12 +6507,6 @@
         "code": "ME175B",
         "description": "MECHANICAL ENGINEERING DESIGN",
         "credits": 3,
-        "average": "----"
-    },
-    {
-        "code": "ME176",
-        "description": "SUSTAINABLE PRODUCT DESIGN",
-        "credits": 4,
         "average": "----"
     },
     {
@@ -6426,8 +6540,20 @@
         "average": "----"
     },
     {
+        "code": "ME220",
+        "description": "OPTIMAL CONTROL AND ESTIMATION",
+        "credits": 4,
+        "average": "----"
+    },
+    {
         "code": "ME221",
         "description": "KINEMATICS AND DYNAMICS OF ROBOTS",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "ME240A",
+        "description": "FUNDAMENTALS OF FLUID MECHANICS",
         "credits": 4,
         "average": "----"
     },
@@ -6444,14 +6570,14 @@
         "average": "----"
     },
     {
-        "code": "ME270",
-        "description": "INTRODUCTION TO MICROELECTROMECHANICAL SYSTEMS",
+        "code": "ME261",
+        "description": "THEORY OF ELASTICITY",
         "credits": 4,
         "average": "----"
     },
     {
-        "code": "ME272",
-        "description": "NANOSCALE SCIENCE AND ENGINEERING",
+        "code": "ME270",
+        "description": "INTRODUCTION TO MICROELECTROMECHANICAL SYSTEMS",
         "credits": 4,
         "average": "----"
     },
@@ -6498,22 +6624,52 @@
         "average": "5.50"
     },
     {
+        "code": "MCS002",
+        "description": "INTRODUCTION TO IMMERSIVE MEDIA",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "MCS005",
+        "description": "MEDIA STUDIES: THEORY AND PRACTICE",
+        "credits": 4,
+        "average": "2.33"
+    },
+    {
         "code": "MCS006",
         "description": "INTRODUCTION TO CONTEMPORARY CRITICAL ISSUES IN ART",
         "credits": 4,
         "average": "1.00"
     },
     {
-        "code": "MCS010",
-        "description": "CULTURAL STUDIES: HISTORICAL AND CONTEMPORARY PERSPECTIVES",
+        "code": "MCS009",
+        "description": "MUSIC IN MOVIES AND TV",
         "credits": 4,
-        "average": "4.00"
+        "average": "----"
     },
     {
-        "code": "MCS015",
-        "description": "INTRODUCTION TO TELEVISION STUDIES",
+        "code": "MCS020",
+        "description": "INTRODUCTION TO FILM STUDIES",
         "credits": 4,
-        "average": "2.00"
+        "average": "1.33"
+    },
+    {
+        "code": "MCS024",
+        "description": "WORLD CINEMA",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "MCS044",
+        "description": "ITALIAN CINEMA",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "MCS047",
+        "description": "INTRODUCTION TO KOREAN FILM",
+        "credits": 4,
+        "average": "3.00"
     },
     {
         "code": "MCS066",
@@ -6522,32 +6678,56 @@
         "average": "----"
     },
     {
-        "code": "MCS110J",
-        "description": "FILM &amp;MEDIA HISTORY AFTER WWII",
+        "code": "MCS104",
+        "description": "FILM AND MEDIA THEORY",
         "credits": 4,
         "average": "----"
     },
     {
-        "code": "MCS131",
-        "description": "INTERMEDIATE PHOTOGRAPHY AND DIGITAL TECHNOLOGY",
+        "code": "MCS105",
+        "description": "GLOBAL COMMUNICATION",
         "credits": 4,
         "average": "----"
     },
     {
-        "code": "MCS140",
-        "description": "ALTERNATIVE MEDIA PRODUCTION AND SOCIAL MOVEMENTS",
+        "code": "MCS112",
+        "description": "HISTORY OF QUEER CINEMA",
         "credits": 4,
         "average": "----"
     },
     {
-        "code": "MCS143K",
-        "description": "QUEERS THAT KILL",
+        "code": "MCS134",
+        "description": "TRANSMEDIA: DEMONSTRATION PROJECT",
         "credits": 4,
         "average": "----"
     },
     {
-        "code": "MCS146G",
-        "description": "CULTRS&amp;TECHNLGIES OF THE AURAL",
+        "code": "MCS144J",
+        "description": "FILM, RACE,&amp;IDEOLGY:VIETNM WA",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "MCS144K",
+        "description": "DECOLONIZING THE SCREEN",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "MCS145E",
+        "description": "HOLLYWOOD IN THE 1960S",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "MCS145K",
+        "description": "AFRICAN AMERICAN VISUAL CULTUR",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "MCS146E",
+        "description": "IDENTITIES AND INTERACTIONS",
         "credits": 4,
         "average": "----"
     },
@@ -6564,20 +6744,14 @@
         "average": "----"
     },
     {
-        "code": "MCS160",
-        "description": "RACE, STATE VIOLENCE, AND INCARCERATION IN THE UNITED STATES",
-        "credits": 4,
-        "average": "----"
-    },
-    {
         "code": "MCS172",
-        "description": "LIVE VIDEO POLITCS:DIGITAL AGE",
+        "description": "COMEDY AS SOCIAL CRITIQUE",
         "credits": 4,
         "average": "----"
     },
     {
-        "code": "MCS185",
-        "description": "IMAGINING THE NATION:  FILM AND MEDIA IN LATIN AMERICA",
+        "code": "MCS189",
+        "description": "POLITICAL CULTURE OF RACE AND POLICING: DOMESTIC WARFARE, COUNTERINSURGENCY, AND ABOLITION",
         "credits": 4,
         "average": "----"
     },
@@ -6585,12 +6759,6 @@
         "code": "MCS190",
         "description": "SPECIAL STUDIES",
         "credits": 0,
-        "average": "----"
-    },
-    {
-        "code": "MCS193",
-        "description": "WHITE SLAVE TRADE",
-        "credits": 4,
         "average": "----"
     },
     {
@@ -6602,12 +6770,6 @@
     {
         "code": "MCS201",
         "description": "RACIAL-COLONIAL (STATE) VIOLENCE",
-        "credits": 4,
-        "average": "----"
-    },
-    {
-        "code": "MCS278",
-        "description": "SEMINAR IN MINORITY DISCOURSE",
         "credits": 4,
         "average": "----"
     },
@@ -6636,16 +6798,16 @@
         "average": "----"
     },
     {
-        "code": "MCBL120L",
-        "description": "INTRODUCTION TO PLANT PATHOLOGY LABORATORY",
-        "credits": 1,
-        "average": "----"
-    },
-    {
         "code": "MCBL121",
         "description": "INTRODUCTORY MICROBIOLOGY",
         "credits": 4,
-        "average": "6.00"
+        "average": "6.25"
+    },
+    {
+        "code": "MCBL121L",
+        "description": "MICROBIOLOGY LABORATORY",
+        "credits": 3,
+        "average": "4.00"
     },
     {
         "code": "MCBL133",
@@ -6669,6 +6831,12 @@
         "code": "MCBL198I",
         "description": "INDIVIDUAL INTERNSHIP IN MICROBIOLOGY",
         "credits": 0,
+        "average": "----"
+    },
+    {
+        "code": "MCBL211",
+        "description": "MICROBIAL ECOLOGY",
+        "credits": 3,
         "average": "----"
     },
     {
@@ -6714,22 +6882,28 @@
         "average": "1.50"
     },
     {
+        "code": "MUS006",
+        "description": "INTRODUCTION TO WORLD MUSIC",
+        "credits": 4,
+        "average": "5.50"
+    },
+    {
+        "code": "MUS007",
+        "description": "MUSIC IN MOVIES AND TV",
+        "credits": 4,
+        "average": "----"
+    },
+    {
         "code": "MUS008",
         "description": "POPULAR MUSIC CULTURES OF THE UNITED STATES",
         "credits": 4,
         "average": "5.25"
     },
     {
-        "code": "MUS015",
-        "description": "LATIN AMERICAN FOLK AND POPULAR STYLES",
+        "code": "MUS023",
+        "description": "AUDIO RECORDING AND PRODUCTION",
         "credits": 4,
         "average": "----"
-    },
-    {
-        "code": "MUS020",
-        "description": "MUSIC OF SCOTLAND",
-        "credits": 4,
-        "average": "1.00"
     },
     {
         "code": "MUS030A",
@@ -6740,6 +6914,12 @@
     {
         "code": "MUS031A",
         "description": "MUSIC THEORY AND MUSICIANSHIP I",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "MUS044",
+        "description": "INTRODUCTION TO SONGWRITING",
         "credits": 4,
         "average": "----"
     },
@@ -6888,8 +7068,8 @@
         "average": "----"
     },
     {
-        "code": "MUS126",
-        "description": "GENDER, SEXUALITY, AND MUSIC IN CROSS-CULTURAL PERSPECTIVES",
+        "code": "MUS120",
+        "description": "CONTEMPORARY NATIVE AMERICAN MUSIC",
         "credits": 4,
         "average": "----"
     },
@@ -6900,8 +7080,14 @@
         "average": "----"
     },
     {
-        "code": "MUS131A",
+        "code": "MUS131C",
         "description": "MUSIC THEORY AND MUSICIANSHIP II",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "MUS134",
+        "description": "ORCHESTRATION",
         "credits": 4,
         "average": "----"
     },
@@ -6909,12 +7095,6 @@
         "code": "MUS149",
         "description": "COMPOSITION FORUM AND STUDIO",
         "credits": 2,
-        "average": "----"
-    },
-    {
-        "code": "MUS154E",
-        "description": "BEETHOVEN: THE MUSIC &amp;THE MYTH",
-        "credits": 4,
         "average": "----"
     },
     {
@@ -6966,6 +7146,12 @@
         "average": "----"
     },
     {
+        "code": "MUS168",
+        "description": "JAVANESE GAMELAN ENSEMBLE: BEGINNING",
+        "credits": 2,
+        "average": "----"
+    },
+    {
         "code": "MUS169",
         "description": "TAIKO ENSEMBLE",
         "credits": 1,
@@ -6978,6 +7164,12 @@
         "average": "----"
     },
     {
+        "code": "MUS174",
+        "description": "LATIN AMERICAN MUSIC ENSEMBLE",
+        "credits": 0,
+        "average": "----"
+    },
+    {
         "code": "MUS175A",
         "description": "BEGINNING MARIACHI ENSEMBLE",
         "credits": 0,
@@ -6986,18 +7178,6 @@
     {
         "code": "MUS175B",
         "description": "INTERMEDIATE MARIACHI ENSEMBLE",
-        "credits": 0,
-        "average": "----"
-    },
-    {
-        "code": "MUS176",
-        "description": "BAGPIPE ENSEMBLE",
-        "credits": 1,
-        "average": "----"
-    },
-    {
-        "code": "MUS177",
-        "description": "MUSIC OF NORTH INDIA: TABLA (DRUMS)",
         "credits": 0,
         "average": "----"
     },
@@ -7140,20 +7320,26 @@
         "average": "----"
     },
     {
+        "code": "MUS191U",
+        "description": "SEMINAR IN MUSIC",
+        "credits": 4,
+        "average": "----"
+    },
+    {
         "code": "MUS195",
         "description": "SENIOR THESIS",
         "credits": 0,
         "average": "----"
     },
     {
-        "code": "MUS263",
-        "description": "SEMINAR IN SPECIAL TOPICS IN MUSICOLOGY",
+        "code": "MUS200",
+        "description": "MUSIC BIBLIOGRAPHY",
         "credits": 4,
         "average": "----"
     },
     {
-        "code": "MUS270",
-        "description": "SPECIAL TOPICS IN ETHNOMUSICOLOGY",
+        "code": "MUS258",
+        "description": "COMPOSITION SEMINAR",
         "credits": 4,
         "average": "----"
     },
@@ -7314,38 +7500,44 @@
         "average": "----"
     },
     {
-        "code": "PHIL001",
-        "description": "INTRODUCTION TO PHILOSOPHY",
-        "credits": 0,
-        "average": "3.64"
+        "code": "PHIL002",
+        "description": "CONTEMPORARY MORAL ISSUES",
+        "credits": 4,
+        "average": "5.00"
     },
     {
-        "code": "PHIL003W",
+        "code": "PHIL003",
         "description": "ETHICS AND THE MEANING OF LIFE",
         "credits": 4,
         "average": "6.00"
     },
     {
+        "code": "PHIL005",
+        "description": "EVIL",
+        "credits": 4,
+        "average": "5.80"
+    },
+    {
         "code": "PHIL007",
         "description": "INTRODUCTION TO CRITICAL THINKING",
         "credits": 4,
-        "average": "6.67"
+        "average": "6.00"
     },
     {
-        "code": "PHIL009",
-        "description": "BIOMEDICAL ETHICS",
+        "code": "PHIL008",
+        "description": "INTRODUCTION TO LOGIC",
         "credits": 4,
-        "average": "3.60"
+        "average": "4.91"
     },
     {
-        "code": "PHIL030E",
-        "description": "HELLENC PHIL:PRE-SOCRTCS-ARIST",
+        "code": "PHIL101",
+        "description": "SOPHOMORE AND JUNIOR LECTURE",
         "credits": 4,
-        "average": "8.50"
+        "average": "8.00"
     },
     {
-        "code": "PHIL100",
-        "description": "SOPHOMORE-JUNIOR SEMINAR",
+        "code": "PHIL108",
+        "description": "PHILOSOPHICAL ISSUES OF RACE AND GENDER",
         "credits": 4,
         "average": "----"
     },
@@ -7362,14 +7554,8 @@
         "average": "----"
     },
     {
-        "code": "PHIL121Q",
-        "description": "NIETZSCHE",
-        "credits": 4,
-        "average": "----"
-    },
-    {
-        "code": "PHIL122J",
-        "description": "EARLY MODERN PHILOSOPHY",
+        "code": "PHIL121K",
+        "description": "HUME",
         "credits": 4,
         "average": "----"
     },
@@ -7380,14 +7566,14 @@
         "average": "----"
     },
     {
-        "code": "PHIL135",
-        "description": "PHILOSOPHY OF PSYCHOLOGY",
+        "code": "PHIL137",
+        "description": "PHILOSOPHY OF SCIENCE",
         "credits": 4,
         "average": "----"
     },
     {
-        "code": "PHIL151",
-        "description": "EXISTENTIALISM",
+        "code": "PHIL138",
+        "description": "PHILOSOPHY OF AGENCY",
         "credits": 4,
         "average": "----"
     },
@@ -7398,26 +7584,14 @@
         "average": "----"
     },
     {
-        "code": "PHIL174",
-        "description": "PHILOSOPHY OF ART AND AESTHETICS",
+        "code": "PHIL169E",
+        "description": "ETHICS",
         "credits": 4,
         "average": "----"
     },
     {
         "code": "PHIL190",
         "description": "SPECIAL STUDIES",
-        "credits": 0,
-        "average": "----"
-    },
-    {
-        "code": "PHIL195",
-        "description": "SENIOR THESIS",
-        "credits": 0,
-        "average": "----"
-    },
-    {
-        "code": "PHIL198I",
-        "description": "INDIVIDUAL INTERNSHIP IN PHILOSOPHY",
         "credits": 0,
         "average": "----"
     },
@@ -7434,8 +7608,8 @@
         "average": "----"
     },
     {
-        "code": "PHIL282",
-        "description": "SEMINAR IN INDIVIDUAL PHILOSOPHERS",
+        "code": "PHIL280",
+        "description": "SEMINAR IN PHILOSOPHICAL PROBLEMS",
         "credits": 4,
         "average": "----"
     },
@@ -7497,13 +7671,13 @@
         "code": "PHYS002B",
         "description": "GENERAL PHYSICS",
         "credits": 4,
-        "average": "6.56"
+        "average": "6.70"
     },
     {
         "code": "PHYS006",
         "description": "THE VIOLENT UNIVERSE",
         "credits": 4,
-        "average": "2.25"
+        "average": "2.80"
     },
     {
         "code": "PHYS018",
@@ -7539,7 +7713,7 @@
         "code": "PHYS040A",
         "description": "GENERAL PHYSICS",
         "credits": 5,
-        "average": "6.05"
+        "average": "6.15"
     },
     {
         "code": "PHYS040C",
@@ -7593,12 +7767,6 @@
         "code": "PHYS142W",
         "description": "ADVANCED PHYSICS LABORATORY",
         "credits": 5,
-        "average": "----"
-    },
-    {
-        "code": "PHYS145A",
-        "description": "BIOPHYSICS",
-        "credits": 4,
         "average": "----"
     },
     {
@@ -7659,12 +7827,6 @@
         "code": "PHYS198I",
         "description": "INDIVIDUAL INTERNSHIP IN PHYSICS",
         "credits": 0,
-        "average": "----"
-    },
-    {
-        "code": "PHYS203",
-        "description": "STATISTICAL ASTRONOMY",
-        "credits": 4,
         "average": "----"
     },
     {
@@ -7734,12 +7896,6 @@
         "average": "----"
     },
     {
-        "code": "PHYS241A",
-        "description": "ADVANCED STATISTICAL PHYSICS AND FIELD THEORY",
-        "credits": 4,
-        "average": "----"
-    },
-    {
         "code": "PHYS247",
         "description": "INTRODUCTION TO APPLIED DATA SCIENCE",
         "credits": 4,
@@ -7747,7 +7903,7 @@
     },
     {
         "code": "PHYS250",
-        "description": "CONDENSED MATTER&amp;QUANTUM COMPT",
+        "description": "SURFACE SCIENCE",
         "credits": 2,
         "average": "----"
     },
@@ -7758,8 +7914,8 @@
         "average": "----"
     },
     {
-        "code": "PHYS262",
-        "description": "SPECIAL TOPICS IN HIGH ENERGY PHYSICS",
+        "code": "PHYS261",
+        "description": "SPECIAL TOPICS IN ASTROPHYSICS",
         "credits": 4,
         "average": "----"
     },
@@ -7812,12 +7968,6 @@
         "average": "6.00"
     },
     {
-        "code": "PLPA120L",
-        "description": "INTRODUCTION TO PLANT PATHOLOGY LABORATORY",
-        "credits": 1,
-        "average": "----"
-    },
-    {
         "code": "PLPA125",
         "description": "PESTICIDES, BIOLOGICAL ORGANISMS, AND THE ENVIRONMENT",
         "credits": 3,
@@ -7857,6 +8007,12 @@
         "code": "PLPA226",
         "description": "MICROBIAL GENETICS",
         "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "PLPA230",
+        "description": "MOLECULAR PLANT-MICROBIAL INTERACTIONS",
+        "credits": 3,
         "average": "----"
     },
     {
@@ -7902,10 +8058,10 @@
         "average": "----"
     },
     {
-        "code": "POSC005W",
-        "description": "POLITICAL IDEOLOGIES",
+        "code": "POSC007W",
+        "description": "INTRODUCTION TO POLITICAL THEORY",
         "credits": 5,
-        "average": "5.29"
+        "average": "6.00"
     },
     {
         "code": "POSC010",
@@ -7920,16 +8076,16 @@
         "average": "3.67"
     },
     {
-        "code": "POSC017",
-        "description": "POLITICS OF THE UNDERDEVELOPED WORLD",
-        "credits": 5,
-        "average": "4.71"
-    },
-    {
         "code": "POSC020",
         "description": "WORLD POLITICS",
         "credits": 5,
         "average": "5.71"
+    },
+    {
+        "code": "POSC045",
+        "description": "SPECIAL SEMINAR IN POLITICAL SCIENCE",
+        "credits": 1,
+        "average": "----"
     },
     {
         "code": "POSC101",
@@ -7938,16 +8094,34 @@
         "average": "----"
     },
     {
-        "code": "POSC112",
-        "description": "MODERN POLITICAL THEORY",
-        "credits": 4,
+        "code": "POSC108",
+        "description": "POLITICS OF RACE, IMMIGRATION, AND ETHNICITY IN THE UNITED STATES",
+        "credits": 5,
         "average": "----"
+    },
+    {
+        "code": "POSC112S",
+        "description": "MODERN POLITICAL THEORY",
+        "credits": 5,
+        "average": "----"
+    },
+    {
+        "code": "POSC113",
+        "description": "AMERICAN POLITICAL THOUGHT",
+        "credits": 4,
+        "average": "2.00"
     },
     {
         "code": "POSC114S",
         "description": "THEORY AND METHODOLOGY OF POLITICAL SCIENCE",
         "credits": 5,
         "average": "7.00"
+    },
+    {
+        "code": "POSC117S",
+        "description": "CONTEMPORARY DEMOCRATIC THEORY",
+        "credits": 5,
+        "average": "----"
     },
     {
         "code": "POSC124S",
@@ -7968,34 +8142,22 @@
         "average": "8.00"
     },
     {
-        "code": "POSC128",
-        "description": "COMPARATIVE FOREIGN POLICY",
-        "credits": 4,
-        "average": "3.00"
-    },
-    {
-        "code": "POSC138S",
-        "description": "LABOR AND GLOBALIZATION",
-        "credits": 5,
-        "average": "----"
-    },
-    {
-        "code": "POSC141",
-        "description": "WOMEN AND THE AMERICAN POLITICAL PROCESS",
+        "code": "POSC132",
+        "description": "POSTCONFLICT JUSTICE AND RECONCILIATION",
         "credits": 4,
         "average": "----"
     },
     {
-        "code": "POSC143S",
-        "description": "ELECTIONS AND POLITICAL PARTICIPATION",
-        "credits": 5,
-        "average": "4.50"
+        "code": "POSC140",
+        "description": "MILITARISM AND HEGEMONY IN THE ANCIENT WORLD",
+        "credits": 4,
+        "average": "----"
     },
     {
-        "code": "POSC151",
-        "description": "AFRICAN POLITICS",
-        "credits": 4,
-        "average": "4.00"
+        "code": "POSC148S",
+        "description": "POLITICS OF CONGRESSIONAL ELECTIONS",
+        "credits": 5,
+        "average": "----"
     },
     {
         "code": "POSC155S",
@@ -8004,10 +8166,10 @@
         "average": "----"
     },
     {
-        "code": "POSC157S",
-        "description": "MODERN DICTATORSHIPS",
+        "code": "POSC159S",
+        "description": "THE ARMED FORCES AND POLITICS",
         "credits": 5,
-        "average": "7.00"
+        "average": "----"
     },
     {
         "code": "POSC161",
@@ -8016,14 +8178,8 @@
         "average": "3.00"
     },
     {
-        "code": "POSC163",
+        "code": "POSC163S",
         "description": "ETHNIC POLITICS",
-        "credits": 4,
-        "average": "5.50"
-    },
-    {
-        "code": "POSC164S",
-        "description": "THE NATION STATE AND CAPITALISM",
         "credits": 5,
         "average": "----"
     },
@@ -8040,20 +8196,20 @@
         "average": "----"
     },
     {
-        "code": "POSC178",
-        "description": "POLITICAL CONSEQUENCES OF ELECTORAL INSTITUTIONS",
-        "credits": 4,
-        "average": "----"
-    },
-    {
-        "code": "POSC183",
-        "description": "ADMINISTRATIVE POLITICS AND THEORY",
-        "credits": 4,
+        "code": "POSC182G",
+        "description": "POLITICS AND ECONOMIC POLICY: STRATEGY AND INSTITUTIONS",
+        "credits": 5,
         "average": "----"
     },
     {
         "code": "POSC186",
         "description": "REGULATION: A POLITICAL PERSPECTIVE",
+        "credits": 5,
+        "average": "----"
+    },
+    {
+        "code": "POSC188S",
+        "description": "POLITICAL VIOLENCE IN LATIN AMERICA",
         "credits": 5,
         "average": "----"
     },
@@ -8064,10 +8220,22 @@
         "average": "----"
     },
     {
+        "code": "POSC196",
+        "description": "MOOT COURT: LEGAL RESEARCH, WRITING, AND ADVOCACY",
+        "credits": 4,
+        "average": "----"
+    },
+    {
         "code": "POSC197",
         "description": "RESEARCH FOR UNDERGRADUATES",
         "credits": 0,
         "average": "----"
+    },
+    {
+        "code": "POSC198G",
+        "description": "FIELD WORK",
+        "credits": 0,
+        "average": "3.00"
     },
     {
         "code": "POSC199",
@@ -8088,8 +8256,20 @@
         "average": "----"
     },
     {
-        "code": "POSC212",
-        "description": "POLITICAL THEORY",
+        "code": "POSC204",
+        "description": "MATHEMATICAL MODELING IN POLITICAL SCIENCE",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "POSC216",
+        "description": "INTERNATIONAL RELATIONS",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "POSC220",
+        "description": "POLITICS OF RACE, IMMIGRATION, AND ETHNICITY",
         "credits": 4,
         "average": "----"
     },
@@ -8100,14 +8280,20 @@
         "average": "----"
     },
     {
-        "code": "POSC262",
-        "description": "WAR TERMINATION AND CONFLICT RESOLUTION",
+        "code": "POSC257",
+        "description": "COMPARATIVE POLITICAL BEHAVIOR AND ELECTIONS",
         "credits": 4,
         "average": "----"
     },
     {
-        "code": "POSC271",
-        "description": "COMPARATIVE POLITICAL ECONOMICS",
+        "code": "POSC280",
+        "description": "SEMINAR IN POLITICAL THEORY",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "POSC282",
+        "description": "POLITICAL THEORY AND POLICY ANALYSIS",
         "credits": 4,
         "average": "----"
     },
@@ -8169,7 +8355,7 @@
         "code": "PSYC001",
         "description": "INTRODUCTORY PSYCHOLOGY",
         "credits": 4,
-        "average": "3.35"
+        "average": "3.30"
     },
     {
         "code": "PSYC002",
@@ -8190,10 +8376,10 @@
         "average": "5.63"
     },
     {
-        "code": "PSYC049",
-        "description": "EARLY CHILDHOOD EDUCATION",
+        "code": "PSYC013",
+        "description": "SKEPTICISM AND PSEUDOSCIENCE IN PSYCHOLOGY",
         "credits": 4,
-        "average": "3.00"
+        "average": "10.00"
     },
     {
         "code": "PSYC110",
@@ -8202,21 +8388,15 @@
         "average": "7.17"
     },
     {
-        "code": "PSYC112",
-        "description": "NEURAL MECHANISMS OF ANIMAL BEHAVIOR",
+        "code": "PSYC115",
+        "description": "DRUGS AND BEHAVIOR",
         "credits": 4,
-        "average": "----"
+        "average": "4.00"
     },
     {
         "code": "PSYC120L",
         "description": "NEUROSCIENCE LABORATORY",
         "credits": 2,
-        "average": "----"
-    },
-    {
-        "code": "PSYC121",
-        "description": "DEVELOPMENTAL NEUROSCIENCE",
-        "credits": 4,
         "average": "----"
     },
     {
@@ -8238,16 +8418,10 @@
         "average": "----"
     },
     {
-        "code": "PSYC132",
-        "description": "PERCEPTION",
+        "code": "PSYC134",
+        "description": "COGNITIVE PROCESSES",
         "credits": 4,
         "average": "----"
-    },
-    {
-        "code": "PSYC139",
-        "description": "PSYCHOLOGY OF MUSIC",
-        "credits": 4,
-        "average": "6.00"
     },
     {
         "code": "PSYC140",
@@ -8262,8 +8436,8 @@
         "average": "3.00"
     },
     {
-        "code": "PSYC148",
-        "description": "STRESS, EMOTIONS, AND COPING",
+        "code": "PSYC149",
+        "description": "THE SCIENCE OF WELL-BEING",
         "credits": 4,
         "average": "----"
     },
@@ -8271,7 +8445,7 @@
         "code": "PSYC150",
         "description": "PERSONALITY",
         "credits": 4,
-        "average": "----"
+        "average": "4.67"
     },
     {
         "code": "PSYC161",
@@ -8280,34 +8454,22 @@
         "average": "----"
     },
     {
-        "code": "PSYC166C",
-        "description": "ADOLESCENCE AND EMERGING ADULTHOOD",
+        "code": "PSYC166B",
+        "description": "CHILDHOOD",
         "credits": 4,
         "average": "----"
-    },
-    {
-        "code": "PSYC166D",
-        "description": "ADULTHOOD AND AGING",
-        "credits": 4,
-        "average": "----"
-    },
-    {
-        "code": "PSYC169",
-        "description": "DEVELOPMENT OF EMPATHIC BRAIN",
-        "credits": 4,
-        "average": "----"
-    },
-    {
-        "code": "PSYC178",
-        "description": "HEALTH PSYCHOLOGY",
-        "credits": 4,
-        "average": "2.00"
     },
     {
         "code": "PSYC182E",
         "description": "LABORATORY IN PSYCHOLOGY",
         "credits": 5,
         "average": "2.00"
+    },
+    {
+        "code": "PSYC189",
+        "description": "COVID19 ADAPTATION &amp; MNTL HLTH",
+        "credits": 4,
+        "average": "7.00"
     },
     {
         "code": "PSYC200A",
@@ -8334,26 +8496,8 @@
         "average": "----"
     },
     {
-        "code": "PSYC225",
-        "description": "THEORIES AND CONCEPTS OF SOCIAL PSYCHOLOGY",
-        "credits": 3,
-        "average": "----"
-    },
-    {
         "code": "PSYC233",
         "description": "RESEARCH METHODS IN COGNITIVE SCIENCE",
-        "credits": 3,
-        "average": "----"
-    },
-    {
-        "code": "PSYC255",
-        "description": "SEMINAR IN SOCIAL PSYCHOLOGY",
-        "credits": 3,
-        "average": "----"
-    },
-    {
-        "code": "PSYC256",
-        "description": "SEMINAR IN PERCEPTION",
         "credits": 3,
         "average": "----"
     },
@@ -8364,8 +8508,14 @@
         "average": "----"
     },
     {
-        "code": "PSYC259",
-        "description": "TOPICS IN QUANTITATIVE METHODS",
+        "code": "PSYC262",
+        "description": "DEVELOPMENTAL BIOPSYCHOLOGY",
+        "credits": 3,
+        "average": "----"
+    },
+    {
+        "code": "PSYC263",
+        "description": "SEMINAR IN PHYSIOLOGICAL PSYCHOLOGY",
         "credits": 3,
         "average": "----"
     },
@@ -8469,11 +8619,11 @@
         "code": "PBPL004",
         "description": "ETHICS, PROFESSIONALISM, AND PUBLIC POLICY",
         "credits": 4,
-        "average": "2.60"
+        "average": "2.67"
     },
     {
-        "code": "PBPL010",
-        "description": "INTRODUCTION TO GEOGRAPHIC INFORMATION SYSTEMS",
+        "code": "PBPL006",
+        "description": "INTRODUCTION TO PUBLIC HEALTH",
         "credits": 4,
         "average": "----"
     },
@@ -8484,20 +8634,20 @@
         "average": "6.00"
     },
     {
-        "code": "PBPL102",
-        "description": "BORDERLINE IMMIGRATION POLICIES AND COMMUNITY CHANGE PROCESS",
-        "credits": 4,
-        "average": "4.00"
-    },
-    {
-        "code": "PBPL103",
-        "description": "ECONOMIC DEVELOPMENT POLICY",
+        "code": "PBPL160",
+        "description": "IMMIGRANT HEALTH AND WELLBEING",
         "credits": 4,
         "average": "----"
     },
     {
-        "code": "PBPL150",
-        "description": "EXPLORING URBAN COMMUNITIES USING GEOGRAPHIC INFORMATION SYSTEM",
+        "code": "PBPL162",
+        "description": "HEALTH IN ALL POLICIES",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "PBPL180",
+        "description": "ALTRNTVE APPRCHS GVRNMNT RGLTN",
         "credits": 4,
         "average": "----"
     },
@@ -8505,7 +8655,7 @@
         "code": "PBPL191",
         "description": "SEMINAR IN PUBLIC POLICY",
         "credits": 2,
-        "average": "----"
+        "average": "2.00"
     },
     {
         "code": "PBPL198I",
@@ -8532,32 +8682,38 @@
         "average": "----"
     },
     {
+        "code": "PBPL216",
+        "description": "PUBLIC LEADERSHIP AND MANAGEMENT",
+        "credits": 4,
+        "average": "----"
+    },
+    {
         "code": "PBPL222",
         "description": "ETHICS, PROFESSIONALISM, AND THE NORMATIVE BASES OF PUBLIC POLICIES",
         "credits": 4,
         "average": "----"
     },
     {
-        "code": "PBPL230F",
-        "description": "PUBLIC POLICY AND HEALTH",
+        "code": "PBPL298I",
+        "description": "INDIVIDUAL INTERNSHIP",
+        "credits": 0,
+        "average": "----"
+    },
+    {
+        "code": "RLST003",
+        "description": "IS THERE A PATH OF JOY?",
+        "credits": 3,
+        "average": "----"
+    },
+    {
+        "code": "RLST004",
+        "description": "RELIGION, SOCIETY, AND CULTURE",
         "credits": 4,
         "average": "----"
     },
     {
-        "code": "PBPL252",
-        "description": "CRIME MAPPING ANALYSIS",
-        "credits": 4,
-        "average": "----"
-    },
-    {
-        "code": "PBPL264",
-        "description": "METHODS IN HEALTH DISPARITIES RESEARCH: AN INTRODUCTION TO COMMUNITY ENGAGED RESEARCH",
-        "credits": 4,
-        "average": "----"
-    },
-    {
-        "code": "PBPL271",
-        "description": "RACIAL INEQUALITY IN POLITICS AND POLICY",
+        "code": "RLST004H",
+        "description": "HONORS RELIGION, SOCIETY, AND CULTURE",
         "credits": 4,
         "average": "----"
     },
@@ -8568,38 +8724,38 @@
         "average": "3.00"
     },
     {
+        "code": "RLST007H",
+        "description": "HONORS  JEWS, CHRISTIANS, AND MUSLIMS",
+        "credits": 5,
+        "average": "----"
+    },
+    {
         "code": "RLST012",
         "description": "RELIGIOUS MYTHS AND RITUALS",
         "credits": 4,
         "average": "1.25"
     },
     {
-        "code": "RLST015",
-        "description": "DEATH",
-        "credits": 4,
-        "average": "4.40"
-    },
-    {
-        "code": "RLST100",
-        "description": "THE PROBLEM OF RELIGION",
+        "code": "RLST101",
+        "description": "RELIGIONS OF INDIA",
         "credits": 4,
         "average": "----"
     },
     {
-        "code": "RLST108",
-        "description": "MODERN HINDUISM",
+        "code": "RLST121",
+        "description": "THE HEBREW BIBLE/OLD TESTAMENT",
         "credits": 4,
         "average": "----"
     },
     {
-        "code": "RLST112",
-        "description": "ISLAM IN AMERICA",
+        "code": "RLST135B",
+        "description": "HISTORY OF CHRISTIANITY: MODERN ERA",
         "credits": 4,
         "average": "----"
     },
     {
-        "code": "RLST125",
-        "description": "GENDER, SEXUALITY, AND ISLAM",
+        "code": "RLST162",
+        "description": "WOMEN&#39;S ISSUES IN MODERN MUSLIM THOUGHT",
         "credits": 4,
         "average": "----"
     },
@@ -8610,20 +8766,26 @@
         "average": "----"
     },
     {
+        "code": "RLST193",
+        "description": "SENIOR SEMINAR",
+        "credits": 4,
+        "average": "----"
+    },
+    {
         "code": "RLST197",
         "description": "RESEARCH FOR UNDERGRADUATES",
         "credits": 0,
         "average": "----"
     },
     {
-        "code": "RLST202",
-        "description": "CONTEMPORARY THEORIES AND THEORISTS IN THE STUDY OF RELIGION",
+        "code": "RLST203",
+        "description": "HERMENEUTICS AND HISTORY",
         "credits": 4,
         "average": "----"
     },
     {
-        "code": "RLST263",
-        "description": "HISTORIOGRAPHY OF SIKH HERMENEUTICS",
+        "code": "RLST241",
+        "description": "FROM TEXT TO SCRIPTURE: CANON, PERFORMANCE, RECEPTION",
         "credits": 4,
         "average": "----"
     },
@@ -8666,12 +8828,6 @@
     {
         "code": "RLST401",
         "description": "COLLOQUIUM IN RELIGIOUS STUDIES",
-        "credits": 1,
-        "average": "----"
-    },
-    {
-        "code": "RLST402",
-        "description": "PEDAGOGY",
         "credits": 1,
         "average": "----"
     },
@@ -8841,19 +8997,7 @@
         "code": "SOC001",
         "description": "INTRODUCTION TO SOCIOLOGY",
         "credits": 4,
-        "average": "5.50"
-    },
-    {
-        "code": "SOC001H",
-        "description": "HONORS INTRODUCTION TO SOCIOLOGY",
-        "credits": 4,
-        "average": "----"
-    },
-    {
-        "code": "SOC002S",
-        "description": "SOCIAL PROBLEMS",
-        "credits": 4,
-        "average": "----"
+        "average": "5.70"
     },
     {
         "code": "SOC003",
@@ -8892,6 +9036,12 @@
         "average": "----"
     },
     {
+        "code": "SOC133",
+        "description": "INEQUALITY AND SOCIAL CLASS",
+        "credits": 4,
+        "average": "----"
+    },
+    {
         "code": "SOC142",
         "description": "SOCIOLOGY OF THE FAMILY",
         "credits": 5,
@@ -8904,21 +9054,21 @@
         "average": "----"
     },
     {
+        "code": "SOC147",
+        "description": "CORRECTIONS",
+        "credits": 4,
+        "average": "----"
+    },
+    {
         "code": "SOC151",
         "description": "FORMAL ORGANIZATIONS",
         "credits": 4,
         "average": "6.50"
     },
     {
-        "code": "SOC160",
-        "description": "SOCIOLOGY OF EDUCATION",
-        "credits": 5,
-        "average": "----"
-    },
-    {
-        "code": "SOC168",
-        "description": "DEVELOPMENT OF SOCIOLOGICAL THEORY",
-        "credits": 5,
+        "code": "SOC169",
+        "description": "MODERN SOCIOLOGICAL THEORY",
+        "credits": 4,
         "average": "----"
     },
     {
@@ -8928,26 +9078,8 @@
         "average": "----"
     },
     {
-        "code": "SOC176",
-        "description": "THE SOCIOLOGY OF WORK IN ORGANIZATIONS",
-        "credits": 4,
-        "average": "----"
-    },
-    {
-        "code": "SOC183H",
-        "description": "AGING IN AMERICA",
-        "credits": 4,
-        "average": "----"
-    },
-    {
-        "code": "SOC184",
-        "description": "ENVIRONMENTAL SOCIOLOGY",
-        "credits": 4,
-        "average": "----"
-    },
-    {
-        "code": "SOC189",
-        "description": "GLOBALIZATION AND DEVELOPMENT",
+        "code": "SOC179",
+        "description": "SOCIAL MOVEMENTS AND COLLECTIVE ACTION",
         "credits": 4,
         "average": "----"
     },
@@ -8982,44 +9114,20 @@
         "average": "----"
     },
     {
-        "code": "SOC200",
-        "description": "RESEARCH DESIGN",
+        "code": "SOC206",
+        "description": "ADVANCED METHODS IN QUANTITATIVE SOCIOLOGY",
+        "credits": 0,
+        "average": "----"
+    },
+    {
+        "code": "SOC246",
+        "description": "RACE AND CLASS INEQUALITY",
         "credits": 4,
         "average": "----"
     },
     {
-        "code": "SOC202A",
-        "description": "HISTORY OF SOCIOLOGICAL THEORY",
-        "credits": 4,
-        "average": "----"
-    },
-    {
-        "code": "SOC232",
-        "description": "PROSEMINAR IN SOCIOLOGY",
-        "credits": 2,
-        "average": "----"
-    },
-    {
-        "code": "SOC248",
-        "description": "CORE COURSE ON SOCIAL PSYCHOLOGY",
-        "credits": 4,
-        "average": "----"
-    },
-    {
-        "code": "SOC249",
-        "description": "CONTEMPORARY RESEARCH AND THEORY IN CRIMINOLOGY AND SOCIOLEGAL STUDIES",
-        "credits": 4,
-        "average": "----"
-    },
-    {
-        "code": "SOC250",
-        "description": "THESIS PREPARATION",
-        "credits": 4,
-        "average": "----"
-    },
-    {
-        "code": "SOC265I",
-        "description": "TOPICS IN RACE AND CLASS INEQUALITY",
+        "code": "SOC265J",
+        "description": "WORLD INEQUALITY",
         "credits": 4,
         "average": "----"
     },
@@ -9054,15 +9162,9 @@
         "average": "----"
     },
     {
-        "code": "SEAS184",
-        "description": "THE VIETNAM WARS",
-        "credits": 4,
-        "average": "----"
-    },
-    {
-        "code": "SEAS203",
-        "description": "SOUTHEAST ASIAN CULTURES",
-        "credits": 4,
+        "code": "SEAS168",
+        "description": "JAVANESE GAMELAN ENSEMBLE: BEGINNING",
+        "credits": 2,
         "average": "----"
     },
     {
@@ -9132,12 +9234,6 @@
         "average": "----"
     },
     {
-        "code": "SPN101B",
-        "description": "ADVANCED ORAL AND WRITTEN COMPOSITION",
-        "credits": 4,
-        "average": "----"
-    },
-    {
         "code": "SPN105",
         "description": "THE PHONOLOGY OF THE SPANISH LANGUAGE",
         "credits": 4,
@@ -9162,8 +9258,14 @@
         "average": "----"
     },
     {
-        "code": "SPN122B",
-        "description": "TRANSATLANTIC CULTURAL STUDIES",
+        "code": "SPN122A",
+        "description": "INTRODUCTION TO HISPANIC CULTURAL STUDIES",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "SPN123G",
+        "description": "NATION OF WOMEN",
         "credits": 4,
         "average": "----"
     },
@@ -9180,38 +9282,20 @@
         "average": "----"
     },
     {
-        "code": "SPN165",
-        "description": "SPANISH AND LATIN AMERICAN CULTURAL STUDIES: VIOLENCE AND REPRESENTATION",
-        "credits": 4,
-        "average": "----"
-    },
-    {
-        "code": "SPN172",
-        "description": "THE TESTIMONIO AND CULTURAL HISTORY",
-        "credits": 4,
-        "average": "----"
-    },
-    {
         "code": "SPN180A",
         "description": "SURVEY OF SPANISH LITERATURE, MIDDLE AGES-1699",
         "credits": 4,
         "average": "----"
     },
     {
-        "code": "SPN185",
-        "description": "IMAGINING THE NATION:  FILM AND MEDIA IN LATIN AMERICA",
-        "credits": 4,
-        "average": "----"
-    },
-    {
         "code": "SPN193",
-        "description": "CAPITAIST SOCIAL REPRODUCTION",
+        "description": "LAT AM CRITICA CULTURAL",
         "credits": 4,
         "average": "----"
     },
     {
-        "code": "SPN207",
-        "description": "HISTORY OF THE SPANISH LANGUAGE",
+        "code": "SPN208",
+        "description": "LINGUISTIC APPROACHES TO LITERATURE",
         "credits": 4,
         "average": "----"
     },
@@ -9222,8 +9306,8 @@
         "average": "----"
     },
     {
-        "code": "SPN279",
-        "description": "STUDIES IN SPANISH LITERATURE AND CULTURE",
+        "code": "SPN273C",
+        "description": "LITERATURE AND CULTURE OF COLONIAL LATIN AMERICA:  FOUNDATIONAL NARRATIVES OF LATIN AMERICA",
         "credits": 4,
         "average": "----"
     },
@@ -9248,6 +9332,12 @@
     {
         "code": "SPN299",
         "description": "RESEARCH FOR THESIS OR DISSERTATION",
+        "credits": 0,
+        "average": "----"
+    },
+    {
+        "code": "SPN302",
+        "description": "TEACHING PRACTICUM",
         "credits": 0,
         "average": "----"
     },
@@ -9336,6 +9426,12 @@
         "average": "----"
     },
     {
+        "code": "STAT200",
+        "description": "FOUNDATIONAL METHODS FOR BUSINESS ANALYTICS",
+        "credits": 4,
+        "average": "----"
+    },
+    {
         "code": "STAT201A",
         "description": "THEORY OF PROBABILITY AND STATISTICS",
         "credits": 4,
@@ -9348,20 +9444,14 @@
         "average": "----"
     },
     {
-        "code": "STAT206",
-        "description": "STATISTICAL COMPUTING",
+        "code": "STAT207",
+        "description": "ADVANCED STATISTICAL COMPUTING",
         "credits": 4,
         "average": "----"
     },
     {
         "code": "STAT210A",
         "description": "ADVANCED THEORY OF PROBABILITY AND STATISTICS",
-        "credits": 4,
-        "average": "----"
-    },
-    {
-        "code": "STAT240",
-        "description": "NONPARAMETRIC METHODS",
         "credits": 4,
         "average": "----"
     },
@@ -9420,6 +9510,12 @@
         "average": "1.67"
     },
     {
+        "code": "TFDP020",
+        "description": "PRODUCTION TECHNIQUEST FOR THEATRE, FILM, AND TELEVISION",
+        "credits": 4,
+        "average": "----"
+    },
+    {
         "code": "TFDP021",
         "description": "INTRODUCTION TO LATINA/O CULTURAL PRODUCTION ON STAGE AND SCREEN",
         "credits": 4,
@@ -9444,12 +9540,6 @@
         "average": "----"
     },
     {
-        "code": "TFDP101",
-        "description": "INTRODUCTION TO DESIGN",
-        "credits": 4,
-        "average": "----"
-    },
-    {
         "code": "TFDP109",
         "description": "ACTING: THE PROCESS",
         "credits": 4,
@@ -9462,14 +9552,8 @@
         "average": "----"
     },
     {
-        "code": "TFDP110B",
-        "description": "ACTING: TECHNIQUES",
-        "credits": 4,
-        "average": "----"
-    },
-    {
-        "code": "TFDP117",
-        "description": "DIRECTING FOR THE SCREEN",
+        "code": "TFDP113N",
+        "description": "MOVEMENT FOR ACTORS AND PERFORMERS",
         "credits": 4,
         "average": "----"
     },
@@ -9486,14 +9570,14 @@
         "average": "----"
     },
     {
-        "code": "TFDP149",
-        "description": "STAGE MANAGEMENT",
+        "code": "TFDP144",
+        "description": "DIRECTING ACTORS FOR THE SCREEN",
         "credits": 4,
         "average": "----"
     },
     {
-        "code": "TFDP154",
-        "description": "INTRODUCTION TO FILMMAKING",
+        "code": "TFDP153A",
+        "description": "INTRODUCTION TO CINEMATOGRAPHY",
         "credits": 4,
         "average": "----"
     },
@@ -9522,14 +9606,14 @@
         "average": "----"
     },
     {
-        "code": "TFDP166A",
-        "description": "SCREENWRITING: INTRODUCTION",
+        "code": "TFDP165",
+        "description": "CREATING THE WEBSERIES",
         "credits": 4,
         "average": "----"
     },
     {
-        "code": "TFDP166B",
-        "description": "SCREENWRITING: OUTLINE TO FIRST DRAFT",
+        "code": "TFDP166A",
+        "description": "SCREENWRITING: INTRODUCTION",
         "credits": 4,
         "average": "----"
     },
@@ -9552,6 +9636,12 @@
         "average": "----"
     },
     {
+        "code": "URST021",
+        "description": "INTRODUCTION TO ARCHITECTURE AND URBANISM",
+        "credits": 4,
+        "average": "----"
+    },
+    {
         "code": "VNM001",
         "description": "ELEMENTARY VIETNAMESE",
         "credits": 4,
@@ -9560,12 +9650,6 @@
     {
         "code": "VNM004",
         "description": "INTERMEDIATE VIETNAMESE",
-        "credits": 4,
-        "average": "----"
-    },
-    {
-        "code": "VNM184",
-        "description": "THE VIETNAM WARS",
         "credits": 4,
         "average": "----"
     }
