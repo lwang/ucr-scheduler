@@ -146,6 +146,8 @@ def schedules():
             try:
                 course_sections = future.result() # RuntimeError might be raised here if the course does not have enough section
                 for course_code, sections in course_sections.items(): #STAT155 {'1': {'Lecture': ['39974'], 'Discussion': ['39975', '39976', '39977', '51548', '52200', '52201']}
+                    if not sections and _override_empty:
+                        continue
                     section_comb = [] # List of linked sections for each course (contains 1 lecture section, 1 disc section, etc)
                     for link_num, link_sections in sections.items(): #{'1': {'Lecture': ['39974'], 'Discussion': ['39975', '39976', '39977', '51548', '52200', '52201']}}
                         temp = [] # List of list of section codes [['58054'], ['62842', '62843'], ['58095', '60520']] only without section types
