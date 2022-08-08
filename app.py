@@ -91,7 +91,7 @@ def get_course_sections(code: str, future: list, min_seats: int, override_empty:
         if (not override_empty or len(temp[linkIdentifier]) == 0) and linkIdentifier in temp:
             del temp[linkIdentifier]
 
-    if not temp:
+    if not temp and not override_empty:
         raise RuntimeError(code)
     return {code : temp}
         
@@ -124,6 +124,7 @@ def schedules():
         ### RETRIEVE COURSE SECTION DATA ###
         start = time.perf_counter()
         full_data = {}
+        # Getting all class data in 1 request is slower than concurrently
         with concurrent.futures.ThreadPoolExecutor(max_workers=len(codes)) as executor:
             futures = [(code, executor.submit(get_class_data, term, code)) for code in codes] # Add class data (code .e.g. = ART005)
             try:
@@ -160,7 +161,7 @@ def schedules():
             except RuntimeError as e:
                 error_courses.append(str(e))
         if error_courses:
-            yield format_sse(f'Unable to find open sections for {", ".join(error_courses)} with the selected options.', event='error')
+            yield format_sse(f'Unable to find open sections for {", ".join(error_courses)} with the selected options. Try enabling the "Allow sections without meeting times" option or remove some schedule restrictions.', event='error')
             return
         print('Generate Sections:', time.perf_counter() - start)
         
