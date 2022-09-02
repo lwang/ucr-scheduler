@@ -1,5 +1,5 @@
 <script>
-	const version = 1.4;
+	const version = 1.5;
 	import {theme, active} from './store.js';
 	import Header from './Header.svelte'
 	import Home from './Home.svelte'
