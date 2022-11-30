@@ -56,10 +56,6 @@
 </script>
 
 
-<div><span style="font-weight: bold; font-size: 2em;">UCR schedule generator will close on November 28, 2022.</span></div>
-<div><span>Heroku is closing their free tier and I don't have plans to ask for donations.</span></div>
-<div><span>The source code of this project can be found on GitHub.</span></div>
-<hr style="border-top: 1px solid #bbb; width: 50%; margin-top:1em;">
 <div><span>Current scheduling term:</span>
 {#if terms.length}
     <select class='{$theme}' bind:value={term_select}>

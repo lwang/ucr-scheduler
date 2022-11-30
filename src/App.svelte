@@ -1,4 +1,5 @@
 <script>
+	import { onMount } from 'svelte';
 	const version = 1.5;
 	import {theme, active} from './store.js';
 	import Header from './Header.svelte'
@@ -6,6 +7,11 @@
 	import SelectCourse from './SelectCourse.svelte'
 	import Scheduler from './Scheduler.svelte'
 	import VersionCheck from './VersionCheck.svelte'
+	
+	onMount(async () => {
+		if (window.location.href.includes("github.io"))
+			window.location.replace("https://ucrschedulegenerator.com" + window.location.search)
+	});
 </script>
 
 <VersionCheck current={version}/>
