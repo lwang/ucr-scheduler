@@ -1,16 +1,16 @@
 [
     {
+        "code": "202320",
+        "description": "Spring 2023",
+        "next_term": "Summer 2023",
+        "undergrad_limit_date": "2023-03-09T09:00:00",
+        "next_term_data_date": "2023-03-01T09:00:00"
+    },
+    {
         "code": "202310",
         "description": "Winter 2023",
         "next_term": "Spring 2023",
         "undergrad_limit_date": "2022-12-07T09:00:00",
         "next_term_data_date": "2023-02-02T09:00:00"
-    },
-    {
-        "code": "202240",
-        "description": "Fall 2022",
-        "next_term": "Winter 2023",
-        "undergrad_limit_date": "2022-09-08T09:00:00",
-        "next_term_data_date": "2022-10-20T09:00:00"
     }
 ]
