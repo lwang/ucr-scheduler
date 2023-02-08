@@ -1,5 +1,6 @@
 <script>
 	import { fade } from 'svelte/transition';
+	import { backend_host } from "./store.js";
     import { theme, term, courses, options, schedules, pinned, tutorial } from './store.js';
 	import VirtualList from './VirtualList.svelte';
 	import ListItem from './ListItem.svelte';
@@ -8,7 +9,7 @@
 
 	const showTutorial = !$tutorial.courses;
     export let items = [];
-	fetch("https://jcurda-api.herokuapp.com/"); // wake up heroku server
+	// fetch(`${backend_host}/`); // wake up heroku server
 	fetch(`json/ratings.json`)
 		.then((data) => data.json())
 		.then((ratings) => 

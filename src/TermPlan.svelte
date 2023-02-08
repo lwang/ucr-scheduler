@@ -1,14 +1,15 @@
 <script>
+    import { backend_host } from "./store.js";
     import { term, crns, courses } from './store.js';
 
-    const url = `https://jcurda-api.herokuapp.com/ical?term=${$term['code']}&crns=${$crns}&courses=${$courses}`
+    const url = `${backend_host}/ical?term=${$term['code']}&crns=${$crns}&courses=${$courses}`
 
     function downloadCal() {
         // window.location.assign(url);
         fetch(url)
         .then(response => response.text())
         .then(filename => {
-            fetch(`https://jcurda-api.herokuapp.com/cal/${filename}`)
+            fetch(`${backend_host}/cal/${filename}`)
             .then(response => response.blob())
             .then(blob => URL.createObjectURL(blob))
             .then(uril => {
@@ -26,7 +27,7 @@
         fetch(url)
 		.then(response => response.text())
         .then(filename => {
-            window.open(`https://calendar.google.com/calendar/u/0/r?cid=http://jcurda-api.herokuapp.com/cal/${filename}`, '_blank');
+            window.open(`https://calendar.google.com/calendar/u/0/r?cid=${backend_host}/cal/${filename}`, '_blank');
         });
     }
 </script>

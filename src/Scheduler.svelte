@@ -1,6 +1,7 @@
 <script>
     import pako from "pako"
     import { onMount, onDestroy } from "svelte";
+    import { backend_host } from "./store.js";
     import { term, courses, active, crns, pinned, schedules, options, theme, tutorial } from './store.js';
     import Spinner from './LoadingSpinner.svelte'
     import Modal from './Modal.svelte'
@@ -39,8 +40,7 @@
         }
         else
         {
-            // const sse = new EventSource(`http://localhost:8000/schedules?term=${$term['code']}&courses=${$courses.join(',')}&options=${JSON.stringify($options)}`)
-            const sse = new EventSource(`https://jcurda-api.herokuapp.com/schedules?term=${$term['code']}&courses=${$courses.join(',')}&options=${JSON.stringify($options)}`)
+            const sse = new EventSource(`${backend_host}/schedules?term=${$term['code']}&courses=${$courses.join(',')}&options=${JSON.stringify($options)}`)
 
             sse.addEventListener('error', (e) => {
                 const response = e.data

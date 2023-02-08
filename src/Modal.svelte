@@ -1,5 +1,5 @@
 <script>
-    import { theme, temp } from './store.js';
+    import { theme } from './store.js';
     import { fade } from 'svelte/transition';
     import MediaQuery from "./MediaQuery.svelte";
     export let showModal;

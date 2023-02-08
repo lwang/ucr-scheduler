@@ -1,6 +1,6 @@
 import { writable } from "svelte/store";
 
-export const temp = writable({});
+export const backend_host = process.env.PRODUCTION ? process.env.BACKEND_PROD : process.env.BACKEND_DEV
 
 export const version = localStorage.getItem('version') ? writable(localStorage.getItem('version')) : writable(0.0);
 version.subscribe(value => {
