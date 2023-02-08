@@ -56,7 +56,7 @@
 </script>
 
 
-<div><span>Current scheduling term:</span>
+<div><span>Change term:</span>
 {#if terms.length}
     <select class='{$theme}' bind:value={term_select}>
         {#each terms as term}
@@ -67,8 +67,8 @@
     </select>
 {/if}
 </div>
-<div><span>Undergraduate 17 unit maximum load lifted in:&nbsp;</span><span class='{$theme}'>{undergradLimitTime}</span></div>
-<div><span>Next term (</span><span class='{$theme}'>{nextTerm}</span><span>) data will be available in:&nbsp;</span><span class='{$theme}'>{nextTermTime}</span></div>
+<div><span>Undergraduate 17 unit maximum lifted in:&nbsp;</span><span class='{$theme}'>{undergradLimitTime}</span></div>
+<div><span></span><span class='{$theme}'>{nextTerm}</span><span>&nbsp;course listing will be available in:&nbsp;</span><span class='{$theme}'>{nextTermTime}</span></div>
 <hr style="border-top: 1px solid #bbb; width: 50%; margin-top:1em;">
 <p>Welcome to the University of California, Riverside schedule generator. 
     This tool allows you to easily create several potential class schedules by choosing the courses you want to take without having to deal with time conflicts or linked sections yourself.
@@ -76,21 +76,29 @@
     Corequisite courses will be added automatically however restrictions and prerequisites are not considered.
 </p>
 <footer style='position:absolute; width:100%; bottom:1em'>
-<span on:click={() => {theme.set($theme == 'dark' ? 'light' : 'dark');}} class='toggle'>Toggle {$theme} mode</span>
+<span on:click={() => {theme.set($theme == 'dark' ? 'light' : 'dark');}} class='toggle' style="color: #202020; font-weight:400; text-decoration: underline;">{$theme=='dark'?'Light':'Dark'} Mode</span>
+<span style="color: #A0A0A0;">•</span>
+<a href="https://github.com/lwgw/ucr-scheduler" target="_blank" style="color: #202020; font-weight:400; text-decoration: underline;">GitHub</a>
+<span style="color: #A0A0A0;">•</span>
+<span style="font-weight:400;">Lawrence Wang</span>
 </footer>
 
 <style>
     div {
         max-width: 90%;
-        margin: 0.5em auto;
+        margin: 1em auto;
     }
 
-    span {
+    span, a {
         justify-content: center;
         text-align: center;
-		font-size: 1.5em;
+		font-size: 1.75em;
 		font-weight: 1;
         margin-top: 0;
+    }
+
+    a, a:visited, a:hover, a:active {
+        color: inherit;
     }
 
     .toggle {
@@ -160,7 +168,7 @@
             line-height: 1.2em;
         }
 
-        span {
+        span, a {
             font-size: 1.25em;
         }
 
@@ -176,7 +184,7 @@
             line-height: 1.2em;
         }
 
-        span {
+        span, a {
             font-size: 1.25em;
         }
 
