@@ -6,11 +6,6 @@
 	import SelectCourse from './SelectCourse.svelte'
 	import Scheduler from './Scheduler.svelte'
 	
-	onMount(async () => {
-		if (window.location.href.includes("github.io"))
-			window.location.replace("https://ucrschedulegenerator.com" + window.location.search)
-	});
-
 	if (process.env.VERSION != $version) {
         active.set('Home');
         term.set({});
