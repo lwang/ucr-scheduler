@@ -1,0 +1,32 @@
+name: Build
+
+on:
+  push:
+    branches: [ frontend ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        name: Checkout code
+
+      - uses: actions/setup-node@v4
+        name: Setup Node.js
+        with:
+          node-version: latest
+
+      - run: npm install
+        name: Install dependencies
+
+      - run: npm run build
+        name: Build frontend
+
+      - uses: s0/git-publish-subdir-action@develop
+        name: Push public directory
+        env:
+          REPO: self
+          BRANCH: public
+          FOLDER: public
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
