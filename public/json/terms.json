@@ -1,16 +1,16 @@
 [
     {
+        "code": "202430",
+        "description": "Summer 2024",
+        "next_term": "FALL 2024",
+        "undergrad_limit_date": "2024-04-01T09:00:00",
+        "next_term_data_date": "2024-05-09T09:00:00"
+    },
+    {
         "code": "202420",
         "description": "Spring 2024",
         "next_term": "SUMMER 2024",
-        "undergrad_limit_date": "2023-03-07T09:00:00",
+        "undergrad_limit_date": "2024-03-07T09:00:00",
         "next_term_data_date": "2024-03-01T09:00:00"
-    },
-    {
-        "code": "202410",
-        "description": "Winter 2024",
-        "next_term": "SPRING 2024",
-        "undergrad_limit_date": "2023-12-06T09:00:00",
-        "next_term_data_date": "2024-02-01T09:00:00"
     }
 ]
