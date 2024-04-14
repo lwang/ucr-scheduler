@@ -78,7 +78,7 @@
 <footer style='position:absolute; width:100%; bottom:1em'>
 <span on:click={() => {theme.set($theme == 'dark' ? 'light' : 'dark');}} class='toggle' style="color: #202020; font-weight:400; text-decoration: underline;">{$theme=='dark'?'Light':'Dark'} Mode</span>
 <span style="color: #A0A0A0;">•</span>
-<a href="https://github.com/lwgw/ucr-scheduler" target="_blank" style="color: #202020; font-weight:400; text-decoration: underline;">GitHub</a>
+<a href="https://github.com/lwang/ucr-scheduler" target="_blank" style="color: #202020; font-weight:400; text-decoration: underline;">GitHub</a>
 <span style="color: #A0A0A0;">•</span>
 <span style="font-weight:400;">Lawrence Wang</span>
 </footer>
