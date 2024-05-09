@@ -36,14 +36,14 @@
         "average": "2.00"
     },
     {
-        "code": "ANTH050",
-        "description": "HUMAN EVOLUTION",
+        "code": "ANTH020S",
+        "description": "CULTURE, HEALTH AND HEALING",
         "credits": 4,
-        "average": "----"
+        "average": "2.50"
     },
     {
-        "code": "ANTH112",
-        "description": "SETTLEMENT PATTERNS AND LOCATIONAL ANALYSIS",
+        "code": "ANTH050",
+        "description": "HUMAN EVOLUTION",
         "credits": 4,
         "average": "----"
     },
@@ -58,6 +58,12 @@
         "description": "POLITICAL ANTHROPOLOGY",
         "credits": 4,
         "average": "2.00"
+    },
+    {
+        "code": "ANTH131",
+        "description": "APPLIED ANTHROPOLOGY",
+        "credits": 4,
+        "average": "----"
     },
     {
         "code": "ANTH132",
@@ -100,6 +106,12 @@
         "description": "METHODS IN CULTURAL ANTHROPOLOGY",
         "credits": 4,
         "average": "3.00"
+    },
+    {
+        "code": "ARLC154",
+        "description": "INTRODUCTION TO ARABIC PHILOSOPHY",
+        "credits": 4,
+        "average": "----"
     },
     {
         "code": "ART001",
@@ -612,12 +624,6 @@
         "average": "6.00"
     },
     {
-        "code": "BUS176",
-        "description": "THE SOCIOLOGY OF WORK IN ORGANIZATIONS",
-        "credits": 4,
-        "average": "----"
-    },
-    {
         "code": "BUS177",
         "description": "LABOR RELATIONS",
         "credits": 4,
@@ -648,6 +654,12 @@
         "average": "----"
     },
     {
+        "code": "CBNS101",
+        "description": "FUNDAMENTALS OF CELL BIOLOGY",
+        "credits": 4,
+        "average": "6.33"
+    },
+    {
         "code": "CBNS106",
         "description": "INTRODUCTION TO NEUROSCIENCE",
         "credits": 4,
@@ -676,6 +688,12 @@
         "description": "SYSTEMS NEUROSCIENCE",
         "credits": 4,
         "average": "7.67"
+    },
+    {
+        "code": "CBNS126",
+        "description": "NEUROSCIENCE OF LEARNING AND MEMORY",
+        "credits": 4,
+        "average": "----"
     },
     {
         "code": "CBNS128",
@@ -822,6 +840,12 @@
         "average": "3.25"
     },
     {
+        "code": "CPLT154",
+        "description": "INTRODUCTION TO ARABIC PHILOSOPHY",
+        "credits": 4,
+        "average": "----"
+    },
+    {
         "code": "CPLT181",
         "description": "EXISTENTIALISM IN LITERATURE, FILM, AND CULTURE",
         "credits": 4,
@@ -954,6 +978,12 @@
         "average": "6.32"
     },
     {
+        "code": "CS161",
+        "description": "DESIGN AND ARCHITECTURE OF COMPUTER SYSTEMS",
+        "credits": 4,
+        "average": "5.00"
+    },
+    {
         "code": "CS179J",
         "description": "PROJECT IN COMPUTER SCIENCE: COMPUTER ARCHITECTURE AND EMBEDDED SYSTEMS",
         "credits": 4,
@@ -1002,6 +1032,18 @@
         "average": "----"
     },
     {
+        "code": "CRWT176",
+        "description": "TOPICS IN CRAFT OF WRITING",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "CWPA252G",
+        "description": "NONFICTION",
+        "credits": 4,
+        "average": "----"
+    },
+    {
         "code": "DNCE005",
         "description": "INTRODUCTION TO DANCE",
         "credits": 4,
@@ -1040,13 +1082,13 @@
     {
         "code": "ECON101",
         "description": "STATISTICS FOR ECONOMICS",
-        "credits": 0,
+        "credits": 5,
         "average": "5.80"
     },
     {
         "code": "ECON102",
         "description": "INTERMEDIATE MICROECONOMICS",
-        "credits": 5,
+        "credits": 0,
         "average": "5.00"
     },
     {
@@ -1176,12 +1218,6 @@
         "average": "5.00"
     },
     {
-        "code": "EDUC042",
-        "description": "EDUCATION FOR CRITICAL CONSCIOUSNESS",
-        "credits": 4,
-        "average": "2.00"
-    },
-    {
         "code": "EDUC044",
         "description": "PRINCIPLES OF HEALTHFUL LIVING",
         "credits": 4,
@@ -1204,12 +1240,6 @@
         "description": "INTRODUCTION TO HUMAN DEVELOPMENT",
         "credits": 4,
         "average": "3.25"
-    },
-    {
-        "code": "EDUC103W",
-        "description": "CRITICAL RACE APPROACHES TO ACADEMIC WRITING IN EDUCATION",
-        "credits": 4,
-        "average": "----"
     },
     {
         "code": "EDUC118",
@@ -1614,6 +1644,12 @@
         "average": "----"
     },
     {
+        "code": "FREN045",
+        "description": "FRENCH CINEMA",
+        "credits": 4,
+        "average": "----"
+    },
+    {
         "code": "FREN181",
         "description": "EXISTENTIALISM IN LITERATURE, FILM, AND CULTURE",
         "credits": 4,
@@ -1664,12 +1700,6 @@
     {
         "code": "GSST108",
         "description": "PHILOSOPHICAL ISSUES OF RACE AND GENDER",
-        "credits": 4,
-        "average": "----"
-    },
-    {
-        "code": "GSST124",
-        "description": "ASIAN AMERICAN WOMEN: WRITING THE SELF IN LITERATURE AND FILM",
         "credits": 4,
         "average": "----"
     },
@@ -1783,7 +1813,7 @@
     },
     {
         "code": "HIST030",
-        "description": "THEMES AND PERSONALITIES IN HISTORY",
+        "description": "United States Legal History in the Long Twentieth Century",
         "credits": 4,
         "average": "4.33"
     },
@@ -1804,6 +1834,12 @@
         "description": "THE HISTORIAN&#39;S WORKSHOP",
         "credits": 4,
         "average": "3.00"
+    },
+    {
+        "code": "HIST103",
+        "description": "HISTORY OF SCIENCE FROM ANTIQUITY TO COPERNICUS",
+        "credits": 4,
+        "average": "----"
     },
     {
         "code": "HIST104",
@@ -1974,15 +2010,9 @@
         "average": "8.00"
     },
     {
-        "code": "MSE246",
-        "description": "CELLULAR AND MOLECULAR ENGINEERING",
-        "credits": 0,
-        "average": "----"
-    },
-    {
-        "code": "MSE248A",
-        "description": "NANOSCALE SCIENCE AND ENGINEERING",
-        "credits": 4,
+        "code": "MATH003",
+        "description": "COLLEGE MATHEMATICS FUNDAMENTALS AND PROBLEM SOLVING",
+        "credits": 3,
         "average": "----"
     },
     {
@@ -2130,10 +2160,10 @@
         "average": "7.00"
     },
     {
-        "code": "ME116A",
-        "description": "HEAT TRANSFER",
+        "code": "ME113",
+        "description": "FLUID MECHANICS",
         "credits": 4,
-        "average": "----"
+        "average": "6.33"
     },
     {
         "code": "ME118",
@@ -2144,7 +2174,7 @@
     {
         "code": "ME135",
         "description": "TRANSPORT PHENOMENA",
-        "credits": 0,
+        "credits": 4,
         "average": "10.00"
     },
     {
@@ -2196,6 +2226,12 @@
         "average": "----"
     },
     {
+        "code": "MCS045",
+        "description": "FRENCH CINEMA",
+        "credits": 4,
+        "average": "----"
+    },
+    {
         "code": "MCS069",
         "description": "THE POLITICS OF PUBLIC SPACE",
         "credits": 4,
@@ -2204,12 +2240,6 @@
     {
         "code": "MCS111",
         "description": "HISTORY OF MEDIA THEORY",
-        "credits": 4,
-        "average": "----"
-    },
-    {
-        "code": "MCS123",
-        "description": "ASIAN AMERICAN WOMEN: WRITING THE SELF IN LITERATURE AND FILM",
         "credits": 4,
         "average": "----"
     },
@@ -2406,6 +2436,12 @@
         "average": "----"
     },
     {
+        "code": "PHIL128",
+        "description": "INTRODUCTION TO ARABIC PHILOSOPHY",
+        "credits": 4,
+        "average": "----"
+    },
+    {
         "code": "PHIL151",
         "description": "EXISTENTIALISM",
         "credits": 4,
@@ -2440,6 +2476,12 @@
         "description": "SPACE TIME, RELATIVITY, AND COSMOLOGY",
         "credits": 4,
         "average": "7.00"
+    },
+    {
+        "code": "PHYS010",
+        "description": "HOW THINGS WORK",
+        "credits": 4,
+        "average": "----"
     },
     {
         "code": "PHYS02LA",
@@ -2658,12 +2700,6 @@
         "average": "6.33"
     },
     {
-        "code": "PSYC112",
-        "description": "NEURAL MECHANISMS OF ANIMAL BEHAVIOR",
-        "credits": 4,
-        "average": "----"
-    },
-    {
         "code": "PSYC115",
         "description": "DRUGS AND BEHAVIOR",
         "credits": 4,
@@ -2684,6 +2720,12 @@
     {
         "code": "PSYC124",
         "description": "SYSTEMS NEUROSCIENCE",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "PSYC126",
+        "description": "NEUROSCIENCE OF LEARNING AND MEMORY",
         "credits": 4,
         "average": "----"
     },
@@ -2766,6 +2808,12 @@
         "average": "2.00"
     },
     {
+        "code": "PSYC182N",
+        "description": "LABORATORY IN PSYCHOLOGY: ADULT DEVELOPMENT AND AGING",
+        "credits": 5,
+        "average": "----"
+    },
+    {
         "code": "PBPL001",
         "description": "INTRODUCTION TO PUBLIC POLICY ANALYSIS",
         "credits": 4,
@@ -2844,15 +2892,33 @@
         "average": "4.40"
     },
     {
-        "code": "MDCL254",
-        "description": "FOURTH YEAR ELECTIVE",
+        "code": "MDCL241",
+        "description": "INTERNAL MEDICINE",
         "credits": 0,
         "average": "----"
     },
     {
-        "code": "MDCL290",
-        "description": "DIRECTED STUDIES",
-        "credits": 1,
+        "code": "MDCL242",
+        "description": "SURGERY",
+        "credits": 0,
+        "average": "----"
+    },
+    {
+        "code": "MDCL243",
+        "description": "PEDIATRICS",
+        "credits": 0,
+        "average": "----"
+    },
+    {
+        "code": "MDCL244",
+        "description": "OBSTETRICS/GYNECOLOGY",
+        "credits": 0,
+        "average": "----"
+    },
+    {
+        "code": "SEHE001",
+        "description": "ENVIRONMENT, SOCIETY, AND CULTURE",
+        "credits": 4,
         "average": "----"
     },
     {
@@ -2880,14 +2946,20 @@
         "average": "9.00"
     },
     {
-        "code": "SOC030",
-        "description": "IDENTITY AND SOCIETY",
+        "code": "SOC036",
+        "description": "THE SOCIOLOGY OF MUSIC",
         "credits": 4,
-        "average": "1.00"
+        "average": "----"
     },
     {
-        "code": "SOC031",
-        "description": "COUPLES AND FAMILIES",
+        "code": "SOC110",
+        "description": "MULTIVARIATE ANALYSIS",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "SOC124",
+        "description": "SPORTS, COMPETITION, AND SOCIETY",
         "credits": 4,
         "average": "----"
     },
@@ -2901,12 +2973,6 @@
         "code": "SOC128S",
         "description": "CHICANO SOCIOLOGY",
         "credits": 5,
-        "average": "----"
-    },
-    {
-        "code": "SOC129",
-        "description": "RACISM IN WESTERN SOCIETY",
-        "credits": 4,
         "average": "----"
     },
     {
@@ -2952,24 +3018,6 @@
         "average": "----"
     },
     {
-        "code": "SOC143",
-        "description": "URBAN SOCIOLOGY",
-        "credits": 5,
-        "average": "----"
-    },
-    {
-        "code": "SOC144",
-        "description": "INTERPERSONAL RELATIONSHIP VIOLENCE",
-        "credits": 4,
-        "average": "----"
-    },
-    {
-        "code": "SOC146",
-        "description": "GENDER IN GLOBAL PERSPECTIVE",
-        "credits": 4,
-        "average": "----"
-    },
-    {
         "code": "SOC149",
         "description": "ORGANIZED CRIME",
         "credits": 4,
@@ -3006,26 +3054,26 @@
         "average": "----"
     },
     {
-        "code": "SOC173",
-        "description": "SOCIAL PSYCHOLOGY: SOCIOLOGICAL ORIENTATION",
-        "credits": 5,
-        "average": "----"
-    },
-    {
         "code": "SOC174",
         "description": "SOCIALIZATION AND PERSONALITY",
         "credits": 4,
         "average": "----"
     },
     {
-        "code": "SOC176",
-        "description": "THE SOCIOLOGY OF WORK IN ORGANIZATIONS",
+        "code": "SOC175",
+        "description": "SOCIAL ROLES AND INTERACTION",
         "credits": 4,
         "average": "----"
     },
     {
-        "code": "SOC180",
-        "description": "DEVIANCE AND CONTROL",
+        "code": "SOC181S",
+        "description": "WORLD -SYSTEMS AND GLOBALIZATION",
+        "credits": 5,
+        "average": "----"
+    },
+    {
+        "code": "SOC189",
+        "description": "GLOBALIZATION AND DEVELOPMENT",
         "credits": 4,
         "average": "----"
     },
@@ -3038,12 +3086,6 @@
     {
         "code": "SEAS136",
         "description": "ANTHROPOLOGICAL PERSPECTIVES ON GENDER IN SOUTHEAST ASIA",
-        "credits": 4,
-        "average": "----"
-    },
-    {
-        "code": "SEAS175",
-        "description": "ASIAN AMERICAN WOMEN: WRITING THE SELF IN LITERATURE AND FILM",
         "credits": 4,
         "average": "----"
     },
@@ -3086,6 +3128,12 @@
     {
         "code": "SPN110",
         "description": "INTRODUCTION TO LITERARY CRITICISM AND ANALYSIS",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "SPN193",
+        "description": "SEMINAR CLASS: RACE AND GENDER",
         "credits": 4,
         "average": "----"
     },
@@ -3213,12 +3261,6 @@
         "code": "URST069",
         "description": "THE POLITICS OF PUBLIC SPACE",
         "credits": 4,
-        "average": "----"
-    },
-    {
-        "code": "URST143",
-        "description": "URBAN SOCIOLOGY",
-        "credits": 5,
         "average": "----"
     },
     {
