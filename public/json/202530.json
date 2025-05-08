@@ -36,6 +36,12 @@
         "average": "2.00"
     },
     {
+        "code": "ANTH126",
+        "description": "SOUTHEAST ASIAN PERFORMANCE",
+        "credits": 4,
+        "average": "----"
+    },
+    {
         "code": "ANTH127S",
         "description": "POLITICAL ANTHROPOLOGY",
         "credits": 4,
@@ -80,6 +86,12 @@
     {
         "code": "ANTH177",
         "description": "GENDER, SEXUALITY, AND MUSIC IN CROSS-CULTURAL PERSPECTIVES",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "ARLC155",
+        "description": "INTRODUCTION TO ARABIC LITERATURE",
         "credits": 4,
         "average": "----"
     },
@@ -138,12 +150,6 @@
         "average": "----"
     },
     {
-        "code": "ART104",
-        "description": "LIFE DRAWING",
-        "credits": 4,
-        "average": "----"
-    },
-    {
         "code": "ART110",
         "description": "INTERMEDIATE PAINTING",
         "credits": 4,
@@ -188,6 +194,12 @@
     {
         "code": "AHS180",
         "description": "MODERN EUROPEAN ART I: NINETEENTH-CENTURY",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "AST123",
+        "description": "SOUTHEAST ASIAN PERFORMANCE",
         "credits": 4,
         "average": "----"
     },
@@ -396,6 +408,30 @@
         "average": "2.00"
     },
     {
+        "code": "BLKS024",
+        "description": "BLACK SOCIAL DANCE AND MOVEMENT(S): 1",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "BLKS123",
+        "description": "RECLAIMING THE DARK: BLACK LIFE IS SPECULATIVE FICTION",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "BLKS132",
+        "description": "BLACK DIASPORA(S)",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "BLKS156",
+        "description": "SPECIAL TOPICS IN ART &amp; ACTIVISM",
+        "credits": 4,
+        "average": "----"
+    },
+    {
         "code": "BPSC011",
         "description": "PLANTS AND HUMAN AFFAIRS",
         "credits": 4,
@@ -424,6 +460,12 @@
         "description": "FINANCIAL ACCOUNTING AND REPORTING",
         "credits": 4,
         "average": "6.53"
+    },
+    {
+        "code": "BUS100W",
+        "description": "MANAGEMENT WRITING AND COMMUNICATION",
+        "credits": 4,
+        "average": "5.22"
     },
     {
         "code": "BUS101",
@@ -708,6 +750,18 @@
         "average": "6.00"
     },
     {
+        "code": "CHE100",
+        "description": "ENGINEERING THERMODYNAMICS",
+        "credits": 4,
+        "average": "6.33"
+    },
+    {
+        "code": "CHE114",
+        "description": "APPLIED FLUID MECHANICS",
+        "credits": 4,
+        "average": "7.00"
+    },
+    {
         "code": "CHEM001",
         "description": "PREPARATION FOR GENERAL CHEMISTRY",
         "credits": 2,
@@ -828,6 +882,12 @@
         "average": "4.00"
     },
     {
+        "code": "CPLT155",
+        "description": "INTRODUCTION TO ARABIC LITERATURE",
+        "credits": 4,
+        "average": "----"
+    },
+    {
         "code": "CPLT181",
         "description": "EXISTENTIALISM IN LITERATURE, FILM, AND CULTURE",
         "credits": 4,
@@ -850,6 +910,12 @@
         "description": "INTRODUCTION TO COMPUTING",
         "credits": 4,
         "average": "2.39"
+    },
+    {
+        "code": "CS009A",
+        "description": "DATA ORIENTED INTRODUCTION TO COMPUTING 1",
+        "credits": 4,
+        "average": "4.00"
     },
     {
         "code": "CS010A",
@@ -892,6 +958,18 @@
         "description": "DATA ANALYSIS METHODS",
         "credits": 4,
         "average": "6.27"
+    },
+    {
+        "code": "CS110",
+        "description": "PRINCIPLES OF WEB DEVELOPMENT",
+        "credits": 4,
+        "average": "8.20"
+    },
+    {
+        "code": "CS111",
+        "description": "DISCRETE STRUCTURES",
+        "credits": 4,
+        "average": "8.08"
     },
     {
         "code": "CS120A",
@@ -942,6 +1020,36 @@
         "average": "5.31"
     },
     {
+        "code": "CS165",
+        "description": "COMPUTER SECURITY",
+        "credits": 4,
+        "average": "9.60"
+    },
+    {
+        "code": "CS166",
+        "description": "DATABASE MANAGEMENT SYSTEMS",
+        "credits": 4,
+        "average": "8.20"
+    },
+    {
+        "code": "CS167",
+        "description": "INTRODUCTION TO BIG-DATA MANAGEMENT",
+        "credits": 4,
+        "average": "5.50"
+    },
+    {
+        "code": "CS170",
+        "description": "INTRODUCTION TO ARTIFICIAL INTELLIGENCE",
+        "credits": 4,
+        "average": "5.27"
+    },
+    {
+        "code": "CS171",
+        "description": "INTRODUCTION TO MACHINE LEARNING AND DATA MINING",
+        "credits": 4,
+        "average": "9.29"
+    },
+    {
         "code": "CS179E",
         "description": "PROJECT IN COMPUTER SCIENCE: COMPILERS",
         "credits": 4,
@@ -954,16 +1062,58 @@
         "average": "4.00"
     },
     {
-        "code": "CRWT066",
-        "description": "SCREENWRITING: HOW MOVIES WORK",
+        "code": "CS180",
+        "description": "INTRODUCTION TO SOFTWARE ENGINEERING",
         "credits": 4,
-        "average": "1.50"
+        "average": "6.00"
+    },
+    {
+        "code": "CRWT041",
+        "description": "POETRY AND FICTION: A READING COURSE FOR WRITERS",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "CRWT045",
+        "description": "THE PROSE POEM AND &quot;SHORT-SHORT&quot; STORY",
+        "credits": 4,
+        "average": "2.00"
+    },
+    {
+        "code": "CRWT046",
+        "description": "CRAFT OF WRITING: SURVEY IN CONTEMPORARY FICTION",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "CRWT146",
+        "description": "SPECIAL TOPICS: FICTION",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "CRWT150",
+        "description": "BEGINNING POETRY WORKSHOP",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "DNCE005",
+        "description": "INTRODUCTION TO DANCE",
+        "credits": 4,
+        "average": "2.59"
     },
     {
         "code": "DNCE007",
         "description": "DANCE: CULTURES AND CONTEXTS",
         "credits": 4,
         "average": "5.00"
+    },
+    {
+        "code": "DNCE123",
+        "description": "SOUTHEAST ASIAN PERFORMANCE",
+        "credits": 4,
+        "average": "----"
     },
     {
         "code": "DNCE162",
@@ -980,7 +1130,7 @@
     {
         "code": "ECON003",
         "description": "INTRODUCTION TO MICROECONOMICS",
-        "credits": 0,
+        "credits": 5,
         "average": "3.61"
     },
     {
@@ -1176,12 +1326,6 @@
         "average": "2.00"
     },
     {
-        "code": "EDUC151",
-        "description": "WO/MEN WHO CONTROL OUR UNIVERSITIES: LEADERSHIP, ADMINISTRATION,AND GOVERNANCE IN HIGHER EDUCATION",
-        "credits": 4,
-        "average": "----"
-    },
-    {
         "code": "EDUC152",
         "description": "EDUCATION, HIP-HOP, AND SPORT",
         "credits": 4,
@@ -1192,6 +1336,12 @@
         "description": "EDUCATIONAL LEADERSHIP IN A DIVERSE SOCIETY",
         "credits": 4,
         "average": "2.50"
+    },
+    {
+        "code": "EDUC157",
+        "description": "STUDENT ACTIVISM, CAMPUS RACIAL CLIMATE, &amp; PLACEMAKING",
+        "credits": 4,
+        "average": "----"
     },
     {
         "code": "EDUC161",
@@ -1218,12 +1368,6 @@
         "average": "7.00"
     },
     {
-        "code": "EDUC211B",
-        "description": "SOCIAL DEVELOPMENT",
-        "credits": 4,
-        "average": "----"
-    },
-    {
         "code": "EDUC246E",
         "description": "AUTISM SPECTRUM CLASSROOM",
         "credits": 4,
@@ -1242,27 +1386,9 @@
         "average": "----"
     },
     {
-        "code": "EDUC331",
-        "description": "EDUCATION SPECIALIST CREDENTIAL SEMINAR",
-        "credits": 2,
-        "average": "----"
-    },
-    {
-        "code": "EDUC332",
-        "description": "MULTIPLE SUBJECT CREDENTIAL SEMINAR",
-        "credits": 2,
-        "average": "----"
-    },
-    {
-        "code": "EDUC333",
-        "description": "SINGLE SUBJECT CREDENTIAL SEMINAR",
-        "credits": 2,
-        "average": "----"
-    },
-    {
-        "code": "EDUC334",
-        "description": "COMBINED CREDENTIAL SEMINAR",
-        "credits": 2,
+        "code": "EDUC280M",
+        "description": "CONTEMPORARY CLASSROOM MGMT",
+        "credits": 4,
         "average": "----"
     },
     {
@@ -1332,6 +1458,12 @@
         "average": "8.00"
     },
     {
+        "code": "EE142",
+        "description": "INTRODUCTION TO MACHINE LEARNING AND DATA MINING",
+        "credits": 4,
+        "average": "----"
+    },
+    {
         "code": "EE297",
         "description": "DIRECTED RESEARCH",
         "credits": 0,
@@ -1348,6 +1480,12 @@
         "description": "TECHNICAL COMMUNICATIONS",
         "credits": 4,
         "average": "4.12"
+    },
+    {
+        "code": "ENGR198I",
+        "description": "INDIVIDUAL INTERNSHIP",
+        "credits": 0,
+        "average": "----"
     },
     {
         "code": "ENGL001A",
@@ -1494,6 +1632,12 @@
         "average": "2.00"
     },
     {
+        "code": "ENSC003",
+        "description": "CONTEMPORARY ISSUES IN THE ENVIRONMENTAL SCIENCES",
+        "credits": 4,
+        "average": "----"
+    },
+    {
         "code": "ETST001",
         "description": "INTRODUCTION TO THE STUDY OF RACE AND ETHNICITY",
         "credits": 4,
@@ -1542,12 +1686,6 @@
         "average": "5.00"
     },
     {
-        "code": "ETST098",
-        "description": "INTRODUCTION TO ARAB/MUSLIM AMERICAN STUDIES",
-        "credits": 4,
-        "average": "4.00"
-    },
-    {
         "code": "ETST102",
         "description": "THE POLITICAL ECONOMY OF RACE AND CLASS",
         "credits": 4,
@@ -1566,12 +1704,6 @@
         "average": "----"
     },
     {
-        "code": "ETST128S",
-        "description": "CHICANO SOCIOLOGY",
-        "credits": 5,
-        "average": "----"
-    },
-    {
         "code": "ETST146",
         "description": "EDUCATIONAL PERSPECTIVES ON THE CHICANO",
         "credits": 4,
@@ -1586,12 +1718,6 @@
     {
         "code": "ETST168",
         "description": "PSYCHOLOGICAL ASPECTS OF THE BLACK EXPERIENCE",
-        "credits": 4,
-        "average": "----"
-    },
-    {
-        "code": "ETST171",
-        "description": "BLACK MUSIC",
         "credits": 4,
         "average": "----"
     },
@@ -1700,6 +1826,12 @@
     {
         "code": "GSST170",
         "description": "WOMEN ARTISTS IN RENAISSANCE EUROPE, 1400-1600",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "GSST171",
+        "description": "ENVIRONMENTAL HEALTH AND SOCIAL JUSTICE",
         "credits": 4,
         "average": "----"
     },
@@ -1872,12 +2004,6 @@
         "average": "----"
     },
     {
-        "code": "ITAL045",
-        "description": "ITALIAN CINEMA",
-        "credits": 4,
-        "average": "----"
-    },
-    {
         "code": "JPN001",
         "description": "FIRST-YEAR JAPANESE",
         "credits": 4,
@@ -1984,12 +2110,6 @@
         "description": "SEMANTICS",
         "credits": 4,
         "average": "----"
-    },
-    {
-        "code": "LING162",
-        "description": "LANGUAGE AND THE BRAIN",
-        "credits": 4,
-        "average": "8.00"
     },
     {
         "code": "MATH003",
@@ -2154,6 +2274,12 @@
         "average": "6.33"
     },
     {
+        "code": "ME118",
+        "description": "MECHANICAL ENGINEERING MODELING AND ANALYSIS",
+        "credits": 4,
+        "average": "9.00"
+    },
+    {
         "code": "ME135",
         "description": "TRANSPORT PHENOMENA",
         "credits": 4,
@@ -2198,12 +2324,6 @@
     {
         "code": "MCS023",
         "description": "INTRODUCTION TO MEDIA ART",
-        "credits": 4,
-        "average": "----"
-    },
-    {
-        "code": "MCS066",
-        "description": "SCREENWRITING: HOW MOVIES WORK",
         "credits": 4,
         "average": "----"
     },
@@ -2292,6 +2412,12 @@
         "average": "6.25"
     },
     {
+        "code": "MEIS155",
+        "description": "INTRODUCTION TO ARABIC LITERATURE",
+        "credits": 4,
+        "average": "----"
+    },
+    {
         "code": "MUS001",
         "description": "BASIC MUSICAL CONCEPTS",
         "credits": 4,
@@ -2318,6 +2444,12 @@
     {
         "code": "MUS023",
         "description": "AUDIO RECORDING AND PRODUCTION",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "MUS123",
+        "description": "SOUTHEAST ASIAN PERFORMANCE",
         "credits": 4,
         "average": "----"
     },
@@ -2422,6 +2554,12 @@
         "description": "EXISTENTIALISM",
         "credits": 4,
         "average": "3.00"
+    },
+    {
+        "code": "PHIL161",
+        "description": "ETHICS",
+        "credits": 4,
+        "average": "----"
     },
     {
         "code": "PHIL164",
@@ -2682,22 +2820,10 @@
         "average": "5.08"
     },
     {
-        "code": "PSYC049",
-        "description": "TOPICS IN PSYCHOLOGY",
-        "credits": 4,
-        "average": "2.50"
-    },
-    {
         "code": "PSYC110",
         "description": "THE BRAIN AND BEHAVIOR",
         "credits": 4,
         "average": "6.00"
-    },
-    {
-        "code": "PSYC113",
-        "description": "PANDEMIC BIOPSYCHOLOGY: FROM VIRUS TO VACCINE",
-        "credits": 4,
-        "average": "----"
     },
     {
         "code": "PSYC115",
@@ -2736,12 +2862,6 @@
         "average": "----"
     },
     {
-        "code": "PSYC128",
-        "description": "LANGUAGE AND THE BRAIN",
-        "credits": 4,
-        "average": "8.00"
-    },
-    {
         "code": "PSYC129",
         "description": "HUMAN NEUROPSYCHOLOGY",
         "credits": 4,
@@ -2770,6 +2890,12 @@
         "description": "INDUSTRIAL/ORGANIZATIONAL PSYCHOLOGY",
         "credits": 4,
         "average": "3.75"
+    },
+    {
+        "code": "PSYC148",
+        "description": "DESIGN YOUR LIFE",
+        "credits": 4,
+        "average": "----"
     },
     {
         "code": "PSYC149",
@@ -2850,6 +2976,12 @@
         "average": "2.00"
     },
     {
+        "code": "PSYC182M",
+        "description": "LABORATORY IN PSYCHOLOGY: MEASURING AND TRAINING COGNITION",
+        "credits": 5,
+        "average": "----"
+    },
+    {
         "code": "PSYC182N",
         "description": "LABORATORY IN PSYCHOLOGY: ADULT DEVELOPMENT AND AGING",
         "credits": 5,
@@ -2880,12 +3012,6 @@
         "average": "6.00"
     },
     {
-        "code": "PBPL185",
-        "description": "RACE AND LAW ENFORCEMENT",
-        "credits": 4,
-        "average": "2.50"
-    },
-    {
         "code": "RLST004",
         "description": "RELIGION, SOCIETY, AND CULTURE",
         "credits": 4,
@@ -2896,6 +3022,18 @@
         "description": "INTRODUCTION TO ASIAN RELIGIONS",
         "credits": 4,
         "average": "3.25"
+    },
+    {
+        "code": "RLST006",
+        "description": "JESUS",
+        "credits": 4,
+        "average": "2.00"
+    },
+    {
+        "code": "RLST007",
+        "description": "JEWS, CHRISTIANS, AND MUSLIMS",
+        "credits": 5,
+        "average": "2.50"
     },
     {
         "code": "RLST010",
@@ -2928,8 +3066,134 @@
         "average": "----"
     },
     {
+        "code": "MDCL241",
+        "description": "INTERNAL MEDICINE",
+        "credits": 10,
+        "average": "----"
+    },
+    {
+        "code": "MDCL241A",
+        "description": "INTERNAL MEDICINE I",
+        "credits": 5,
+        "average": "----"
+    },
+    {
+        "code": "MDCL242A",
+        "description": "SURGERY I",
+        "credits": 5,
+        "average": "----"
+    },
+    {
+        "code": "MDCL243",
+        "description": "PEDIATRICS",
+        "credits": 8,
+        "average": "----"
+    },
+    {
+        "code": "MDCL243A",
+        "description": "PEDIATRICS I",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "MDCL244",
+        "description": "OBSTETRICS/GYNECOLOGY",
+        "credits": 8,
+        "average": "----"
+    },
+    {
+        "code": "MDCL244A",
+        "description": "OBSTETRICS/GYNECOLOGY I",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "MDCL245",
+        "description": "FAMILY MEDICINE",
+        "credits": 5,
+        "average": "----"
+    },
+    {
+        "code": "MDCL246",
+        "description": "PSYCHIATRY",
+        "credits": 5,
+        "average": "----"
+    },
+    {
+        "code": "MDCL246A",
+        "description": "PSYCHIATRY I",
+        "credits": 2,
+        "average": "----"
+    },
+    {
+        "code": "MDCL247",
+        "description": "EMERGENCY MEDICINE",
+        "credits": 2,
+        "average": "----"
+    },
+    {
+        "code": "MDCL248A",
+        "description": "LONGITUDINAL AMBULATORY CARE EXPERIENCE 1",
+        "credits": 1,
+        "average": "----"
+    },
+    {
+        "code": "MDCL248C",
+        "description": "LONGITUDINAL AMBULATORY CARE EXPERIENCE 3",
+        "credits": 1,
+        "average": "----"
+    },
+    {
+        "code": "MDCL249",
+        "description": "NEUROLOGY",
+        "credits": 2,
+        "average": "----"
+    },
+    {
+        "code": "MDCL250",
+        "description": "CLINICAL SUB-INTERNSHIP",
+        "credits": 8,
+        "average": "----"
+    },
+    {
+        "code": "MDCL251",
+        "description": "RADIOLOGY",
+        "credits": 8,
+        "average": "----"
+    },
+    {
+        "code": "MDCL252",
+        "description": "CRITICAL CARE",
+        "credits": 8,
+        "average": "----"
+    },
+    {
+        "code": "MDCL254",
+        "description": "FOURTH YEAR ELECTIVE",
+        "credits": 0,
+        "average": "----"
+    },
+    {
+        "code": "MDCL290",
+        "description": "DIRECTED STUDIES",
+        "credits": 0,
+        "average": "----"
+    },
+    {
         "code": "SEHE001",
         "description": "ENVIRONMENT, SOCIETY, AND CULTURE",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "SEHE002",
+        "description": "INTRODUCTION TO HEALTH EQUITY AND HEALTH JUSTICE",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "SEHE105",
+        "description": "ENVIRONMENTAL HEALTH AND SOCIAL JUSTICE",
         "credits": 4,
         "average": "----"
     },
@@ -3042,12 +3306,6 @@
         "average": "----"
     },
     {
-        "code": "SOC128S",
-        "description": "CHICANO SOCIOLOGY",
-        "credits": 5,
-        "average": "----"
-    },
-    {
         "code": "SOC129",
         "description": "RACISM IN WESTERN SOCIETY",
         "credits": 4,
@@ -3126,6 +3384,12 @@
         "average": "----"
     },
     {
+        "code": "SEAS123",
+        "description": "SOUTHEAST ASIAN PERFORMANCE",
+        "credits": 4,
+        "average": "----"
+    },
+    {
         "code": "SEAS136",
         "description": "ANTHROPOLOGICAL PERSPECTIVES ON GENDER IN SOUTHEAST ASIA",
         "credits": 4,
@@ -3168,14 +3432,14 @@
         "average": "----"
     },
     {
-        "code": "SPN122B",
-        "description": "TRANSATLANTIC CULTURAL STUDIES",
+        "code": "SPN193",
+        "description": "SEMINAR CLASS: RACE AND GENDER",
         "credits": 4,
         "average": "----"
     },
     {
-        "code": "SPN193",
-        "description": "SEMINAR CLASS: RACE AND GENDER",
+        "code": "SFCS123",
+        "description": "RECLAIMING THE DARK: BLACK LIFE IS SPECULATIVE FICTION",
         "credits": 4,
         "average": "----"
     },
@@ -3250,12 +3514,6 @@
         "description": "PUBLIC SPEAKING",
         "credits": 4,
         "average": "----"
-    },
-    {
-        "code": "TFDP066",
-        "description": "SCREENWRITING: HOW MOVIES WORK",
-        "credits": 4,
-        "average": "1.50"
     },
     {
         "code": "TFDP100",
