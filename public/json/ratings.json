@@ -104,6 +104,16 @@
             }
         ]
     },
+    "AHS112": {
+        "average": "4.00",
+        "comments": [
+            {
+                "comment": "Art of the Aztec Empire with Nawa Sugiyama. She is a very sweet professor, goes through a lot of information really quickly but as long as you take decent notes you'll be fine. YOU HAVE TO GO TO LECTURE, A LOT OF INFORMATION IS IN WHAT SHE SAYS, NOT ON THE SLIDES ALONE. Not a lot to do, not crazy difficult, a decent amount of reading but it's usually fine if you don't do it.",
+                "rating": "4",
+                "date": "8/13/2025"
+            }
+        ]
+    },
     "AHS165": {
         "average": "1.00",
         "comments": [
@@ -2315,12 +2325,22 @@
         ]
     },
     "BPSC021": {
-        "average": "6.00",
+        "average": "5.00",
         "comments": [
             {
                 "comment": "Took with Professor Walling. This class wasn't too difficult, it is just mainly memorizing. Lots and Lots of memorizing as it is 5 units. It takes a lot of effort to study for the midterms which is a large chunk of your grade (25% for each three) because of the amount of content. If you start studying for each exam early via quizlet or your own flashcards, you are guaranteed a B. Lectures are in the morning, but going helps as the professor gives mystery questions that are on the exam and lectures help with memorizing exam content. Also, many questions that are on the exam are homework questions so look out for those! Would recommend, just make sure you have the time for it. ",
                 "rating": "6",
                 "date": "4/7/2023"
+            },
+            {
+                "comment": "Super interesting and easy as long as you attend lectures and participate.",
+                "rating": "3",
+                "date": "10/15/2025"
+            },
+            {
+                "comment": "Dr. Walling is the goat, this class was fun and we even had a little citrus tasting tour. I would highly recommend being hyper focused during lectures. Do much more listening rather than note-taking and review her slides later when you study for the exams, this will help with the memorization load of this course. Take pictures of all her mystery questions because those always do end up in exams. There's homework assigned often but I never spent over an hour on it, except on the essays which aren't too difficult either. You do have to invest some time but it's overall not a difficult course.",
+                "rating": "6",
+                "date": "10/28/2025"
             }
         ]
     },
@@ -2510,7 +2530,7 @@
         ]
     },
     "BUS020": {
-        "average": "6.55",
+        "average": "6.57",
         "comments": [
             {
                 "comment": "The final is so hard that it is majorly curved.",
@@ -2601,6 +2621,11 @@
                 "comment": "class itself was hard, took with prof. ivy Zhang, weekly hw, weekly online quizzes, weekly discussion quizzes, midterm, final exam, final project, she drops lowest quiz grades and is a good professor, final project was a big project but wasn't too bad, as long as you show up and pay attention you should do fine in this class, lectures have attendance that are apart of your grade",
                 "rating": "7",
                 "date": "3/3/2025"
+            },
+            {
+                "comment": "Took with Ivy Zhang. She's enthusiastic and cares about her students. However, I found that her lectures were a bit too fast-paced for me to even take any notes or comprehend the material enough, probably not her fault though but the quarter system. Course was overall extremely boring and probably will be for most business students. The workload is very manageable and there's a project at the end that you can either do solo or in a group.",
+                "rating": "7",
+                "date": "10/28/2025"
             }
         ]
     },
@@ -3345,12 +3370,17 @@
         ]
     },
     "BUS174": {
-        "average": "3.00",
+        "average": "2.50",
         "comments": [
             {
                 "comment": "only a few homework assignments, midterm, and group project. relatively easy and a chill info systems class",
                 "rating": "3",
                 "date": "10/25/2022"
+            },
+            {
+                "comment": "Super easy and really well taught by Prof. Madzaverik. He teaches really well, super engaging, drops lowest quiz, and barely any homework. Midterm is straight forward and the final is a project. Take w him!",
+                "rating": "2",
+                "date": "11/17/2025"
             }
         ]
     },
@@ -4755,7 +4785,7 @@
         ]
     },
     "CHEM008B": {
-        "average": "8.05",
+        "average": "8.13",
         "comments": [
             {
                 "comment": "Note: Formerly CHEM012B",
@@ -5311,6 +5341,16 @@
                 "comment": "This Class is called Word Power and I took it in Spring 2023 with Ben King. IT WAS MY EASIEST CLASS IN SUCH A LONG TIME!! 2 VERY EASY ESSAYS, 3 VERY EASY MIDTERM QUIZZES, and 1 EASILY PASSABLE FINAL! The Professor is great and cares about his students. You just have to do the work and you\u2019ll pass very easily. The homework wasn\u2019t graded on accuracy! You\u2019d get full credit just for turning it in on time. 10/10 class will take any class with this professor honestly!!!",
                 "rating": "1",
                 "date": "9/12/2024"
+            }
+        ]
+    },
+    "CLA030": {
+        "average": "4.00",
+        "comments": [
+            {
+                "comment": "Took it summer quarter; really easy class as long as you stay consistent (all memorization).",
+                "rating": "4",
+                "date": "10/15/2025"
             }
         ]
     },
@@ -7396,6 +7436,11 @@
                 "comment": "Take it with Amey Bhangale in Spring 2025; overall experience is challenging to say because I heard he's the easiest between Yan Gu and Mingxun Wang. Yan gives extra coding assignments, which need more time. If you don't like it, avoid it. But unfortunately seems like Ahmed Eldawy has not been teaching 141 for a pretty long time.\n\nAmey's lecture overall is good and understandable. I really learn and understand the concepts he teaches in class. Unlike Elena, she doesn't know how to teach CS111, so I barely attend CS111 lectures. \n\nYes, this is indeed a tough class, but it is also an essential skill for a CS major. Dynamic programming, in my opinion, is both interesting at most and most complex topics. Be prepared to put more time into this class. ",
                 "rating": "7",
                 "date": "6/18/2025"
+            },
+            {
+                "comment": "Professor Amey Bhangale was a very effective teacher. He clearly explained concepts in their entirety, and stopped to clarify himself and answer questions as needed. He is one of the best teachers I have ever had because of his clear enthusiasm and joy when teaching. I hope he continues to teach this class.",
+                "rating": "8",
+                "date": "9/16/2025"
             }
         ]
     },
@@ -7830,7 +7875,7 @@
         ]
     },
     "CS164": {
-        "average": "7.40",
+        "average": "7.67",
         "comments": [
             {
                 "comment": "Took with KK Ramakrishnan. The class has a lot of information and a hefty amount of memorization and conceptual understanding required. KK is great, but the material is inherently dry (unless you're into networks). Working through the (super long) lecture slides was critical to doing well on exams. The labs were tricky, but if you get a good TA it helps a lot. The class wasn't easy, but the grading wasn't too tough. I got an A after putting a good amount of effort in. It was stressful at times, but I recommend the course because networks is so critical to everything these days and I luv KK",
@@ -7856,6 +7901,11 @@
                 "comment": "Not that hard. Requires effort at time in regards to doing the labs. The hard part is the quizzes. You have to be on top of the materials and how to write queries. Other than that it's quite hard to fail the class.",
                 "rating": "5",
                 "date": "1/10/2023"
+            },
+            {
+                "comment": "Took in Fall 2024 with Dr. K.K Ramakrishnan. Lots of memorization, tests were wayyyyyy too long. Labs were incredibly disorganized, and the only reason I got decent grades was because the President of the Cybersecurity club kept pointing out issues with the labs to the TAs so that they'd give points for anything that was impossible to do. I don't recommend tis class, unless you're incredibly passionate about networks.",
+                "rating": "9",
+                "date": "8/13/2025"
             }
         ]
     },
@@ -7990,7 +8040,7 @@
         ]
     },
     "CS170": {
-        "average": "5.08",
+        "average": "5.29",
         "comments": [
             {
                 "comment": "As long as it\u2019s taught by Eamonn Keogh you\u2019ll have a great time. Super cool professor with an Irish accent who really loves Artificial Intelligence and Machine Learning. He makes the material pretty simple, the exams pretty straight-forward, and always plays really cool music videos before class starts. He assigns 2 projects with an arseload of time to complete them. ",
@@ -8051,6 +8101,11 @@
                 "comment": "Take it with Eamonn Keogh in the winter of 2025. I don't know how to put this review. Everyone said he was outstanding, so I set very high expectations for him. After I took a course, I didn't feel he was as good as many people's feedback. However, overall, he's still a solid, above-average professor. \n\nClass material is not hard overall; I recommend taking it with him. I will also register for CS179M with him in the fall of 2025 and will leave a review after take it. ",
                 "rating": "4",
                 "date": "6/18/2025"
+            },
+            {
+                "comment": "The weekly quizzes were worth like 25% of the grade? With Karamouzas, prof was genuinely not bad but the TA was horrible. Did not want to help us, graded super, super hard. Midterm grades were 45% avg, but curve went pretty crazy at the end. A-",
+                "rating": "8",
+                "date": "8/28/2025"
             }
         ]
     },
@@ -8316,6 +8371,11 @@
                 "comment": "I have Manu Sridharan as my professor. Pretty chill class. Grade is mostly based off the project, project presentation, quizzes, and 2 homeworks. Lecture attendance is only required when we have quizzes. ",
                 "rating": "6",
                 "date": "5/23/2025"
+            },
+            {
+                "comment": "It was a fun class. The whole quarter, you're basically just building something, anything. There are exams that cover the lecture content, but they aren't really that hard.",
+                "rating": "6",
+                "date": "7/30/2025"
             }
         ]
     },
@@ -8725,7 +8785,7 @@
         ]
     },
     "DNCE007": {
-        "average": "5.00",
+        "average": "4.33",
         "comments": [
             {
                 "comment": "Professor Reynoso is extremely passionate about the topic which is great, but sometimes he expects you to know as much as he does. During his lectures, he presents slides with A LOT of important information, but it is kind of messy and hard to read. he also mumbles a lot so its sometimes hard to understand what he is saying and he really dislikes it when people use their phones so don't expect to be able to use your phone or any electronics at all. he assigns readings but he goes over them in class, but sometimes he makes you discuss with you neighbor. There is 1 midterm, 1 paper, and 1 final. ",
@@ -8736,6 +8796,11 @@
                 "comment": "Taken Fall 2022 with Shea Murphy; lotsss of writing (essays, ejournals, discussion responses, etc.) and it's very time-consuming. The content was interesting though and it's manageable. ",
                 "rating": "4",
                 "date": "3/13/2023"
+            },
+            {
+                "comment": "Taken with Shea Murphy and the class was online. The content is easy just really tedious. Most of the assignments are just pass/fail. ",
+                "rating": "3",
+                "date": "11/14/2025"
             }
         ]
     },
@@ -8910,7 +8975,7 @@
         ]
     },
     "ECON003": {
-        "average": "3.61",
+        "average": "3.76",
         "comments": [
             {
                 "comment": "Easy A if you pay attention and study. I did my studying last minute and never went to lecture so I got a C+",
@@ -9061,6 +9126,11 @@
                 "comment": "bree lang ( spring 24 ) \u2014 take it with lang !! probably one of the easier classes i've taken so far. she is extremely lenient on the grades\u2014 8 online quizzes, but you only need 50 points for full credit (out of 80), 5 simulation assignments, but you only need 30 points for full credit (out of 50), \"free citizen points\" (essentially free 5% of your grade as long as you're not a bad student). 1 midterm, 1 final. no mandatory lecture or discussion\u2014 although there are PollEvs that help reduce the amount of points required for full credit, but not required. all her notes are on canvas. ",
                 "rating": "2",
                 "date": "6/4/2024"
+            },
+            {
+                "comment": "Took it summer quarter; Professor Zhao was really confusing and I struggled on his quizzes because he didn't cover everything that was mentioned in the quizzes.",
+                "rating": "9",
+                "date": "10/15/2025"
             }
         ]
     },
@@ -10080,7 +10150,7 @@
         ]
     },
     "EE100A": {
-        "average": "5.60",
+        "average": "6.00",
         "comments": [
             {
                 "comment": "Although challenging, it's definitely easier the first few EE courses. Understand BJTs and MOSFETs thoroughly. You'll be using the same equations all throughout the class, but knowing when to apply them is when it gets tricky. Took with Ming Liu (Spring 2021), and it was a somewhat enjoyable experience. He's a good prof.",
@@ -10101,6 +10171,11 @@
                 "comment": "Took this class during Spring 2022 with Ming Liu, as the others said, it is a pretty laid back class. Practice midterms helped a lot, make sure to study those. Doing the labs was the hardest part of this class, they usually take up the whole lab time. ",
                 "rating": "5",
                 "date": "6/15/2022"
+            },
+            {
+                "comment": "This professor was resistant to helping students understand lecture material, and left homework help to the (much better) TA. He is passionate for the SUBJECT, but not for teaching students EE nor how to apply our skills. He clearly hates teaching students, and doesn't care for their individual progress.",
+                "rating": "8",
+                "date": "9/16/2025"
             }
         ]
     },
@@ -10945,7 +11020,7 @@
         ]
     },
     "ENGL001B": {
-        "average": "5.00",
+        "average": "4.99",
         "comments": [
             {
                 "comment": "harder than 1A mainly because my professor required participation... I didn't participate at all really but ended up with a B",
@@ -11495,7 +11570,7 @@
         ]
     },
     "ENGL004": {
-        "average": "6.21",
+        "average": "6.33",
         "comments": [
             {
                 "comment": "Great biases in class and a C+ is very normal don't expect to be getting any A's this class was harder than 1a and 1b",
@@ -11626,6 +11701,11 @@
                 "comment": "Be prepared to not get an A in this class, no matter how good at English you think you are. I had Lorelei Baughman and she was a sweetheart who rarely assigned homework. But, the grading system made no sense in my opinion because we were being taught rudimentary sentence structure and grammar while I was docked 20+ points per essay for concepts that were not covered at all. Overall, just go to office hours and understand exactly how your professor wants you to write. You will get a lot more points that way.",
                 "rating": "8",
                 "date": "12/17/2024"
+            },
+            {
+                "comment": "Avoid taking the ENGL_004 class with Professor Michael Pffirrmann-Hugh. He only graded 3-4 essays the entire quarter, graded insanely harshly, I failed the class. He read off the slides, and hardly actually taught what was on the slides, we had to read it ourselves. I feel like he's one of those professors who's only teaching the class for his doctorate degree without actually caring about the students.",
+                "rating": "10",
+                "date": "11/20/2025"
             }
         ]
     },
@@ -13010,7 +13090,7 @@
         ]
     },
     "GEO013": {
-        "average": "6.00",
+        "average": "5.00",
         "comments": [
             {
                 "comment": "Took this with Prof Schweiterman. It was an okay class. Since this was about the solar system I thought it would be easy but there\u2019s a lot of information to retain. Take it if you like science and physics. First test was hard and I think he realized that cuz the second midterm and final were easier. Not the easiest breadth course out there but not the hardest either. Need to put in a bit of work to get an A. Weekly reading quizzes through Smartwork which means you need to buy the textbook online. Also weekly discussion sections. Lowest quiz was dropped. Exams curved. ",
@@ -13021,6 +13101,11 @@
                 "comment": "Currently taking this over the summer and ugh -- If you're taking this as a CSBA major for a breadth course just be a little prepared. I have Professor Michaela Leung and it's not necessarily HARD work, but it is ANNOYING work. Lots of assignments so it takes a lot of time to do -- I guess over the summer since it's 5 weeks, it's a bit harder since there's a lot more work to cram in. So after each week you have to do 4 assignments -- 2 homeworks and 2 reading quizzes. These individually aren't bad, but to have it all due in such a short time is what makes it annoying. Again, if you're a CSBA major and reading a large amount isn't your forte, it's going to be an unfortunate time for you. It's a lot of reading just to do questions that you'd think would be simple work. There is a bit of math but it's really not bad, what's bad is the amount of reading for me. To top it all off there is a final project, which no one likes, but it's 30% of your grade. The split is 30% rqs, 40% hws, 30% final. So if you have this class, just prepare for it to take up quite a bit of your time.",
                 "rating": "6",
                 "date": "7/7/2024"
+            },
+            {
+                "comment": "Weekly online reading quizzes. You're supposed to read the textbook, however if you pay attention in lecture and take notes, it's relatively easy. I didn't have to read the textbook at all.  (Had some prior knowledge about the subject) Multiple choice, Each question you get 3 tries. Lowest two quiz scores dropped. Discussion attendance is optional. Attending will help for review and preview of siscussion section quizzes, also assigned weekly. These are more conceptual and take a bit more time. Some involve activities/simulations on 3rd party websites. lowest quiz score dropped. Lecture attendance is recorded using pollev. Exam, double sided cheat sheet. 8.5 x 11 inch paper. Exam is pretty easy as long as you pay attention in lecture. No late work accepted. (Dr. Edward Schwieterman's class)",
+                "rating": "3",
+                "date": "11/9/2025"
             }
         ]
     },
@@ -14210,7 +14295,7 @@
         ]
     },
     "LING020": {
-        "average": "5.70",
+        "average": "5.73",
         "comments": [
             {
                 "comment": "Quizzes are super easy, but weren\u2019t worth a lot. Quiz questions were given ahead of time. Homework is a BIG part of your grade & the TAs grade homework in a very strict manner. Do not use internet sources or peers for your homework or else you\u2019ll be excused if cheating & reported to student conduct (our professor would threaten us every week about this lmao). Exams are fairly easy, study the study guide slides & you\u2019ll do fine. Our prof said she\u2019d curve the grades at the end. But avoid Prof Chidambaram PLZ lol",
@@ -14261,6 +14346,11 @@
                 "comment": "lectures were so boring, but the textbook was very helpful! i took this class fall of 2022 during the teacher strikes which meant that her grading was super annoying and took forever. ",
                 "rating": "6",
                 "date": "3/1/2023"
+            },
+            {
+                "comment": "Professor Waltz is a cool professor and the class is really interesting if you love languages, but it can be a little confusing and is very heavy on memorization.",
+                "rating": "6",
+                "date": "10/15/2025"
             }
         ]
     },
@@ -14775,7 +14865,7 @@
         ]
     },
     "MATH009A": {
-        "average": "5.47",
+        "average": "5.52",
         "comments": [
             {
                 "comment": "Specifically with Gerhard Gierz, the exams are open EVERYTHING even internet and the questions are literally taken from his homework! I got an A+ and showed up to like 70% of the classes but some of my friends who never showed up also got As",
@@ -14906,6 +14996,11 @@
                 "comment": "I had Eastham -- I think she's super understanding, and her grading system works in your favor. If you study a lot on your own and ask questions, you will pass! She doesn't teach with slides and attendance is mandatory, but I honestly loved her and her vibes",
                 "rating": "8",
                 "date": "12/15/2024"
+            },
+            {
+                "comment": "Taken with professor Ivo Terek. Avoid this guy at all costs. Doesn't teach well and the way he teaches is purely conceptual with very little emphasis on examples. Homework and quizzes are very easy but midterms are very difficult and not reflective of the homework. Prepare to self teach this class if you get Ivo Terek. Also he always blames students for a poor class test average. Class and math involved is not difficult. ",
+                "rating": "7",
+                "date": "11/19/2025"
             }
         ]
     },
@@ -15535,7 +15630,7 @@
         ]
     },
     "MATH022": {
-        "average": "6.61",
+        "average": "6.68",
         "comments": [
             {
                 "comment": "I took calculus back in highschool, so this class was a breeze to me. But for the people who didnt take this. this class is a bit challenging... recommend studying with a friend who is good at math carry your way to pass",
@@ -15621,6 +15716,11 @@
                 "comment": "Coming into this class with no prior precalc or calculus knowledge, the class was really challenging. Curtis is a good professor despite what most people say. He is such a passionate professor and actually cares about his students. The TA's are hard graders, especially Vladimir Lopez but the class is manageable if you study weekly and do well in discussion. That being said, even if you fail both midterms, you can still redeem yourself on the final.",
                 "rating": "7",
                 "date": "6/12/2024"
+            },
+            {
+                "comment": "Took with Curtis my first quarter at UCR. Great professor as someone who had mediocre-at-best high school math teachers and didn't take AP Calc. The course is challenging mainly because it feels like a semester's worth of material for a quarter and the constant knowledge checks during discussions. Attend every lecture, do homework at the pace of the lecture material to do well on the quizzes and master the study guides. He makes it pretty clear what'll be on the exams, the last lecture he even provided the entire general outline of the final too. It's very time-consuming but if you do a little work every day you'll be alright.",
+                "rating": "8",
+                "date": "10/28/2025"
             }
         ]
     },
@@ -16419,6 +16519,16 @@
             }
         ]
     },
+    "MCS009": {
+        "average": "2.00",
+        "comments": [
+            {
+                "comment": "took this class spring 2025 with Amy Skjerseth and had a great time. Participation is needed but the class was very fun and easy going, ultimately she just cares about participation. for midterm it was very simple we just had to watch a small scene from Mildred Pierce and analyze the music in it on an excel sheet (way easier than it sounds), For the final it was pretty open ended, you could do any topic as long as it had to do with how music in a certain media or type of media impacts it. ",
+                "rating": "2",
+                "date": "9/17/2025"
+            }
+        ]
+    },
     "MCS010": {
         "average": "4.00",
         "comments": [
@@ -16445,7 +16555,7 @@
         ]
     },
     "MCS020": {
-        "average": "1.17",
+        "average": "1.14",
         "comments": [
             {
                 "comment": "derek burrill. take the class ",
@@ -16466,6 +16576,11 @@
                 "comment": "Took this class Fall 2022 with Prof. Burrill and it has been one of my favorite classes I've ever taken. Personally, not only was it an easy A, the material and professor made the class enjoyable. ",
                 "rating": "1",
                 "date": "4/4/2023"
+            },
+            {
+                "comment": "i took this class spring 2024 Derek Burill is a great professor! Really easy going and made each class very fun, legit most classes we just talked about the movie and more often than not he let us go early. Assignments are easy, for the midterm we just had a paper to write about one of the movies we'd watch and discuss the movie using terms we learned. For the final we just had to do the same assignment for the midterm but with a different movie, and make it a bit longer, and we had to do a 700 word movie review. Class is so easy just please make sure to watch the movies.",
+                "rating": "1",
+                "date": "9/17/2025"
             }
         ]
     },
@@ -16486,6 +16601,16 @@
                 "comment": "Setsu Shigematsu. Pretty easy class, one class and one screening per week. Lots of the class is student presentations. Points come from your journal, tests (easy, she tells you exactly what is on the tests), and presentations. Overall an interesting class with not too much effort required. Some of the readings can be a bit long though.",
                 "rating": "4",
                 "date": "6/22/2019"
+            }
+        ]
+    },
+    "MCS157": {
+        "average": "2.00",
+        "comments": [
+            {
+                "comment": "Took the class in summer and was taught by John Jennings. Really awesome class, we mainly just talked and watched movies during the actual class period. There would be discussion posts that were optional (if you had participated in class already) after every class/movie. Final assignment was making a \"monster\" by creating a collage, backstory, and a work of flash fiction",
+                "rating": "2",
+                "date": "9/17/2025"
             }
         ]
     },
@@ -17195,7 +17320,7 @@
         ]
     },
     "PBPL001": {
-        "average": "4.13",
+        "average": "4.06",
         "comments": [
             {
                 "comment": "I had professor Bruce Babcock. He's pretty cool, slightly unorganized. But if you go to lecture and do the 3 assignments, you'll be just fine. If you're interested in government you should have no problem taking interest into this class and getting a good grade. Readings not necessary",
@@ -17271,6 +17396,11 @@
                 "comment": "Workload wise, not bad. Honestly I thought the material was pretty standard and easy but it does get confusing because of the professor's wording. Prof Bruce Babcock doesn't require attendance but he has daily poll everywheres. Usually people in the discord ping everyone when the quizzes happen though. If you get TK for a TA call yourself lucky because his study guides really help. 15 poll everywheres (only the top 10 count), 2 midterms (mc), one final (mc).",
                 "rating": "6",
                 "date": "6/6/2024"
+            },
+            {
+                "comment": "Took it with Schwabe, very enjoyable class, definitely recommend taking as a breadth course. He's strict about attendance polls/quizzes, cheating, and phones but he's very nice outside of that. His class was one of the few I took where I didn't get bored and go on my phone after a while, and he tries his best to help you understand some difficult concepts and makes jokes to keep you awake. There were 3 midterms (lowest grade dropped) and 1 cumulative final, but it's very easy if you pay attention in lecture and use the study guide with the list of topics to review. The final had mostly similar questions from the midterms along with material covered later on.",
+                "rating": "3",
+                "date": "10/23/2025"
             }
         ]
     },
@@ -19580,12 +19710,17 @@
         ]
     },
     "POSC182": {
-        "average": "5.00",
+        "average": "5.50",
         "comments": [
             {
                 "comment": "Taken with Noel Johnston. Simple asynchronous class with a lot of application of theoretical concepts. It can be tough, but the concepts themselves are broken down very well. Midterm's and Finals are very fair and require a lot of application. Some extra credit opportunities are available",
                 "rating": "5",
                 "date": "3/18/2021"
+            },
+            {
+                "comment": "Lots of readings. occasional pop up quizzes in class that are not even posted on the syllabus",
+                "rating": "6",
+                "date": "11/11/2025"
             }
         ]
     },
@@ -19921,11 +20056,16 @@
                 "comment": "Took online Fall 2024 and an easy intro to psyc class that is also quite interesting. I had to participate in lab studies and I recommend signing up for them the first 5 weeks or else all of the studies are going to get taken up. The studies are super easy and the class overall is quite interesting that tests, assignments, and the final are light.  ",
                 "rating": "2",
                 "date": "2/26/2025"
+            },
+            {
+                "comment": "Sy Thomas was a great lecturer! Very funny and engaging in class. Psych_002 is super easy, you just have to do the work although tedious. I took this class my Fall Quarter in 2024 and remains my favorite! As for my TA Nina Radosic, I thought she was really sweet and super easy going! Just do your work, although it may seem like a lot, it's really easy, just time consuming. Don't make the mistake I did and actually do the work!!!",
+                "rating": "3",
+                "date": "11/20/2025"
             }
         ]
     },
     "PSYC011": {
-        "average": "5.00",
+        "average": "5.15",
         "comments": [
             {
                 "comment": "Take with professor psy because he makes course easy",
@@ -19976,11 +20116,16 @@
                 "comment": "I had Hea Jung Lee who seemed like a grad student/ new prof and she was chill. Slides were exactly like annie ditta's, and she had a one page cheat sheet for her two midterms and final. Uses PollEVs for attendance, and has test corrections for up to 5% of test grade. There's also a final portfolio/project of all the subjects learned. I hate statistics but this was genuinely really easy. If you know how to do algebra and pay attention in lecture, easy A.",
                 "rating": "2",
                 "date": "3/13/2025"
+            },
+            {
+                "comment": "Professor Natsuaki has you do everything by hand, but I think it helped me understand the processes better. Its pretty hard, but it's useful.",
+                "rating": "7",
+                "date": "10/15/2025"
             }
         ]
     },
     "PSYC012": {
-        "average": "5.08",
+        "average": "5.23",
         "comments": [
             {
                 "comment": "Take over the summer so you don't have to complete 2+ research papers. ",
@@ -20041,6 +20186,11 @@
                 "comment": "Took with Dr. Megan Robbins. She explains things really well. Heavy emphasis on making sure no one plagiarizes. The discussion assignments are fairly easy and pretty straightforward. The midterm and final are tough so make sure you review, but you'll get a good grade if you study! Had one final research proposal paper (got 100%). Much of the discussion classes prepare you for the paper. During discussion, you will also learn to analyze data (applies concepts from PSYC011), as well as the use of excel. I recommend you go to TA office hours for help on the paper where they can make direct connections!",
                 "rating": "5",
                 "date": "5/27/2023"
+            },
+            {
+                "comment": "Took it summer quarter; class is super interesting but a lot of work so you have to be on top of your work. Professor Calanchini is super interesting and really helpful when answering questions!",
+                "rating": "7",
+                "date": "10/15/2025"
             }
         ]
     },
@@ -20210,7 +20360,7 @@
         ]
     },
     "PSYC134": {
-        "average": "3.75",
+        "average": "4.20",
         "comments": [
             {
                 "comment": "easy",
@@ -20231,6 +20381,11 @@
                 "comment": "took this class winter quarter 2025 w/ hallee dimsdale-zucker. honestly not a hard class for an upper div, if you actually put in work. a lot of reading but that's every psych class. 4 exams, lowest grade dropped (closed note). just memorize the vocab and review her slides and you should be good. also a group assignment review paper based on an empirical article, but it's not hard ",
                 "rating": "5",
                 "date": "4/9/2025"
+            },
+            {
+                "comment": "Dr. DZ is passionate about this. So much that the class isn't so hard but her tests require a form of application. Ended up with an A- while going through a move, breakup, conferences, and commitments to labs.",
+                "rating": "6",
+                "date": "7/16/2025"
             }
         ]
     },
@@ -21235,7 +21390,7 @@
         ]
     },
     "STAT008": {
-        "average": "4.50",
+        "average": "4.00",
         "comments": [
             {
                 "comment": "Took this with Flores, Spring 2023. My personal experience with this class is that it isn't that difficult. However, it seems that a lot of people did find difficulties in this course (at least the people in the class discord server found it difficult). But honestly, as long as you go to lectures and review the notes every now and then, the concepts aren't that hard. The hardest part of this class was the amount of work, and even that isn't too terrible. On average, you get 2 labs every week and you have all week to work on them, where the lowest grade gets dropped. And you get around 4 homework assignments, and on average, you get about 2 weeks to complete them, and again the lowest gets dropped. I think the only reason some people found this class difficult is because they weren't use to having to actually put in a decent amount of effort into a class.",
@@ -21246,6 +21401,16 @@
                 "comment": "Took with Analisa Flores. Good teacher, she posts everything on canvas and is very transparent about expectations. For Winter 2024, there were occasionally mandatory lecture days due to AMA but it wasn't horrible. Lab and Discussion is also very easy. I reccomend taking with Linlin Liu bc shes actually a goat and cares about your learning. Labs arent difficult but a bit tedious and you only get one shot. HW every due everyweek on Webassign but thats a given. Only downside is 8am lecture. I didnt get that great of a grade on the first exam and there are only 3 including the final, but Im hanging on to an A- because of my Lab / HW being high. Overall, easy to an extent. ",
                 "rating": "5",
                 "date": "11/19/2024"
+            },
+            {
+                "comment": "I had taken with Analisa Flores. She a pretty good teacher, she posts everything on canvas and is transparent about expectations. Lab and Discussion were pretty easy nothing that took more than a few hours max. For my TA I had Linlin Liu she was okay felt a little dismissive of peoples questions at times. ",
+                "rating": "4",
+                "date": "9/29/2025"
+            },
+            {
+                "comment": "Analisa Flores is a GOAT lecturer! She provides an outline of the notes and records her lectures too. The labs are great practice for the concepts taught and not scary knowledge checks. Discussion is just chill review. Show up to everything and you'll speed through that homework in no time! You don't even have to worry about studying because she will post practice exams and if you do those you are set. Really easy.",
+                "rating": "3",
+                "date": "11/18/2025"
             }
         ]
     },

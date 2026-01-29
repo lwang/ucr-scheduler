@@ -1,16 +1,16 @@
 [
     {
+        "code": "202620",
+        "description": "Spring 2026",
+        "next_term": "SUMMER 2026",
+        "undergrad_limit_date": "2026-03-04T09:00:00",
+        "next_term_data_date": "2026-03-01T09:00:00"
+    },
+    {
         "code": "202610",
         "description": "Winter 2026",
         "next_term": "SPRING 2026",
         "undergrad_limit_date": "2025-12-02T09:00:00",
         "next_term_data_date": "2026-01-29T09:00:00"
-    },
-    {
-        "code": "202540",
-        "description": "Fall 2025",
-        "next_term": "WINTER 2026",
-        "undergrad_limit_date": "2025-06-28T09:00:00",
-        "next_term_data_date": "2025-10-23T09:00:00"
     }
 ]
