@@ -6,6 +6,12 @@
         "average": "2.79"
     },
     {
+        "code": "ANTH002",
+        "description": "BIOLOGICAL ANTHROPOLOGY",
+        "credits": 5,
+        "average": "4.43"
+    },
+    {
         "code": "ANTH005",
         "description": "INTRODUCTION TO ARCHAEOLOGY",
         "credits": 5,
@@ -48,20 +54,8 @@
         "average": "2.00"
     },
     {
-        "code": "ANTH140G",
-        "description": "ANTHROPOLOGICAL PERSPECTIVES IN AFRICA",
-        "credits": 4,
-        "average": "4.50"
-    },
-    {
         "code": "ANTH142G",
         "description": "CARIBBEAN CULTURE AND SOCIETY",
-        "credits": 4,
-        "average": "----"
-    },
-    {
-        "code": "ANTH142I",
-        "description": "AFRO-AMERICAN EXPERIENCE IN THE U.S.",
         "credits": 4,
         "average": "----"
     },
@@ -174,6 +168,12 @@
         "average": "----"
     },
     {
+        "code": "AHS139",
+        "description": "THE ARTS OF BUDDHISM",
+        "credits": 4,
+        "average": "----"
+    },
+    {
         "code": "AHS165",
         "description": "WOMEN ARTISTS IN RENAISSANCE EUROPE, 1400-1600",
         "credits": 4,
@@ -182,6 +182,12 @@
     {
         "code": "AST064",
         "description": "INTRODUCTION TO VIETNAMESE AND DIASPORIC FILM CULTURE",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "AST139",
+        "description": "THE ARTS OF BUDDHISM",
         "credits": 4,
         "average": "----"
     },
@@ -372,33 +378,15 @@
         "average": "6.00"
     },
     {
-        "code": "BMSC197L",
-        "description": "RESEARCH FOR UNDERGRADUATES",
-        "credits": 0,
-        "average": "----"
-    },
-    {
-        "code": "BMSC202",
-        "description": "MOLECULAR BASIS OF DISEASE",
-        "credits": 3,
-        "average": "----"
-    },
-    {
-        "code": "BMSC222G",
-        "description": "REGULATION OF GENE EXPRESSION",
+        "code": "BMSC222T",
+        "description": "TOXICOLOGY AND HUMAN HEALTH",
         "credits": 2,
         "average": "----"
     },
     {
-        "code": "BMSC222Y",
-        "description": "CANCER GENETICS",
-        "credits": 2,
-        "average": "----"
-    },
-    {
-        "code": "BMSC261",
-        "description": "METHODS IN BIOMEDICAL RESEARCH",
-        "credits": 1,
+        "code": "BLKS003",
+        "description": "INTRODUCTION TO BLACK STUDY 3: BLACK WAYS OF KNOWING, DOING, AND (B)EING OTHERWISE",
+        "credits": 4,
         "average": "----"
     },
     {
@@ -630,15 +618,15 @@
         "average": "----"
     },
     {
+        "code": "BUS179",
+        "description": "BUSINESS APPLICATION OF GEOGRAPHIC INFORMATION SYSTEMS",
+        "credits": 4,
+        "average": "2.00"
+    },
+    {
         "code": "BUS198I",
         "description": "INDIVIDUAL INTERNSHIP IN BUSINESS ADMINISTRATION",
         "credits": 0,
-        "average": "----"
-    },
-    {
-        "code": "CBNS010",
-        "description": "THE HUMAN BRAIN: A USER&#39;S GUIDE",
-        "credits": 4,
         "average": "----"
     },
     {
@@ -712,6 +700,18 @@
         "description": "STEM CELL BIOLOGY",
         "credits": 4,
         "average": "6.00"
+    },
+    {
+        "code": "CHE100",
+        "description": "ENGINEERING THERMODYNAMICS",
+        "credits": 4,
+        "average": "6.33"
+    },
+    {
+        "code": "CHE114",
+        "description": "APPLIED FLUID MECHANICS",
+        "credits": 4,
+        "average": "7.00"
     },
     {
         "code": "CHEM001",
@@ -859,7 +859,7 @@
     },
     {
         "code": "CPLT160M",
-        "description": "COMPARATIVE CULTURAL STUDIES: FROM THE MIDDLE AGES TO POSTMODERNISM",
+        "description": "MILLENNIUM AND APOCALYPSE",
         "credits": 4,
         "average": "----"
     },
@@ -890,6 +890,12 @@
     {
         "code": "CS009A",
         "description": "DATA ORIENTED INTRODUCTION TO COMPUTING I",
+        "credits": 4,
+        "average": "4.00"
+    },
+    {
+        "code": "CS009B",
+        "description": "DATA ORIENTED INTRODUCTION TO COMPUTING II",
         "credits": 4,
         "average": "4.00"
     },
@@ -1002,6 +1008,12 @@
         "average": "5.24"
     },
     {
+        "code": "CS166",
+        "description": "DATABASE MANAGEMENT SYSTEMS",
+        "credits": 4,
+        "average": "7.82"
+    },
+    {
         "code": "CS170",
         "description": "INTRODUCTION TO ARTIFICIAL INTELLIGENCE",
         "credits": 4,
@@ -1064,7 +1076,7 @@
     {
         "code": "DNCE007",
         "description": "DANCE: CULTURES AND CONTEXTS",
-        "credits": 0,
+        "credits": 4,
         "average": "4.33"
     },
     {
@@ -1080,9 +1092,9 @@
         "average": "----"
     },
     {
-        "code": "UGRD120",
-        "description": "TRANSFER SUCCESS PROGRAM TRANSFER TRANSITION &amp; SUCCES",
-        "credits": 1,
+        "code": "UGRD198G",
+        "description": "GROUP INTERNSHIP",
+        "credits": 8,
         "average": "----"
     },
     {
@@ -1332,12 +1344,6 @@
         "average": "2.50"
     },
     {
-        "code": "EDUC161",
-        "description": "SOCIAL DEVELOPMENT IN EDUCATION",
-        "credits": 4,
-        "average": "----"
-    },
-    {
         "code": "EDUC162",
         "description": "LEARNING THEORY AND PSYCHOLOGY IN EDUCATION",
         "credits": 4,
@@ -1464,12 +1470,6 @@
         "average": "----"
     },
     {
-        "code": "EE297",
-        "description": "DIRECTED RESEARCH",
-        "credits": 0,
-        "average": "----"
-    },
-    {
         "code": "ENGR108",
         "description": "TECHNOLOGY IN THE PREMODERN WORLD",
         "credits": 4,
@@ -1550,6 +1550,12 @@
     {
         "code": "ENGL139T",
         "description": "STUDIES IN ASIAN AMERICAN LITERATURE",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "ENGL146",
+        "description": "SPECIAL TOPICS IN TECHNOCULTURE AND COMPUTATIONAL MEDIA",
         "credits": 4,
         "average": "----"
     },
@@ -1642,6 +1648,12 @@
         "description": "POPULAR MUSICS OF THE WORLD",
         "credits": 4,
         "average": "5.00"
+    },
+    {
+        "code": "ETST098",
+        "description": "INTRODUCTION TO ARAB/MUSLIM AMERICAN STUDIES",
+        "credits": 4,
+        "average": "4.00"
     },
     {
         "code": "ETST102",
@@ -1986,6 +1998,12 @@
         "average": "----"
     },
     {
+        "code": "JPN022",
+        "description": "INTRODUCTION TO JAPANESE FILM",
+        "credits": 4,
+        "average": "3.00"
+    },
+    {
         "code": "KOR001",
         "description": "FIRST-YEAR KOREAN",
         "credits": 4,
@@ -2040,6 +2058,18 @@
         "average": "4.00"
     },
     {
+        "code": "LBST001",
+        "description": "INTRODUCTION TO LIBERAL STUDIES",
+        "credits": 5,
+        "average": "2.00"
+    },
+    {
+        "code": "LBST191",
+        "description": "SEMINAR IN LIBERAL STUDIES",
+        "credits": 4,
+        "average": "1.00"
+    },
+    {
         "code": "LING020",
         "description": "LANGUAGE AND LINGUISTICS",
         "credits": 4,
@@ -2062,6 +2092,12 @@
         "description": "INTRODUCTION TO COLLEGE MATHEMATICS FOR BUSINESS AND THE SOCIAL SCIENCES",
         "credits": 5,
         "average": "6.21"
+    },
+    {
+        "code": "MATH006A",
+        "description": "PRECALCULUS: AN INTRODUCTION TO FUNCTIONS 1",
+        "credits": 4,
+        "average": "4.62"
     },
     {
         "code": "MATH006B",
@@ -2262,6 +2298,12 @@
         "average": "1.00"
     },
     {
+        "code": "MCS009",
+        "description": "MUSIC IN MOVIES AND TV",
+        "credits": 4,
+        "average": "2.00"
+    },
+    {
         "code": "MCS020",
         "description": "INTRODUCTION TO FILM STUDIES",
         "credits": 4,
@@ -2292,8 +2334,26 @@
         "average": "----"
     },
     {
+        "code": "MCS132",
+        "description": "INTERSECTIONS OF MEDIA AND POPULAR CULTURE",
+        "credits": 4,
+        "average": "----"
+    },
+    {
         "code": "MCS137",
         "description": "HISTORY OF VIDEO ART",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "MCS139",
+        "description": "MASS MEDIA AND POPULAR CULTURE",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "MCS146",
+        "description": "SPECIAL TOPICS IN TECHNOCULTURE AND COMPUTATIONAL MEDIA",
         "credits": 4,
         "average": "----"
     },
@@ -2332,6 +2392,12 @@
         "description": "INTRODUCTION TO WORLD MUSIC",
         "credits": 4,
         "average": "4.83"
+    },
+    {
+        "code": "MUS007",
+        "description": "MUSIC IN MOVIES AND TV",
+        "credits": 4,
+        "average": "----"
     },
     {
         "code": "MUS009",
@@ -2580,6 +2646,12 @@
         "average": "4.25"
     },
     {
+        "code": "POSC017",
+        "description": "POLITICS OF THE GLOBAL SOUTH",
+        "credits": 5,
+        "average": "5.00"
+    },
+    {
         "code": "POSC020",
         "description": "WORLD POLITICS",
         "credits": 5,
@@ -2712,15 +2784,15 @@
         "average": "8.00"
     },
     {
-        "code": "POSC183F",
-        "description": "STRATEGIES OF COMPLIANCE",
-        "credits": 4,
-        "average": "5.00"
-    },
-    {
         "code": "POSC186",
         "description": "REGULATION: A POLITICAL PERSPECTIVE",
         "credits": 5,
+        "average": "----"
+    },
+    {
+        "code": "POSC198I",
+        "description": "INDIVIDUAL INTERNSHIP IN POLITICAL SCIENCE",
+        "credits": 0,
         "average": "----"
     },
     {
@@ -2748,8 +2820,14 @@
         "average": "5.23"
     },
     {
+        "code": "PSYC013",
+        "description": "SKEPTICISM AND PSEUDOSCIENCE IN PSYCHOLOGY",
+        "credits": 4,
+        "average": "10.00"
+    },
+    {
         "code": "PSYC049",
-        "description": "TOPICS IN PSYCHOLOGY",
+        "description": "PSYCHOLOGY &amp; CLIMATE CHANGE",
         "credits": 4,
         "average": "2.50"
     },
@@ -2758,6 +2836,12 @@
         "description": "THE BRAIN AND BEHAVIOR",
         "credits": 4,
         "average": "6.00"
+    },
+    {
+        "code": "PSYC112",
+        "description": "NEURAL MECHANISMS OF ANIMAL BEHAVIOR",
+        "credits": 4,
+        "average": "----"
     },
     {
         "code": "PSYC113",
@@ -2844,6 +2928,12 @@
         "average": "4.67"
     },
     {
+        "code": "PSYC151",
+        "description": "PSYCHOPATHOLOGY",
+        "credits": 4,
+        "average": "----"
+    },
+    {
         "code": "PSYC160",
         "description": "LIFE SPAN DEVELOPMENT",
         "credits": 5,
@@ -2904,15 +2994,9 @@
         "average": "3.50"
     },
     {
-        "code": "RLST004",
-        "description": "RELIGION, SOCIETY, AND CULTURE",
-        "credits": 4,
-        "average": "----"
-    },
-    {
         "code": "RLST005",
         "description": "INTRODUCTION TO ASIAN RELIGIONS",
-        "credits": 4,
+        "credits": 0,
         "average": "3.25"
     },
     {
@@ -2920,12 +3004,6 @@
         "description": "JESUS",
         "credits": 4,
         "average": "2.00"
-    },
-    {
-        "code": "RLST007",
-        "description": "JEWS, CHRISTIANS, AND MUSLIMS",
-        "credits": 5,
-        "average": "2.50"
     },
     {
         "code": "RLST010",
@@ -2938,12 +3016,6 @@
         "description": "RELIGIOUS MYTHS AND RITUALS",
         "credits": 4,
         "average": "2.00"
-    },
-    {
-        "code": "RLST014",
-        "description": "RELIGION AND SCIENCE",
-        "credits": 5,
-        "average": "9.00"
     },
     {
         "code": "RLST015",
@@ -2960,61 +3032,67 @@
     {
         "code": "MDCL241",
         "description": "INTERNAL MEDICINE",
-        "credits": 10,
+        "credits": 14,
         "average": "----"
     },
     {
         "code": "MDCL241A",
         "description": "INTERNAL MEDICINE I",
-        "credits": 5,
+        "credits": 7,
+        "average": "----"
+    },
+    {
+        "code": "MDCL242",
+        "description": "SURGERY",
+        "credits": 14,
         "average": "----"
     },
     {
         "code": "MDCL242A",
         "description": "SURGERY I",
-        "credits": 5,
+        "credits": 7,
         "average": "----"
     },
     {
         "code": "MDCL243",
         "description": "PEDIATRICS",
-        "credits": 8,
+        "credits": 10,
         "average": "----"
     },
     {
         "code": "MDCL243A",
         "description": "PEDIATRICS I",
-        "credits": 4,
+        "credits": 5,
         "average": "----"
     },
     {
         "code": "MDCL244",
         "description": "OBSTETRICS/GYNECOLOGY",
-        "credits": 8,
+        "credits": 10,
         "average": "----"
     },
     {
         "code": "MDCL244A",
         "description": "OBSTETRICS/GYNECOLOGY I",
-        "credits": 4,
+        "credits": 5,
         "average": "----"
     },
     {
         "code": "MDCL245",
         "description": "FAMILY MEDICINE",
-        "credits": 5,
+        "credits": 7,
         "average": "----"
     },
     {
         "code": "MDCL246",
         "description": "PSYCHIATRY",
-        "credits": 5,
+        "credits": 7,
         "average": "----"
     },
     {
         "code": "MDCL246A",
         "description": "PSYCHIATRY I",
-        "credits": 2,
+        "credits": 3,
         "average": "----"
     },
     {
@@ -3024,9 +3102,45 @@
         "average": "----"
     },
     {
+        "code": "MDCL248A",
+        "description": "LONGITUDINAL AMBULATORY CARE EXPERIENCE I",
+        "credits": 2,
+        "average": "----"
+    },
+    {
+        "code": "MDCL248C",
+        "description": "LONGITUDINAL AMBULATORY CARE EXPERIENCE III",
+        "credits": 2,
+        "average": "----"
+    },
+    {
         "code": "MDCL249",
         "description": "NEUROLOGY",
         "credits": 2,
+        "average": "----"
+    },
+    {
+        "code": "MDCL250",
+        "description": "FAMILY MEDICINE",
+        "credits": 8,
+        "average": "----"
+    },
+    {
+        "code": "MDCL251",
+        "description": "RADIOLOGY",
+        "credits": 8,
+        "average": "----"
+    },
+    {
+        "code": "MDCL252",
+        "description": "CRITICAL CARE",
+        "credits": 8,
+        "average": "----"
+    },
+    {
+        "code": "MDCL254",
+        "description": "FOURTH YEAR ELECTIVE",
+        "credits": 0,
         "average": "----"
     },
     {
@@ -3048,8 +3162,20 @@
         "average": "----"
     },
     {
+        "code": "SEHE101",
+        "description": "COMMUNITY RESEARCH METHODS: AN ANTI-OPPRESSIVE TOOLKIT",
+        "credits": 4,
+        "average": "----"
+    },
+    {
         "code": "SEHE144",
         "description": "MODERN U.S. CONSUMER CULTURE",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "SEHE162",
+        "description": "GIVING BIRTH",
         "credits": 4,
         "average": "----"
     },
@@ -3088,6 +3214,12 @@
         "description": "INTRODUCTION TO CRIMINOLOGY",
         "credits": 4,
         "average": "1.00"
+    },
+    {
+        "code": "SOC002R",
+        "description": "RACIAL AND ETHNIC ISSUES IN AMERICAN SOCIETY",
+        "credits": 4,
+        "average": "5.00"
     },
     {
         "code": "SOC003",
@@ -3158,6 +3290,12 @@
     {
         "code": "SOC130",
         "description": "RACE AND ETHNIC RELATIONS",
+        "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "SOC139",
+        "description": "MASS MEDIA AND POPULAR CULTURE",
         "credits": 4,
         "average": "----"
     },
@@ -3330,6 +3468,12 @@
         "average": "----"
     },
     {
+        "code": "TFDP166A",
+        "description": "SCREENWRITING: INTRODUCTION",
+        "credits": 4,
+        "average": "----"
+    },
+    {
         "code": "WRIT007",
         "description": "ENGLISH WRITING FOR ACADEMIC INQUIRY AND EXCHANGE OF IDEAS",
         "credits": 4,
@@ -3357,6 +3501,24 @@
         "code": "WRIT030",
         "description": "ANALYTICAL WRITING",
         "credits": 4,
+        "average": "----"
+    },
+    {
+        "code": "WRIT040E",
+        "description": "WRITING WORKSHOP IN BUS 100W",
+        "credits": 0,
+        "average": "----"
+    },
+    {
+        "code": "WRIT040O",
+        "description": "WRITING WORKSHOP IN HIST 099W",
+        "credits": 0,
+        "average": "----"
+    },
+    {
+        "code": "WRIT040Q",
+        "description": "WRITING WORKSHOP IN ENGR 180W",
+        "credits": 0,
         "average": "----"
     },
     {
